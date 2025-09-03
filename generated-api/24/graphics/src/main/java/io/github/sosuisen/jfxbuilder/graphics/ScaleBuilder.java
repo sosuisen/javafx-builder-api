@@ -37,8 +37,8 @@ public class ScaleBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Scale#Scale(double, double) Scale(double, double)}
-     * and returns an instance of the {@code ScaleBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.transform.Scale#Scale(double, double) Scale(double, double)}
+     * and returns an instance of {@code ScaleBuilder}.
      *
      * @return an instance of the {@code ScaleBuilder}.
      */
@@ -51,8 +51,8 @@ public class ScaleBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Scale#Scale(double, double, double) Scale(double, double, double)}
-     * and returns an instance of the {@code ScaleBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.transform.Scale#Scale(double, double, double) Scale(double, double, double)}
+     * and returns an instance of {@code ScaleBuilder}.
      *
      * @return an instance of the {@code ScaleBuilder}.
      */
@@ -65,8 +65,8 @@ public class ScaleBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Scale#Scale(double, double, double, double) Scale(double, double, double, double)}
-     * and returns an instance of the {@code ScaleBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.transform.Scale#Scale(double, double, double, double) Scale(double, double, double, double)}
+     * and returns an instance of {@code ScaleBuilder}.
      *
      * @return an instance of the {@code ScaleBuilder}.
      */
@@ -79,8 +79,8 @@ public class ScaleBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Scale#Scale(double, double, double, double, double, double) Scale(double, double, double, double, double, double)}
-     * and returns an instance of the {@code ScaleBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.transform.Scale#Scale(double, double, double, double, double, double) Scale(double, double, double, double, double, double)}
+     * and returns an instance of {@code ScaleBuilder}.
      *
      * @return an instance of the {@code ScaleBuilder}.
      */

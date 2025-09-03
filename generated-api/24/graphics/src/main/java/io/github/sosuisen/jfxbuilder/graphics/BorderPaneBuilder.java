@@ -37,8 +37,8 @@ public class BorderPaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BorderPane#BorderPane(Node) BorderPane(Node)}
-     * and returns an instance of the {@code BorderPaneBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.BorderPane#BorderPane(Node) BorderPane(Node)}
+     * and returns an instance of {@code BorderPaneBuilder}.
      *
      * @return an instance of the {@code BorderPaneBuilder}.
      */
@@ -51,8 +51,8 @@ public class BorderPaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BorderPane#BorderPane(Node, Node, Node, Node, Node) BorderPane(Node, Node, Node, Node, Node)}
-     * and returns an instance of the {@code BorderPaneBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.BorderPane#BorderPane(Node, Node, Node, Node, Node) BorderPane(Node, Node, Node, Node, Node)}
+     * and returns an instance of {@code BorderPaneBuilder}.
      *
      * @return an instance of the {@code BorderPaneBuilder}.
      */
@@ -1147,7 +1147,7 @@ public class BorderPaneBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1160,7 +1160,7 @@ public class BorderPaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1173,7 +1173,7 @@ public class BorderPaneBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getChildren()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1184,7 +1184,7 @@ public class BorderPaneBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getChildren()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1195,7 +1195,7 @@ public class BorderPaneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1208,7 +1208,7 @@ public class BorderPaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1222,7 +1222,7 @@ public class BorderPaneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1235,7 +1235,7 @@ public class BorderPaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1249,7 +1249,7 @@ public class BorderPaneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1262,7 +1262,7 @@ public class BorderPaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.BorderPane#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -4603,7 +4603,7 @@ public class BorderPaneBuilder {
     }
 
     /**
-     * Create an instance of the builder,
+     * Creates an instance of the builder,
      * then call the {@link javafx.scene.layout.BorderPane#setCenter(javafx.scene.Node) setCenter} method on the BorderPane instance.
      * 
      * @return builder instance
@@ -4615,7 +4615,7 @@ public class BorderPaneBuilder {
     }
 
     /**
-     * Create an instance of the builder,
+     * Creates an instance of the builder,
      * then call the {@link javafx.scene.layout.BorderPane#setTop(javafx.scene.Node) setTop} method on the BorderPane instance.
      * 
      * @return builder instance
@@ -4627,7 +4627,7 @@ public class BorderPaneBuilder {
     }
 
     /**
-     * Create an instance of the builder,
+     * Creates an instance of the builder,
      * then call the {@link javafx.scene.layout.BorderPane#setLeft(javafx.scene.Node) setLeft} method on the BorderPane instance.
      * 
      * @return builder instance
@@ -4639,7 +4639,7 @@ public class BorderPaneBuilder {
     }
 
     /**
-     * Create an instance of the builder,
+     * Creates an instance of the builder,
      * then call the {@link javafx.scene.layout.BorderPane#setBottom(javafx.scene.Node) setBottom} method on the BorderPane instance.
      * 
      * @return builder instance
@@ -4651,7 +4651,7 @@ public class BorderPaneBuilder {
     }
 
     /**
-     * Create an instance of the builder,
+     * Creates an instance of the builder,
      * then call the {@link javafx.scene.layout.BorderPane#setRight(javafx.scene.Node) setRight} method on the BorderPane instance.
      * 
      * @return builder instance

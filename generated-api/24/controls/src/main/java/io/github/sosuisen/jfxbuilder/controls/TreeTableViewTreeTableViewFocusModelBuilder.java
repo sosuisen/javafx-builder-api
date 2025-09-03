@@ -29,8 +29,8 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#TreeTableViewFocusModel(TreeTableView) TreeTableViewFocusModel(TreeTableView)}
-     * and returns an instance of the {@code TreeTableViewTreeTableViewFocusModelBuilder<S>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#TreeTableViewFocusModel(TreeTableView) TreeTableViewFocusModel(TreeTableView)}
+     * and returns an instance of {@code TreeTableViewTreeTableViewFocusModelBuilder<S>}.
      *
      * @return an instance of the {@code TreeTableViewTreeTableViewFocusModelBuilder<S>}.
      */

@@ -37,8 +37,8 @@ public class ArcToBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.ArcTo#ArcTo(double, double, double, double, double, boolean, boolean) ArcTo(double, double, double, double, double, boolean, boolean)}
-     * and returns an instance of the {@code ArcToBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.ArcTo#ArcTo(double, double, double, double, double, boolean, boolean) ArcTo(double, double, double, double, double, boolean, boolean)}
+     * and returns an instance of {@code ArcToBuilder}.
      *
      * @return an instance of the {@code ArcToBuilder}.
      */

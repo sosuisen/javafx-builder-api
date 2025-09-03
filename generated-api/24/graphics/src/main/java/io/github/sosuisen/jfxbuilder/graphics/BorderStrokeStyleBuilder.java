@@ -29,8 +29,8 @@ public class BorderStrokeStyleBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BorderStrokeStyle#BorderStrokeStyle(StrokeType, StrokeLineJoin, StrokeLineCap, double, double, List) BorderStrokeStyle(StrokeType, StrokeLineJoin, StrokeLineCap, double, double, List)}
-     * and returns an instance of the {@code BorderStrokeStyleBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.BorderStrokeStyle#BorderStrokeStyle(StrokeType, StrokeLineJoin, StrokeLineCap, double, double, List) BorderStrokeStyle(StrokeType, StrokeLineJoin, StrokeLineCap, double, double, List)}
+     * and returns an instance of {@code BorderStrokeStyleBuilder}.
      *
      * @return an instance of the {@code BorderStrokeStyleBuilder}.
      */

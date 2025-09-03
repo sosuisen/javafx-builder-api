@@ -37,8 +37,8 @@ public class CustomMenuItemBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.CustomMenuItem#CustomMenuItem(Node) CustomMenuItem(Node)}
-     * and returns an instance of the {@code CustomMenuItemBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.CustomMenuItem#CustomMenuItem(Node) CustomMenuItem(Node)}
+     * and returns an instance of {@code CustomMenuItemBuilder}.
      *
      * @return an instance of the {@code CustomMenuItemBuilder}.
      */
@@ -51,8 +51,8 @@ public class CustomMenuItemBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.CustomMenuItem#CustomMenuItem(Node, boolean) CustomMenuItem(Node, boolean)}
-     * and returns an instance of the {@code CustomMenuItemBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.CustomMenuItem#CustomMenuItem(Node, boolean) CustomMenuItem(Node, boolean)}
+     * and returns an instance of {@code CustomMenuItemBuilder}.
      *
      * @return an instance of the {@code CustomMenuItemBuilder}.
      */
@@ -298,7 +298,7 @@ public class CustomMenuItemBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CustomMenuItem#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CustomMenuItem#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -311,7 +311,7 @@ public class CustomMenuItemBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CustomMenuItem#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CustomMenuItem#getStyleClass()} method.
      * 
      * @return builder instance
      */

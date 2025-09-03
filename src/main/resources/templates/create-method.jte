@@ -11,8 +11,8 @@
     public static ${model.typeParametersWithExtends().isEmpty() ? "" : model.typeParametersWithExtends() + " "}${model.builderClassNameWithTypeParameter()} create() { return new ${model.builderClassNameWithTypeParameter()}(); }
 @else
     /**
-     * Accepts the same arguments as {@link ${model.canonicalClassName()}#${model.simpleClassName()}(${model.parameterListSimpleTypesOnly()}) ${model.simpleClassName()}(${model.parameterListSimpleTypesOnly()})}
-     * and returns an instance of the {@code ${model.builderClassNameWithTypeParameter()}}.
+     * Accepts the constructor arguments of {@link ${model.canonicalClassName()}#${model.simpleClassName()}(${model.parameterListSimpleTypesOnly()}) ${model.simpleClassName()}(${model.parameterListSimpleTypesOnly()})}
+     * and returns an instance of {@code ${model.builderClassNameWithTypeParameter()}}.
      *
      * @return an instance of the {@code ${model.builderClassNameWithTypeParameter()}}.
      */

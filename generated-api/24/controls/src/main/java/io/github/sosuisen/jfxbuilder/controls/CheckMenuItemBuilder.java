@@ -37,8 +37,8 @@ public class CheckMenuItemBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.CheckMenuItem#CheckMenuItem(String) CheckMenuItem(String)}
-     * and returns an instance of the {@code CheckMenuItemBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.CheckMenuItem#CheckMenuItem(String) CheckMenuItem(String)}
+     * and returns an instance of {@code CheckMenuItemBuilder}.
      *
      * @return an instance of the {@code CheckMenuItemBuilder}.
      */
@@ -51,8 +51,8 @@ public class CheckMenuItemBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.CheckMenuItem#CheckMenuItem(String, Node) CheckMenuItem(String, Node)}
-     * and returns an instance of the {@code CheckMenuItemBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.CheckMenuItem#CheckMenuItem(String, Node) CheckMenuItem(String, Node)}
+     * and returns an instance of {@code CheckMenuItemBuilder}.
      *
      * @return an instance of the {@code CheckMenuItemBuilder}.
      */
@@ -288,7 +288,7 @@ public class CheckMenuItemBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckMenuItem#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckMenuItem#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -301,7 +301,7 @@ public class CheckMenuItemBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckMenuItem#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckMenuItem#getStyleClass()} method.
      * 
      * @return builder instance
      */

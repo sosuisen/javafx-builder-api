@@ -29,8 +29,8 @@ public class TreeItemTreeModificationEventBuilder<T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeItem.TreeModificationEvent#TreeModificationEvent(EventType, TreeItem) TreeModificationEvent(EventType, TreeItem)}
-     * and returns an instance of the {@code TreeItemTreeModificationEventBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeItem.TreeModificationEvent#TreeModificationEvent(EventType, TreeItem) TreeModificationEvent(EventType, TreeItem)}
+     * and returns an instance of {@code TreeItemTreeModificationEventBuilder<T>}.
      *
      * @return an instance of the {@code TreeItemTreeModificationEventBuilder<T>}.
      */
@@ -43,8 +43,8 @@ public class TreeItemTreeModificationEventBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeItem.TreeModificationEvent#TreeModificationEvent(EventType, TreeItem, Object) TreeModificationEvent(EventType, TreeItem, Object)}
-     * and returns an instance of the {@code TreeItemTreeModificationEventBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeItem.TreeModificationEvent#TreeModificationEvent(EventType, TreeItem, Object) TreeModificationEvent(EventType, TreeItem, Object)}
+     * and returns an instance of {@code TreeItemTreeModificationEventBuilder<T>}.
      *
      * @return an instance of the {@code TreeItemTreeModificationEventBuilder<T>}.
      */
@@ -57,8 +57,8 @@ public class TreeItemTreeModificationEventBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeItem.TreeModificationEvent#TreeModificationEvent(EventType, TreeItem, boolean) TreeModificationEvent(EventType, TreeItem, boolean)}
-     * and returns an instance of the {@code TreeItemTreeModificationEventBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeItem.TreeModificationEvent#TreeModificationEvent(EventType, TreeItem, boolean) TreeModificationEvent(EventType, TreeItem, boolean)}
+     * and returns an instance of {@code TreeItemTreeModificationEventBuilder<T>}.
      *
      * @return an instance of the {@code TreeItemTreeModificationEventBuilder<T>}.
      */
@@ -71,8 +71,8 @@ public class TreeItemTreeModificationEventBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeItem.TreeModificationEvent#TreeModificationEvent(EventType, TreeItem, List, List) TreeModificationEvent(EventType, TreeItem, List, List)}
-     * and returns an instance of the {@code TreeItemTreeModificationEventBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeItem.TreeModificationEvent#TreeModificationEvent(EventType, TreeItem, List, List) TreeModificationEvent(EventType, TreeItem, List, List)}
+     * and returns an instance of {@code TreeItemTreeModificationEventBuilder<T>}.
      *
      * @return an instance of the {@code TreeItemTreeModificationEventBuilder<T>}.
      */

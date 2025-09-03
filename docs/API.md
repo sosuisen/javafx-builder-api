@@ -7,26 +7,26 @@ The builder classes provide a fluent API for creating JavaFX components:
 StringProperty textProp = new SimpleStringProperty("100");
 
 Scene scene = SceneBuilder.withRoot(
-                  HBoxBuilder.withChildren(
-                                  TextFieldBuilder.create()
-                                      .textPropertyApply(prop -> prop.bindBidirectional(textProp))
-                                      .style("""
-                                             -fx-font-weight: bold;
-                                             -fx-alignment: center;
-                                             """)
-                                      .hGrowInHBox(Priority.ALWAYS)
-                                      .maxWidth(Double.MAX_VALUE)
-                                      .build(),
-                                  ButtonBuilder.create()
-                                      .text("Send")
-                                      .onAction(e -> System.out.println("Sending..."))
-                                      .minWidth(50)
-                                      .build())
-                             .padding(new Insets(10))
-                             .build())
-                .width(150)
-                .height(100)
-                .build();
+                    HBoxBuilder.withChildren(
+                          TextFieldBuilder.create()
+                              .textPropertyApply(prop -> prop.bindBidirectional(textProp))
+                              .style("""
+                                     -fx-font-weight: bold;
+                                     -fx-alignment: center;
+                                     """)
+                              .hGrowInHBox(Priority.ALWAYS)
+                              .maxWidth(Double.MAX_VALUE)
+                              .build(),
+                          ButtonBuilder.create()
+                              .text("Send")
+                              .onAction(e -> System.out.println("Sending..."))
+                              .minWidth(50)
+                              .build())
+                        .padding(new Insets(10))
+                        .build())
+                  .width(150)
+                  .height(100)
+                  .build();
 ```
 ![](images/example_panel.png)
 
@@ -153,10 +153,10 @@ HBox.setMargin(btn, new Insets(10));
 Fluent form:
 ```java
 HBoxBuilder.create(
-                ButtonBuilder.create()
-                             .marginInHBox(new Insets(10))
-                             .build())
-           .build();
+      ButtonBuilder.create()
+          .marginInHBox(new Insets(10))
+          .build())
+    .build();
 ```
 
 ## Add Method - Get ObservableList and Add Items
@@ -231,30 +231,34 @@ Example: `BorderPane` becomes referenceable with the `.border-pane` selector.
 
 ### Stage
 
-The `StageBuilder` class has a `withScene(Scene scene)` method to maintain consistency with methods like `withChildren`.
+The `StageBuilder` class includes a `withScene(Scene scene)` method
+that creates an instance of the builder and then calls the `setScene(Scene scene)` method.
+This shorthand ensures consistency with other methods, such as the `withChildren` method found in container classes.
 
 There is no setter for the optional constructor argument `StageStyle`, but `StageBuilder` has  a `stageStyle` method. Other classes don't get such granular shortcuts, but `Stage` receives special treatment as it's at the top of the scene graph.
 
 ### Scene
 
-The `SceneBuilder` class has a `withRoot(Parent root)` method to maintain consistency with methods like `withChildren`.
+The `SceneBuilder` class includes a `withRoot(Parent root)`
+method that performs the same processing as the create(Parent root) method.
+This alias ensures consistency with other methods, such as the `withChildren` method found in container classes.
 
 The constructor arguments `width`, `height`, `depthBuffer`, and `antiAliasing` do not have setters on the `Scene` class, but custom setters have been added to `SceneBuilder`. Other classes don't get such granular shortcuts, but `Scene` receives special treatment as it's at the top of the scene graph.
 
 Example:
 ```java
 StageBuilder.withScene(
-        SceneBuilder.withRoot(
-                AnchorPaneBuilder.withChildren(
-                        LabelBuilder.create()
-                                .text("Hello, JavaFX!")
-                                .style("-fx-font-weight: bold;")
-                                .build())
-                        .build())
-              .build())
-        .width(640)
-        .height(480)
-        .build();
+      SceneBuilder.withRoot(
+            AnchorPaneBuilder.withChildren(
+                  LabelBuilder.create()
+                      .text("Hello, JavaFX!")
+                      .style("-fx-font-weight: bold;")
+                      .build())
+                .build())
+          .build())
+    .width(640)
+    .height(480)
+    .build();
 ```
 
 ### BorderPane
@@ -272,31 +276,31 @@ Builder classes generally only have shortcuts for `setXXX` methods, but `GridPan
 Examples:
 ```java
  GridPaneBuilder.create()
-                .add(LabelBuilder.create()
-                                .text("Hello"))
-                                .alignment(Pos.CENTER)
-                                .build(),`
-                     0, 0)
-                .build();
+     .add(LabelBuilder.create()
+              .text("Hello")
+              .alignment(Pos.CENTER)
+              .build(),
+          0, 0)
+     .build();
 ```
 
 ```java
 GridPaneBuilder.create()
-               .addRow(0,
-                        LabelBuilder.create()
-                                .text(I18n.get("name"))
-                                .alignment(Pos.CENTER)
-                                .build(),
-                        TextFieldBuilder.create()
-                                .alignment(Pos.CENTER)
-                                .build())
-               .addRow(1,
-                        LabelBuilder.create()
-                                .text(I18n.get("age"))
-                                .alignment(Pos.CENTER)
-                                .build(),
-                        TextFieldBuilder.create()
-                                .alignment(Pos.CENTER)
-                                .build())
-                .build();
+    .addRow(0,
+              LabelBuilder.create()
+                  .text(I18n.get("name"))
+                  .alignment(Pos.CENTER)
+                  .build(),
+              TextFieldBuilder.create()
+                  .alignment(Pos.CENTER)
+                  .build())
+    .addRow(1,
+              LabelBuilder.create()
+                  .text(I18n.get("age"))
+                  .alignment(Pos.CENTER)
+                  .build(),
+              TextFieldBuilder.create()
+                  .alignment(Pos.CENTER)
+                  .build())
+    .build();
 ```

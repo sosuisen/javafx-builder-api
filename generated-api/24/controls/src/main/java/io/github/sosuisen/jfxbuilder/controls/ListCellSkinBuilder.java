@@ -29,8 +29,8 @@ public class ListCellSkinBuilder<T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.ListCellSkin#ListCellSkin(ListCell) ListCellSkin(ListCell)}
-     * and returns an instance of the {@code ListCellSkinBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.ListCellSkin#ListCellSkin(ListCell) ListCellSkin(ListCell)}
+     * and returns an instance of {@code ListCellSkinBuilder<T>}.
      *
      * @return an instance of the {@code ListCellSkinBuilder<T>}.
      */
@@ -142,7 +142,7 @@ public class ListCellSkinBuilder<T> {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ListCellSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ListCellSkin#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -155,7 +155,7 @@ public class ListCellSkinBuilder<T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ListCellSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ListCellSkin#getChildren()} method.
      * 
      * @return builder instance
      */

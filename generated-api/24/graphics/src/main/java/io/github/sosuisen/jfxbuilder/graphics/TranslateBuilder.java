@@ -37,8 +37,8 @@ public class TranslateBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Translate#Translate(double, double) Translate(double, double)}
-     * and returns an instance of the {@code TranslateBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.transform.Translate#Translate(double, double) Translate(double, double)}
+     * and returns an instance of {@code TranslateBuilder}.
      *
      * @return an instance of the {@code TranslateBuilder}.
      */
@@ -51,8 +51,8 @@ public class TranslateBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Translate#Translate(double, double, double) Translate(double, double, double)}
-     * and returns an instance of the {@code TranslateBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.transform.Translate#Translate(double, double, double) Translate(double, double, double)}
+     * and returns an instance of {@code TranslateBuilder}.
      *
      * @return an instance of the {@code TranslateBuilder}.
      */

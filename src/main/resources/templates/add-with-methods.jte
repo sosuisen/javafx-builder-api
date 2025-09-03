@@ -3,7 +3,7 @@
 @param AddWithMethodModel model
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link ${model.originalClassName()}#${model.getterMethodName()}()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link ${model.originalClassName()}#${model.getterMethodName()}()} method.
      * 
      * @return builder instance
      */
@@ -16,7 +16,7 @@
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link ${model.originalClassName()}#${model.getterMethodName()}()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link ${model.originalClassName()}#${model.getterMethodName()}()} method.
      * 
      * @return builder instance
      */
@@ -29,7 +29,7 @@
 
 @if(model.hasWithMethod())
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link ${model.originalClassName()}#${model.getterMethodName()}()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link ${model.originalClassName()}#${model.getterMethodName()}()} method.
      * 
      * @return builder instance
      */
@@ -40,7 +40,7 @@
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link ${model.originalClassName()}#${model.getterMethodName()}()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link ${model.originalClassName()}#${model.getterMethodName()}()} method.
      * 
      * @return builder instance
      */

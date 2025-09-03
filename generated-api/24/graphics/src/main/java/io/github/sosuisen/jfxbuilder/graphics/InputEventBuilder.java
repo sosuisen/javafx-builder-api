@@ -29,8 +29,8 @@ public class InputEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.InputEvent#InputEvent(Object, EventTarget, EventType) InputEvent(Object, EventTarget, EventType)}
-     * and returns an instance of the {@code InputEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.InputEvent#InputEvent(Object, EventTarget, EventType) InputEvent(Object, EventTarget, EventType)}
+     * and returns an instance of {@code InputEventBuilder}.
      *
      * @return an instance of the {@code InputEventBuilder}.
      */
@@ -43,8 +43,8 @@ public class InputEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.InputEvent#InputEvent(EventType) InputEvent(EventType)}
-     * and returns an instance of the {@code InputEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.InputEvent#InputEvent(EventType) InputEvent(EventType)}
+     * and returns an instance of {@code InputEventBuilder}.
      *
      * @return an instance of the {@code InputEventBuilder}.
      */

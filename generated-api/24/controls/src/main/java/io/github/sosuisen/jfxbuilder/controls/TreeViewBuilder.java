@@ -37,8 +37,8 @@ public class TreeViewBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeView#TreeView(TreeItem) TreeView(TreeItem)}
-     * and returns an instance of the {@code TreeViewBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeView#TreeView(TreeItem) TreeView(TreeItem)}
+     * and returns an instance of {@code TreeViewBuilder<T>}.
      *
      * @return an instance of the {@code TreeViewBuilder<T>}.
      */
@@ -1221,7 +1221,7 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeView#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeView#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1234,7 +1234,7 @@ public class TreeViewBuilder<T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeView#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeView#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1248,7 +1248,7 @@ public class TreeViewBuilder<T> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeView#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeView#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1261,7 +1261,7 @@ public class TreeViewBuilder<T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeView#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeView#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1275,7 +1275,7 @@ public class TreeViewBuilder<T> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeView#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeView#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1288,7 +1288,7 @@ public class TreeViewBuilder<T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeView#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeView#getTransforms()} method.
      * 
      * @return builder instance
      */

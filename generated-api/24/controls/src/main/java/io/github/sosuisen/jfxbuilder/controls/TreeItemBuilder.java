@@ -37,8 +37,8 @@ public class TreeItemBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeItem#TreeItem(Object) TreeItem(Object)}
-     * and returns an instance of the {@code TreeItemBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeItem#TreeItem(Object) TreeItem(Object)}
+     * and returns an instance of {@code TreeItemBuilder<T>}.
      *
      * @return an instance of the {@code TreeItemBuilder<T>}.
      */
@@ -51,8 +51,8 @@ public class TreeItemBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeItem#TreeItem(Object, Node) TreeItem(Object, Node)}
-     * and returns an instance of the {@code TreeItemBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeItem#TreeItem(Object, Node) TreeItem(Object, Node)}
+     * and returns an instance of {@code TreeItemBuilder<T>}.
      *
      * @return an instance of the {@code TreeItemBuilder<T>}.
      */
@@ -200,7 +200,7 @@ public class TreeItemBuilder<T> {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeItem#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeItem#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -213,7 +213,7 @@ public class TreeItemBuilder<T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeItem#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeItem#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -226,7 +226,7 @@ public class TreeItemBuilder<T> {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeItem#getChildren()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeItem#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -237,7 +237,7 @@ public class TreeItemBuilder<T> {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeItem#getChildren()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeItem#getChildren()} method.
      * 
      * @return builder instance
      */

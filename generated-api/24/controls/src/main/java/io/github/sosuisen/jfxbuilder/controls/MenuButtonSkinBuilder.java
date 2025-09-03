@@ -29,8 +29,8 @@ public class MenuButtonSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.MenuButtonSkin#MenuButtonSkin(MenuButton) MenuButtonSkin(MenuButton)}
-     * and returns an instance of the {@code MenuButtonSkinBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.MenuButtonSkin#MenuButtonSkin(MenuButton) MenuButtonSkin(MenuButton)}
+     * and returns an instance of {@code MenuButtonSkinBuilder}.
      *
      * @return an instance of the {@code MenuButtonSkinBuilder}.
      */
@@ -140,7 +140,7 @@ public class MenuButtonSkinBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.MenuButtonSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.MenuButtonSkin#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -153,7 +153,7 @@ public class MenuButtonSkinBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.MenuButtonSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.MenuButtonSkin#getChildren()} method.
      * 
      * @return builder instance
      */

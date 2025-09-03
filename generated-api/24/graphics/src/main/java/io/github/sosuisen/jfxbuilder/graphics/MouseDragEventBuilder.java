@@ -29,8 +29,8 @@ public class MouseDragEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.MouseDragEvent#MouseDragEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult, Object) MouseDragEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult, Object)}
-     * and returns an instance of the {@code MouseDragEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.MouseDragEvent#MouseDragEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult, Object) MouseDragEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult, Object)}
+     * and returns an instance of {@code MouseDragEventBuilder}.
      *
      * @return an instance of the {@code MouseDragEventBuilder}.
      */
@@ -43,8 +43,8 @@ public class MouseDragEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.MouseDragEvent#MouseDragEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult, Object) MouseDragEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult, Object)}
-     * and returns an instance of the {@code MouseDragEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.MouseDragEvent#MouseDragEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult, Object) MouseDragEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult, Object)}
+     * and returns an instance of {@code MouseDragEventBuilder}.
      *
      * @return an instance of the {@code MouseDragEventBuilder}.
      */
@@ -57,8 +57,8 @@ public class MouseDragEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.MouseDragEvent#MouseDragEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult, Object) MouseDragEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult, Object)}
-     * and returns an instance of the {@code MouseDragEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.MouseDragEvent#MouseDragEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult, Object) MouseDragEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult, Object)}
+     * and returns an instance of {@code MouseDragEventBuilder}.
      *
      * @return an instance of the {@code MouseDragEventBuilder}.
      */

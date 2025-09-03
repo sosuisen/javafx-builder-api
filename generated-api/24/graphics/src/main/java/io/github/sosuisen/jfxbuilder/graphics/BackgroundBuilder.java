@@ -29,8 +29,8 @@ public class BackgroundBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.Background#Background(List, List) Background(List, List)}
-     * and returns an instance of the {@code BackgroundBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.Background#Background(List, List) Background(List, List)}
+     * and returns an instance of {@code BackgroundBuilder}.
      *
      * @return an instance of the {@code BackgroundBuilder}.
      */
@@ -43,8 +43,8 @@ public class BackgroundBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.Background#Background(BackgroundFill...) Background(BackgroundFill...)}
-     * and returns an instance of the {@code BackgroundBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.Background#Background(BackgroundFill...) Background(BackgroundFill...)}
+     * and returns an instance of {@code BackgroundBuilder}.
      *
      * @return an instance of the {@code BackgroundBuilder}.
      */
@@ -57,8 +57,8 @@ public class BackgroundBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.Background#Background(BackgroundFill..., BackgroundImage...) Background(BackgroundFill..., BackgroundImage...)}
-     * and returns an instance of the {@code BackgroundBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.Background#Background(BackgroundFill..., BackgroundImage...) Background(BackgroundFill..., BackgroundImage...)}
+     * and returns an instance of {@code BackgroundBuilder}.
      *
      * @return an instance of the {@code BackgroundBuilder}.
      */
@@ -71,8 +71,8 @@ public class BackgroundBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.Background#Background(BackgroundImage...) Background(BackgroundImage...)}
-     * and returns an instance of the {@code BackgroundBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.Background#Background(BackgroundImage...) Background(BackgroundImage...)}
+     * and returns an instance of {@code BackgroundBuilder}.
      *
      * @return an instance of the {@code BackgroundBuilder}.
      */

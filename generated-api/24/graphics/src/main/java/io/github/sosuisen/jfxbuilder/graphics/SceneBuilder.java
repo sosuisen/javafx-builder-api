@@ -5,7 +5,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  * and offers a fluent interface for creating and configuring it. 
  *
  * <p>
- * This class includes a static {@code create} method that accepts the same arguments as the original {@link javafx.scene.Scene} constructor
+ * This class includes a static {@code create} method that accepts the constructor arguments of the original {@link javafx.scene.Scene} constructor
  * and returns an instance of the {@code SceneBuilder}.
  * </p>
  *
@@ -84,7 +84,12 @@ public class SceneBuilder {
     private boolean depthBuffer = DEFAULT_DEPTH_BUFFER;
     private javafx.scene.SceneAntialiasing antiAliasing = DEFAULT_ANTI_ALIASING;
 
-    // Custom methods for SceneBuilder - start
+    /**
+     * Performs the same processing as the {@link create(Parent root)} method.
+     * This alias ensures consistency with other methods, such as the {@code withChildren} method found in container classes.
+     *
+     * @return an instance of the SceneBuilder.
+     */
     public static SceneBuilder withRoot(javafx.scene.Parent root) {
         SceneBuilder builder = new SceneBuilder();
         builder.root = root;
@@ -132,7 +137,7 @@ public class SceneBuilder {
     }
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.Scene#Scene(javafx.scene.Parent) Scene(Parent)}
+     * Accepts the constructor arguments of {@link javafx.scene.Scene#Scene(javafx.scene.Parent) Scene(Parent)}
      * and returns an instance of the SceneBuilder.
      *
      * @return an instance of the SceneBuilder.
@@ -144,7 +149,7 @@ public class SceneBuilder {
     }
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.Scene#Scene(javafx.scene.Parent, javafx.scene.paint.Paint) Scene(Parent, Paint)}
+     * Accepts the constructor arguments of {@link javafx.scene.Scene#Scene(javafx.scene.Parent, javafx.scene.paint.Paint) Scene(Parent, Paint)}
      * and returns an instance of the SceneBuilder.
      *
      * @return an instance of the SceneBuilder.
@@ -157,7 +162,7 @@ public class SceneBuilder {
     }
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.Scene#Scene(javafx.scene.Parent, double, double) Scene(Parent, double, double)}
+     * Accepts the constructor arguments of {@link javafx.scene.Scene#Scene(javafx.scene.Parent, double, double) Scene(Parent, double, double)}
      * and returns an instance of the SceneBuilder.
      *
      * @return an instance of the SceneBuilder.
@@ -172,7 +177,7 @@ public class SceneBuilder {
     }
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.Scene#Scene(javafx.scene.Parent, double, double, javafx.scene.paint.Paint) Scene(Parent, double, double Paint)}
+     * Accepts the constructor arguments of {@link javafx.scene.Scene#Scene(javafx.scene.Parent, double, double, javafx.scene.paint.Paint) Scene(Parent, double, double Paint)}
      * and returns an instance of the SceneBuilder.
      *
      * @return an instance of the SceneBuilder.
@@ -188,7 +193,7 @@ public class SceneBuilder {
     }
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.Scene#Scene(javafx.scene.Parent, double, double, boolean) Scene(Parent, double, double, boolean)}
+     * Accepts the constructor arguments of {@link javafx.scene.Scene#Scene(javafx.scene.Parent, double, double, boolean) Scene(Parent, double, double, boolean)}
      * and returns an instance of the SceneBuilder.
      *
      * @return an instance of the SceneBuilder.
@@ -204,7 +209,7 @@ public class SceneBuilder {
     }
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.Scene#Scene(javafx.scene.Parent, double, double, boolean, javafx.scene.SceneAntialiasing) Scene(Parent, double, double, boolean, SceneAntialiasing)}
+     * Accepts the constructor arguments of {@link javafx.scene.Scene#Scene(javafx.scene.Parent, double, double, boolean, javafx.scene.SceneAntialiasing) Scene(Parent, double, double, boolean, SceneAntialiasing)}
      * and returns an instance of the SceneBuilder.
      *
      * @return an instance of the SceneBuilder.
@@ -741,7 +746,7 @@ public class SceneBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.Scene#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.Scene#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -754,7 +759,7 @@ public class SceneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.Scene#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.Scene#getStylesheets()} method.
      * 
      * @return builder instance
      */

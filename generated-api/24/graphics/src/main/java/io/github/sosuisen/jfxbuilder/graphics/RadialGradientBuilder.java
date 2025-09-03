@@ -29,8 +29,8 @@ public class RadialGradientBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.paint.RadialGradient#RadialGradient(double, double, double, double, double, boolean, CycleMethod, List) RadialGradient(double, double, double, double, double, boolean, CycleMethod, List)}
-     * and returns an instance of the {@code RadialGradientBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.paint.RadialGradient#RadialGradient(double, double, double, double, double, boolean, CycleMethod, List) RadialGradient(double, double, double, double, double, boolean, CycleMethod, List)}
+     * and returns an instance of {@code RadialGradientBuilder}.
      *
      * @return an instance of the {@code RadialGradientBuilder}.
      */
@@ -43,8 +43,8 @@ public class RadialGradientBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.paint.RadialGradient#RadialGradient(double, double, double, double, double, boolean, CycleMethod, Stop...) RadialGradient(double, double, double, double, double, boolean, CycleMethod, Stop...)}
-     * and returns an instance of the {@code RadialGradientBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.paint.RadialGradient#RadialGradient(double, double, double, double, double, boolean, CycleMethod, Stop...) RadialGradient(double, double, double, double, double, boolean, CycleMethod, Stop...)}
+     * and returns an instance of {@code RadialGradientBuilder}.
      *
      * @return an instance of the {@code RadialGradientBuilder}.
      */

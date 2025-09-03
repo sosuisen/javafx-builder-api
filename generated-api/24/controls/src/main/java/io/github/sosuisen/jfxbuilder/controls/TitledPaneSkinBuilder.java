@@ -29,8 +29,8 @@ public class TitledPaneSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.TitledPaneSkin#TitledPaneSkin(TitledPane) TitledPaneSkin(TitledPane)}
-     * and returns an instance of the {@code TitledPaneSkinBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.TitledPaneSkin#TitledPaneSkin(TitledPane) TitledPaneSkin(TitledPane)}
+     * and returns an instance of {@code TitledPaneSkinBuilder}.
      *
      * @return an instance of the {@code TitledPaneSkinBuilder}.
      */
@@ -140,7 +140,7 @@ public class TitledPaneSkinBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TitledPaneSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TitledPaneSkin#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -153,7 +153,7 @@ public class TitledPaneSkinBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TitledPaneSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TitledPaneSkin#getChildren()} method.
      * 
      * @return builder instance
      */

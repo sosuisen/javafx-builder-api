@@ -29,8 +29,8 @@ public class BorderStrokeBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BorderStroke#BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths) BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths)}
-     * and returns an instance of the {@code BorderStrokeBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.BorderStroke#BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths) BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths)}
+     * and returns an instance of {@code BorderStrokeBuilder}.
      *
      * @return an instance of the {@code BorderStrokeBuilder}.
      */
@@ -43,8 +43,8 @@ public class BorderStrokeBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BorderStroke#BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths, Insets) BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths, Insets)}
-     * and returns an instance of the {@code BorderStrokeBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.BorderStroke#BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths, Insets) BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths, Insets)}
+     * and returns an instance of {@code BorderStrokeBuilder}.
      *
      * @return an instance of the {@code BorderStrokeBuilder}.
      */
@@ -57,8 +57,8 @@ public class BorderStrokeBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BorderStroke#BorderStroke(Paint, Paint, Paint, Paint, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, CornerRadii, BorderWidths, Insets) BorderStroke(Paint, Paint, Paint, Paint, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, CornerRadii, BorderWidths, Insets)}
-     * and returns an instance of the {@code BorderStrokeBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.BorderStroke#BorderStroke(Paint, Paint, Paint, Paint, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, CornerRadii, BorderWidths, Insets) BorderStroke(Paint, Paint, Paint, Paint, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, CornerRadii, BorderWidths, Insets)}
+     * and returns an instance of {@code BorderStrokeBuilder}.
      *
      * @return an instance of the {@code BorderStrokeBuilder}.
      */

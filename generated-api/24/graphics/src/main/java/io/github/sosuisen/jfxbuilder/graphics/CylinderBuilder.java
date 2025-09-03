@@ -37,8 +37,8 @@ public class CylinderBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Cylinder#Cylinder(double, double) Cylinder(double, double)}
-     * and returns an instance of the {@code CylinderBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.Cylinder#Cylinder(double, double) Cylinder(double, double)}
+     * and returns an instance of {@code CylinderBuilder}.
      *
      * @return an instance of the {@code CylinderBuilder}.
      */
@@ -51,8 +51,8 @@ public class CylinderBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Cylinder#Cylinder(double, double, int) Cylinder(double, double, int)}
-     * and returns an instance of the {@code CylinderBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.Cylinder#Cylinder(double, double, int) Cylinder(double, double, int)}
+     * and returns an instance of {@code CylinderBuilder}.
      *
      * @return an instance of the {@code CylinderBuilder}.
      */
@@ -963,7 +963,7 @@ public class CylinderBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Cylinder#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Cylinder#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -976,7 +976,7 @@ public class CylinderBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Cylinder#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Cylinder#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -990,7 +990,7 @@ public class CylinderBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Cylinder#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Cylinder#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1003,7 +1003,7 @@ public class CylinderBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Cylinder#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Cylinder#getTransforms()} method.
      * 
      * @return builder instance
      */

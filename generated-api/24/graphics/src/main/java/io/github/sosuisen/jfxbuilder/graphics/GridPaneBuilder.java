@@ -37,8 +37,8 @@ public class GridPaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.GridPane#GridPane(double, double) GridPane(double, double)}
-     * and returns an instance of the {@code GridPaneBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.GridPane#GridPane(double, double) GridPane(double, double)}
+     * and returns an instance of {@code GridPaneBuilder}.
      *
      * @return an instance of the {@code GridPaneBuilder}.
      */
@@ -1123,7 +1123,7 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1136,7 +1136,7 @@ public class GridPaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1149,7 +1149,7 @@ public class GridPaneBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getChildren()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1160,7 +1160,7 @@ public class GridPaneBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getChildren()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1171,7 +1171,7 @@ public class GridPaneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getColumnConstraints()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getColumnConstraints()} method.
      * 
      * @return builder instance
      */
@@ -1184,7 +1184,7 @@ public class GridPaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getColumnConstraints()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getColumnConstraints()} method.
      * 
      * @return builder instance
      */
@@ -1197,7 +1197,7 @@ public class GridPaneBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getColumnConstraints()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getColumnConstraints()} method.
      * 
      * @return builder instance
      */
@@ -1208,7 +1208,7 @@ public class GridPaneBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getColumnConstraints()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getColumnConstraints()} method.
      * 
      * @return builder instance
      */
@@ -1219,7 +1219,7 @@ public class GridPaneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getRowConstraints()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getRowConstraints()} method.
      * 
      * @return builder instance
      */
@@ -1232,7 +1232,7 @@ public class GridPaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getRowConstraints()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getRowConstraints()} method.
      * 
      * @return builder instance
      */
@@ -1245,7 +1245,7 @@ public class GridPaneBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getRowConstraints()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getRowConstraints()} method.
      * 
      * @return builder instance
      */
@@ -1256,7 +1256,7 @@ public class GridPaneBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getRowConstraints()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getRowConstraints()} method.
      * 
      * @return builder instance
      */
@@ -1267,7 +1267,7 @@ public class GridPaneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1280,7 +1280,7 @@ public class GridPaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1294,7 +1294,7 @@ public class GridPaneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1307,7 +1307,7 @@ public class GridPaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1321,7 +1321,7 @@ public class GridPaneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1334,7 +1334,7 @@ public class GridPaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.GridPane#getTransforms()} method.
      * 
      * @return builder instance
      */

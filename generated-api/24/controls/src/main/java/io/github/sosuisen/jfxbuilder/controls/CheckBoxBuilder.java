@@ -37,8 +37,8 @@ public class CheckBoxBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.CheckBox#CheckBox(String) CheckBox(String)}
-     * and returns an instance of the {@code CheckBoxBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.CheckBox#CheckBox(String) CheckBox(String)}
+     * and returns an instance of {@code CheckBoxBuilder}.
      *
      * @return an instance of the {@code CheckBoxBuilder}.
      */
@@ -1289,7 +1289,7 @@ public class CheckBoxBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBox#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBox#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1302,7 +1302,7 @@ public class CheckBoxBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBox#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBox#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1316,7 +1316,7 @@ public class CheckBoxBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBox#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBox#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1329,7 +1329,7 @@ public class CheckBoxBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBox#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBox#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1343,7 +1343,7 @@ public class CheckBoxBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBox#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBox#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1356,7 +1356,7 @@ public class CheckBoxBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBox#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBox#getTransforms()} method.
      * 
      * @return builder instance
      */

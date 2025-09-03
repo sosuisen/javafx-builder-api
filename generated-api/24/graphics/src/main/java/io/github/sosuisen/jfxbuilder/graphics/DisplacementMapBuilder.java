@@ -37,8 +37,8 @@ public class DisplacementMapBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.DisplacementMap#DisplacementMap(FloatMap) DisplacementMap(FloatMap)}
-     * and returns an instance of the {@code DisplacementMapBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.DisplacementMap#DisplacementMap(FloatMap) DisplacementMap(FloatMap)}
+     * and returns an instance of {@code DisplacementMapBuilder}.
      *
      * @return an instance of the {@code DisplacementMapBuilder}.
      */
@@ -51,8 +51,8 @@ public class DisplacementMapBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.DisplacementMap#DisplacementMap(FloatMap, double, double, double, double) DisplacementMap(FloatMap, double, double, double, double)}
-     * and returns an instance of the {@code DisplacementMapBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.DisplacementMap#DisplacementMap(FloatMap, double, double, double, double) DisplacementMap(FloatMap, double, double, double, double)}
+     * and returns an instance of {@code DisplacementMapBuilder}.
      *
      * @return an instance of the {@code DisplacementMapBuilder}.
      */

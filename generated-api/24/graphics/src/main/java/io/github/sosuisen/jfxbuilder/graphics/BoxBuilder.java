@@ -37,8 +37,8 @@ public class BoxBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Box#Box(double, double, double) Box(double, double, double)}
-     * and returns an instance of the {@code BoxBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.Box#Box(double, double, double) Box(double, double, double)}
+     * and returns an instance of {@code BoxBuilder}.
      *
      * @return an instance of the {@code BoxBuilder}.
      */
@@ -959,7 +959,7 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Box#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Box#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -972,7 +972,7 @@ public class BoxBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Box#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Box#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -986,7 +986,7 @@ public class BoxBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Box#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Box#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -999,7 +999,7 @@ public class BoxBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Box#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Box#getTransforms()} method.
      * 
      * @return builder instance
      */

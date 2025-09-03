@@ -37,8 +37,8 @@ public class PolygonBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Polygon#Polygon(double...) Polygon(double...)}
-     * and returns an instance of the {@code PolygonBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.Polygon#Polygon(double...) Polygon(double...)}
+     * and returns an instance of {@code PolygonBuilder}.
      *
      * @return an instance of the {@code PolygonBuilder}.
      */
@@ -989,7 +989,7 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getPoints()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getPoints()} method.
      * 
      * @return builder instance
      */
@@ -1002,7 +1002,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getPoints()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getPoints()} method.
      * 
      * @return builder instance
      */
@@ -1015,7 +1015,7 @@ public class PolygonBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getPoints()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getPoints()} method.
      * 
      * @return builder instance
      */
@@ -1026,7 +1026,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getPoints()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getPoints()} method.
      * 
      * @return builder instance
      */
@@ -1037,7 +1037,7 @@ public class PolygonBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getStrokeDashArray()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1050,7 +1050,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getStrokeDashArray()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1063,7 +1063,7 @@ public class PolygonBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1074,7 +1074,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1085,7 +1085,7 @@ public class PolygonBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1098,7 +1098,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1112,7 +1112,7 @@ public class PolygonBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1125,7 +1125,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getTransforms()} method.
      * 
      * @return builder instance
      */

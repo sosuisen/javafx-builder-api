@@ -37,8 +37,8 @@ public class BoxBlurBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.BoxBlur#BoxBlur(double, double, int) BoxBlur(double, double, int)}
-     * and returns an instance of the {@code BoxBlurBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.BoxBlur#BoxBlur(double, double, int) BoxBlur(double, double, int)}
+     * and returns an instance of {@code BoxBlurBuilder}.
      *
      * @return an instance of the {@code BoxBlurBuilder}.
      */

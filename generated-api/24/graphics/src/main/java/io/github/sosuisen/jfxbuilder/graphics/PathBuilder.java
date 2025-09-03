@@ -37,8 +37,8 @@ public class PathBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Path#Path(Collection) Path(Collection)}
-     * and returns an instance of the {@code PathBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.Path#Path(Collection) Path(Collection)}
+     * and returns an instance of {@code PathBuilder}.
      *
      * @return an instance of the {@code PathBuilder}.
      */
@@ -51,8 +51,8 @@ public class PathBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Path#Path(PathElement...) Path(PathElement...)}
-     * and returns an instance of the {@code PathBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.Path#Path(PathElement...) Path(PathElement...)}
+     * and returns an instance of {@code PathBuilder}.
      *
      * @return an instance of the {@code PathBuilder}.
      */
@@ -1013,7 +1013,7 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getElements()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getElements()} method.
      * 
      * @return builder instance
      */
@@ -1026,7 +1026,7 @@ public class PathBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getElements()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getElements()} method.
      * 
      * @return builder instance
      */
@@ -1039,7 +1039,7 @@ public class PathBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getElements()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getElements()} method.
      * 
      * @return builder instance
      */
@@ -1050,7 +1050,7 @@ public class PathBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getElements()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getElements()} method.
      * 
      * @return builder instance
      */
@@ -1061,7 +1061,7 @@ public class PathBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getStrokeDashArray()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1074,7 +1074,7 @@ public class PathBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getStrokeDashArray()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1087,7 +1087,7 @@ public class PathBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1098,7 +1098,7 @@ public class PathBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1109,7 +1109,7 @@ public class PathBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1122,7 +1122,7 @@ public class PathBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1136,7 +1136,7 @@ public class PathBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1149,7 +1149,7 @@ public class PathBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Path#getTransforms()} method.
      * 
      * @return builder instance
      */

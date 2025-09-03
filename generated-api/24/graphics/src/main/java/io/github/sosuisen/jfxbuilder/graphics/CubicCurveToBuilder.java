@@ -37,8 +37,8 @@ public class CubicCurveToBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.CubicCurveTo#CubicCurveTo(double, double, double, double, double, double) CubicCurveTo(double, double, double, double, double, double)}
-     * and returns an instance of the {@code CubicCurveToBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.CubicCurveTo#CubicCurveTo(double, double, double, double, double, double) CubicCurveTo(double, double, double, double, double, double)}
+     * and returns an instance of {@code CubicCurveToBuilder}.
      *
      * @return an instance of the {@code CubicCurveToBuilder}.
      */

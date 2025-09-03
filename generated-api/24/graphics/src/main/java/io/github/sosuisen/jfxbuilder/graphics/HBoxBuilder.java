@@ -37,8 +37,8 @@ public class HBoxBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.HBox#HBox(double) HBox(double)}
-     * and returns an instance of the {@code HBoxBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.HBox#HBox(double) HBox(double)}
+     * and returns an instance of {@code HBoxBuilder}.
      *
      * @return an instance of the {@code HBoxBuilder}.
      */
@@ -51,8 +51,8 @@ public class HBoxBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.HBox#HBox(double, Node...) HBox(double, Node...)}
-     * and returns an instance of the {@code HBoxBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.HBox#HBox(double, Node...) HBox(double, Node...)}
+     * and returns an instance of {@code HBoxBuilder}.
      *
      * @return an instance of the {@code HBoxBuilder}.
      */
@@ -65,8 +65,8 @@ public class HBoxBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.HBox#HBox(Node...) HBox(Node...)}
-     * and returns an instance of the {@code HBoxBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.HBox#HBox(Node...) HBox(Node...)}
+     * and returns an instance of {@code HBoxBuilder}.
      *
      * @return an instance of the {@code HBoxBuilder}.
      */
@@ -1141,7 +1141,7 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1154,7 +1154,7 @@ public class HBoxBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1167,7 +1167,7 @@ public class HBoxBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getChildren()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1178,7 +1178,7 @@ public class HBoxBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getChildren()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1189,7 +1189,7 @@ public class HBoxBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1202,7 +1202,7 @@ public class HBoxBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1216,7 +1216,7 @@ public class HBoxBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1229,7 +1229,7 @@ public class HBoxBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1243,7 +1243,7 @@ public class HBoxBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1256,7 +1256,7 @@ public class HBoxBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.HBox#getTransforms()} method.
      * 
      * @return builder instance
      */

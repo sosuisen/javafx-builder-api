@@ -29,8 +29,8 @@ public class PieChartDataBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.PieChart.Data#Data(String, double) Data(String, double)}
-     * and returns an instance of the {@code PieChartDataBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.chart.PieChart.Data#Data(String, double) Data(String, double)}
+     * and returns an instance of {@code PieChartDataBuilder}.
      *
      * @return an instance of the {@code PieChartDataBuilder}.
      */

@@ -37,8 +37,8 @@ public class DropShadowBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.DropShadow#DropShadow(double, double, double, Color) DropShadow(double, double, double, Color)}
-     * and returns an instance of the {@code DropShadowBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.DropShadow#DropShadow(double, double, double, Color) DropShadow(double, double, double, Color)}
+     * and returns an instance of {@code DropShadowBuilder}.
      *
      * @return an instance of the {@code DropShadowBuilder}.
      */
@@ -51,8 +51,8 @@ public class DropShadowBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.DropShadow#DropShadow(double, Color) DropShadow(double, Color)}
-     * and returns an instance of the {@code DropShadowBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.DropShadow#DropShadow(double, Color) DropShadow(double, Color)}
+     * and returns an instance of {@code DropShadowBuilder}.
      *
      * @return an instance of the {@code DropShadowBuilder}.
      */
@@ -65,8 +65,8 @@ public class DropShadowBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.DropShadow#DropShadow(BlurType, Color, double, double, double, double) DropShadow(BlurType, Color, double, double, double, double)}
-     * and returns an instance of the {@code DropShadowBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.DropShadow#DropShadow(BlurType, Color, double, double, double, double) DropShadow(BlurType, Color, double, double, double, double)}
+     * and returns an instance of {@code DropShadowBuilder}.
      *
      * @return an instance of the {@code DropShadowBuilder}.
      */

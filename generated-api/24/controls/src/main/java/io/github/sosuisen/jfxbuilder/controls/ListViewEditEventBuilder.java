@@ -29,8 +29,8 @@ public class ListViewEditEventBuilder<T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.ListView.EditEvent#EditEvent(ListView, EventType, Object, int) EditEvent(ListView, EventType, Object, int)}
-     * and returns an instance of the {@code ListViewEditEventBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.ListView.EditEvent#EditEvent(ListView, EventType, Object, int) EditEvent(ListView, EventType, Object, int)}
+     * and returns an instance of {@code ListViewEditEventBuilder<T>}.
      *
      * @return an instance of the {@code ListViewEditEventBuilder<T>}.
      */

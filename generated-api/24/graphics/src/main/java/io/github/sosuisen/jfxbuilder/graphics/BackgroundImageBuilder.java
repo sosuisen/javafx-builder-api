@@ -29,8 +29,8 @@ public class BackgroundImageBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BackgroundImage#BackgroundImage(Image, BackgroundRepeat, BackgroundRepeat, BackgroundPosition, BackgroundSize) BackgroundImage(Image, BackgroundRepeat, BackgroundRepeat, BackgroundPosition, BackgroundSize)}
-     * and returns an instance of the {@code BackgroundImageBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.BackgroundImage#BackgroundImage(Image, BackgroundRepeat, BackgroundRepeat, BackgroundPosition, BackgroundSize) BackgroundImage(Image, BackgroundRepeat, BackgroundRepeat, BackgroundPosition, BackgroundSize)}
+     * and returns an instance of {@code BackgroundImageBuilder}.
      *
      * @return an instance of the {@code BackgroundImageBuilder}.
      */

@@ -29,8 +29,8 @@ public class CornerRadiiBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.CornerRadii#CornerRadii(double) CornerRadii(double)}
-     * and returns an instance of the {@code CornerRadiiBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.CornerRadii#CornerRadii(double) CornerRadii(double)}
+     * and returns an instance of {@code CornerRadiiBuilder}.
      *
      * @return an instance of the {@code CornerRadiiBuilder}.
      */
@@ -43,8 +43,8 @@ public class CornerRadiiBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.CornerRadii#CornerRadii(double, boolean) CornerRadii(double, boolean)}
-     * and returns an instance of the {@code CornerRadiiBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.CornerRadii#CornerRadii(double, boolean) CornerRadii(double, boolean)}
+     * and returns an instance of {@code CornerRadiiBuilder}.
      *
      * @return an instance of the {@code CornerRadiiBuilder}.
      */
@@ -57,8 +57,8 @@ public class CornerRadiiBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.CornerRadii#CornerRadii(double, double, double, double, boolean) CornerRadii(double, double, double, double, boolean)}
-     * and returns an instance of the {@code CornerRadiiBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.CornerRadii#CornerRadii(double, double, double, double, boolean) CornerRadii(double, double, double, double, boolean)}
+     * and returns an instance of {@code CornerRadiiBuilder}.
      *
      * @return an instance of the {@code CornerRadiiBuilder}.
      */
@@ -71,8 +71,8 @@ public class CornerRadiiBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.CornerRadii#CornerRadii(double, double, double, double, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) CornerRadii(double, double, double, double, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean)}
-     * and returns an instance of the {@code CornerRadiiBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.CornerRadii#CornerRadii(double, double, double, double, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) CornerRadii(double, double, double, double, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean)}
+     * and returns an instance of {@code CornerRadiiBuilder}.
      *
      * @return an instance of the {@code CornerRadiiBuilder}.
      */

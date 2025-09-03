@@ -29,8 +29,8 @@ public class TablePositionBuilder<S, T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TablePosition#TablePosition(TableView, int, TableColumn) TablePosition(TableView, int, TableColumn)}
-     * and returns an instance of the {@code TablePositionBuilder<S, T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TablePosition#TablePosition(TableView, int, TableColumn) TablePosition(TableView, int, TableColumn)}
+     * and returns an instance of {@code TablePositionBuilder<S, T>}.
      *
      * @return an instance of the {@code TablePositionBuilder<S, T>}.
      */

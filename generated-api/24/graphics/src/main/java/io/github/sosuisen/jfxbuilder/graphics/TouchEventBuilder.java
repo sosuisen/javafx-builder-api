@@ -29,8 +29,8 @@ public class TouchEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.TouchEvent#TouchEvent(Object, EventTarget, EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean) TouchEvent(Object, EventTarget, EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean)}
-     * and returns an instance of the {@code TouchEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.TouchEvent#TouchEvent(Object, EventTarget, EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean) TouchEvent(Object, EventTarget, EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean)}
+     * and returns an instance of {@code TouchEventBuilder}.
      *
      * @return an instance of the {@code TouchEventBuilder}.
      */
@@ -43,8 +43,8 @@ public class TouchEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.TouchEvent#TouchEvent(EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean) TouchEvent(EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean)}
-     * and returns an instance of the {@code TouchEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.TouchEvent#TouchEvent(EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean) TouchEvent(EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean)}
+     * and returns an instance of {@code TouchEventBuilder}.
      *
      * @return an instance of the {@code TouchEventBuilder}.
      */

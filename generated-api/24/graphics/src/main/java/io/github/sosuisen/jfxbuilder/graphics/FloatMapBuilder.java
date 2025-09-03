@@ -37,8 +37,8 @@ public class FloatMapBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.FloatMap#FloatMap(int, int) FloatMap(int, int)}
-     * and returns an instance of the {@code FloatMapBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.FloatMap#FloatMap(int, int) FloatMap(int, int)}
+     * and returns an instance of {@code FloatMapBuilder}.
      *
      * @return an instance of the {@code FloatMapBuilder}.
      */

@@ -37,8 +37,8 @@ public class ChoiceBoxTableCellBuilder<S, T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(Object...) ChoiceBoxTableCell(Object...)}
-     * and returns an instance of the {@code ChoiceBoxTableCellBuilder<S, T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(Object...) ChoiceBoxTableCell(Object...)}
+     * and returns an instance of {@code ChoiceBoxTableCellBuilder<S, T>}.
      *
      * @return an instance of the {@code ChoiceBoxTableCellBuilder<S, T>}.
      */
@@ -51,8 +51,8 @@ public class ChoiceBoxTableCellBuilder<S, T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(ObservableList) ChoiceBoxTableCell(ObservableList)}
-     * and returns an instance of the {@code ChoiceBoxTableCellBuilder<S, T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(ObservableList) ChoiceBoxTableCell(ObservableList)}
+     * and returns an instance of {@code ChoiceBoxTableCellBuilder<S, T>}.
      *
      * @return an instance of the {@code ChoiceBoxTableCellBuilder<S, T>}.
      */
@@ -65,8 +65,8 @@ public class ChoiceBoxTableCellBuilder<S, T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(StringConverter, Object...) ChoiceBoxTableCell(StringConverter, Object...)}
-     * and returns an instance of the {@code ChoiceBoxTableCellBuilder<S, T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(StringConverter, Object...) ChoiceBoxTableCell(StringConverter, Object...)}
+     * and returns an instance of {@code ChoiceBoxTableCellBuilder<S, T>}.
      *
      * @return an instance of the {@code ChoiceBoxTableCellBuilder<S, T>}.
      */
@@ -79,8 +79,8 @@ public class ChoiceBoxTableCellBuilder<S, T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(StringConverter, ObservableList) ChoiceBoxTableCell(StringConverter, ObservableList)}
-     * and returns an instance of the {@code ChoiceBoxTableCellBuilder<S, T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(StringConverter, ObservableList) ChoiceBoxTableCell(StringConverter, ObservableList)}
+     * and returns an instance of {@code ChoiceBoxTableCellBuilder<S, T>}.
      *
      * @return an instance of the {@code ChoiceBoxTableCellBuilder<S, T>}.
      */
@@ -1323,7 +1323,7 @@ public class ChoiceBoxTableCellBuilder<S, T> {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getItems()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1336,7 +1336,7 @@ public class ChoiceBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getItems()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1349,7 +1349,7 @@ public class ChoiceBoxTableCellBuilder<S, T> {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getItems()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1360,7 +1360,7 @@ public class ChoiceBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getItems()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1371,7 +1371,7 @@ public class ChoiceBoxTableCellBuilder<S, T> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1384,7 +1384,7 @@ public class ChoiceBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1398,7 +1398,7 @@ public class ChoiceBoxTableCellBuilder<S, T> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1411,7 +1411,7 @@ public class ChoiceBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1425,7 +1425,7 @@ public class ChoiceBoxTableCellBuilder<S, T> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1438,7 +1438,7 @@ public class ChoiceBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getTransforms()} method.
      * 
      * @return builder instance
      */

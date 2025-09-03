@@ -37,8 +37,8 @@ public class GroupBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.Group#Group(Collection) Group(Collection)}
-     * and returns an instance of the {@code GroupBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.Group#Group(Collection) Group(Collection)}
+     * and returns an instance of {@code GroupBuilder}.
      *
      * @return an instance of the {@code GroupBuilder}.
      */
@@ -51,8 +51,8 @@ public class GroupBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.Group#Group(Node...) Group(Node...)}
-     * and returns an instance of the {@code GroupBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.Group#Group(Node...) Group(Node...)}
+     * and returns an instance of {@code GroupBuilder}.
      *
      * @return an instance of the {@code GroupBuilder}.
      */
@@ -923,7 +923,7 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -936,7 +936,7 @@ public class GroupBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -949,7 +949,7 @@ public class GroupBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getChildren()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -960,7 +960,7 @@ public class GroupBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getChildren()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -971,7 +971,7 @@ public class GroupBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -984,7 +984,7 @@ public class GroupBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -998,7 +998,7 @@ public class GroupBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1011,7 +1011,7 @@ public class GroupBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1025,7 +1025,7 @@ public class GroupBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1038,7 +1038,7 @@ public class GroupBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getTransforms()} method.
      * 
      * @return builder instance
      */

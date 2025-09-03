@@ -29,8 +29,8 @@ public class TreeTableViewResizeFeaturesBuilder<S> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeTableView.ResizeFeatures#ResizeFeatures(TreeTableView, TreeTableColumn, Double) ResizeFeatures(TreeTableView, TreeTableColumn, Double)}
-     * and returns an instance of the {@code TreeTableViewResizeFeaturesBuilder<S>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeTableView.ResizeFeatures#ResizeFeatures(TreeTableView, TreeTableColumn, Double) ResizeFeatures(TreeTableView, TreeTableColumn, Double)}
+     * and returns an instance of {@code TreeTableViewResizeFeaturesBuilder<S>}.
      *
      * @return an instance of the {@code TreeTableViewResizeFeaturesBuilder<S>}.
      */

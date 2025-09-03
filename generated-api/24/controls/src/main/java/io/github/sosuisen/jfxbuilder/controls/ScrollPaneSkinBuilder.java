@@ -29,8 +29,8 @@ public class ScrollPaneSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.ScrollPaneSkin#ScrollPaneSkin(ScrollPane) ScrollPaneSkin(ScrollPane)}
-     * and returns an instance of the {@code ScrollPaneSkinBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.ScrollPaneSkin#ScrollPaneSkin(ScrollPane) ScrollPaneSkin(ScrollPane)}
+     * and returns an instance of {@code ScrollPaneSkinBuilder}.
      *
      * @return an instance of the {@code ScrollPaneSkinBuilder}.
      */
@@ -140,7 +140,7 @@ public class ScrollPaneSkinBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ScrollPaneSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ScrollPaneSkin#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -153,7 +153,7 @@ public class ScrollPaneSkinBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ScrollPaneSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ScrollPaneSkin#getChildren()} method.
      * 
      * @return builder instance
      */

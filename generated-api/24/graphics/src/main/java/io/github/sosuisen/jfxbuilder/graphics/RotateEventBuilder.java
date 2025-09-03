@@ -29,8 +29,8 @@ public class RotateEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.RotateEvent#RotateEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult) RotateEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
-     * and returns an instance of the {@code RotateEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.RotateEvent#RotateEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult) RotateEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
+     * and returns an instance of {@code RotateEventBuilder}.
      *
      * @return an instance of the {@code RotateEventBuilder}.
      */
@@ -43,8 +43,8 @@ public class RotateEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.RotateEvent#RotateEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult) RotateEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
-     * and returns an instance of the {@code RotateEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.RotateEvent#RotateEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult) RotateEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
+     * and returns an instance of {@code RotateEventBuilder}.
      *
      * @return an instance of the {@code RotateEventBuilder}.
      */

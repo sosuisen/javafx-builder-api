@@ -29,8 +29,8 @@ public class ImageBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.image.Image#Image(InputStream) Image(InputStream)}
-     * and returns an instance of the {@code ImageBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.image.Image#Image(InputStream) Image(InputStream)}
+     * and returns an instance of {@code ImageBuilder}.
      *
      * @return an instance of the {@code ImageBuilder}.
      */
@@ -43,8 +43,8 @@ public class ImageBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.image.Image#Image(InputStream, double, double, boolean, boolean) Image(InputStream, double, double, boolean, boolean)}
-     * and returns an instance of the {@code ImageBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.image.Image#Image(InputStream, double, double, boolean, boolean) Image(InputStream, double, double, boolean, boolean)}
+     * and returns an instance of {@code ImageBuilder}.
      *
      * @return an instance of the {@code ImageBuilder}.
      */
@@ -57,8 +57,8 @@ public class ImageBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.image.Image#Image(String) Image(String)}
-     * and returns an instance of the {@code ImageBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.image.Image#Image(String) Image(String)}
+     * and returns an instance of {@code ImageBuilder}.
      *
      * @return an instance of the {@code ImageBuilder}.
      */
@@ -71,8 +71,8 @@ public class ImageBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.image.Image#Image(String, boolean) Image(String, boolean)}
-     * and returns an instance of the {@code ImageBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.image.Image#Image(String, boolean) Image(String, boolean)}
+     * and returns an instance of {@code ImageBuilder}.
      *
      * @return an instance of the {@code ImageBuilder}.
      */
@@ -85,8 +85,8 @@ public class ImageBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.image.Image#Image(String, double, double, boolean, boolean) Image(String, double, double, boolean, boolean)}
-     * and returns an instance of the {@code ImageBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.image.Image#Image(String, double, double, boolean, boolean) Image(String, double, double, boolean, boolean)}
+     * and returns an instance of {@code ImageBuilder}.
      *
      * @return an instance of the {@code ImageBuilder}.
      */
@@ -99,8 +99,8 @@ public class ImageBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.image.Image#Image(String, double, double, boolean, boolean, boolean) Image(String, double, double, boolean, boolean, boolean)}
-     * and returns an instance of the {@code ImageBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.image.Image#Image(String, double, double, boolean, boolean, boolean) Image(String, double, double, boolean, boolean, boolean)}
+     * and returns an instance of {@code ImageBuilder}.
      *
      * @return an instance of the {@code ImageBuilder}.
      */

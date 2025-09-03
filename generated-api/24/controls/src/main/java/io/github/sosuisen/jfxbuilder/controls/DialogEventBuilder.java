@@ -29,8 +29,8 @@ public class DialogEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.DialogEvent#DialogEvent(Dialog, EventType) DialogEvent(Dialog, EventType)}
-     * and returns an instance of the {@code DialogEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.DialogEvent#DialogEvent(Dialog, EventType) DialogEvent(Dialog, EventType)}
+     * and returns an instance of {@code DialogEventBuilder}.
      *
      * @return an instance of the {@code DialogEventBuilder}.
      */

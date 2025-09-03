@@ -29,8 +29,8 @@ public class WebErrorEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.web.WebErrorEvent#WebErrorEvent(Object, EventType, String, Throwable) WebErrorEvent(Object, EventType, String, Throwable)}
-     * and returns an instance of the {@code WebErrorEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.web.WebErrorEvent#WebErrorEvent(Object, EventType, String, Throwable) WebErrorEvent(Object, EventType, String, Throwable)}
+     * and returns an instance of {@code WebErrorEventBuilder}.
      *
      * @return an instance of the {@code WebErrorEventBuilder}.
      */

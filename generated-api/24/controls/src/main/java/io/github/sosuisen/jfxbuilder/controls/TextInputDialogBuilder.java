@@ -37,8 +37,8 @@ public class TextInputDialogBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TextInputDialog#TextInputDialog(String) TextInputDialog(String)}
-     * and returns an instance of the {@code TextInputDialogBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TextInputDialog#TextInputDialog(String) TextInputDialog(String)}
+     * and returns an instance of {@code TextInputDialogBuilder}.
      *
      * @return an instance of the {@code TextInputDialogBuilder}.
      */

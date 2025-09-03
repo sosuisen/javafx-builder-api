@@ -28,26 +28,26 @@ package io.github.sosuisen.jfxbuilder.graphics;
  * StringProperty textProp = new SimpleStringProperty("100");
  *
  * Scene scene = SceneBuilder.withRoot(
- *                   HBoxBuilder.withChildren(
- *                                   TextFieldBuilder.create()
- *                                       .textPropertyApply(prop -> prop.bindBidirectional(textProp))
- *                                       .style("""
- *                                              -fx-font-weight: bold;
- *                                              -fx-alignment: center;
- *                                              """)
- *                                       .hGrowInHBox(Priority.ALWAYS)
- *                                       .maxWidth(Double.MAX_VALUE)
- *                                       .build(),
- *                                   ButtonBuilder.create()
- *                                       .text("Send")
- *                                       .onAction(e -> System.out.println("Sending..."))
- *                                       .minWidth(50)
- *                                       .build())
- *                              .padding(new Insets(10))
- *                              .build())
- *                 .width(150) // custom setter
- *                 .height(100) // custom setter
- *                 .build();
+ *                     HBoxBuilder.withChildren(
+ *                           TextFieldBuilder.create()
+ *                               .textPropertyApply(prop -> prop.bindBidirectional(textProp))
+ *                               .style("""
+ *                                      -fx-font-weight: bold;
+ *                                      -fx-alignment: center;
+ *                                      """)
+ *                               .hGrowInHBox(Priority.ALWAYS)
+ *                               .maxWidth(Double.MAX_VALUE)
+ *                               .build(),
+ *                           ButtonBuilder.create()
+ *                               .text("Send")
+ *                               .onAction(e -> System.out.println("Sending..."))
+ *                               .minWidth(50)
+ *                               .build())
+ *                         .padding(new Insets(10))
+ *                         .build())
+ *                   .width(150) // custom setter
+ *                   .height(100) // custom setter
+ *                   .build();
  * }</pre>
  *
  * @author Hidekazu Kubota &lt;hidekazu.kubota@gmail.com&gt;

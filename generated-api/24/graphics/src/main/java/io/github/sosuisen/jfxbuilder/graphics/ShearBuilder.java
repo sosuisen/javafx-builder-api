@@ -37,8 +37,8 @@ public class ShearBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Shear#Shear(double, double) Shear(double, double)}
-     * and returns an instance of the {@code ShearBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.transform.Shear#Shear(double, double) Shear(double, double)}
+     * and returns an instance of {@code ShearBuilder}.
      *
      * @return an instance of the {@code ShearBuilder}.
      */
@@ -51,8 +51,8 @@ public class ShearBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Shear#Shear(double, double, double, double) Shear(double, double, double, double)}
-     * and returns an instance of the {@code ShearBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.transform.Shear#Shear(double, double, double, double) Shear(double, double, double, double)}
+     * and returns an instance of {@code ShearBuilder}.
      *
      * @return an instance of the {@code ShearBuilder}.
      */

@@ -29,8 +29,8 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#IntegerSpinnerValueFactory(int, int) IntegerSpinnerValueFactory(int, int)}
-     * and returns an instance of the {@code SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#IntegerSpinnerValueFactory(int, int) IntegerSpinnerValueFactory(int, int)}
+     * and returns an instance of {@code SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder}.
      *
      * @return an instance of the {@code SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder}.
      */
@@ -43,8 +43,8 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#IntegerSpinnerValueFactory(int, int, int) IntegerSpinnerValueFactory(int, int, int)}
-     * and returns an instance of the {@code SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#IntegerSpinnerValueFactory(int, int, int) IntegerSpinnerValueFactory(int, int, int)}
+     * and returns an instance of {@code SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder}.
      *
      * @return an instance of the {@code SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder}.
      */
@@ -57,8 +57,8 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#IntegerSpinnerValueFactory(int, int, int, int) IntegerSpinnerValueFactory(int, int, int, int)}
-     * and returns an instance of the {@code SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#IntegerSpinnerValueFactory(int, int, int, int) IntegerSpinnerValueFactory(int, int, int, int)}
+     * and returns an instance of {@code SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder}.
      *
      * @return an instance of the {@code SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder}.
      */

@@ -29,8 +29,8 @@ public class StackedBarChartBuilder<X, Y> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.StackedBarChart#StackedBarChart(Axis, Axis) StackedBarChart(Axis, Axis)}
-     * and returns an instance of the {@code StackedBarChartBuilder<X, Y>}.
+     * Accepts the constructor arguments of {@link javafx.scene.chart.StackedBarChart#StackedBarChart(Axis, Axis) StackedBarChart(Axis, Axis)}
+     * and returns an instance of {@code StackedBarChartBuilder<X, Y>}.
      *
      * @return an instance of the {@code StackedBarChartBuilder<X, Y>}.
      */
@@ -43,8 +43,8 @@ public class StackedBarChartBuilder<X, Y> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.StackedBarChart#StackedBarChart(Axis, Axis, ObservableList) StackedBarChart(Axis, Axis, ObservableList)}
-     * and returns an instance of the {@code StackedBarChartBuilder<X, Y>}.
+     * Accepts the constructor arguments of {@link javafx.scene.chart.StackedBarChart#StackedBarChart(Axis, Axis, ObservableList) StackedBarChart(Axis, Axis, ObservableList)}
+     * and returns an instance of {@code StackedBarChartBuilder<X, Y>}.
      *
      * @return an instance of the {@code StackedBarChartBuilder<X, Y>}.
      */
@@ -57,8 +57,8 @@ public class StackedBarChartBuilder<X, Y> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.StackedBarChart#StackedBarChart(Axis, Axis, ObservableList, double) StackedBarChart(Axis, Axis, ObservableList, double)}
-     * and returns an instance of the {@code StackedBarChartBuilder<X, Y>}.
+     * Accepts the constructor arguments of {@link javafx.scene.chart.StackedBarChart#StackedBarChart(Axis, Axis, ObservableList, double) StackedBarChart(Axis, Axis, ObservableList, double)}
+     * and returns an instance of {@code StackedBarChartBuilder<X, Y>}.
      *
      * @return an instance of the {@code StackedBarChartBuilder<X, Y>}.
      */
@@ -1225,7 +1225,7 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getData()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getData()} method.
      * 
      * @return builder instance
      */
@@ -1238,7 +1238,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getData()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getData()} method.
      * 
      * @return builder instance
      */
@@ -1252,7 +1252,7 @@ public class StackedBarChartBuilder<X, Y> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1265,7 +1265,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1279,7 +1279,7 @@ public class StackedBarChartBuilder<X, Y> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1292,7 +1292,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1306,7 +1306,7 @@ public class StackedBarChartBuilder<X, Y> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1319,7 +1319,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getTransforms()} method.
      * 
      * @return builder instance
      */

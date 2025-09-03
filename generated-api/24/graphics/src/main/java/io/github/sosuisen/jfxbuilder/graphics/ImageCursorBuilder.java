@@ -37,8 +37,8 @@ public class ImageCursorBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.ImageCursor#ImageCursor(Image) ImageCursor(Image)}
-     * and returns an instance of the {@code ImageCursorBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.ImageCursor#ImageCursor(Image) ImageCursor(Image)}
+     * and returns an instance of {@code ImageCursorBuilder}.
      *
      * @return an instance of the {@code ImageCursorBuilder}.
      */
@@ -51,8 +51,8 @@ public class ImageCursorBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.ImageCursor#ImageCursor(Image, double, double) ImageCursor(Image, double, double)}
-     * and returns an instance of the {@code ImageCursorBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.ImageCursor#ImageCursor(Image, double, double) ImageCursor(Image, double, double)}
+     * and returns an instance of {@code ImageCursorBuilder}.
      *
      * @return an instance of the {@code ImageCursorBuilder}.
      */

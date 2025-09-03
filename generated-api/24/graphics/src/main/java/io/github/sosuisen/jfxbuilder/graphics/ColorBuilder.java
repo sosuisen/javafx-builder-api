@@ -29,8 +29,8 @@ public class ColorBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.paint.Color#Color(double, double, double, double) Color(double, double, double, double)}
-     * and returns an instance of the {@code ColorBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.paint.Color#Color(double, double, double, double) Color(double, double, double, double)}
+     * and returns an instance of {@code ColorBuilder}.
      *
      * @return an instance of the {@code ColorBuilder}.
      */

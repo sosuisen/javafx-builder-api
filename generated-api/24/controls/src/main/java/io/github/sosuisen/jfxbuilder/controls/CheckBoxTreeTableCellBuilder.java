@@ -37,8 +37,8 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.CheckBoxTreeTableCell#CheckBoxTreeTableCell(Callback) CheckBoxTreeTableCell(Callback)}
-     * and returns an instance of the {@code CheckBoxTreeTableCellBuilder<S, T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.CheckBoxTreeTableCell#CheckBoxTreeTableCell(Callback) CheckBoxTreeTableCell(Callback)}
+     * and returns an instance of {@code CheckBoxTreeTableCellBuilder<S, T>}.
      *
      * @return an instance of the {@code CheckBoxTreeTableCellBuilder<S, T>}.
      */
@@ -51,8 +51,8 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.CheckBoxTreeTableCell#CheckBoxTreeTableCell(Callback, StringConverter) CheckBoxTreeTableCell(Callback, StringConverter)}
-     * and returns an instance of the {@code CheckBoxTreeTableCellBuilder<S, T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.CheckBoxTreeTableCell#CheckBoxTreeTableCell(Callback, StringConverter) CheckBoxTreeTableCell(Callback, StringConverter)}
+     * and returns an instance of {@code CheckBoxTreeTableCellBuilder<S, T>}.
      *
      * @return an instance of the {@code CheckBoxTreeTableCellBuilder<S, T>}.
      */
@@ -1305,7 +1305,7 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeTableCell#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeTableCell#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1318,7 +1318,7 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeTableCell#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeTableCell#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1332,7 +1332,7 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeTableCell#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeTableCell#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1345,7 +1345,7 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeTableCell#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeTableCell#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1359,7 +1359,7 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeTableCell#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeTableCell#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1372,7 +1372,7 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeTableCell#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeTableCell#getTransforms()} method.
      * 
      * @return builder instance
      */

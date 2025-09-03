@@ -37,8 +37,8 @@ public class PerspectiveCameraBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.PerspectiveCamera#PerspectiveCamera(boolean) PerspectiveCamera(boolean)}
-     * and returns an instance of the {@code PerspectiveCameraBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.PerspectiveCamera#PerspectiveCamera(boolean) PerspectiveCamera(boolean)}
+     * and returns an instance of {@code PerspectiveCameraBuilder}.
      *
      * @return an instance of the {@code PerspectiveCameraBuilder}.
      */
@@ -939,7 +939,7 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.PerspectiveCamera#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.PerspectiveCamera#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -952,7 +952,7 @@ public class PerspectiveCameraBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.PerspectiveCamera#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.PerspectiveCamera#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -966,7 +966,7 @@ public class PerspectiveCameraBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.PerspectiveCamera#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.PerspectiveCamera#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -979,7 +979,7 @@ public class PerspectiveCameraBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.PerspectiveCamera#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.PerspectiveCamera#getTransforms()} method.
      * 
      * @return builder instance
      */

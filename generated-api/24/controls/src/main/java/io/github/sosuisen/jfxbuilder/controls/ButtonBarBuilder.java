@@ -37,8 +37,8 @@ public class ButtonBarBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.ButtonBar#ButtonBar(String) ButtonBar(String)}
-     * and returns an instance of the {@code ButtonBarBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.ButtonBar#ButtonBar(String) ButtonBar(String)}
+     * and returns an instance of {@code ButtonBarBuilder}.
      *
      * @return an instance of the {@code ButtonBarBuilder}.
      */
@@ -1129,7 +1129,7 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getButtons()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getButtons()} method.
      * 
      * @return builder instance
      */
@@ -1142,7 +1142,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getButtons()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getButtons()} method.
      * 
      * @return builder instance
      */
@@ -1155,7 +1155,7 @@ public class ButtonBarBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getButtons()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getButtons()} method.
      * 
      * @return builder instance
      */
@@ -1166,7 +1166,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getButtons()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getButtons()} method.
      * 
      * @return builder instance
      */
@@ -1177,7 +1177,7 @@ public class ButtonBarBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1190,7 +1190,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1204,7 +1204,7 @@ public class ButtonBarBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1217,7 +1217,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1231,7 +1231,7 @@ public class ButtonBarBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1244,7 +1244,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ButtonBar#getTransforms()} method.
      * 
      * @return builder instance
      */

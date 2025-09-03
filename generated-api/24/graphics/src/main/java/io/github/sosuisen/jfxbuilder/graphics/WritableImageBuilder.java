@@ -29,8 +29,8 @@ public class WritableImageBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.image.WritableImage#WritableImage(int, int) WritableImage(int, int)}
-     * and returns an instance of the {@code WritableImageBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.image.WritableImage#WritableImage(int, int) WritableImage(int, int)}
+     * and returns an instance of {@code WritableImageBuilder}.
      *
      * @return an instance of the {@code WritableImageBuilder}.
      */
@@ -43,8 +43,8 @@ public class WritableImageBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.image.WritableImage#WritableImage(PixelBuffer) WritableImage(PixelBuffer)}
-     * and returns an instance of the {@code WritableImageBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.image.WritableImage#WritableImage(PixelBuffer) WritableImage(PixelBuffer)}
+     * and returns an instance of {@code WritableImageBuilder}.
      *
      * @return an instance of the {@code WritableImageBuilder}.
      */
@@ -57,8 +57,8 @@ public class WritableImageBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.image.WritableImage#WritableImage(PixelReader, int, int) WritableImage(PixelReader, int, int)}
-     * and returns an instance of the {@code WritableImageBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.image.WritableImage#WritableImage(PixelReader, int, int) WritableImage(PixelReader, int, int)}
+     * and returns an instance of {@code WritableImageBuilder}.
      *
      * @return an instance of the {@code WritableImageBuilder}.
      */
@@ -71,8 +71,8 @@ public class WritableImageBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.image.WritableImage#WritableImage(PixelReader, int, int, int, int) WritableImage(PixelReader, int, int, int, int)}
-     * and returns an instance of the {@code WritableImageBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.image.WritableImage#WritableImage(PixelReader, int, int, int, int) WritableImage(PixelReader, int, int, int, int)}
+     * and returns an instance of {@code WritableImageBuilder}.
      *
      * @return an instance of the {@code WritableImageBuilder}.
      */

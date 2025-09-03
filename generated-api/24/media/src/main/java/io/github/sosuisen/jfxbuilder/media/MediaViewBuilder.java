@@ -37,8 +37,8 @@ public class MediaViewBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.media.MediaView#MediaView(MediaPlayer) MediaView(MediaPlayer)}
-     * and returns an instance of the {@code MediaViewBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.media.MediaView#MediaView(MediaPlayer) MediaView(MediaPlayer)}
+     * and returns an instance of {@code MediaViewBuilder}.
      *
      * @return an instance of the {@code MediaViewBuilder}.
      */
@@ -989,7 +989,7 @@ public class MediaViewBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.media.MediaView#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.media.MediaView#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1002,7 +1002,7 @@ public class MediaViewBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.media.MediaView#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.media.MediaView#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1016,7 +1016,7 @@ public class MediaViewBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.media.MediaView#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.media.MediaView#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1029,7 +1029,7 @@ public class MediaViewBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.media.MediaView#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.media.MediaView#getTransforms()} method.
      * 
      * @return builder instance
      */

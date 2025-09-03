@@ -37,8 +37,8 @@ public class PaginationBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Pagination#Pagination(int) Pagination(int)}
-     * and returns an instance of the {@code PaginationBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Pagination#Pagination(int) Pagination(int)}
+     * and returns an instance of {@code PaginationBuilder}.
      *
      * @return an instance of the {@code PaginationBuilder}.
      */
@@ -51,8 +51,8 @@ public class PaginationBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Pagination#Pagination(int, int) Pagination(int, int)}
-     * and returns an instance of the {@code PaginationBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Pagination#Pagination(int, int) Pagination(int, int)}
+     * and returns an instance of {@code PaginationBuilder}.
      *
      * @return an instance of the {@code PaginationBuilder}.
      */
@@ -1163,7 +1163,7 @@ public class PaginationBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Pagination#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Pagination#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1176,7 +1176,7 @@ public class PaginationBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Pagination#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Pagination#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1190,7 +1190,7 @@ public class PaginationBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Pagination#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Pagination#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1203,7 +1203,7 @@ public class PaginationBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Pagination#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Pagination#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1217,7 +1217,7 @@ public class PaginationBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Pagination#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Pagination#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1230,7 +1230,7 @@ public class PaginationBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Pagination#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Pagination#getTransforms()} method.
      * 
      * @return builder instance
      */

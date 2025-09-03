@@ -37,8 +37,8 @@ public class ToolBarBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.ToolBar#ToolBar(Node...) ToolBar(Node...)}
-     * and returns an instance of the {@code ToolBarBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.ToolBar#ToolBar(Node...) ToolBar(Node...)}
+     * and returns an instance of {@code ToolBarBuilder}.
      *
      * @return an instance of the {@code ToolBarBuilder}.
      */
@@ -1119,7 +1119,7 @@ public class ToolBarBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getItems()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1132,7 +1132,7 @@ public class ToolBarBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getItems()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1145,7 +1145,7 @@ public class ToolBarBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getItems()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1156,7 +1156,7 @@ public class ToolBarBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getItems()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1167,7 +1167,7 @@ public class ToolBarBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1180,7 +1180,7 @@ public class ToolBarBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1194,7 +1194,7 @@ public class ToolBarBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1207,7 +1207,7 @@ public class ToolBarBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1221,7 +1221,7 @@ public class ToolBarBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1234,7 +1234,7 @@ public class ToolBarBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToolBar#getTransforms()} method.
      * 
      * @return builder instance
      */

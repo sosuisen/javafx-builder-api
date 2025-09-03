@@ -29,8 +29,8 @@ public class MediaPlayerBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.media.MediaPlayer#MediaPlayer(Media) MediaPlayer(Media)}
-     * and returns an instance of the {@code MediaPlayerBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.media.MediaPlayer#MediaPlayer(Media) MediaPlayer(Media)}
+     * and returns an instance of {@code MediaPlayerBuilder}.
      *
      * @return an instance of the {@code MediaPlayerBuilder}.
      */

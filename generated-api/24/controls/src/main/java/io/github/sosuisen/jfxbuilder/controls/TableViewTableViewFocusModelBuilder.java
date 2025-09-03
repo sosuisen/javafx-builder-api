@@ -29,8 +29,8 @@ public class TableViewTableViewFocusModelBuilder<S> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TableView.TableViewFocusModel#TableViewFocusModel(TableView) TableViewFocusModel(TableView)}
-     * and returns an instance of the {@code TableViewTableViewFocusModelBuilder<S>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TableView.TableViewFocusModel#TableViewFocusModel(TableView) TableViewFocusModel(TableView)}
+     * and returns an instance of {@code TableViewTableViewFocusModelBuilder<S>}.
      *
      * @return an instance of the {@code TableViewTableViewFocusModelBuilder<S>}.
      */

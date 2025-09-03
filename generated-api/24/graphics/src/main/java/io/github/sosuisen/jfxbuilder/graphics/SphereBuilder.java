@@ -37,8 +37,8 @@ public class SphereBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Sphere#Sphere(double) Sphere(double)}
-     * and returns an instance of the {@code SphereBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.Sphere#Sphere(double) Sphere(double)}
+     * and returns an instance of {@code SphereBuilder}.
      *
      * @return an instance of the {@code SphereBuilder}.
      */
@@ -51,8 +51,8 @@ public class SphereBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Sphere#Sphere(double, int) Sphere(double, int)}
-     * and returns an instance of the {@code SphereBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.Sphere#Sphere(double, int) Sphere(double, int)}
+     * and returns an instance of {@code SphereBuilder}.
      *
      * @return an instance of the {@code SphereBuilder}.
      */
@@ -953,7 +953,7 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Sphere#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Sphere#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -966,7 +966,7 @@ public class SphereBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Sphere#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Sphere#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -980,7 +980,7 @@ public class SphereBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Sphere#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Sphere#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -993,7 +993,7 @@ public class SphereBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Sphere#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Sphere#getTransforms()} method.
      * 
      * @return builder instance
      */

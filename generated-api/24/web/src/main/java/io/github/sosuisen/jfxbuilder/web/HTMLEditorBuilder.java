@@ -1105,7 +1105,7 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1118,7 +1118,7 @@ public class HTMLEditorBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1132,7 +1132,7 @@ public class HTMLEditorBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1145,7 +1145,7 @@ public class HTMLEditorBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1159,7 +1159,7 @@ public class HTMLEditorBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1172,7 +1172,7 @@ public class HTMLEditorBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getTransforms()} method.
      * 
      * @return builder instance
      */

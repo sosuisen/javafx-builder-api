@@ -37,8 +37,8 @@ public class HLineToBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.HLineTo#HLineTo(double) HLineTo(double)}
-     * and returns an instance of the {@code HLineToBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.HLineTo#HLineTo(double) HLineTo(double)}
+     * and returns an instance of {@code HLineToBuilder}.
      *
      * @return an instance of the {@code HLineToBuilder}.
      */

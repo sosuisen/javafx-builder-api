@@ -29,8 +29,8 @@ public class TreeTableColumnCellDataFeaturesBuilder<S, T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeTableColumn.CellDataFeatures#CellDataFeatures(TreeTableView, TreeTableColumn, TreeItem) CellDataFeatures(TreeTableView, TreeTableColumn, TreeItem)}
-     * and returns an instance of the {@code TreeTableColumnCellDataFeaturesBuilder<S, T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeTableColumn.CellDataFeatures#CellDataFeatures(TreeTableView, TreeTableColumn, TreeItem) CellDataFeatures(TreeTableView, TreeTableColumn, TreeItem)}
+     * and returns an instance of {@code TreeTableColumnCellDataFeaturesBuilder<S, T>}.
      *
      * @return an instance of the {@code TreeTableColumnCellDataFeaturesBuilder<S, T>}.
      */

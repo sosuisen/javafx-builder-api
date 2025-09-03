@@ -29,8 +29,8 @@ public class KeyCharacterCombinationBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.KeyCharacterCombination#KeyCharacterCombination(String, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue) KeyCharacterCombination(String, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue)}
-     * and returns an instance of the {@code KeyCharacterCombinationBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.KeyCharacterCombination#KeyCharacterCombination(String, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue) KeyCharacterCombination(String, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue)}
+     * and returns an instance of {@code KeyCharacterCombinationBuilder}.
      *
      * @return an instance of the {@code KeyCharacterCombinationBuilder}.
      */
@@ -43,8 +43,8 @@ public class KeyCharacterCombinationBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.KeyCharacterCombination#KeyCharacterCombination(String, KeyCombination$Modifier...) KeyCharacterCombination(String, KeyCombination$Modifier...)}
-     * and returns an instance of the {@code KeyCharacterCombinationBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.KeyCharacterCombination#KeyCharacterCombination(String, KeyCombination$Modifier...) KeyCharacterCombination(String, KeyCombination$Modifier...)}
+     * and returns an instance of {@code KeyCharacterCombinationBuilder}.
      *
      * @return an instance of the {@code KeyCharacterCombinationBuilder}.
      */

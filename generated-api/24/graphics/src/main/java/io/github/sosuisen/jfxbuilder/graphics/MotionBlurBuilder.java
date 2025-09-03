@@ -37,8 +37,8 @@ public class MotionBlurBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.MotionBlur#MotionBlur(double, double) MotionBlur(double, double)}
-     * and returns an instance of the {@code MotionBlurBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.MotionBlur#MotionBlur(double, double) MotionBlur(double, double)}
+     * and returns an instance of {@code MotionBlurBuilder}.
      *
      * @return an instance of the {@code MotionBlurBuilder}.
      */

@@ -29,8 +29,8 @@ public class TableHeaderRowBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.TableHeaderRow#TableHeaderRow(TableViewSkinBase) TableHeaderRow(TableViewSkinBase)}
-     * and returns an instance of the {@code TableHeaderRowBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.TableHeaderRow#TableHeaderRow(TableViewSkinBase) TableHeaderRow(TableViewSkinBase)}
+     * and returns an instance of {@code TableHeaderRowBuilder}.
      *
      * @return an instance of the {@code TableHeaderRowBuilder}.
      */
@@ -1089,7 +1089,7 @@ public class TableHeaderRowBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1102,7 +1102,7 @@ public class TableHeaderRowBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1116,7 +1116,7 @@ public class TableHeaderRowBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1129,7 +1129,7 @@ public class TableHeaderRowBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1143,7 +1143,7 @@ public class TableHeaderRowBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1156,7 +1156,7 @@ public class TableHeaderRowBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1170,7 +1170,7 @@ public class TableHeaderRowBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1183,7 +1183,7 @@ public class TableHeaderRowBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getTransforms()} method.
      * 
      * @return builder instance
      */

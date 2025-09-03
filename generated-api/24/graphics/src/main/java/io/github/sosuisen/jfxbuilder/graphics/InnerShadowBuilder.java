@@ -37,8 +37,8 @@ public class InnerShadowBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.InnerShadow#InnerShadow(double, double, double, Color) InnerShadow(double, double, double, Color)}
-     * and returns an instance of the {@code InnerShadowBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.InnerShadow#InnerShadow(double, double, double, Color) InnerShadow(double, double, double, Color)}
+     * and returns an instance of {@code InnerShadowBuilder}.
      *
      * @return an instance of the {@code InnerShadowBuilder}.
      */
@@ -51,8 +51,8 @@ public class InnerShadowBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.InnerShadow#InnerShadow(double, Color) InnerShadow(double, Color)}
-     * and returns an instance of the {@code InnerShadowBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.InnerShadow#InnerShadow(double, Color) InnerShadow(double, Color)}
+     * and returns an instance of {@code InnerShadowBuilder}.
      *
      * @return an instance of the {@code InnerShadowBuilder}.
      */
@@ -65,8 +65,8 @@ public class InnerShadowBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.InnerShadow#InnerShadow(BlurType, Color, double, double, double, double) InnerShadow(BlurType, Color, double, double, double, double)}
-     * and returns an instance of the {@code InnerShadowBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.InnerShadow#InnerShadow(BlurType, Color, double, double, double, double) InnerShadow(BlurType, Color, double, double, double, double)}
+     * and returns an instance of {@code InnerShadowBuilder}.
      *
      * @return an instance of the {@code InnerShadowBuilder}.
      */

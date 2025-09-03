@@ -29,8 +29,8 @@ public class ContextMenuEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.ContextMenuEvent#ContextMenuEvent(Object, EventTarget, EventType, double, double, double, double, boolean, PickResult) ContextMenuEvent(Object, EventTarget, EventType, double, double, double, double, boolean, PickResult)}
-     * and returns an instance of the {@code ContextMenuEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.ContextMenuEvent#ContextMenuEvent(Object, EventTarget, EventType, double, double, double, double, boolean, PickResult) ContextMenuEvent(Object, EventTarget, EventType, double, double, double, double, boolean, PickResult)}
+     * and returns an instance of {@code ContextMenuEventBuilder}.
      *
      * @return an instance of the {@code ContextMenuEventBuilder}.
      */
@@ -43,8 +43,8 @@ public class ContextMenuEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.ContextMenuEvent#ContextMenuEvent(EventType, double, double, double, double, boolean, PickResult) ContextMenuEvent(EventType, double, double, double, double, boolean, PickResult)}
-     * and returns an instance of the {@code ContextMenuEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.ContextMenuEvent#ContextMenuEvent(EventType, double, double, double, double, boolean, PickResult) ContextMenuEvent(EventType, double, double, double, double, boolean, PickResult)}
+     * and returns an instance of {@code ContextMenuEventBuilder}.
      *
      * @return an instance of the {@code ContextMenuEventBuilder}.
      */

@@ -37,8 +37,8 @@ public class SpinnerBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Spinner#Spinner(double, double, double) Spinner(double, double, double)}
-     * and returns an instance of the {@code SpinnerBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Spinner#Spinner(double, double, double) Spinner(double, double, double)}
+     * and returns an instance of {@code SpinnerBuilder<T>}.
      *
      * @return an instance of the {@code SpinnerBuilder<T>}.
      */
@@ -51,8 +51,8 @@ public class SpinnerBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Spinner#Spinner(double, double, double, double) Spinner(double, double, double, double)}
-     * and returns an instance of the {@code SpinnerBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Spinner#Spinner(double, double, double, double) Spinner(double, double, double, double)}
+     * and returns an instance of {@code SpinnerBuilder<T>}.
      *
      * @return an instance of the {@code SpinnerBuilder<T>}.
      */
@@ -65,8 +65,8 @@ public class SpinnerBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Spinner#Spinner(int, int, int) Spinner(int, int, int)}
-     * and returns an instance of the {@code SpinnerBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Spinner#Spinner(int, int, int) Spinner(int, int, int)}
+     * and returns an instance of {@code SpinnerBuilder<T>}.
      *
      * @return an instance of the {@code SpinnerBuilder<T>}.
      */
@@ -79,8 +79,8 @@ public class SpinnerBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Spinner#Spinner(int, int, int, int) Spinner(int, int, int, int)}
-     * and returns an instance of the {@code SpinnerBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Spinner#Spinner(int, int, int, int) Spinner(int, int, int, int)}
+     * and returns an instance of {@code SpinnerBuilder<T>}.
      *
      * @return an instance of the {@code SpinnerBuilder<T>}.
      */
@@ -93,8 +93,8 @@ public class SpinnerBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Spinner#Spinner(ObservableList) Spinner(ObservableList)}
-     * and returns an instance of the {@code SpinnerBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Spinner#Spinner(ObservableList) Spinner(ObservableList)}
+     * and returns an instance of {@code SpinnerBuilder<T>}.
      *
      * @return an instance of the {@code SpinnerBuilder<T>}.
      */
@@ -107,8 +107,8 @@ public class SpinnerBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Spinner#Spinner(SpinnerValueFactory) Spinner(SpinnerValueFactory)}
-     * and returns an instance of the {@code SpinnerBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Spinner#Spinner(SpinnerValueFactory) Spinner(SpinnerValueFactory)}
+     * and returns an instance of {@code SpinnerBuilder<T>}.
      *
      * @return an instance of the {@code SpinnerBuilder<T>}.
      */
@@ -1231,7 +1231,7 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Spinner#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Spinner#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1244,7 +1244,7 @@ public class SpinnerBuilder<T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Spinner#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Spinner#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1258,7 +1258,7 @@ public class SpinnerBuilder<T> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Spinner#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Spinner#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1271,7 +1271,7 @@ public class SpinnerBuilder<T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Spinner#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Spinner#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1285,7 +1285,7 @@ public class SpinnerBuilder<T> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Spinner#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Spinner#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1298,7 +1298,7 @@ public class SpinnerBuilder<T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Spinner#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Spinner#getTransforms()} method.
      * 
      * @return builder instance
      */

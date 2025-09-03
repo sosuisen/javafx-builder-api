@@ -37,8 +37,8 @@ public class AmbientLightBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.AmbientLight#AmbientLight(Color) AmbientLight(Color)}
-     * and returns an instance of the {@code AmbientLightBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.AmbientLight#AmbientLight(Color) AmbientLight(Color)}
+     * and returns an instance of {@code AmbientLightBuilder}.
      *
      * @return an instance of the {@code AmbientLightBuilder}.
      */
@@ -919,7 +919,7 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getExclusionScope()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getExclusionScope()} method.
      * 
      * @return builder instance
      */
@@ -932,7 +932,7 @@ public class AmbientLightBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getExclusionScope()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getExclusionScope()} method.
      * 
      * @return builder instance
      */
@@ -945,7 +945,7 @@ public class AmbientLightBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getExclusionScope()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getExclusionScope()} method.
      * 
      * @return builder instance
      */
@@ -956,7 +956,7 @@ public class AmbientLightBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getExclusionScope()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getExclusionScope()} method.
      * 
      * @return builder instance
      */
@@ -967,7 +967,7 @@ public class AmbientLightBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getScope()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getScope()} method.
      * 
      * @return builder instance
      */
@@ -980,7 +980,7 @@ public class AmbientLightBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getScope()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getScope()} method.
      * 
      * @return builder instance
      */
@@ -993,7 +993,7 @@ public class AmbientLightBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getScope()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getScope()} method.
      * 
      * @return builder instance
      */
@@ -1004,7 +1004,7 @@ public class AmbientLightBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getScope()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getScope()} method.
      * 
      * @return builder instance
      */
@@ -1015,7 +1015,7 @@ public class AmbientLightBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1028,7 +1028,7 @@ public class AmbientLightBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1042,7 +1042,7 @@ public class AmbientLightBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1055,7 +1055,7 @@ public class AmbientLightBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getTransforms()} method.
      * 
      * @return builder instance
      */

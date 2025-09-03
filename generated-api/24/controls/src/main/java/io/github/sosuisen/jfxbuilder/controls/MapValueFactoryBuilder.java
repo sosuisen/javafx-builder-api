@@ -29,8 +29,8 @@ public class MapValueFactoryBuilder<T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.MapValueFactory#MapValueFactory(Object) MapValueFactory(Object)}
-     * and returns an instance of the {@code MapValueFactoryBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.MapValueFactory#MapValueFactory(Object) MapValueFactory(Object)}
+     * and returns an instance of {@code MapValueFactoryBuilder<T>}.
      *
      * @return an instance of the {@code MapValueFactoryBuilder<T>}.
      */

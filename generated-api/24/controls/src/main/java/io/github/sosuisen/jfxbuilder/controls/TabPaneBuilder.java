@@ -37,8 +37,8 @@ public class TabPaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TabPane#TabPane(Tab...) TabPane(Tab...)}
-     * and returns an instance of the {@code TabPaneBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TabPane#TabPane(Tab...) TabPane(Tab...)}
+     * and returns an instance of {@code TabPaneBuilder}.
      *
      * @return an instance of the {@code TabPaneBuilder}.
      */
@@ -1199,7 +1199,7 @@ public class TabPaneBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1212,7 +1212,7 @@ public class TabPaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1226,7 +1226,7 @@ public class TabPaneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1239,7 +1239,7 @@ public class TabPaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1253,7 +1253,7 @@ public class TabPaneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getTabs()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getTabs()} method.
      * 
      * @return builder instance
      */
@@ -1266,7 +1266,7 @@ public class TabPaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getTabs()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getTabs()} method.
      * 
      * @return builder instance
      */
@@ -1279,7 +1279,7 @@ public class TabPaneBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getTabs()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getTabs()} method.
      * 
      * @return builder instance
      */
@@ -1290,7 +1290,7 @@ public class TabPaneBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getTabs()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getTabs()} method.
      * 
      * @return builder instance
      */
@@ -1301,7 +1301,7 @@ public class TabPaneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1314,7 +1314,7 @@ public class TabPaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getTransforms()} method.
      * 
      * @return builder instance
      */

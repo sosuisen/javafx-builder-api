@@ -37,8 +37,8 @@ public class GlowBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.Glow#Glow(double) Glow(double)}
-     * and returns an instance of the {@code GlowBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.Glow#Glow(double) Glow(double)}
+     * and returns an instance of {@code GlowBuilder}.
      *
      * @return an instance of the {@code GlowBuilder}.
      */

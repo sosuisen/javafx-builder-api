@@ -29,8 +29,8 @@ public class AlertBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Alert#Alert(Alert$AlertType) Alert(Alert$AlertType)}
-     * and returns an instance of the {@code AlertBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Alert#Alert(Alert$AlertType) Alert(Alert$AlertType)}
+     * and returns an instance of {@code AlertBuilder}.
      *
      * @return an instance of the {@code AlertBuilder}.
      */
@@ -43,8 +43,8 @@ public class AlertBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Alert#Alert(Alert$AlertType, String, ButtonType...) Alert(Alert$AlertType, String, ButtonType...)}
-     * and returns an instance of the {@code AlertBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Alert#Alert(Alert$AlertType, String, ButtonType...) Alert(Alert$AlertType, String, ButtonType...)}
+     * and returns an instance of {@code AlertBuilder}.
      *
      * @return an instance of the {@code AlertBuilder}.
      */
@@ -334,7 +334,7 @@ public class AlertBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Alert#getButtonTypes()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Alert#getButtonTypes()} method.
      * 
      * @return builder instance
      */
@@ -347,7 +347,7 @@ public class AlertBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Alert#getButtonTypes()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Alert#getButtonTypes()} method.
      * 
      * @return builder instance
      */

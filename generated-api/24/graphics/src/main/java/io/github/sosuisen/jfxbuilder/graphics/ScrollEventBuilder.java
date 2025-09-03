@@ -29,8 +29,8 @@ public class ScrollEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.ScrollEvent#ScrollEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, double, double, ScrollEvent$HorizontalTextScrollUnits, double, ScrollEvent$VerticalTextScrollUnits, double, int, PickResult) ScrollEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, double, double, ScrollEvent$HorizontalTextScrollUnits, double, ScrollEvent$VerticalTextScrollUnits, double, int, PickResult)}
-     * and returns an instance of the {@code ScrollEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.ScrollEvent#ScrollEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, double, double, ScrollEvent$HorizontalTextScrollUnits, double, ScrollEvent$VerticalTextScrollUnits, double, int, PickResult) ScrollEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, double, double, ScrollEvent$HorizontalTextScrollUnits, double, ScrollEvent$VerticalTextScrollUnits, double, int, PickResult)}
+     * and returns an instance of {@code ScrollEventBuilder}.
      *
      * @return an instance of the {@code ScrollEventBuilder}.
      */
@@ -43,8 +43,8 @@ public class ScrollEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.ScrollEvent#ScrollEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, double, double, double, double, ScrollEvent$HorizontalTextScrollUnits, double, ScrollEvent$VerticalTextScrollUnits, double, int, PickResult) ScrollEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, double, double, double, double, ScrollEvent$HorizontalTextScrollUnits, double, ScrollEvent$VerticalTextScrollUnits, double, int, PickResult)}
-     * and returns an instance of the {@code ScrollEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.ScrollEvent#ScrollEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, double, double, double, double, ScrollEvent$HorizontalTextScrollUnits, double, ScrollEvent$VerticalTextScrollUnits, double, int, PickResult) ScrollEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, double, double, double, double, ScrollEvent$HorizontalTextScrollUnits, double, ScrollEvent$VerticalTextScrollUnits, double, int, PickResult)}
+     * and returns an instance of {@code ScrollEventBuilder}.
      *
      * @return an instance of the {@code ScrollEventBuilder}.
      */
@@ -57,8 +57,8 @@ public class ScrollEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.ScrollEvent#ScrollEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, double, double, ScrollEvent$HorizontalTextScrollUnits, double, ScrollEvent$VerticalTextScrollUnits, double, int, PickResult) ScrollEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, double, double, ScrollEvent$HorizontalTextScrollUnits, double, ScrollEvent$VerticalTextScrollUnits, double, int, PickResult)}
-     * and returns an instance of the {@code ScrollEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.ScrollEvent#ScrollEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, double, double, ScrollEvent$HorizontalTextScrollUnits, double, ScrollEvent$VerticalTextScrollUnits, double, int, PickResult) ScrollEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, double, double, ScrollEvent$HorizontalTextScrollUnits, double, ScrollEvent$VerticalTextScrollUnits, double, int, PickResult)}
+     * and returns an instance of {@code ScrollEventBuilder}.
      *
      * @return an instance of the {@code ScrollEventBuilder}.
      */

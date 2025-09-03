@@ -29,8 +29,8 @@ public class ListViewSkinBuilder<T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.ListViewSkin#ListViewSkin(ListView) ListViewSkin(ListView)}
-     * and returns an instance of the {@code ListViewSkinBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.ListViewSkin#ListViewSkin(ListView) ListViewSkin(ListView)}
+     * and returns an instance of {@code ListViewSkinBuilder<T>}.
      *
      * @return an instance of the {@code ListViewSkinBuilder<T>}.
      */
@@ -142,7 +142,7 @@ public class ListViewSkinBuilder<T> {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ListViewSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ListViewSkin#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -155,7 +155,7 @@ public class ListViewSkinBuilder<T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ListViewSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ListViewSkin#getChildren()} method.
      * 
      * @return builder instance
      */

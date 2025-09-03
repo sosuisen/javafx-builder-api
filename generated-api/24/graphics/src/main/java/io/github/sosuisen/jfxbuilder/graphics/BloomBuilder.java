@@ -37,8 +37,8 @@ public class BloomBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.Bloom#Bloom(double) Bloom(double)}
-     * and returns an instance of the {@code BloomBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.Bloom#Bloom(double) Bloom(double)}
+     * and returns an instance of {@code BloomBuilder}.
      *
      * @return an instance of the {@code BloomBuilder}.
      */

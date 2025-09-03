@@ -29,8 +29,8 @@ public class SubSceneBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.SubScene#SubScene(Parent, double, double) SubScene(Parent, double, double)}
-     * and returns an instance of the {@code SubSceneBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.SubScene#SubScene(Parent, double, double) SubScene(Parent, double, double)}
+     * and returns an instance of {@code SubSceneBuilder}.
      *
      * @return an instance of the {@code SubSceneBuilder}.
      */
@@ -43,8 +43,8 @@ public class SubSceneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.SubScene#SubScene(Parent, double, double, boolean, SceneAntialiasing) SubScene(Parent, double, double, boolean, SceneAntialiasing)}
-     * and returns an instance of the {@code SubSceneBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.SubScene#SubScene(Parent, double, double, boolean, SceneAntialiasing) SubScene(Parent, double, double, boolean, SceneAntialiasing)}
+     * and returns an instance of {@code SubSceneBuilder}.
      *
      * @return an instance of the {@code SubSceneBuilder}.
      */
@@ -959,7 +959,7 @@ public class SubSceneBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.SubScene#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.SubScene#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -972,7 +972,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.SubScene#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.SubScene#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -986,7 +986,7 @@ public class SubSceneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.SubScene#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.SubScene#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -999,7 +999,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.SubScene#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.SubScene#getTransforms()} method.
      * 
      * @return builder instance
      */

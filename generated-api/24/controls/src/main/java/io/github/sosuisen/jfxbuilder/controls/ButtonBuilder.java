@@ -37,8 +37,8 @@ public class ButtonBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Button#Button(String) Button(String)}
-     * and returns an instance of the {@code ButtonBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Button#Button(String) Button(String)}
+     * and returns an instance of {@code ButtonBuilder}.
      *
      * @return an instance of the {@code ButtonBuilder}.
      */
@@ -51,8 +51,8 @@ public class ButtonBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Button#Button(String, Node) Button(String, Node)}
-     * and returns an instance of the {@code ButtonBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Button#Button(String, Node) Button(String, Node)}
+     * and returns an instance of {@code ButtonBuilder}.
      *
      * @return an instance of the {@code ButtonBuilder}.
      */
@@ -1293,7 +1293,7 @@ public class ButtonBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Button#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Button#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1306,7 +1306,7 @@ public class ButtonBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Button#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Button#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1320,7 +1320,7 @@ public class ButtonBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Button#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Button#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1333,7 +1333,7 @@ public class ButtonBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Button#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Button#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1347,7 +1347,7 @@ public class ButtonBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Button#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Button#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1360,7 +1360,7 @@ public class ButtonBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Button#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Button#getTransforms()} method.
      * 
      * @return builder instance
      */

@@ -37,8 +37,8 @@ public class GaussianBlurBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.GaussianBlur#GaussianBlur(double) GaussianBlur(double)}
-     * and returns an instance of the {@code GaussianBlurBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.GaussianBlur#GaussianBlur(double) GaussianBlur(double)}
+     * and returns an instance of {@code GaussianBlurBuilder}.
      *
      * @return an instance of the {@code GaussianBlurBuilder}.
      */

@@ -29,8 +29,8 @@ public class AudioClipBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.media.AudioClip#AudioClip(String) AudioClip(String)}
-     * and returns an instance of the {@code AudioClipBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.media.AudioClip#AudioClip(String) AudioClip(String)}
+     * and returns an instance of {@code AudioClipBuilder}.
      *
      * @return an instance of the {@code AudioClipBuilder}.
      */

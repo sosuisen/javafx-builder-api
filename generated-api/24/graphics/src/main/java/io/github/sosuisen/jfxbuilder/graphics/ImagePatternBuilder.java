@@ -29,8 +29,8 @@ public class ImagePatternBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.paint.ImagePattern#ImagePattern(Image) ImagePattern(Image)}
-     * and returns an instance of the {@code ImagePatternBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.paint.ImagePattern#ImagePattern(Image) ImagePattern(Image)}
+     * and returns an instance of {@code ImagePatternBuilder}.
      *
      * @return an instance of the {@code ImagePatternBuilder}.
      */
@@ -43,8 +43,8 @@ public class ImagePatternBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.paint.ImagePattern#ImagePattern(Image, double, double, double, double, boolean) ImagePattern(Image, double, double, double, double, boolean)}
-     * and returns an instance of the {@code ImagePatternBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.paint.ImagePattern#ImagePattern(Image, double, double, double, double, boolean) ImagePattern(Image, double, double, double, double, boolean)}
+     * and returns an instance of {@code ImagePatternBuilder}.
      *
      * @return an instance of the {@code ImagePatternBuilder}.
      */

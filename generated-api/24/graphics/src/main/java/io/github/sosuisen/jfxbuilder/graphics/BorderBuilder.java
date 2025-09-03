@@ -29,8 +29,8 @@ public class BorderBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.Border#Border(List, List) Border(List, List)}
-     * and returns an instance of the {@code BorderBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.Border#Border(List, List) Border(List, List)}
+     * and returns an instance of {@code BorderBuilder}.
      *
      * @return an instance of the {@code BorderBuilder}.
      */
@@ -43,8 +43,8 @@ public class BorderBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.Border#Border(BorderImage...) Border(BorderImage...)}
-     * and returns an instance of the {@code BorderBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.Border#Border(BorderImage...) Border(BorderImage...)}
+     * and returns an instance of {@code BorderBuilder}.
      *
      * @return an instance of the {@code BorderBuilder}.
      */
@@ -57,8 +57,8 @@ public class BorderBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.Border#Border(BorderStroke...) Border(BorderStroke...)}
-     * and returns an instance of the {@code BorderBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.Border#Border(BorderStroke...) Border(BorderStroke...)}
+     * and returns an instance of {@code BorderBuilder}.
      *
      * @return an instance of the {@code BorderBuilder}.
      */
@@ -71,8 +71,8 @@ public class BorderBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.Border#Border(BorderStroke..., BorderImage...) Border(BorderStroke..., BorderImage...)}
-     * and returns an instance of the {@code BorderBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.Border#Border(BorderStroke..., BorderImage...) Border(BorderStroke..., BorderImage...)}
+     * and returns an instance of {@code BorderBuilder}.
      *
      * @return an instance of the {@code BorderBuilder}.
      */

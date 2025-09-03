@@ -37,8 +37,8 @@ public class ArcBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Arc#Arc(double, double, double, double, double, double) Arc(double, double, double, double, double, double)}
-     * and returns an instance of the {@code ArcBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.Arc#Arc(double, double, double, double, double, double) Arc(double, double, double, double, double, double)}
+     * and returns an instance of {@code ArcBuilder}.
      *
      * @return an instance of the {@code ArcBuilder}.
      */
@@ -1059,7 +1059,7 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getStrokeDashArray()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1072,7 +1072,7 @@ public class ArcBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getStrokeDashArray()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1085,7 +1085,7 @@ public class ArcBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1096,7 +1096,7 @@ public class ArcBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1107,7 +1107,7 @@ public class ArcBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1120,7 +1120,7 @@ public class ArcBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1134,7 +1134,7 @@ public class ArcBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1147,7 +1147,7 @@ public class ArcBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getTransforms()} method.
      * 
      * @return builder instance
      */

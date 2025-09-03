@@ -37,8 +37,8 @@ public class CanvasBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.canvas.Canvas#Canvas(double, double) Canvas(double, double)}
-     * and returns an instance of the {@code CanvasBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.canvas.Canvas#Canvas(double, double) Canvas(double, double)}
+     * and returns an instance of {@code CanvasBuilder}.
      *
      * @return an instance of the {@code CanvasBuilder}.
      */
@@ -919,7 +919,7 @@ public class CanvasBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.canvas.Canvas#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.canvas.Canvas#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -932,7 +932,7 @@ public class CanvasBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.canvas.Canvas#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.canvas.Canvas#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -946,7 +946,7 @@ public class CanvasBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.canvas.Canvas#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.canvas.Canvas#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -959,7 +959,7 @@ public class CanvasBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.canvas.Canvas#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.canvas.Canvas#getTransforms()} method.
      * 
      * @return builder instance
      */

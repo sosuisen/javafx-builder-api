@@ -29,8 +29,8 @@ public class AccordionSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.AccordionSkin#AccordionSkin(Accordion) AccordionSkin(Accordion)}
-     * and returns an instance of the {@code AccordionSkinBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.AccordionSkin#AccordionSkin(Accordion) AccordionSkin(Accordion)}
+     * and returns an instance of {@code AccordionSkinBuilder}.
      *
      * @return an instance of the {@code AccordionSkinBuilder}.
      */
@@ -140,7 +140,7 @@ public class AccordionSkinBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.AccordionSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.AccordionSkin#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -153,7 +153,7 @@ public class AccordionSkinBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.AccordionSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.AccordionSkin#getChildren()} method.
      * 
      * @return builder instance
      */

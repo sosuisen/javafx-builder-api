@@ -29,8 +29,8 @@ public class MediaBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.media.Media#Media(String) Media(String)}
-     * and returns an instance of the {@code MediaBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.media.Media#Media(String) Media(String)}
+     * and returns an instance of {@code MediaBuilder}.
      *
      * @return an instance of the {@code MediaBuilder}.
      */
@@ -150,7 +150,7 @@ public class MediaBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.media.Media#getTracks()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.media.Media#getTracks()} method.
      * 
      * @return builder instance
      */
@@ -163,7 +163,7 @@ public class MediaBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.media.Media#getTracks()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.media.Media#getTracks()} method.
      * 
      * @return builder instance
      */
