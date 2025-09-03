@@ -33,6 +33,7 @@
       <artifactId>javafx-${builder.component}</artifactId>
       <version>${javafx.major.version}</version>
     </dependency>
+    ${builder.dependencies}
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>

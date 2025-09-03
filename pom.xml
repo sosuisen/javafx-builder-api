@@ -180,24 +180,35 @@
       <id>controls</id>
       <properties>
         <builder.component>controls</builder.component>
+        <builder.dependencies/>
       </properties>
     </profile>
     <profile>
       <id>graphics</id>
       <properties>
         <builder.component>graphics</builder.component>
+        <builder.dependencies><![CDATA[
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+      <version>${javafx.major.version}</version>
+      <scope>test</scope>
+    </dependency>
+          ]]></builder.dependencies>
       </properties>
     </profile>
     <profile>
       <id>web</id>
       <properties>
         <builder.component>web</builder.component>
+        <builder.dependencies/>
       </properties>
     </profile>
     <profile>
       <id>media</id>
       <properties>
         <builder.component>media</builder.component>
+        <builder.dependencies/>
       </properties>
     </profile>
   </profiles>
