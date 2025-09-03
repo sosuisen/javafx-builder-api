@@ -27,7 +27,6 @@ public class ToggleGroupBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.ToggleGroup>> operations = new java.util.ArrayList<>();
     private ToggleGroupBuilder() {}
     
-
     /**
      * Returns an instance of the {@code ToggleGroupBuilder}.
      *
@@ -83,7 +82,6 @@ public class ToggleGroupBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class ToggleGroupBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ToggleGroup instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -139,16 +138,17 @@ public class ToggleGroupBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ToggleGroup#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ToggleGroupBuilder userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleGroup#getToggles()} method.
      * 
@@ -174,7 +174,6 @@ public class ToggleGroupBuilder {
         return this;
     }
 
-
     /**
      * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleGroup#getToggles()} method.
      * 
@@ -196,7 +195,6 @@ public class ToggleGroupBuilder {
         return builder.addToggles(col);
     }
 
-    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleGroup#selectedToggleProperty() selectedToggleProperty} 
      * of the instance being constructed. 
@@ -213,8 +211,7 @@ public class ToggleGroupBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ToggleGroupBuilder selectedTogglePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.Toggle>> op) {
         operations.add(obj -> op.accept(obj.selectedToggleProperty()));
         return this;

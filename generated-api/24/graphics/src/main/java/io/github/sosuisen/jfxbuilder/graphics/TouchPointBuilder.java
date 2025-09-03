@@ -27,7 +27,6 @@ public class TouchPointBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.input.TouchPoint>> operations = new java.util.ArrayList<>();
     private TouchPointBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.TouchPoint#TouchPoint(int, TouchPoint$State, double, double, double, double, EventTarget, PickResult) TouchPoint(int, TouchPoint$State, double, double, double, double, EventTarget, PickResult)}
      * and returns an instance of {@code TouchPointBuilder}.
@@ -83,7 +82,6 @@ public class TouchPointBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class TouchPointBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TouchPoint instance being constructed.
      * Most operations on the instance can be performed using this method.

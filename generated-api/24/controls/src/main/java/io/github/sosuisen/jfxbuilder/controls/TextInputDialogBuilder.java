@@ -27,14 +27,12 @@ public class TextInputDialogBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.TextInputDialog>> operations = new java.util.ArrayList<>();
     private TextInputDialogBuilder() {}
     
-
     /**
      * Returns an instance of the {@code TextInputDialogBuilder}.
      *
      * @return an instance of the {@code TextInputDialogBuilder}.
      */
     public static TextInputDialogBuilder create() { return new TextInputDialogBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TextInputDialog#TextInputDialog(String) TextInputDialog(String)}
@@ -97,7 +95,6 @@ public class TextInputDialogBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class TextInputDialogBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TextInputDialog instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -153,176 +151,177 @@ public class TextInputDialogBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextInputDialog#setContentText(java.lang.String) setContentText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextInputDialogBuilder contentText(java.lang.String contentText) {
         operations.add(obj -> obj.setContentText(contentText));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextInputDialog#setDialogPane(javafx.scene.control.DialogPane) setDialogPane} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextInputDialogBuilder dialogPane(javafx.scene.control.DialogPane value) {
         operations.add(obj -> obj.setDialogPane(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextInputDialog#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextInputDialogBuilder graphic(javafx.scene.Node graphic) {
         operations.add(obj -> obj.setGraphic(graphic));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextInputDialog#setHeaderText(java.lang.String) setHeaderText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextInputDialogBuilder headerText(java.lang.String headerText) {
         operations.add(obj -> obj.setHeaderText(headerText));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextInputDialog#setHeight(double) setHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextInputDialogBuilder height(double height) {
         operations.add(obj -> obj.setHeight(height));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextInputDialog#setOnCloseRequest(javafx.event.EventHandler) setOnCloseRequest} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextInputDialogBuilder onCloseRequest(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
         operations.add(obj -> obj.setOnCloseRequest(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextInputDialog#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextInputDialogBuilder onHidden(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
         operations.add(obj -> obj.setOnHidden(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextInputDialog#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextInputDialogBuilder onHiding(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
         operations.add(obj -> obj.setOnHiding(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextInputDialog#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextInputDialogBuilder onShowing(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
         operations.add(obj -> obj.setOnShowing(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextInputDialog#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextInputDialogBuilder onShown(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
         operations.add(obj -> obj.setOnShown(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextInputDialog#setResizable(boolean) setResizable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextInputDialogBuilder resizable(boolean resizable) {
         operations.add(obj -> obj.setResizable(resizable));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextInputDialog#setResult(java.lang.Object) setResult} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextInputDialogBuilder result(java.lang.String value) {
         operations.add(obj -> obj.setResult(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextInputDialog#setResultConverter(javafx.util.Callback) setResultConverter} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextInputDialogBuilder resultConverter(javafx.util.Callback<javafx.scene.control.ButtonType, java.lang.String> value) {
         operations.add(obj -> obj.setResultConverter(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextInputDialog#setTitle(java.lang.String) setTitle} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextInputDialogBuilder title(java.lang.String title) {
         operations.add(obj -> obj.setTitle(title));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextInputDialog#setWidth(double) setWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextInputDialogBuilder width(double width) {
         operations.add(obj -> obj.setWidth(width));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextInputDialog#setX(double) setX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextInputDialogBuilder x(double x) {
         operations.add(obj -> obj.setX(x));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextInputDialog#setY(double) setY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextInputDialogBuilder y(double y) {
         operations.add(obj -> obj.setY(y));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#contentTextProperty() contentTextProperty} 
      * of the instance being constructed. 
@@ -339,12 +338,12 @@ public class TextInputDialogBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextInputDialogBuilder contentTextPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.contentTextProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#dialogPaneProperty() dialogPaneProperty} 
      * of the instance being constructed. 
@@ -361,12 +360,12 @@ public class TextInputDialogBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextInputDialogBuilder dialogPanePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.DialogPane>> op) {
         operations.add(obj -> op.accept(obj.dialogPaneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
@@ -383,12 +382,12 @@ public class TextInputDialogBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextInputDialogBuilder graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.graphicProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#headerTextProperty() headerTextProperty} 
      * of the instance being constructed. 
@@ -405,12 +404,12 @@ public class TextInputDialogBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextInputDialogBuilder headerTextPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.headerTextProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -427,12 +426,12 @@ public class TextInputDialogBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextInputDialogBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#onCloseRequestProperty() onCloseRequestProperty} 
      * of the instance being constructed. 
@@ -449,12 +448,12 @@ public class TextInputDialogBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextInputDialogBuilder onCloseRequestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
         operations.add(obj -> op.accept(obj.onCloseRequestProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
@@ -471,12 +470,12 @@ public class TextInputDialogBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextInputDialogBuilder onHiddenPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
         operations.add(obj -> op.accept(obj.onHiddenProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
@@ -493,12 +492,12 @@ public class TextInputDialogBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextInputDialogBuilder onHidingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
         operations.add(obj -> op.accept(obj.onHidingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
@@ -515,12 +514,12 @@ public class TextInputDialogBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextInputDialogBuilder onShowingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
         operations.add(obj -> op.accept(obj.onShowingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
@@ -537,12 +536,12 @@ public class TextInputDialogBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextInputDialogBuilder onShownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
         operations.add(obj -> op.accept(obj.onShownProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#resizableProperty() resizableProperty} 
      * of the instance being constructed. 
@@ -559,12 +558,12 @@ public class TextInputDialogBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextInputDialogBuilder resizablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.resizableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#resultConverterProperty() resultConverterProperty} 
      * of the instance being constructed. 
@@ -581,12 +580,12 @@ public class TextInputDialogBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextInputDialogBuilder resultConverterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.control.ButtonType, java.lang.String>>> op) {
         operations.add(obj -> op.accept(obj.resultConverterProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#resultProperty() resultProperty} 
      * of the instance being constructed. 
@@ -603,12 +602,12 @@ public class TextInputDialogBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextInputDialogBuilder resultPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.resultProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#showingProperty() showingProperty} 
      * of the instance being constructed. 
@@ -625,12 +624,12 @@ public class TextInputDialogBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextInputDialogBuilder showingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.showingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#titleProperty() titleProperty} 
      * of the instance being constructed. 
@@ -647,12 +646,12 @@ public class TextInputDialogBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextInputDialogBuilder titlePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.titleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#widthProperty() widthProperty} 
      * of the instance being constructed. 
@@ -669,12 +668,12 @@ public class TextInputDialogBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextInputDialogBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#xProperty() xProperty} 
      * of the instance being constructed. 
@@ -691,12 +690,12 @@ public class TextInputDialogBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextInputDialogBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.xProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#yProperty() yProperty} 
      * of the instance being constructed. 
@@ -713,8 +712,7 @@ public class TextInputDialogBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextInputDialogBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.yProperty()));
         return this;

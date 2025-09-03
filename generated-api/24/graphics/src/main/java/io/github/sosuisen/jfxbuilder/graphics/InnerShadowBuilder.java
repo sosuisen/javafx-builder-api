@@ -27,14 +27,12 @@ public class InnerShadowBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.effect.InnerShadow>> operations = new java.util.ArrayList<>();
     private InnerShadowBuilder() {}
     
-
     /**
      * Returns an instance of the {@code InnerShadowBuilder}.
      *
      * @return an instance of the {@code InnerShadowBuilder}.
      */
     public static InnerShadowBuilder create() { return new InnerShadowBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.InnerShadow#InnerShadow(double, double, double, Color) InnerShadow(double, double, double, Color)}
@@ -49,7 +47,6 @@ public class InnerShadowBuilder {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.InnerShadow#InnerShadow(double, Color) InnerShadow(double, Color)}
      * and returns an instance of {@code InnerShadowBuilder}.
@@ -62,7 +59,6 @@ public class InnerShadowBuilder {
         builder.constructorArgs = new Object[]{radius, color};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.InnerShadow#InnerShadow(BlurType, Color, double, double, double, double) InnerShadow(BlurType, Color, double, double, double, double)}
@@ -125,7 +121,6 @@ public class InnerShadowBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -170,6 +165,7 @@ public class InnerShadowBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the InnerShadow instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -181,96 +177,97 @@ public class InnerShadowBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.InnerShadow#setBlurType(javafx.scene.effect.BlurType) setBlurType} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  InnerShadowBuilder blurType(javafx.scene.effect.BlurType value) {
         operations.add(obj -> obj.setBlurType(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.InnerShadow#setChoke(double) setChoke} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  InnerShadowBuilder choke(double value) {
         operations.add(obj -> obj.setChoke(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.InnerShadow#setColor(javafx.scene.paint.Color) setColor} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  InnerShadowBuilder color(javafx.scene.paint.Color value) {
         operations.add(obj -> obj.setColor(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.InnerShadow#setHeight(double) setHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  InnerShadowBuilder height(double value) {
         operations.add(obj -> obj.setHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.InnerShadow#setInput(javafx.scene.effect.Effect) setInput} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  InnerShadowBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.InnerShadow#setOffsetX(double) setOffsetX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  InnerShadowBuilder offsetX(double value) {
         operations.add(obj -> obj.setOffsetX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.InnerShadow#setOffsetY(double) setOffsetY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  InnerShadowBuilder offsetY(double value) {
         operations.add(obj -> obj.setOffsetY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.InnerShadow#setRadius(double) setRadius} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  InnerShadowBuilder radius(double value) {
         operations.add(obj -> obj.setRadius(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.InnerShadow#setWidth(double) setWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  InnerShadowBuilder width(double value) {
         operations.add(obj -> obj.setWidth(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#blurTypeProperty() blurTypeProperty} 
      * of the instance being constructed. 
@@ -287,12 +284,12 @@ public class InnerShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public InnerShadowBuilder blurTypePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlurType>> op) {
         operations.add(obj -> op.accept(obj.blurTypeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#chokeProperty() chokeProperty} 
      * of the instance being constructed. 
@@ -309,12 +306,12 @@ public class InnerShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public InnerShadowBuilder chokePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.chokeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#colorProperty() colorProperty} 
      * of the instance being constructed. 
@@ -331,12 +328,12 @@ public class InnerShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public InnerShadowBuilder colorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
         operations.add(obj -> op.accept(obj.colorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -353,12 +350,12 @@ public class InnerShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public InnerShadowBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#inputProperty() inputProperty} 
      * of the instance being constructed. 
@@ -375,12 +372,12 @@ public class InnerShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public InnerShadowBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#offsetXProperty() offsetXProperty} 
      * of the instance being constructed. 
@@ -397,12 +394,12 @@ public class InnerShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public InnerShadowBuilder offsetXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.offsetXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#offsetYProperty() offsetYProperty} 
      * of the instance being constructed. 
@@ -419,12 +416,12 @@ public class InnerShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public InnerShadowBuilder offsetYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.offsetYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#radiusProperty() radiusProperty} 
      * of the instance being constructed. 
@@ -441,12 +438,12 @@ public class InnerShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public InnerShadowBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.radiusProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#widthProperty() widthProperty} 
      * of the instance being constructed. 
@@ -463,8 +460,7 @@ public class InnerShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public InnerShadowBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;

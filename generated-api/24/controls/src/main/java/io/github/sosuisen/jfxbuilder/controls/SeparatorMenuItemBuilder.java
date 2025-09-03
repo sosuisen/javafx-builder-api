@@ -27,7 +27,6 @@ public class SeparatorMenuItemBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.SeparatorMenuItem>> operations = new java.util.ArrayList<>();
     private SeparatorMenuItemBuilder() {}
     
-
     /**
      * Returns an instance of the {@code SeparatorMenuItemBuilder}.
      *
@@ -83,7 +82,6 @@ public class SeparatorMenuItemBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class SeparatorMenuItemBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the SeparatorMenuItem instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -139,136 +138,137 @@ public class SeparatorMenuItemBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setAccelerator(javafx.scene.input.KeyCombination) setAccelerator} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SeparatorMenuItemBuilder accelerator(javafx.scene.input.KeyCombination value) {
         operations.add(obj -> obj.setAccelerator(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setContent(javafx.scene.Node) setContent} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SeparatorMenuItemBuilder content(javafx.scene.Node value) {
         operations.add(obj -> obj.setContent(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SeparatorMenuItemBuilder disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SeparatorMenuItemBuilder graphic(javafx.scene.Node value) {
         operations.add(obj -> obj.setGraphic(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setHideOnClick(boolean) setHideOnClick} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SeparatorMenuItemBuilder hideOnClick(boolean value) {
         operations.add(obj -> obj.setHideOnClick(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SeparatorMenuItemBuilder id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SeparatorMenuItemBuilder mnemonicParsing(boolean value) {
         operations.add(obj -> obj.setMnemonicParsing(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SeparatorMenuItemBuilder onAction(javafx.event.EventHandler<javafx.event.ActionEvent> value) {
         operations.add(obj -> obj.setOnAction(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setOnMenuValidation(javafx.event.EventHandler) setOnMenuValidation} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SeparatorMenuItemBuilder onMenuValidation(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnMenuValidation(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SeparatorMenuItemBuilder style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setText(java.lang.String) setText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SeparatorMenuItemBuilder text(java.lang.String value) {
         operations.add(obj -> obj.setText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SeparatorMenuItemBuilder userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SeparatorMenuItemBuilder visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SeparatorMenuItem#getStyleClass()} method.
      * 
@@ -294,8 +294,6 @@ public class SeparatorMenuItemBuilder {
         return this;
     }
 
-
-    
     /**
      * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#acceleratorProperty() acceleratorProperty} 
      * of the instance being constructed. 
@@ -312,12 +310,12 @@ public class SeparatorMenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public SeparatorMenuItemBuilder acceleratorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.KeyCombination>> op) {
         operations.add(obj -> op.accept(obj.acceleratorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#contentProperty() contentProperty} 
      * of the instance being constructed. 
@@ -334,12 +332,12 @@ public class SeparatorMenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public SeparatorMenuItemBuilder contentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.contentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#disableProperty() disableProperty} 
      * of the instance being constructed. 
@@ -356,12 +354,12 @@ public class SeparatorMenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public SeparatorMenuItemBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
@@ -378,12 +376,12 @@ public class SeparatorMenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public SeparatorMenuItemBuilder graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.graphicProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#hideOnClickProperty() hideOnClickProperty} 
      * of the instance being constructed. 
@@ -400,12 +398,12 @@ public class SeparatorMenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public SeparatorMenuItemBuilder hideOnClickPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.hideOnClickProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#idProperty() idProperty} 
      * of the instance being constructed. 
@@ -422,12 +420,12 @@ public class SeparatorMenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public SeparatorMenuItemBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
@@ -444,12 +442,12 @@ public class SeparatorMenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public SeparatorMenuItemBuilder mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
@@ -466,12 +464,12 @@ public class SeparatorMenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public SeparatorMenuItemBuilder onActionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.ActionEvent>>> op) {
         operations.add(obj -> op.accept(obj.onActionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#onMenuValidationProperty() onMenuValidationProperty} 
      * of the instance being constructed. 
@@ -488,12 +486,12 @@ public class SeparatorMenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public SeparatorMenuItemBuilder onMenuValidationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onMenuValidationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#parentMenuProperty() parentMenuProperty} 
      * of the instance being constructed. 
@@ -510,12 +508,12 @@ public class SeparatorMenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public SeparatorMenuItemBuilder parentMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.Menu>> op) {
         operations.add(obj -> op.accept(obj.parentMenuProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#parentPopupProperty() parentPopupProperty} 
      * of the instance being constructed. 
@@ -532,12 +530,12 @@ public class SeparatorMenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public SeparatorMenuItemBuilder parentPopupPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.parentPopupProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#styleProperty() styleProperty} 
      * of the instance being constructed. 
@@ -554,12 +552,12 @@ public class SeparatorMenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public SeparatorMenuItemBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#textProperty() textProperty} 
      * of the instance being constructed. 
@@ -576,12 +574,12 @@ public class SeparatorMenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public SeparatorMenuItemBuilder textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.textProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
@@ -598,8 +596,7 @@ public class SeparatorMenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public SeparatorMenuItemBuilder visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;

@@ -69,7 +69,6 @@ public class WebHistoryEntryBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -114,6 +113,7 @@ public class WebHistoryEntryBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Entry instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -124,7 +124,8 @@ public class WebHistoryEntryBuilder {
     public WebHistoryEntryBuilder apply(java.util.function.Consumer<javafx.scene.web.WebHistory.Entry> func) {
         operations.add(func);
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.web.WebHistory.Entry#lastVisitedDateProperty() lastVisitedDateProperty} 
      * of the instance being constructed. 
@@ -141,12 +142,12 @@ public class WebHistoryEntryBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public WebHistoryEntryBuilder lastVisitedDatePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<java.util.Date>> op) {
         operations.add(obj -> op.accept(obj.lastVisitedDateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.web.WebHistory.Entry#titleProperty() titleProperty} 
      * of the instance being constructed. 
@@ -163,8 +164,7 @@ public class WebHistoryEntryBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public WebHistoryEntryBuilder titlePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.titleProperty()));
         return this;

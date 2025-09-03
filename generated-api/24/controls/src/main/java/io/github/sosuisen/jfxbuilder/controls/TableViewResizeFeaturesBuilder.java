@@ -27,7 +27,6 @@ public class TableViewResizeFeaturesBuilder<S> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.TableView.ResizeFeatures<S>>> operations = new java.util.ArrayList<>();
     private TableViewResizeFeaturesBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TableView.ResizeFeatures#ResizeFeatures(TableView, TableColumn, Double) ResizeFeatures(TableView, TableColumn, Double)}
      * and returns an instance of {@code TableViewResizeFeaturesBuilder<S>}.
@@ -85,7 +84,6 @@ public class TableViewResizeFeaturesBuilder<S> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class TableViewResizeFeaturesBuilder<S> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ResizeFeatures instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -141,12 +140,12 @@ public class TableViewResizeFeaturesBuilder<S> {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableView.ResizeFeatures#setColumnWidth(javafx.scene.control.TableColumnBase, double) setColumnWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableViewResizeFeaturesBuilder<S> columnWidth(javafx.scene.control.TableColumnBase<S, ?> col, double width) {
         operations.add(obj -> obj.setColumnWidth(col, width));
         return this;

@@ -27,7 +27,6 @@ public class TablePositionBuilder<S, T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.TablePosition<S, T>>> operations = new java.util.ArrayList<>();
     private TablePositionBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TablePosition#TablePosition(TableView, int, TableColumn) TablePosition(TableView, int, TableColumn)}
      * and returns an instance of {@code TablePositionBuilder<S, T>}.
@@ -85,7 +84,6 @@ public class TablePositionBuilder<S, T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class TablePositionBuilder<S, T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TablePosition instance being constructed.
      * Most operations on the instance can be performed using this method.

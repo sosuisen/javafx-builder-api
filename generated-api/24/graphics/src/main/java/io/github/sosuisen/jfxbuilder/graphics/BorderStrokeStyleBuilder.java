@@ -27,7 +27,6 @@ public class BorderStrokeStyleBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.layout.BorderStrokeStyle>> operations = new java.util.ArrayList<>();
     private BorderStrokeStyleBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.BorderStrokeStyle#BorderStrokeStyle(StrokeType, StrokeLineJoin, StrokeLineCap, double, double, List) BorderStrokeStyle(StrokeType, StrokeLineJoin, StrokeLineCap, double, double, List)}
      * and returns an instance of {@code BorderStrokeStyleBuilder}.
@@ -83,7 +82,6 @@ public class BorderStrokeStyleBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class BorderStrokeStyleBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the BorderStrokeStyle instance being constructed.
      * Most operations on the instance can be performed using this method.

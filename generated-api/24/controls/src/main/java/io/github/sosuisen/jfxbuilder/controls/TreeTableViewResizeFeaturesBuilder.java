@@ -27,7 +27,6 @@ public class TreeTableViewResizeFeaturesBuilder<S> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.TreeTableView.ResizeFeatures<S>>> operations = new java.util.ArrayList<>();
     private TreeTableViewResizeFeaturesBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TreeTableView.ResizeFeatures#ResizeFeatures(TreeTableView, TreeTableColumn, Double) ResizeFeatures(TreeTableView, TreeTableColumn, Double)}
      * and returns an instance of {@code TreeTableViewResizeFeaturesBuilder<S>}.
@@ -85,7 +84,6 @@ public class TreeTableViewResizeFeaturesBuilder<S> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class TreeTableViewResizeFeaturesBuilder<S> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ResizeFeatures instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -141,12 +140,12 @@ public class TreeTableViewResizeFeaturesBuilder<S> {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TreeTableView.ResizeFeatures#setColumnWidth(javafx.scene.control.TableColumnBase, double) setColumnWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TreeTableViewResizeFeaturesBuilder<S> columnWidth(javafx.scene.control.TreeTableColumn<S, ?> col, double width) {
         operations.add(obj -> obj.setColumnWidth(col, width));
         return this;

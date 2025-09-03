@@ -27,14 +27,12 @@ public class ImageInputBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.effect.ImageInput>> operations = new java.util.ArrayList<>();
     private ImageInputBuilder() {}
     
-
     /**
      * Returns an instance of the {@code ImageInputBuilder}.
      *
      * @return an instance of the {@code ImageInputBuilder}.
      */
     public static ImageInputBuilder create() { return new ImageInputBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.ImageInput#ImageInput(Image) ImageInput(Image)}
@@ -48,7 +46,6 @@ public class ImageInputBuilder {
         builder.constructorArgs = new Object[]{source};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.ImageInput#ImageInput(Image, double, double) ImageInput(Image, double, double)}
@@ -111,7 +108,6 @@ public class ImageInputBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -156,6 +152,7 @@ public class ImageInputBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ImageInput instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -167,36 +164,37 @@ public class ImageInputBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.ImageInput#setSource(javafx.scene.image.Image) setSource} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ImageInputBuilder source(javafx.scene.image.Image value) {
         operations.add(obj -> obj.setSource(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.ImageInput#setX(double) setX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ImageInputBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.ImageInput#setY(double) setY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ImageInputBuilder y(double value) {
         operations.add(obj -> obj.setY(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.ImageInput#sourceProperty() sourceProperty} 
      * of the instance being constructed. 
@@ -213,12 +211,12 @@ public class ImageInputBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ImageInputBuilder sourcePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.image.Image>> op) {
         operations.add(obj -> op.accept(obj.sourceProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.ImageInput#xProperty() xProperty} 
      * of the instance being constructed. 
@@ -235,12 +233,12 @@ public class ImageInputBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ImageInputBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.xProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.ImageInput#yProperty() yProperty} 
      * of the instance being constructed. 
@@ -257,8 +255,7 @@ public class ImageInputBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ImageInputBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.yProperty()));
         return this;

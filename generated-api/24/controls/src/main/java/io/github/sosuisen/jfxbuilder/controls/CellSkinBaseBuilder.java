@@ -27,7 +27,6 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.CellSkinBase<C>>> operations = new java.util.ArrayList<>();
     private CellSkinBaseBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.skin.CellSkinBase#CellSkinBase(Cell) CellSkinBase(Cell)}
      * and returns an instance of {@code CellSkinBaseBuilder<C>}.
@@ -85,7 +84,6 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the CellSkinBase instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -141,6 +140,7 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
         operations.add(func);
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.CellSkinBase#getChildren()} method.
      * 
@@ -166,8 +166,6 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
         return this;
     }
 
-
-    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.CellSkinBase#cellSizeProperty() cellSizeProperty} 
      * of the instance being constructed. 
@@ -184,8 +182,7 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CellSkinBaseBuilder<C> cellSizePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.cellSizeProperty()));
         return this;

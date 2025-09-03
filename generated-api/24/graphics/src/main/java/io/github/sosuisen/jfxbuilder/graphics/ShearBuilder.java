@@ -27,14 +27,12 @@ public class ShearBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.transform.Shear>> operations = new java.util.ArrayList<>();
     private ShearBuilder() {}
     
-
     /**
      * Returns an instance of the {@code ShearBuilder}.
      *
      * @return an instance of the {@code ShearBuilder}.
      */
     public static ShearBuilder create() { return new ShearBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.transform.Shear#Shear(double, double) Shear(double, double)}
@@ -48,7 +46,6 @@ public class ShearBuilder {
         builder.constructorArgs = new Object[]{x, y};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.transform.Shear#Shear(double, double, double, double) Shear(double, double, double, double)}
@@ -111,7 +108,6 @@ public class ShearBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -156,6 +152,7 @@ public class ShearBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Shear instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -167,56 +164,57 @@ public class ShearBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Shear#setOnTransformChanged(javafx.event.EventHandler) setOnTransformChanged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ShearBuilder onTransformChanged(javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent> value) {
         operations.add(obj -> obj.setOnTransformChanged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Shear#setPivotX(double) setPivotX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ShearBuilder pivotX(double value) {
         operations.add(obj -> obj.setPivotX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Shear#setPivotY(double) setPivotY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ShearBuilder pivotY(double value) {
         operations.add(obj -> obj.setPivotY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Shear#setX(double) setX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ShearBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Shear#setY(double) setY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ShearBuilder y(double value) {
         operations.add(obj -> obj.setY(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Shear#identityProperty() identityProperty} 
      * of the instance being constructed. 
@@ -233,12 +231,12 @@ public class ShearBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ShearBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.identityProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Shear#onTransformChangedProperty() onTransformChangedProperty} 
      * of the instance being constructed. 
@@ -255,12 +253,12 @@ public class ShearBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ShearBuilder onTransformChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTransformChangedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Shear#pivotXProperty() pivotXProperty} 
      * of the instance being constructed. 
@@ -277,12 +275,12 @@ public class ShearBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ShearBuilder pivotXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.pivotXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Shear#pivotYProperty() pivotYProperty} 
      * of the instance being constructed. 
@@ -299,12 +297,12 @@ public class ShearBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ShearBuilder pivotYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.pivotYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Shear#type2DProperty() type2DProperty} 
      * of the instance being constructed. 
@@ -321,12 +319,12 @@ public class ShearBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ShearBuilder type2DPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.type2DProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Shear#xProperty() xProperty} 
      * of the instance being constructed. 
@@ -343,12 +341,12 @@ public class ShearBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ShearBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.xProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Shear#yProperty() yProperty} 
      * of the instance being constructed. 
@@ -365,8 +363,7 @@ public class ShearBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ShearBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.yProperty()));
         return this;

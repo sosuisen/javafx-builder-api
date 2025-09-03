@@ -27,14 +27,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeTableCell<S, T>>> operations = new java.util.ArrayList<>();
     private TextFieldTreeTableCellBuilder() {}
     
-
     /**
      * Returns an instance of the {@code TextFieldTreeTableCellBuilder<S, T>}.
      *
      * @return an instance of the {@code TextFieldTreeTableCellBuilder<S, T>}.
      */
     public static <S, T> TextFieldTreeTableCellBuilder<S, T> create() { return new TextFieldTreeTableCellBuilder<S, T>(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.cell.TextFieldTreeTableCell#TextFieldTreeTableCell(StringConverter) TextFieldTreeTableCell(StringConverter)}
@@ -99,7 +97,6 @@ public class TextFieldTreeTableCellBuilder<S, T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -144,6 +141,7 @@ public class TextFieldTreeTableCellBuilder<S, T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TextFieldTreeTableCell instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -160,1126 +158,1127 @@ public class TextFieldTreeTableCellBuilder<S, T> {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> accessibleHelp(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleHelp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> accessibleRole(javafx.scene.AccessibleRole value) {
         operations.add(obj -> obj.setAccessibleRole(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> accessibleRoleDescription(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> accessibleText(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> alignment(javafx.geometry.Pos value) {
         operations.add(obj -> obj.setAlignment(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> background(javafx.scene.layout.Background value) {
         operations.add(obj -> obj.setBackground(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> blendMode(javafx.scene.effect.BlendMode value) {
         operations.add(obj -> obj.setBlendMode(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> border(javafx.scene.layout.Border value) {
         operations.add(obj -> obj.setBorder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> cache(boolean value) {
         operations.add(obj -> obj.setCache(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> cacheHint(javafx.scene.CacheHint value) {
         operations.add(obj -> obj.setCacheHint(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> cacheShape(boolean value) {
         operations.add(obj -> obj.setCacheShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> centerShape(boolean value) {
         operations.add(obj -> obj.setCenterShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> clip(javafx.scene.Node value) {
         operations.add(obj -> obj.setClip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> contentDisplay(javafx.scene.control.ContentDisplay value) {
         operations.add(obj -> obj.setContentDisplay(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> contextMenu(javafx.scene.control.ContextMenu value) {
         operations.add(obj -> obj.setContextMenu(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setConverter(javafx.util.StringConverter) setConverter} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> converter(javafx.util.StringConverter<T> value) {
         operations.add(obj -> obj.setConverter(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> cursor(javafx.scene.Cursor value) {
         operations.add(obj -> obj.setCursor(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> depthTest(javafx.scene.DepthTest value) {
         operations.add(obj -> obj.setDepthTest(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setEditable(boolean) setEditable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> editable(boolean value) {
         operations.add(obj -> obj.setEditable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> effect(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setEffect(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> ellipsisString(java.lang.String value) {
         operations.add(obj -> obj.setEllipsisString(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> eventDispatcher(javafx.event.EventDispatcher value) {
         operations.add(obj -> obj.setEventDispatcher(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> focusTraversable(boolean value) {
         operations.add(obj -> obj.setFocusTraversable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> font(javafx.scene.text.Font value) {
         operations.add(obj -> obj.setFont(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> graphic(javafx.scene.Node value) {
         operations.add(obj -> obj.setGraphic(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> graphicTextGap(double value) {
         operations.add(obj -> obj.setGraphicTextGap(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
         operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setItem(java.lang.Object) setItem} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> item(T value) {
         operations.add(obj -> obj.setItem(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> layoutX(double value) {
         operations.add(obj -> obj.setLayoutX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> layoutY(double value) {
         operations.add(obj -> obj.setLayoutY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> lineSpacing(double value) {
         operations.add(obj -> obj.setLineSpacing(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> managed(boolean value) {
         operations.add(obj -> obj.setManaged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> maxHeight(double value) {
         operations.add(obj -> obj.setMaxHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> maxSize(double maxWidth, double maxHeight) {
         operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> maxWidth(double value) {
         operations.add(obj -> obj.setMaxWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setMinHeight(double) setMinHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> minHeight(double value) {
         operations.add(obj -> obj.setMinHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setMinSize(double, double) setMinSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> minSize(double minWidth, double minHeight) {
         operations.add(obj -> obj.setMinSize(minWidth, minHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setMinWidth(double) setMinWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> minWidth(double value) {
         operations.add(obj -> obj.setMinWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> mnemonicParsing(boolean value) {
         operations.add(obj -> obj.setMnemonicParsing(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> mouseTransparent(boolean value) {
         operations.add(obj -> obj.setMouseTransparent(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> nodeOrientation(javafx.geometry.NodeOrientation orientation) {
         operations.add(obj -> obj.setNodeOrientation(orientation));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
         operations.add(obj -> obj.setOnContextMenuRequested(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnDragDetected(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDone(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDropped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
         operations.add(obj -> obj.setOnInputMethodTextChanged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onKeyPressed(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyTyped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseClicked(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseDragged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onMouseEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMousePressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onScroll(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScroll(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeDown(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeLeft(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onSwipeRight(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeRight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onTouchMoved(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchStationary(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoom(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> opacity(double value) {
         operations.add(obj -> obj.setOpacity(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> opaqueInsets(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setOpaqueInsets(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> padding(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setPadding(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> pickOnBounds(boolean value) {
         operations.add(obj -> obj.setPickOnBounds(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> prefHeight(double value) {
         operations.add(obj -> obj.setPrefHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> prefSize(double prefWidth, double prefHeight) {
         operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> prefWidth(double value) {
         operations.add(obj -> obj.setPrefWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> rotate(double value) {
         operations.add(obj -> obj.setRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> rotationAxis(javafx.geometry.Point3D value) {
         operations.add(obj -> obj.setRotationAxis(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> scaleShape(boolean value) {
         operations.add(obj -> obj.setScaleShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> scaleX(double value) {
         operations.add(obj -> obj.setScaleX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> scaleY(double value) {
         operations.add(obj -> obj.setScaleY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> scaleZ(double value) {
         operations.add(obj -> obj.setScaleZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> shape(javafx.scene.shape.Shape value) {
         operations.add(obj -> obj.setShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> skin(javafx.scene.control.Skin<?> value) {
         operations.add(obj -> obj.setSkin(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> snapToPixel(boolean value) {
         operations.add(obj -> obj.setSnapToPixel(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setText(java.lang.String) setText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> text(java.lang.String value) {
         operations.add(obj -> obj.setText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> textAlignment(javafx.scene.text.TextAlignment value) {
         operations.add(obj -> obj.setTextAlignment(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> textFill(javafx.scene.paint.Paint value) {
         operations.add(obj -> obj.setTextFill(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> textOverrun(javafx.scene.control.OverrunStyle value) {
         operations.add(obj -> obj.setTextOverrun(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> tooltip(javafx.scene.control.Tooltip value) {
         operations.add(obj -> obj.setTooltip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> translateX(double value) {
         operations.add(obj -> obj.setTranslateX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> translateY(double value) {
         operations.add(obj -> obj.setTranslateY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> translateZ(double value) {
         operations.add(obj -> obj.setTranslateZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setUnderline(boolean) setUnderline} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> underline(boolean value) {
         operations.add(obj -> obj.setUnderline(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> viewOrder(double value) {
         operations.add(obj -> obj.setViewOrder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeTableCell#setWrapText(boolean) setWrapText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFieldTreeTableCellBuilder<S, T> wrapText(boolean value) {
         operations.add(obj -> obj.setWrapText(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTreeTableCell#getStyleClass()} method.
      * 
@@ -1304,8 +1303,6 @@ public class TextFieldTreeTableCellBuilder<S, T> {
         });
         return this;
     }
-
-
 
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTreeTableCell#getStylesheets()} method.
@@ -1332,8 +1329,6 @@ public class TextFieldTreeTableCellBuilder<S, T> {
         return this;
     }
 
-
-
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTreeTableCell#getTransforms()} method.
      * 
@@ -1357,10 +1352,7 @@ public class TextFieldTreeTableCellBuilder<S, T> {
             obj.getTransforms().addAll(col);
         });
         return this;
-    }
-
-
-    
+    }    
     /**
      * Utility setter to add CSS string for this TextFieldTreeTableCell's contents.
      * For example:
@@ -1377,6 +1369,7 @@ public class TextFieldTreeTableCellBuilder<S, T> {
                 java.util.Base64.getEncoder().encodeToString(css.getBytes())));
         return this;
     }
+
     /**
      * Invokes the {@link javafx.scene.layout.AnchorPane#setBottomAnchor(Node child, java.lang.Double value) AnchorPane.setBottomAnchor(Node, Double)} 
      * using a fluent API.
@@ -1392,10 +1385,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .bottomAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .bottomAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1420,10 +1413,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .leftAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .leftAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1448,10 +1441,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .rightAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .rightAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1476,10 +1469,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .topAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .topAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1504,10 +1497,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .alignmentInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1532,10 +1525,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .marginInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1560,10 +1553,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = FlowPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInFlowPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInFlowPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1588,10 +1581,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1616,10 +1609,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1644,10 +1637,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1672,10 +1665,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1700,10 +1693,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1728,10 +1721,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1756,10 +1749,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1784,10 +1777,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillHeightInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillHeightInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1812,10 +1805,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillWidthInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillWidthInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1840,10 +1833,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1868,10 +1861,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1896,10 +1889,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1924,10 +1917,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1952,10 +1945,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1980,10 +1973,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2008,10 +2001,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2036,10 +2029,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .hGrowInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2064,10 +2057,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2092,10 +2085,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .alignmentInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2120,10 +2113,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .marginInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2148,10 +2141,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .alignmentInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2176,10 +2169,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2204,10 +2197,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2232,10 +2225,10 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .vGrowInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2244,7 +2237,8 @@ public class TextFieldTreeTableCellBuilder<S, T> {
         operations.add(obj -> javafx.scene.layout.VBox.setVgrow(obj, value));
         return this;
     }
-    
+
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
@@ -2261,12 +2255,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
@@ -2283,12 +2277,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
@@ -2305,12 +2299,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
@@ -2327,12 +2321,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleTextProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
@@ -2349,12 +2343,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> alignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Pos>> op) {
         operations.add(obj -> op.accept(obj.alignmentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
@@ -2371,12 +2365,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> backgroundPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Background>> op) {
         operations.add(obj -> op.accept(obj.backgroundProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
@@ -2393,12 +2387,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
         operations.add(obj -> op.accept(obj.blendModeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#borderProperty() borderProperty} 
      * of the instance being constructed. 
@@ -2415,12 +2409,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
         operations.add(obj -> op.accept(obj.borderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
@@ -2437,12 +2431,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
@@ -2459,12 +2453,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInParentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
@@ -2481,12 +2475,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
         operations.add(obj -> op.accept(obj.cacheHintProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
@@ -2503,12 +2497,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
@@ -2525,12 +2519,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
@@ -2547,12 +2541,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.centerShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#clipProperty() clipProperty} 
      * of the instance being constructed. 
@@ -2569,12 +2563,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.clipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#contentDisplayProperty() contentDisplayProperty} 
      * of the instance being constructed. 
@@ -2591,12 +2585,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> contentDisplayPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ContentDisplay>> op) {
         operations.add(obj -> op.accept(obj.contentDisplayProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
@@ -2613,12 +2607,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> contextMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.contextMenuProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#converterProperty() converterProperty} 
      * of the instance being constructed. 
@@ -2635,12 +2629,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<T>>> op) {
         operations.add(obj -> op.accept(obj.converterProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
@@ -2657,12 +2651,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
         operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
@@ -2679,12 +2673,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
         operations.add(obj -> op.accept(obj.depthTestProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#disableProperty() disableProperty} 
      * of the instance being constructed. 
@@ -2701,12 +2695,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
@@ -2723,12 +2717,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> disabledPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disabledProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#editableProperty() editableProperty} 
      * of the instance being constructed. 
@@ -2745,12 +2739,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> editablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.editableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#editingProperty() editingProperty} 
      * of the instance being constructed. 
@@ -2767,12 +2761,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> editingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.editingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#effectProperty() effectProperty} 
      * of the instance being constructed. 
@@ -2789,12 +2783,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.effectProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
@@ -2811,12 +2805,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#ellipsisStringProperty() ellipsisStringProperty} 
      * of the instance being constructed. 
@@ -2833,12 +2827,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> ellipsisStringPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.ellipsisStringProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#emptyProperty() emptyProperty} 
      * of the instance being constructed. 
@@ -2855,12 +2849,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> emptyPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.emptyProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
@@ -2877,12 +2871,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
         operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
@@ -2899,12 +2893,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusTraversableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
@@ -2921,12 +2915,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
@@ -2943,12 +2937,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusWithinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
@@ -2965,12 +2959,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#fontProperty() fontProperty} 
      * of the instance being constructed. 
@@ -2987,12 +2981,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> fontPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.Font>> op) {
         operations.add(obj -> op.accept(obj.fontProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
@@ -3009,12 +3003,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.graphicProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#graphicTextGapProperty() graphicTextGapProperty} 
      * of the instance being constructed. 
@@ -3031,12 +3025,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> graphicTextGapPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.graphicTextGapProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -3053,12 +3047,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
@@ -3075,12 +3069,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> hoverPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.hoverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#idProperty() idProperty} 
      * of the instance being constructed. 
@@ -3097,12 +3091,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#indexProperty() indexProperty} 
      * of the instance being constructed. 
@@ -3119,12 +3113,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> indexPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
         operations.add(obj -> op.accept(obj.indexProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
@@ -3141,12 +3135,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
         operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
@@ -3163,12 +3157,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> insetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.insetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#itemProperty() itemProperty} 
      * of the instance being constructed. 
@@ -3185,12 +3179,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> itemPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
         operations.add(obj -> op.accept(obj.itemProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#labelPaddingProperty() labelPaddingProperty} 
      * of the instance being constructed. 
@@ -3207,12 +3201,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> labelPaddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.labelPaddingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
@@ -3229,12 +3223,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
@@ -3251,12 +3245,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
@@ -3273,12 +3267,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> layoutYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#lineSpacingProperty() lineSpacingProperty} 
      * of the instance being constructed. 
@@ -3295,12 +3289,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> lineSpacingPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.lineSpacingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
@@ -3317,12 +3311,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
@@ -3339,12 +3333,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#managedProperty() managedProperty} 
      * of the instance being constructed. 
@@ -3361,12 +3355,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.managedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
@@ -3383,12 +3377,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
@@ -3405,12 +3399,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
@@ -3427,12 +3421,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
@@ -3449,12 +3443,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
@@ -3471,12 +3465,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
@@ -3493,12 +3487,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
@@ -3515,12 +3509,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> needsLayoutPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.needsLayoutProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
@@ -3537,12 +3531,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
@@ -3559,12 +3553,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
         operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
@@ -3581,12 +3575,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
@@ -3603,12 +3597,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDoneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
@@ -3625,12 +3619,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3647,12 +3641,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
@@ -3669,12 +3663,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
@@ -3691,12 +3685,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
@@ -3713,12 +3707,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
         operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
@@ -3735,12 +3729,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
@@ -3757,12 +3751,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
@@ -3779,12 +3773,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
@@ -3801,12 +3795,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3823,12 +3817,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
@@ -3845,12 +3839,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
@@ -3867,12 +3861,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
@@ -3889,12 +3883,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
@@ -3911,12 +3905,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
@@ -3933,12 +3927,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
@@ -3955,12 +3949,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
@@ -3977,12 +3971,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
@@ -3999,12 +3993,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMousePressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
@@ -4021,12 +4015,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
@@ -4043,12 +4037,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
@@ -4065,12 +4059,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
@@ -4087,12 +4081,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
@@ -4109,12 +4103,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
@@ -4131,12 +4125,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
@@ -4153,12 +4147,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
@@ -4175,12 +4169,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
@@ -4197,12 +4191,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
@@ -4219,12 +4213,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
@@ -4241,12 +4235,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onSwipeUpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeUpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
@@ -4263,12 +4257,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
@@ -4285,12 +4279,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
@@ -4307,12 +4301,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
@@ -4329,12 +4323,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
@@ -4351,12 +4345,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
@@ -4373,12 +4367,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
@@ -4395,12 +4389,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
@@ -4417,12 +4411,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.opacityProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
@@ -4439,12 +4433,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
@@ -4461,12 +4455,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.paddingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#parentProperty() parentProperty} 
      * of the instance being constructed. 
@@ -4483,12 +4477,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Parent>> op) {
         operations.add(obj -> op.accept(obj.parentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
@@ -4505,12 +4499,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> pickOnBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pickOnBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
@@ -4527,12 +4521,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
@@ -4549,12 +4543,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
@@ -4571,12 +4565,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> pressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
@@ -4593,12 +4587,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.rotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
@@ -4615,12 +4609,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
         operations.add(obj -> op.accept(obj.rotationAxisProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
@@ -4637,12 +4631,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.scaleShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
@@ -4659,12 +4653,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
@@ -4681,12 +4675,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
@@ -4703,12 +4697,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
@@ -4725,12 +4719,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
         operations.add(obj -> op.accept(obj.sceneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#selectedProperty() selectedProperty} 
      * of the instance being constructed. 
@@ -4747,12 +4741,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> selectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.selectedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
@@ -4769,12 +4763,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
         operations.add(obj -> op.accept(obj.shapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#skinProperty() skinProperty} 
      * of the instance being constructed. 
@@ -4791,12 +4785,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> skinPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Skin<?>>> op) {
         operations.add(obj -> op.accept(obj.skinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
@@ -4813,12 +4807,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.snapToPixelProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#styleProperty() styleProperty} 
      * of the instance being constructed. 
@@ -4835,12 +4829,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#tableColumnProperty() tableColumnProperty} 
      * of the instance being constructed. 
@@ -4857,12 +4851,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> tableColumnPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeTableColumn<S, T>>> op) {
         operations.add(obj -> op.accept(obj.tableColumnProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#tableRowProperty() tableRowProperty} 
      * of the instance being constructed. 
@@ -4879,12 +4873,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> tableRowPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeTableRow<S>>> op) {
         operations.add(obj -> op.accept(obj.tableRowProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#textAlignmentProperty() textAlignmentProperty} 
      * of the instance being constructed. 
@@ -4901,12 +4895,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> textAlignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.TextAlignment>> op) {
         operations.add(obj -> op.accept(obj.textAlignmentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#textFillProperty() textFillProperty} 
      * of the instance being constructed. 
@@ -4923,12 +4917,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> textFillPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Paint>> op) {
         operations.add(obj -> op.accept(obj.textFillProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#textOverrunProperty() textOverrunProperty} 
      * of the instance being constructed. 
@@ -4945,12 +4939,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> textOverrunPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.OverrunStyle>> op) {
         operations.add(obj -> op.accept(obj.textOverrunProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#textProperty() textProperty} 
      * of the instance being constructed. 
@@ -4967,12 +4961,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.textProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#textTruncatedProperty() textTruncatedProperty} 
      * of the instance being constructed. 
@@ -4989,12 +4983,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> textTruncatedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.textTruncatedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
@@ -5011,12 +5005,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> tooltipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Tooltip>> op) {
         operations.add(obj -> op.accept(obj.tooltipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
@@ -5033,12 +5027,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
@@ -5055,12 +5049,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
@@ -5077,12 +5071,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#treeTableViewProperty() treeTableViewProperty} 
      * of the instance being constructed. 
@@ -5099,12 +5093,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> treeTableViewPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeTableView<S>>> op) {
         operations.add(obj -> op.accept(obj.treeTableViewProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#underlineProperty() underlineProperty} 
      * of the instance being constructed. 
@@ -5121,12 +5115,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> underlinePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.underlineProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
@@ -5143,12 +5137,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> viewOrderPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.viewOrderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
@@ -5165,12 +5159,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#widthProperty() widthProperty} 
      * of the instance being constructed. 
@@ -5187,12 +5181,12 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#wrapTextProperty() wrapTextProperty} 
      * of the instance being constructed. 
@@ -5209,8 +5203,7 @@ public class TextFieldTreeTableCellBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFieldTreeTableCellBuilder<S, T> wrapTextPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.wrapTextProperty()));
         return this;

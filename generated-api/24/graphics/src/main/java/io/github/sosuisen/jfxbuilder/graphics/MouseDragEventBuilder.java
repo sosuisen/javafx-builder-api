@@ -27,7 +27,6 @@ public class MouseDragEventBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.input.MouseDragEvent>> operations = new java.util.ArrayList<>();
     private MouseDragEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.MouseDragEvent#MouseDragEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult, Object) MouseDragEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult, Object)}
      * and returns an instance of {@code MouseDragEventBuilder}.
@@ -41,7 +40,6 @@ public class MouseDragEventBuilder {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.MouseDragEvent#MouseDragEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult, Object) MouseDragEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult, Object)}
      * and returns an instance of {@code MouseDragEventBuilder}.
@@ -54,7 +52,6 @@ public class MouseDragEventBuilder {
         builder.constructorArgs = new Object[]{source, target, eventType, x, y, screenX, screenY, button, clickCount, shiftDown, controlDown, altDown, metaDown, primaryButtonDown, middleButtonDown, secondaryButtonDown, synthesized, popupTrigger, pickResult, gestureSource};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.MouseDragEvent#MouseDragEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult, Object) MouseDragEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult, Object)}
@@ -111,7 +108,6 @@ public class MouseDragEventBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -156,6 +152,7 @@ public class MouseDragEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the MouseDragEvent instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -167,12 +164,12 @@ public class MouseDragEventBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.input.MouseDragEvent#setDragDetect(boolean) setDragDetect} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MouseDragEventBuilder dragDetect(boolean dragDetect) {
         operations.add(obj -> obj.setDragDetect(dragDetect));
         return this;

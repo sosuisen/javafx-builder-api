@@ -27,14 +27,12 @@ public class GlowBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.effect.Glow>> operations = new java.util.ArrayList<>();
     private GlowBuilder() {}
     
-
     /**
      * Returns an instance of the {@code GlowBuilder}.
      *
      * @return an instance of the {@code GlowBuilder}.
      */
     public static GlowBuilder create() { return new GlowBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.Glow#Glow(double) Glow(double)}
@@ -97,7 +95,6 @@ public class GlowBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class GlowBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Glow instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -153,26 +151,27 @@ public class GlowBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Glow#setInput(javafx.scene.effect.Effect) setInput} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  GlowBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Glow#setLevel(double) setLevel} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  GlowBuilder level(double value) {
         operations.add(obj -> obj.setLevel(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Glow#inputProperty() inputProperty} 
      * of the instance being constructed. 
@@ -189,12 +188,12 @@ public class GlowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public GlowBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Glow#levelProperty() levelProperty} 
      * of the instance being constructed. 
@@ -211,8 +210,7 @@ public class GlowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public GlowBuilder levelPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.levelProperty()));
         return this;

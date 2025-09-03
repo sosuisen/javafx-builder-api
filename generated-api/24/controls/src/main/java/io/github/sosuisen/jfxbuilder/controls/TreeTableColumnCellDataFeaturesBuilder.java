@@ -27,7 +27,6 @@ public class TreeTableColumnCellDataFeaturesBuilder<S, T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.TreeTableColumn.CellDataFeatures<S, T>>> operations = new java.util.ArrayList<>();
     private TreeTableColumnCellDataFeaturesBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TreeTableColumn.CellDataFeatures#CellDataFeatures(TreeTableView, TreeTableColumn, TreeItem) CellDataFeatures(TreeTableView, TreeTableColumn, TreeItem)}
      * and returns an instance of {@code TreeTableColumnCellDataFeaturesBuilder<S, T>}.
@@ -85,7 +84,6 @@ public class TreeTableColumnCellDataFeaturesBuilder<S, T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class TreeTableColumnCellDataFeaturesBuilder<S, T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the CellDataFeatures instance being constructed.
      * Most operations on the instance can be performed using this method.

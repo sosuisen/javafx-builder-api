@@ -69,7 +69,6 @@ public class AudioEqualizerBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -114,6 +113,7 @@ public class AudioEqualizerBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the AudioEqualizer instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -125,16 +125,17 @@ public class AudioEqualizerBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.media.AudioEqualizer#setEnabled(boolean) setEnabled} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AudioEqualizerBuilder enabled(boolean value) {
         operations.add(obj -> obj.setEnabled(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.media.AudioEqualizer#getBands()} method.
      * 
@@ -160,8 +161,6 @@ public class AudioEqualizerBuilder {
         return this;
     }
 
-
-    
     /**
      * Applies a function to the {@link javafx.scene.media.AudioEqualizer#enabledProperty() enabledProperty} 
      * of the instance being constructed. 
@@ -178,8 +177,7 @@ public class AudioEqualizerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public AudioEqualizerBuilder enabledPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.enabledProperty()));
         return this;

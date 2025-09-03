@@ -1,7 +1,8 @@
 @import io.github.sosuisen.model.template.PropertyMethodModel
 
 @param PropertyMethodModel model
-    
+
+
     /**
      * Applies a function to the {@link ${model.originalClassName()}#${model.propertyName()}() ${model.propertyName()}} 
      * of the instance being constructed. 
@@ -18,8 +19,8 @@
      * </pre>
      *
      * @return builder instance
-     */    
-    ${model.methodAnnotation()}
+     */@if(!model.methodAnnotation().isEmpty())
+    ${model.methodAnnotation()}@endif
     public ${model.builderClassNameWithTypeParameter()} ${model.methodName()}(java.util.function.Consumer<${model.propertyType()}> op) {
         operations.add(obj -> op.accept(obj.${model.propertyName()}()));
         return this;

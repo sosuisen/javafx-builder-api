@@ -27,7 +27,6 @@ public class TreeTableViewSkinBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.TreeTableViewSkin<T>>> operations = new java.util.ArrayList<>();
     private TreeTableViewSkinBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.skin.TreeTableViewSkin#TreeTableViewSkin(TreeTableView) TreeTableViewSkin(TreeTableView)}
      * and returns an instance of {@code TreeTableViewSkinBuilder<T>}.
@@ -85,7 +84,6 @@ public class TreeTableViewSkinBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class TreeTableViewSkinBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TreeTableViewSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -141,6 +140,7 @@ public class TreeTableViewSkinBuilder<T> {
         operations.add(func);
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TreeTableViewSkin#getChildren()} method.
      * 
@@ -165,7 +165,4 @@ public class TreeTableViewSkinBuilder<T> {
         });
         return this;
     }
-
-
-
 }

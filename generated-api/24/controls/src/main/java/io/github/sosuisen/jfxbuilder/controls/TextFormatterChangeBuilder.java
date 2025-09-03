@@ -69,7 +69,6 @@ public class TextFormatterChangeBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -114,6 +113,7 @@ public class TextFormatterChangeBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Change instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -125,42 +125,42 @@ public class TextFormatterChangeBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextFormatter.Change#setAnchor(int) setAnchor} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFormatterChangeBuilder anchor(int newAnchor) {
         operations.add(obj -> obj.setAnchor(newAnchor));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextFormatter.Change#setCaretPosition(int) setCaretPosition} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFormatterChangeBuilder caretPosition(int newCaretPosition) {
         operations.add(obj -> obj.setCaretPosition(newCaretPosition));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextFormatter.Change#setRange(int, int) setRange} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFormatterChangeBuilder range(int start, int end) {
         operations.add(obj -> obj.setRange(start, end));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextFormatter.Change#setText(java.lang.String) setText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFormatterChangeBuilder text(java.lang.String value) {
         operations.add(obj -> obj.setText(value));
         return this;

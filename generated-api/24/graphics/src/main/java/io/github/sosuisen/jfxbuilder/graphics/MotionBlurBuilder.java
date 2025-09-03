@@ -27,14 +27,12 @@ public class MotionBlurBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.effect.MotionBlur>> operations = new java.util.ArrayList<>();
     private MotionBlurBuilder() {}
     
-
     /**
      * Returns an instance of the {@code MotionBlurBuilder}.
      *
      * @return an instance of the {@code MotionBlurBuilder}.
      */
     public static MotionBlurBuilder create() { return new MotionBlurBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.MotionBlur#MotionBlur(double, double) MotionBlur(double, double)}
@@ -97,7 +95,6 @@ public class MotionBlurBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class MotionBlurBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the MotionBlur instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -153,36 +151,37 @@ public class MotionBlurBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.MotionBlur#setAngle(double) setAngle} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MotionBlurBuilder angle(double value) {
         operations.add(obj -> obj.setAngle(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.MotionBlur#setInput(javafx.scene.effect.Effect) setInput} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MotionBlurBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.MotionBlur#setRadius(double) setRadius} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MotionBlurBuilder radius(double value) {
         operations.add(obj -> obj.setRadius(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.MotionBlur#angleProperty() angleProperty} 
      * of the instance being constructed. 
@@ -199,12 +198,12 @@ public class MotionBlurBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MotionBlurBuilder anglePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.angleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.MotionBlur#inputProperty() inputProperty} 
      * of the instance being constructed. 
@@ -221,12 +220,12 @@ public class MotionBlurBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MotionBlurBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.MotionBlur#radiusProperty() radiusProperty} 
      * of the instance being constructed. 
@@ -243,8 +242,7 @@ public class MotionBlurBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MotionBlurBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.radiusProperty()));
         return this;

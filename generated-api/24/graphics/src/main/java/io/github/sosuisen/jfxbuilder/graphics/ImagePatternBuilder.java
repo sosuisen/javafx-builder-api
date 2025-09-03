@@ -27,7 +27,6 @@ public class ImagePatternBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.paint.ImagePattern>> operations = new java.util.ArrayList<>();
     private ImagePatternBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.paint.ImagePattern#ImagePattern(Image) ImagePattern(Image)}
      * and returns an instance of {@code ImagePatternBuilder}.
@@ -40,7 +39,6 @@ public class ImagePatternBuilder {
         builder.constructorArgs = new Object[]{image};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.paint.ImagePattern#ImagePattern(Image, double, double, double, double, boolean) ImagePattern(Image, double, double, double, double, boolean)}
@@ -97,7 +95,6 @@ public class ImagePatternBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class ImagePatternBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ImagePattern instance being constructed.
      * Most operations on the instance can be performed using this method.

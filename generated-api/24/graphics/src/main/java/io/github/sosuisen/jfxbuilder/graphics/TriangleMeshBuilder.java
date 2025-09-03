@@ -27,14 +27,12 @@ public class TriangleMeshBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.shape.TriangleMesh>> operations = new java.util.ArrayList<>();
     private TriangleMeshBuilder() {}
     
-
     /**
      * Returns an instance of the {@code TriangleMeshBuilder}.
      *
      * @return an instance of the {@code TriangleMeshBuilder}.
      */
     public static TriangleMeshBuilder create() { return new TriangleMeshBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.shape.TriangleMesh#TriangleMesh(VertexFormat) TriangleMesh(VertexFormat)}
@@ -97,7 +95,6 @@ public class TriangleMeshBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class TriangleMeshBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TriangleMesh instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -153,16 +151,17 @@ public class TriangleMeshBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.TriangleMesh#setVertexFormat(javafx.scene.shape.VertexFormat) setVertexFormat} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TriangleMeshBuilder vertexFormat(javafx.scene.shape.VertexFormat value) {
         operations.add(obj -> obj.setVertexFormat(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.TriangleMesh#vertexFormatProperty() vertexFormatProperty} 
      * of the instance being constructed. 
@@ -179,8 +178,7 @@ public class TriangleMeshBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TriangleMeshBuilder vertexFormatPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.VertexFormat>> op) {
         operations.add(obj -> op.accept(obj.vertexFormatProperty()));
         return this;

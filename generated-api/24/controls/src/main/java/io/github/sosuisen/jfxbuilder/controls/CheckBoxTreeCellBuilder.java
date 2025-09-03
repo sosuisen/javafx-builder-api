@@ -27,14 +27,12 @@ public class CheckBoxTreeCellBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>>> operations = new java.util.ArrayList<>();
     private CheckBoxTreeCellBuilder() {}
     
-
     /**
      * Returns an instance of the {@code CheckBoxTreeCellBuilder<T>}.
      *
      * @return an instance of the {@code CheckBoxTreeCellBuilder<T>}.
      */
     public static <T> CheckBoxTreeCellBuilder<T> create() { return new CheckBoxTreeCellBuilder<T>(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.cell.CheckBoxTreeCell#CheckBoxTreeCell(Callback) CheckBoxTreeCell(Callback)}
@@ -48,7 +46,6 @@ public class CheckBoxTreeCellBuilder<T> {
         builder.constructorArgs = new Object[]{getSelectedProperty};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.cell.CheckBoxTreeCell#CheckBoxTreeCell(Callback, StringConverter) CheckBoxTreeCell(Callback, StringConverter)}
@@ -113,7 +110,6 @@ public class CheckBoxTreeCellBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -158,6 +154,7 @@ public class CheckBoxTreeCellBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the CheckBoxTreeCell instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -174,1146 +171,1147 @@ public class CheckBoxTreeCellBuilder<T> {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> accessibleHelp(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleHelp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> accessibleRole(javafx.scene.AccessibleRole value) {
         operations.add(obj -> obj.setAccessibleRole(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> accessibleRoleDescription(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> accessibleText(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> alignment(javafx.geometry.Pos value) {
         operations.add(obj -> obj.setAlignment(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> background(javafx.scene.layout.Background value) {
         operations.add(obj -> obj.setBackground(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> blendMode(javafx.scene.effect.BlendMode value) {
         operations.add(obj -> obj.setBlendMode(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> border(javafx.scene.layout.Border value) {
         operations.add(obj -> obj.setBorder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> cache(boolean value) {
         operations.add(obj -> obj.setCache(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> cacheHint(javafx.scene.CacheHint value) {
         operations.add(obj -> obj.setCacheHint(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> cacheShape(boolean value) {
         operations.add(obj -> obj.setCacheShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> centerShape(boolean value) {
         operations.add(obj -> obj.setCenterShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> clip(javafx.scene.Node value) {
         operations.add(obj -> obj.setClip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> contentDisplay(javafx.scene.control.ContentDisplay value) {
         operations.add(obj -> obj.setContentDisplay(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> contextMenu(javafx.scene.control.ContextMenu value) {
         operations.add(obj -> obj.setContextMenu(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setConverter(javafx.util.StringConverter) setConverter} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> converter(javafx.util.StringConverter<javafx.scene.control.TreeItem<T>> value) {
         operations.add(obj -> obj.setConverter(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> cursor(javafx.scene.Cursor value) {
         operations.add(obj -> obj.setCursor(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> depthTest(javafx.scene.DepthTest value) {
         operations.add(obj -> obj.setDepthTest(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setDisclosureNode(javafx.scene.Node) setDisclosureNode} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> disclosureNode(javafx.scene.Node value) {
         operations.add(obj -> obj.setDisclosureNode(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setEditable(boolean) setEditable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> editable(boolean value) {
         operations.add(obj -> obj.setEditable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> effect(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setEffect(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> ellipsisString(java.lang.String value) {
         operations.add(obj -> obj.setEllipsisString(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> eventDispatcher(javafx.event.EventDispatcher value) {
         operations.add(obj -> obj.setEventDispatcher(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> focusTraversable(boolean value) {
         operations.add(obj -> obj.setFocusTraversable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> font(javafx.scene.text.Font value) {
         operations.add(obj -> obj.setFont(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> graphic(javafx.scene.Node value) {
         operations.add(obj -> obj.setGraphic(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> graphicTextGap(double value) {
         operations.add(obj -> obj.setGraphicTextGap(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
         operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setItem(java.lang.Object) setItem} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> item(T value) {
         operations.add(obj -> obj.setItem(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> layoutX(double value) {
         operations.add(obj -> obj.setLayoutX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> layoutY(double value) {
         operations.add(obj -> obj.setLayoutY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> lineSpacing(double value) {
         operations.add(obj -> obj.setLineSpacing(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> managed(boolean value) {
         operations.add(obj -> obj.setManaged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> maxHeight(double value) {
         operations.add(obj -> obj.setMaxHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> maxSize(double maxWidth, double maxHeight) {
         operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> maxWidth(double value) {
         operations.add(obj -> obj.setMaxWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setMinHeight(double) setMinHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> minHeight(double value) {
         operations.add(obj -> obj.setMinHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setMinSize(double, double) setMinSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> minSize(double minWidth, double minHeight) {
         operations.add(obj -> obj.setMinSize(minWidth, minHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setMinWidth(double) setMinWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> minWidth(double value) {
         operations.add(obj -> obj.setMinWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> mnemonicParsing(boolean value) {
         operations.add(obj -> obj.setMnemonicParsing(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> mouseTransparent(boolean value) {
         operations.add(obj -> obj.setMouseTransparent(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> nodeOrientation(javafx.geometry.NodeOrientation orientation) {
         operations.add(obj -> obj.setNodeOrientation(orientation));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
         operations.add(obj -> obj.setOnContextMenuRequested(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnDragDetected(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDone(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDropped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
         operations.add(obj -> obj.setOnInputMethodTextChanged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onKeyPressed(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyTyped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseClicked(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseDragged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onMouseEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMousePressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onScroll(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScroll(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeDown(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeLeft(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onSwipeRight(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeRight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onTouchMoved(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchStationary(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoom(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> opacity(double value) {
         operations.add(obj -> obj.setOpacity(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> opaqueInsets(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setOpaqueInsets(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> padding(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setPadding(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> pickOnBounds(boolean value) {
         operations.add(obj -> obj.setPickOnBounds(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> prefHeight(double value) {
         operations.add(obj -> obj.setPrefHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> prefSize(double prefWidth, double prefHeight) {
         operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> prefWidth(double value) {
         operations.add(obj -> obj.setPrefWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> rotate(double value) {
         operations.add(obj -> obj.setRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> rotationAxis(javafx.geometry.Point3D value) {
         operations.add(obj -> obj.setRotationAxis(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> scaleShape(boolean value) {
         operations.add(obj -> obj.setScaleShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> scaleX(double value) {
         operations.add(obj -> obj.setScaleX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> scaleY(double value) {
         operations.add(obj -> obj.setScaleY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> scaleZ(double value) {
         operations.add(obj -> obj.setScaleZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setSelectedStateCallback(javafx.util.Callback) setSelectedStateCallback} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> selectedStateCallback(javafx.util.Callback<javafx.scene.control.TreeItem<T>, javafx.beans.value.ObservableValue<java.lang.Boolean>> value) {
         operations.add(obj -> obj.setSelectedStateCallback(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> shape(javafx.scene.shape.Shape value) {
         operations.add(obj -> obj.setShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> skin(javafx.scene.control.Skin<?> value) {
         operations.add(obj -> obj.setSkin(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> snapToPixel(boolean value) {
         operations.add(obj -> obj.setSnapToPixel(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setText(java.lang.String) setText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> text(java.lang.String value) {
         operations.add(obj -> obj.setText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> textAlignment(javafx.scene.text.TextAlignment value) {
         operations.add(obj -> obj.setTextAlignment(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> textFill(javafx.scene.paint.Paint value) {
         operations.add(obj -> obj.setTextFill(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> textOverrun(javafx.scene.control.OverrunStyle value) {
         operations.add(obj -> obj.setTextOverrun(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> tooltip(javafx.scene.control.Tooltip value) {
         operations.add(obj -> obj.setTooltip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> translateX(double value) {
         operations.add(obj -> obj.setTranslateX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> translateY(double value) {
         operations.add(obj -> obj.setTranslateY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> translateZ(double value) {
         operations.add(obj -> obj.setTranslateZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setUnderline(boolean) setUnderline} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> underline(boolean value) {
         operations.add(obj -> obj.setUnderline(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> viewOrder(double value) {
         operations.add(obj -> obj.setViewOrder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setWrapText(boolean) setWrapText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CheckBoxTreeCellBuilder<T> wrapText(boolean value) {
         operations.add(obj -> obj.setWrapText(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeCell#getStyleClass()} method.
      * 
@@ -1338,8 +1336,6 @@ public class CheckBoxTreeCellBuilder<T> {
         });
         return this;
     }
-
-
 
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeCell#getStylesheets()} method.
@@ -1366,8 +1362,6 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
 
-
-
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeCell#getTransforms()} method.
      * 
@@ -1391,10 +1385,7 @@ public class CheckBoxTreeCellBuilder<T> {
             obj.getTransforms().addAll(col);
         });
         return this;
-    }
-
-
-    
+    }    
     /**
      * Utility setter to add CSS string for this CheckBoxTreeCell's contents.
      * For example:
@@ -1411,6 +1402,7 @@ public class CheckBoxTreeCellBuilder<T> {
                 java.util.Base64.getEncoder().encodeToString(css.getBytes())));
         return this;
     }
+
     /**
      * Invokes the {@link javafx.scene.layout.AnchorPane#setBottomAnchor(Node child, java.lang.Double value) AnchorPane.setBottomAnchor(Node, Double)} 
      * using a fluent API.
@@ -1426,10 +1418,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .bottomAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .bottomAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1454,10 +1446,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .leftAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .leftAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1482,10 +1474,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .rightAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .rightAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1510,10 +1502,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .topAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .topAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1538,10 +1530,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .alignmentInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1566,10 +1558,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .marginInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1594,10 +1586,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = FlowPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInFlowPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInFlowPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1622,10 +1614,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1650,10 +1642,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1678,10 +1670,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1706,10 +1698,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1734,10 +1726,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1762,10 +1754,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1790,10 +1782,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1818,10 +1810,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillHeightInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillHeightInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1846,10 +1838,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillWidthInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillWidthInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1874,10 +1866,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1902,10 +1894,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1930,10 +1922,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1958,10 +1950,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1986,10 +1978,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2014,10 +2006,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2042,10 +2034,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2070,10 +2062,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .hGrowInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2098,10 +2090,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2126,10 +2118,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .alignmentInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2154,10 +2146,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .marginInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2182,10 +2174,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .alignmentInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2210,10 +2202,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2238,10 +2230,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2266,10 +2258,10 @@ public class CheckBoxTreeCellBuilder<T> {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .vGrowInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2278,7 +2270,8 @@ public class CheckBoxTreeCellBuilder<T> {
         operations.add(obj -> javafx.scene.layout.VBox.setVgrow(obj, value));
         return this;
     }
-    
+
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
@@ -2295,12 +2288,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
@@ -2317,12 +2310,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
@@ -2339,12 +2332,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
@@ -2361,12 +2354,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleTextProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
@@ -2383,12 +2376,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> alignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Pos>> op) {
         operations.add(obj -> op.accept(obj.alignmentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
@@ -2405,12 +2398,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> backgroundPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Background>> op) {
         operations.add(obj -> op.accept(obj.backgroundProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
@@ -2427,12 +2420,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
         operations.add(obj -> op.accept(obj.blendModeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#borderProperty() borderProperty} 
      * of the instance being constructed. 
@@ -2449,12 +2442,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
         operations.add(obj -> op.accept(obj.borderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
@@ -2471,12 +2464,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
@@ -2493,12 +2486,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInParentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
@@ -2515,12 +2508,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
         operations.add(obj -> op.accept(obj.cacheHintProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
@@ -2537,12 +2530,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
@@ -2559,12 +2552,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
@@ -2581,12 +2574,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.centerShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#clipProperty() clipProperty} 
      * of the instance being constructed. 
@@ -2603,12 +2596,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.clipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#contentDisplayProperty() contentDisplayProperty} 
      * of the instance being constructed. 
@@ -2625,12 +2618,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> contentDisplayPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ContentDisplay>> op) {
         operations.add(obj -> op.accept(obj.contentDisplayProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
@@ -2647,12 +2640,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> contextMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.contextMenuProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#converterProperty() converterProperty} 
      * of the instance being constructed. 
@@ -2669,12 +2662,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<javafx.scene.control.TreeItem<T>>>> op) {
         operations.add(obj -> op.accept(obj.converterProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
@@ -2691,12 +2684,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
         operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
@@ -2713,12 +2706,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
         operations.add(obj -> op.accept(obj.depthTestProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#disableProperty() disableProperty} 
      * of the instance being constructed. 
@@ -2735,12 +2728,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
@@ -2757,12 +2750,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> disabledPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disabledProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#disclosureNodeProperty() disclosureNodeProperty} 
      * of the instance being constructed. 
@@ -2779,12 +2772,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> disclosureNodePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.disclosureNodeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#editableProperty() editableProperty} 
      * of the instance being constructed. 
@@ -2801,12 +2794,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> editablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.editableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#editingProperty() editingProperty} 
      * of the instance being constructed. 
@@ -2823,12 +2816,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> editingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.editingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#effectProperty() effectProperty} 
      * of the instance being constructed. 
@@ -2845,12 +2838,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.effectProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
@@ -2867,12 +2860,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#ellipsisStringProperty() ellipsisStringProperty} 
      * of the instance being constructed. 
@@ -2889,12 +2882,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> ellipsisStringPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.ellipsisStringProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#emptyProperty() emptyProperty} 
      * of the instance being constructed. 
@@ -2911,12 +2904,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> emptyPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.emptyProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
@@ -2933,12 +2926,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
         operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
@@ -2955,12 +2948,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusTraversableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
@@ -2977,12 +2970,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
@@ -2999,12 +2992,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusWithinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
@@ -3021,12 +3014,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#fontProperty() fontProperty} 
      * of the instance being constructed. 
@@ -3043,12 +3036,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> fontPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.Font>> op) {
         operations.add(obj -> op.accept(obj.fontProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
@@ -3065,12 +3058,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.graphicProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#graphicTextGapProperty() graphicTextGapProperty} 
      * of the instance being constructed. 
@@ -3087,12 +3080,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> graphicTextGapPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.graphicTextGapProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -3109,12 +3102,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
@@ -3131,12 +3124,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> hoverPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.hoverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#idProperty() idProperty} 
      * of the instance being constructed. 
@@ -3153,12 +3146,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#indexProperty() indexProperty} 
      * of the instance being constructed. 
@@ -3175,12 +3168,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> indexPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
         operations.add(obj -> op.accept(obj.indexProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
@@ -3197,12 +3190,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
         operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
@@ -3219,12 +3212,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> insetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.insetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#itemProperty() itemProperty} 
      * of the instance being constructed. 
@@ -3241,12 +3234,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> itemPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
         operations.add(obj -> op.accept(obj.itemProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#labelPaddingProperty() labelPaddingProperty} 
      * of the instance being constructed. 
@@ -3263,12 +3256,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> labelPaddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.labelPaddingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
@@ -3285,12 +3278,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
@@ -3307,12 +3300,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
@@ -3329,12 +3322,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> layoutYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#lineSpacingProperty() lineSpacingProperty} 
      * of the instance being constructed. 
@@ -3351,12 +3344,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> lineSpacingPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.lineSpacingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
@@ -3373,12 +3366,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
@@ -3395,12 +3388,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#managedProperty() managedProperty} 
      * of the instance being constructed. 
@@ -3417,12 +3410,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.managedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
@@ -3439,12 +3432,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
@@ -3461,12 +3454,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
@@ -3483,12 +3476,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
@@ -3505,12 +3498,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
@@ -3527,12 +3520,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
@@ -3549,12 +3542,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
@@ -3571,12 +3564,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> needsLayoutPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.needsLayoutProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
@@ -3593,12 +3586,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
@@ -3615,12 +3608,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
         operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
@@ -3637,12 +3630,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
@@ -3659,12 +3652,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDoneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
@@ -3681,12 +3674,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3703,12 +3696,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
@@ -3725,12 +3718,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
@@ -3747,12 +3740,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
@@ -3769,12 +3762,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
         operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
@@ -3791,12 +3784,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
@@ -3813,12 +3806,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
@@ -3835,12 +3828,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
@@ -3857,12 +3850,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3879,12 +3872,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
@@ -3901,12 +3894,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
@@ -3923,12 +3916,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
@@ -3945,12 +3938,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
@@ -3967,12 +3960,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
@@ -3989,12 +3982,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
@@ -4011,12 +4004,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
@@ -4033,12 +4026,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
@@ -4055,12 +4048,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMousePressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
@@ -4077,12 +4070,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
@@ -4099,12 +4092,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
@@ -4121,12 +4114,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
@@ -4143,12 +4136,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
@@ -4165,12 +4158,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
@@ -4187,12 +4180,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
@@ -4209,12 +4202,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
@@ -4231,12 +4224,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
@@ -4253,12 +4246,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
@@ -4275,12 +4268,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
@@ -4297,12 +4290,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onSwipeUpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeUpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
@@ -4319,12 +4312,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
@@ -4341,12 +4334,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
@@ -4363,12 +4356,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
@@ -4385,12 +4378,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
@@ -4407,12 +4400,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
@@ -4429,12 +4422,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
@@ -4451,12 +4444,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
@@ -4473,12 +4466,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.opacityProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
@@ -4495,12 +4488,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
@@ -4517,12 +4510,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.paddingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#parentProperty() parentProperty} 
      * of the instance being constructed. 
@@ -4539,12 +4532,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Parent>> op) {
         operations.add(obj -> op.accept(obj.parentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
@@ -4561,12 +4554,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> pickOnBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pickOnBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
@@ -4583,12 +4576,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
@@ -4605,12 +4598,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
@@ -4627,12 +4620,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> pressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
@@ -4649,12 +4642,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.rotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
@@ -4671,12 +4664,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
         operations.add(obj -> op.accept(obj.rotationAxisProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
@@ -4693,12 +4686,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.scaleShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
@@ -4715,12 +4708,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
@@ -4737,12 +4730,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
@@ -4759,12 +4752,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
@@ -4781,12 +4774,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
         operations.add(obj -> op.accept(obj.sceneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#selectedProperty() selectedProperty} 
      * of the instance being constructed. 
@@ -4803,12 +4796,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> selectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.selectedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#selectedStateCallbackProperty() selectedStateCallbackProperty} 
      * of the instance being constructed. 
@@ -4825,12 +4818,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> selectedStateCallbackPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.control.TreeItem<T>, javafx.beans.value.ObservableValue<java.lang.Boolean>>>> op) {
         operations.add(obj -> op.accept(obj.selectedStateCallbackProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
@@ -4847,12 +4840,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
         operations.add(obj -> op.accept(obj.shapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#skinProperty() skinProperty} 
      * of the instance being constructed. 
@@ -4869,12 +4862,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> skinPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Skin<?>>> op) {
         operations.add(obj -> op.accept(obj.skinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
@@ -4891,12 +4884,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.snapToPixelProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#styleProperty() styleProperty} 
      * of the instance being constructed. 
@@ -4913,12 +4906,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#textAlignmentProperty() textAlignmentProperty} 
      * of the instance being constructed. 
@@ -4935,12 +4928,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> textAlignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.TextAlignment>> op) {
         operations.add(obj -> op.accept(obj.textAlignmentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#textFillProperty() textFillProperty} 
      * of the instance being constructed. 
@@ -4957,12 +4950,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> textFillPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Paint>> op) {
         operations.add(obj -> op.accept(obj.textFillProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#textOverrunProperty() textOverrunProperty} 
      * of the instance being constructed. 
@@ -4979,12 +4972,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> textOverrunPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.OverrunStyle>> op) {
         operations.add(obj -> op.accept(obj.textOverrunProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#textProperty() textProperty} 
      * of the instance being constructed. 
@@ -5001,12 +4994,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.textProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#textTruncatedProperty() textTruncatedProperty} 
      * of the instance being constructed. 
@@ -5023,12 +5016,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> textTruncatedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.textTruncatedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
@@ -5045,12 +5038,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> tooltipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Tooltip>> op) {
         operations.add(obj -> op.accept(obj.tooltipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
@@ -5067,12 +5060,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
@@ -5089,12 +5082,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
@@ -5111,12 +5104,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#treeItemProperty() treeItemProperty} 
      * of the instance being constructed. 
@@ -5133,12 +5126,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> treeItemPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeItem<T>>> op) {
         operations.add(obj -> op.accept(obj.treeItemProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#treeViewProperty() treeViewProperty} 
      * of the instance being constructed. 
@@ -5155,12 +5148,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> treeViewPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeView<T>>> op) {
         operations.add(obj -> op.accept(obj.treeViewProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#underlineProperty() underlineProperty} 
      * of the instance being constructed. 
@@ -5177,12 +5170,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> underlinePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.underlineProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
@@ -5199,12 +5192,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> viewOrderPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.viewOrderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
@@ -5221,12 +5214,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#widthProperty() widthProperty} 
      * of the instance being constructed. 
@@ -5243,12 +5236,12 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#wrapTextProperty() wrapTextProperty} 
      * of the instance being constructed. 
@@ -5265,8 +5258,7 @@ public class CheckBoxTreeCellBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CheckBoxTreeCellBuilder<T> wrapTextPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.wrapTextProperty()));
         return this;

@@ -27,7 +27,6 @@ public class ComboBoxListViewSkinBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.ComboBoxListViewSkin<T>>> operations = new java.util.ArrayList<>();
     private ComboBoxListViewSkinBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.skin.ComboBoxListViewSkin#ComboBoxListViewSkin(ComboBox) ComboBoxListViewSkin(ComboBox)}
      * and returns an instance of {@code ComboBoxListViewSkinBuilder<T>}.
@@ -85,7 +84,6 @@ public class ComboBoxListViewSkinBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class ComboBoxListViewSkinBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ComboBoxListViewSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -141,16 +140,17 @@ public class ComboBoxListViewSkinBuilder<T> {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.ComboBoxListViewSkin#setHideOnClick(boolean) setHideOnClick} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxListViewSkinBuilder<T> hideOnClick(boolean value) {
         operations.add(obj -> obj.setHideOnClick(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ComboBoxListViewSkin#getChildren()} method.
      * 
@@ -176,8 +176,6 @@ public class ComboBoxListViewSkinBuilder<T> {
         return this;
     }
 
-
-    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.ComboBoxListViewSkin#hideOnClickProperty() hideOnClickProperty} 
      * of the instance being constructed. 
@@ -194,8 +192,7 @@ public class ComboBoxListViewSkinBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxListViewSkinBuilder<T> hideOnClickPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.hideOnClickProperty()));
         return this;

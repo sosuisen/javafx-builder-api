@@ -27,7 +27,6 @@ public class TableColumnCellEditEventBuilder<S, T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.TableColumn.CellEditEvent<S, T>>> operations = new java.util.ArrayList<>();
     private TableColumnCellEditEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TableColumn.CellEditEvent#CellEditEvent(TableView, TablePosition, EventType, Object) CellEditEvent(TableView, TablePosition, EventType, Object)}
      * and returns an instance of {@code TableColumnCellEditEventBuilder<S, T>}.
@@ -85,7 +84,6 @@ public class TableColumnCellEditEventBuilder<S, T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class TableColumnCellEditEventBuilder<S, T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the CellEditEvent instance being constructed.
      * Most operations on the instance can be performed using this method.

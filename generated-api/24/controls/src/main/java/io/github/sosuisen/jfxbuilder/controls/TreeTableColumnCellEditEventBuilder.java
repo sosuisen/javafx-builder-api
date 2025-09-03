@@ -27,7 +27,6 @@ public class TreeTableColumnCellEditEventBuilder<S, T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.TreeTableColumn.CellEditEvent<S, T>>> operations = new java.util.ArrayList<>();
     private TreeTableColumnCellEditEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TreeTableColumn.CellEditEvent#CellEditEvent(TreeTableView, TreeTablePosition, EventType, Object) CellEditEvent(TreeTableView, TreeTablePosition, EventType, Object)}
      * and returns an instance of {@code TreeTableColumnCellEditEventBuilder<S, T>}.
@@ -85,7 +84,6 @@ public class TreeTableColumnCellEditEventBuilder<S, T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class TreeTableColumnCellEditEventBuilder<S, T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the CellEditEvent instance being constructed.
      * Most operations on the instance can be performed using this method.

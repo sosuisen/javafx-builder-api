@@ -27,7 +27,6 @@ public class InputEventBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.input.InputEvent>> operations = new java.util.ArrayList<>();
     private InputEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.InputEvent#InputEvent(Object, EventTarget, EventType) InputEvent(Object, EventTarget, EventType)}
      * and returns an instance of {@code InputEventBuilder}.
@@ -40,7 +39,6 @@ public class InputEventBuilder {
         builder.constructorArgs = new Object[]{source, target, eventType};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.InputEvent#InputEvent(EventType) InputEvent(EventType)}
@@ -97,7 +95,6 @@ public class InputEventBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class InputEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the InputEvent instance being constructed.
      * Most operations on the instance can be performed using this method.

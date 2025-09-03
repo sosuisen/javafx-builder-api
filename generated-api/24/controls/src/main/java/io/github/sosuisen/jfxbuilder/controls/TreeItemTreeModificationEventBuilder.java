@@ -27,7 +27,6 @@ public class TreeItemTreeModificationEventBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.TreeItem.TreeModificationEvent<T>>> operations = new java.util.ArrayList<>();
     private TreeItemTreeModificationEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TreeItem.TreeModificationEvent#TreeModificationEvent(EventType, TreeItem) TreeModificationEvent(EventType, TreeItem)}
      * and returns an instance of {@code TreeItemTreeModificationEventBuilder<T>}.
@@ -40,7 +39,6 @@ public class TreeItemTreeModificationEventBuilder<T> {
         builder.constructorArgs = new Object[]{eventType, treeItem};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TreeItem.TreeModificationEvent#TreeModificationEvent(EventType, TreeItem, Object) TreeModificationEvent(EventType, TreeItem, Object)}
@@ -55,7 +53,6 @@ public class TreeItemTreeModificationEventBuilder<T> {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TreeItem.TreeModificationEvent#TreeModificationEvent(EventType, TreeItem, boolean) TreeModificationEvent(EventType, TreeItem, boolean)}
      * and returns an instance of {@code TreeItemTreeModificationEventBuilder<T>}.
@@ -68,7 +65,6 @@ public class TreeItemTreeModificationEventBuilder<T> {
         builder.constructorArgs = new Object[]{eventType, treeItem, expanded};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TreeItem.TreeModificationEvent#TreeModificationEvent(EventType, TreeItem, List, List) TreeModificationEvent(EventType, TreeItem, List, List)}
@@ -127,7 +123,6 @@ public class TreeItemTreeModificationEventBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -172,6 +167,7 @@ public class TreeItemTreeModificationEventBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TreeModificationEvent instance being constructed.
      * Most operations on the instance can be performed using this method.

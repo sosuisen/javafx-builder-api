@@ -27,14 +27,12 @@ public class AffineBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.transform.Affine>> operations = new java.util.ArrayList<>();
     private AffineBuilder() {}
     
-
     /**
      * Returns an instance of the {@code AffineBuilder}.
      *
      * @return an instance of the {@code AffineBuilder}.
      */
     public static AffineBuilder create() { return new AffineBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.transform.Affine#Affine(double, double, double, double, double, double) Affine(double, double, double, double, double, double)}
@@ -49,7 +47,6 @@ public class AffineBuilder {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.transform.Affine#Affine(double, double, double, double, double, double, double, double, double, double, double, double) Affine(double, double, double, double, double, double, double, double, double, double, double, double)}
      * and returns an instance of {@code AffineBuilder}.
@@ -63,7 +60,6 @@ public class AffineBuilder {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.transform.Affine#Affine(double..., MatrixType, int) Affine(double..., MatrixType, int)}
      * and returns an instance of {@code AffineBuilder}.
@@ -76,7 +72,6 @@ public class AffineBuilder {
         builder.constructorArgs = new Object[]{matrix, type, offset};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.transform.Affine#Affine(Transform) Affine(Transform)}
@@ -139,7 +134,6 @@ public class AffineBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -184,6 +178,7 @@ public class AffineBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Affine instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -195,196 +190,197 @@ public class AffineBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Affine#setElement(javafx.scene.transform.MatrixType, int, int, double) setElement} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AffineBuilder element(javafx.scene.transform.MatrixType type, int row, int column, double value) {
         operations.add(obj -> obj.setElement(type, row, column, value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Affine#setMxx(double) setMxx} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AffineBuilder mxx(double value) {
         operations.add(obj -> obj.setMxx(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Affine#setMxy(double) setMxy} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AffineBuilder mxy(double value) {
         operations.add(obj -> obj.setMxy(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Affine#setMxz(double) setMxz} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AffineBuilder mxz(double value) {
         operations.add(obj -> obj.setMxz(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Affine#setMyx(double) setMyx} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AffineBuilder myx(double value) {
         operations.add(obj -> obj.setMyx(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Affine#setMyy(double) setMyy} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AffineBuilder myy(double value) {
         operations.add(obj -> obj.setMyy(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Affine#setMyz(double) setMyz} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AffineBuilder myz(double value) {
         operations.add(obj -> obj.setMyz(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Affine#setMzx(double) setMzx} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AffineBuilder mzx(double value) {
         operations.add(obj -> obj.setMzx(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Affine#setMzy(double) setMzy} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AffineBuilder mzy(double value) {
         operations.add(obj -> obj.setMzy(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Affine#setMzz(double) setMzz} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AffineBuilder mzz(double value) {
         operations.add(obj -> obj.setMzz(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Affine#setOnTransformChanged(javafx.event.EventHandler) setOnTransformChanged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AffineBuilder onTransformChanged(javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent> value) {
         operations.add(obj -> obj.setOnTransformChanged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Affine#setToIdentity() setToIdentity} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AffineBuilder toIdentity() {
         operations.add(obj -> obj.setToIdentity());
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Affine#setToTransform(double, double, double, double, double, double) setToTransform} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AffineBuilder toTransform(double mxx, double mxy, double tx, double myx, double myy, double ty) {
         operations.add(obj -> obj.setToTransform(mxx, mxy, tx, myx, myy, ty));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Affine#setToTransform(double, double, double, double, double, double, double, double, double, double, double, double) setToTransform} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AffineBuilder toTransform(double mxx, double mxy, double mxz, double tx, double myx, double myy, double myz, double ty, double mzx, double mzy, double mzz, double tz) {
         operations.add(obj -> obj.setToTransform(mxx, mxy, mxz, tx, myx, myy, myz, ty, mzx, mzy, mzz, tz));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Affine#setToTransform(double..., javafx.scene.transform.MatrixType, int) setToTransform} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AffineBuilder toTransform(double[] matrix, javafx.scene.transform.MatrixType type, int offset) {
         operations.add(obj -> obj.setToTransform(matrix, type, offset));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Affine#setToTransform(javafx.scene.transform.Transform) setToTransform} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AffineBuilder toTransform(javafx.scene.transform.Transform transform) {
         operations.add(obj -> obj.setToTransform(transform));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Affine#setTx(double) setTx} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AffineBuilder tx(double value) {
         operations.add(obj -> obj.setTx(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Affine#setTy(double) setTy} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AffineBuilder ty(double value) {
         operations.add(obj -> obj.setTy(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.Affine#setTz(double) setTz} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AffineBuilder tz(double value) {
         operations.add(obj -> obj.setTz(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#identityProperty() identityProperty} 
      * of the instance being constructed. 
@@ -401,12 +397,12 @@ public class AffineBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public AffineBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.identityProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#mxxProperty() mxxProperty} 
      * of the instance being constructed. 
@@ -423,12 +419,12 @@ public class AffineBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public AffineBuilder mxxPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.mxxProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#mxyProperty() mxyProperty} 
      * of the instance being constructed. 
@@ -445,12 +441,12 @@ public class AffineBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public AffineBuilder mxyPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.mxyProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#mxzProperty() mxzProperty} 
      * of the instance being constructed. 
@@ -467,12 +463,12 @@ public class AffineBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public AffineBuilder mxzPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.mxzProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#myxProperty() myxProperty} 
      * of the instance being constructed. 
@@ -489,12 +485,12 @@ public class AffineBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public AffineBuilder myxPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.myxProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#myyProperty() myyProperty} 
      * of the instance being constructed. 
@@ -511,12 +507,12 @@ public class AffineBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public AffineBuilder myyPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.myyProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#myzProperty() myzProperty} 
      * of the instance being constructed. 
@@ -533,12 +529,12 @@ public class AffineBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public AffineBuilder myzPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.myzProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#mzxProperty() mzxProperty} 
      * of the instance being constructed. 
@@ -555,12 +551,12 @@ public class AffineBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public AffineBuilder mzxPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.mzxProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#mzyProperty() mzyProperty} 
      * of the instance being constructed. 
@@ -577,12 +573,12 @@ public class AffineBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public AffineBuilder mzyPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.mzyProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#mzzProperty() mzzProperty} 
      * of the instance being constructed. 
@@ -599,12 +595,12 @@ public class AffineBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public AffineBuilder mzzPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.mzzProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#onTransformChangedProperty() onTransformChangedProperty} 
      * of the instance being constructed. 
@@ -621,12 +617,12 @@ public class AffineBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public AffineBuilder onTransformChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTransformChangedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#txProperty() txProperty} 
      * of the instance being constructed. 
@@ -643,12 +639,12 @@ public class AffineBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public AffineBuilder txPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.txProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#tyProperty() tyProperty} 
      * of the instance being constructed. 
@@ -665,12 +661,12 @@ public class AffineBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public AffineBuilder tyPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.tyProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#type2DProperty() type2DProperty} 
      * of the instance being constructed. 
@@ -687,12 +683,12 @@ public class AffineBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public AffineBuilder type2DPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.type2DProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#tzProperty() tzProperty} 
      * of the instance being constructed. 
@@ -709,8 +705,7 @@ public class AffineBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public AffineBuilder tzPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.tzProperty()));
         return this;

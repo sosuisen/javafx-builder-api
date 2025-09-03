@@ -27,14 +27,12 @@ public class DropShadowBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.effect.DropShadow>> operations = new java.util.ArrayList<>();
     private DropShadowBuilder() {}
     
-
     /**
      * Returns an instance of the {@code DropShadowBuilder}.
      *
      * @return an instance of the {@code DropShadowBuilder}.
      */
     public static DropShadowBuilder create() { return new DropShadowBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.DropShadow#DropShadow(double, double, double, Color) DropShadow(double, double, double, Color)}
@@ -49,7 +47,6 @@ public class DropShadowBuilder {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.DropShadow#DropShadow(double, Color) DropShadow(double, Color)}
      * and returns an instance of {@code DropShadowBuilder}.
@@ -62,7 +59,6 @@ public class DropShadowBuilder {
         builder.constructorArgs = new Object[]{radius, color};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.DropShadow#DropShadow(BlurType, Color, double, double, double, double) DropShadow(BlurType, Color, double, double, double, double)}
@@ -125,7 +121,6 @@ public class DropShadowBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -170,6 +165,7 @@ public class DropShadowBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the DropShadow instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -181,96 +177,97 @@ public class DropShadowBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.DropShadow#setBlurType(javafx.scene.effect.BlurType) setBlurType} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DropShadowBuilder blurType(javafx.scene.effect.BlurType value) {
         operations.add(obj -> obj.setBlurType(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.DropShadow#setColor(javafx.scene.paint.Color) setColor} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DropShadowBuilder color(javafx.scene.paint.Color value) {
         operations.add(obj -> obj.setColor(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.DropShadow#setHeight(double) setHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DropShadowBuilder height(double value) {
         operations.add(obj -> obj.setHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.DropShadow#setInput(javafx.scene.effect.Effect) setInput} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DropShadowBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.DropShadow#setOffsetX(double) setOffsetX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DropShadowBuilder offsetX(double value) {
         operations.add(obj -> obj.setOffsetX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.DropShadow#setOffsetY(double) setOffsetY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DropShadowBuilder offsetY(double value) {
         operations.add(obj -> obj.setOffsetY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.DropShadow#setRadius(double) setRadius} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DropShadowBuilder radius(double value) {
         operations.add(obj -> obj.setRadius(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.DropShadow#setSpread(double) setSpread} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DropShadowBuilder spread(double value) {
         operations.add(obj -> obj.setSpread(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.DropShadow#setWidth(double) setWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DropShadowBuilder width(double value) {
         operations.add(obj -> obj.setWidth(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#blurTypeProperty() blurTypeProperty} 
      * of the instance being constructed. 
@@ -287,12 +284,12 @@ public class DropShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DropShadowBuilder blurTypePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlurType>> op) {
         operations.add(obj -> op.accept(obj.blurTypeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#colorProperty() colorProperty} 
      * of the instance being constructed. 
@@ -309,12 +306,12 @@ public class DropShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DropShadowBuilder colorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
         operations.add(obj -> op.accept(obj.colorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -331,12 +328,12 @@ public class DropShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DropShadowBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#inputProperty() inputProperty} 
      * of the instance being constructed. 
@@ -353,12 +350,12 @@ public class DropShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DropShadowBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#offsetXProperty() offsetXProperty} 
      * of the instance being constructed. 
@@ -375,12 +372,12 @@ public class DropShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DropShadowBuilder offsetXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.offsetXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#offsetYProperty() offsetYProperty} 
      * of the instance being constructed. 
@@ -397,12 +394,12 @@ public class DropShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DropShadowBuilder offsetYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.offsetYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#radiusProperty() radiusProperty} 
      * of the instance being constructed. 
@@ -419,12 +416,12 @@ public class DropShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DropShadowBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.radiusProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#spreadProperty() spreadProperty} 
      * of the instance being constructed. 
@@ -441,12 +438,12 @@ public class DropShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DropShadowBuilder spreadPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.spreadProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#widthProperty() widthProperty} 
      * of the instance being constructed. 
@@ -463,8 +460,7 @@ public class DropShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DropShadowBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;

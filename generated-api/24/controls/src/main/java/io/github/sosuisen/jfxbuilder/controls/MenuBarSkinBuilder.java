@@ -27,7 +27,6 @@ public class MenuBarSkinBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.MenuBarSkin>> operations = new java.util.ArrayList<>();
     private MenuBarSkinBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.skin.MenuBarSkin#MenuBarSkin(MenuBar) MenuBarSkin(MenuBar)}
      * and returns an instance of {@code MenuBarSkinBuilder}.
@@ -83,7 +82,6 @@ public class MenuBarSkinBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class MenuBarSkinBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the MenuBarSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -139,26 +138,27 @@ public class MenuBarSkinBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.MenuBarSkin#setContainerAlignment(javafx.geometry.Pos) setContainerAlignment} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuBarSkinBuilder containerAlignment(javafx.geometry.Pos value) {
         operations.add(obj -> obj.setContainerAlignment(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.MenuBarSkin#setSpacing(double) setSpacing} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuBarSkinBuilder spacing(double value) {
         operations.add(obj -> obj.setSpacing(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.MenuBarSkin#getChildren()} method.
      * 
@@ -184,8 +184,6 @@ public class MenuBarSkinBuilder {
         return this;
     }
 
-
-    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.MenuBarSkin#containerAlignmentProperty() containerAlignmentProperty} 
      * of the instance being constructed. 
@@ -202,12 +200,12 @@ public class MenuBarSkinBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuBarSkinBuilder containerAlignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Pos>> op) {
         operations.add(obj -> op.accept(obj.containerAlignmentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.MenuBarSkin#spacingProperty() spacingProperty} 
      * of the instance being constructed. 
@@ -224,8 +222,7 @@ public class MenuBarSkinBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuBarSkinBuilder spacingPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.spacingProperty()));
         return this;

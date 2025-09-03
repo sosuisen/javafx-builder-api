@@ -27,14 +27,12 @@ public class BoxBlurBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.effect.BoxBlur>> operations = new java.util.ArrayList<>();
     private BoxBlurBuilder() {}
     
-
     /**
      * Returns an instance of the {@code BoxBlurBuilder}.
      *
      * @return an instance of the {@code BoxBlurBuilder}.
      */
     public static BoxBlurBuilder create() { return new BoxBlurBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.BoxBlur#BoxBlur(double, double, int) BoxBlur(double, double, int)}
@@ -97,7 +95,6 @@ public class BoxBlurBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class BoxBlurBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the BoxBlur instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -153,46 +151,47 @@ public class BoxBlurBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.BoxBlur#setHeight(double) setHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  BoxBlurBuilder height(double value) {
         operations.add(obj -> obj.setHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.BoxBlur#setInput(javafx.scene.effect.Effect) setInput} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  BoxBlurBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.BoxBlur#setIterations(int) setIterations} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  BoxBlurBuilder iterations(int value) {
         operations.add(obj -> obj.setIterations(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.BoxBlur#setWidth(double) setWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  BoxBlurBuilder width(double value) {
         operations.add(obj -> obj.setWidth(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.BoxBlur#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -209,12 +208,12 @@ public class BoxBlurBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public BoxBlurBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.BoxBlur#inputProperty() inputProperty} 
      * of the instance being constructed. 
@@ -231,12 +230,12 @@ public class BoxBlurBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public BoxBlurBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.BoxBlur#iterationsProperty() iterationsProperty} 
      * of the instance being constructed. 
@@ -253,12 +252,12 @@ public class BoxBlurBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public BoxBlurBuilder iterationsPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
         operations.add(obj -> op.accept(obj.iterationsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.BoxBlur#widthProperty() widthProperty} 
      * of the instance being constructed. 
@@ -275,8 +274,7 @@ public class BoxBlurBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public BoxBlurBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;

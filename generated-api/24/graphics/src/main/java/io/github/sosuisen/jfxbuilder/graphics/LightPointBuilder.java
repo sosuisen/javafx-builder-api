@@ -27,14 +27,12 @@ public class LightPointBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.effect.Light.Point>> operations = new java.util.ArrayList<>();
     private LightPointBuilder() {}
     
-
     /**
      * Returns an instance of the {@code LightPointBuilder}.
      *
      * @return an instance of the {@code LightPointBuilder}.
      */
     public static LightPointBuilder create() { return new LightPointBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.Light.Point#Point(double, double, double, Color) Point(double, double, double, Color)}
@@ -97,7 +95,6 @@ public class LightPointBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class LightPointBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Point instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -153,46 +151,47 @@ public class LightPointBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Light.Point#setColor(javafx.scene.paint.Color) setColor} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LightPointBuilder color(javafx.scene.paint.Color value) {
         operations.add(obj -> obj.setColor(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Light.Point#setX(double) setX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LightPointBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Light.Point#setY(double) setY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LightPointBuilder y(double value) {
         operations.add(obj -> obj.setY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Light.Point#setZ(double) setZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LightPointBuilder z(double value) {
         operations.add(obj -> obj.setZ(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Point#colorProperty() colorProperty} 
      * of the instance being constructed. 
@@ -209,12 +208,12 @@ public class LightPointBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LightPointBuilder colorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
         operations.add(obj -> op.accept(obj.colorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Point#xProperty() xProperty} 
      * of the instance being constructed. 
@@ -231,12 +230,12 @@ public class LightPointBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LightPointBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.xProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Point#yProperty() yProperty} 
      * of the instance being constructed. 
@@ -253,12 +252,12 @@ public class LightPointBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LightPointBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.yProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Point#zProperty() zProperty} 
      * of the instance being constructed. 
@@ -275,8 +274,7 @@ public class LightPointBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LightPointBuilder zPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.zProperty()));
         return this;

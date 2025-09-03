@@ -27,7 +27,6 @@ public class SwipeEventBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.input.SwipeEvent>> operations = new java.util.ArrayList<>();
     private SwipeEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.SwipeEvent#SwipeEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult) SwipeEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult)}
      * and returns an instance of {@code SwipeEventBuilder}.
@@ -40,7 +39,6 @@ public class SwipeEventBuilder {
         builder.constructorArgs = new Object[]{source, target, eventType, x, y, screenX, screenY, shiftDown, controlDown, altDown, metaDown, direct, touchCount, pickResult};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.SwipeEvent#SwipeEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult) SwipeEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult)}
@@ -97,7 +95,6 @@ public class SwipeEventBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class SwipeEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the SwipeEvent instance being constructed.
      * Most operations on the instance can be performed using this method.

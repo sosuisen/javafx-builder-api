@@ -27,7 +27,6 @@ public class TableCellSkinBuilder<S, T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.TableCellSkin<S, T>>> operations = new java.util.ArrayList<>();
     private TableCellSkinBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.skin.TableCellSkin#TableCellSkin(TableCell) TableCellSkin(TableCell)}
      * and returns an instance of {@code TableCellSkinBuilder<S, T>}.
@@ -85,7 +84,6 @@ public class TableCellSkinBuilder<S, T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class TableCellSkinBuilder<S, T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TableCellSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -141,6 +140,7 @@ public class TableCellSkinBuilder<S, T> {
         operations.add(func);
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableCellSkin#getChildren()} method.
      * 
@@ -166,8 +166,6 @@ public class TableCellSkinBuilder<S, T> {
         return this;
     }
 
-
-    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableCellSkin#cellSizeProperty() cellSizeProperty} 
      * of the instance being constructed. 
@@ -184,12 +182,12 @@ public class TableCellSkinBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableCellSkinBuilder<S, T> cellSizePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.cellSizeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableCellSkin#tableColumnProperty() tableColumnProperty} 
      * of the instance being constructed. 
@@ -206,8 +204,7 @@ public class TableCellSkinBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableCellSkinBuilder<S, T> tableColumnPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TableColumn<S, T>>> op) {
         operations.add(obj -> op.accept(obj.tableColumnProperty()));
         return this;

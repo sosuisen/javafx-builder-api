@@ -27,7 +27,6 @@ public class LinearGradientBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.paint.LinearGradient>> operations = new java.util.ArrayList<>();
     private LinearGradientBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.paint.LinearGradient#LinearGradient(double, double, double, double, boolean, CycleMethod, List) LinearGradient(double, double, double, double, boolean, CycleMethod, List)}
      * and returns an instance of {@code LinearGradientBuilder}.
@@ -40,7 +39,6 @@ public class LinearGradientBuilder {
         builder.constructorArgs = new Object[]{startX, startY, endX, endY, proportional, cycleMethod, stops};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.paint.LinearGradient#LinearGradient(double, double, double, double, boolean, CycleMethod, Stop...) LinearGradient(double, double, double, double, boolean, CycleMethod, Stop...)}
@@ -97,7 +95,6 @@ public class LinearGradientBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class LinearGradientBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the LinearGradient instance being constructed.
      * Most operations on the instance can be performed using this method.

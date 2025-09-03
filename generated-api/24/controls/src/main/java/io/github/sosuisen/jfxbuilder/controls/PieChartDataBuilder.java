@@ -27,7 +27,6 @@ public class PieChartDataBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.chart.PieChart.Data>> operations = new java.util.ArrayList<>();
     private PieChartDataBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.chart.PieChart.Data#Data(String, double) Data(String, double)}
      * and returns an instance of {@code PieChartDataBuilder}.
@@ -83,7 +82,6 @@ public class PieChartDataBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class PieChartDataBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Data instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -139,26 +138,27 @@ public class PieChartDataBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.PieChart.Data#setName(java.lang.String) setName} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  PieChartDataBuilder name(java.lang.String value) {
         operations.add(obj -> obj.setName(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.PieChart.Data#setPieValue(double) setPieValue} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  PieChartDataBuilder pieValue(double value) {
         operations.add(obj -> obj.setPieValue(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.PieChart.Data#chartProperty() chartProperty} 
      * of the instance being constructed. 
@@ -175,12 +175,12 @@ public class PieChartDataBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public PieChartDataBuilder chartPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.chart.PieChart>> op) {
         operations.add(obj -> op.accept(obj.chartProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.PieChart.Data#nameProperty() nameProperty} 
      * of the instance being constructed. 
@@ -197,12 +197,12 @@ public class PieChartDataBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public PieChartDataBuilder namePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.nameProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.PieChart.Data#nodeProperty() nodeProperty} 
      * of the instance being constructed. 
@@ -219,12 +219,12 @@ public class PieChartDataBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public PieChartDataBuilder nodePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.nodeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.PieChart.Data#pieValueProperty() pieValueProperty} 
      * of the instance being constructed. 
@@ -241,8 +241,7 @@ public class PieChartDataBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public PieChartDataBuilder pieValuePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.pieValueProperty()));
         return this;

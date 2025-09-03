@@ -27,14 +27,12 @@ public class TransformChangedEventBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.transform.TransformChangedEvent>> operations = new java.util.ArrayList<>();
     private TransformChangedEventBuilder() {}
     
-
     /**
      * Returns an instance of the {@code TransformChangedEventBuilder}.
      *
      * @return an instance of the {@code TransformChangedEventBuilder}.
      */
     public static TransformChangedEventBuilder create() { return new TransformChangedEventBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.transform.TransformChangedEvent#TransformChangedEvent(Object, EventTarget) TransformChangedEvent(Object, EventTarget)}
@@ -97,7 +95,6 @@ public class TransformChangedEventBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class TransformChangedEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TransformChangedEvent instance being constructed.
      * Most operations on the instance can be performed using this method.

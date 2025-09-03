@@ -27,7 +27,6 @@ public class WritableImageBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.image.WritableImage>> operations = new java.util.ArrayList<>();
     private WritableImageBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.image.WritableImage#WritableImage(int, int) WritableImage(int, int)}
      * and returns an instance of {@code WritableImageBuilder}.
@@ -40,7 +39,6 @@ public class WritableImageBuilder {
         builder.constructorArgs = new Object[]{width, height};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.image.WritableImage#WritableImage(PixelBuffer) WritableImage(PixelBuffer)}
@@ -55,7 +53,6 @@ public class WritableImageBuilder {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.image.WritableImage#WritableImage(PixelReader, int, int) WritableImage(PixelReader, int, int)}
      * and returns an instance of {@code WritableImageBuilder}.
@@ -68,7 +65,6 @@ public class WritableImageBuilder {
         builder.constructorArgs = new Object[]{reader, width, height};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.image.WritableImage#WritableImage(PixelReader, int, int, int, int) WritableImage(PixelReader, int, int, int, int)}
@@ -125,7 +121,6 @@ public class WritableImageBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -170,6 +165,7 @@ public class WritableImageBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the WritableImage instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -180,7 +176,8 @@ public class WritableImageBuilder {
     public WritableImageBuilder apply(java.util.function.Consumer<javafx.scene.image.WritableImage> func) {
         operations.add(func);
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.image.WritableImage#errorProperty() errorProperty} 
      * of the instance being constructed. 
@@ -197,12 +194,12 @@ public class WritableImageBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public WritableImageBuilder errorPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.errorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.image.WritableImage#exceptionProperty() exceptionProperty} 
      * of the instance being constructed. 
@@ -219,12 +216,12 @@ public class WritableImageBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public WritableImageBuilder exceptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<java.lang.Exception>> op) {
         operations.add(obj -> op.accept(obj.exceptionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.image.WritableImage#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -241,12 +238,12 @@ public class WritableImageBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public WritableImageBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.image.WritableImage#progressProperty() progressProperty} 
      * of the instance being constructed. 
@@ -263,12 +260,12 @@ public class WritableImageBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public WritableImageBuilder progressPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.progressProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.image.WritableImage#widthProperty() widthProperty} 
      * of the instance being constructed. 
@@ -285,8 +282,7 @@ public class WritableImageBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public WritableImageBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;

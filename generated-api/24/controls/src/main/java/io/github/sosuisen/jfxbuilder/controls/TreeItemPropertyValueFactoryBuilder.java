@@ -27,7 +27,6 @@ public class TreeItemPropertyValueFactoryBuilder<S, T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.cell.TreeItemPropertyValueFactory<S, T>>> operations = new java.util.ArrayList<>();
     private TreeItemPropertyValueFactoryBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.cell.TreeItemPropertyValueFactory#TreeItemPropertyValueFactory(String) TreeItemPropertyValueFactory(String)}
      * and returns an instance of {@code TreeItemPropertyValueFactoryBuilder<S, T>}.
@@ -85,7 +84,6 @@ public class TreeItemPropertyValueFactoryBuilder<S, T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class TreeItemPropertyValueFactoryBuilder<S, T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TreeItemPropertyValueFactory instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -140,7 +139,8 @@ public class TreeItemPropertyValueFactoryBuilder<S, T> {
     public TreeItemPropertyValueFactoryBuilder<S, T> apply(java.util.function.Consumer<javafx.scene.control.cell.TreeItemPropertyValueFactory<S, T>> func) {
         operations.add(func);
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TreeItemPropertyValueFactory#getProperty() getProperty} 
      * of the instance being constructed. 
@@ -157,8 +157,7 @@ public class TreeItemPropertyValueFactoryBuilder<S, T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TreeItemPropertyValueFactoryBuilder<S, T> getPropertyApply(java.util.function.Consumer<java.lang.String> op) {
         operations.add(obj -> op.accept(obj.getProperty()));
         return this;

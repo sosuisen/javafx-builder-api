@@ -27,7 +27,6 @@ public class TreeViewEditEventBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.TreeView.EditEvent<T>>> operations = new java.util.ArrayList<>();
     private TreeViewEditEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TreeView.EditEvent#EditEvent(TreeView, EventType, TreeItem, Object, Object) EditEvent(TreeView, EventType, TreeItem, Object, Object)}
      * and returns an instance of {@code TreeViewEditEventBuilder<T>}.
@@ -85,7 +84,6 @@ public class TreeViewEditEventBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class TreeViewEditEventBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the EditEvent instance being constructed.
      * Most operations on the instance can be performed using this method.

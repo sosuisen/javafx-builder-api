@@ -27,7 +27,6 @@ public class AxisTickMarkBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.chart.Axis.TickMark<T>>> operations = new java.util.ArrayList<>();
     private AxisTickMarkBuilder() {}
     
-
     /**
      * Returns an instance of the {@code AxisTickMarkBuilder<T>}.
      *
@@ -85,7 +84,6 @@ public class AxisTickMarkBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class AxisTickMarkBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TickMark instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -141,46 +140,47 @@ public class AxisTickMarkBuilder<T> {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.Axis.TickMark#setLabel(java.lang.String) setLabel} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AxisTickMarkBuilder<T> label(java.lang.String value) {
         operations.add(obj -> obj.setLabel(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.Axis.TickMark#setPosition(double) setPosition} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AxisTickMarkBuilder<T> position(double value) {
         operations.add(obj -> obj.setPosition(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.Axis.TickMark#setTextVisible(boolean) setTextVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AxisTickMarkBuilder<T> textVisible(boolean value) {
         operations.add(obj -> obj.setTextVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.Axis.TickMark#setValue(java.lang.Object) setValue} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  AxisTickMarkBuilder<T> value(T v) {
         operations.add(obj -> obj.setValue(v));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.Axis.TickMark#labelProperty() labelProperty} 
      * of the instance being constructed. 
@@ -197,12 +197,12 @@ public class AxisTickMarkBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public AxisTickMarkBuilder<T> labelPropertyApply(java.util.function.Consumer<javafx.beans.binding.StringExpression> op) {
         operations.add(obj -> op.accept(obj.labelProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.Axis.TickMark#positionProperty() positionProperty} 
      * of the instance being constructed. 
@@ -219,12 +219,12 @@ public class AxisTickMarkBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public AxisTickMarkBuilder<T> positionPropertyApply(java.util.function.Consumer<javafx.beans.binding.DoubleExpression> op) {
         operations.add(obj -> op.accept(obj.positionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.Axis.TickMark#valueProperty() valueProperty} 
      * of the instance being constructed. 
@@ -241,8 +241,7 @@ public class AxisTickMarkBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public AxisTickMarkBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.binding.ObjectExpression<T>> op) {
         operations.add(obj -> op.accept(obj.valueProperty()));
         return this;

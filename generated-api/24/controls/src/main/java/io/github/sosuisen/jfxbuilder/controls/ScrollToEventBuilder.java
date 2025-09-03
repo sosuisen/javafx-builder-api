@@ -27,7 +27,6 @@ public class ScrollToEventBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.ScrollToEvent<T>>> operations = new java.util.ArrayList<>();
     private ScrollToEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.ScrollToEvent#ScrollToEvent(Object, EventTarget, EventType, Object) ScrollToEvent(Object, EventTarget, EventType, Object)}
      * and returns an instance of {@code ScrollToEventBuilder<T>}.
@@ -85,7 +84,6 @@ public class ScrollToEventBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class ScrollToEventBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ScrollToEvent instance being constructed.
      * Most operations on the instance can be performed using this method.

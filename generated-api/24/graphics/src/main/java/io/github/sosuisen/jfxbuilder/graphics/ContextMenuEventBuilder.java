@@ -27,7 +27,6 @@ public class ContextMenuEventBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.input.ContextMenuEvent>> operations = new java.util.ArrayList<>();
     private ContextMenuEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.ContextMenuEvent#ContextMenuEvent(Object, EventTarget, EventType, double, double, double, double, boolean, PickResult) ContextMenuEvent(Object, EventTarget, EventType, double, double, double, double, boolean, PickResult)}
      * and returns an instance of {@code ContextMenuEventBuilder}.
@@ -40,7 +39,6 @@ public class ContextMenuEventBuilder {
         builder.constructorArgs = new Object[]{source, target, eventType, x, y, screenX, screenY, keyboardTrigger, pickResult};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.ContextMenuEvent#ContextMenuEvent(EventType, double, double, double, double, boolean, PickResult) ContextMenuEvent(EventType, double, double, double, double, boolean, PickResult)}
@@ -97,7 +95,6 @@ public class ContextMenuEventBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class ContextMenuEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ContextMenuEvent instance being constructed.
      * Most operations on the instance can be performed using this method.

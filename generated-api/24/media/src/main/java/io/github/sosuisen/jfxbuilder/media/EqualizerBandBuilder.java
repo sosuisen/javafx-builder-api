@@ -27,14 +27,12 @@ public class EqualizerBandBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.media.EqualizerBand>> operations = new java.util.ArrayList<>();
     private EqualizerBandBuilder() {}
     
-
     /**
      * Returns an instance of the {@code EqualizerBandBuilder}.
      *
      * @return an instance of the {@code EqualizerBandBuilder}.
      */
     public static EqualizerBandBuilder create() { return new EqualizerBandBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.media.EqualizerBand#EqualizerBand(double, double, double) EqualizerBand(double, double, double)}
@@ -97,7 +95,6 @@ public class EqualizerBandBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class EqualizerBandBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the EqualizerBand instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -153,36 +151,37 @@ public class EqualizerBandBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.media.EqualizerBand#setBandwidth(double) setBandwidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  EqualizerBandBuilder bandwidth(double value) {
         operations.add(obj -> obj.setBandwidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.media.EqualizerBand#setCenterFrequency(double) setCenterFrequency} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  EqualizerBandBuilder centerFrequency(double value) {
         operations.add(obj -> obj.setCenterFrequency(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.media.EqualizerBand#setGain(double) setGain} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  EqualizerBandBuilder gain(double value) {
         operations.add(obj -> obj.setGain(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.media.EqualizerBand#bandwidthProperty() bandwidthProperty} 
      * of the instance being constructed. 
@@ -199,12 +198,12 @@ public class EqualizerBandBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public EqualizerBandBuilder bandwidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.bandwidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.media.EqualizerBand#centerFrequencyProperty() centerFrequencyProperty} 
      * of the instance being constructed. 
@@ -221,12 +220,12 @@ public class EqualizerBandBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public EqualizerBandBuilder centerFrequencyPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.centerFrequencyProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.media.EqualizerBand#gainProperty() gainProperty} 
      * of the instance being constructed. 
@@ -243,8 +242,7 @@ public class EqualizerBandBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public EqualizerBandBuilder gainPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.gainProperty()));
         return this;

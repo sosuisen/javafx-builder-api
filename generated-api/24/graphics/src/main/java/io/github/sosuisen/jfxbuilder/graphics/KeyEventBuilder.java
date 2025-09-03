@@ -27,7 +27,6 @@ public class KeyEventBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.input.KeyEvent>> operations = new java.util.ArrayList<>();
     private KeyEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.KeyEvent#KeyEvent(Object, EventTarget, EventType, String, String, KeyCode, boolean, boolean, boolean, boolean) KeyEvent(Object, EventTarget, EventType, String, String, KeyCode, boolean, boolean, boolean, boolean)}
      * and returns an instance of {@code KeyEventBuilder}.
@@ -40,7 +39,6 @@ public class KeyEventBuilder {
         builder.constructorArgs = new Object[]{source, target, eventType, character, text, code, shiftDown, controlDown, altDown, metaDown};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.KeyEvent#KeyEvent(EventType, String, String, KeyCode, boolean, boolean, boolean, boolean) KeyEvent(EventType, String, String, KeyCode, boolean, boolean, boolean, boolean)}
@@ -97,7 +95,6 @@ public class KeyEventBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class KeyEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the KeyEvent instance being constructed.
      * Most operations on the instance can be performed using this method.

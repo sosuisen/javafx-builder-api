@@ -27,7 +27,6 @@ public class NonInvertibleTransformExceptionBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.transform.NonInvertibleTransformException>> operations = new java.util.ArrayList<>();
     private NonInvertibleTransformExceptionBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.transform.NonInvertibleTransformException#NonInvertibleTransformException(String) NonInvertibleTransformException(String)}
      * and returns an instance of {@code NonInvertibleTransformExceptionBuilder}.
@@ -83,7 +82,6 @@ public class NonInvertibleTransformExceptionBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class NonInvertibleTransformExceptionBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the NonInvertibleTransformException instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -139,12 +138,12 @@ public class NonInvertibleTransformExceptionBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.transform.NonInvertibleTransformException#setStackTrace(java.lang.StackTraceElement...) setStackTrace} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  NonInvertibleTransformExceptionBuilder stackTrace(java.lang.StackTraceElement[] arg0) {
         operations.add(obj -> obj.setStackTrace(arg0));
         return this;

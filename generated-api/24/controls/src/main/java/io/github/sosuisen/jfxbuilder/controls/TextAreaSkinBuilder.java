@@ -27,7 +27,6 @@ public class TextAreaSkinBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.TextAreaSkin>> operations = new java.util.ArrayList<>();
     private TextAreaSkinBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.skin.TextAreaSkin#TextAreaSkin(TextArea) TextAreaSkin(TextArea)}
      * and returns an instance of {@code TextAreaSkinBuilder}.
@@ -83,7 +82,6 @@ public class TextAreaSkinBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class TextAreaSkinBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TextAreaSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -139,26 +138,27 @@ public class TextAreaSkinBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TextAreaSkin#setCaretAnimating(boolean) setCaretAnimating} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextAreaSkinBuilder caretAnimating(boolean value) {
         operations.add(obj -> obj.setCaretAnimating(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TextAreaSkin#setForwardBias(boolean) setForwardBias} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextAreaSkinBuilder forwardBias(boolean isLeading) {
         operations.add(obj -> obj.setForwardBias(isLeading));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TextAreaSkin#getChildren()} method.
      * 
@@ -183,7 +183,4 @@ public class TextAreaSkinBuilder {
         });
         return this;
     }
-
-
-
 }

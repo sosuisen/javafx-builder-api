@@ -27,7 +27,6 @@ public class SpinnerSkinBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.SpinnerSkin<T>>> operations = new java.util.ArrayList<>();
     private SpinnerSkinBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.skin.SpinnerSkin#SpinnerSkin(Spinner) SpinnerSkin(Spinner)}
      * and returns an instance of {@code SpinnerSkinBuilder<T>}.
@@ -85,7 +84,6 @@ public class SpinnerSkinBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class SpinnerSkinBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the SpinnerSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -141,6 +140,7 @@ public class SpinnerSkinBuilder<T> {
         operations.add(func);
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SpinnerSkin#getChildren()} method.
      * 
@@ -165,7 +165,4 @@ public class SpinnerSkinBuilder<T> {
         });
         return this;
     }
-
-
-
 }

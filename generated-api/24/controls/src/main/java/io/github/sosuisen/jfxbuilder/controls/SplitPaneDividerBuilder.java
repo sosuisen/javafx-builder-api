@@ -27,7 +27,6 @@ public class SplitPaneDividerBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.SplitPane.Divider>> operations = new java.util.ArrayList<>();
     private SplitPaneDividerBuilder() {}
     
-
     /**
      * Returns an instance of the {@code SplitPaneDividerBuilder}.
      *
@@ -83,7 +82,6 @@ public class SplitPaneDividerBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class SplitPaneDividerBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Divider instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -139,16 +138,17 @@ public class SplitPaneDividerBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.SplitPane.Divider#setPosition(double) setPosition} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SplitPaneDividerBuilder position(double value) {
         operations.add(obj -> obj.setPosition(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane.Divider#positionProperty() positionProperty} 
      * of the instance being constructed. 
@@ -165,8 +165,7 @@ public class SplitPaneDividerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public SplitPaneDividerBuilder positionPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.positionProperty()));
         return this;

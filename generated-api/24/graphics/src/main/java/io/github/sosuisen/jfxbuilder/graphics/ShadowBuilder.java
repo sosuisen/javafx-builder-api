@@ -27,14 +27,12 @@ public class ShadowBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.effect.Shadow>> operations = new java.util.ArrayList<>();
     private ShadowBuilder() {}
     
-
     /**
      * Returns an instance of the {@code ShadowBuilder}.
      *
      * @return an instance of the {@code ShadowBuilder}.
      */
     public static ShadowBuilder create() { return new ShadowBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.Shadow#Shadow(double, Color) Shadow(double, Color)}
@@ -48,7 +46,6 @@ public class ShadowBuilder {
         builder.constructorArgs = new Object[]{radius, color};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.Shadow#Shadow(BlurType, Color, double) Shadow(BlurType, Color, double)}
@@ -111,7 +108,6 @@ public class ShadowBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -156,6 +152,7 @@ public class ShadowBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Shadow instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -167,66 +164,67 @@ public class ShadowBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Shadow#setBlurType(javafx.scene.effect.BlurType) setBlurType} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ShadowBuilder blurType(javafx.scene.effect.BlurType value) {
         operations.add(obj -> obj.setBlurType(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Shadow#setColor(javafx.scene.paint.Color) setColor} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ShadowBuilder color(javafx.scene.paint.Color value) {
         operations.add(obj -> obj.setColor(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Shadow#setHeight(double) setHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ShadowBuilder height(double value) {
         operations.add(obj -> obj.setHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Shadow#setInput(javafx.scene.effect.Effect) setInput} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ShadowBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Shadow#setRadius(double) setRadius} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ShadowBuilder radius(double value) {
         operations.add(obj -> obj.setRadius(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Shadow#setWidth(double) setWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ShadowBuilder width(double value) {
         operations.add(obj -> obj.setWidth(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Shadow#blurTypeProperty() blurTypeProperty} 
      * of the instance being constructed. 
@@ -243,12 +241,12 @@ public class ShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ShadowBuilder blurTypePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlurType>> op) {
         operations.add(obj -> op.accept(obj.blurTypeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Shadow#colorProperty() colorProperty} 
      * of the instance being constructed. 
@@ -265,12 +263,12 @@ public class ShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ShadowBuilder colorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
         operations.add(obj -> op.accept(obj.colorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Shadow#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -287,12 +285,12 @@ public class ShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ShadowBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Shadow#inputProperty() inputProperty} 
      * of the instance being constructed. 
@@ -309,12 +307,12 @@ public class ShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ShadowBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Shadow#radiusProperty() radiusProperty} 
      * of the instance being constructed. 
@@ -331,12 +329,12 @@ public class ShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ShadowBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.radiusProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Shadow#widthProperty() widthProperty} 
      * of the instance being constructed. 
@@ -353,8 +351,7 @@ public class ShadowBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ShadowBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;

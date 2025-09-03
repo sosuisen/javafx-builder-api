@@ -27,7 +27,6 @@ public class InputMethodEventBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.input.InputMethodEvent>> operations = new java.util.ArrayList<>();
     private InputMethodEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.InputMethodEvent#InputMethodEvent(Object, EventTarget, EventType, List, String, int) InputMethodEvent(Object, EventTarget, EventType, List, String, int)}
      * and returns an instance of {@code InputMethodEventBuilder}.
@@ -40,7 +39,6 @@ public class InputMethodEventBuilder {
         builder.constructorArgs = new Object[]{source, target, eventType, composed, committed, caretPosition};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.InputMethodEvent#InputMethodEvent(EventType, List, String, int) InputMethodEvent(EventType, List, String, int)}
@@ -97,7 +95,6 @@ public class InputMethodEventBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class InputMethodEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the InputMethodEvent instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -153,6 +151,7 @@ public class InputMethodEventBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.input.InputMethodEvent#getComposed()} method.
      * 
@@ -177,7 +176,4 @@ public class InputMethodEventBuilder {
         });
         return this;
     }
-
-
-
 }

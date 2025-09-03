@@ -27,7 +27,6 @@ public class WebErrorEventBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.web.WebErrorEvent>> operations = new java.util.ArrayList<>();
     private WebErrorEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.web.WebErrorEvent#WebErrorEvent(Object, EventType, String, Throwable) WebErrorEvent(Object, EventType, String, Throwable)}
      * and returns an instance of {@code WebErrorEventBuilder}.
@@ -83,7 +82,6 @@ public class WebErrorEventBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class WebErrorEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the WebErrorEvent instance being constructed.
      * Most operations on the instance can be performed using this method.

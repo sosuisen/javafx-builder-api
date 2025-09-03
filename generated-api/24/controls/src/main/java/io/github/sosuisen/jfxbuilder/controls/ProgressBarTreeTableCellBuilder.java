@@ -27,7 +27,6 @@ public class ProgressBarTreeTableCellBuilder<S> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>>> operations = new java.util.ArrayList<>();
     private ProgressBarTreeTableCellBuilder() {}
     
-
     /**
      * Returns an instance of the {@code ProgressBarTreeTableCellBuilder<S>}.
      *
@@ -85,7 +84,6 @@ public class ProgressBarTreeTableCellBuilder<S> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ProgressBarTreeTableCell instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -146,1116 +145,1117 @@ public class ProgressBarTreeTableCellBuilder<S> {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> accessibleHelp(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleHelp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> accessibleRole(javafx.scene.AccessibleRole value) {
         operations.add(obj -> obj.setAccessibleRole(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> accessibleRoleDescription(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> accessibleText(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> alignment(javafx.geometry.Pos value) {
         operations.add(obj -> obj.setAlignment(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> background(javafx.scene.layout.Background value) {
         operations.add(obj -> obj.setBackground(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> blendMode(javafx.scene.effect.BlendMode value) {
         operations.add(obj -> obj.setBlendMode(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> border(javafx.scene.layout.Border value) {
         operations.add(obj -> obj.setBorder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> cache(boolean value) {
         operations.add(obj -> obj.setCache(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> cacheHint(javafx.scene.CacheHint value) {
         operations.add(obj -> obj.setCacheHint(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> cacheShape(boolean value) {
         operations.add(obj -> obj.setCacheShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> centerShape(boolean value) {
         operations.add(obj -> obj.setCenterShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> clip(javafx.scene.Node value) {
         operations.add(obj -> obj.setClip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> contentDisplay(javafx.scene.control.ContentDisplay value) {
         operations.add(obj -> obj.setContentDisplay(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> contextMenu(javafx.scene.control.ContextMenu value) {
         operations.add(obj -> obj.setContextMenu(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> cursor(javafx.scene.Cursor value) {
         operations.add(obj -> obj.setCursor(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> depthTest(javafx.scene.DepthTest value) {
         operations.add(obj -> obj.setDepthTest(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setEditable(boolean) setEditable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> editable(boolean value) {
         operations.add(obj -> obj.setEditable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> effect(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setEffect(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> ellipsisString(java.lang.String value) {
         operations.add(obj -> obj.setEllipsisString(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> eventDispatcher(javafx.event.EventDispatcher value) {
         operations.add(obj -> obj.setEventDispatcher(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> focusTraversable(boolean value) {
         operations.add(obj -> obj.setFocusTraversable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> font(javafx.scene.text.Font value) {
         operations.add(obj -> obj.setFont(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> graphic(javafx.scene.Node value) {
         operations.add(obj -> obj.setGraphic(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> graphicTextGap(double value) {
         operations.add(obj -> obj.setGraphicTextGap(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
         operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setItem(java.lang.Object) setItem} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> item(Double value) {
         operations.add(obj -> obj.setItem(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> layoutX(double value) {
         operations.add(obj -> obj.setLayoutX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> layoutY(double value) {
         operations.add(obj -> obj.setLayoutY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> lineSpacing(double value) {
         operations.add(obj -> obj.setLineSpacing(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> managed(boolean value) {
         operations.add(obj -> obj.setManaged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> maxHeight(double value) {
         operations.add(obj -> obj.setMaxHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> maxSize(double maxWidth, double maxHeight) {
         operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> maxWidth(double value) {
         operations.add(obj -> obj.setMaxWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setMinHeight(double) setMinHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> minHeight(double value) {
         operations.add(obj -> obj.setMinHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setMinSize(double, double) setMinSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> minSize(double minWidth, double minHeight) {
         operations.add(obj -> obj.setMinSize(minWidth, minHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setMinWidth(double) setMinWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> minWidth(double value) {
         operations.add(obj -> obj.setMinWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> mnemonicParsing(boolean value) {
         operations.add(obj -> obj.setMnemonicParsing(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> mouseTransparent(boolean value) {
         operations.add(obj -> obj.setMouseTransparent(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> nodeOrientation(javafx.geometry.NodeOrientation orientation) {
         operations.add(obj -> obj.setNodeOrientation(orientation));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
         operations.add(obj -> obj.setOnContextMenuRequested(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnDragDetected(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDone(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDropped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
         operations.add(obj -> obj.setOnInputMethodTextChanged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onKeyPressed(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyTyped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseClicked(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseDragged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onMouseEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMousePressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onScroll(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScroll(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeDown(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeLeft(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onSwipeRight(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeRight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onTouchMoved(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchStationary(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoom(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> opacity(double value) {
         operations.add(obj -> obj.setOpacity(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> opaqueInsets(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setOpaqueInsets(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> padding(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setPadding(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> pickOnBounds(boolean value) {
         operations.add(obj -> obj.setPickOnBounds(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> prefHeight(double value) {
         operations.add(obj -> obj.setPrefHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> prefSize(double prefWidth, double prefHeight) {
         operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> prefWidth(double value) {
         operations.add(obj -> obj.setPrefWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> rotate(double value) {
         operations.add(obj -> obj.setRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> rotationAxis(javafx.geometry.Point3D value) {
         operations.add(obj -> obj.setRotationAxis(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> scaleShape(boolean value) {
         operations.add(obj -> obj.setScaleShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> scaleX(double value) {
         operations.add(obj -> obj.setScaleX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> scaleY(double value) {
         operations.add(obj -> obj.setScaleY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> scaleZ(double value) {
         operations.add(obj -> obj.setScaleZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> shape(javafx.scene.shape.Shape value) {
         operations.add(obj -> obj.setShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> skin(javafx.scene.control.Skin<?> value) {
         operations.add(obj -> obj.setSkin(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> snapToPixel(boolean value) {
         operations.add(obj -> obj.setSnapToPixel(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setText(java.lang.String) setText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> text(java.lang.String value) {
         operations.add(obj -> obj.setText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> textAlignment(javafx.scene.text.TextAlignment value) {
         operations.add(obj -> obj.setTextAlignment(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> textFill(javafx.scene.paint.Paint value) {
         operations.add(obj -> obj.setTextFill(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> textOverrun(javafx.scene.control.OverrunStyle value) {
         operations.add(obj -> obj.setTextOverrun(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> tooltip(javafx.scene.control.Tooltip value) {
         operations.add(obj -> obj.setTooltip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> translateX(double value) {
         operations.add(obj -> obj.setTranslateX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> translateY(double value) {
         operations.add(obj -> obj.setTranslateY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> translateZ(double value) {
         operations.add(obj -> obj.setTranslateZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setUnderline(boolean) setUnderline} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> underline(boolean value) {
         operations.add(obj -> obj.setUnderline(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> viewOrder(double value) {
         operations.add(obj -> obj.setViewOrder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setWrapText(boolean) setWrapText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressBarTreeTableCellBuilder<S> wrapText(boolean value) {
         operations.add(obj -> obj.setWrapText(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#getStyleClass()} method.
      * 
@@ -1280,8 +1280,6 @@ public class ProgressBarTreeTableCellBuilder<S> {
         });
         return this;
     }
-
-
 
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#getStylesheets()} method.
@@ -1308,8 +1306,6 @@ public class ProgressBarTreeTableCellBuilder<S> {
         return this;
     }
 
-
-
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#getTransforms()} method.
      * 
@@ -1333,10 +1329,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
             obj.getTransforms().addAll(col);
         });
         return this;
-    }
-
-
-    
+    }    
     /**
      * Utility setter to add CSS string for this ProgressBarTreeTableCell's contents.
      * For example:
@@ -1353,6 +1346,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
                 java.util.Base64.getEncoder().encodeToString(css.getBytes())));
         return this;
     }
+
     /**
      * Invokes the {@link javafx.scene.layout.AnchorPane#setBottomAnchor(Node child, java.lang.Double value) AnchorPane.setBottomAnchor(Node, Double)} 
      * using a fluent API.
@@ -1368,10 +1362,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .bottomAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .bottomAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1396,10 +1390,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .leftAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .leftAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1424,10 +1418,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .rightAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .rightAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1452,10 +1446,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .topAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .topAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1480,10 +1474,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .alignmentInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1508,10 +1502,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .marginInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1536,10 +1530,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = FlowPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInFlowPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInFlowPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1564,10 +1558,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1592,10 +1586,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1620,10 +1614,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1648,10 +1642,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1676,10 +1670,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1704,10 +1698,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1732,10 +1726,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1760,10 +1754,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillHeightInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillHeightInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1788,10 +1782,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillWidthInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillWidthInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1816,10 +1810,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1844,10 +1838,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1872,10 +1866,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1900,10 +1894,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1928,10 +1922,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1956,10 +1950,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1984,10 +1978,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2012,10 +2006,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .hGrowInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2040,10 +2034,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2068,10 +2062,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .alignmentInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2096,10 +2090,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .marginInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2124,10 +2118,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .alignmentInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2152,10 +2146,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2180,10 +2174,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2208,10 +2202,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .vGrowInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2220,7 +2214,8 @@ public class ProgressBarTreeTableCellBuilder<S> {
         operations.add(obj -> javafx.scene.layout.VBox.setVgrow(obj, value));
         return this;
     }
-    
+
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
@@ -2237,12 +2232,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
@@ -2259,12 +2254,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
@@ -2281,12 +2276,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
@@ -2303,12 +2298,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleTextProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
@@ -2325,12 +2320,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> alignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Pos>> op) {
         operations.add(obj -> op.accept(obj.alignmentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
@@ -2347,12 +2342,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> backgroundPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Background>> op) {
         operations.add(obj -> op.accept(obj.backgroundProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
@@ -2369,12 +2364,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
         operations.add(obj -> op.accept(obj.blendModeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#borderProperty() borderProperty} 
      * of the instance being constructed. 
@@ -2391,12 +2386,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
         operations.add(obj -> op.accept(obj.borderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
@@ -2413,12 +2408,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
@@ -2435,12 +2430,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInParentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
@@ -2457,12 +2452,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
         operations.add(obj -> op.accept(obj.cacheHintProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
@@ -2479,12 +2474,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
@@ -2501,12 +2496,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
@@ -2523,12 +2518,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.centerShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#clipProperty() clipProperty} 
      * of the instance being constructed. 
@@ -2545,12 +2540,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.clipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#contentDisplayProperty() contentDisplayProperty} 
      * of the instance being constructed. 
@@ -2567,12 +2562,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> contentDisplayPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ContentDisplay>> op) {
         operations.add(obj -> op.accept(obj.contentDisplayProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
@@ -2589,12 +2584,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> contextMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.contextMenuProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
@@ -2611,12 +2606,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
         operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
@@ -2633,12 +2628,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
         operations.add(obj -> op.accept(obj.depthTestProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#disableProperty() disableProperty} 
      * of the instance being constructed. 
@@ -2655,12 +2650,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
@@ -2677,12 +2672,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> disabledPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disabledProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#editableProperty() editableProperty} 
      * of the instance being constructed. 
@@ -2699,12 +2694,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> editablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.editableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#editingProperty() editingProperty} 
      * of the instance being constructed. 
@@ -2721,12 +2716,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> editingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.editingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#effectProperty() effectProperty} 
      * of the instance being constructed. 
@@ -2743,12 +2738,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.effectProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
@@ -2765,12 +2760,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#ellipsisStringProperty() ellipsisStringProperty} 
      * of the instance being constructed. 
@@ -2787,12 +2782,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> ellipsisStringPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.ellipsisStringProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#emptyProperty() emptyProperty} 
      * of the instance being constructed. 
@@ -2809,12 +2804,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> emptyPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.emptyProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
@@ -2831,12 +2826,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
         operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
@@ -2853,12 +2848,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusTraversableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
@@ -2875,12 +2870,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
@@ -2897,12 +2892,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusWithinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
@@ -2919,12 +2914,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#fontProperty() fontProperty} 
      * of the instance being constructed. 
@@ -2941,12 +2936,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> fontPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.Font>> op) {
         operations.add(obj -> op.accept(obj.fontProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
@@ -2963,12 +2958,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.graphicProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#graphicTextGapProperty() graphicTextGapProperty} 
      * of the instance being constructed. 
@@ -2985,12 +2980,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> graphicTextGapPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.graphicTextGapProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -3007,12 +3002,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
@@ -3029,12 +3024,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> hoverPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.hoverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#idProperty() idProperty} 
      * of the instance being constructed. 
@@ -3051,12 +3046,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#indexProperty() indexProperty} 
      * of the instance being constructed. 
@@ -3073,12 +3068,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> indexPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
         operations.add(obj -> op.accept(obj.indexProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
@@ -3095,12 +3090,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
         operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
@@ -3117,12 +3112,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> insetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.insetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#itemProperty() itemProperty} 
      * of the instance being constructed. 
@@ -3139,12 +3134,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> itemPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<Double>> op) {
         operations.add(obj -> op.accept(obj.itemProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#labelPaddingProperty() labelPaddingProperty} 
      * of the instance being constructed. 
@@ -3161,12 +3156,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> labelPaddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.labelPaddingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
@@ -3183,12 +3178,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
@@ -3205,12 +3200,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
@@ -3227,12 +3222,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> layoutYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#lineSpacingProperty() lineSpacingProperty} 
      * of the instance being constructed. 
@@ -3249,12 +3244,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> lineSpacingPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.lineSpacingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
@@ -3271,12 +3266,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
@@ -3293,12 +3288,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#managedProperty() managedProperty} 
      * of the instance being constructed. 
@@ -3315,12 +3310,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.managedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
@@ -3337,12 +3332,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
@@ -3359,12 +3354,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
@@ -3381,12 +3376,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
@@ -3403,12 +3398,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
@@ -3425,12 +3420,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
@@ -3447,12 +3442,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
@@ -3469,12 +3464,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> needsLayoutPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.needsLayoutProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
@@ -3491,12 +3486,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
@@ -3513,12 +3508,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
         operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
@@ -3535,12 +3530,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
@@ -3557,12 +3552,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDoneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
@@ -3579,12 +3574,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3601,12 +3596,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
@@ -3623,12 +3618,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
@@ -3645,12 +3640,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
@@ -3667,12 +3662,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
         operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
@@ -3689,12 +3684,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
@@ -3711,12 +3706,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
@@ -3733,12 +3728,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
@@ -3755,12 +3750,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3777,12 +3772,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
@@ -3799,12 +3794,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
@@ -3821,12 +3816,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
@@ -3843,12 +3838,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
@@ -3865,12 +3860,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
@@ -3887,12 +3882,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
@@ -3909,12 +3904,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
@@ -3931,12 +3926,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
@@ -3953,12 +3948,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMousePressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
@@ -3975,12 +3970,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
@@ -3997,12 +3992,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
@@ -4019,12 +4014,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
@@ -4041,12 +4036,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
@@ -4063,12 +4058,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
@@ -4085,12 +4080,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
@@ -4107,12 +4102,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
@@ -4129,12 +4124,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
@@ -4151,12 +4146,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
@@ -4173,12 +4168,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
@@ -4195,12 +4190,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onSwipeUpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeUpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
@@ -4217,12 +4212,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
@@ -4239,12 +4234,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
@@ -4261,12 +4256,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
@@ -4283,12 +4278,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
@@ -4305,12 +4300,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
@@ -4327,12 +4322,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
@@ -4349,12 +4344,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
@@ -4371,12 +4366,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.opacityProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
@@ -4393,12 +4388,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
@@ -4415,12 +4410,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.paddingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#parentProperty() parentProperty} 
      * of the instance being constructed. 
@@ -4437,12 +4432,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Parent>> op) {
         operations.add(obj -> op.accept(obj.parentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
@@ -4459,12 +4454,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> pickOnBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pickOnBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
@@ -4481,12 +4476,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
@@ -4503,12 +4498,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
@@ -4525,12 +4520,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> pressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
@@ -4547,12 +4542,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.rotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
@@ -4569,12 +4564,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
         operations.add(obj -> op.accept(obj.rotationAxisProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
@@ -4591,12 +4586,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.scaleShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
@@ -4613,12 +4608,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
@@ -4635,12 +4630,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
@@ -4657,12 +4652,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
@@ -4679,12 +4674,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
         operations.add(obj -> op.accept(obj.sceneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#selectedProperty() selectedProperty} 
      * of the instance being constructed. 
@@ -4701,12 +4696,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> selectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.selectedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
@@ -4723,12 +4718,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
         operations.add(obj -> op.accept(obj.shapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#skinProperty() skinProperty} 
      * of the instance being constructed. 
@@ -4745,12 +4740,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> skinPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Skin<?>>> op) {
         operations.add(obj -> op.accept(obj.skinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
@@ -4767,12 +4762,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.snapToPixelProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#styleProperty() styleProperty} 
      * of the instance being constructed. 
@@ -4789,12 +4784,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#tableColumnProperty() tableColumnProperty} 
      * of the instance being constructed. 
@@ -4811,12 +4806,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> tableColumnPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeTableColumn<S, Double>>> op) {
         operations.add(obj -> op.accept(obj.tableColumnProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#tableRowProperty() tableRowProperty} 
      * of the instance being constructed. 
@@ -4833,12 +4828,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> tableRowPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeTableRow<S>>> op) {
         operations.add(obj -> op.accept(obj.tableRowProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#textAlignmentProperty() textAlignmentProperty} 
      * of the instance being constructed. 
@@ -4855,12 +4850,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> textAlignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.TextAlignment>> op) {
         operations.add(obj -> op.accept(obj.textAlignmentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#textFillProperty() textFillProperty} 
      * of the instance being constructed. 
@@ -4877,12 +4872,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> textFillPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Paint>> op) {
         operations.add(obj -> op.accept(obj.textFillProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#textOverrunProperty() textOverrunProperty} 
      * of the instance being constructed. 
@@ -4899,12 +4894,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> textOverrunPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.OverrunStyle>> op) {
         operations.add(obj -> op.accept(obj.textOverrunProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#textProperty() textProperty} 
      * of the instance being constructed. 
@@ -4921,12 +4916,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.textProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#textTruncatedProperty() textTruncatedProperty} 
      * of the instance being constructed. 
@@ -4943,12 +4938,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> textTruncatedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.textTruncatedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
@@ -4965,12 +4960,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> tooltipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Tooltip>> op) {
         operations.add(obj -> op.accept(obj.tooltipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
@@ -4987,12 +4982,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
@@ -5009,12 +5004,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
@@ -5031,12 +5026,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#treeTableViewProperty() treeTableViewProperty} 
      * of the instance being constructed. 
@@ -5053,12 +5048,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> treeTableViewPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeTableView<S>>> op) {
         operations.add(obj -> op.accept(obj.treeTableViewProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#underlineProperty() underlineProperty} 
      * of the instance being constructed. 
@@ -5075,12 +5070,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> underlinePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.underlineProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
@@ -5097,12 +5092,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> viewOrderPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.viewOrderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
@@ -5119,12 +5114,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#widthProperty() widthProperty} 
      * of the instance being constructed. 
@@ -5141,12 +5136,12 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#wrapTextProperty() wrapTextProperty} 
      * of the instance being constructed. 
@@ -5163,8 +5158,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressBarTreeTableCellBuilder<S> wrapTextPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.wrapTextProperty()));
         return this;

@@ -27,7 +27,6 @@ public class PromptDataBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.web.PromptData>> operations = new java.util.ArrayList<>();
     private PromptDataBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.web.PromptData#PromptData(String, String) PromptData(String, String)}
      * and returns an instance of {@code PromptDataBuilder}.
@@ -83,7 +82,6 @@ public class PromptDataBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class PromptDataBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the PromptData instance being constructed.
      * Most operations on the instance can be performed using this method.

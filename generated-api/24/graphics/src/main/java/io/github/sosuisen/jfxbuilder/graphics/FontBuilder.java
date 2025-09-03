@@ -27,7 +27,6 @@ public class FontBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.text.Font>> operations = new java.util.ArrayList<>();
     private FontBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.text.Font#Font(double) Font(double)}
      * and returns an instance of {@code FontBuilder}.
@@ -40,7 +39,6 @@ public class FontBuilder {
         builder.constructorArgs = new Object[]{size};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.text.Font#Font(String, double) Font(String, double)}
@@ -97,7 +95,6 @@ public class FontBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class FontBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Font instance being constructed.
      * Most operations on the instance can be performed using this method.

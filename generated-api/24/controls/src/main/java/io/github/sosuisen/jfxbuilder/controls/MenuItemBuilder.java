@@ -27,14 +27,12 @@ public class MenuItemBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.MenuItem>> operations = new java.util.ArrayList<>();
     private MenuItemBuilder() {}
     
-
     /**
      * Returns an instance of the {@code MenuItemBuilder}.
      *
      * @return an instance of the {@code MenuItemBuilder}.
      */
     public static MenuItemBuilder create() { return new MenuItemBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.MenuItem#MenuItem(String) MenuItem(String)}
@@ -48,7 +46,6 @@ public class MenuItemBuilder {
         builder.constructorArgs = new Object[]{text};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.MenuItem#MenuItem(String, Node) MenuItem(String, Node)}
@@ -111,7 +108,6 @@ public class MenuItemBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -156,6 +152,7 @@ public class MenuItemBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the MenuItem instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -167,116 +164,117 @@ public class MenuItemBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuItem#setAccelerator(javafx.scene.input.KeyCombination) setAccelerator} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuItemBuilder accelerator(javafx.scene.input.KeyCombination value) {
         operations.add(obj -> obj.setAccelerator(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuItem#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuItemBuilder disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuItem#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuItemBuilder graphic(javafx.scene.Node value) {
         operations.add(obj -> obj.setGraphic(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuItem#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuItemBuilder id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuItem#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuItemBuilder mnemonicParsing(boolean value) {
         operations.add(obj -> obj.setMnemonicParsing(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuItem#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuItemBuilder onAction(javafx.event.EventHandler<javafx.event.ActionEvent> value) {
         operations.add(obj -> obj.setOnAction(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuItem#setOnMenuValidation(javafx.event.EventHandler) setOnMenuValidation} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuItemBuilder onMenuValidation(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnMenuValidation(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuItem#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuItemBuilder style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuItem#setText(java.lang.String) setText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuItemBuilder text(java.lang.String value) {
         operations.add(obj -> obj.setText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuItem#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuItemBuilder userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuItem#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuItemBuilder visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuItem#getStyleClass()} method.
      * 
@@ -302,8 +300,6 @@ public class MenuItemBuilder {
         return this;
     }
 
-
-    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#acceleratorProperty() acceleratorProperty} 
      * of the instance being constructed. 
@@ -320,12 +316,12 @@ public class MenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuItemBuilder acceleratorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.KeyCombination>> op) {
         operations.add(obj -> op.accept(obj.acceleratorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#disableProperty() disableProperty} 
      * of the instance being constructed. 
@@ -342,12 +338,12 @@ public class MenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuItemBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
@@ -364,12 +360,12 @@ public class MenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuItemBuilder graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.graphicProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#idProperty() idProperty} 
      * of the instance being constructed. 
@@ -386,12 +382,12 @@ public class MenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuItemBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
@@ -408,12 +404,12 @@ public class MenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuItemBuilder mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
@@ -430,12 +426,12 @@ public class MenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuItemBuilder onActionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.ActionEvent>>> op) {
         operations.add(obj -> op.accept(obj.onActionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#onMenuValidationProperty() onMenuValidationProperty} 
      * of the instance being constructed. 
@@ -452,12 +448,12 @@ public class MenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuItemBuilder onMenuValidationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onMenuValidationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#parentMenuProperty() parentMenuProperty} 
      * of the instance being constructed. 
@@ -474,12 +470,12 @@ public class MenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuItemBuilder parentMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.Menu>> op) {
         operations.add(obj -> op.accept(obj.parentMenuProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#parentPopupProperty() parentPopupProperty} 
      * of the instance being constructed. 
@@ -496,12 +492,12 @@ public class MenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuItemBuilder parentPopupPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.parentPopupProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#styleProperty() styleProperty} 
      * of the instance being constructed. 
@@ -518,12 +514,12 @@ public class MenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuItemBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#textProperty() textProperty} 
      * of the instance being constructed. 
@@ -540,12 +536,12 @@ public class MenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuItemBuilder textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.textProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
@@ -562,8 +558,7 @@ public class MenuItemBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuItemBuilder visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;

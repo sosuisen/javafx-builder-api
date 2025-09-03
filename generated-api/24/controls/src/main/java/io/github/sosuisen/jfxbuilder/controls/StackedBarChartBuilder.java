@@ -27,7 +27,6 @@ public class StackedBarChartBuilder<X, Y> {
     private java.util.List<java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>>> operations = new java.util.ArrayList<>();
     private StackedBarChartBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.chart.StackedBarChart#StackedBarChart(Axis, Axis) StackedBarChart(Axis, Axis)}
      * and returns an instance of {@code StackedBarChartBuilder<X, Y>}.
@@ -41,7 +40,6 @@ public class StackedBarChartBuilder<X, Y> {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.chart.StackedBarChart#StackedBarChart(Axis, Axis, ObservableList) StackedBarChart(Axis, Axis, ObservableList)}
      * and returns an instance of {@code StackedBarChartBuilder<X, Y>}.
@@ -54,7 +52,6 @@ public class StackedBarChartBuilder<X, Y> {
         builder.constructorArgs = new Object[]{xAxis, yAxis, data};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.chart.StackedBarChart#StackedBarChart(Axis, Axis, ObservableList, double) StackedBarChart(Axis, Axis, ObservableList, double)}
@@ -113,7 +110,6 @@ public class StackedBarChartBuilder<X, Y> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -158,6 +154,7 @@ public class StackedBarChartBuilder<X, Y> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the StackedBarChart instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -174,1056 +171,1057 @@ public class StackedBarChartBuilder<X, Y> {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> accessibleHelp(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleHelp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> accessibleRole(javafx.scene.AccessibleRole value) {
         operations.add(obj -> obj.setAccessibleRole(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> accessibleRoleDescription(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> accessibleText(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setAlternativeColumnFillVisible(boolean) setAlternativeColumnFillVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> alternativeColumnFillVisible(boolean value) {
         operations.add(obj -> obj.setAlternativeColumnFillVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setAlternativeRowFillVisible(boolean) setAlternativeRowFillVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> alternativeRowFillVisible(boolean value) {
         operations.add(obj -> obj.setAlternativeRowFillVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setAnimated(boolean) setAnimated} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> animated(boolean value) {
         operations.add(obj -> obj.setAnimated(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> background(javafx.scene.layout.Background value) {
         operations.add(obj -> obj.setBackground(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> blendMode(javafx.scene.effect.BlendMode value) {
         operations.add(obj -> obj.setBlendMode(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> border(javafx.scene.layout.Border value) {
         operations.add(obj -> obj.setBorder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> cache(boolean value) {
         operations.add(obj -> obj.setCache(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> cacheHint(javafx.scene.CacheHint value) {
         operations.add(obj -> obj.setCacheHint(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> cacheShape(boolean value) {
         operations.add(obj -> obj.setCacheShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setCategoryGap(double) setCategoryGap} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> categoryGap(double value) {
         operations.add(obj -> obj.setCategoryGap(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> centerShape(boolean value) {
         operations.add(obj -> obj.setCenterShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> clip(javafx.scene.Node value) {
         operations.add(obj -> obj.setClip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> cursor(javafx.scene.Cursor value) {
         operations.add(obj -> obj.setCursor(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setData(javafx.collections.ObservableList) setData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> data(javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> value) {
         operations.add(obj -> obj.setData(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> depthTest(javafx.scene.DepthTest value) {
         operations.add(obj -> obj.setDepthTest(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> effect(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setEffect(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> eventDispatcher(javafx.event.EventDispatcher value) {
         operations.add(obj -> obj.setEventDispatcher(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> focusTraversable(boolean value) {
         operations.add(obj -> obj.setFocusTraversable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setHorizontalGridLinesVisible(boolean) setHorizontalGridLinesVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> horizontalGridLinesVisible(boolean value) {
         operations.add(obj -> obj.setHorizontalGridLinesVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setHorizontalZeroLineVisible(boolean) setHorizontalZeroLineVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> horizontalZeroLineVisible(boolean value) {
         operations.add(obj -> obj.setHorizontalZeroLineVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
         operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> layoutX(double value) {
         operations.add(obj -> obj.setLayoutX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> layoutY(double value) {
         operations.add(obj -> obj.setLayoutY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setLegendSide(javafx.geometry.Side) setLegendSide} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> legendSide(javafx.geometry.Side value) {
         operations.add(obj -> obj.setLegendSide(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setLegendVisible(boolean) setLegendVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> legendVisible(boolean value) {
         operations.add(obj -> obj.setLegendVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> managed(boolean value) {
         operations.add(obj -> obj.setManaged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> maxHeight(double value) {
         operations.add(obj -> obj.setMaxHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> maxSize(double maxWidth, double maxHeight) {
         operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> maxWidth(double value) {
         operations.add(obj -> obj.setMaxWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setMinHeight(double) setMinHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> minHeight(double value) {
         operations.add(obj -> obj.setMinHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setMinSize(double, double) setMinSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> minSize(double minWidth, double minHeight) {
         operations.add(obj -> obj.setMinSize(minWidth, minHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setMinWidth(double) setMinWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> minWidth(double value) {
         operations.add(obj -> obj.setMinWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> mouseTransparent(boolean value) {
         operations.add(obj -> obj.setMouseTransparent(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> nodeOrientation(javafx.geometry.NodeOrientation orientation) {
         operations.add(obj -> obj.setNodeOrientation(orientation));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
         operations.add(obj -> obj.setOnContextMenuRequested(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnDragDetected(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDone(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDropped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
         operations.add(obj -> obj.setOnInputMethodTextChanged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onKeyPressed(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyTyped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseClicked(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseDragged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onMouseEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMousePressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onScroll(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScroll(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeDown(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeLeft(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onSwipeRight(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeRight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onTouchMoved(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchStationary(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoom(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> opacity(double value) {
         operations.add(obj -> obj.setOpacity(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> opaqueInsets(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setOpaqueInsets(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> padding(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setPadding(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> pickOnBounds(boolean value) {
         operations.add(obj -> obj.setPickOnBounds(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> prefHeight(double value) {
         operations.add(obj -> obj.setPrefHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> prefSize(double prefWidth, double prefHeight) {
         operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> prefWidth(double value) {
         operations.add(obj -> obj.setPrefWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> rotate(double value) {
         operations.add(obj -> obj.setRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> rotationAxis(javafx.geometry.Point3D value) {
         operations.add(obj -> obj.setRotationAxis(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> scaleShape(boolean value) {
         operations.add(obj -> obj.setScaleShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> scaleX(double value) {
         operations.add(obj -> obj.setScaleX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> scaleY(double value) {
         operations.add(obj -> obj.setScaleY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> scaleZ(double value) {
         operations.add(obj -> obj.setScaleZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> shape(javafx.scene.shape.Shape value) {
         operations.add(obj -> obj.setShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> snapToPixel(boolean value) {
         operations.add(obj -> obj.setSnapToPixel(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setTitle(java.lang.String) setTitle} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> title(java.lang.String value) {
         operations.add(obj -> obj.setTitle(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setTitleSide(javafx.geometry.Side) setTitleSide} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> titleSide(javafx.geometry.Side value) {
         operations.add(obj -> obj.setTitleSide(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> translateX(double value) {
         operations.add(obj -> obj.setTranslateX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> translateY(double value) {
         operations.add(obj -> obj.setTranslateY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> translateZ(double value) {
         operations.add(obj -> obj.setTranslateZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setVerticalGridLinesVisible(boolean) setVerticalGridLinesVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> verticalGridLinesVisible(boolean value) {
         operations.add(obj -> obj.setVerticalGridLinesVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setVerticalZeroLineVisible(boolean) setVerticalZeroLineVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> verticalZeroLineVisible(boolean value) {
         operations.add(obj -> obj.setVerticalZeroLineVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> viewOrder(double value) {
         operations.add(obj -> obj.setViewOrder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.StackedBarChart#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  StackedBarChartBuilder<X, Y> visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getData()} method.
      * 
@@ -1248,8 +1246,6 @@ public class StackedBarChartBuilder<X, Y> {
         });
         return this;
     }
-
-
 
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStyleClass()} method.
@@ -1276,8 +1272,6 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }
 
-
-
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStylesheets()} method.
      * 
@@ -1303,8 +1297,6 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }
 
-
-
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getTransforms()} method.
      * 
@@ -1328,10 +1320,7 @@ public class StackedBarChartBuilder<X, Y> {
             obj.getTransforms().addAll(col);
         });
         return this;
-    }
-
-
-    
+    }    
     /**
      * Utility setter to add CSS string for this StackedBarChart's contents.
      * For example:
@@ -1348,6 +1337,7 @@ public class StackedBarChartBuilder<X, Y> {
                 java.util.Base64.getEncoder().encodeToString(css.getBytes())));
         return this;
     }
+
     /**
      * Invokes the {@link javafx.scene.layout.AnchorPane#setBottomAnchor(Node child, java.lang.Double value) AnchorPane.setBottomAnchor(Node, Double)} 
      * using a fluent API.
@@ -1363,10 +1353,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .bottomAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .bottomAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1391,10 +1381,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .leftAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .leftAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1419,10 +1409,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .rightAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .rightAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1447,10 +1437,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .topAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .topAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1475,10 +1465,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .alignmentInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1503,10 +1493,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .marginInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1531,10 +1521,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = FlowPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInFlowPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInFlowPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1559,10 +1549,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1587,10 +1577,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1615,10 +1605,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1643,10 +1633,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1671,10 +1661,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1699,10 +1689,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1727,10 +1717,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1755,10 +1745,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillHeightInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillHeightInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1783,10 +1773,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillWidthInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillWidthInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1811,10 +1801,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1839,10 +1829,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1867,10 +1857,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1895,10 +1885,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1923,10 +1913,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1951,10 +1941,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1979,10 +1969,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2007,10 +1997,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .hGrowInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2035,10 +2025,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2063,10 +2053,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .alignmentInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2091,10 +2081,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .marginInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2119,10 +2109,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .alignmentInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2147,10 +2137,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2175,10 +2165,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2203,10 +2193,10 @@ public class StackedBarChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .vGrowInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2215,7 +2205,8 @@ public class StackedBarChartBuilder<X, Y> {
         operations.add(obj -> javafx.scene.layout.VBox.setVgrow(obj, value));
         return this;
     }
-    
+
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
@@ -2232,12 +2223,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
@@ -2254,12 +2245,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
@@ -2276,12 +2267,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
@@ -2298,12 +2289,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleTextProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#alternativeColumnFillVisibleProperty() alternativeColumnFillVisibleProperty} 
      * of the instance being constructed. 
@@ -2320,12 +2311,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> alternativeColumnFillVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.alternativeColumnFillVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#alternativeRowFillVisibleProperty() alternativeRowFillVisibleProperty} 
      * of the instance being constructed. 
@@ -2342,12 +2333,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> alternativeRowFillVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.alternativeRowFillVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#animatedProperty() animatedProperty} 
      * of the instance being constructed. 
@@ -2364,12 +2355,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> animatedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.animatedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
@@ -2386,12 +2377,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> backgroundPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Background>> op) {
         operations.add(obj -> op.accept(obj.backgroundProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
@@ -2408,12 +2399,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
         operations.add(obj -> op.accept(obj.blendModeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#borderProperty() borderProperty} 
      * of the instance being constructed. 
@@ -2430,12 +2421,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
         operations.add(obj -> op.accept(obj.borderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
@@ -2452,12 +2443,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
@@ -2474,12 +2465,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInParentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
@@ -2496,12 +2487,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
         operations.add(obj -> op.accept(obj.cacheHintProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
@@ -2518,12 +2509,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
@@ -2540,12 +2531,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#categoryGapProperty() categoryGapProperty} 
      * of the instance being constructed. 
@@ -2562,12 +2553,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> categoryGapPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.categoryGapProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
@@ -2584,12 +2575,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.centerShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#clipProperty() clipProperty} 
      * of the instance being constructed. 
@@ -2606,12 +2597,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.clipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
@@ -2628,12 +2619,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
         operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#dataProperty() dataProperty} 
      * of the instance being constructed. 
@@ -2650,12 +2641,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> dataPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>>>> op) {
         operations.add(obj -> op.accept(obj.dataProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
@@ -2672,12 +2663,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
         operations.add(obj -> op.accept(obj.depthTestProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#disableProperty() disableProperty} 
      * of the instance being constructed. 
@@ -2694,12 +2685,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
@@ -2716,12 +2707,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> disabledPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disabledProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#effectProperty() effectProperty} 
      * of the instance being constructed. 
@@ -2738,12 +2729,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.effectProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
@@ -2760,12 +2751,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
@@ -2782,12 +2773,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
         operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
@@ -2804,12 +2795,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusTraversableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
@@ -2826,12 +2817,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
@@ -2848,12 +2839,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusWithinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
@@ -2870,12 +2861,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -2892,12 +2883,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#horizontalGridLinesVisibleProperty() horizontalGridLinesVisibleProperty} 
      * of the instance being constructed. 
@@ -2914,12 +2905,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> horizontalGridLinesVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.horizontalGridLinesVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#horizontalZeroLineVisibleProperty() horizontalZeroLineVisibleProperty} 
      * of the instance being constructed. 
@@ -2936,12 +2927,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> horizontalZeroLineVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.horizontalZeroLineVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
@@ -2958,12 +2949,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> hoverPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.hoverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#idProperty() idProperty} 
      * of the instance being constructed. 
@@ -2980,12 +2971,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
@@ -3002,12 +2993,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
         operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
@@ -3024,12 +3015,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> insetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.insetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
@@ -3046,12 +3037,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
@@ -3068,12 +3059,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
@@ -3090,12 +3081,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> layoutYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#legendSideProperty() legendSideProperty} 
      * of the instance being constructed. 
@@ -3112,12 +3103,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> legendSidePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Side>> op) {
         operations.add(obj -> op.accept(obj.legendSideProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#legendVisibleProperty() legendVisibleProperty} 
      * of the instance being constructed. 
@@ -3134,12 +3125,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> legendVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.legendVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
@@ -3156,12 +3147,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
@@ -3178,12 +3169,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#managedProperty() managedProperty} 
      * of the instance being constructed. 
@@ -3200,12 +3191,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.managedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
@@ -3222,12 +3213,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
@@ -3244,12 +3235,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
@@ -3266,12 +3257,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
@@ -3288,12 +3279,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
@@ -3310,12 +3301,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
@@ -3332,12 +3323,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> needsLayoutPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.needsLayoutProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
@@ -3354,12 +3345,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
@@ -3376,12 +3367,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
         operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
@@ -3398,12 +3389,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
@@ -3420,12 +3411,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDoneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
@@ -3442,12 +3433,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3464,12 +3455,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
@@ -3486,12 +3477,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
@@ -3508,12 +3499,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
@@ -3530,12 +3521,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
         operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
@@ -3552,12 +3543,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
@@ -3574,12 +3565,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
@@ -3596,12 +3587,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
@@ -3618,12 +3609,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3640,12 +3631,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
@@ -3662,12 +3653,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
@@ -3684,12 +3675,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
@@ -3706,12 +3697,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
@@ -3728,12 +3719,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
@@ -3750,12 +3741,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
@@ -3772,12 +3763,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
@@ -3794,12 +3785,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
@@ -3816,12 +3807,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMousePressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
@@ -3838,12 +3829,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
@@ -3860,12 +3851,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
@@ -3882,12 +3873,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
@@ -3904,12 +3895,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
@@ -3926,12 +3917,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
@@ -3948,12 +3939,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
@@ -3970,12 +3961,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
@@ -3992,12 +3983,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
@@ -4014,12 +4005,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
@@ -4036,12 +4027,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
@@ -4058,12 +4049,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onSwipeUpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeUpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
@@ -4080,12 +4071,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
@@ -4102,12 +4093,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
@@ -4124,12 +4115,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
@@ -4146,12 +4137,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
@@ -4168,12 +4159,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
@@ -4190,12 +4181,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
@@ -4212,12 +4203,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
@@ -4234,12 +4225,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.opacityProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
@@ -4256,12 +4247,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
@@ -4278,12 +4269,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.paddingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#parentProperty() parentProperty} 
      * of the instance being constructed. 
@@ -4300,12 +4291,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Parent>> op) {
         operations.add(obj -> op.accept(obj.parentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
@@ -4322,12 +4313,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> pickOnBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pickOnBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
@@ -4344,12 +4335,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
@@ -4366,12 +4357,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
@@ -4388,12 +4379,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> pressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
@@ -4410,12 +4401,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.rotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
@@ -4432,12 +4423,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
         operations.add(obj -> op.accept(obj.rotationAxisProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
@@ -4454,12 +4445,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.scaleShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
@@ -4476,12 +4467,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
@@ -4498,12 +4489,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
@@ -4520,12 +4511,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
@@ -4542,12 +4533,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
         operations.add(obj -> op.accept(obj.sceneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
@@ -4564,12 +4555,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
         operations.add(obj -> op.accept(obj.shapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
@@ -4586,12 +4577,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.snapToPixelProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#styleProperty() styleProperty} 
      * of the instance being constructed. 
@@ -4608,12 +4599,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#titleProperty() titleProperty} 
      * of the instance being constructed. 
@@ -4630,12 +4621,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> titlePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.titleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#titleSideProperty() titleSideProperty} 
      * of the instance being constructed. 
@@ -4652,12 +4643,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> titleSidePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Side>> op) {
         operations.add(obj -> op.accept(obj.titleSideProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
@@ -4674,12 +4665,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
@@ -4696,12 +4687,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
@@ -4718,12 +4709,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#verticalGridLinesVisibleProperty() verticalGridLinesVisibleProperty} 
      * of the instance being constructed. 
@@ -4740,12 +4731,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> verticalGridLinesVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.verticalGridLinesVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#verticalZeroLineVisibleProperty() verticalZeroLineVisibleProperty} 
      * of the instance being constructed. 
@@ -4762,12 +4753,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> verticalZeroLineVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.verticalZeroLineVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
@@ -4784,12 +4775,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> viewOrderPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.viewOrderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
@@ -4806,12 +4797,12 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedBarChart#widthProperty() widthProperty} 
      * of the instance being constructed. 
@@ -4828,8 +4819,7 @@ public class StackedBarChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public StackedBarChartBuilder<X, Y> widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;

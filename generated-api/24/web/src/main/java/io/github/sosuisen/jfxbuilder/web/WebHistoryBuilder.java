@@ -69,7 +69,6 @@ public class WebHistoryBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -114,6 +113,7 @@ public class WebHistoryBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the WebHistory instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -125,16 +125,17 @@ public class WebHistoryBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.web.WebHistory#setMaxSize(int) setMaxSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  WebHistoryBuilder maxSize(int value) {
         operations.add(obj -> obj.setMaxSize(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.web.WebHistory#getEntries()} method.
      * 
@@ -160,8 +161,6 @@ public class WebHistoryBuilder {
         return this;
     }
 
-
-    
     /**
      * Applies a function to the {@link javafx.scene.web.WebHistory#currentIndexProperty() currentIndexProperty} 
      * of the instance being constructed. 
@@ -178,12 +177,12 @@ public class WebHistoryBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public WebHistoryBuilder currentIndexPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
         operations.add(obj -> op.accept(obj.currentIndexProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.web.WebHistory#maxSizeProperty() maxSizeProperty} 
      * of the instance being constructed. 
@@ -200,8 +199,7 @@ public class WebHistoryBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public WebHistoryBuilder maxSizePropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
         operations.add(obj -> op.accept(obj.maxSizeProperty()));
         return this;

@@ -27,7 +27,6 @@ public class ClosePathBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.shape.ClosePath>> operations = new java.util.ArrayList<>();
     private ClosePathBuilder() {}
     
-
     /**
      * Returns an instance of the {@code ClosePathBuilder}.
      *
@@ -83,7 +82,6 @@ public class ClosePathBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class ClosePathBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ClosePath instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -139,16 +138,17 @@ public class ClosePathBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.ClosePath#setAbsolute(boolean) setAbsolute} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ClosePathBuilder absolute(boolean value) {
         operations.add(obj -> obj.setAbsolute(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.ClosePath#absoluteProperty() absoluteProperty} 
      * of the instance being constructed. 
@@ -165,8 +165,7 @@ public class ClosePathBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ClosePathBuilder absolutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.absoluteProperty()));
         return this;

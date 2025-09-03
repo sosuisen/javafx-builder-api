@@ -27,7 +27,6 @@ public class TableViewTableViewFocusModelBuilder<S> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.TableView.TableViewFocusModel<S>>> operations = new java.util.ArrayList<>();
     private TableViewTableViewFocusModelBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TableView.TableViewFocusModel#TableViewFocusModel(TableView) TableViewFocusModel(TableView)}
      * and returns an instance of {@code TableViewTableViewFocusModelBuilder<S>}.
@@ -85,7 +84,6 @@ public class TableViewTableViewFocusModelBuilder<S> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class TableViewTableViewFocusModelBuilder<S> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TableViewFocusModel instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -140,7 +139,8 @@ public class TableViewTableViewFocusModelBuilder<S> {
     public TableViewTableViewFocusModelBuilder<S> apply(java.util.function.Consumer<javafx.scene.control.TableView.TableViewFocusModel<S>> func) {
         operations.add(func);
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableView.TableViewFocusModel#focusedCellProperty() focusedCellProperty} 
      * of the instance being constructed. 
@@ -157,12 +157,13 @@ public class TableViewTableViewFocusModelBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
+     */
     @SuppressWarnings("rawtypes")
     public TableViewTableViewFocusModelBuilder<S> focusedCellPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TablePosition>> op) {
         operations.add(obj -> op.accept(obj.focusedCellProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableView.TableViewFocusModel#focusedIndexProperty() focusedIndexProperty} 
      * of the instance being constructed. 
@@ -179,12 +180,12 @@ public class TableViewTableViewFocusModelBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableViewTableViewFocusModelBuilder<S> focusedIndexPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
         operations.add(obj -> op.accept(obj.focusedIndexProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableView.TableViewFocusModel#focusedItemProperty() focusedItemProperty} 
      * of the instance being constructed. 
@@ -201,8 +202,7 @@ public class TableViewTableViewFocusModelBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableViewTableViewFocusModelBuilder<S> focusedItemPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<S>> op) {
         operations.add(obj -> op.accept(obj.focusedItemProperty()));
         return this;

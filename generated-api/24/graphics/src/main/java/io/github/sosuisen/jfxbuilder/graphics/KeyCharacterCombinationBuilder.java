@@ -27,7 +27,6 @@ public class KeyCharacterCombinationBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.input.KeyCharacterCombination>> operations = new java.util.ArrayList<>();
     private KeyCharacterCombinationBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.KeyCharacterCombination#KeyCharacterCombination(String, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue) KeyCharacterCombination(String, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue)}
      * and returns an instance of {@code KeyCharacterCombinationBuilder}.
@@ -40,7 +39,6 @@ public class KeyCharacterCombinationBuilder {
         builder.constructorArgs = new Object[]{character, shift, control, alt, meta, shortcut};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.KeyCharacterCombination#KeyCharacterCombination(String, KeyCombination$Modifier...) KeyCharacterCombination(String, KeyCombination$Modifier...)}
@@ -97,7 +95,6 @@ public class KeyCharacterCombinationBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class KeyCharacterCombinationBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the KeyCharacterCombination instance being constructed.
      * Most operations on the instance can be performed using this method.

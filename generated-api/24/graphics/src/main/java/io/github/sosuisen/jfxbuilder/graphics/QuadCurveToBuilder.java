@@ -27,14 +27,12 @@ public class QuadCurveToBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.shape.QuadCurveTo>> operations = new java.util.ArrayList<>();
     private QuadCurveToBuilder() {}
     
-
     /**
      * Returns an instance of the {@code QuadCurveToBuilder}.
      *
      * @return an instance of the {@code QuadCurveToBuilder}.
      */
     public static QuadCurveToBuilder create() { return new QuadCurveToBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.shape.QuadCurveTo#QuadCurveTo(double, double, double, double) QuadCurveTo(double, double, double, double)}
@@ -97,7 +95,6 @@ public class QuadCurveToBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class QuadCurveToBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the QuadCurveTo instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -153,56 +151,57 @@ public class QuadCurveToBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.QuadCurveTo#setAbsolute(boolean) setAbsolute} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  QuadCurveToBuilder absolute(boolean value) {
         operations.add(obj -> obj.setAbsolute(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.QuadCurveTo#setControlX(double) setControlX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  QuadCurveToBuilder controlX(double value) {
         operations.add(obj -> obj.setControlX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.QuadCurveTo#setControlY(double) setControlY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  QuadCurveToBuilder controlY(double value) {
         operations.add(obj -> obj.setControlY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.QuadCurveTo#setX(double) setX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  QuadCurveToBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.QuadCurveTo#setY(double) setY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  QuadCurveToBuilder y(double value) {
         operations.add(obj -> obj.setY(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#absoluteProperty() absoluteProperty} 
      * of the instance being constructed. 
@@ -219,12 +218,12 @@ public class QuadCurveToBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public QuadCurveToBuilder absolutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.absoluteProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#controlXProperty() controlXProperty} 
      * of the instance being constructed. 
@@ -241,12 +240,12 @@ public class QuadCurveToBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public QuadCurveToBuilder controlXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.controlXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#controlYProperty() controlYProperty} 
      * of the instance being constructed. 
@@ -263,12 +262,12 @@ public class QuadCurveToBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public QuadCurveToBuilder controlYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.controlYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#xProperty() xProperty} 
      * of the instance being constructed. 
@@ -285,12 +284,12 @@ public class QuadCurveToBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public QuadCurveToBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.xProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#yProperty() yProperty} 
      * of the instance being constructed. 
@@ -307,8 +306,7 @@ public class QuadCurveToBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public QuadCurveToBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.yProperty()));
         return this;

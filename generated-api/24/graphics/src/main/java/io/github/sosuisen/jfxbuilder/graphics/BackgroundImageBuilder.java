@@ -27,7 +27,6 @@ public class BackgroundImageBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.layout.BackgroundImage>> operations = new java.util.ArrayList<>();
     private BackgroundImageBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.BackgroundImage#BackgroundImage(Image, BackgroundRepeat, BackgroundRepeat, BackgroundPosition, BackgroundSize) BackgroundImage(Image, BackgroundRepeat, BackgroundRepeat, BackgroundPosition, BackgroundSize)}
      * and returns an instance of {@code BackgroundImageBuilder}.
@@ -83,7 +82,6 @@ public class BackgroundImageBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class BackgroundImageBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the BackgroundImage instance being constructed.
      * Most operations on the instance can be performed using this method.

@@ -27,7 +27,6 @@ public class CheckBoxTreeItemTreeModificationEventBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.CheckBoxTreeItem.TreeModificationEvent<T>>> operations = new java.util.ArrayList<>();
     private CheckBoxTreeItemTreeModificationEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.CheckBoxTreeItem.TreeModificationEvent#TreeModificationEvent(EventType, CheckBoxTreeItem, boolean) TreeModificationEvent(EventType, CheckBoxTreeItem, boolean)}
      * and returns an instance of {@code CheckBoxTreeItemTreeModificationEventBuilder<T>}.
@@ -85,7 +84,6 @@ public class CheckBoxTreeItemTreeModificationEventBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class CheckBoxTreeItemTreeModificationEventBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TreeModificationEvent instance being constructed.
      * Most operations on the instance can be performed using this method.

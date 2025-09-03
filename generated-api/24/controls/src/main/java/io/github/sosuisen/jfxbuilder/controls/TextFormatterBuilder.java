@@ -27,7 +27,6 @@ public class TextFormatterBuilder<V> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.TextFormatter<V>>> operations = new java.util.ArrayList<>();
     private TextFormatterBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(UnaryOperator) TextFormatter(UnaryOperator)}
      * and returns an instance of {@code TextFormatterBuilder<V>}.
@@ -40,7 +39,6 @@ public class TextFormatterBuilder<V> {
         builder.constructorArgs = new Object[]{filter};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(StringConverter) TextFormatter(StringConverter)}
@@ -55,7 +53,6 @@ public class TextFormatterBuilder<V> {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(StringConverter, Object) TextFormatter(StringConverter, Object)}
      * and returns an instance of {@code TextFormatterBuilder<V>}.
@@ -68,7 +65,6 @@ public class TextFormatterBuilder<V> {
         builder.constructorArgs = new Object[]{valueConverter, defaultValue};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(StringConverter, Object, UnaryOperator) TextFormatter(StringConverter, Object, UnaryOperator)}
@@ -127,7 +123,6 @@ public class TextFormatterBuilder<V> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -172,6 +167,7 @@ public class TextFormatterBuilder<V> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TextFormatter instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -183,16 +179,17 @@ public class TextFormatterBuilder<V> {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TextFormatter#setValue(java.lang.Object) setValue} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TextFormatterBuilder<V> value(V value) {
         operations.add(obj -> obj.setValue(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TextFormatter#valueProperty() valueProperty} 
      * of the instance being constructed. 
@@ -209,8 +206,7 @@ public class TextFormatterBuilder<V> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TextFormatterBuilder<V> valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<V>> op) {
         operations.add(obj -> op.accept(obj.valueProperty()));
         return this;

@@ -27,7 +27,6 @@ public class HTMLEditorSkinBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.web.HTMLEditorSkin>> operations = new java.util.ArrayList<>();
     private HTMLEditorSkinBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.web.HTMLEditorSkin#HTMLEditorSkin(HTMLEditor) HTMLEditorSkin(HTMLEditor)}
      * and returns an instance of {@code HTMLEditorSkinBuilder}.
@@ -83,7 +82,6 @@ public class HTMLEditorSkinBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class HTMLEditorSkinBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the HTMLEditorSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -139,6 +138,7 @@ public class HTMLEditorSkinBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditorSkin#getChildren()} method.
      * 
@@ -163,7 +163,4 @@ public class HTMLEditorSkinBuilder {
         });
         return this;
     }
-
-
-
 }
