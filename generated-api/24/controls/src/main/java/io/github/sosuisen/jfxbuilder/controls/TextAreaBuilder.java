@@ -37,8 +37,8 @@ public class TextAreaBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TextArea#TextArea(String) TextArea(String)}
-     * and returns an instance of the {@code TextAreaBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TextArea#TextArea(String) TextArea(String)}
+     * and returns an instance of {@code TextAreaBuilder}.
      *
      * @return an instance of the {@code TextAreaBuilder}.
      */
@@ -1209,7 +1209,7 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getParagraphs()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getParagraphs()} method.
      * 
      * @return builder instance
      */
@@ -1222,7 +1222,7 @@ public class TextAreaBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getParagraphs()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getParagraphs()} method.
      * 
      * @return builder instance
      */
@@ -1235,7 +1235,7 @@ public class TextAreaBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getParagraphs()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getParagraphs()} method.
      * 
      * @return builder instance
      */
@@ -1246,7 +1246,7 @@ public class TextAreaBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getParagraphs()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getParagraphs()} method.
      * 
      * @return builder instance
      */
@@ -1257,7 +1257,7 @@ public class TextAreaBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1270,7 +1270,7 @@ public class TextAreaBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1284,7 +1284,7 @@ public class TextAreaBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1297,7 +1297,7 @@ public class TextAreaBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1311,7 +1311,7 @@ public class TextAreaBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1324,7 +1324,7 @@ public class TextAreaBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getTransforms()} method.
      * 
      * @return builder instance
      */

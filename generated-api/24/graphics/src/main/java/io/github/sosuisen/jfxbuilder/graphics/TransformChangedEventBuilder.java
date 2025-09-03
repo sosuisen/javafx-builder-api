@@ -37,8 +37,8 @@ public class TransformChangedEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.TransformChangedEvent#TransformChangedEvent(Object, EventTarget) TransformChangedEvent(Object, EventTarget)}
-     * and returns an instance of the {@code TransformChangedEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.transform.TransformChangedEvent#TransformChangedEvent(Object, EventTarget) TransformChangedEvent(Object, EventTarget)}
+     * and returns an instance of {@code TransformChangedEventBuilder}.
      *
      * @return an instance of the {@code TransformChangedEventBuilder}.
      */

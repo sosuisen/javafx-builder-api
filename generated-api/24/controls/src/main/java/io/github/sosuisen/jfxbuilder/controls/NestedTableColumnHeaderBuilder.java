@@ -29,8 +29,8 @@ public class NestedTableColumnHeaderBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.NestedTableColumnHeader#NestedTableColumnHeader(TableColumnBase) NestedTableColumnHeader(TableColumnBase)}
-     * and returns an instance of the {@code NestedTableColumnHeaderBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.NestedTableColumnHeader#NestedTableColumnHeader(TableColumnBase) NestedTableColumnHeader(TableColumnBase)}
+     * and returns an instance of {@code NestedTableColumnHeaderBuilder}.
      *
      * @return an instance of the {@code NestedTableColumnHeaderBuilder}.
      */
@@ -1065,7 +1065,7 @@ public class NestedTableColumnHeaderBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.NestedTableColumnHeader#getColumnHeaders()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.NestedTableColumnHeader#getColumnHeaders()} method.
      * 
      * @return builder instance
      */
@@ -1078,7 +1078,7 @@ public class NestedTableColumnHeaderBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.NestedTableColumnHeader#getColumnHeaders()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.NestedTableColumnHeader#getColumnHeaders()} method.
      * 
      * @return builder instance
      */
@@ -1092,7 +1092,7 @@ public class NestedTableColumnHeaderBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.NestedTableColumnHeader#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.NestedTableColumnHeader#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1105,7 +1105,7 @@ public class NestedTableColumnHeaderBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.NestedTableColumnHeader#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.NestedTableColumnHeader#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1119,7 +1119,7 @@ public class NestedTableColumnHeaderBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.NestedTableColumnHeader#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.NestedTableColumnHeader#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1132,7 +1132,7 @@ public class NestedTableColumnHeaderBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.NestedTableColumnHeader#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.NestedTableColumnHeader#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1146,7 +1146,7 @@ public class NestedTableColumnHeaderBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.NestedTableColumnHeader#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.NestedTableColumnHeader#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1159,7 +1159,7 @@ public class NestedTableColumnHeaderBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.NestedTableColumnHeader#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.NestedTableColumnHeader#getTransforms()} method.
      * 
      * @return builder instance
      */

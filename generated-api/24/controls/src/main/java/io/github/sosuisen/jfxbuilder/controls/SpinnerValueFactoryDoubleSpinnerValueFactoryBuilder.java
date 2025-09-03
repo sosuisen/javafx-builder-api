@@ -29,8 +29,8 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#DoubleSpinnerValueFactory(double, double) DoubleSpinnerValueFactory(double, double)}
-     * and returns an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#DoubleSpinnerValueFactory(double, double) DoubleSpinnerValueFactory(double, double)}
+     * and returns an instance of {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
      *
      * @return an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
      */
@@ -43,8 +43,8 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#DoubleSpinnerValueFactory(double, double, double) DoubleSpinnerValueFactory(double, double, double)}
-     * and returns an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#DoubleSpinnerValueFactory(double, double, double) DoubleSpinnerValueFactory(double, double, double)}
+     * and returns an instance of {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
      *
      * @return an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
      */
@@ -57,8 +57,8 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#DoubleSpinnerValueFactory(double, double, double, double) DoubleSpinnerValueFactory(double, double, double, double)}
-     * and returns an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#DoubleSpinnerValueFactory(double, double, double, double) DoubleSpinnerValueFactory(double, double, double, double)}
+     * and returns an instance of {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
      *
      * @return an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
      */

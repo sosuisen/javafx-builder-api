@@ -37,8 +37,8 @@ public class AffineBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Affine#Affine(double, double, double, double, double, double) Affine(double, double, double, double, double, double)}
-     * and returns an instance of the {@code AffineBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.transform.Affine#Affine(double, double, double, double, double, double) Affine(double, double, double, double, double, double)}
+     * and returns an instance of {@code AffineBuilder}.
      *
      * @return an instance of the {@code AffineBuilder}.
      */
@@ -51,8 +51,8 @@ public class AffineBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Affine#Affine(double, double, double, double, double, double, double, double, double, double, double, double) Affine(double, double, double, double, double, double, double, double, double, double, double, double)}
-     * and returns an instance of the {@code AffineBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.transform.Affine#Affine(double, double, double, double, double, double, double, double, double, double, double, double) Affine(double, double, double, double, double, double, double, double, double, double, double, double)}
+     * and returns an instance of {@code AffineBuilder}.
      *
      * @return an instance of the {@code AffineBuilder}.
      */
@@ -65,8 +65,8 @@ public class AffineBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Affine#Affine(double..., MatrixType, int) Affine(double..., MatrixType, int)}
-     * and returns an instance of the {@code AffineBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.transform.Affine#Affine(double..., MatrixType, int) Affine(double..., MatrixType, int)}
+     * and returns an instance of {@code AffineBuilder}.
      *
      * @return an instance of the {@code AffineBuilder}.
      */
@@ -79,8 +79,8 @@ public class AffineBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Affine#Affine(Transform) Affine(Transform)}
-     * and returns an instance of the {@code AffineBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.transform.Affine#Affine(Transform) Affine(Transform)}
+     * and returns an instance of {@code AffineBuilder}.
      *
      * @return an instance of the {@code AffineBuilder}.
      */

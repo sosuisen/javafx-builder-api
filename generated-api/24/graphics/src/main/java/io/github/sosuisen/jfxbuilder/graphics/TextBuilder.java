@@ -37,8 +37,8 @@ public class TextBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.text.Text#Text(double, double, String) Text(double, double, String)}
-     * and returns an instance of the {@code TextBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.text.Text#Text(double, double, String) Text(double, double, String)}
+     * and returns an instance of {@code TextBuilder}.
      *
      * @return an instance of the {@code TextBuilder}.
      */
@@ -51,8 +51,8 @@ public class TextBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.text.Text#Text(String) Text(String)}
-     * and returns an instance of the {@code TextBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.text.Text#Text(String) Text(String)}
+     * and returns an instance of {@code TextBuilder}.
      *
      * @return an instance of the {@code TextBuilder}.
      */
@@ -1183,7 +1183,7 @@ public class TextBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.text.Text#getStrokeDashArray()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.text.Text#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1196,7 +1196,7 @@ public class TextBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.text.Text#getStrokeDashArray()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.text.Text#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1209,7 +1209,7 @@ public class TextBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.text.Text#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.text.Text#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1220,7 +1220,7 @@ public class TextBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.text.Text#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.text.Text#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1231,7 +1231,7 @@ public class TextBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.text.Text#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.text.Text#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1244,7 +1244,7 @@ public class TextBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.text.Text#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.text.Text#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1258,7 +1258,7 @@ public class TextBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.text.Text#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.text.Text#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1271,7 +1271,7 @@ public class TextBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.text.Text#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.text.Text#getTransforms()} method.
      * 
      * @return builder instance
      */

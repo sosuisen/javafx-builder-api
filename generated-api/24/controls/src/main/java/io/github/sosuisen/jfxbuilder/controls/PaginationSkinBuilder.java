@@ -29,8 +29,8 @@ public class PaginationSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.PaginationSkin#PaginationSkin(Pagination) PaginationSkin(Pagination)}
-     * and returns an instance of the {@code PaginationSkinBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.PaginationSkin#PaginationSkin(Pagination) PaginationSkin(Pagination)}
+     * and returns an instance of {@code PaginationSkinBuilder}.
      *
      * @return an instance of the {@code PaginationSkinBuilder}.
      */
@@ -140,7 +140,7 @@ public class PaginationSkinBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.PaginationSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.PaginationSkin#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -153,7 +153,7 @@ public class PaginationSkinBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.PaginationSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.PaginationSkin#getChildren()} method.
      * 
      * @return builder instance
      */

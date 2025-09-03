@@ -37,8 +37,8 @@ public class CubicCurveBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.CubicCurve#CubicCurve(double, double, double, double, double, double, double, double) CubicCurve(double, double, double, double, double, double, double, double)}
-     * and returns an instance of the {@code CubicCurveBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.CubicCurve#CubicCurve(double, double, double, double, double, double, double, double) CubicCurve(double, double, double, double, double, double, double, double)}
+     * and returns an instance of {@code CubicCurveBuilder}.
      *
      * @return an instance of the {@code CubicCurveBuilder}.
      */
@@ -1069,7 +1069,7 @@ public class CubicCurveBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getStrokeDashArray()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1082,7 +1082,7 @@ public class CubicCurveBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getStrokeDashArray()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1095,7 +1095,7 @@ public class CubicCurveBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1106,7 +1106,7 @@ public class CubicCurveBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1117,7 +1117,7 @@ public class CubicCurveBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1130,7 +1130,7 @@ public class CubicCurveBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1144,7 +1144,7 @@ public class CubicCurveBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1157,7 +1157,7 @@ public class CubicCurveBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getTransforms()} method.
      * 
      * @return builder instance
      */

@@ -37,8 +37,8 @@ public class TextFieldTableCellBuilder<S, T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.TextFieldTableCell#TextFieldTableCell(StringConverter) TextFieldTableCell(StringConverter)}
-     * and returns an instance of the {@code TextFieldTableCellBuilder<S, T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.TextFieldTableCell#TextFieldTableCell(StringConverter) TextFieldTableCell(StringConverter)}
+     * and returns an instance of {@code TextFieldTableCellBuilder<S, T>}.
      *
      * @return an instance of the {@code TextFieldTableCellBuilder<S, T>}.
      */
@@ -1281,7 +1281,7 @@ public class TextFieldTableCellBuilder<S, T> {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTableCell#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTableCell#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1294,7 +1294,7 @@ public class TextFieldTableCellBuilder<S, T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTableCell#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTableCell#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1308,7 +1308,7 @@ public class TextFieldTableCellBuilder<S, T> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTableCell#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTableCell#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1321,7 +1321,7 @@ public class TextFieldTableCellBuilder<S, T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTableCell#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTableCell#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1335,7 +1335,7 @@ public class TextFieldTableCellBuilder<S, T> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTableCell#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTableCell#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1348,7 +1348,7 @@ public class TextFieldTableCellBuilder<S, T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTableCell#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTableCell#getTransforms()} method.
      * 
      * @return builder instance
      */

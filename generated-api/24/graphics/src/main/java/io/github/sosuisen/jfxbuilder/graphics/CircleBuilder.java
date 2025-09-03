@@ -37,8 +37,8 @@ public class CircleBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Circle#Circle(double) Circle(double)}
-     * and returns an instance of the {@code CircleBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.Circle#Circle(double) Circle(double)}
+     * and returns an instance of {@code CircleBuilder}.
      *
      * @return an instance of the {@code CircleBuilder}.
      */
@@ -51,8 +51,8 @@ public class CircleBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Circle#Circle(double, double, double) Circle(double, double, double)}
-     * and returns an instance of the {@code CircleBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.Circle#Circle(double, double, double) Circle(double, double, double)}
+     * and returns an instance of {@code CircleBuilder}.
      *
      * @return an instance of the {@code CircleBuilder}.
      */
@@ -65,8 +65,8 @@ public class CircleBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Circle#Circle(double, double, double, Paint) Circle(double, double, double, Paint)}
-     * and returns an instance of the {@code CircleBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.Circle#Circle(double, double, double, Paint) Circle(double, double, double, Paint)}
+     * and returns an instance of {@code CircleBuilder}.
      *
      * @return an instance of the {@code CircleBuilder}.
      */
@@ -79,8 +79,8 @@ public class CircleBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Circle#Circle(double, Paint) Circle(double, Paint)}
-     * and returns an instance of the {@code CircleBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.Circle#Circle(double, Paint) Circle(double, Paint)}
+     * and returns an instance of {@code CircleBuilder}.
      *
      * @return an instance of the {@code CircleBuilder}.
      */
@@ -1061,7 +1061,7 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getStrokeDashArray()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1074,7 +1074,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getStrokeDashArray()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1087,7 +1087,7 @@ public class CircleBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1098,7 +1098,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1109,7 +1109,7 @@ public class CircleBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1122,7 +1122,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1136,7 +1136,7 @@ public class CircleBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1149,7 +1149,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getTransforms()} method.
      * 
      * @return builder instance
      */

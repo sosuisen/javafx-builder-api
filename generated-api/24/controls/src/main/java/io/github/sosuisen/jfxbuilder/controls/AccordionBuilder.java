@@ -37,8 +37,8 @@ public class AccordionBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Accordion#Accordion(TitledPane...) Accordion(TitledPane...)}
-     * and returns an instance of the {@code AccordionBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Accordion#Accordion(TitledPane...) Accordion(TitledPane...)}
+     * and returns an instance of {@code AccordionBuilder}.
      *
      * @return an instance of the {@code AccordionBuilder}.
      */
@@ -1119,7 +1119,7 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getPanes()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getPanes()} method.
      * 
      * @return builder instance
      */
@@ -1132,7 +1132,7 @@ public class AccordionBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getPanes()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getPanes()} method.
      * 
      * @return builder instance
      */
@@ -1145,7 +1145,7 @@ public class AccordionBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getPanes()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getPanes()} method.
      * 
      * @return builder instance
      */
@@ -1156,7 +1156,7 @@ public class AccordionBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getPanes()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getPanes()} method.
      * 
      * @return builder instance
      */
@@ -1167,7 +1167,7 @@ public class AccordionBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1180,7 +1180,7 @@ public class AccordionBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1194,7 +1194,7 @@ public class AccordionBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1207,7 +1207,7 @@ public class AccordionBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1221,7 +1221,7 @@ public class AccordionBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1234,7 +1234,7 @@ public class AccordionBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getTransforms()} method.
      * 
      * @return builder instance
      */

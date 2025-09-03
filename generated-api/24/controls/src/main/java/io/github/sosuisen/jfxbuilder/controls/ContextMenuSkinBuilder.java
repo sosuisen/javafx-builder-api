@@ -29,8 +29,8 @@ public class ContextMenuSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.ContextMenuSkin#ContextMenuSkin(ContextMenu) ContextMenuSkin(ContextMenu)}
-     * and returns an instance of the {@code ContextMenuSkinBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.ContextMenuSkin#ContextMenuSkin(ContextMenu) ContextMenuSkin(ContextMenu)}
+     * and returns an instance of {@code ContextMenuSkinBuilder}.
      *
      * @return an instance of the {@code ContextMenuSkinBuilder}.
      */

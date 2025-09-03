@@ -37,8 +37,8 @@ public class TriangleMeshBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.TriangleMesh#TriangleMesh(VertexFormat) TriangleMesh(VertexFormat)}
-     * and returns an instance of the {@code TriangleMeshBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.TriangleMesh#TriangleMesh(VertexFormat) TriangleMesh(VertexFormat)}
+     * and returns an instance of {@code TriangleMeshBuilder}.
      *
      * @return an instance of the {@code TriangleMeshBuilder}.
      */

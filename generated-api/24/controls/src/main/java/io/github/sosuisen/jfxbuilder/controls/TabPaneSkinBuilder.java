@@ -29,8 +29,8 @@ public class TabPaneSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.TabPaneSkin#TabPaneSkin(TabPane) TabPaneSkin(TabPane)}
-     * and returns an instance of the {@code TabPaneSkinBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.TabPaneSkin#TabPaneSkin(TabPane) TabPaneSkin(TabPane)}
+     * and returns an instance of {@code TabPaneSkinBuilder}.
      *
      * @return an instance of the {@code TabPaneSkinBuilder}.
      */
@@ -140,7 +140,7 @@ public class TabPaneSkinBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TabPaneSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TabPaneSkin#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -153,7 +153,7 @@ public class TabPaneSkinBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TabPaneSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TabPaneSkin#getChildren()} method.
      * 
      * @return builder instance
      */

@@ -29,8 +29,8 @@ public class SplitMenuButtonSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.SplitMenuButtonSkin#SplitMenuButtonSkin(SplitMenuButton) SplitMenuButtonSkin(SplitMenuButton)}
-     * and returns an instance of the {@code SplitMenuButtonSkinBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.SplitMenuButtonSkin#SplitMenuButtonSkin(SplitMenuButton) SplitMenuButtonSkin(SplitMenuButton)}
+     * and returns an instance of {@code SplitMenuButtonSkinBuilder}.
      *
      * @return an instance of the {@code SplitMenuButtonSkinBuilder}.
      */
@@ -140,7 +140,7 @@ public class SplitMenuButtonSkinBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SplitMenuButtonSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SplitMenuButtonSkin#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -153,7 +153,7 @@ public class SplitMenuButtonSkinBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SplitMenuButtonSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SplitMenuButtonSkin#getChildren()} method.
      * 
      * @return builder instance
      */

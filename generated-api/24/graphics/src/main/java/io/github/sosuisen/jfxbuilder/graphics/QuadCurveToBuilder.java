@@ -37,8 +37,8 @@ public class QuadCurveToBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.QuadCurveTo#QuadCurveTo(double, double, double, double) QuadCurveTo(double, double, double, double)}
-     * and returns an instance of the {@code QuadCurveToBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.QuadCurveTo#QuadCurveTo(double, double, double, double) QuadCurveTo(double, double, double, double)}
+     * and returns an instance of {@code QuadCurveToBuilder}.
      *
      * @return an instance of the {@code QuadCurveToBuilder}.
      */

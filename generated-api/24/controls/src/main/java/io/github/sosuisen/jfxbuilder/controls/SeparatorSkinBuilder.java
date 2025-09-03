@@ -29,8 +29,8 @@ public class SeparatorSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.SeparatorSkin#SeparatorSkin(Separator) SeparatorSkin(Separator)}
-     * and returns an instance of the {@code SeparatorSkinBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.SeparatorSkin#SeparatorSkin(Separator) SeparatorSkin(Separator)}
+     * and returns an instance of {@code SeparatorSkinBuilder}.
      *
      * @return an instance of the {@code SeparatorSkinBuilder}.
      */
@@ -140,7 +140,7 @@ public class SeparatorSkinBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SeparatorSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SeparatorSkin#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -153,7 +153,7 @@ public class SeparatorSkinBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SeparatorSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SeparatorSkin#getChildren()} method.
      * 
      * @return builder instance
      */

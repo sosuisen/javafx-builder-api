@@ -29,8 +29,8 @@ public class ProgressBarSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.ProgressBarSkin#ProgressBarSkin(ProgressBar) ProgressBarSkin(ProgressBar)}
-     * and returns an instance of the {@code ProgressBarSkinBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.ProgressBarSkin#ProgressBarSkin(ProgressBar) ProgressBarSkin(ProgressBar)}
+     * and returns an instance of {@code ProgressBarSkinBuilder}.
      *
      * @return an instance of the {@code ProgressBarSkinBuilder}.
      */
@@ -140,7 +140,7 @@ public class ProgressBarSkinBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ProgressBarSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ProgressBarSkin#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -153,7 +153,7 @@ public class ProgressBarSkinBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ProgressBarSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ProgressBarSkin#getChildren()} method.
      * 
      * @return builder instance
      */

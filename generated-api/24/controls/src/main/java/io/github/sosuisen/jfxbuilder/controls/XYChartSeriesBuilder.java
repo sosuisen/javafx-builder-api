@@ -37,8 +37,8 @@ public class XYChartSeriesBuilder<X, Y> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.XYChart.Series#Series(String, ObservableList) Series(String, ObservableList)}
-     * and returns an instance of the {@code XYChartSeriesBuilder<X, Y>}.
+     * Accepts the constructor arguments of {@link javafx.scene.chart.XYChart.Series#Series(String, ObservableList) Series(String, ObservableList)}
+     * and returns an instance of {@code XYChartSeriesBuilder<X, Y>}.
      *
      * @return an instance of the {@code XYChartSeriesBuilder<X, Y>}.
      */
@@ -51,8 +51,8 @@ public class XYChartSeriesBuilder<X, Y> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.XYChart.Series#Series(ObservableList) Series(ObservableList)}
-     * and returns an instance of the {@code XYChartSeriesBuilder<X, Y>}.
+     * Accepts the constructor arguments of {@link javafx.scene.chart.XYChart.Series#Series(ObservableList) Series(ObservableList)}
+     * and returns an instance of {@code XYChartSeriesBuilder<X, Y>}.
      *
      * @return an instance of the {@code XYChartSeriesBuilder<X, Y>}.
      */
@@ -200,7 +200,7 @@ public class XYChartSeriesBuilder<X, Y> {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.XYChart.Series#getData()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.XYChart.Series#getData()} method.
      * 
      * @return builder instance
      */
@@ -213,7 +213,7 @@ public class XYChartSeriesBuilder<X, Y> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.XYChart.Series#getData()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.XYChart.Series#getData()} method.
      * 
      * @return builder instance
      */
@@ -226,7 +226,7 @@ public class XYChartSeriesBuilder<X, Y> {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.XYChart.Series#getData()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.XYChart.Series#getData()} method.
      * 
      * @return builder instance
      */
@@ -237,7 +237,7 @@ public class XYChartSeriesBuilder<X, Y> {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.XYChart.Series#getData()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.XYChart.Series#getData()} method.
      * 
      * @return builder instance
      */

@@ -29,8 +29,8 @@ public class TooltipSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.TooltipSkin#TooltipSkin(Tooltip) TooltipSkin(Tooltip)}
-     * and returns an instance of the {@code TooltipSkinBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.TooltipSkin#TooltipSkin(Tooltip) TooltipSkin(Tooltip)}
+     * and returns an instance of {@code TooltipSkinBuilder}.
      *
      * @return an instance of the {@code TooltipSkinBuilder}.
      */

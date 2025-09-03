@@ -37,8 +37,8 @@ public class ColumnConstraintsBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.ColumnConstraints#ColumnConstraints(double) ColumnConstraints(double)}
-     * and returns an instance of the {@code ColumnConstraintsBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.ColumnConstraints#ColumnConstraints(double) ColumnConstraints(double)}
+     * and returns an instance of {@code ColumnConstraintsBuilder}.
      *
      * @return an instance of the {@code ColumnConstraintsBuilder}.
      */
@@ -51,8 +51,8 @@ public class ColumnConstraintsBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.ColumnConstraints#ColumnConstraints(double, double, double) ColumnConstraints(double, double, double)}
-     * and returns an instance of the {@code ColumnConstraintsBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.ColumnConstraints#ColumnConstraints(double, double, double) ColumnConstraints(double, double, double)}
+     * and returns an instance of {@code ColumnConstraintsBuilder}.
      *
      * @return an instance of the {@code ColumnConstraintsBuilder}.
      */
@@ -65,8 +65,8 @@ public class ColumnConstraintsBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.ColumnConstraints#ColumnConstraints(double, double, double, Priority, HPos, boolean) ColumnConstraints(double, double, double, Priority, HPos, boolean)}
-     * and returns an instance of the {@code ColumnConstraintsBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.ColumnConstraints#ColumnConstraints(double, double, double, Priority, HPos, boolean) ColumnConstraints(double, double, double, Priority, HPos, boolean)}
+     * and returns an instance of {@code ColumnConstraintsBuilder}.
      *
      * @return an instance of the {@code ColumnConstraintsBuilder}.
      */

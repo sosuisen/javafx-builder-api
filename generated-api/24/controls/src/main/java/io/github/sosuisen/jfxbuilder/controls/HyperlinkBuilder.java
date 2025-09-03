@@ -37,8 +37,8 @@ public class HyperlinkBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Hyperlink#Hyperlink(String) Hyperlink(String)}
-     * and returns an instance of the {@code HyperlinkBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Hyperlink#Hyperlink(String) Hyperlink(String)}
+     * and returns an instance of {@code HyperlinkBuilder}.
      *
      * @return an instance of the {@code HyperlinkBuilder}.
      */
@@ -51,8 +51,8 @@ public class HyperlinkBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Hyperlink#Hyperlink(String, Node) Hyperlink(String, Node)}
-     * and returns an instance of the {@code HyperlinkBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Hyperlink#Hyperlink(String, Node) Hyperlink(String, Node)}
+     * and returns an instance of {@code HyperlinkBuilder}.
      *
      * @return an instance of the {@code HyperlinkBuilder}.
      */
@@ -1283,7 +1283,7 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Hyperlink#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Hyperlink#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1296,7 +1296,7 @@ public class HyperlinkBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Hyperlink#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Hyperlink#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1310,7 +1310,7 @@ public class HyperlinkBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Hyperlink#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Hyperlink#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1323,7 +1323,7 @@ public class HyperlinkBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Hyperlink#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Hyperlink#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1337,7 +1337,7 @@ public class HyperlinkBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Hyperlink#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Hyperlink#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1350,7 +1350,7 @@ public class HyperlinkBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Hyperlink#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Hyperlink#getTransforms()} method.
      * 
      * @return builder instance
      */

@@ -29,8 +29,8 @@ public class StopBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.paint.Stop#Stop(double, Color) Stop(double, Color)}
-     * and returns an instance of the {@code StopBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.paint.Stop#Stop(double, Color) Stop(double, Color)}
+     * and returns an instance of {@code StopBuilder}.
      *
      * @return an instance of the {@code StopBuilder}.
      */

@@ -37,8 +37,8 @@ public class ToggleButtonBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.ToggleButton#ToggleButton(String) ToggleButton(String)}
-     * and returns an instance of the {@code ToggleButtonBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.ToggleButton#ToggleButton(String) ToggleButton(String)}
+     * and returns an instance of {@code ToggleButtonBuilder}.
      *
      * @return an instance of the {@code ToggleButtonBuilder}.
      */
@@ -51,8 +51,8 @@ public class ToggleButtonBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.ToggleButton#ToggleButton(String, Node) ToggleButton(String, Node)}
-     * and returns an instance of the {@code ToggleButtonBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.ToggleButton#ToggleButton(String, Node) ToggleButton(String, Node)}
+     * and returns an instance of {@code ToggleButtonBuilder}.
      *
      * @return an instance of the {@code ToggleButtonBuilder}.
      */
@@ -1293,7 +1293,7 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleButton#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleButton#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1306,7 +1306,7 @@ public class ToggleButtonBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleButton#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleButton#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1320,7 +1320,7 @@ public class ToggleButtonBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleButton#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleButton#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1333,7 +1333,7 @@ public class ToggleButtonBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleButton#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleButton#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1347,7 +1347,7 @@ public class ToggleButtonBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleButton#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleButton#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1360,7 +1360,7 @@ public class ToggleButtonBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleButton#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleButton#getTransforms()} method.
      * 
      * @return builder instance
      */

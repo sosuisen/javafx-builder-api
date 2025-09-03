@@ -37,8 +37,8 @@ public class SepiaToneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.SepiaTone#SepiaTone(double) SepiaTone(double)}
-     * and returns an instance of the {@code SepiaToneBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.SepiaTone#SepiaTone(double) SepiaTone(double)}
+     * and returns an instance of {@code SepiaToneBuilder}.
      *
      * @return an instance of the {@code SepiaToneBuilder}.
      */

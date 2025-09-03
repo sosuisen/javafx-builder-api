@@ -37,8 +37,8 @@ public class PieChartBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.PieChart#PieChart(ObservableList) PieChart(ObservableList)}
-     * and returns an instance of the {@code PieChartBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.chart.PieChart#PieChart(ObservableList) PieChart(ObservableList)}
+     * and returns an instance of {@code PieChartBuilder}.
      *
      * @return an instance of the {@code PieChartBuilder}.
      */
@@ -1179,7 +1179,7 @@ public class PieChartBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getData()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getData()} method.
      * 
      * @return builder instance
      */
@@ -1192,7 +1192,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getData()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getData()} method.
      * 
      * @return builder instance
      */
@@ -1205,7 +1205,7 @@ public class PieChartBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getData()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getData()} method.
      * 
      * @return builder instance
      */
@@ -1216,7 +1216,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getData()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getData()} method.
      * 
      * @return builder instance
      */
@@ -1227,7 +1227,7 @@ public class PieChartBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1240,7 +1240,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1254,7 +1254,7 @@ public class PieChartBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1267,7 +1267,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1281,7 +1281,7 @@ public class PieChartBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1294,7 +1294,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getTransforms()} method.
      * 
      * @return builder instance
      */

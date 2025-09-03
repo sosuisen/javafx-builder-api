@@ -37,8 +37,8 @@ public class LightSpotBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.Light.Spot#Spot(double, double, double, double, Color) Spot(double, double, double, double, Color)}
-     * and returns an instance of the {@code LightSpotBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.Light.Spot#Spot(double, double, double, double, Color) Spot(double, double, double, double, Color)}
+     * and returns an instance of {@code LightSpotBuilder}.
      *
      * @return an instance of the {@code LightSpotBuilder}.
      */

@@ -37,8 +37,8 @@ public class TilePaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(double, double) TilePane(double, double)}
-     * and returns an instance of the {@code TilePaneBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.TilePane#TilePane(double, double) TilePane(double, double)}
+     * and returns an instance of {@code TilePaneBuilder}.
      *
      * @return an instance of the {@code TilePaneBuilder}.
      */
@@ -51,8 +51,8 @@ public class TilePaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(double, double, Node...) TilePane(double, double, Node...)}
-     * and returns an instance of the {@code TilePaneBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.TilePane#TilePane(double, double, Node...) TilePane(double, double, Node...)}
+     * and returns an instance of {@code TilePaneBuilder}.
      *
      * @return an instance of the {@code TilePaneBuilder}.
      */
@@ -65,8 +65,8 @@ public class TilePaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(Orientation) TilePane(Orientation)}
-     * and returns an instance of the {@code TilePaneBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.TilePane#TilePane(Orientation) TilePane(Orientation)}
+     * and returns an instance of {@code TilePaneBuilder}.
      *
      * @return an instance of the {@code TilePaneBuilder}.
      */
@@ -79,8 +79,8 @@ public class TilePaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(Orientation, double, double) TilePane(Orientation, double, double)}
-     * and returns an instance of the {@code TilePaneBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.TilePane#TilePane(Orientation, double, double) TilePane(Orientation, double, double)}
+     * and returns an instance of {@code TilePaneBuilder}.
      *
      * @return an instance of the {@code TilePaneBuilder}.
      */
@@ -93,8 +93,8 @@ public class TilePaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(Orientation, double, double, Node...) TilePane(Orientation, double, double, Node...)}
-     * and returns an instance of the {@code TilePaneBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.TilePane#TilePane(Orientation, double, double, Node...) TilePane(Orientation, double, double, Node...)}
+     * and returns an instance of {@code TilePaneBuilder}.
      *
      * @return an instance of the {@code TilePaneBuilder}.
      */
@@ -107,8 +107,8 @@ public class TilePaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(Orientation, Node...) TilePane(Orientation, Node...)}
-     * and returns an instance of the {@code TilePaneBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.TilePane#TilePane(Orientation, Node...) TilePane(Orientation, Node...)}
+     * and returns an instance of {@code TilePaneBuilder}.
      *
      * @return an instance of the {@code TilePaneBuilder}.
      */
@@ -121,8 +121,8 @@ public class TilePaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(Node...) TilePane(Node...)}
-     * and returns an instance of the {@code TilePaneBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.TilePane#TilePane(Node...) TilePane(Node...)}
+     * and returns an instance of {@code TilePaneBuilder}.
      *
      * @return an instance of the {@code TilePaneBuilder}.
      */
@@ -1257,7 +1257,7 @@ public class TilePaneBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1270,7 +1270,7 @@ public class TilePaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1283,7 +1283,7 @@ public class TilePaneBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getChildren()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1294,7 +1294,7 @@ public class TilePaneBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getChildren()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1305,7 +1305,7 @@ public class TilePaneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1318,7 +1318,7 @@ public class TilePaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1332,7 +1332,7 @@ public class TilePaneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1345,7 +1345,7 @@ public class TilePaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1359,7 +1359,7 @@ public class TilePaneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1372,7 +1372,7 @@ public class TilePaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getTransforms()} method.
      * 
      * @return builder instance
      */

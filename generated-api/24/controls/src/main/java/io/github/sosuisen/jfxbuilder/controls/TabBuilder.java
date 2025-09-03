@@ -37,8 +37,8 @@ public class TabBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Tab#Tab(String) Tab(String)}
-     * and returns an instance of the {@code TabBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Tab#Tab(String) Tab(String)}
+     * and returns an instance of {@code TabBuilder}.
      *
      * @return an instance of the {@code TabBuilder}.
      */
@@ -51,8 +51,8 @@ public class TabBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Tab#Tab(String, Node) Tab(String, Node)}
-     * and returns an instance of the {@code TabBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Tab#Tab(String, Node) Tab(String, Node)}
+     * and returns an instance of {@code TabBuilder}.
      *
      * @return an instance of the {@code TabBuilder}.
      */
@@ -298,7 +298,7 @@ public class TabBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Tab#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Tab#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -311,7 +311,7 @@ public class TabBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Tab#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Tab#getStyleClass()} method.
      * 
      * @return builder instance
      */

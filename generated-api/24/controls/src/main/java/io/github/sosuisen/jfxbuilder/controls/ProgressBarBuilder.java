@@ -37,8 +37,8 @@ public class ProgressBarBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.ProgressBar#ProgressBar(double) ProgressBar(double)}
-     * and returns an instance of the {@code ProgressBarBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.ProgressBar#ProgressBar(double) ProgressBar(double)}
+     * and returns an instance of {@code ProgressBarBuilder}.
      *
      * @return an instance of the {@code ProgressBarBuilder}.
      */
@@ -1119,7 +1119,7 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressBar#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressBar#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1132,7 +1132,7 @@ public class ProgressBarBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressBar#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressBar#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1146,7 +1146,7 @@ public class ProgressBarBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressBar#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressBar#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1159,7 +1159,7 @@ public class ProgressBarBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressBar#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressBar#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1173,7 +1173,7 @@ public class ProgressBarBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressBar#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressBar#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1186,7 +1186,7 @@ public class ProgressBarBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressBar#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressBar#getTransforms()} method.
      * 
      * @return builder instance
      */

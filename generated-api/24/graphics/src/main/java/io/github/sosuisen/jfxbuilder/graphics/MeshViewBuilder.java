@@ -37,8 +37,8 @@ public class MeshViewBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.MeshView#MeshView(Mesh) MeshView(Mesh)}
-     * and returns an instance of the {@code MeshViewBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.MeshView#MeshView(Mesh) MeshView(Mesh)}
+     * and returns an instance of {@code MeshViewBuilder}.
      *
      * @return an instance of the {@code MeshViewBuilder}.
      */
@@ -939,7 +939,7 @@ public class MeshViewBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.MeshView#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.MeshView#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -952,7 +952,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.MeshView#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.MeshView#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -966,7 +966,7 @@ public class MeshViewBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.MeshView#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.MeshView#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -979,7 +979,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.MeshView#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.MeshView#getTransforms()} method.
      * 
      * @return builder instance
      */

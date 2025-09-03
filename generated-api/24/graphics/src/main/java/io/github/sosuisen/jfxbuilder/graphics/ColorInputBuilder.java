@@ -37,8 +37,8 @@ public class ColorInputBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.ColorInput#ColorInput(double, double, double, double, Paint) ColorInput(double, double, double, double, Paint)}
-     * and returns an instance of the {@code ColorInputBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.ColorInput#ColorInput(double, double, double, double, Paint) ColorInput(double, double, double, double, Paint)}
+     * and returns an instance of {@code ColorInputBuilder}.
      *
      * @return an instance of the {@code ColorInputBuilder}.
      */

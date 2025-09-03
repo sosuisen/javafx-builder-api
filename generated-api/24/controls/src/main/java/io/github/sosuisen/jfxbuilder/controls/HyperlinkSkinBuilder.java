@@ -29,8 +29,8 @@ public class HyperlinkSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.HyperlinkSkin#HyperlinkSkin(Hyperlink) HyperlinkSkin(Hyperlink)}
-     * and returns an instance of the {@code HyperlinkSkinBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.HyperlinkSkin#HyperlinkSkin(Hyperlink) HyperlinkSkin(Hyperlink)}
+     * and returns an instance of {@code HyperlinkSkinBuilder}.
      *
      * @return an instance of the {@code HyperlinkSkinBuilder}.
      */
@@ -140,7 +140,7 @@ public class HyperlinkSkinBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.HyperlinkSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.HyperlinkSkin#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -153,7 +153,7 @@ public class HyperlinkSkinBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.HyperlinkSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.HyperlinkSkin#getChildren()} method.
      * 
      * @return builder instance
      */

@@ -37,8 +37,8 @@ public class ImageViewBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.image.ImageView#ImageView(String) ImageView(String)}
-     * and returns an instance of the {@code ImageViewBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.image.ImageView#ImageView(String) ImageView(String)}
+     * and returns an instance of {@code ImageViewBuilder}.
      *
      * @return an instance of the {@code ImageViewBuilder}.
      */
@@ -51,8 +51,8 @@ public class ImageViewBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.image.ImageView#ImageView(Image) ImageView(Image)}
-     * and returns an instance of the {@code ImageViewBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.image.ImageView#ImageView(Image) ImageView(Image)}
+     * and returns an instance of {@code ImageViewBuilder}.
      *
      * @return an instance of the {@code ImageViewBuilder}.
      */
@@ -993,7 +993,7 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.image.ImageView#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.image.ImageView#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1006,7 +1006,7 @@ public class ImageViewBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.image.ImageView#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.image.ImageView#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1020,7 +1020,7 @@ public class ImageViewBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.image.ImageView#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.image.ImageView#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1033,7 +1033,7 @@ public class ImageViewBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.image.ImageView#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.image.ImageView#getTransforms()} method.
      * 
      * @return builder instance
      */

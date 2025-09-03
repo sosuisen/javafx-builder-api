@@ -37,8 +37,8 @@ public class VBoxBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.VBox#VBox(double) VBox(double)}
-     * and returns an instance of the {@code VBoxBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.VBox#VBox(double) VBox(double)}
+     * and returns an instance of {@code VBoxBuilder}.
      *
      * @return an instance of the {@code VBoxBuilder}.
      */
@@ -51,8 +51,8 @@ public class VBoxBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.VBox#VBox(double, Node...) VBox(double, Node...)}
-     * and returns an instance of the {@code VBoxBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.VBox#VBox(double, Node...) VBox(double, Node...)}
+     * and returns an instance of {@code VBoxBuilder}.
      *
      * @return an instance of the {@code VBoxBuilder}.
      */
@@ -65,8 +65,8 @@ public class VBoxBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.VBox#VBox(Node...) VBox(Node...)}
-     * and returns an instance of the {@code VBoxBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.VBox#VBox(Node...) VBox(Node...)}
+     * and returns an instance of {@code VBoxBuilder}.
      *
      * @return an instance of the {@code VBoxBuilder}.
      */
@@ -1141,7 +1141,7 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1154,7 +1154,7 @@ public class VBoxBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1167,7 +1167,7 @@ public class VBoxBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getChildren()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1178,7 +1178,7 @@ public class VBoxBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getChildren()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1189,7 +1189,7 @@ public class VBoxBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1202,7 +1202,7 @@ public class VBoxBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1216,7 +1216,7 @@ public class VBoxBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1229,7 +1229,7 @@ public class VBoxBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1243,7 +1243,7 @@ public class VBoxBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1256,7 +1256,7 @@ public class VBoxBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getTransforms()} method.
      * 
      * @return builder instance
      */

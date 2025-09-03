@@ -37,8 +37,8 @@ public class PaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.Pane#Pane(Node...) Pane(Node...)}
-     * and returns an instance of the {@code PaneBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.Pane#Pane(Node...) Pane(Node...)}
+     * and returns an instance of {@code PaneBuilder}.
      *
      * @return an instance of the {@code PaneBuilder}.
      */
@@ -1083,7 +1083,7 @@ public class PaneBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1096,7 +1096,7 @@ public class PaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1109,7 +1109,7 @@ public class PaneBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getChildren()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1120,7 +1120,7 @@ public class PaneBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getChildren()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1131,7 +1131,7 @@ public class PaneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1144,7 +1144,7 @@ public class PaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1158,7 +1158,7 @@ public class PaneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1171,7 +1171,7 @@ public class PaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1185,7 +1185,7 @@ public class PaneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1198,7 +1198,7 @@ public class PaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.Pane#getTransforms()} method.
      * 
      * @return builder instance
      */

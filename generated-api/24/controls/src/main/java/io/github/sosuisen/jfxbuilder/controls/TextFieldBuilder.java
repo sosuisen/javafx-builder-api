@@ -37,8 +37,8 @@ public class TextFieldBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TextField#TextField(String) TextField(String)}
-     * and returns an instance of the {@code TextFieldBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TextField#TextField(String) TextField(String)}
+     * and returns an instance of {@code TextFieldBuilder}.
      *
      * @return an instance of the {@code TextFieldBuilder}.
      */
@@ -1189,7 +1189,7 @@ public class TextFieldBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextField#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextField#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1202,7 +1202,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextField#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextField#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1216,7 +1216,7 @@ public class TextFieldBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextField#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextField#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1229,7 +1229,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextField#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextField#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1243,7 +1243,7 @@ public class TextFieldBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextField#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextField#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1256,7 +1256,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextField#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextField#getTransforms()} method.
      * 
      * @return builder instance
      */

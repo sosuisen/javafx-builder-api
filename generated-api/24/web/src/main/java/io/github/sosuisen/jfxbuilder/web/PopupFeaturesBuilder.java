@@ -29,8 +29,8 @@ public class PopupFeaturesBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.web.PopupFeatures#PopupFeatures(boolean, boolean, boolean, boolean) PopupFeatures(boolean, boolean, boolean, boolean)}
-     * and returns an instance of the {@code PopupFeaturesBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.web.PopupFeatures#PopupFeatures(boolean, boolean, boolean, boolean) PopupFeatures(boolean, boolean, boolean, boolean)}
+     * and returns an instance of {@code PopupFeaturesBuilder}.
      *
      * @return an instance of the {@code PopupFeaturesBuilder}.
      */

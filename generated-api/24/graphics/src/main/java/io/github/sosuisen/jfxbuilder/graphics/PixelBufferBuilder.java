@@ -29,8 +29,8 @@ public class PixelBufferBuilder<T extends java.nio.Buffer> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.image.PixelBuffer#PixelBuffer(int, int, Buffer, PixelFormat) PixelBuffer(int, int, Buffer, PixelFormat)}
-     * and returns an instance of the {@code PixelBufferBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.image.PixelBuffer#PixelBuffer(int, int, Buffer, PixelFormat) PixelBuffer(int, int, Buffer, PixelFormat)}
+     * and returns an instance of {@code PixelBufferBuilder<T>}.
      *
      * @return an instance of the {@code PixelBufferBuilder<T>}.
      */

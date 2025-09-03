@@ -29,8 +29,8 @@ public class BarChartBuilder<X, Y> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.BarChart#BarChart(Axis, Axis) BarChart(Axis, Axis)}
-     * and returns an instance of the {@code BarChartBuilder<X, Y>}.
+     * Accepts the constructor arguments of {@link javafx.scene.chart.BarChart#BarChart(Axis, Axis) BarChart(Axis, Axis)}
+     * and returns an instance of {@code BarChartBuilder<X, Y>}.
      *
      * @return an instance of the {@code BarChartBuilder<X, Y>}.
      */
@@ -43,8 +43,8 @@ public class BarChartBuilder<X, Y> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.BarChart#BarChart(Axis, Axis, ObservableList) BarChart(Axis, Axis, ObservableList)}
-     * and returns an instance of the {@code BarChartBuilder<X, Y>}.
+     * Accepts the constructor arguments of {@link javafx.scene.chart.BarChart#BarChart(Axis, Axis, ObservableList) BarChart(Axis, Axis, ObservableList)}
+     * and returns an instance of {@code BarChartBuilder<X, Y>}.
      *
      * @return an instance of the {@code BarChartBuilder<X, Y>}.
      */
@@ -57,8 +57,8 @@ public class BarChartBuilder<X, Y> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.BarChart#BarChart(Axis, Axis, ObservableList, double) BarChart(Axis, Axis, ObservableList, double)}
-     * and returns an instance of the {@code BarChartBuilder<X, Y>}.
+     * Accepts the constructor arguments of {@link javafx.scene.chart.BarChart#BarChart(Axis, Axis, ObservableList, double) BarChart(Axis, Axis, ObservableList, double)}
+     * and returns an instance of {@code BarChartBuilder<X, Y>}.
      *
      * @return an instance of the {@code BarChartBuilder<X, Y>}.
      */
@@ -1235,7 +1235,7 @@ public class BarChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BarChart#getData()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BarChart#getData()} method.
      * 
      * @return builder instance
      */
@@ -1248,7 +1248,7 @@ public class BarChartBuilder<X, Y> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BarChart#getData()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BarChart#getData()} method.
      * 
      * @return builder instance
      */
@@ -1262,7 +1262,7 @@ public class BarChartBuilder<X, Y> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BarChart#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BarChart#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1275,7 +1275,7 @@ public class BarChartBuilder<X, Y> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BarChart#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BarChart#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1289,7 +1289,7 @@ public class BarChartBuilder<X, Y> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BarChart#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BarChart#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1302,7 +1302,7 @@ public class BarChartBuilder<X, Y> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BarChart#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BarChart#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1316,7 +1316,7 @@ public class BarChartBuilder<X, Y> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BarChart#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BarChart#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1329,7 +1329,7 @@ public class BarChartBuilder<X, Y> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BarChart#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BarChart#getTransforms()} method.
      * 
      * @return builder instance
      */

@@ -37,8 +37,8 @@ public class RadioMenuItemBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.RadioMenuItem#RadioMenuItem(String) RadioMenuItem(String)}
-     * and returns an instance of the {@code RadioMenuItemBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.RadioMenuItem#RadioMenuItem(String) RadioMenuItem(String)}
+     * and returns an instance of {@code RadioMenuItemBuilder}.
      *
      * @return an instance of the {@code RadioMenuItemBuilder}.
      */
@@ -51,8 +51,8 @@ public class RadioMenuItemBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.RadioMenuItem#RadioMenuItem(String, Node) RadioMenuItem(String, Node)}
-     * and returns an instance of the {@code RadioMenuItemBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.RadioMenuItem#RadioMenuItem(String, Node) RadioMenuItem(String, Node)}
+     * and returns an instance of {@code RadioMenuItemBuilder}.
      *
      * @return an instance of the {@code RadioMenuItemBuilder}.
      */
@@ -298,7 +298,7 @@ public class RadioMenuItemBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioMenuItem#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioMenuItem#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -311,7 +311,7 @@ public class RadioMenuItemBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioMenuItem#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioMenuItem#getStyleClass()} method.
      * 
      * @return builder instance
      */

@@ -29,8 +29,8 @@ public class PromptDataBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.web.PromptData#PromptData(String, String) PromptData(String, String)}
-     * and returns an instance of the {@code PromptDataBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.web.PromptData#PromptData(String, String) PromptData(String, String)}
+     * and returns an instance of {@code PromptDataBuilder}.
      *
      * @return an instance of the {@code PromptDataBuilder}.
      */

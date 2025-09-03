@@ -37,8 +37,8 @@ public class TooltipBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Tooltip#Tooltip(String) Tooltip(String)}
-     * and returns an instance of the {@code TooltipBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Tooltip#Tooltip(String) Tooltip(String)}
+     * and returns an instance of {@code TooltipBuilder}.
      *
      * @return an instance of the {@code TooltipBuilder}.
      */
@@ -614,7 +614,7 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Tooltip#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Tooltip#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -627,7 +627,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Tooltip#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Tooltip#getStyleClass()} method.
      * 
      * @return builder instance
      */

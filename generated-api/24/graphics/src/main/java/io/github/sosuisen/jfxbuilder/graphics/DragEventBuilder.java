@@ -29,8 +29,8 @@ public class DragEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.DragEvent#DragEvent(Object, EventTarget, EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult) DragEvent(Object, EventTarget, EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult)}
-     * and returns an instance of the {@code DragEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.DragEvent#DragEvent(Object, EventTarget, EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult) DragEvent(Object, EventTarget, EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult)}
+     * and returns an instance of {@code DragEventBuilder}.
      *
      * @return an instance of the {@code DragEventBuilder}.
      */
@@ -43,8 +43,8 @@ public class DragEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.DragEvent#DragEvent(EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult) DragEvent(EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult)}
-     * and returns an instance of the {@code DragEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.DragEvent#DragEvent(EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult) DragEvent(EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult)}
+     * and returns an instance of {@code DragEventBuilder}.
      *
      * @return an instance of the {@code DragEventBuilder}.
      */

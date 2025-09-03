@@ -29,8 +29,8 @@ public class MouseEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.MouseEvent#MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
-     * and returns an instance of the {@code MouseEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.MouseEvent#MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
+     * and returns an instance of {@code MouseEventBuilder}.
      *
      * @return an instance of the {@code MouseEventBuilder}.
      */
@@ -43,8 +43,8 @@ public class MouseEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.MouseEvent#MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
-     * and returns an instance of the {@code MouseEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.MouseEvent#MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
+     * and returns an instance of {@code MouseEventBuilder}.
      *
      * @return an instance of the {@code MouseEventBuilder}.
      */
@@ -57,8 +57,8 @@ public class MouseEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.MouseEvent#MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
-     * and returns an instance of the {@code MouseEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.MouseEvent#MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
+     * and returns an instance of {@code MouseEventBuilder}.
      *
      * @return an instance of the {@code MouseEventBuilder}.
      */
@@ -71,8 +71,8 @@ public class MouseEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.MouseEvent#MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
-     * and returns an instance of the {@code MouseEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.MouseEvent#MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
+     * and returns an instance of {@code MouseEventBuilder}.
      *
      * @return an instance of the {@code MouseEventBuilder}.
      */

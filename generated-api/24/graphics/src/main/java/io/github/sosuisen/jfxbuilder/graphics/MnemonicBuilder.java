@@ -29,8 +29,8 @@ public class MnemonicBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.Mnemonic#Mnemonic(Node, KeyCombination) Mnemonic(Node, KeyCombination)}
-     * and returns an instance of the {@code MnemonicBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.Mnemonic#Mnemonic(Node, KeyCombination) Mnemonic(Node, KeyCombination)}
+     * and returns an instance of {@code MnemonicBuilder}.
      *
      * @return an instance of the {@code MnemonicBuilder}.
      */

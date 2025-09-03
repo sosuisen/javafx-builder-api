@@ -37,8 +37,8 @@ public class ShadowBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.Shadow#Shadow(double, Color) Shadow(double, Color)}
-     * and returns an instance of the {@code ShadowBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.Shadow#Shadow(double, Color) Shadow(double, Color)}
+     * and returns an instance of {@code ShadowBuilder}.
      *
      * @return an instance of the {@code ShadowBuilder}.
      */
@@ -51,8 +51,8 @@ public class ShadowBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.Shadow#Shadow(BlurType, Color, double) Shadow(BlurType, Color, double)}
-     * and returns an instance of the {@code ShadowBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.Shadow#Shadow(BlurType, Color, double) Shadow(BlurType, Color, double)}
+     * and returns an instance of {@code ShadowBuilder}.
      *
      * @return an instance of the {@code ShadowBuilder}.
      */

@@ -4,7 +4,7 @@
 
 @if(model.isBorderPane())
     /**
-     * Create an instance of the builder,
+     * Creates an instance of the builder,
      * then call the {@link javafx.scene.layout.BorderPane#setCenter(javafx.scene.Node) setCenter} method on the BorderPane instance.
      * 
      * @return builder instance
@@ -16,7 +16,7 @@
     }
 
     /**
-     * Create an instance of the builder,
+     * Creates an instance of the builder,
      * then call the {@link javafx.scene.layout.BorderPane#setTop(javafx.scene.Node) setTop} method on the BorderPane instance.
      * 
      * @return builder instance
@@ -28,7 +28,7 @@
     }
 
     /**
-     * Create an instance of the builder,
+     * Creates an instance of the builder,
      * then call the {@link javafx.scene.layout.BorderPane#setLeft(javafx.scene.Node) setLeft} method on the BorderPane instance.
      * 
      * @return builder instance
@@ -40,7 +40,7 @@
     }
 
     /**
-     * Create an instance of the builder,
+     * Creates an instance of the builder,
      * then call the {@link javafx.scene.layout.BorderPane#setBottom(javafx.scene.Node) setBottom} method on the BorderPane instance.
      * 
      * @return builder instance
@@ -52,7 +52,7 @@
     }
 
     /**
-     * Create an instance of the builder,
+     * Creates an instance of the builder,
      * then call the {@link javafx.scene.layout.BorderPane#setRight(javafx.scene.Node) setRight} method on the BorderPane instance.
      * 
      * @return builder instance

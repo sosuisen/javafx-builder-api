@@ -37,8 +37,8 @@ public class BlendBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.Blend#Blend(BlendMode) Blend(BlendMode)}
-     * and returns an instance of the {@code BlendBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.Blend#Blend(BlendMode) Blend(BlendMode)}
+     * and returns an instance of {@code BlendBuilder}.
      *
      * @return an instance of the {@code BlendBuilder}.
      */
@@ -51,8 +51,8 @@ public class BlendBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.Blend#Blend(BlendMode, Effect, Effect) Blend(BlendMode, Effect, Effect)}
-     * and returns an instance of the {@code BlendBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.Blend#Blend(BlendMode, Effect, Effect) Blend(BlendMode, Effect, Effect)}
+     * and returns an instance of {@code BlendBuilder}.
      *
      * @return an instance of the {@code BlendBuilder}.
      */

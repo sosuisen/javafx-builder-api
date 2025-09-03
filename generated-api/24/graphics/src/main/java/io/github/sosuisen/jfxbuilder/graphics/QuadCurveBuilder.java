@@ -37,8 +37,8 @@ public class QuadCurveBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.QuadCurve#QuadCurve(double, double, double, double, double, double) QuadCurve(double, double, double, double, double, double)}
-     * and returns an instance of the {@code QuadCurveBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.QuadCurve#QuadCurve(double, double, double, double, double, double) QuadCurve(double, double, double, double, double, double)}
+     * and returns an instance of {@code QuadCurveBuilder}.
      *
      * @return an instance of the {@code QuadCurveBuilder}.
      */
@@ -1049,7 +1049,7 @@ public class QuadCurveBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.QuadCurve#getStrokeDashArray()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.QuadCurve#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1062,7 +1062,7 @@ public class QuadCurveBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.QuadCurve#getStrokeDashArray()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.QuadCurve#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1075,7 +1075,7 @@ public class QuadCurveBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.QuadCurve#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.QuadCurve#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1086,7 +1086,7 @@ public class QuadCurveBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.QuadCurve#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.QuadCurve#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1097,7 +1097,7 @@ public class QuadCurveBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.QuadCurve#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.QuadCurve#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1110,7 +1110,7 @@ public class QuadCurveBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.QuadCurve#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.QuadCurve#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1124,7 +1124,7 @@ public class QuadCurveBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.QuadCurve#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.QuadCurve#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1137,7 +1137,7 @@ public class QuadCurveBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.QuadCurve#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.QuadCurve#getTransforms()} method.
      * 
      * @return builder instance
      */

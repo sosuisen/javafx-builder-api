@@ -37,8 +37,8 @@ public class LineToBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.LineTo#LineTo(double, double) LineTo(double, double)}
-     * and returns an instance of the {@code LineToBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.LineTo#LineTo(double, double) LineTo(double, double)}
+     * and returns an instance of {@code LineToBuilder}.
      *
      * @return an instance of the {@code LineToBuilder}.
      */

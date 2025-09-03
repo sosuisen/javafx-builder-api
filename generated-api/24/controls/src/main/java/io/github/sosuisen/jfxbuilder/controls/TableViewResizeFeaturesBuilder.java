@@ -29,8 +29,8 @@ public class TableViewResizeFeaturesBuilder<S> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TableView.ResizeFeatures#ResizeFeatures(TableView, TableColumn, Double) ResizeFeatures(TableView, TableColumn, Double)}
-     * and returns an instance of the {@code TableViewResizeFeaturesBuilder<S>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TableView.ResizeFeatures#ResizeFeatures(TableView, TableColumn, Double) ResizeFeatures(TableView, TableColumn, Double)}
+     * and returns an instance of {@code TableViewResizeFeaturesBuilder<S>}.
      *
      * @return an instance of the {@code TableViewResizeFeaturesBuilder<S>}.
      */

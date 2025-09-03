@@ -37,8 +37,8 @@ public class RadioButtonBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.RadioButton#RadioButton(String) RadioButton(String)}
-     * and returns an instance of the {@code RadioButtonBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.RadioButton#RadioButton(String) RadioButton(String)}
+     * and returns an instance of {@code RadioButtonBuilder}.
      *
      * @return an instance of the {@code RadioButtonBuilder}.
      */
@@ -1279,7 +1279,7 @@ public class RadioButtonBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioButton#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioButton#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1292,7 +1292,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioButton#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioButton#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1306,7 +1306,7 @@ public class RadioButtonBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioButton#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioButton#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1319,7 +1319,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioButton#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioButton#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1333,7 +1333,7 @@ public class RadioButtonBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioButton#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioButton#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1346,7 +1346,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioButton#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioButton#getTransforms()} method.
      * 
      * @return builder instance
      */

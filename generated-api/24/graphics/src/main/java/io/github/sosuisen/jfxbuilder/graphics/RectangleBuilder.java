@@ -37,8 +37,8 @@ public class RectangleBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Rectangle#Rectangle(double, double) Rectangle(double, double)}
-     * and returns an instance of the {@code RectangleBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.Rectangle#Rectangle(double, double) Rectangle(double, double)}
+     * and returns an instance of {@code RectangleBuilder}.
      *
      * @return an instance of the {@code RectangleBuilder}.
      */
@@ -51,8 +51,8 @@ public class RectangleBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Rectangle#Rectangle(double, double, double, double) Rectangle(double, double, double, double)}
-     * and returns an instance of the {@code RectangleBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.Rectangle#Rectangle(double, double, double, double) Rectangle(double, double, double, double)}
+     * and returns an instance of {@code RectangleBuilder}.
      *
      * @return an instance of the {@code RectangleBuilder}.
      */
@@ -65,8 +65,8 @@ public class RectangleBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Rectangle#Rectangle(double, double, Paint) Rectangle(double, double, Paint)}
-     * and returns an instance of the {@code RectangleBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.Rectangle#Rectangle(double, double, Paint) Rectangle(double, double, Paint)}
+     * and returns an instance of {@code RectangleBuilder}.
      *
      * @return an instance of the {@code RectangleBuilder}.
      */
@@ -1077,7 +1077,7 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getStrokeDashArray()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1090,7 +1090,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getStrokeDashArray()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1103,7 +1103,7 @@ public class RectangleBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1114,7 +1114,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1125,7 +1125,7 @@ public class RectangleBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1138,7 +1138,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1152,7 +1152,7 @@ public class RectangleBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1165,7 +1165,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getTransforms()} method.
      * 
      * @return builder instance
      */

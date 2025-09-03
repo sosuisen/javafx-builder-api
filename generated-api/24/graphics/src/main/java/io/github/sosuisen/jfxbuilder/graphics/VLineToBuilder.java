@@ -37,8 +37,8 @@ public class VLineToBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.VLineTo#VLineTo(double) VLineTo(double)}
-     * and returns an instance of the {@code VLineToBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.VLineTo#VLineTo(double) VLineTo(double)}
+     * and returns an instance of {@code VLineToBuilder}.
      *
      * @return an instance of the {@code VLineToBuilder}.
      */

@@ -37,8 +37,8 @@ public class LightingBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.Lighting#Lighting(Light) Lighting(Light)}
-     * and returns an instance of the {@code LightingBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.Lighting#Lighting(Light) Lighting(Light)}
+     * and returns an instance of {@code LightingBuilder}.
      *
      * @return an instance of the {@code LightingBuilder}.
      */

@@ -29,8 +29,8 @@ public class SliderSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.SliderSkin#SliderSkin(Slider) SliderSkin(Slider)}
-     * and returns an instance of the {@code SliderSkinBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.SliderSkin#SliderSkin(Slider) SliderSkin(Slider)}
+     * and returns an instance of {@code SliderSkinBuilder}.
      *
      * @return an instance of the {@code SliderSkinBuilder}.
      */
@@ -140,7 +140,7 @@ public class SliderSkinBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SliderSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SliderSkin#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -153,7 +153,7 @@ public class SliderSkinBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SliderSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SliderSkin#getChildren()} method.
      * 
      * @return builder instance
      */

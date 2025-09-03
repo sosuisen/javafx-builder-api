@@ -29,8 +29,8 @@ public class ZoomEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.ZoomEvent#ZoomEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult) ZoomEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
-     * and returns an instance of the {@code ZoomEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.ZoomEvent#ZoomEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult) ZoomEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
+     * and returns an instance of {@code ZoomEventBuilder}.
      *
      * @return an instance of the {@code ZoomEventBuilder}.
      */
@@ -43,8 +43,8 @@ public class ZoomEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.ZoomEvent#ZoomEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult) ZoomEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
-     * and returns an instance of the {@code ZoomEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.ZoomEvent#ZoomEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult) ZoomEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
+     * and returns an instance of {@code ZoomEventBuilder}.
      *
      * @return an instance of the {@code ZoomEventBuilder}.
      */

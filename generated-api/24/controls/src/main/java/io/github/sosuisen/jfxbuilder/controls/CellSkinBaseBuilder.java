@@ -29,8 +29,8 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.CellSkinBase#CellSkinBase(Cell) CellSkinBase(Cell)}
-     * and returns an instance of the {@code CellSkinBaseBuilder<C>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.CellSkinBase#CellSkinBase(Cell) CellSkinBase(Cell)}
+     * and returns an instance of {@code CellSkinBaseBuilder<C>}.
      *
      * @return an instance of the {@code CellSkinBaseBuilder<C>}.
      */
@@ -142,7 +142,7 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.CellSkinBase#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.CellSkinBase#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -155,7 +155,7 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.CellSkinBase#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.CellSkinBase#getChildren()} method.
      * 
      * @return builder instance
      */

@@ -29,8 +29,8 @@ public class RadioButtonSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.RadioButtonSkin#RadioButtonSkin(RadioButton) RadioButtonSkin(RadioButton)}
-     * and returns an instance of the {@code RadioButtonSkinBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.RadioButtonSkin#RadioButtonSkin(RadioButton) RadioButtonSkin(RadioButton)}
+     * and returns an instance of {@code RadioButtonSkinBuilder}.
      *
      * @return an instance of the {@code RadioButtonSkinBuilder}.
      */
@@ -140,7 +140,7 @@ public class RadioButtonSkinBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.RadioButtonSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.RadioButtonSkin#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -153,7 +153,7 @@ public class RadioButtonSkinBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.RadioButtonSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.RadioButtonSkin#getChildren()} method.
      * 
      * @return builder instance
      */

@@ -37,8 +37,8 @@ public class RowConstraintsBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.RowConstraints#RowConstraints(double) RowConstraints(double)}
-     * and returns an instance of the {@code RowConstraintsBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.RowConstraints#RowConstraints(double) RowConstraints(double)}
+     * and returns an instance of {@code RowConstraintsBuilder}.
      *
      * @return an instance of the {@code RowConstraintsBuilder}.
      */
@@ -51,8 +51,8 @@ public class RowConstraintsBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.RowConstraints#RowConstraints(double, double, double) RowConstraints(double, double, double)}
-     * and returns an instance of the {@code RowConstraintsBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.RowConstraints#RowConstraints(double, double, double) RowConstraints(double, double, double)}
+     * and returns an instance of {@code RowConstraintsBuilder}.
      *
      * @return an instance of the {@code RowConstraintsBuilder}.
      */
@@ -65,8 +65,8 @@ public class RowConstraintsBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.RowConstraints#RowConstraints(double, double, double, Priority, VPos, boolean) RowConstraints(double, double, double, Priority, VPos, boolean)}
-     * and returns an instance of the {@code RowConstraintsBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.RowConstraints#RowConstraints(double, double, double, Priority, VPos, boolean) RowConstraints(double, double, double, Priority, VPos, boolean)}
+     * and returns an instance of {@code RowConstraintsBuilder}.
      *
      * @return an instance of the {@code RowConstraintsBuilder}.
      */

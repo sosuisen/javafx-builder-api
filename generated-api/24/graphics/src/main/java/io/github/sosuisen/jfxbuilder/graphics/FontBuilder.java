@@ -29,8 +29,8 @@ public class FontBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.text.Font#Font(double) Font(double)}
-     * and returns an instance of the {@code FontBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.text.Font#Font(double) Font(double)}
+     * and returns an instance of {@code FontBuilder}.
      *
      * @return an instance of the {@code FontBuilder}.
      */
@@ -43,8 +43,8 @@ public class FontBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.text.Font#Font(String, double) Font(String, double)}
-     * and returns an instance of the {@code FontBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.text.Font#Font(String, double) Font(String, double)}
+     * and returns an instance of {@code FontBuilder}.
      *
      * @return an instance of the {@code FontBuilder}.
      */

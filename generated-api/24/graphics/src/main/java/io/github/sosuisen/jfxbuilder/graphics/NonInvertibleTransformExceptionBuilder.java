@@ -29,8 +29,8 @@ public class NonInvertibleTransformExceptionBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.NonInvertibleTransformException#NonInvertibleTransformException(String) NonInvertibleTransformException(String)}
-     * and returns an instance of the {@code NonInvertibleTransformExceptionBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.transform.NonInvertibleTransformException#NonInvertibleTransformException(String) NonInvertibleTransformException(String)}
+     * and returns an instance of {@code NonInvertibleTransformExceptionBuilder}.
      *
      * @return an instance of the {@code NonInvertibleTransformExceptionBuilder}.
      */

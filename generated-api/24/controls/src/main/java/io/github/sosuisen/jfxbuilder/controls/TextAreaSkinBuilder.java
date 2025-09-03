@@ -29,8 +29,8 @@ public class TextAreaSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.TextAreaSkin#TextAreaSkin(TextArea) TextAreaSkin(TextArea)}
-     * and returns an instance of the {@code TextAreaSkinBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.TextAreaSkin#TextAreaSkin(TextArea) TextAreaSkin(TextArea)}
+     * and returns an instance of {@code TextAreaSkinBuilder}.
      *
      * @return an instance of the {@code TextAreaSkinBuilder}.
      */
@@ -160,7 +160,7 @@ public class TextAreaSkinBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TextAreaSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TextAreaSkin#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -173,7 +173,7 @@ public class TextAreaSkinBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TextAreaSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TextAreaSkin#getChildren()} method.
      * 
      * @return builder instance
      */

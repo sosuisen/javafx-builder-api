@@ -29,8 +29,8 @@ public class SpinnerSkinBuilder<T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.SpinnerSkin#SpinnerSkin(Spinner) SpinnerSkin(Spinner)}
-     * and returns an instance of the {@code SpinnerSkinBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.SpinnerSkin#SpinnerSkin(Spinner) SpinnerSkin(Spinner)}
+     * and returns an instance of {@code SpinnerSkinBuilder<T>}.
      *
      * @return an instance of the {@code SpinnerSkinBuilder<T>}.
      */
@@ -142,7 +142,7 @@ public class SpinnerSkinBuilder<T> {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SpinnerSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SpinnerSkin#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -155,7 +155,7 @@ public class SpinnerSkinBuilder<T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SpinnerSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SpinnerSkin#getChildren()} method.
      * 
      * @return builder instance
      */

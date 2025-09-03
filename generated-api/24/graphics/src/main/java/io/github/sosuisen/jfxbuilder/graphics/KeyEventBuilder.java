@@ -29,8 +29,8 @@ public class KeyEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.KeyEvent#KeyEvent(Object, EventTarget, EventType, String, String, KeyCode, boolean, boolean, boolean, boolean) KeyEvent(Object, EventTarget, EventType, String, String, KeyCode, boolean, boolean, boolean, boolean)}
-     * and returns an instance of the {@code KeyEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.KeyEvent#KeyEvent(Object, EventTarget, EventType, String, String, KeyCode, boolean, boolean, boolean, boolean) KeyEvent(Object, EventTarget, EventType, String, String, KeyCode, boolean, boolean, boolean, boolean)}
+     * and returns an instance of {@code KeyEventBuilder}.
      *
      * @return an instance of the {@code KeyEventBuilder}.
      */
@@ -43,8 +43,8 @@ public class KeyEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.KeyEvent#KeyEvent(EventType, String, String, KeyCode, boolean, boolean, boolean, boolean) KeyEvent(EventType, String, String, KeyCode, boolean, boolean, boolean, boolean)}
-     * and returns an instance of the {@code KeyEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.KeyEvent#KeyEvent(EventType, String, String, KeyCode, boolean, boolean, boolean, boolean) KeyEvent(EventType, String, String, KeyCode, boolean, boolean, boolean, boolean)}
+     * and returns an instance of {@code KeyEventBuilder}.
      *
      * @return an instance of the {@code KeyEventBuilder}.
      */

@@ -37,8 +37,8 @@ public class ScrollPaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.ScrollPane#ScrollPane(Node) ScrollPane(Node)}
-     * and returns an instance of the {@code ScrollPaneBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.ScrollPane#ScrollPane(Node) ScrollPane(Node)}
+     * and returns an instance of {@code ScrollPaneBuilder}.
      *
      * @return an instance of the {@code ScrollPaneBuilder}.
      */
@@ -1279,7 +1279,7 @@ public class ScrollPaneBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollPane#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollPane#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1292,7 +1292,7 @@ public class ScrollPaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollPane#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollPane#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1306,7 +1306,7 @@ public class ScrollPaneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollPane#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollPane#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1319,7 +1319,7 @@ public class ScrollPaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollPane#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollPane#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1333,7 +1333,7 @@ public class ScrollPaneBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollPane#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollPane#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1346,7 +1346,7 @@ public class ScrollPaneBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollPane#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollPane#getTransforms()} method.
      * 
      * @return builder instance
      */

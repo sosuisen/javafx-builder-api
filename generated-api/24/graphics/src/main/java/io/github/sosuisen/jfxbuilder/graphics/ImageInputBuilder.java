@@ -37,8 +37,8 @@ public class ImageInputBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.ImageInput#ImageInput(Image) ImageInput(Image)}
-     * and returns an instance of the {@code ImageInputBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.ImageInput#ImageInput(Image) ImageInput(Image)}
+     * and returns an instance of {@code ImageInputBuilder}.
      *
      * @return an instance of the {@code ImageInputBuilder}.
      */
@@ -51,8 +51,8 @@ public class ImageInputBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.ImageInput#ImageInput(Image, double, double) ImageInput(Image, double, double)}
-     * and returns an instance of the {@code ImageInputBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.ImageInput#ImageInput(Image, double, double) ImageInput(Image, double, double)}
+     * and returns an instance of {@code ImageInputBuilder}.
      *
      * @return an instance of the {@code ImageInputBuilder}.
      */

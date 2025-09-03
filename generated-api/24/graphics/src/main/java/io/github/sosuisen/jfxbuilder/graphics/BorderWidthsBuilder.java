@@ -29,8 +29,8 @@ public class BorderWidthsBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BorderWidths#BorderWidths(double) BorderWidths(double)}
-     * and returns an instance of the {@code BorderWidthsBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.BorderWidths#BorderWidths(double) BorderWidths(double)}
+     * and returns an instance of {@code BorderWidthsBuilder}.
      *
      * @return an instance of the {@code BorderWidthsBuilder}.
      */
@@ -43,8 +43,8 @@ public class BorderWidthsBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BorderWidths#BorderWidths(double, double, double, double) BorderWidths(double, double, double, double)}
-     * and returns an instance of the {@code BorderWidthsBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.BorderWidths#BorderWidths(double, double, double, double) BorderWidths(double, double, double, double)}
+     * and returns an instance of {@code BorderWidthsBuilder}.
      *
      * @return an instance of the {@code BorderWidthsBuilder}.
      */
@@ -57,8 +57,8 @@ public class BorderWidthsBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BorderWidths#BorderWidths(double, double, double, double, boolean, boolean, boolean, boolean) BorderWidths(double, double, double, double, boolean, boolean, boolean, boolean)}
-     * and returns an instance of the {@code BorderWidthsBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.BorderWidths#BorderWidths(double, double, double, double, boolean, boolean, boolean, boolean) BorderWidths(double, double, double, double, boolean, boolean, boolean, boolean)}
+     * and returns an instance of {@code BorderWidthsBuilder}.
      *
      * @return an instance of the {@code BorderWidthsBuilder}.
      */

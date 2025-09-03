@@ -29,8 +29,8 @@ public class TreeCellSkinBuilder<T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.TreeCellSkin#TreeCellSkin(TreeCell) TreeCellSkin(TreeCell)}
-     * and returns an instance of the {@code TreeCellSkinBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.TreeCellSkin#TreeCellSkin(TreeCell) TreeCellSkin(TreeCell)}
+     * and returns an instance of {@code TreeCellSkinBuilder<T>}.
      *
      * @return an instance of the {@code TreeCellSkinBuilder<T>}.
      */
@@ -152,7 +152,7 @@ public class TreeCellSkinBuilder<T> {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TreeCellSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TreeCellSkin#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -165,7 +165,7 @@ public class TreeCellSkinBuilder<T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TreeCellSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TreeCellSkin#getChildren()} method.
      * 
      * @return builder instance
      */

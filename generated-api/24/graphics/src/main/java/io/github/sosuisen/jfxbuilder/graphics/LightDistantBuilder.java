@@ -37,8 +37,8 @@ public class LightDistantBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.Light.Distant#Distant(double, double, Color) Distant(double, double, Color)}
-     * and returns an instance of the {@code LightDistantBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.Light.Distant#Distant(double, double, Color) Distant(double, double, Color)}
+     * and returns an instance of {@code LightDistantBuilder}.
      *
      * @return an instance of the {@code LightDistantBuilder}.
      */

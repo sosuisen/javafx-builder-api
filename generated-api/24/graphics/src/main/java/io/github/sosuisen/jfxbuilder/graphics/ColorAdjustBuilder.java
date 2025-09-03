@@ -37,8 +37,8 @@ public class ColorAdjustBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.ColorAdjust#ColorAdjust(double, double, double, double) ColorAdjust(double, double, double, double)}
-     * and returns an instance of the {@code ColorAdjustBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.ColorAdjust#ColorAdjust(double, double, double, double) ColorAdjust(double, double, double, double)}
+     * and returns an instance of {@code ColorAdjustBuilder}.
      *
      * @return an instance of the {@code ColorAdjustBuilder}.
      */

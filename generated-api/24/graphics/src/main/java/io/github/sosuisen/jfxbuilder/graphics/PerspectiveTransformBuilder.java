@@ -37,8 +37,8 @@ public class PerspectiveTransformBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.PerspectiveTransform#PerspectiveTransform(double, double, double, double, double, double, double, double) PerspectiveTransform(double, double, double, double, double, double, double, double)}
-     * and returns an instance of the {@code PerspectiveTransformBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.PerspectiveTransform#PerspectiveTransform(double, double, double, double, double, double, double, double) PerspectiveTransform(double, double, double, double, double, double, double, double)}
+     * and returns an instance of {@code PerspectiveTransformBuilder}.
      *
      * @return an instance of the {@code PerspectiveTransformBuilder}.
      */

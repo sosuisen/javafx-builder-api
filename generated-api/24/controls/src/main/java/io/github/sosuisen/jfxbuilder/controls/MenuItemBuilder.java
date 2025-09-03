@@ -37,8 +37,8 @@ public class MenuItemBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.MenuItem#MenuItem(String) MenuItem(String)}
-     * and returns an instance of the {@code MenuItemBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.MenuItem#MenuItem(String) MenuItem(String)}
+     * and returns an instance of {@code MenuItemBuilder}.
      *
      * @return an instance of the {@code MenuItemBuilder}.
      */
@@ -51,8 +51,8 @@ public class MenuItemBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.MenuItem#MenuItem(String, Node) MenuItem(String, Node)}
-     * and returns an instance of the {@code MenuItemBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.MenuItem#MenuItem(String, Node) MenuItem(String, Node)}
+     * and returns an instance of {@code MenuItemBuilder}.
      *
      * @return an instance of the {@code MenuItemBuilder}.
      */
@@ -278,7 +278,7 @@ public class MenuItemBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuItem#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuItem#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -291,7 +291,7 @@ public class MenuItemBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuItem#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuItem#getStyleClass()} method.
      * 
      * @return builder instance
      */

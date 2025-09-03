@@ -29,8 +29,8 @@ public class LinearGradientBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.paint.LinearGradient#LinearGradient(double, double, double, double, boolean, CycleMethod, List) LinearGradient(double, double, double, double, boolean, CycleMethod, List)}
-     * and returns an instance of the {@code LinearGradientBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.paint.LinearGradient#LinearGradient(double, double, double, double, boolean, CycleMethod, List) LinearGradient(double, double, double, double, boolean, CycleMethod, List)}
+     * and returns an instance of {@code LinearGradientBuilder}.
      *
      * @return an instance of the {@code LinearGradientBuilder}.
      */
@@ -43,8 +43,8 @@ public class LinearGradientBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.paint.LinearGradient#LinearGradient(double, double, double, double, boolean, CycleMethod, Stop...) LinearGradient(double, double, double, double, boolean, CycleMethod, Stop...)}
-     * and returns an instance of the {@code LinearGradientBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.paint.LinearGradient#LinearGradient(double, double, double, double, boolean, CycleMethod, Stop...) LinearGradient(double, double, double, double, boolean, CycleMethod, Stop...)}
+     * and returns an instance of {@code LinearGradientBuilder}.
      *
      * @return an instance of the {@code LinearGradientBuilder}.
      */

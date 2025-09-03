@@ -150,7 +150,7 @@ public class ToggleGroupBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleGroup#getToggles()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleGroup#getToggles()} method.
      * 
      * @return builder instance
      */
@@ -163,7 +163,7 @@ public class ToggleGroupBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleGroup#getToggles()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleGroup#getToggles()} method.
      * 
      * @return builder instance
      */
@@ -176,7 +176,7 @@ public class ToggleGroupBuilder {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleGroup#getToggles()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleGroup#getToggles()} method.
      * 
      * @return builder instance
      */
@@ -187,7 +187,7 @@ public class ToggleGroupBuilder {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleGroup#getToggles()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleGroup#getToggles()} method.
      * 
      * @return builder instance
      */

@@ -37,8 +37,8 @@ public class ReflectionBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.Reflection#Reflection(double, double, double, double) Reflection(double, double, double, double)}
-     * and returns an instance of the {@code ReflectionBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.Reflection#Reflection(double, double, double, double) Reflection(double, double, double, double)}
+     * and returns an instance of {@code ReflectionBuilder}.
      *
      * @return an instance of the {@code ReflectionBuilder}.
      */

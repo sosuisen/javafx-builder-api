@@ -29,8 +29,8 @@ public class NumberAxisDefaultFormatterBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.NumberAxis.DefaultFormatter#DefaultFormatter(NumberAxis) DefaultFormatter(NumberAxis)}
-     * and returns an instance of the {@code NumberAxisDefaultFormatterBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.chart.NumberAxis.DefaultFormatter#DefaultFormatter(NumberAxis) DefaultFormatter(NumberAxis)}
+     * and returns an instance of {@code NumberAxisDefaultFormatterBuilder}.
      *
      * @return an instance of the {@code NumberAxisDefaultFormatterBuilder}.
      */
@@ -43,8 +43,8 @@ public class NumberAxisDefaultFormatterBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.NumberAxis.DefaultFormatter#DefaultFormatter(NumberAxis, String, String) DefaultFormatter(NumberAxis, String, String)}
-     * and returns an instance of the {@code NumberAxisDefaultFormatterBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.chart.NumberAxis.DefaultFormatter#DefaultFormatter(NumberAxis, String, String) DefaultFormatter(NumberAxis, String, String)}
+     * and returns an instance of {@code NumberAxisDefaultFormatterBuilder}.
      *
      * @return an instance of the {@code NumberAxisDefaultFormatterBuilder}.
      */

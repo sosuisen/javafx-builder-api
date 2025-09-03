@@ -29,8 +29,8 @@ public class AreaChartBuilder<X, Y> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.AreaChart#AreaChart(Axis, Axis) AreaChart(Axis, Axis)}
-     * and returns an instance of the {@code AreaChartBuilder<X, Y>}.
+     * Accepts the constructor arguments of {@link javafx.scene.chart.AreaChart#AreaChart(Axis, Axis) AreaChart(Axis, Axis)}
+     * and returns an instance of {@code AreaChartBuilder<X, Y>}.
      *
      * @return an instance of the {@code AreaChartBuilder<X, Y>}.
      */
@@ -43,8 +43,8 @@ public class AreaChartBuilder<X, Y> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.AreaChart#AreaChart(Axis, Axis, ObservableList) AreaChart(Axis, Axis, ObservableList)}
-     * and returns an instance of the {@code AreaChartBuilder<X, Y>}.
+     * Accepts the constructor arguments of {@link javafx.scene.chart.AreaChart#AreaChart(Axis, Axis, ObservableList) AreaChart(Axis, Axis, ObservableList)}
+     * and returns an instance of {@code AreaChartBuilder<X, Y>}.
      *
      * @return an instance of the {@code AreaChartBuilder<X, Y>}.
      */
@@ -1211,7 +1211,7 @@ public class AreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.AreaChart#getData()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.AreaChart#getData()} method.
      * 
      * @return builder instance
      */
@@ -1224,7 +1224,7 @@ public class AreaChartBuilder<X, Y> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.AreaChart#getData()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.AreaChart#getData()} method.
      * 
      * @return builder instance
      */
@@ -1238,7 +1238,7 @@ public class AreaChartBuilder<X, Y> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.AreaChart#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.AreaChart#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1251,7 +1251,7 @@ public class AreaChartBuilder<X, Y> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.AreaChart#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.AreaChart#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1265,7 +1265,7 @@ public class AreaChartBuilder<X, Y> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.AreaChart#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.AreaChart#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1278,7 +1278,7 @@ public class AreaChartBuilder<X, Y> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.AreaChart#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.AreaChart#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1292,7 +1292,7 @@ public class AreaChartBuilder<X, Y> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.AreaChart#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.AreaChart#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1305,7 +1305,7 @@ public class AreaChartBuilder<X, Y> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.AreaChart#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.AreaChart#getTransforms()} method.
      * 
      * @return builder instance
      */

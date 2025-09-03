@@ -29,8 +29,8 @@ public class SwipeEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.SwipeEvent#SwipeEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult) SwipeEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult)}
-     * and returns an instance of the {@code SwipeEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.SwipeEvent#SwipeEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult) SwipeEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult)}
+     * and returns an instance of {@code SwipeEventBuilder}.
      *
      * @return an instance of the {@code SwipeEventBuilder}.
      */
@@ -43,8 +43,8 @@ public class SwipeEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.SwipeEvent#SwipeEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult) SwipeEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult)}
-     * and returns an instance of the {@code SwipeEventBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.SwipeEvent#SwipeEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult) SwipeEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult)}
+     * and returns an instance of {@code SwipeEventBuilder}.
      *
      * @return an instance of the {@code SwipeEventBuilder}.
      */

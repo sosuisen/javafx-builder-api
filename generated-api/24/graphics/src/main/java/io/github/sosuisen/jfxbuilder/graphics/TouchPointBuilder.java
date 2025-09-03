@@ -29,8 +29,8 @@ public class TouchPointBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.TouchPoint#TouchPoint(int, TouchPoint$State, double, double, double, double, EventTarget, PickResult) TouchPoint(int, TouchPoint$State, double, double, double, double, EventTarget, PickResult)}
-     * and returns an instance of the {@code TouchPointBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.TouchPoint#TouchPoint(int, TouchPoint$State, double, double, double, double, EventTarget, PickResult) TouchPoint(int, TouchPoint$State, double, double, double, double, EventTarget, PickResult)}
+     * and returns an instance of {@code TouchPointBuilder}.
      *
      * @return an instance of the {@code TouchPointBuilder}.
      */

@@ -29,8 +29,8 @@ public class BorderImageBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BorderImage#BorderImage(Image, BorderWidths, Insets, BorderWidths, boolean, BorderRepeat, BorderRepeat) BorderImage(Image, BorderWidths, Insets, BorderWidths, boolean, BorderRepeat, BorderRepeat)}
-     * and returns an instance of the {@code BorderImageBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.layout.BorderImage#BorderImage(Image, BorderWidths, Insets, BorderWidths, boolean, BorderRepeat, BorderRepeat) BorderImage(Image, BorderWidths, Insets, BorderWidths, boolean, BorderRepeat, BorderRepeat)}
+     * and returns an instance of {@code BorderImageBuilder}.
      *
      * @return an instance of the {@code BorderImageBuilder}.
      */

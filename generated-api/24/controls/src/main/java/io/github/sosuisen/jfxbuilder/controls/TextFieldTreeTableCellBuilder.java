@@ -37,8 +37,8 @@ public class TextFieldTreeTableCellBuilder<S, T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.TextFieldTreeTableCell#TextFieldTreeTableCell(StringConverter) TextFieldTreeTableCell(StringConverter)}
-     * and returns an instance of the {@code TextFieldTreeTableCellBuilder<S, T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.TextFieldTreeTableCell#TextFieldTreeTableCell(StringConverter) TextFieldTreeTableCell(StringConverter)}
+     * and returns an instance of {@code TextFieldTreeTableCellBuilder<S, T>}.
      *
      * @return an instance of the {@code TextFieldTreeTableCellBuilder<S, T>}.
      */
@@ -1281,7 +1281,7 @@ public class TextFieldTreeTableCellBuilder<S, T> {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTreeTableCell#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTreeTableCell#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1294,7 +1294,7 @@ public class TextFieldTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTreeTableCell#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTreeTableCell#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1308,7 +1308,7 @@ public class TextFieldTreeTableCellBuilder<S, T> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTreeTableCell#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTreeTableCell#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1321,7 +1321,7 @@ public class TextFieldTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTreeTableCell#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTreeTableCell#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1335,7 +1335,7 @@ public class TextFieldTreeTableCellBuilder<S, T> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTreeTableCell#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTreeTableCell#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1348,7 +1348,7 @@ public class TextFieldTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTreeTableCell#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldTreeTableCell#getTransforms()} method.
      * 
      * @return builder instance
      */

@@ -37,8 +37,8 @@ public class LabelBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Label#Label(String) Label(String)}
-     * and returns an instance of the {@code LabelBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Label#Label(String) Label(String)}
+     * and returns an instance of {@code LabelBuilder}.
      *
      * @return an instance of the {@code LabelBuilder}.
      */
@@ -51,8 +51,8 @@ public class LabelBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Label#Label(String, Node) Label(String, Node)}
-     * and returns an instance of the {@code LabelBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.Label#Label(String, Node) Label(String, Node)}
+     * and returns an instance of {@code LabelBuilder}.
      *
      * @return an instance of the {@code LabelBuilder}.
      */
@@ -1273,7 +1273,7 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Label#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Label#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1286,7 +1286,7 @@ public class LabelBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Label#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Label#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1300,7 +1300,7 @@ public class LabelBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Label#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Label#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1313,7 +1313,7 @@ public class LabelBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Label#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Label#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1327,7 +1327,7 @@ public class LabelBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Label#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Label#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1340,7 +1340,7 @@ public class LabelBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Label#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Label#getTransforms()} method.
      * 
      * @return builder instance
      */

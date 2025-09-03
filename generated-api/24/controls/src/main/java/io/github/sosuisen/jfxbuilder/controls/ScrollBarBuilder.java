@@ -1165,7 +1165,7 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollBar#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollBar#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1178,7 +1178,7 @@ public class ScrollBarBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollBar#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollBar#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1192,7 +1192,7 @@ public class ScrollBarBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollBar#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollBar#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1205,7 +1205,7 @@ public class ScrollBarBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollBar#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollBar#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1219,7 +1219,7 @@ public class ScrollBarBuilder {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollBar#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollBar#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1232,7 +1232,7 @@ public class ScrollBarBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollBar#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollBar#getTransforms()} method.
      * 
      * @return builder instance
      */

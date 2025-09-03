@@ -37,8 +37,8 @@ public class ChoiceDialogBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.ChoiceDialog#ChoiceDialog(Object, Object...) ChoiceDialog(Object, Object...)}
-     * and returns an instance of the {@code ChoiceDialogBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.ChoiceDialog#ChoiceDialog(Object, Object...) ChoiceDialog(Object, Object...)}
+     * and returns an instance of {@code ChoiceDialogBuilder<T>}.
      *
      * @return an instance of the {@code ChoiceDialogBuilder<T>}.
      */
@@ -51,8 +51,8 @@ public class ChoiceDialogBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.ChoiceDialog#ChoiceDialog(Object, Collection) ChoiceDialog(Object, Collection)}
-     * and returns an instance of the {@code ChoiceDialogBuilder<T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.ChoiceDialog#ChoiceDialog(Object, Collection) ChoiceDialog(Object, Collection)}
+     * and returns an instance of {@code ChoiceDialogBuilder<T>}.
      *
      * @return an instance of the {@code ChoiceDialogBuilder<T>}.
      */
@@ -350,7 +350,7 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceDialog#getItems()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceDialog#getItems()} method.
      * 
      * @return builder instance
      */
@@ -363,7 +363,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceDialog#getItems()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceDialog#getItems()} method.
      * 
      * @return builder instance
      */
@@ -376,7 +376,7 @@ public class ChoiceDialogBuilder<T> {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceDialog#getItems()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceDialog#getItems()} method.
      * 
      * @return builder instance
      */
@@ -387,7 +387,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceDialog#getItems()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceDialog#getItems()} method.
      * 
      * @return builder instance
      */

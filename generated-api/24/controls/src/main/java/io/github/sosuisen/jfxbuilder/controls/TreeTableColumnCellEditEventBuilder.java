@@ -29,8 +29,8 @@ public class TreeTableColumnCellEditEventBuilder<S, T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeTableColumn.CellEditEvent#CellEditEvent(TreeTableView, TreeTablePosition, EventType, Object) CellEditEvent(TreeTableView, TreeTablePosition, EventType, Object)}
-     * and returns an instance of the {@code TreeTableColumnCellEditEventBuilder<S, T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeTableColumn.CellEditEvent#CellEditEvent(TreeTableView, TreeTablePosition, EventType, Object) CellEditEvent(TreeTableView, TreeTablePosition, EventType, Object)}
+     * and returns an instance of {@code TreeTableColumnCellEditEventBuilder<S, T>}.
      *
      * @return an instance of the {@code TreeTableColumnCellEditEventBuilder<S, T>}.
      */

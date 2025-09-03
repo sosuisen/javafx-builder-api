@@ -37,8 +37,8 @@ public class LightPointBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.Light.Point#Point(double, double, double, Color) Point(double, double, double, Color)}
-     * and returns an instance of the {@code LightPointBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.effect.Light.Point#Point(double, double, double, Color) Point(double, double, double, Color)}
+     * and returns an instance of {@code LightPointBuilder}.
      *
      * @return an instance of the {@code LightPointBuilder}.
      */

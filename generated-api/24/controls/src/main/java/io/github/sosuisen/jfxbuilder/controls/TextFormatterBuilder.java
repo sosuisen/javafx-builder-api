@@ -29,8 +29,8 @@ public class TextFormatterBuilder<V> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TextFormatter#TextFormatter(UnaryOperator) TextFormatter(UnaryOperator)}
-     * and returns an instance of the {@code TextFormatterBuilder<V>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(UnaryOperator) TextFormatter(UnaryOperator)}
+     * and returns an instance of {@code TextFormatterBuilder<V>}.
      *
      * @return an instance of the {@code TextFormatterBuilder<V>}.
      */
@@ -43,8 +43,8 @@ public class TextFormatterBuilder<V> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TextFormatter#TextFormatter(StringConverter) TextFormatter(StringConverter)}
-     * and returns an instance of the {@code TextFormatterBuilder<V>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(StringConverter) TextFormatter(StringConverter)}
+     * and returns an instance of {@code TextFormatterBuilder<V>}.
      *
      * @return an instance of the {@code TextFormatterBuilder<V>}.
      */
@@ -57,8 +57,8 @@ public class TextFormatterBuilder<V> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TextFormatter#TextFormatter(StringConverter, Object) TextFormatter(StringConverter, Object)}
-     * and returns an instance of the {@code TextFormatterBuilder<V>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(StringConverter, Object) TextFormatter(StringConverter, Object)}
+     * and returns an instance of {@code TextFormatterBuilder<V>}.
      *
      * @return an instance of the {@code TextFormatterBuilder<V>}.
      */
@@ -71,8 +71,8 @@ public class TextFormatterBuilder<V> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TextFormatter#TextFormatter(StringConverter, Object, UnaryOperator) TextFormatter(StringConverter, Object, UnaryOperator)}
-     * and returns an instance of the {@code TextFormatterBuilder<V>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(StringConverter, Object, UnaryOperator) TextFormatter(StringConverter, Object, UnaryOperator)}
+     * and returns an instance of {@code TextFormatterBuilder<V>}.
      *
      * @return an instance of the {@code TextFormatterBuilder<V>}.
      */

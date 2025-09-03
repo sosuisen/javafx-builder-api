@@ -37,8 +37,8 @@ public class PhongMaterialBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.paint.PhongMaterial#PhongMaterial(Color) PhongMaterial(Color)}
-     * and returns an instance of the {@code PhongMaterialBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.paint.PhongMaterial#PhongMaterial(Color) PhongMaterial(Color)}
+     * and returns an instance of {@code PhongMaterialBuilder}.
      *
      * @return an instance of the {@code PhongMaterialBuilder}.
      */
@@ -51,8 +51,8 @@ public class PhongMaterialBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.paint.PhongMaterial#PhongMaterial(Color, Image, Image, Image, Image) PhongMaterial(Color, Image, Image, Image, Image)}
-     * and returns an instance of the {@code PhongMaterialBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.paint.PhongMaterial#PhongMaterial(Color, Image, Image, Image, Image) PhongMaterial(Color, Image, Image, Image, Image)}
+     * and returns an instance of {@code PhongMaterialBuilder}.
      *
      * @return an instance of the {@code PhongMaterialBuilder}.
      */

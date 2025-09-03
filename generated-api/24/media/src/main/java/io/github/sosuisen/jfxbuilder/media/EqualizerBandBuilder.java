@@ -37,8 +37,8 @@ public class EqualizerBandBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.media.EqualizerBand#EqualizerBand(double, double, double) EqualizerBand(double, double, double)}
-     * and returns an instance of the {@code EqualizerBandBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.media.EqualizerBand#EqualizerBand(double, double, double) EqualizerBand(double, double, double)}
+     * and returns an instance of {@code EqualizerBandBuilder}.
      *
      * @return an instance of the {@code EqualizerBandBuilder}.
      */

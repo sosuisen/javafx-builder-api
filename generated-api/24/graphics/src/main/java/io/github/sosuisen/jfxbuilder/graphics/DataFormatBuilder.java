@@ -29,8 +29,8 @@ public class DataFormatBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.DataFormat#DataFormat(String...) DataFormat(String...)}
-     * and returns an instance of the {@code DataFormatBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.input.DataFormat#DataFormat(String...) DataFormat(String...)}
+     * and returns an instance of {@code DataFormatBuilder}.
      *
      * @return an instance of the {@code DataFormatBuilder}.
      */

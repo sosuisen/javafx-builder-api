@@ -29,8 +29,8 @@ public class PropertyValueFactoryBuilder<S, T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.PropertyValueFactory#PropertyValueFactory(String) PropertyValueFactory(String)}
-     * and returns an instance of the {@code PropertyValueFactoryBuilder<S, T>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.PropertyValueFactory#PropertyValueFactory(String) PropertyValueFactory(String)}
+     * and returns an instance of {@code PropertyValueFactoryBuilder<S, T>}.
      *
      * @return an instance of the {@code PropertyValueFactoryBuilder<S, T>}.
      */

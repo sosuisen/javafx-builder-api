@@ -26,17 +26,17 @@ package io.github.sosuisen.jfxbuilder.graphics;
  * </p>
  * <pre>{@code 
  * StageBuilder.withScene(
- *         SceneBuilder.withRoot(
- *                 AnchorPaneBuilder.withChildren(
- *                         LabelBuilder.create()
- *                                 .text("Hello, JavaFX!")
- *                                 .style("-fx-font-weight: bold;")
- *                                 .build())
- *                         .build())
- *               .build())
- *         .width(640)
- *         .height(480)
- *         .build();
+ *       SceneBuilder.withRoot(
+ *             AnchorPaneBuilder.withChildren(
+ *                   LabelBuilder.create()
+                         .text("Hello, JavaFX!")
+                         .style("-fx-font-weight: bold;")
+                         .build())
+ *                 .build())
+ *           .build())
+ *     .width(640)
+ *     .height(480)
+ *     .build();
  * }</pre>
  *
  * @author Hidekazu Kubota &lt;hidekazu.kubota@gmail.com&gt;

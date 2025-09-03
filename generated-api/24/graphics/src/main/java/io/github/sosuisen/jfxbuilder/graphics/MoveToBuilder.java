@@ -37,8 +37,8 @@ public class MoveToBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.MoveTo#MoveTo(double, double) MoveTo(double, double)}
-     * and returns an instance of the {@code MoveToBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.shape.MoveTo#MoveTo(double, double) MoveTo(double, double)}
+     * and returns an instance of {@code MoveToBuilder}.
      *
      * @return an instance of the {@code MoveToBuilder}.
      */

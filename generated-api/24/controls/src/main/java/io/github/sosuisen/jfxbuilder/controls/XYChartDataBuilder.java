@@ -37,8 +37,8 @@ public class XYChartDataBuilder<X, Y> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.XYChart.Data#Data(Object, Object) Data(Object, Object)}
-     * and returns an instance of the {@code XYChartDataBuilder<X, Y>}.
+     * Accepts the constructor arguments of {@link javafx.scene.chart.XYChart.Data#Data(Object, Object) Data(Object, Object)}
+     * and returns an instance of {@code XYChartDataBuilder<X, Y>}.
      *
      * @return an instance of the {@code XYChartDataBuilder<X, Y>}.
      */
@@ -51,8 +51,8 @@ public class XYChartDataBuilder<X, Y> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.XYChart.Data#Data(Object, Object, Object) Data(Object, Object, Object)}
-     * and returns an instance of the {@code XYChartDataBuilder<X, Y>}.
+     * Accepts the constructor arguments of {@link javafx.scene.chart.XYChart.Data#Data(Object, Object, Object) Data(Object, Object, Object)}
+     * and returns an instance of {@code XYChartDataBuilder<X, Y>}.
      *
      * @return an instance of the {@code XYChartDataBuilder<X, Y>}.
      */

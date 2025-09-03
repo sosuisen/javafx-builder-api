@@ -37,8 +37,8 @@ public class TreeTableViewBuilder<S> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeTableView#TreeTableView(TreeItem) TreeTableView(TreeItem)}
-     * and returns an instance of the {@code TreeTableViewBuilder<S>}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeTableView#TreeTableView(TreeItem) TreeTableView(TreeItem)}
+     * and returns an instance of {@code TreeTableViewBuilder<S>}.
      *
      * @return an instance of the {@code TreeTableViewBuilder<S>}.
      */
@@ -1271,7 +1271,7 @@ public class TreeTableViewBuilder<S> {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getColumns()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getColumns()} method.
      * 
      * @return builder instance
      */
@@ -1284,7 +1284,7 @@ public class TreeTableViewBuilder<S> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getColumns()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getColumns()} method.
      * 
      * @return builder instance
      */
@@ -1297,7 +1297,7 @@ public class TreeTableViewBuilder<S> {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getColumns()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getColumns()} method.
      * 
      * @return builder instance
      */
@@ -1308,7 +1308,7 @@ public class TreeTableViewBuilder<S> {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getColumns()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getColumns()} method.
      * 
      * @return builder instance
      */
@@ -1319,7 +1319,7 @@ public class TreeTableViewBuilder<S> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getSortOrder()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getSortOrder()} method.
      * 
      * @return builder instance
      */
@@ -1332,7 +1332,7 @@ public class TreeTableViewBuilder<S> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getSortOrder()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getSortOrder()} method.
      * 
      * @return builder instance
      */
@@ -1345,7 +1345,7 @@ public class TreeTableViewBuilder<S> {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getSortOrder()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getSortOrder()} method.
      * 
      * @return builder instance
      */
@@ -1356,7 +1356,7 @@ public class TreeTableViewBuilder<S> {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getSortOrder()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getSortOrder()} method.
      * 
      * @return builder instance
      */
@@ -1367,7 +1367,7 @@ public class TreeTableViewBuilder<S> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1380,7 +1380,7 @@ public class TreeTableViewBuilder<S> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1394,7 +1394,7 @@ public class TreeTableViewBuilder<S> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1407,7 +1407,7 @@ public class TreeTableViewBuilder<S> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1421,7 +1421,7 @@ public class TreeTableViewBuilder<S> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1434,7 +1434,7 @@ public class TreeTableViewBuilder<S> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1448,7 +1448,7 @@ public class TreeTableViewBuilder<S> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getVisibleLeafColumns()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getVisibleLeafColumns()} method.
      * 
      * @return builder instance
      */
@@ -1461,7 +1461,7 @@ public class TreeTableViewBuilder<S> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getVisibleLeafColumns()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getVisibleLeafColumns()} method.
      * 
      * @return builder instance
      */
@@ -1474,7 +1474,7 @@ public class TreeTableViewBuilder<S> {
 
 
     /**
-     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getVisibleLeafColumns()} method.
+     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getVisibleLeafColumns()} method.
      * 
      * @return builder instance
      */
@@ -1485,7 +1485,7 @@ public class TreeTableViewBuilder<S> {
     }
 
     /**
-     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getVisibleLeafColumns()} method.
+     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeTableView#getVisibleLeafColumns()} method.
      * 
      * @return builder instance
      */

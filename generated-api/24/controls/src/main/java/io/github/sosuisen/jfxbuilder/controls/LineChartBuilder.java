@@ -29,8 +29,8 @@ public class LineChartBuilder<X, Y> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.LineChart#LineChart(Axis, Axis) LineChart(Axis, Axis)}
-     * and returns an instance of the {@code LineChartBuilder<X, Y>}.
+     * Accepts the constructor arguments of {@link javafx.scene.chart.LineChart#LineChart(Axis, Axis) LineChart(Axis, Axis)}
+     * and returns an instance of {@code LineChartBuilder<X, Y>}.
      *
      * @return an instance of the {@code LineChartBuilder<X, Y>}.
      */
@@ -43,8 +43,8 @@ public class LineChartBuilder<X, Y> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.LineChart#LineChart(Axis, Axis, ObservableList) LineChart(Axis, Axis, ObservableList)}
-     * and returns an instance of the {@code LineChartBuilder<X, Y>}.
+     * Accepts the constructor arguments of {@link javafx.scene.chart.LineChart#LineChart(Axis, Axis, ObservableList) LineChart(Axis, Axis, ObservableList)}
+     * and returns an instance of {@code LineChartBuilder<X, Y>}.
      *
      * @return an instance of the {@code LineChartBuilder<X, Y>}.
      */
@@ -1221,7 +1221,7 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getData()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getData()} method.
      * 
      * @return builder instance
      */
@@ -1234,7 +1234,7 @@ public class LineChartBuilder<X, Y> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getData()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getData()} method.
      * 
      * @return builder instance
      */
@@ -1248,7 +1248,7 @@ public class LineChartBuilder<X, Y> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1261,7 +1261,7 @@ public class LineChartBuilder<X, Y> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1275,7 +1275,7 @@ public class LineChartBuilder<X, Y> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1288,7 +1288,7 @@ public class LineChartBuilder<X, Y> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1302,7 +1302,7 @@ public class LineChartBuilder<X, Y> {
 
 
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1315,7 +1315,7 @@ public class LineChartBuilder<X, Y> {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getTransforms()} method.
      * 
      * @return builder instance
      */

@@ -29,8 +29,8 @@ public class ProgressIndicatorSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.ProgressIndicatorSkin#ProgressIndicatorSkin(ProgressIndicator) ProgressIndicatorSkin(ProgressIndicator)}
-     * and returns an instance of the {@code ProgressIndicatorSkinBuilder}.
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.ProgressIndicatorSkin#ProgressIndicatorSkin(ProgressIndicator) ProgressIndicatorSkin(ProgressIndicator)}
+     * and returns an instance of {@code ProgressIndicatorSkinBuilder}.
      *
      * @return an instance of the {@code ProgressIndicatorSkinBuilder}.
      */
@@ -140,7 +140,7 @@ public class ProgressIndicatorSkinBuilder {
         return this;
     }
     /**
-     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ProgressIndicatorSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ProgressIndicatorSkin#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -153,7 +153,7 @@ public class ProgressIndicatorSkinBuilder {
     }
 
     /**
-     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ProgressIndicatorSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ProgressIndicatorSkin#getChildren()} method.
      * 
      * @return builder instance
      */
