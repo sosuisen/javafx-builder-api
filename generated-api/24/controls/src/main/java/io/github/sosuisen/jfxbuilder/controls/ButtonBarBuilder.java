@@ -1260,10 +1260,10 @@ public class ButtonBarBuilder {
     /**
      * Utility setter to add CSS string for this ButtonBar's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * ButtonBarBuilder builder = ButtonBarBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

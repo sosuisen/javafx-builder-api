@@ -1188,10 +1188,10 @@ public class HTMLEditorBuilder {
     /**
      * Utility setter to add CSS string for this HTMLEditor's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * HTMLEditorBuilder builder = HTMLEditorBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

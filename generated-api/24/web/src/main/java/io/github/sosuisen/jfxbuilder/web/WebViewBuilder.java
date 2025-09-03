@@ -1108,10 +1108,10 @@ public class WebViewBuilder {
     /**
      * Utility setter to add CSS string for this WebView's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * WebViewBuilder builder = WebViewBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

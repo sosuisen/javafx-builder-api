@@ -1272,10 +1272,10 @@ public class TextFieldBuilder {
     /**
      * Utility setter to add CSS string for this TextField's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * TextFieldBuilder builder = TextFieldBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

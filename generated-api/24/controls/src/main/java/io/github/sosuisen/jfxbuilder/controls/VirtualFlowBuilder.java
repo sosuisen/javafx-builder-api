@@ -1210,10 +1210,10 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     /**
      * Utility setter to add CSS string for this VirtualFlow's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * VirtualFlowBuilder builder = VirtualFlowBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

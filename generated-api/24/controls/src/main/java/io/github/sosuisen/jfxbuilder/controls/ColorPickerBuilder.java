@@ -1320,10 +1320,10 @@ public class ColorPickerBuilder {
     /**
      * Utility setter to add CSS string for this ColorPicker's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * ColorPickerBuilder builder = ColorPickerBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

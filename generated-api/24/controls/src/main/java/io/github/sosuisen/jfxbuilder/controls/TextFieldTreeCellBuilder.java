@@ -1374,10 +1374,10 @@ public class TextFieldTreeCellBuilder<T> {
     /**
      * Utility setter to add CSS string for this TextFieldTreeCell's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * TextFieldTreeCellBuilder builder = TextFieldTreeCellBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

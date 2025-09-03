@@ -1454,10 +1454,10 @@ public class ChoiceBoxListCellBuilder<T> {
     /**
      * Utility setter to add CSS string for this ChoiceBoxListCell's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * ChoiceBoxListCellBuilder builder = ChoiceBoxListCellBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

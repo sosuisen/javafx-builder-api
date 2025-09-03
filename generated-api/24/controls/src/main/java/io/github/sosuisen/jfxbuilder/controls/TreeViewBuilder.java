@@ -1304,10 +1304,10 @@ public class TreeViewBuilder<T> {
     /**
      * Utility setter to add CSS string for this TreeView's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * TreeViewBuilder builder = TreeViewBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

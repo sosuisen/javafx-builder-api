@@ -1248,10 +1248,10 @@ public class ScrollBarBuilder {
     /**
      * Utility setter to add CSS string for this ScrollBar's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * ScrollBarBuilder builder = ScrollBarBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

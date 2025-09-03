@@ -1054,10 +1054,10 @@ public class GroupBuilder {
     /**
      * Utility setter to add CSS string for this Group's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * GroupBuilder builder = GroupBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

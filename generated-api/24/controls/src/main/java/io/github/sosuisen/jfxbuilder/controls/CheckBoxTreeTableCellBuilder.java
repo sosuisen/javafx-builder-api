@@ -1388,10 +1388,10 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
     /**
      * Utility setter to add CSS string for this CheckBoxTreeTableCell's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * CheckBoxTreeTableCellBuilder builder = CheckBoxTreeTableCellBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

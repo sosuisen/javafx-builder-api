@@ -1250,10 +1250,10 @@ public class AccordionBuilder {
     /**
      * Utility setter to add CSS string for this Accordion's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * AccordionBuilder builder = AccordionBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

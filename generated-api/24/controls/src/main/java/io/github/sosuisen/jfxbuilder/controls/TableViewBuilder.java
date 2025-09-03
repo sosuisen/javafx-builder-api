@@ -1516,10 +1516,10 @@ public class TableViewBuilder<S> {
     /**
      * Utility setter to add CSS string for this TableView's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * TableViewBuilder builder = TableViewBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

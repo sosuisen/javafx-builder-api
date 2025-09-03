@@ -1312,10 +1312,10 @@ public class DatePickerBuilder {
     /**
      * Utility setter to add CSS string for this DatePicker's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * DatePickerBuilder builder = DatePickerBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

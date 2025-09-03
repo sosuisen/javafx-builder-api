@@ -1250,10 +1250,10 @@ public class ToolBarBuilder {
     /**
      * Utility setter to add CSS string for this ToolBar's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * ToolBarBuilder builder = ToolBarBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

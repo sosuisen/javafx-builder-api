@@ -1331,10 +1331,10 @@ public class LineChartBuilder<X, Y> {
     /**
      * Utility setter to add CSS string for this LineChart's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * LineChartBuilder builder = LineChartBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

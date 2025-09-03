@@ -1222,10 +1222,10 @@ public class SeparatorBuilder {
     /**
      * Utility setter to add CSS string for this Separator's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * SeparatorBuilder builder = SeparatorBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

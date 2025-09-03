@@ -1372,10 +1372,10 @@ public class TitledPaneBuilder {
     /**
      * Utility setter to add CSS string for this TitledPane's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * TitledPaneBuilder builder = TitledPaneBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

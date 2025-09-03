@@ -1321,10 +1321,10 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Utility setter to add CSS string for this AreaChart's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * AreaChartBuilder builder = AreaChartBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

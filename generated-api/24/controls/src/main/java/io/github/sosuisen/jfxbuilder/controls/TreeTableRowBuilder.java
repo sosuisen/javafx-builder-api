@@ -1350,10 +1350,10 @@ public class TreeTableRowBuilder<T> {
     /**
      * Utility setter to add CSS string for this TreeTableRow's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * TreeTableRowBuilder builder = TreeTableRowBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

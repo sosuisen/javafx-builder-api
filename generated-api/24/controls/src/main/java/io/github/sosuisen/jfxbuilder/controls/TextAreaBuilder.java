@@ -1340,10 +1340,10 @@ public class TextAreaBuilder {
     /**
      * Utility setter to add CSS string for this TextArea's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * TextAreaBuilder builder = TextAreaBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

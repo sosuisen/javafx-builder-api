@@ -1356,10 +1356,10 @@ public class LabelBuilder {
     /**
      * Utility setter to add CSS string for this Label's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * LabelBuilder builder = LabelBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

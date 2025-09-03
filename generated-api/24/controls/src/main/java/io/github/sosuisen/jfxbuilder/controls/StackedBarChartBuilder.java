@@ -1335,10 +1335,10 @@ public class StackedBarChartBuilder<X, Y> {
     /**
      * Utility setter to add CSS string for this StackedBarChart's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * StackedBarChartBuilder builder = StackedBarChartBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

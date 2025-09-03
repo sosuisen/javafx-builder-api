@@ -1199,10 +1199,10 @@ public class TableHeaderRowBuilder {
     /**
      * Utility setter to add CSS string for this TableHeaderRow's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * TableHeaderRowBuilder builder = TableHeaderRowBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

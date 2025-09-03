@@ -1272,10 +1272,10 @@ public class HBoxBuilder {
     /**
      * Utility setter to add CSS string for this HBox's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * HBoxBuilder builder = HBoxBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

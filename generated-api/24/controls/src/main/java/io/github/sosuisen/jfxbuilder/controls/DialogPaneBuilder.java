@@ -1318,10 +1318,10 @@ public class DialogPaneBuilder {
     /**
      * Utility setter to add CSS string for this DialogPane's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * DialogPaneBuilder builder = DialogPaneBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

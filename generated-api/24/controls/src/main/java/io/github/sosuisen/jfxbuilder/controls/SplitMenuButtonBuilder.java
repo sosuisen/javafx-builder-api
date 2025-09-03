@@ -1482,10 +1482,10 @@ public class SplitMenuButtonBuilder {
     /**
      * Utility setter to add CSS string for this SplitMenuButton's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * SplitMenuButtonBuilder builder = SplitMenuButtonBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

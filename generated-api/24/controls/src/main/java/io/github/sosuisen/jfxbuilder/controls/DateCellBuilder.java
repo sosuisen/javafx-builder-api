@@ -1338,10 +1338,10 @@ public class DateCellBuilder {
     /**
      * Utility setter to add CSS string for this DateCell's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * DateCellBuilder builder = DateCellBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

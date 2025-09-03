@@ -1372,10 +1372,10 @@ public class CheckBoxBuilder {
     /**
      * Utility setter to add CSS string for this CheckBox's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * CheckBoxBuilder builder = CheckBoxBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string
