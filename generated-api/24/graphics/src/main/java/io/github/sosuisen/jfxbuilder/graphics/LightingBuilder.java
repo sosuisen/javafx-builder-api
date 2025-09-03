@@ -143,7 +143,7 @@ public class LightingBuilder {
         return false;
     }
     /**
-     * Applies a function to the Lighting instance currently being constructed.
+     * Applies a function to the Lighting instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -154,8 +154,8 @@ public class LightingBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Lighting#setBumpInput(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Lighting#setBumpInput(javafx.scene.effect.Effect) setBumpInput} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -164,8 +164,8 @@ public class LightingBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Lighting#setContentInput(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Lighting#setContentInput(javafx.scene.effect.Effect) setContentInput} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -174,8 +174,8 @@ public class LightingBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Lighting#setDiffuseConstant(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Lighting#setDiffuseConstant(double) setDiffuseConstant} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -184,8 +184,8 @@ public class LightingBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Lighting#setLight(javafx.scene.effect.Light)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Lighting#setLight(javafx.scene.effect.Light) setLight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -194,8 +194,8 @@ public class LightingBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Lighting#setSpecularConstant(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Lighting#setSpecularConstant(double) setSpecularConstant} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -204,8 +204,8 @@ public class LightingBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Lighting#setSpecularExponent(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Lighting#setSpecularExponent(double) setSpecularExponent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -214,8 +214,8 @@ public class LightingBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Lighting#setSurfaceScale(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Lighting#setSurfaceScale(double) setSurfaceScale} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -225,7 +225,7 @@ public class LightingBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Lighting#bumpInputProperty() bumpInputProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Lighting> func) apply} method.
      * <p>
      * Example: 
@@ -247,7 +247,7 @@ public class LightingBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Lighting#contentInputProperty() contentInputProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Lighting> func) apply} method.
      * <p>
      * Example: 
@@ -269,7 +269,7 @@ public class LightingBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Lighting#diffuseConstantProperty() diffuseConstantProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Lighting> func) apply} method.
      * <p>
      * Example: 
@@ -291,7 +291,7 @@ public class LightingBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Lighting#lightProperty() lightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Lighting> func) apply} method.
      * <p>
      * Example: 
@@ -313,7 +313,7 @@ public class LightingBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Lighting#specularConstantProperty() specularConstantProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Lighting> func) apply} method.
      * <p>
      * Example: 
@@ -335,7 +335,7 @@ public class LightingBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Lighting#specularExponentProperty() specularExponentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Lighting> func) apply} method.
      * <p>
      * Example: 
@@ -357,7 +357,7 @@ public class LightingBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Lighting#surfaceScaleProperty() surfaceScaleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Lighting> func) apply} method.
      * <p>
      * Example: 

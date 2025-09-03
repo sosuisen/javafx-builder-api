@@ -129,7 +129,7 @@ public class MenuBarSkinBuilder {
         return false;
     }
     /**
-     * Applies a function to the MenuBarSkin instance currently being constructed.
+     * Applies a function to the MenuBarSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -140,8 +140,8 @@ public class MenuBarSkinBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.MenuBarSkin#setContainerAlignment(javafx.geometry.Pos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.MenuBarSkin#setContainerAlignment(javafx.geometry.Pos) setContainerAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -150,8 +150,8 @@ public class MenuBarSkinBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.MenuBarSkin#setSpacing(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.MenuBarSkin#setSpacing(double) setSpacing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -188,7 +188,7 @@ public class MenuBarSkinBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.skin.MenuBarSkin#containerAlignmentProperty() containerAlignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.MenuBarSkin> func) apply} method.
      * <p>
      * Example: 
@@ -210,7 +210,7 @@ public class MenuBarSkinBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.MenuBarSkin#spacingProperty() spacingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.MenuBarSkin> func) apply} method.
      * <p>
      * Example: 

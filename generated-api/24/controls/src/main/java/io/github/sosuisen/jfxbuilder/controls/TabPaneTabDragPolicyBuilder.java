@@ -115,7 +115,7 @@ public class TabPaneTabDragPolicyBuilder {
         return false;
     }
     /**
-     * Applies a function to the TabDragPolicy instance currently being constructed.
+     * Applies a function to the TabDragPolicy instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

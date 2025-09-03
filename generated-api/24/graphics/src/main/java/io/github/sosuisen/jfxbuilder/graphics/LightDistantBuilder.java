@@ -143,7 +143,7 @@ public class LightDistantBuilder {
         return false;
     }
     /**
-     * Applies a function to the Distant instance currently being constructed.
+     * Applies a function to the Distant instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -154,8 +154,8 @@ public class LightDistantBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Light.Distant#setAzimuth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Light.Distant#setAzimuth(double) setAzimuth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -164,8 +164,8 @@ public class LightDistantBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Light.Distant#setColor(javafx.scene.paint.Color)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Light.Distant#setColor(javafx.scene.paint.Color) setColor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -174,8 +174,8 @@ public class LightDistantBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Light.Distant#setElevation(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Light.Distant#setElevation(double) setElevation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -185,7 +185,7 @@ public class LightDistantBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Distant#azimuthProperty() azimuthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Distant> func) apply} method.
      * <p>
      * Example: 
@@ -207,7 +207,7 @@ public class LightDistantBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Distant#colorProperty() colorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Distant> func) apply} method.
      * <p>
      * Example: 
@@ -229,7 +229,7 @@ public class LightDistantBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Distant#elevationProperty() elevationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Distant> func) apply} method.
      * <p>
      * Example: 

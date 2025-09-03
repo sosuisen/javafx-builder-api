@@ -131,7 +131,7 @@ public class TreeTableRowSkinBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the TreeTableRowSkin instance currently being constructed.
+     * Applies a function to the TreeTableRowSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -142,8 +142,8 @@ public class TreeTableRowSkinBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.TreeTableRowSkin#setIndent(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.TreeTableRowSkin#setIndent(double) setIndent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -180,7 +180,7 @@ public class TreeTableRowSkinBuilder<T> {
     
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TreeTableRowSkin#cellSizeProperty() cellSizeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TreeTableRowSkin<T>> func) apply} method.
      * <p>
      * Example: 
@@ -202,7 +202,7 @@ public class TreeTableRowSkinBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TreeTableRowSkin#indentProperty() indentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TreeTableRowSkin<T>> func) apply} method.
      * <p>
      * Example: 

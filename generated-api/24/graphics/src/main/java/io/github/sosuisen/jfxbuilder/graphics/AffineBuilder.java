@@ -185,7 +185,7 @@ public class AffineBuilder {
         return false;
     }
     /**
-     * Applies a function to the Affine instance currently being constructed.
+     * Applies a function to the Affine instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -196,8 +196,8 @@ public class AffineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Affine#setElement(javafx.scene.transform.MatrixType, int, int, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Affine#setElement(javafx.scene.transform.MatrixType, int, int, double) setElement} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -206,8 +206,8 @@ public class AffineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Affine#setMxx(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Affine#setMxx(double) setMxx} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -216,8 +216,8 @@ public class AffineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Affine#setMxy(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Affine#setMxy(double) setMxy} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -226,8 +226,8 @@ public class AffineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Affine#setMxz(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Affine#setMxz(double) setMxz} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -236,8 +236,8 @@ public class AffineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Affine#setMyx(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Affine#setMyx(double) setMyx} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -246,8 +246,8 @@ public class AffineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Affine#setMyy(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Affine#setMyy(double) setMyy} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -256,8 +256,8 @@ public class AffineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Affine#setMyz(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Affine#setMyz(double) setMyz} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -266,8 +266,8 @@ public class AffineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Affine#setMzx(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Affine#setMzx(double) setMzx} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -276,8 +276,8 @@ public class AffineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Affine#setMzy(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Affine#setMzy(double) setMzy} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -286,8 +286,8 @@ public class AffineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Affine#setMzz(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Affine#setMzz(double) setMzz} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -296,8 +296,8 @@ public class AffineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Affine#setOnTransformChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Affine#setOnTransformChanged(javafx.event.EventHandler) setOnTransformChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -306,8 +306,8 @@ public class AffineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Affine#setToIdentity()}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Affine#setToIdentity() setToIdentity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -316,8 +316,8 @@ public class AffineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Affine#setToTransform(double, double, double, double, double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Affine#setToTransform(double, double, double, double, double, double) setToTransform} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -326,8 +326,8 @@ public class AffineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Affine#setToTransform(double, double, double, double, double, double, double, double, double, double, double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Affine#setToTransform(double, double, double, double, double, double, double, double, double, double, double, double) setToTransform} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -336,8 +336,8 @@ public class AffineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Affine#setToTransform(double..., javafx.scene.transform.MatrixType, int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Affine#setToTransform(double..., javafx.scene.transform.MatrixType, int) setToTransform} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -346,8 +346,8 @@ public class AffineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Affine#setToTransform(javafx.scene.transform.Transform)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Affine#setToTransform(javafx.scene.transform.Transform) setToTransform} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -356,8 +356,8 @@ public class AffineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Affine#setTx(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Affine#setTx(double) setTx} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -366,8 +366,8 @@ public class AffineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Affine#setTy(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Affine#setTy(double) setTy} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -376,8 +376,8 @@ public class AffineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Affine#setTz(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Affine#setTz(double) setTz} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -387,7 +387,7 @@ public class AffineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#identityProperty() identityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
      * <p>
      * Example: 
@@ -409,7 +409,7 @@ public class AffineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#mxxProperty() mxxProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
      * <p>
      * Example: 
@@ -431,7 +431,7 @@ public class AffineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#mxyProperty() mxyProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
      * <p>
      * Example: 
@@ -453,7 +453,7 @@ public class AffineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#mxzProperty() mxzProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
      * <p>
      * Example: 
@@ -475,7 +475,7 @@ public class AffineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#myxProperty() myxProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
      * <p>
      * Example: 
@@ -497,7 +497,7 @@ public class AffineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#myyProperty() myyProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
      * <p>
      * Example: 
@@ -519,7 +519,7 @@ public class AffineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#myzProperty() myzProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
      * <p>
      * Example: 
@@ -541,7 +541,7 @@ public class AffineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#mzxProperty() mzxProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
      * <p>
      * Example: 
@@ -563,7 +563,7 @@ public class AffineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#mzyProperty() mzyProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
      * <p>
      * Example: 
@@ -585,7 +585,7 @@ public class AffineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#mzzProperty() mzzProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
      * <p>
      * Example: 
@@ -607,7 +607,7 @@ public class AffineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#onTransformChangedProperty() onTransformChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
      * <p>
      * Example: 
@@ -629,7 +629,7 @@ public class AffineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#txProperty() txProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
      * <p>
      * Example: 
@@ -651,7 +651,7 @@ public class AffineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#tyProperty() tyProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
      * <p>
      * Example: 
@@ -673,7 +673,7 @@ public class AffineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#type2DProperty() type2DProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
      * <p>
      * Example: 
@@ -695,7 +695,7 @@ public class AffineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#tzProperty() tzProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
      * <p>
      * Example: 

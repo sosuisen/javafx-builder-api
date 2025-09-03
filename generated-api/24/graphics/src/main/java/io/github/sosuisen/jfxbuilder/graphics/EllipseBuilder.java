@@ -157,7 +157,7 @@ public class EllipseBuilder {
         return false;
     }
     /**
-     * Applies a function to the Ellipse instance currently being constructed.
+     * Applies a function to the Ellipse instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -173,8 +173,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -183,8 +183,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -193,8 +193,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -203,8 +203,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -213,8 +213,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -223,8 +223,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -233,8 +233,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -243,8 +243,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setCenterX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setCenterX(double) setCenterX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -253,8 +253,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setCenterY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setCenterY(double) setCenterY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -263,8 +263,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -273,8 +273,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -283,8 +283,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -293,8 +293,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -303,8 +303,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -313,8 +313,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -323,8 +323,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -333,8 +333,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -343,8 +343,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -353,8 +353,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -363,8 +363,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -373,8 +373,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -383,8 +383,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -393,8 +393,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -403,8 +403,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -413,8 +413,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -423,8 +423,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -433,8 +433,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -443,8 +443,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -453,8 +453,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -463,8 +463,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -473,8 +473,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -483,8 +483,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -493,8 +493,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -503,8 +503,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -513,8 +513,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -523,8 +523,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -533,8 +533,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -543,8 +543,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -553,8 +553,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -563,8 +563,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -573,8 +573,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -583,8 +583,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -593,8 +593,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -603,8 +603,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -613,8 +613,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -623,8 +623,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -633,8 +633,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -643,8 +643,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -653,8 +653,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -663,8 +663,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -673,8 +673,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -683,8 +683,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -693,8 +693,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -703,8 +703,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -713,8 +713,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -723,8 +723,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -733,8 +733,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -743,8 +743,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -753,8 +753,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -763,8 +763,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -773,8 +773,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -783,8 +783,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -793,8 +793,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -803,8 +803,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -813,8 +813,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -823,8 +823,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setRadiusX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setRadiusX(double) setRadiusX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -833,8 +833,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setRadiusY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setRadiusY(double) setRadiusY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -843,8 +843,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -853,8 +853,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -863,8 +863,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -873,8 +873,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -883,8 +883,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -893,8 +893,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setSmooth(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setSmooth(boolean) setSmooth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -903,8 +903,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setStroke(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setStroke(javafx.scene.paint.Paint) setStroke} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -913,8 +913,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setStrokeDashOffset(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setStrokeDashOffset(double) setStrokeDashOffset} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -923,8 +923,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setStrokeLineCap(javafx.scene.shape.StrokeLineCap)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setStrokeLineCap(javafx.scene.shape.StrokeLineCap) setStrokeLineCap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -933,8 +933,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin) setStrokeLineJoin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -943,8 +943,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setStrokeMiterLimit(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setStrokeMiterLimit(double) setStrokeMiterLimit} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -953,8 +953,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setStrokeType(javafx.scene.shape.StrokeType)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setStrokeType(javafx.scene.shape.StrokeType) setStrokeType} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -963,8 +963,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setStrokeWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setStrokeWidth(double) setStrokeWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -973,8 +973,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -983,8 +983,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -993,8 +993,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1003,8 +1003,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1013,8 +1013,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1023,8 +1023,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1033,8 +1033,8 @@ public class EllipseBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Ellipse#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2014,7 +2014,7 @@ public class EllipseBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2036,7 +2036,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2058,7 +2058,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2080,7 +2080,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2102,7 +2102,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2124,7 +2124,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2146,7 +2146,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2168,7 +2168,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2190,7 +2190,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2212,7 +2212,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#centerXProperty() centerXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2234,7 +2234,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#centerYProperty() centerYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2256,7 +2256,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2278,7 +2278,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2300,7 +2300,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2322,7 +2322,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2344,7 +2344,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2366,7 +2366,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2388,7 +2388,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2410,7 +2410,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2432,7 +2432,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#fillProperty() fillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2454,7 +2454,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2476,7 +2476,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2498,7 +2498,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2520,7 +2520,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2542,7 +2542,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2564,7 +2564,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2586,7 +2586,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2608,7 +2608,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2630,7 +2630,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2652,7 +2652,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2674,7 +2674,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2696,7 +2696,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2718,7 +2718,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2740,7 +2740,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2762,7 +2762,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2784,7 +2784,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2806,7 +2806,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2828,7 +2828,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2850,7 +2850,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2872,7 +2872,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2894,7 +2894,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2916,7 +2916,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2938,7 +2938,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2960,7 +2960,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -2982,7 +2982,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3004,7 +3004,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3026,7 +3026,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3048,7 +3048,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3070,7 +3070,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3092,7 +3092,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3114,7 +3114,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3136,7 +3136,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3158,7 +3158,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3180,7 +3180,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3202,7 +3202,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3224,7 +3224,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3246,7 +3246,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3268,7 +3268,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3290,7 +3290,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3312,7 +3312,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3334,7 +3334,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3356,7 +3356,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3378,7 +3378,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3400,7 +3400,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3422,7 +3422,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3444,7 +3444,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3466,7 +3466,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3488,7 +3488,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3510,7 +3510,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3532,7 +3532,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3554,7 +3554,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3576,7 +3576,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3598,7 +3598,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3620,7 +3620,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3642,7 +3642,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3664,7 +3664,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3686,7 +3686,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3708,7 +3708,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3730,7 +3730,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#radiusXProperty() radiusXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3752,7 +3752,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#radiusYProperty() radiusYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3774,7 +3774,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3796,7 +3796,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3818,7 +3818,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3840,7 +3840,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3862,7 +3862,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3884,7 +3884,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3906,7 +3906,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#smoothProperty() smoothProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3928,7 +3928,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeDashOffsetProperty() strokeDashOffsetProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3950,7 +3950,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeLineCapProperty() strokeLineCapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3972,7 +3972,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeLineJoinProperty() strokeLineJoinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -3994,7 +3994,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeMiterLimitProperty() strokeMiterLimitProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -4016,7 +4016,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeProperty() strokeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -4038,7 +4038,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeTypeProperty() strokeTypeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -4060,7 +4060,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeWidthProperty() strokeWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -4082,7 +4082,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -4104,7 +4104,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -4126,7 +4126,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -4148,7 +4148,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -4170,7 +4170,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 
@@ -4192,7 +4192,7 @@ public class EllipseBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
      * <p>
      * Example: 

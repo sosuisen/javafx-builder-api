@@ -143,7 +143,7 @@ public class ColorInputBuilder {
         return false;
     }
     /**
-     * Applies a function to the ColorInput instance currently being constructed.
+     * Applies a function to the ColorInput instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -154,8 +154,8 @@ public class ColorInputBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.ColorInput#setHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.ColorInput#setHeight(double) setHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -164,8 +164,8 @@ public class ColorInputBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.ColorInput#setPaint(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.ColorInput#setPaint(javafx.scene.paint.Paint) setPaint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -174,8 +174,8 @@ public class ColorInputBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.ColorInput#setWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.ColorInput#setWidth(double) setWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -184,8 +184,8 @@ public class ColorInputBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.ColorInput#setX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.ColorInput#setX(double) setX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -194,8 +194,8 @@ public class ColorInputBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.ColorInput#setY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.ColorInput#setY(double) setY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -205,7 +205,7 @@ public class ColorInputBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorInput#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorInput> func) apply} method.
      * <p>
      * Example: 
@@ -227,7 +227,7 @@ public class ColorInputBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorInput#paintProperty() paintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorInput> func) apply} method.
      * <p>
      * Example: 
@@ -249,7 +249,7 @@ public class ColorInputBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorInput#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorInput> func) apply} method.
      * <p>
      * Example: 
@@ -271,7 +271,7 @@ public class ColorInputBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorInput#xProperty() xProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorInput> func) apply} method.
      * <p>
      * Example: 
@@ -293,7 +293,7 @@ public class ColorInputBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorInput#yProperty() yProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorInput> func) apply} method.
      * <p>
      * Example: 

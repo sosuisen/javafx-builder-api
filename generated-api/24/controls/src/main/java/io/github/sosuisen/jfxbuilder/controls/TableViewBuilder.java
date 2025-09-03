@@ -145,7 +145,7 @@ public class TableViewBuilder<S> {
         return false;
     }
     /**
-     * Applies a function to the TableView instance currently being constructed.
+     * Applies a function to the TableView instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -161,8 +161,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -171,8 +171,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -181,8 +181,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -191,8 +191,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -201,8 +201,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -211,8 +211,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -221,8 +221,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -231,8 +231,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -241,8 +241,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -251,8 +251,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -261,8 +261,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -271,8 +271,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -281,8 +281,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setColumnResizePolicy(javafx.util.Callback)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setColumnResizePolicy(javafx.util.Callback) setColumnResizePolicy} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     @SuppressWarnings("rawtypes")
@@ -291,8 +291,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -301,8 +301,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -311,8 +311,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -321,8 +321,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -331,8 +331,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setEditable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setEditable(boolean) setEditable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -341,8 +341,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -351,8 +351,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -361,8 +361,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setFixedCellSize(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setFixedCellSize(double) setFixedCellSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -371,8 +371,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setFocusModel(javafx.scene.control.TableView$TableViewFocusModel)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setFocusModel(javafx.scene.control.TableView$TableViewFocusModel) setFocusModel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -381,8 +381,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -391,8 +391,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -401,8 +401,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -411,8 +411,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setItems(javafx.collections.ObservableList)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setItems(javafx.collections.ObservableList) setItems} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -421,8 +421,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -431,8 +431,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -441,8 +441,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -451,8 +451,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -461,8 +461,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -471,8 +471,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -481,8 +481,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -491,8 +491,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -501,8 +501,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -511,8 +511,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -521,8 +521,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -531,8 +531,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -541,8 +541,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -551,8 +551,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -561,8 +561,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -571,8 +571,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -581,8 +581,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -591,8 +591,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -601,8 +601,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -611,8 +611,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -621,8 +621,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -631,8 +631,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -641,8 +641,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -651,8 +651,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -661,8 +661,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -671,8 +671,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -681,8 +681,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -691,8 +691,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -701,8 +701,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -711,8 +711,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -721,8 +721,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -731,8 +731,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -741,8 +741,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -751,8 +751,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -761,8 +761,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -771,8 +771,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -781,8 +781,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -791,8 +791,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -801,8 +801,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -811,8 +811,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnScrollTo(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnScrollTo(javafx.event.EventHandler) setOnScrollTo} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -821,8 +821,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnScrollToColumn(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnScrollToColumn(javafx.event.EventHandler) setOnScrollToColumn} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -831,8 +831,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnSort(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnSort(javafx.event.EventHandler) setOnSort} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -841,8 +841,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -851,8 +851,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -861,8 +861,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -871,8 +871,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -881,8 +881,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -891,8 +891,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -901,8 +901,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -911,8 +911,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -921,8 +921,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -931,8 +931,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -941,8 +941,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -951,8 +951,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -961,8 +961,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -971,8 +971,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -981,8 +981,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -991,8 +991,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setPlaceholder(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setPlaceholder(javafx.scene.Node) setPlaceholder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1001,8 +1001,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1011,8 +1011,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1021,8 +1021,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1031,8 +1031,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1041,8 +1041,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1051,8 +1051,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setRowFactory(javafx.util.Callback)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setRowFactory(javafx.util.Callback) setRowFactory} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1061,8 +1061,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1071,8 +1071,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1081,8 +1081,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1091,8 +1091,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1101,8 +1101,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setSelectionModel(javafx.scene.control.TableView$TableViewSelectionModel)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setSelectionModel(javafx.scene.control.TableView$TableViewSelectionModel) setSelectionModel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1111,8 +1111,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1121,8 +1121,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1131,8 +1131,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1141,8 +1141,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setSortPolicy(javafx.util.Callback)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setSortPolicy(javafx.util.Callback) setSortPolicy} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1151,8 +1151,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1161,8 +1161,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setTableMenuButtonVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setTableMenuButtonVisible(boolean) setTableMenuButtonVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1171,8 +1171,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1181,8 +1181,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1191,8 +1191,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1201,8 +1201,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1211,8 +1211,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1221,8 +1221,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1231,8 +1231,8 @@ public class TableViewBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TableView#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TableView#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2399,7 +2399,7 @@ public class TableViewBuilder<S> {
     
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2421,7 +2421,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2443,7 +2443,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2465,7 +2465,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2487,7 +2487,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2509,7 +2509,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2531,7 +2531,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2553,7 +2553,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2575,7 +2575,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2597,7 +2597,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2619,7 +2619,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2641,7 +2641,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2663,7 +2663,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2685,7 +2685,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2707,7 +2707,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#columnResizePolicyProperty() columnResizePolicyProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2729,7 +2729,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#comparatorProperty() comparatorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2751,7 +2751,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2773,7 +2773,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2795,7 +2795,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2817,7 +2817,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2839,7 +2839,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2861,7 +2861,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#editableProperty() editableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2883,7 +2883,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#editingCellProperty() editingCellProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2905,7 +2905,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2927,7 +2927,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2949,7 +2949,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2971,7 +2971,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#fixedCellSizeProperty() fixedCellSizeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -2993,7 +2993,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#focusModelProperty() focusModelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3015,7 +3015,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3037,7 +3037,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3059,7 +3059,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3081,7 +3081,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3103,7 +3103,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3125,7 +3125,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3147,7 +3147,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3169,7 +3169,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3191,7 +3191,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3213,7 +3213,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#itemsProperty() itemsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3235,7 +3235,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3257,7 +3257,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3279,7 +3279,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3301,7 +3301,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3323,7 +3323,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3345,7 +3345,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3367,7 +3367,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3389,7 +3389,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3411,7 +3411,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3433,7 +3433,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3455,7 +3455,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3477,7 +3477,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3499,7 +3499,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3521,7 +3521,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3543,7 +3543,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3565,7 +3565,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3587,7 +3587,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3609,7 +3609,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3631,7 +3631,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3653,7 +3653,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3675,7 +3675,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3697,7 +3697,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3719,7 +3719,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3741,7 +3741,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3763,7 +3763,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3785,7 +3785,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3807,7 +3807,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3829,7 +3829,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3851,7 +3851,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3873,7 +3873,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3895,7 +3895,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3917,7 +3917,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3939,7 +3939,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3961,7 +3961,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -3983,7 +3983,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4005,7 +4005,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4027,7 +4027,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4049,7 +4049,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4071,7 +4071,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4093,7 +4093,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4115,7 +4115,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4137,7 +4137,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onScrollToColumnProperty() onScrollToColumnProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4159,7 +4159,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onScrollToProperty() onScrollToProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4181,7 +4181,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onSortProperty() onSortProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4203,7 +4203,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4225,7 +4225,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4247,7 +4247,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4269,7 +4269,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4291,7 +4291,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4313,7 +4313,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4335,7 +4335,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4357,7 +4357,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4379,7 +4379,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4401,7 +4401,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4423,7 +4423,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4445,7 +4445,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4467,7 +4467,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4489,7 +4489,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4511,7 +4511,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4533,7 +4533,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4555,7 +4555,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#placeholderProperty() placeholderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4577,7 +4577,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4599,7 +4599,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4621,7 +4621,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4643,7 +4643,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4665,7 +4665,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4687,7 +4687,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#rowFactoryProperty() rowFactoryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4709,7 +4709,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4731,7 +4731,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4753,7 +4753,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4775,7 +4775,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4797,7 +4797,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4819,7 +4819,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#selectionModelProperty() selectionModelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4841,7 +4841,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4863,7 +4863,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4885,7 +4885,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4907,7 +4907,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#sortPolicyProperty() sortPolicyProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4929,7 +4929,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4951,7 +4951,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#tableMenuButtonVisibleProperty() tableMenuButtonVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4973,7 +4973,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -4995,7 +4995,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -5017,7 +5017,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -5039,7 +5039,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -5061,7 +5061,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -5083,7 +5083,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 
@@ -5105,7 +5105,7 @@ public class TableViewBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TableView#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
      * <p>
      * Example: 

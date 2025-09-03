@@ -143,7 +143,7 @@ public class LightPointBuilder {
         return false;
     }
     /**
-     * Applies a function to the Point instance currently being constructed.
+     * Applies a function to the Point instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -154,8 +154,8 @@ public class LightPointBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Light.Point#setColor(javafx.scene.paint.Color)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Light.Point#setColor(javafx.scene.paint.Color) setColor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -164,8 +164,8 @@ public class LightPointBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Light.Point#setX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Light.Point#setX(double) setX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -174,8 +174,8 @@ public class LightPointBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Light.Point#setY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Light.Point#setY(double) setY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -184,8 +184,8 @@ public class LightPointBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Light.Point#setZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Light.Point#setZ(double) setZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -195,7 +195,7 @@ public class LightPointBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Point#colorProperty() colorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Point> func) apply} method.
      * <p>
      * Example: 
@@ -217,7 +217,7 @@ public class LightPointBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Point#xProperty() xProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Point> func) apply} method.
      * <p>
      * Example: 
@@ -239,7 +239,7 @@ public class LightPointBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Point#yProperty() yProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Point> func) apply} method.
      * <p>
      * Example: 
@@ -261,7 +261,7 @@ public class LightPointBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Point#zProperty() zProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Point> func) apply} method.
      * <p>
      * Example: 

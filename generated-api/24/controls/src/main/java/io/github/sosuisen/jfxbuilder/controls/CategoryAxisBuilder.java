@@ -143,7 +143,7 @@ public class CategoryAxisBuilder {
         return false;
     }
     /**
-     * Applies a function to the CategoryAxis instance currently being constructed.
+     * Applies a function to the CategoryAxis instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -159,8 +159,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -169,8 +169,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -179,8 +179,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -189,8 +189,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -199,8 +199,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setAnimated(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setAnimated(boolean) setAnimated} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -209,8 +209,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setAutoRanging(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setAutoRanging(boolean) setAutoRanging} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -219,8 +219,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,8 +229,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -239,8 +239,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -249,8 +249,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -259,8 +259,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -269,8 +269,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -279,8 +279,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setCategories(javafx.collections.ObservableList)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setCategories(javafx.collections.ObservableList) setCategories} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -289,8 +289,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -299,8 +299,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -309,8 +309,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -319,8 +319,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -329,8 +329,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -339,8 +339,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -349,8 +349,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setEndMargin(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setEndMargin(double) setEndMargin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -359,8 +359,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -369,8 +369,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -379,8 +379,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setGapStartAndEnd(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setGapStartAndEnd(boolean) setGapStartAndEnd} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -389,8 +389,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -399,8 +399,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -409,8 +409,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setLabel(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setLabel(java.lang.String) setLabel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -419,8 +419,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -429,8 +429,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -439,8 +439,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -449,8 +449,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -459,8 +459,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -469,8 +469,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -479,8 +479,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -489,8 +489,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -499,8 +499,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -509,8 +509,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -519,8 +519,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -529,8 +529,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -539,8 +539,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -549,8 +549,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -559,8 +559,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -569,8 +569,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -579,8 +579,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -589,8 +589,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -599,8 +599,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -609,8 +609,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -619,8 +619,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -629,8 +629,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -639,8 +639,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -649,8 +649,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -659,8 +659,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -669,8 +669,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -679,8 +679,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -689,8 +689,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -699,8 +699,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -709,8 +709,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -719,8 +719,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -729,8 +729,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -739,8 +739,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -749,8 +749,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -759,8 +759,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -769,8 +769,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -779,8 +779,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -789,8 +789,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -799,8 +799,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -809,8 +809,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -819,8 +819,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -829,8 +829,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -839,8 +839,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -849,8 +849,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -859,8 +859,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -869,8 +869,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -879,8 +879,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -889,8 +889,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -899,8 +899,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -909,8 +909,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -919,8 +919,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -929,8 +929,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -939,8 +939,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -949,8 +949,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -959,8 +959,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -969,8 +969,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -979,8 +979,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -989,8 +989,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -999,8 +999,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1009,8 +1009,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1019,8 +1019,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1029,8 +1029,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1039,8 +1039,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1049,8 +1049,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1059,8 +1059,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setSide(javafx.geometry.Side)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setSide(javafx.geometry.Side) setSide} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1069,8 +1069,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1079,8 +1079,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setStartMargin(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setStartMargin(double) setStartMargin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1089,8 +1089,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1099,8 +1099,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setTickLabelFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setTickLabelFill(javafx.scene.paint.Paint) setTickLabelFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1109,8 +1109,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setTickLabelFont(javafx.scene.text.Font)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setTickLabelFont(javafx.scene.text.Font) setTickLabelFont} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1119,8 +1119,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setTickLabelGap(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setTickLabelGap(double) setTickLabelGap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1129,8 +1129,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setTickLabelRotation(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setTickLabelRotation(double) setTickLabelRotation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1139,8 +1139,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setTickLabelsVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setTickLabelsVisible(boolean) setTickLabelsVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1149,8 +1149,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setTickLength(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setTickLength(double) setTickLength} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1159,8 +1159,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setTickMarkVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setTickMarkVisible(boolean) setTickMarkVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1169,8 +1169,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1179,8 +1179,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1189,8 +1189,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1199,8 +1199,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1209,8 +1209,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1219,8 +1219,8 @@ public class CategoryAxisBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.CategoryAxis#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.CategoryAxis#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2291,7 +2291,7 @@ public class CategoryAxisBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2313,7 +2313,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2335,7 +2335,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2357,7 +2357,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2379,7 +2379,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#animatedProperty() animatedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2401,7 +2401,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#autoRangingProperty() autoRangingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2423,7 +2423,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2445,7 +2445,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2467,7 +2467,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2489,7 +2489,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2511,7 +2511,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2533,7 +2533,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2555,7 +2555,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2577,7 +2577,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2599,7 +2599,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#categorySpacingProperty() categorySpacingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2621,7 +2621,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2643,7 +2643,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2665,7 +2665,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2687,7 +2687,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2709,7 +2709,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2731,7 +2731,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2753,7 +2753,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2775,7 +2775,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2797,7 +2797,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#endMarginProperty() endMarginProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2819,7 +2819,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2841,7 +2841,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2863,7 +2863,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2885,7 +2885,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2907,7 +2907,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2929,7 +2929,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#gapStartAndEndProperty() gapStartAndEndProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2951,7 +2951,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2973,7 +2973,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -2995,7 +2995,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3017,7 +3017,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3039,7 +3039,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3061,7 +3061,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#labelProperty() labelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3083,7 +3083,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3105,7 +3105,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3127,7 +3127,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3149,7 +3149,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3171,7 +3171,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3193,7 +3193,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3215,7 +3215,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3237,7 +3237,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3259,7 +3259,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3281,7 +3281,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3303,7 +3303,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3325,7 +3325,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3347,7 +3347,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3369,7 +3369,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3391,7 +3391,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3413,7 +3413,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3435,7 +3435,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3457,7 +3457,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3479,7 +3479,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3501,7 +3501,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3523,7 +3523,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3545,7 +3545,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3567,7 +3567,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3589,7 +3589,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3611,7 +3611,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3633,7 +3633,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3655,7 +3655,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3677,7 +3677,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3699,7 +3699,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3721,7 +3721,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3743,7 +3743,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3765,7 +3765,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3787,7 +3787,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3809,7 +3809,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3831,7 +3831,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3853,7 +3853,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3875,7 +3875,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3897,7 +3897,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3919,7 +3919,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3941,7 +3941,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3963,7 +3963,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -3985,7 +3985,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4007,7 +4007,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4029,7 +4029,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4051,7 +4051,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4073,7 +4073,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4095,7 +4095,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4117,7 +4117,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4139,7 +4139,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4161,7 +4161,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4183,7 +4183,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4205,7 +4205,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4227,7 +4227,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4249,7 +4249,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4271,7 +4271,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4293,7 +4293,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4315,7 +4315,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4337,7 +4337,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4359,7 +4359,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4381,7 +4381,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4403,7 +4403,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4425,7 +4425,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4447,7 +4447,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4469,7 +4469,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4491,7 +4491,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4513,7 +4513,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4535,7 +4535,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4557,7 +4557,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4579,7 +4579,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#sideProperty() sideProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4601,7 +4601,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4623,7 +4623,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#startMarginProperty() startMarginProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4645,7 +4645,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4667,7 +4667,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#tickLabelFillProperty() tickLabelFillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4689,7 +4689,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#tickLabelFontProperty() tickLabelFontProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4711,7 +4711,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#tickLabelGapProperty() tickLabelGapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4733,7 +4733,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#tickLabelRotationProperty() tickLabelRotationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4755,7 +4755,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#tickLabelsVisibleProperty() tickLabelsVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4777,7 +4777,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#tickLengthProperty() tickLengthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4799,7 +4799,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#tickMarkVisibleProperty() tickMarkVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4821,7 +4821,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4843,7 +4843,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4865,7 +4865,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4887,7 +4887,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4909,7 +4909,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 
@@ -4931,7 +4931,7 @@ public class CategoryAxisBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.CategoryAxis#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) apply} method.
      * <p>
      * Example: 

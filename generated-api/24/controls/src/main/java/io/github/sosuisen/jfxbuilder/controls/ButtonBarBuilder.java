@@ -143,7 +143,7 @@ public class ButtonBarBuilder {
         return false;
     }
     /**
-     * Applies a function to the ButtonBar instance currently being constructed.
+     * Applies a function to the ButtonBar instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -159,8 +159,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -169,8 +169,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -179,8 +179,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -189,8 +189,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -199,8 +199,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -209,8 +209,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -219,8 +219,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,8 +229,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setButtonMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setButtonMinWidth(double) setButtonMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -239,8 +239,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setButtonOrder(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setButtonOrder(java.lang.String) setButtonOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -249,8 +249,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -259,8 +259,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -269,8 +269,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -279,8 +279,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -289,8 +289,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -299,8 +299,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -309,8 +309,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -319,8 +319,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -329,8 +329,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -339,8 +339,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -349,8 +349,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -359,8 +359,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -369,8 +369,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -379,8 +379,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -389,8 +389,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -399,8 +399,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -409,8 +409,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -419,8 +419,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -429,8 +429,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -439,8 +439,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -449,8 +449,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -459,8 +459,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -469,8 +469,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -479,8 +479,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -489,8 +489,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -499,8 +499,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -509,8 +509,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -519,8 +519,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -529,8 +529,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -539,8 +539,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -549,8 +549,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -559,8 +559,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -569,8 +569,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -579,8 +579,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -589,8 +589,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -599,8 +599,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -609,8 +609,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -619,8 +619,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -629,8 +629,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -639,8 +639,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -649,8 +649,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -659,8 +659,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -669,8 +669,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -679,8 +679,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -689,8 +689,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -699,8 +699,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -709,8 +709,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -719,8 +719,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -729,8 +729,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -739,8 +739,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -749,8 +749,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -759,8 +759,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -769,8 +769,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -779,8 +779,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -789,8 +789,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -799,8 +799,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -809,8 +809,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -819,8 +819,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -829,8 +829,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -839,8 +839,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -849,8 +849,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -859,8 +859,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -869,8 +869,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -879,8 +879,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -889,8 +889,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -899,8 +899,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -909,8 +909,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -919,8 +919,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -929,8 +929,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -939,8 +939,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -949,8 +949,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -959,8 +959,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -969,8 +969,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -979,8 +979,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -989,8 +989,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -999,8 +999,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1009,8 +1009,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1019,8 +1019,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1029,8 +1029,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1039,8 +1039,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1049,8 +1049,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1059,8 +1059,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1069,8 +1069,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1079,8 +1079,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1089,8 +1089,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1099,8 +1099,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1109,8 +1109,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1119,8 +1119,8 @@ public class ButtonBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ButtonBar#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2143,7 +2143,7 @@ public class ButtonBarBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2165,7 +2165,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2187,7 +2187,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2209,7 +2209,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2231,7 +2231,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2253,7 +2253,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2275,7 +2275,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2297,7 +2297,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2319,7 +2319,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2341,7 +2341,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#buttonMinWidthProperty() buttonMinWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2363,7 +2363,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#buttonOrderProperty() buttonOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2385,7 +2385,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2407,7 +2407,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2429,7 +2429,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2451,7 +2451,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2473,7 +2473,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2495,7 +2495,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2517,7 +2517,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2539,7 +2539,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2561,7 +2561,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2583,7 +2583,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2605,7 +2605,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2627,7 +2627,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2649,7 +2649,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2671,7 +2671,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2693,7 +2693,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2715,7 +2715,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2737,7 +2737,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2759,7 +2759,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2781,7 +2781,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2803,7 +2803,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2825,7 +2825,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2847,7 +2847,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2869,7 +2869,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2891,7 +2891,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2913,7 +2913,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2935,7 +2935,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2957,7 +2957,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -2979,7 +2979,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3001,7 +3001,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3023,7 +3023,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3045,7 +3045,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3067,7 +3067,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3089,7 +3089,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3111,7 +3111,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3133,7 +3133,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3155,7 +3155,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3177,7 +3177,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3199,7 +3199,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3221,7 +3221,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3243,7 +3243,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3265,7 +3265,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3287,7 +3287,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3309,7 +3309,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3331,7 +3331,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3353,7 +3353,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3375,7 +3375,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3397,7 +3397,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3419,7 +3419,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3441,7 +3441,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3463,7 +3463,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3485,7 +3485,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3507,7 +3507,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3529,7 +3529,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3551,7 +3551,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3573,7 +3573,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3595,7 +3595,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3617,7 +3617,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3639,7 +3639,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3661,7 +3661,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3683,7 +3683,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3705,7 +3705,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3727,7 +3727,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3749,7 +3749,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3771,7 +3771,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3793,7 +3793,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3815,7 +3815,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3837,7 +3837,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3859,7 +3859,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3881,7 +3881,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3903,7 +3903,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3925,7 +3925,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3947,7 +3947,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3969,7 +3969,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -3991,7 +3991,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4013,7 +4013,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4035,7 +4035,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4057,7 +4057,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4079,7 +4079,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4101,7 +4101,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4123,7 +4123,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4145,7 +4145,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4167,7 +4167,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4189,7 +4189,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4211,7 +4211,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4233,7 +4233,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4255,7 +4255,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4277,7 +4277,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4299,7 +4299,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4321,7 +4321,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4343,7 +4343,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4365,7 +4365,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4387,7 +4387,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4409,7 +4409,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4431,7 +4431,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4453,7 +4453,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4475,7 +4475,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4497,7 +4497,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4519,7 +4519,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4541,7 +4541,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 
@@ -4563,7 +4563,7 @@ public class ButtonBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ButtonBar#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ButtonBar> func) apply} method.
      * <p>
      * Example: 

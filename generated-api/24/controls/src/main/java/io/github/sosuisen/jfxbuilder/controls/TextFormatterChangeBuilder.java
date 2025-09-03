@@ -115,7 +115,7 @@ public class TextFormatterChangeBuilder {
         return false;
     }
     /**
-     * Applies a function to the Change instance currently being constructed.
+     * Applies a function to the Change instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -126,8 +126,8 @@ public class TextFormatterChangeBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextFormatter.Change#setAnchor(int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextFormatter.Change#setAnchor(int) setAnchor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -136,8 +136,8 @@ public class TextFormatterChangeBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextFormatter.Change#setCaretPosition(int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextFormatter.Change#setCaretPosition(int) setCaretPosition} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -146,8 +146,8 @@ public class TextFormatterChangeBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextFormatter.Change#setRange(int, int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextFormatter.Change#setRange(int, int) setRange} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -156,8 +156,8 @@ public class TextFormatterChangeBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextFormatter.Change#setText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextFormatter.Change#setText(java.lang.String) setText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     

@@ -159,7 +159,7 @@ public class CheckBoxTreeCellBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the CheckBoxTreeCell instance currently being constructed.
+     * Applies a function to the CheckBoxTreeCell instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -175,8 +175,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -185,8 +185,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -195,8 +195,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -205,8 +205,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -215,8 +215,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setAlignment(javafx.geometry.Pos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -225,8 +225,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -235,8 +235,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -245,8 +245,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -255,8 +255,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -265,8 +265,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -275,8 +275,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -285,8 +285,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -295,8 +295,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -305,8 +305,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setContentDisplay(javafx.scene.control.ContentDisplay)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -315,8 +315,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -325,8 +325,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setConverter(javafx.util.StringConverter)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setConverter(javafx.util.StringConverter) setConverter} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -335,8 +335,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -345,8 +345,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -355,8 +355,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -365,8 +365,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setDisclosureNode(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setDisclosureNode(javafx.scene.Node) setDisclosureNode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -375,8 +375,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setEditable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setEditable(boolean) setEditable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -385,8 +385,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -395,8 +395,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setEllipsisString(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -405,8 +405,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -415,8 +415,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -425,8 +425,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setFont(javafx.scene.text.Font)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -435,8 +435,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setGraphic(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -445,8 +445,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setGraphicTextGap(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -455,8 +455,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -465,8 +465,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -475,8 +475,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setItem(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setItem(java.lang.Object) setItem} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -485,8 +485,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -495,8 +495,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -505,8 +505,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setLineSpacing(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -515,8 +515,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -525,8 +525,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -535,8 +535,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -545,8 +545,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -555,8 +555,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -565,8 +565,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -575,8 +575,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -585,8 +585,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setMnemonicParsing(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -595,8 +595,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -605,8 +605,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -615,8 +615,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -625,8 +625,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -635,8 +635,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -645,8 +645,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -655,8 +655,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -665,8 +665,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -675,8 +675,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -685,8 +685,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -695,8 +695,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -705,8 +705,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -715,8 +715,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -725,8 +725,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -735,8 +735,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -745,8 +745,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -755,8 +755,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -765,8 +765,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -775,8 +775,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -785,8 +785,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -795,8 +795,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -805,8 +805,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -815,8 +815,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -825,8 +825,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -835,8 +835,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -845,8 +845,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -855,8 +855,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -865,8 +865,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -875,8 +875,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -885,8 +885,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -895,8 +895,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -905,8 +905,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -915,8 +915,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -925,8 +925,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -935,8 +935,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -945,8 +945,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -955,8 +955,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -965,8 +965,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -975,8 +975,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -985,8 +985,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -995,8 +995,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1005,8 +1005,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1015,8 +1015,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1025,8 +1025,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1035,8 +1035,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1045,8 +1045,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1055,8 +1055,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1065,8 +1065,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1075,8 +1075,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1085,8 +1085,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1095,8 +1095,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1105,8 +1105,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1115,8 +1115,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1125,8 +1125,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1135,8 +1135,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setSelectedStateCallback(javafx.util.Callback)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setSelectedStateCallback(javafx.util.Callback) setSelectedStateCallback} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1145,8 +1145,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1155,8 +1155,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1165,8 +1165,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1175,8 +1175,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1185,8 +1185,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setText(java.lang.String) setText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1195,8 +1195,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setTextAlignment(javafx.scene.text.TextAlignment)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1205,8 +1205,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setTextFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1215,8 +1215,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setTextOverrun(javafx.scene.control.OverrunStyle)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1225,8 +1225,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1235,8 +1235,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1245,8 +1245,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1255,8 +1255,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1265,8 +1265,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setUnderline(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setUnderline(boolean) setUnderline} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1275,8 +1275,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1285,8 +1285,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1295,8 +1295,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1305,8 +1305,8 @@ public class CheckBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.CheckBoxTreeCell#setWrapText(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setWrapText(boolean) setWrapText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2281,7 +2281,7 @@ public class CheckBoxTreeCellBuilder<T> {
     
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2303,7 +2303,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2325,7 +2325,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2347,7 +2347,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2369,7 +2369,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#alignmentProperty() alignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2391,7 +2391,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2413,7 +2413,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2435,7 +2435,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2457,7 +2457,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2479,7 +2479,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2501,7 +2501,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2523,7 +2523,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2545,7 +2545,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2567,7 +2567,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2589,7 +2589,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2611,7 +2611,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#contentDisplayProperty() contentDisplayProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2633,7 +2633,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2655,7 +2655,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#converterProperty() converterProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2677,7 +2677,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2699,7 +2699,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2721,7 +2721,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2743,7 +2743,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2765,7 +2765,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#disclosureNodeProperty() disclosureNodeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2787,7 +2787,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#editableProperty() editableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2809,7 +2809,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#editingProperty() editingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2831,7 +2831,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2853,7 +2853,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2875,7 +2875,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#ellipsisStringProperty() ellipsisStringProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2897,7 +2897,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#emptyProperty() emptyProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2919,7 +2919,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2941,7 +2941,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2963,7 +2963,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2985,7 +2985,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3007,7 +3007,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3029,7 +3029,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#fontProperty() fontProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3051,7 +3051,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#graphicProperty() graphicProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3073,7 +3073,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#graphicTextGapProperty() graphicTextGapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3095,7 +3095,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3117,7 +3117,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3139,7 +3139,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3161,7 +3161,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#indexProperty() indexProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3183,7 +3183,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3205,7 +3205,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3227,7 +3227,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#itemProperty() itemProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3249,7 +3249,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#labelPaddingProperty() labelPaddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3271,7 +3271,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3293,7 +3293,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3315,7 +3315,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3337,7 +3337,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#lineSpacingProperty() lineSpacingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3359,7 +3359,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3381,7 +3381,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3403,7 +3403,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3425,7 +3425,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3447,7 +3447,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3469,7 +3469,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3491,7 +3491,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3513,7 +3513,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#mnemonicParsingProperty() mnemonicParsingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3535,7 +3535,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3557,7 +3557,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3579,7 +3579,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3601,7 +3601,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3623,7 +3623,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3645,7 +3645,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3667,7 +3667,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3689,7 +3689,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3711,7 +3711,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3733,7 +3733,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3755,7 +3755,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3777,7 +3777,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3799,7 +3799,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3821,7 +3821,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3843,7 +3843,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3865,7 +3865,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3887,7 +3887,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3909,7 +3909,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3931,7 +3931,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3953,7 +3953,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3975,7 +3975,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3997,7 +3997,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4019,7 +4019,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4041,7 +4041,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4063,7 +4063,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4085,7 +4085,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4107,7 +4107,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4129,7 +4129,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4151,7 +4151,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4173,7 +4173,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4195,7 +4195,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4217,7 +4217,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4239,7 +4239,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4261,7 +4261,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4283,7 +4283,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4305,7 +4305,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4327,7 +4327,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4349,7 +4349,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4371,7 +4371,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4393,7 +4393,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4415,7 +4415,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4437,7 +4437,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4459,7 +4459,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4481,7 +4481,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4503,7 +4503,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4525,7 +4525,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4547,7 +4547,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4569,7 +4569,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4591,7 +4591,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4613,7 +4613,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4635,7 +4635,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4657,7 +4657,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4679,7 +4679,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4701,7 +4701,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4723,7 +4723,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4745,7 +4745,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4767,7 +4767,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4789,7 +4789,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#selectedProperty() selectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4811,7 +4811,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#selectedStateCallbackProperty() selectedStateCallbackProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4833,7 +4833,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4855,7 +4855,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4877,7 +4877,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4899,7 +4899,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4921,7 +4921,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#textAlignmentProperty() textAlignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4943,7 +4943,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#textFillProperty() textFillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4965,7 +4965,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#textOverrunProperty() textOverrunProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4987,7 +4987,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#textProperty() textProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5009,7 +5009,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#textTruncatedProperty() textTruncatedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5031,7 +5031,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5053,7 +5053,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5075,7 +5075,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5097,7 +5097,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5119,7 +5119,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#treeItemProperty() treeItemProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5141,7 +5141,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#treeViewProperty() treeViewProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5163,7 +5163,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#underlineProperty() underlineProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5185,7 +5185,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5207,7 +5207,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5229,7 +5229,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5251,7 +5251,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxTreeCell#wrapTextProperty() wrapTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 

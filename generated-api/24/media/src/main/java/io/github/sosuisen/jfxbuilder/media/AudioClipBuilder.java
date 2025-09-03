@@ -129,7 +129,7 @@ public class AudioClipBuilder {
         return false;
     }
     /**
-     * Applies a function to the AudioClip instance currently being constructed.
+     * Applies a function to the AudioClip instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -140,8 +140,8 @@ public class AudioClipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.AudioClip#setBalance(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.AudioClip#setBalance(double) setBalance} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -150,8 +150,8 @@ public class AudioClipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.AudioClip#setCycleCount(int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.AudioClip#setCycleCount(int) setCycleCount} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -160,8 +160,8 @@ public class AudioClipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.AudioClip#setPan(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.AudioClip#setPan(double) setPan} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -170,8 +170,8 @@ public class AudioClipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.AudioClip#setPriority(int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.AudioClip#setPriority(int) setPriority} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -180,8 +180,8 @@ public class AudioClipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.AudioClip#setRate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.AudioClip#setRate(double) setRate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -190,8 +190,8 @@ public class AudioClipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.AudioClip#setVolume(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.AudioClip#setVolume(double) setVolume} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -201,7 +201,7 @@ public class AudioClipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.AudioClip#balanceProperty() balanceProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.AudioClip> func) apply} method.
      * <p>
      * Example: 
@@ -223,7 +223,7 @@ public class AudioClipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.AudioClip#cycleCountProperty() cycleCountProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.AudioClip> func) apply} method.
      * <p>
      * Example: 
@@ -245,7 +245,7 @@ public class AudioClipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.AudioClip#panProperty() panProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.AudioClip> func) apply} method.
      * <p>
      * Example: 
@@ -267,7 +267,7 @@ public class AudioClipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.AudioClip#priorityProperty() priorityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.AudioClip> func) apply} method.
      * <p>
      * Example: 
@@ -289,7 +289,7 @@ public class AudioClipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.AudioClip#rateProperty() rateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.AudioClip> func) apply} method.
      * <p>
      * Example: 
@@ -311,7 +311,7 @@ public class AudioClipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.AudioClip#volumeProperty() volumeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.AudioClip> func) apply} method.
      * <p>
      * Example: 

@@ -157,7 +157,7 @@ public class ToggleButtonBuilder {
         return false;
     }
     /**
-     * Applies a function to the ToggleButton instance currently being constructed.
+     * Applies a function to the ToggleButton instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -173,8 +173,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -183,8 +183,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -193,8 +193,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -203,8 +203,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -213,8 +213,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setAlignment(javafx.geometry.Pos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -223,8 +223,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -233,8 +233,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -243,8 +243,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -253,8 +253,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -263,8 +263,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -273,8 +273,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -283,8 +283,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -293,8 +293,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -303,8 +303,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setContentDisplay(javafx.scene.control.ContentDisplay)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -313,8 +313,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -323,8 +323,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -333,8 +333,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -343,8 +343,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -353,8 +353,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -363,8 +363,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setEllipsisString(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -373,8 +373,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -383,8 +383,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -393,8 +393,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setFont(javafx.scene.text.Font)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -403,8 +403,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setGraphic(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -413,8 +413,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setGraphicTextGap(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -423,8 +423,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -433,8 +433,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -443,8 +443,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -453,8 +453,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -463,8 +463,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setLineSpacing(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -473,8 +473,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -483,8 +483,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -493,8 +493,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -503,8 +503,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -513,8 +513,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -523,8 +523,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -533,8 +533,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -543,8 +543,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setMnemonicParsing(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -553,8 +553,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -563,8 +563,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -573,8 +573,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnAction(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -583,8 +583,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -593,8 +593,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -603,8 +603,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -613,8 +613,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -623,8 +623,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -633,8 +633,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -643,8 +643,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -653,8 +653,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -663,8 +663,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -673,8 +673,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -683,8 +683,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -693,8 +693,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -703,8 +703,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -713,8 +713,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -723,8 +723,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -733,8 +733,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -743,8 +743,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -753,8 +753,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -763,8 +763,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -773,8 +773,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -783,8 +783,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -793,8 +793,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -803,8 +803,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -813,8 +813,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -823,8 +823,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -833,8 +833,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -843,8 +843,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -853,8 +853,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -863,8 +863,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -873,8 +873,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -883,8 +883,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -893,8 +893,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -903,8 +903,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -913,8 +913,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -923,8 +923,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -933,8 +933,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -943,8 +943,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -953,8 +953,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -963,8 +963,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -973,8 +973,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -983,8 +983,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -993,8 +993,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1003,8 +1003,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1013,8 +1013,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1023,8 +1023,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1033,8 +1033,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1043,8 +1043,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1053,8 +1053,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1063,8 +1063,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1073,8 +1073,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1083,8 +1083,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1093,8 +1093,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1103,8 +1103,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setSelected(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setSelected(boolean) setSelected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1113,8 +1113,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1123,8 +1123,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1133,8 +1133,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1143,8 +1143,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1153,8 +1153,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setText(java.lang.String) setText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1163,8 +1163,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setTextAlignment(javafx.scene.text.TextAlignment)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1173,8 +1173,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setTextFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1183,8 +1183,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setTextOverrun(javafx.scene.control.OverrunStyle)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1193,8 +1193,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setToggleGroup(javafx.scene.control.ToggleGroup)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setToggleGroup(javafx.scene.control.ToggleGroup) setToggleGroup} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1203,8 +1203,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1213,8 +1213,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1223,8 +1223,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1233,8 +1233,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1243,8 +1243,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setUnderline(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setUnderline(boolean) setUnderline} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1253,8 +1253,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1263,8 +1263,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1273,8 +1273,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1283,8 +1283,8 @@ public class ToggleButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleButton#setWrapText(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleButton#setWrapText(boolean) setWrapText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2259,7 +2259,7 @@ public class ToggleButtonBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2281,7 +2281,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2303,7 +2303,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2325,7 +2325,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2347,7 +2347,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#alignmentProperty() alignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2369,7 +2369,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#armedProperty() armedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2391,7 +2391,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2413,7 +2413,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2435,7 +2435,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2457,7 +2457,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2479,7 +2479,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2501,7 +2501,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2523,7 +2523,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2545,7 +2545,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2567,7 +2567,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2589,7 +2589,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2611,7 +2611,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#contentDisplayProperty() contentDisplayProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2633,7 +2633,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2655,7 +2655,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2677,7 +2677,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2699,7 +2699,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2721,7 +2721,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2743,7 +2743,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2765,7 +2765,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2787,7 +2787,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#ellipsisStringProperty() ellipsisStringProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2809,7 +2809,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2831,7 +2831,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2853,7 +2853,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2875,7 +2875,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2897,7 +2897,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2919,7 +2919,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#fontProperty() fontProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2941,7 +2941,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#graphicProperty() graphicProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2963,7 +2963,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#graphicTextGapProperty() graphicTextGapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -2985,7 +2985,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3007,7 +3007,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3029,7 +3029,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3051,7 +3051,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3073,7 +3073,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3095,7 +3095,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#labelPaddingProperty() labelPaddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3117,7 +3117,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3139,7 +3139,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3161,7 +3161,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3183,7 +3183,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#lineSpacingProperty() lineSpacingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3205,7 +3205,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3227,7 +3227,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3249,7 +3249,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3271,7 +3271,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3293,7 +3293,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3315,7 +3315,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3337,7 +3337,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3359,7 +3359,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#mnemonicParsingProperty() mnemonicParsingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3381,7 +3381,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3403,7 +3403,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3425,7 +3425,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3447,7 +3447,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onActionProperty() onActionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3469,7 +3469,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3491,7 +3491,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3513,7 +3513,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3535,7 +3535,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3557,7 +3557,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3579,7 +3579,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3601,7 +3601,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3623,7 +3623,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3645,7 +3645,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3667,7 +3667,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3689,7 +3689,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3711,7 +3711,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3733,7 +3733,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3755,7 +3755,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3777,7 +3777,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3799,7 +3799,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3821,7 +3821,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3843,7 +3843,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3865,7 +3865,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3887,7 +3887,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3909,7 +3909,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3931,7 +3931,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3953,7 +3953,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3975,7 +3975,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -3997,7 +3997,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4019,7 +4019,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4041,7 +4041,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4063,7 +4063,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4085,7 +4085,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4107,7 +4107,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4129,7 +4129,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4151,7 +4151,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4173,7 +4173,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4195,7 +4195,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4217,7 +4217,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4239,7 +4239,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4261,7 +4261,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4283,7 +4283,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4305,7 +4305,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4327,7 +4327,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4349,7 +4349,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4371,7 +4371,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4393,7 +4393,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4415,7 +4415,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4437,7 +4437,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4459,7 +4459,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4481,7 +4481,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4503,7 +4503,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4525,7 +4525,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4547,7 +4547,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4569,7 +4569,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4591,7 +4591,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4613,7 +4613,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4635,7 +4635,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4657,7 +4657,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#selectedProperty() selectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4679,7 +4679,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4701,7 +4701,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4723,7 +4723,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4745,7 +4745,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4767,7 +4767,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#textAlignmentProperty() textAlignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4789,7 +4789,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#textFillProperty() textFillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4811,7 +4811,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#textOverrunProperty() textOverrunProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4833,7 +4833,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#textProperty() textProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4855,7 +4855,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#textTruncatedProperty() textTruncatedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4877,7 +4877,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#toggleGroupProperty() toggleGroupProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4899,7 +4899,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4921,7 +4921,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4943,7 +4943,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4965,7 +4965,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -4987,7 +4987,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#underlineProperty() underlineProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -5009,7 +5009,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -5031,7 +5031,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -5053,7 +5053,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 
@@ -5075,7 +5075,7 @@ public class ToggleButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleButton#wrapTextProperty() wrapTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleButton> func) apply} method.
      * <p>
      * Example: 

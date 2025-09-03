@@ -157,7 +157,7 @@ public class LabelBuilder {
         return false;
     }
     /**
-     * Applies a function to the Label instance currently being constructed.
+     * Applies a function to the Label instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -173,8 +173,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -183,8 +183,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -193,8 +193,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -203,8 +203,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -213,8 +213,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setAlignment(javafx.geometry.Pos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -223,8 +223,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -233,8 +233,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -243,8 +243,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -253,8 +253,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -263,8 +263,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -273,8 +273,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -283,8 +283,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -293,8 +293,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -303,8 +303,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setContentDisplay(javafx.scene.control.ContentDisplay)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -313,8 +313,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -323,8 +323,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -333,8 +333,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -343,8 +343,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -353,8 +353,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -363,8 +363,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setEllipsisString(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -373,8 +373,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -383,8 +383,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -393,8 +393,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setFont(javafx.scene.text.Font)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -403,8 +403,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setGraphic(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -413,8 +413,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setGraphicTextGap(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -423,8 +423,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -433,8 +433,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -443,8 +443,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setLabelFor(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setLabelFor(javafx.scene.Node) setLabelFor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -453,8 +453,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -463,8 +463,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -473,8 +473,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setLineSpacing(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -483,8 +483,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -493,8 +493,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -503,8 +503,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -513,8 +513,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -523,8 +523,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -533,8 +533,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -543,8 +543,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -553,8 +553,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setMnemonicParsing(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -563,8 +563,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -573,8 +573,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -583,8 +583,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -593,8 +593,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -603,8 +603,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -613,8 +613,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -623,8 +623,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -633,8 +633,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -643,8 +643,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -653,8 +653,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -663,8 +663,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -673,8 +673,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -683,8 +683,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -693,8 +693,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -703,8 +703,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -713,8 +713,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -723,8 +723,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -733,8 +733,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -743,8 +743,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -753,8 +753,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -763,8 +763,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -773,8 +773,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -783,8 +783,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -793,8 +793,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -803,8 +803,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -813,8 +813,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -823,8 +823,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -833,8 +833,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -843,8 +843,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -853,8 +853,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -863,8 +863,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -873,8 +873,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -883,8 +883,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -893,8 +893,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -903,8 +903,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -913,8 +913,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -923,8 +923,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -933,8 +933,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -943,8 +943,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -953,8 +953,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -963,8 +963,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -973,8 +973,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -983,8 +983,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -993,8 +993,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1003,8 +1003,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1013,8 +1013,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1023,8 +1023,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1033,8 +1033,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1043,8 +1043,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1053,8 +1053,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1063,8 +1063,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1073,8 +1073,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1083,8 +1083,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1093,8 +1093,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1103,8 +1103,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1113,8 +1113,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1123,8 +1123,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1133,8 +1133,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1143,8 +1143,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setText(java.lang.String) setText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1153,8 +1153,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setTextAlignment(javafx.scene.text.TextAlignment)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1163,8 +1163,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setTextFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1173,8 +1173,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setTextOverrun(javafx.scene.control.OverrunStyle)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1183,8 +1183,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1193,8 +1193,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1203,8 +1203,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1213,8 +1213,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1223,8 +1223,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setUnderline(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setUnderline(boolean) setUnderline} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1233,8 +1233,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1243,8 +1243,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1253,8 +1253,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1263,8 +1263,8 @@ public class LabelBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Label#setWrapText(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Label#setWrapText(boolean) setWrapText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2239,7 +2239,7 @@ public class LabelBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.Label#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2261,7 +2261,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2283,7 +2283,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2305,7 +2305,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2327,7 +2327,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#alignmentProperty() alignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2349,7 +2349,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2371,7 +2371,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2393,7 +2393,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2415,7 +2415,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2437,7 +2437,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2459,7 +2459,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2481,7 +2481,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2503,7 +2503,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2525,7 +2525,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2547,7 +2547,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2569,7 +2569,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#contentDisplayProperty() contentDisplayProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2591,7 +2591,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2613,7 +2613,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2635,7 +2635,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2657,7 +2657,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2679,7 +2679,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2701,7 +2701,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2723,7 +2723,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2745,7 +2745,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#ellipsisStringProperty() ellipsisStringProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2767,7 +2767,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2789,7 +2789,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2811,7 +2811,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2833,7 +2833,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2855,7 +2855,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2877,7 +2877,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#fontProperty() fontProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2899,7 +2899,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#graphicProperty() graphicProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2921,7 +2921,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#graphicTextGapProperty() graphicTextGapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2943,7 +2943,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2965,7 +2965,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -2987,7 +2987,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3009,7 +3009,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3031,7 +3031,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3053,7 +3053,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#labelForProperty() labelForProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3075,7 +3075,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#labelPaddingProperty() labelPaddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3097,7 +3097,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3119,7 +3119,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3141,7 +3141,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3163,7 +3163,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#lineSpacingProperty() lineSpacingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3185,7 +3185,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3207,7 +3207,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3229,7 +3229,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3251,7 +3251,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3273,7 +3273,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3295,7 +3295,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3317,7 +3317,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3339,7 +3339,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#mnemonicParsingProperty() mnemonicParsingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3361,7 +3361,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3383,7 +3383,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3405,7 +3405,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3427,7 +3427,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3449,7 +3449,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3471,7 +3471,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3493,7 +3493,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3515,7 +3515,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3537,7 +3537,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3559,7 +3559,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3581,7 +3581,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3603,7 +3603,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3625,7 +3625,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3647,7 +3647,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3669,7 +3669,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3691,7 +3691,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3713,7 +3713,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3735,7 +3735,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3757,7 +3757,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3779,7 +3779,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3801,7 +3801,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3823,7 +3823,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3845,7 +3845,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3867,7 +3867,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3889,7 +3889,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3911,7 +3911,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3933,7 +3933,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3955,7 +3955,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3977,7 +3977,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -3999,7 +3999,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4021,7 +4021,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4043,7 +4043,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4065,7 +4065,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4087,7 +4087,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4109,7 +4109,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4131,7 +4131,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4153,7 +4153,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4175,7 +4175,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4197,7 +4197,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4219,7 +4219,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4241,7 +4241,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4263,7 +4263,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4285,7 +4285,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4307,7 +4307,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4329,7 +4329,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4351,7 +4351,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4373,7 +4373,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4395,7 +4395,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4417,7 +4417,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4439,7 +4439,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4461,7 +4461,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4483,7 +4483,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4505,7 +4505,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4527,7 +4527,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4549,7 +4549,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4571,7 +4571,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4593,7 +4593,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4615,7 +4615,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4637,7 +4637,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4659,7 +4659,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4681,7 +4681,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4703,7 +4703,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#textAlignmentProperty() textAlignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4725,7 +4725,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#textFillProperty() textFillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4747,7 +4747,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#textOverrunProperty() textOverrunProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4769,7 +4769,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#textProperty() textProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4791,7 +4791,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#textTruncatedProperty() textTruncatedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4813,7 +4813,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4835,7 +4835,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4857,7 +4857,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4879,7 +4879,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4901,7 +4901,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#underlineProperty() underlineProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4923,7 +4923,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4945,7 +4945,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4967,7 +4967,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 
@@ -4989,7 +4989,7 @@ public class LabelBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Label#wrapTextProperty() wrapTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
      * <p>
      * Example: 

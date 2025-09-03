@@ -143,7 +143,7 @@ public class PerspectiveTransformBuilder {
         return false;
     }
     /**
-     * Applies a function to the PerspectiveTransform instance currently being constructed.
+     * Applies a function to the PerspectiveTransform instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -154,8 +154,8 @@ public class PerspectiveTransformBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.PerspectiveTransform#setInput(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.PerspectiveTransform#setInput(javafx.scene.effect.Effect) setInput} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -164,8 +164,8 @@ public class PerspectiveTransformBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.PerspectiveTransform#setLlx(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.PerspectiveTransform#setLlx(double) setLlx} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -174,8 +174,8 @@ public class PerspectiveTransformBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.PerspectiveTransform#setLly(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.PerspectiveTransform#setLly(double) setLly} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -184,8 +184,8 @@ public class PerspectiveTransformBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.PerspectiveTransform#setLrx(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.PerspectiveTransform#setLrx(double) setLrx} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -194,8 +194,8 @@ public class PerspectiveTransformBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.PerspectiveTransform#setLry(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.PerspectiveTransform#setLry(double) setLry} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -204,8 +204,8 @@ public class PerspectiveTransformBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.PerspectiveTransform#setUlx(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.PerspectiveTransform#setUlx(double) setUlx} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -214,8 +214,8 @@ public class PerspectiveTransformBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.PerspectiveTransform#setUly(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.PerspectiveTransform#setUly(double) setUly} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -224,8 +224,8 @@ public class PerspectiveTransformBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.PerspectiveTransform#setUrx(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.PerspectiveTransform#setUrx(double) setUrx} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -234,8 +234,8 @@ public class PerspectiveTransformBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.PerspectiveTransform#setUry(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.PerspectiveTransform#setUry(double) setUry} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -245,7 +245,7 @@ public class PerspectiveTransformBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#inputProperty() inputProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
      * <p>
      * Example: 
@@ -267,7 +267,7 @@ public class PerspectiveTransformBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#llxProperty() llxProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
      * <p>
      * Example: 
@@ -289,7 +289,7 @@ public class PerspectiveTransformBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#llyProperty() llyProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
      * <p>
      * Example: 
@@ -311,7 +311,7 @@ public class PerspectiveTransformBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#lrxProperty() lrxProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
      * <p>
      * Example: 
@@ -333,7 +333,7 @@ public class PerspectiveTransformBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#lryProperty() lryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
      * <p>
      * Example: 
@@ -355,7 +355,7 @@ public class PerspectiveTransformBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#ulxProperty() ulxProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
      * <p>
      * Example: 
@@ -377,7 +377,7 @@ public class PerspectiveTransformBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#ulyProperty() ulyProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
      * <p>
      * Example: 
@@ -399,7 +399,7 @@ public class PerspectiveTransformBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#urxProperty() urxProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
      * <p>
      * Example: 
@@ -421,7 +421,7 @@ public class PerspectiveTransformBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#uryProperty() uryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
      * <p>
      * Example: 

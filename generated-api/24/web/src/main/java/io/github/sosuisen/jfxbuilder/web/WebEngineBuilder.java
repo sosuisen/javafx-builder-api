@@ -143,7 +143,7 @@ public class WebEngineBuilder {
         return false;
     }
     /**
-     * Applies a function to the WebEngine instance currently being constructed.
+     * Applies a function to the WebEngine instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -154,8 +154,8 @@ public class WebEngineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebEngine#setConfirmHandler(javafx.util.Callback)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebEngine#setConfirmHandler(javafx.util.Callback) setConfirmHandler} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -164,8 +164,8 @@ public class WebEngineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebEngine#setCreatePopupHandler(javafx.util.Callback)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebEngine#setCreatePopupHandler(javafx.util.Callback) setCreatePopupHandler} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -174,8 +174,8 @@ public class WebEngineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebEngine#setJavaScriptEnabled(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebEngine#setJavaScriptEnabled(boolean) setJavaScriptEnabled} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -184,8 +184,8 @@ public class WebEngineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebEngine#setOnAlert(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebEngine#setOnAlert(javafx.event.EventHandler) setOnAlert} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -194,8 +194,8 @@ public class WebEngineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebEngine#setOnError(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebEngine#setOnError(javafx.event.EventHandler) setOnError} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -204,8 +204,8 @@ public class WebEngineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebEngine#setOnResized(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebEngine#setOnResized(javafx.event.EventHandler) setOnResized} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -214,8 +214,8 @@ public class WebEngineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebEngine#setOnStatusChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebEngine#setOnStatusChanged(javafx.event.EventHandler) setOnStatusChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -224,8 +224,8 @@ public class WebEngineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebEngine#setOnVisibilityChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebEngine#setOnVisibilityChanged(javafx.event.EventHandler) setOnVisibilityChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -234,8 +234,8 @@ public class WebEngineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebEngine#setPromptHandler(javafx.util.Callback)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebEngine#setPromptHandler(javafx.util.Callback) setPromptHandler} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -244,8 +244,8 @@ public class WebEngineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebEngine#setUserAgent(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebEngine#setUserAgent(java.lang.String) setUserAgent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -254,8 +254,8 @@ public class WebEngineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebEngine#setUserDataDirectory(java.io.File)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebEngine#setUserDataDirectory(java.io.File) setUserDataDirectory} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -264,8 +264,8 @@ public class WebEngineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebEngine#setUserStyleSheetLocation(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebEngine#setUserStyleSheetLocation(java.lang.String) setUserStyleSheetLocation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -275,7 +275,7 @@ public class WebEngineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#confirmHandlerProperty() confirmHandlerProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
      * <p>
      * Example: 
@@ -297,7 +297,7 @@ public class WebEngineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#createPopupHandlerProperty() createPopupHandlerProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
      * <p>
      * Example: 
@@ -319,7 +319,7 @@ public class WebEngineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#documentProperty() documentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
      * <p>
      * Example: 
@@ -341,7 +341,7 @@ public class WebEngineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#javaScriptEnabledProperty() javaScriptEnabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
      * <p>
      * Example: 
@@ -363,7 +363,7 @@ public class WebEngineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#locationProperty() locationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
      * <p>
      * Example: 
@@ -385,7 +385,7 @@ public class WebEngineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#onAlertProperty() onAlertProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
      * <p>
      * Example: 
@@ -407,7 +407,7 @@ public class WebEngineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#onErrorProperty() onErrorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
      * <p>
      * Example: 
@@ -429,7 +429,7 @@ public class WebEngineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#onResizedProperty() onResizedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
      * <p>
      * Example: 
@@ -451,7 +451,7 @@ public class WebEngineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#onStatusChangedProperty() onStatusChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
      * <p>
      * Example: 
@@ -473,7 +473,7 @@ public class WebEngineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#onVisibilityChangedProperty() onVisibilityChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
      * <p>
      * Example: 
@@ -495,7 +495,7 @@ public class WebEngineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#promptHandlerProperty() promptHandlerProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
      * <p>
      * Example: 
@@ -517,7 +517,7 @@ public class WebEngineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#titleProperty() titleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
      * <p>
      * Example: 
@@ -539,7 +539,7 @@ public class WebEngineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#userAgentProperty() userAgentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
      * <p>
      * Example: 
@@ -561,7 +561,7 @@ public class WebEngineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#userDataDirectoryProperty() userDataDirectoryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
      * <p>
      * Example: 
@@ -583,7 +583,7 @@ public class WebEngineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#userStyleSheetLocationProperty() userStyleSheetLocationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
      * <p>
      * Example: 

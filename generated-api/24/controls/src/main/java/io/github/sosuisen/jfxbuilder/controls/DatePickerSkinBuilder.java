@@ -129,7 +129,7 @@ public class DatePickerSkinBuilder {
         return false;
     }
     /**
-     * Applies a function to the DatePickerSkin instance currently being constructed.
+     * Applies a function to the DatePickerSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

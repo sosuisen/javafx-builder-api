@@ -131,7 +131,7 @@ public class TreeTableViewResizeFeaturesBuilder<S> {
         return false;
     }
     /**
-     * Applies a function to the ResizeFeatures instance currently being constructed.
+     * Applies a function to the ResizeFeatures instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -142,8 +142,8 @@ public class TreeTableViewResizeFeaturesBuilder<S> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeTableView.ResizeFeatures#setColumnWidth(javafx.scene.control.TableColumnBase, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeTableView.ResizeFeatures#setColumnWidth(javafx.scene.control.TableColumnBase, double) setColumnWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     

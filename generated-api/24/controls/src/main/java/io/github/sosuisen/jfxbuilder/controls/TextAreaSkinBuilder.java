@@ -129,7 +129,7 @@ public class TextAreaSkinBuilder {
         return false;
     }
     /**
-     * Applies a function to the TextAreaSkin instance currently being constructed.
+     * Applies a function to the TextAreaSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -140,8 +140,8 @@ public class TextAreaSkinBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.TextAreaSkin#setCaretAnimating(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.TextAreaSkin#setCaretAnimating(boolean) setCaretAnimating} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -150,8 +150,8 @@ public class TextAreaSkinBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.TextAreaSkin#setForwardBias(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.TextAreaSkin#setForwardBias(boolean) setForwardBias} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     

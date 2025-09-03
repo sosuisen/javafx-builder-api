@@ -175,7 +175,7 @@ public class HBoxBuilder {
         return false;
     }
     /**
-     * Applies a function to the HBox instance currently being constructed.
+     * Applies a function to the HBox instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -191,8 +191,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -201,8 +201,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -211,8 +211,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -221,8 +221,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -231,8 +231,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setAlignment(javafx.geometry.Pos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -241,8 +241,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -251,8 +251,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -261,8 +261,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -271,8 +271,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -281,8 +281,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -291,8 +291,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -301,8 +301,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -311,8 +311,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -321,8 +321,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -331,8 +331,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -341,8 +341,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -351,8 +351,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -361,8 +361,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -371,8 +371,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setFillHeight(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setFillHeight(boolean) setFillHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -381,8 +381,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -391,8 +391,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -401,8 +401,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -411,8 +411,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -421,8 +421,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -431,8 +431,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -441,8 +441,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -451,8 +451,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -461,8 +461,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -471,8 +471,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -481,8 +481,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -491,8 +491,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -501,8 +501,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -511,8 +511,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -521,8 +521,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -531,8 +531,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -541,8 +541,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -551,8 +551,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -561,8 +561,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -571,8 +571,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -581,8 +581,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -591,8 +591,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -601,8 +601,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -611,8 +611,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -621,8 +621,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -631,8 +631,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -641,8 +641,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -651,8 +651,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -661,8 +661,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -671,8 +671,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -681,8 +681,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -691,8 +691,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -701,8 +701,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -711,8 +711,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -721,8 +721,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -731,8 +731,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -741,8 +741,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -751,8 +751,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -761,8 +761,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -771,8 +771,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -781,8 +781,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -791,8 +791,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -801,8 +801,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -811,8 +811,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -821,8 +821,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -831,8 +831,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -841,8 +841,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -851,8 +851,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -861,8 +861,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -871,8 +871,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -881,8 +881,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -891,8 +891,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -901,8 +901,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -911,8 +911,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -921,8 +921,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -931,8 +931,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -941,8 +941,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -951,8 +951,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -961,8 +961,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -971,8 +971,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -981,8 +981,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -991,8 +991,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1001,8 +1001,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1011,8 +1011,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1021,8 +1021,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1031,8 +1031,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1041,8 +1041,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1051,8 +1051,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1061,8 +1061,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setSpacing(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setSpacing(double) setSpacing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1071,8 +1071,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1081,8 +1081,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1091,8 +1091,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1101,8 +1101,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1111,8 +1111,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1121,8 +1121,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1131,8 +1131,8 @@ public class HBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.HBox#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.HBox#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2155,7 +2155,7 @@ public class HBoxBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2177,7 +2177,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2199,7 +2199,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2221,7 +2221,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2243,7 +2243,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#alignmentProperty() alignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2265,7 +2265,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2287,7 +2287,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2309,7 +2309,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2331,7 +2331,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2353,7 +2353,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2375,7 +2375,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2397,7 +2397,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2419,7 +2419,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2441,7 +2441,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2463,7 +2463,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2485,7 +2485,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2507,7 +2507,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2529,7 +2529,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2551,7 +2551,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2573,7 +2573,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2595,7 +2595,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2617,7 +2617,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2639,7 +2639,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#fillHeightProperty() fillHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2661,7 +2661,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2683,7 +2683,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2705,7 +2705,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2727,7 +2727,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2749,7 +2749,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2771,7 +2771,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2793,7 +2793,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2815,7 +2815,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2837,7 +2837,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2859,7 +2859,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2881,7 +2881,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2903,7 +2903,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2925,7 +2925,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2947,7 +2947,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2969,7 +2969,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -2991,7 +2991,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3013,7 +3013,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3035,7 +3035,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3057,7 +3057,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3079,7 +3079,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3101,7 +3101,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3123,7 +3123,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3145,7 +3145,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3167,7 +3167,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3189,7 +3189,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3211,7 +3211,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3233,7 +3233,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3255,7 +3255,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3277,7 +3277,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3299,7 +3299,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3321,7 +3321,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3343,7 +3343,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3365,7 +3365,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3387,7 +3387,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3409,7 +3409,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3431,7 +3431,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3453,7 +3453,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3475,7 +3475,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3497,7 +3497,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3519,7 +3519,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3541,7 +3541,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3563,7 +3563,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3585,7 +3585,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3607,7 +3607,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3629,7 +3629,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3651,7 +3651,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3673,7 +3673,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3695,7 +3695,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3717,7 +3717,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3739,7 +3739,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3761,7 +3761,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3783,7 +3783,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3805,7 +3805,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3827,7 +3827,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3849,7 +3849,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3871,7 +3871,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3893,7 +3893,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3915,7 +3915,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3937,7 +3937,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3959,7 +3959,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -3981,7 +3981,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4003,7 +4003,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4025,7 +4025,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4047,7 +4047,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4069,7 +4069,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4091,7 +4091,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4113,7 +4113,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4135,7 +4135,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4157,7 +4157,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4179,7 +4179,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4201,7 +4201,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4223,7 +4223,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4245,7 +4245,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4267,7 +4267,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4289,7 +4289,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4311,7 +4311,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4333,7 +4333,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4355,7 +4355,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4377,7 +4377,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#spacingProperty() spacingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4399,7 +4399,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4421,7 +4421,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4443,7 +4443,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4465,7 +4465,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4487,7 +4487,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4509,7 +4509,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 
@@ -4531,7 +4531,7 @@ public class HBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.HBox#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.HBox> func) apply} method.
      * <p>
      * Example: 

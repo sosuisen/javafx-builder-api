@@ -143,7 +143,7 @@ public class TransformChangedEventBuilder {
         return false;
     }
     /**
-     * Applies a function to the TransformChangedEvent instance currently being constructed.
+     * Applies a function to the TransformChangedEvent instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

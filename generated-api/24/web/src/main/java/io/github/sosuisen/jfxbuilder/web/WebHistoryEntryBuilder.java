@@ -115,7 +115,7 @@ public class WebHistoryEntryBuilder {
         return false;
     }
     /**
-     * Applies a function to the Entry instance currently being constructed.
+     * Applies a function to the Entry instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -127,7 +127,7 @@ public class WebHistoryEntryBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebHistory.Entry#lastVisitedDateProperty() lastVisitedDateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebHistory.Entry> func) apply} method.
      * <p>
      * Example: 
@@ -149,7 +149,7 @@ public class WebHistoryEntryBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebHistory.Entry#titleProperty() titleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebHistory.Entry> func) apply} method.
      * <p>
      * Example: 

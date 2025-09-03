@@ -185,7 +185,7 @@ public class ScaleBuilder {
         return false;
     }
     /**
-     * Applies a function to the Scale instance currently being constructed.
+     * Applies a function to the Scale instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -196,8 +196,8 @@ public class ScaleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Scale#setOnTransformChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Scale#setOnTransformChanged(javafx.event.EventHandler) setOnTransformChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -206,8 +206,8 @@ public class ScaleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Scale#setPivotX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Scale#setPivotX(double) setPivotX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -216,8 +216,8 @@ public class ScaleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Scale#setPivotY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Scale#setPivotY(double) setPivotY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -226,8 +226,8 @@ public class ScaleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Scale#setPivotZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Scale#setPivotZ(double) setPivotZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -236,8 +236,8 @@ public class ScaleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Scale#setX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Scale#setX(double) setX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -246,8 +246,8 @@ public class ScaleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Scale#setY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Scale#setY(double) setY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -256,8 +256,8 @@ public class ScaleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Scale#setZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Scale#setZ(double) setZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -267,7 +267,7 @@ public class ScaleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Scale#identityProperty() identityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
      * <p>
      * Example: 
@@ -289,7 +289,7 @@ public class ScaleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Scale#onTransformChangedProperty() onTransformChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
      * <p>
      * Example: 
@@ -311,7 +311,7 @@ public class ScaleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Scale#pivotXProperty() pivotXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
      * <p>
      * Example: 
@@ -333,7 +333,7 @@ public class ScaleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Scale#pivotYProperty() pivotYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
      * <p>
      * Example: 
@@ -355,7 +355,7 @@ public class ScaleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Scale#pivotZProperty() pivotZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
      * <p>
      * Example: 
@@ -377,7 +377,7 @@ public class ScaleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Scale#type2DProperty() type2DProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
      * <p>
      * Example: 
@@ -399,7 +399,7 @@ public class ScaleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Scale#xProperty() xProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
      * <p>
      * Example: 
@@ -421,7 +421,7 @@ public class ScaleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Scale#yProperty() yProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
      * <p>
      * Example: 
@@ -443,7 +443,7 @@ public class ScaleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Scale#zProperty() zProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
      * <p>
      * Example: 

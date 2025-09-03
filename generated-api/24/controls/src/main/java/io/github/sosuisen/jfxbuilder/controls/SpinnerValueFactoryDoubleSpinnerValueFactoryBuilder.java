@@ -157,7 +157,7 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
         return false;
     }
     /**
-     * Applies a function to the DoubleSpinnerValueFactory instance currently being constructed.
+     * Applies a function to the DoubleSpinnerValueFactory instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -168,8 +168,8 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#setAmountToStepBy(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#setAmountToStepBy(double) setAmountToStepBy} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -178,8 +178,8 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#setConverter(javafx.util.StringConverter)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#setConverter(javafx.util.StringConverter) setConverter} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -188,8 +188,8 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#setMax(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#setMax(double) setMax} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -198,8 +198,8 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#setMin(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#setMin(double) setMin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -208,8 +208,8 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#setValue(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#setValue(java.lang.Object) setValue} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -218,8 +218,8 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#setWrapAround(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#setWrapAround(boolean) setWrapAround} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,7 +229,7 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#amountToStepByProperty() amountToStepByProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory> func) apply} method.
      * <p>
      * Example: 
@@ -251,7 +251,7 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#converterProperty() converterProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory> func) apply} method.
      * <p>
      * Example: 
@@ -273,7 +273,7 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#maxProperty() maxProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory> func) apply} method.
      * <p>
      * Example: 
@@ -295,7 +295,7 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#minProperty() minProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory> func) apply} method.
      * <p>
      * Example: 
@@ -317,7 +317,7 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#valueProperty() valueProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory> func) apply} method.
      * <p>
      * Example: 
@@ -339,7 +339,7 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#wrapAroundProperty() wrapAroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory> func) apply} method.
      * <p>
      * Example: 

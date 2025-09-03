@@ -157,7 +157,7 @@ public class BlendBuilder {
         return false;
     }
     /**
-     * Applies a function to the Blend instance currently being constructed.
+     * Applies a function to the Blend instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -168,8 +168,8 @@ public class BlendBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Blend#setBottomInput(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Blend#setBottomInput(javafx.scene.effect.Effect) setBottomInput} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -178,8 +178,8 @@ public class BlendBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Blend#setMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Blend#setMode(javafx.scene.effect.BlendMode) setMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -188,8 +188,8 @@ public class BlendBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Blend#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Blend#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -198,8 +198,8 @@ public class BlendBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Blend#setTopInput(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Blend#setTopInput(javafx.scene.effect.Effect) setTopInput} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -209,7 +209,7 @@ public class BlendBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Blend#bottomInputProperty() bottomInputProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Blend> func) apply} method.
      * <p>
      * Example: 
@@ -231,7 +231,7 @@ public class BlendBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Blend#modeProperty() modeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Blend> func) apply} method.
      * <p>
      * Example: 
@@ -253,7 +253,7 @@ public class BlendBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Blend#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Blend> func) apply} method.
      * <p>
      * Example: 
@@ -275,7 +275,7 @@ public class BlendBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Blend#topInputProperty() topInputProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Blend> func) apply} method.
      * <p>
      * Example: 

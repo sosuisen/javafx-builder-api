@@ -157,7 +157,7 @@ public class TranslateBuilder {
         return false;
     }
     /**
-     * Applies a function to the Translate instance currently being constructed.
+     * Applies a function to the Translate instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -168,8 +168,8 @@ public class TranslateBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Translate#setOnTransformChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Translate#setOnTransformChanged(javafx.event.EventHandler) setOnTransformChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -178,8 +178,8 @@ public class TranslateBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Translate#setX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Translate#setX(double) setX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -188,8 +188,8 @@ public class TranslateBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Translate#setY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Translate#setY(double) setY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -198,8 +198,8 @@ public class TranslateBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Translate#setZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Translate#setZ(double) setZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -209,7 +209,7 @@ public class TranslateBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Translate#identityProperty() identityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Translate> func) apply} method.
      * <p>
      * Example: 
@@ -231,7 +231,7 @@ public class TranslateBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Translate#onTransformChangedProperty() onTransformChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Translate> func) apply} method.
      * <p>
      * Example: 
@@ -253,7 +253,7 @@ public class TranslateBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Translate#type2DProperty() type2DProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Translate> func) apply} method.
      * <p>
      * Example: 
@@ -275,7 +275,7 @@ public class TranslateBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Translate#xProperty() xProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Translate> func) apply} method.
      * <p>
      * Example: 
@@ -297,7 +297,7 @@ public class TranslateBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Translate#yProperty() yProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Translate> func) apply} method.
      * <p>
      * Example: 
@@ -319,7 +319,7 @@ public class TranslateBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Translate#zProperty() zProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Translate> func) apply} method.
      * <p>
      * Example: 

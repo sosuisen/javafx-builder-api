@@ -175,7 +175,7 @@ public class VBoxBuilder {
         return false;
     }
     /**
-     * Applies a function to the VBox instance currently being constructed.
+     * Applies a function to the VBox instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -191,8 +191,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -201,8 +201,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -211,8 +211,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -221,8 +221,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -231,8 +231,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setAlignment(javafx.geometry.Pos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -241,8 +241,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -251,8 +251,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -261,8 +261,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -271,8 +271,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -281,8 +281,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -291,8 +291,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -301,8 +301,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -311,8 +311,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -321,8 +321,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -331,8 +331,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -341,8 +341,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -351,8 +351,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -361,8 +361,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -371,8 +371,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setFillWidth(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setFillWidth(boolean) setFillWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -381,8 +381,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -391,8 +391,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -401,8 +401,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -411,8 +411,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -421,8 +421,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -431,8 +431,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -441,8 +441,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -451,8 +451,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -461,8 +461,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -471,8 +471,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -481,8 +481,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -491,8 +491,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -501,8 +501,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -511,8 +511,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -521,8 +521,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -531,8 +531,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -541,8 +541,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -551,8 +551,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -561,8 +561,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -571,8 +571,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -581,8 +581,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -591,8 +591,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -601,8 +601,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -611,8 +611,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -621,8 +621,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -631,8 +631,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -641,8 +641,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -651,8 +651,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -661,8 +661,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -671,8 +671,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -681,8 +681,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -691,8 +691,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -701,8 +701,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -711,8 +711,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -721,8 +721,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -731,8 +731,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -741,8 +741,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -751,8 +751,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -761,8 +761,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -771,8 +771,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -781,8 +781,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -791,8 +791,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -801,8 +801,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -811,8 +811,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -821,8 +821,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -831,8 +831,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -841,8 +841,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -851,8 +851,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -861,8 +861,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -871,8 +871,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -881,8 +881,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -891,8 +891,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -901,8 +901,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -911,8 +911,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -921,8 +921,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -931,8 +931,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -941,8 +941,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -951,8 +951,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -961,8 +961,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -971,8 +971,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -981,8 +981,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -991,8 +991,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1001,8 +1001,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1011,8 +1011,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1021,8 +1021,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1031,8 +1031,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1041,8 +1041,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1051,8 +1051,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1061,8 +1061,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setSpacing(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setSpacing(double) setSpacing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1071,8 +1071,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1081,8 +1081,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1091,8 +1091,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1101,8 +1101,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1111,8 +1111,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1121,8 +1121,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1131,8 +1131,8 @@ public class VBoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.VBox#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.VBox#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2155,7 +2155,7 @@ public class VBoxBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2177,7 +2177,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2199,7 +2199,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2221,7 +2221,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2243,7 +2243,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#alignmentProperty() alignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2265,7 +2265,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2287,7 +2287,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2309,7 +2309,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2331,7 +2331,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2353,7 +2353,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2375,7 +2375,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2397,7 +2397,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2419,7 +2419,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2441,7 +2441,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2463,7 +2463,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2485,7 +2485,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2507,7 +2507,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2529,7 +2529,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2551,7 +2551,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2573,7 +2573,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2595,7 +2595,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2617,7 +2617,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2639,7 +2639,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#fillWidthProperty() fillWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2661,7 +2661,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2683,7 +2683,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2705,7 +2705,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2727,7 +2727,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2749,7 +2749,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2771,7 +2771,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2793,7 +2793,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2815,7 +2815,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2837,7 +2837,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2859,7 +2859,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2881,7 +2881,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2903,7 +2903,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2925,7 +2925,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2947,7 +2947,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2969,7 +2969,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -2991,7 +2991,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3013,7 +3013,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3035,7 +3035,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3057,7 +3057,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3079,7 +3079,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3101,7 +3101,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3123,7 +3123,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3145,7 +3145,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3167,7 +3167,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3189,7 +3189,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3211,7 +3211,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3233,7 +3233,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3255,7 +3255,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3277,7 +3277,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3299,7 +3299,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3321,7 +3321,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3343,7 +3343,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3365,7 +3365,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3387,7 +3387,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3409,7 +3409,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3431,7 +3431,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3453,7 +3453,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3475,7 +3475,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3497,7 +3497,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3519,7 +3519,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3541,7 +3541,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3563,7 +3563,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3585,7 +3585,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3607,7 +3607,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3629,7 +3629,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3651,7 +3651,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3673,7 +3673,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3695,7 +3695,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3717,7 +3717,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3739,7 +3739,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3761,7 +3761,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3783,7 +3783,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3805,7 +3805,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3827,7 +3827,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3849,7 +3849,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3871,7 +3871,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3893,7 +3893,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3915,7 +3915,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3937,7 +3937,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3959,7 +3959,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -3981,7 +3981,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4003,7 +4003,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4025,7 +4025,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4047,7 +4047,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4069,7 +4069,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4091,7 +4091,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4113,7 +4113,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4135,7 +4135,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4157,7 +4157,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4179,7 +4179,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4201,7 +4201,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4223,7 +4223,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4245,7 +4245,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4267,7 +4267,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4289,7 +4289,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4311,7 +4311,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4333,7 +4333,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4355,7 +4355,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4377,7 +4377,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#spacingProperty() spacingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4399,7 +4399,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4421,7 +4421,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4443,7 +4443,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4465,7 +4465,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4487,7 +4487,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4509,7 +4509,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 
@@ -4531,7 +4531,7 @@ public class VBoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
      * <p>
      * Example: 

@@ -143,7 +143,7 @@ public class PointLightBuilder {
         return false;
     }
     /**
-     * Applies a function to the PointLight instance currently being constructed.
+     * Applies a function to the PointLight instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -159,8 +159,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -169,8 +169,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -179,8 +179,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -189,8 +189,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -199,8 +199,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -209,8 +209,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -219,8 +219,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,8 +229,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -239,8 +239,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setColor(javafx.scene.paint.Color)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setColor(javafx.scene.paint.Color) setColor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -249,8 +249,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setConstantAttenuation(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setConstantAttenuation(double) setConstantAttenuation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -259,8 +259,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -269,8 +269,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -279,8 +279,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -289,8 +289,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -299,8 +299,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -309,8 +309,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -319,8 +319,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -329,8 +329,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -339,8 +339,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -349,8 +349,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -359,8 +359,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setLightOn(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setLightOn(boolean) setLightOn} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -369,8 +369,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setLinearAttenuation(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setLinearAttenuation(double) setLinearAttenuation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -379,8 +379,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -389,8 +389,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setMaxRange(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setMaxRange(double) setMaxRange} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -399,8 +399,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -409,8 +409,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -419,8 +419,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -429,8 +429,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -439,8 +439,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -449,8 +449,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -459,8 +459,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -469,8 +469,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -479,8 +479,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -489,8 +489,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -499,8 +499,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -509,8 +509,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -519,8 +519,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -529,8 +529,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -539,8 +539,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -549,8 +549,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -559,8 +559,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -569,8 +569,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -579,8 +579,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -589,8 +589,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -599,8 +599,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -609,8 +609,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -619,8 +619,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -629,8 +629,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -639,8 +639,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -649,8 +649,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -659,8 +659,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -669,8 +669,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -679,8 +679,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -689,8 +689,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -699,8 +699,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -709,8 +709,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -719,8 +719,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -729,8 +729,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -739,8 +739,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -749,8 +749,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -759,8 +759,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -769,8 +769,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -779,8 +779,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -789,8 +789,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -799,8 +799,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -809,8 +809,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -819,8 +819,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -829,8 +829,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setQuadraticAttenuation(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setQuadraticAttenuation(double) setQuadraticAttenuation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -839,8 +839,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -849,8 +849,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -859,8 +859,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -869,8 +869,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -879,8 +879,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -889,8 +889,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -899,8 +899,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -909,8 +909,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -919,8 +919,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -929,8 +929,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -939,8 +939,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -949,8 +949,8 @@ public class PointLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PointLight#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PointLight#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1978,7 +1978,7 @@ public class PointLightBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.PointLight#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2000,7 +2000,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2022,7 +2022,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2044,7 +2044,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2066,7 +2066,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2088,7 +2088,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2110,7 +2110,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2132,7 +2132,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2154,7 +2154,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2176,7 +2176,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2198,7 +2198,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#colorProperty() colorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2220,7 +2220,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#constantAttenuationProperty() constantAttenuationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2242,7 +2242,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2264,7 +2264,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2286,7 +2286,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2308,7 +2308,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2330,7 +2330,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2352,7 +2352,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2374,7 +2374,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2396,7 +2396,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2418,7 +2418,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2440,7 +2440,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2462,7 +2462,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2484,7 +2484,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2506,7 +2506,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2528,7 +2528,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2550,7 +2550,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2572,7 +2572,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2594,7 +2594,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2616,7 +2616,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#lightOnProperty() lightOnProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2638,7 +2638,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#linearAttenuationProperty() linearAttenuationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2660,7 +2660,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2682,7 +2682,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2704,7 +2704,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2726,7 +2726,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#maxRangeProperty() maxRangeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2748,7 +2748,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2770,7 +2770,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2792,7 +2792,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2814,7 +2814,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2836,7 +2836,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2858,7 +2858,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2880,7 +2880,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2902,7 +2902,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2924,7 +2924,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2946,7 +2946,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2968,7 +2968,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -2990,7 +2990,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3012,7 +3012,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3034,7 +3034,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3056,7 +3056,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3078,7 +3078,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3100,7 +3100,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3122,7 +3122,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3144,7 +3144,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3166,7 +3166,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3188,7 +3188,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3210,7 +3210,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3232,7 +3232,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3254,7 +3254,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3276,7 +3276,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3298,7 +3298,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3320,7 +3320,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3342,7 +3342,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3364,7 +3364,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3386,7 +3386,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3408,7 +3408,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3430,7 +3430,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3452,7 +3452,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3474,7 +3474,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3496,7 +3496,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3518,7 +3518,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3540,7 +3540,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3562,7 +3562,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3584,7 +3584,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3606,7 +3606,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3628,7 +3628,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3650,7 +3650,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3672,7 +3672,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3694,7 +3694,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3716,7 +3716,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3738,7 +3738,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#quadraticAttenuationProperty() quadraticAttenuationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3760,7 +3760,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3782,7 +3782,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3804,7 +3804,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3826,7 +3826,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3848,7 +3848,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3870,7 +3870,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3892,7 +3892,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3914,7 +3914,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3936,7 +3936,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3958,7 +3958,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -3980,7 +3980,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 
@@ -4002,7 +4002,7 @@ public class PointLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PointLight#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PointLight> func) apply} method.
      * <p>
      * Example: 

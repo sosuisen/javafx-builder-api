@@ -171,7 +171,7 @@ public class MouseEventBuilder {
         return false;
     }
     /**
-     * Applies a function to the MouseEvent instance currently being constructed.
+     * Applies a function to the MouseEvent instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -182,8 +182,8 @@ public class MouseEventBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.input.MouseEvent#setDragDetect(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.input.MouseEvent#setDragDetect(boolean) setDragDetect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     

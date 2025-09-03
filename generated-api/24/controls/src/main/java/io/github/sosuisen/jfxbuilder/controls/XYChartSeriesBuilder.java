@@ -159,7 +159,7 @@ public class XYChartSeriesBuilder<X, Y> {
         return false;
     }
     /**
-     * Applies a function to the Series instance currently being constructed.
+     * Applies a function to the Series instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -170,8 +170,8 @@ public class XYChartSeriesBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.XYChart.Series#setData(javafx.collections.ObservableList)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.XYChart.Series#setData(javafx.collections.ObservableList) setData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -180,8 +180,8 @@ public class XYChartSeriesBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.XYChart.Series#setName(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.XYChart.Series#setName(java.lang.String) setName} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -190,8 +190,8 @@ public class XYChartSeriesBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.XYChart.Series#setNode(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.XYChart.Series#setNode(javafx.scene.Node) setNode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -249,7 +249,7 @@ public class XYChartSeriesBuilder<X, Y> {
     
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Series#chartProperty() chartProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Series<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -271,7 +271,7 @@ public class XYChartSeriesBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Series#dataProperty() dataProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Series<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -293,7 +293,7 @@ public class XYChartSeriesBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Series#nameProperty() nameProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Series<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -315,7 +315,7 @@ public class XYChartSeriesBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Series#nodeProperty() nodeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Series<X, Y>> func) apply} method.
      * <p>
      * Example: 

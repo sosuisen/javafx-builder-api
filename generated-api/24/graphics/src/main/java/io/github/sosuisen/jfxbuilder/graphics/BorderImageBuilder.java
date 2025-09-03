@@ -129,7 +129,7 @@ public class BorderImageBuilder {
         return false;
     }
     /**
-     * Applies a function to the BorderImage instance currently being constructed.
+     * Applies a function to the BorderImage instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

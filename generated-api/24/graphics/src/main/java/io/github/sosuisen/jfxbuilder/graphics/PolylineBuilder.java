@@ -143,7 +143,7 @@ public class PolylineBuilder {
         return false;
     }
     /**
-     * Applies a function to the Polyline instance currently being constructed.
+     * Applies a function to the Polyline instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -159,8 +159,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -169,8 +169,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -179,8 +179,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -189,8 +189,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -199,8 +199,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -209,8 +209,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -219,8 +219,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,8 +229,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -239,8 +239,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -249,8 +249,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -259,8 +259,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -269,8 +269,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -279,8 +279,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -289,8 +289,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -299,8 +299,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -309,8 +309,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -319,8 +319,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -329,8 +329,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -339,8 +339,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -349,8 +349,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -359,8 +359,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -369,8 +369,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -379,8 +379,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -389,8 +389,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -399,8 +399,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -409,8 +409,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -419,8 +419,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -429,8 +429,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -439,8 +439,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -449,8 +449,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -459,8 +459,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -469,8 +469,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -479,8 +479,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -489,8 +489,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -499,8 +499,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -509,8 +509,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -519,8 +519,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -529,8 +529,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -539,8 +539,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -549,8 +549,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -559,8 +559,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -569,8 +569,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -579,8 +579,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -589,8 +589,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -599,8 +599,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -609,8 +609,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -619,8 +619,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -629,8 +629,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -639,8 +639,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -649,8 +649,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -659,8 +659,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -669,8 +669,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -679,8 +679,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -689,8 +689,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -699,8 +699,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -709,8 +709,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -719,8 +719,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -729,8 +729,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -739,8 +739,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -749,8 +749,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -759,8 +759,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -769,8 +769,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -779,8 +779,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -789,8 +789,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -799,8 +799,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -809,8 +809,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -819,8 +819,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -829,8 +829,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -839,8 +839,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setSmooth(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setSmooth(boolean) setSmooth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -849,8 +849,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setStroke(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setStroke(javafx.scene.paint.Paint) setStroke} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -859,8 +859,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setStrokeDashOffset(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setStrokeDashOffset(double) setStrokeDashOffset} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -869,8 +869,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setStrokeLineCap(javafx.scene.shape.StrokeLineCap)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setStrokeLineCap(javafx.scene.shape.StrokeLineCap) setStrokeLineCap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -879,8 +879,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin) setStrokeLineJoin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -889,8 +889,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setStrokeMiterLimit(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setStrokeMiterLimit(double) setStrokeMiterLimit} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -899,8 +899,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setStrokeType(javafx.scene.shape.StrokeType)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setStrokeType(javafx.scene.shape.StrokeType) setStrokeType} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -909,8 +909,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setStrokeWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setStrokeWidth(double) setStrokeWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -919,8 +919,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -929,8 +929,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -939,8 +939,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -949,8 +949,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -959,8 +959,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -969,8 +969,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -979,8 +979,8 @@ public class PolylineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polyline#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polyline#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2008,7 +2008,7 @@ public class PolylineBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2030,7 +2030,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2052,7 +2052,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2074,7 +2074,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2096,7 +2096,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2118,7 +2118,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2140,7 +2140,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2162,7 +2162,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2184,7 +2184,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2206,7 +2206,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2228,7 +2228,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2250,7 +2250,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2272,7 +2272,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2294,7 +2294,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2316,7 +2316,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2338,7 +2338,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2360,7 +2360,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2382,7 +2382,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#fillProperty() fillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2404,7 +2404,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2426,7 +2426,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2448,7 +2448,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2470,7 +2470,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2492,7 +2492,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2514,7 +2514,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2536,7 +2536,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2558,7 +2558,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2580,7 +2580,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2602,7 +2602,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2624,7 +2624,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2646,7 +2646,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2668,7 +2668,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2690,7 +2690,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2712,7 +2712,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2734,7 +2734,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2756,7 +2756,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2778,7 +2778,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2800,7 +2800,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2822,7 +2822,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2844,7 +2844,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2866,7 +2866,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2888,7 +2888,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2910,7 +2910,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2932,7 +2932,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2954,7 +2954,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2976,7 +2976,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -2998,7 +2998,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3020,7 +3020,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3042,7 +3042,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3064,7 +3064,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3086,7 +3086,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3108,7 +3108,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3130,7 +3130,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3152,7 +3152,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3174,7 +3174,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3196,7 +3196,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3218,7 +3218,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3240,7 +3240,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3262,7 +3262,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3284,7 +3284,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3306,7 +3306,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3328,7 +3328,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3350,7 +3350,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3372,7 +3372,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3394,7 +3394,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3416,7 +3416,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3438,7 +3438,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3460,7 +3460,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3482,7 +3482,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3504,7 +3504,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3526,7 +3526,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3548,7 +3548,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3570,7 +3570,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3592,7 +3592,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3614,7 +3614,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3636,7 +3636,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3658,7 +3658,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3680,7 +3680,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3702,7 +3702,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3724,7 +3724,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3746,7 +3746,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3768,7 +3768,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3790,7 +3790,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3812,7 +3812,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#smoothProperty() smoothProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3834,7 +3834,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#strokeDashOffsetProperty() strokeDashOffsetProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3856,7 +3856,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#strokeLineCapProperty() strokeLineCapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3878,7 +3878,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#strokeLineJoinProperty() strokeLineJoinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3900,7 +3900,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#strokeMiterLimitProperty() strokeMiterLimitProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3922,7 +3922,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#strokeProperty() strokeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3944,7 +3944,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#strokeTypeProperty() strokeTypeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3966,7 +3966,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#strokeWidthProperty() strokeWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -3988,7 +3988,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -4010,7 +4010,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -4032,7 +4032,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -4054,7 +4054,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -4076,7 +4076,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 
@@ -4098,7 +4098,7 @@ public class PolylineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polyline#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
      * <p>
      * Example: 

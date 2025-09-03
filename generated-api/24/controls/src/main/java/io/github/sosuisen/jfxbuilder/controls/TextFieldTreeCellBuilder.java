@@ -145,7 +145,7 @@ public class TextFieldTreeCellBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the TextFieldTreeCell instance currently being constructed.
+     * Applies a function to the TextFieldTreeCell instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -161,8 +161,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -171,8 +171,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -181,8 +181,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -191,8 +191,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -201,8 +201,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setAlignment(javafx.geometry.Pos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -211,8 +211,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -221,8 +221,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -231,8 +231,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -241,8 +241,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -251,8 +251,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -261,8 +261,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -271,8 +271,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -281,8 +281,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -291,8 +291,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setContentDisplay(javafx.scene.control.ContentDisplay)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -301,8 +301,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -311,8 +311,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setConverter(javafx.util.StringConverter)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setConverter(javafx.util.StringConverter) setConverter} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -321,8 +321,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -331,8 +331,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -341,8 +341,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -351,8 +351,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setDisclosureNode(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setDisclosureNode(javafx.scene.Node) setDisclosureNode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -361,8 +361,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setEditable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setEditable(boolean) setEditable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -371,8 +371,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -381,8 +381,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setEllipsisString(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -391,8 +391,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -401,8 +401,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -411,8 +411,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setFont(javafx.scene.text.Font)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -421,8 +421,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setGraphic(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -431,8 +431,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setGraphicTextGap(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -441,8 +441,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -451,8 +451,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -461,8 +461,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setItem(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setItem(java.lang.Object) setItem} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -471,8 +471,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -481,8 +481,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -491,8 +491,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setLineSpacing(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -501,8 +501,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -511,8 +511,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -521,8 +521,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -531,8 +531,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -541,8 +541,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -551,8 +551,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -561,8 +561,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -571,8 +571,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setMnemonicParsing(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -581,8 +581,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -591,8 +591,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -601,8 +601,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -611,8 +611,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -621,8 +621,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -631,8 +631,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -641,8 +641,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -651,8 +651,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -661,8 +661,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -671,8 +671,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -681,8 +681,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -691,8 +691,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -701,8 +701,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -711,8 +711,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -721,8 +721,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -731,8 +731,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -741,8 +741,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -751,8 +751,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -761,8 +761,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -771,8 +771,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -781,8 +781,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -791,8 +791,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -801,8 +801,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -811,8 +811,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -821,8 +821,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -831,8 +831,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -841,8 +841,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -851,8 +851,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -861,8 +861,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -871,8 +871,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -881,8 +881,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -891,8 +891,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -901,8 +901,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -911,8 +911,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -921,8 +921,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -931,8 +931,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -941,8 +941,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -951,8 +951,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -961,8 +961,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -971,8 +971,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -981,8 +981,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -991,8 +991,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1001,8 +1001,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1011,8 +1011,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1021,8 +1021,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1031,8 +1031,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1041,8 +1041,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1051,8 +1051,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1061,8 +1061,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1071,8 +1071,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1081,8 +1081,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1091,8 +1091,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1101,8 +1101,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1111,8 +1111,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1121,8 +1121,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1131,8 +1131,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1141,8 +1141,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1151,8 +1151,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1161,8 +1161,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setText(java.lang.String) setText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1171,8 +1171,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setTextAlignment(javafx.scene.text.TextAlignment)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1181,8 +1181,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setTextFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1191,8 +1191,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setTextOverrun(javafx.scene.control.OverrunStyle)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1201,8 +1201,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1211,8 +1211,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1221,8 +1221,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1231,8 +1231,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1241,8 +1241,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setUnderline(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setUnderline(boolean) setUnderline} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1251,8 +1251,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1261,8 +1261,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1271,8 +1271,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1281,8 +1281,8 @@ public class TextFieldTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldTreeCell#setWrapText(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setWrapText(boolean) setWrapText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2257,7 +2257,7 @@ public class TextFieldTreeCellBuilder<T> {
     
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2279,7 +2279,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2301,7 +2301,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2323,7 +2323,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2345,7 +2345,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#alignmentProperty() alignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2367,7 +2367,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2389,7 +2389,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2411,7 +2411,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2433,7 +2433,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2455,7 +2455,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2477,7 +2477,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2499,7 +2499,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2521,7 +2521,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2543,7 +2543,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2565,7 +2565,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2587,7 +2587,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#contentDisplayProperty() contentDisplayProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2609,7 +2609,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2631,7 +2631,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#converterProperty() converterProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2653,7 +2653,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2675,7 +2675,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2697,7 +2697,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2719,7 +2719,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2741,7 +2741,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#disclosureNodeProperty() disclosureNodeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2763,7 +2763,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#editableProperty() editableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2785,7 +2785,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#editingProperty() editingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2807,7 +2807,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2829,7 +2829,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2851,7 +2851,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#ellipsisStringProperty() ellipsisStringProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2873,7 +2873,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#emptyProperty() emptyProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2895,7 +2895,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2917,7 +2917,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2939,7 +2939,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2961,7 +2961,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2983,7 +2983,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3005,7 +3005,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#fontProperty() fontProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3027,7 +3027,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#graphicProperty() graphicProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3049,7 +3049,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#graphicTextGapProperty() graphicTextGapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3071,7 +3071,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3093,7 +3093,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3115,7 +3115,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3137,7 +3137,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#indexProperty() indexProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3159,7 +3159,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3181,7 +3181,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3203,7 +3203,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#itemProperty() itemProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3225,7 +3225,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#labelPaddingProperty() labelPaddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3247,7 +3247,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3269,7 +3269,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3291,7 +3291,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3313,7 +3313,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#lineSpacingProperty() lineSpacingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3335,7 +3335,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3357,7 +3357,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3379,7 +3379,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3401,7 +3401,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3423,7 +3423,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3445,7 +3445,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3467,7 +3467,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3489,7 +3489,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#mnemonicParsingProperty() mnemonicParsingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3511,7 +3511,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3533,7 +3533,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3555,7 +3555,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3577,7 +3577,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3599,7 +3599,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3621,7 +3621,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3643,7 +3643,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3665,7 +3665,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3687,7 +3687,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3709,7 +3709,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3731,7 +3731,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3753,7 +3753,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3775,7 +3775,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3797,7 +3797,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3819,7 +3819,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3841,7 +3841,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3863,7 +3863,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3885,7 +3885,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3907,7 +3907,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3929,7 +3929,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3951,7 +3951,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3973,7 +3973,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3995,7 +3995,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4017,7 +4017,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4039,7 +4039,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4061,7 +4061,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4083,7 +4083,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4105,7 +4105,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4127,7 +4127,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4149,7 +4149,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4171,7 +4171,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4193,7 +4193,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4215,7 +4215,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4237,7 +4237,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4259,7 +4259,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4281,7 +4281,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4303,7 +4303,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4325,7 +4325,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4347,7 +4347,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4369,7 +4369,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4391,7 +4391,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4413,7 +4413,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4435,7 +4435,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4457,7 +4457,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4479,7 +4479,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4501,7 +4501,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4523,7 +4523,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4545,7 +4545,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4567,7 +4567,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4589,7 +4589,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4611,7 +4611,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4633,7 +4633,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4655,7 +4655,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4677,7 +4677,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4699,7 +4699,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4721,7 +4721,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4743,7 +4743,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4765,7 +4765,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#selectedProperty() selectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4787,7 +4787,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4809,7 +4809,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4831,7 +4831,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4853,7 +4853,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4875,7 +4875,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#textAlignmentProperty() textAlignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4897,7 +4897,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#textFillProperty() textFillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4919,7 +4919,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#textOverrunProperty() textOverrunProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4941,7 +4941,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#textProperty() textProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4963,7 +4963,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#textTruncatedProperty() textTruncatedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4985,7 +4985,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5007,7 +5007,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5029,7 +5029,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5051,7 +5051,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5073,7 +5073,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#treeItemProperty() treeItemProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5095,7 +5095,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#treeViewProperty() treeViewProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5117,7 +5117,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#underlineProperty() underlineProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5139,7 +5139,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5161,7 +5161,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5183,7 +5183,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5205,7 +5205,7 @@ public class TextFieldTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeCell#wrapTextProperty() wrapTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) apply} method.
      * <p>
      * Example: 

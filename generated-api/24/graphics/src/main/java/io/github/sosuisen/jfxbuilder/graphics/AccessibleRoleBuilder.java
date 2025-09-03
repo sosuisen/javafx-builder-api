@@ -115,7 +115,7 @@ public class AccessibleRoleBuilder {
         return false;
     }
     /**
-     * Applies a function to the AccessibleRole instance currently being constructed.
+     * Applies a function to the AccessibleRole instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

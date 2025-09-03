@@ -143,7 +143,7 @@ public class PolygonBuilder {
         return false;
     }
     /**
-     * Applies a function to the Polygon instance currently being constructed.
+     * Applies a function to the Polygon instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -159,8 +159,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -169,8 +169,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -179,8 +179,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -189,8 +189,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -199,8 +199,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -209,8 +209,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -219,8 +219,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,8 +229,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -239,8 +239,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -249,8 +249,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -259,8 +259,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -269,8 +269,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -279,8 +279,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -289,8 +289,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -299,8 +299,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -309,8 +309,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -319,8 +319,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -329,8 +329,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -339,8 +339,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -349,8 +349,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -359,8 +359,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -369,8 +369,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -379,8 +379,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -389,8 +389,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -399,8 +399,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -409,8 +409,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -419,8 +419,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -429,8 +429,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -439,8 +439,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -449,8 +449,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -459,8 +459,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -469,8 +469,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -479,8 +479,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -489,8 +489,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -499,8 +499,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -509,8 +509,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -519,8 +519,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -529,8 +529,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -539,8 +539,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -549,8 +549,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -559,8 +559,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -569,8 +569,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -579,8 +579,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -589,8 +589,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -599,8 +599,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -609,8 +609,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -619,8 +619,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -629,8 +629,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -639,8 +639,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -649,8 +649,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -659,8 +659,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -669,8 +669,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -679,8 +679,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -689,8 +689,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -699,8 +699,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -709,8 +709,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -719,8 +719,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -729,8 +729,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -739,8 +739,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -749,8 +749,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -759,8 +759,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -769,8 +769,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -779,8 +779,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -789,8 +789,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -799,8 +799,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -809,8 +809,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -819,8 +819,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -829,8 +829,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -839,8 +839,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setSmooth(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setSmooth(boolean) setSmooth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -849,8 +849,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setStroke(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setStroke(javafx.scene.paint.Paint) setStroke} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -859,8 +859,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setStrokeDashOffset(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setStrokeDashOffset(double) setStrokeDashOffset} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -869,8 +869,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setStrokeLineCap(javafx.scene.shape.StrokeLineCap)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setStrokeLineCap(javafx.scene.shape.StrokeLineCap) setStrokeLineCap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -879,8 +879,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin) setStrokeLineJoin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -889,8 +889,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setStrokeMiterLimit(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setStrokeMiterLimit(double) setStrokeMiterLimit} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -899,8 +899,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setStrokeType(javafx.scene.shape.StrokeType)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setStrokeType(javafx.scene.shape.StrokeType) setStrokeType} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -909,8 +909,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setStrokeWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setStrokeWidth(double) setStrokeWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -919,8 +919,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -929,8 +929,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -939,8 +939,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -949,8 +949,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -959,8 +959,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -969,8 +969,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -979,8 +979,8 @@ public class PolygonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Polygon#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Polygon#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2008,7 +2008,7 @@ public class PolygonBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2030,7 +2030,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2052,7 +2052,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2074,7 +2074,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2096,7 +2096,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2118,7 +2118,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2140,7 +2140,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2162,7 +2162,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2184,7 +2184,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2206,7 +2206,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2228,7 +2228,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2250,7 +2250,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2272,7 +2272,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2294,7 +2294,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2316,7 +2316,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2338,7 +2338,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2360,7 +2360,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2382,7 +2382,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#fillProperty() fillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2404,7 +2404,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2426,7 +2426,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2448,7 +2448,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2470,7 +2470,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2492,7 +2492,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2514,7 +2514,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2536,7 +2536,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2558,7 +2558,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2580,7 +2580,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2602,7 +2602,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2624,7 +2624,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2646,7 +2646,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2668,7 +2668,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2690,7 +2690,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2712,7 +2712,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2734,7 +2734,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2756,7 +2756,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2778,7 +2778,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2800,7 +2800,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2822,7 +2822,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2844,7 +2844,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2866,7 +2866,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2888,7 +2888,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2910,7 +2910,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2932,7 +2932,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2954,7 +2954,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2976,7 +2976,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -2998,7 +2998,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3020,7 +3020,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3042,7 +3042,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3064,7 +3064,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3086,7 +3086,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3108,7 +3108,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3130,7 +3130,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3152,7 +3152,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3174,7 +3174,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3196,7 +3196,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3218,7 +3218,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3240,7 +3240,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3262,7 +3262,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3284,7 +3284,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3306,7 +3306,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3328,7 +3328,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3350,7 +3350,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3372,7 +3372,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3394,7 +3394,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3416,7 +3416,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3438,7 +3438,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3460,7 +3460,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3482,7 +3482,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3504,7 +3504,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3526,7 +3526,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3548,7 +3548,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3570,7 +3570,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3592,7 +3592,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3614,7 +3614,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3636,7 +3636,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3658,7 +3658,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3680,7 +3680,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3702,7 +3702,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3724,7 +3724,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3746,7 +3746,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3768,7 +3768,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3790,7 +3790,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3812,7 +3812,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#smoothProperty() smoothProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3834,7 +3834,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#strokeDashOffsetProperty() strokeDashOffsetProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3856,7 +3856,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#strokeLineCapProperty() strokeLineCapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3878,7 +3878,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#strokeLineJoinProperty() strokeLineJoinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3900,7 +3900,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#strokeMiterLimitProperty() strokeMiterLimitProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3922,7 +3922,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#strokeProperty() strokeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3944,7 +3944,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#strokeTypeProperty() strokeTypeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3966,7 +3966,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#strokeWidthProperty() strokeWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -3988,7 +3988,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -4010,7 +4010,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -4032,7 +4032,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -4054,7 +4054,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -4076,7 +4076,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 
@@ -4098,7 +4098,7 @@ public class PolygonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
      * <p>
      * Example: 

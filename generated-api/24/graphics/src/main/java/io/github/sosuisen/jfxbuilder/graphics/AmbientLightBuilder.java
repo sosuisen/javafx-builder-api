@@ -143,7 +143,7 @@ public class AmbientLightBuilder {
         return false;
     }
     /**
-     * Applies a function to the AmbientLight instance currently being constructed.
+     * Applies a function to the AmbientLight instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -159,8 +159,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -169,8 +169,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -179,8 +179,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -189,8 +189,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -199,8 +199,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -209,8 +209,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -219,8 +219,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,8 +229,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -239,8 +239,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setColor(javafx.scene.paint.Color)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setColor(javafx.scene.paint.Color) setColor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -249,8 +249,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -259,8 +259,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -269,8 +269,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -279,8 +279,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -289,8 +289,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -299,8 +299,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -309,8 +309,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -319,8 +319,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -329,8 +329,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -339,8 +339,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -349,8 +349,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setLightOn(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setLightOn(boolean) setLightOn} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -359,8 +359,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -369,8 +369,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -379,8 +379,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -389,8 +389,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -399,8 +399,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -409,8 +409,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -419,8 +419,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -429,8 +429,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -439,8 +439,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -449,8 +449,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -459,8 +459,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -469,8 +469,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -479,8 +479,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -489,8 +489,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -499,8 +499,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -509,8 +509,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -519,8 +519,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -529,8 +529,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -539,8 +539,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -549,8 +549,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -559,8 +559,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -569,8 +569,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -579,8 +579,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -589,8 +589,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -599,8 +599,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -609,8 +609,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -619,8 +619,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -629,8 +629,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -639,8 +639,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -649,8 +649,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -659,8 +659,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -669,8 +669,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -679,8 +679,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -689,8 +689,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -699,8 +699,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -709,8 +709,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -719,8 +719,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -729,8 +729,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -739,8 +739,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -749,8 +749,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -759,8 +759,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -769,8 +769,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -779,8 +779,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -789,8 +789,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -799,8 +799,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -809,8 +809,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -819,8 +819,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -829,8 +829,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -839,8 +839,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -849,8 +849,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -859,8 +859,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -869,8 +869,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -879,8 +879,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -889,8 +889,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -899,8 +899,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -909,8 +909,8 @@ public class AmbientLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.AmbientLight#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.AmbientLight#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1938,7 +1938,7 @@ public class AmbientLightBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -1960,7 +1960,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -1982,7 +1982,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2004,7 +2004,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2026,7 +2026,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2048,7 +2048,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2070,7 +2070,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2092,7 +2092,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2114,7 +2114,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2136,7 +2136,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2158,7 +2158,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#colorProperty() colorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2180,7 +2180,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2202,7 +2202,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2224,7 +2224,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2246,7 +2246,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2268,7 +2268,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2290,7 +2290,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2312,7 +2312,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2334,7 +2334,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2356,7 +2356,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2378,7 +2378,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2400,7 +2400,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2422,7 +2422,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2444,7 +2444,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2466,7 +2466,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2488,7 +2488,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2510,7 +2510,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2532,7 +2532,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2554,7 +2554,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#lightOnProperty() lightOnProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2576,7 +2576,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2598,7 +2598,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2620,7 +2620,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2642,7 +2642,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2664,7 +2664,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2686,7 +2686,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2708,7 +2708,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2730,7 +2730,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2752,7 +2752,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2774,7 +2774,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2796,7 +2796,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2818,7 +2818,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2840,7 +2840,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2862,7 +2862,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2884,7 +2884,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2906,7 +2906,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2928,7 +2928,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2950,7 +2950,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2972,7 +2972,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -2994,7 +2994,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3016,7 +3016,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3038,7 +3038,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3060,7 +3060,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3082,7 +3082,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3104,7 +3104,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3126,7 +3126,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3148,7 +3148,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3170,7 +3170,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3192,7 +3192,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3214,7 +3214,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3236,7 +3236,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3258,7 +3258,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3280,7 +3280,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3302,7 +3302,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3324,7 +3324,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3346,7 +3346,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3368,7 +3368,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3390,7 +3390,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3412,7 +3412,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3434,7 +3434,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3456,7 +3456,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3478,7 +3478,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3500,7 +3500,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3522,7 +3522,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3544,7 +3544,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3566,7 +3566,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3588,7 +3588,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3610,7 +3610,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3632,7 +3632,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3654,7 +3654,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3676,7 +3676,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3698,7 +3698,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3720,7 +3720,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3742,7 +3742,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3764,7 +3764,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3786,7 +3786,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3808,7 +3808,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3830,7 +3830,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3852,7 +3852,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 
@@ -3874,7 +3874,7 @@ public class AmbientLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
      * <p>
      * Example: 

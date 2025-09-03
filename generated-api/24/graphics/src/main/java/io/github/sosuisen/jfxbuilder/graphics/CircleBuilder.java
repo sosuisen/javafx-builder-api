@@ -185,7 +185,7 @@ public class CircleBuilder {
         return false;
     }
     /**
-     * Applies a function to the Circle instance currently being constructed.
+     * Applies a function to the Circle instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -201,8 +201,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -211,8 +211,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -221,8 +221,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -231,8 +231,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -241,8 +241,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -251,8 +251,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -261,8 +261,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -271,8 +271,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setCenterX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setCenterX(double) setCenterX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -281,8 +281,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setCenterY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setCenterY(double) setCenterY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -291,8 +291,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -301,8 +301,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -311,8 +311,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -321,8 +321,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -331,8 +331,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -341,8 +341,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -351,8 +351,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -361,8 +361,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -371,8 +371,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -381,8 +381,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -391,8 +391,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -401,8 +401,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -411,8 +411,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -421,8 +421,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -431,8 +431,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -441,8 +441,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -451,8 +451,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -461,8 +461,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -471,8 +471,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -481,8 +481,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -491,8 +491,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -501,8 +501,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -511,8 +511,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -521,8 +521,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -531,8 +531,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -541,8 +541,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -551,8 +551,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -561,8 +561,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -571,8 +571,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -581,8 +581,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -591,8 +591,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -601,8 +601,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -611,8 +611,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -621,8 +621,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -631,8 +631,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -641,8 +641,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -651,8 +651,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -661,8 +661,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -671,8 +671,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -681,8 +681,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -691,8 +691,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -701,8 +701,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -711,8 +711,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -721,8 +721,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -731,8 +731,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -741,8 +741,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -751,8 +751,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -761,8 +761,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -771,8 +771,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -781,8 +781,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -791,8 +791,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -801,8 +801,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -811,8 +811,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -821,8 +821,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -831,8 +831,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -841,8 +841,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -851,8 +851,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setRadius(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setRadius(double) setRadius} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -861,8 +861,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -871,8 +871,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -881,8 +881,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -891,8 +891,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -901,8 +901,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -911,8 +911,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setSmooth(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setSmooth(boolean) setSmooth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -921,8 +921,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setStroke(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setStroke(javafx.scene.paint.Paint) setStroke} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -931,8 +931,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setStrokeDashOffset(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setStrokeDashOffset(double) setStrokeDashOffset} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -941,8 +941,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setStrokeLineCap(javafx.scene.shape.StrokeLineCap)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setStrokeLineCap(javafx.scene.shape.StrokeLineCap) setStrokeLineCap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -951,8 +951,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin) setStrokeLineJoin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -961,8 +961,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setStrokeMiterLimit(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setStrokeMiterLimit(double) setStrokeMiterLimit} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -971,8 +971,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setStrokeType(javafx.scene.shape.StrokeType)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setStrokeType(javafx.scene.shape.StrokeType) setStrokeType} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -981,8 +981,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setStrokeWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setStrokeWidth(double) setStrokeWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -991,8 +991,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1001,8 +1001,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1011,8 +1011,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1021,8 +1021,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1031,8 +1031,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1041,8 +1041,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1051,8 +1051,8 @@ public class CircleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Circle#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Circle#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2032,7 +2032,7 @@ public class CircleBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2054,7 +2054,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2076,7 +2076,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2098,7 +2098,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2120,7 +2120,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2142,7 +2142,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2164,7 +2164,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2186,7 +2186,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2208,7 +2208,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2230,7 +2230,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#centerXProperty() centerXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2252,7 +2252,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#centerYProperty() centerYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2274,7 +2274,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2296,7 +2296,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2318,7 +2318,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2340,7 +2340,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2362,7 +2362,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2384,7 +2384,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2406,7 +2406,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2428,7 +2428,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2450,7 +2450,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#fillProperty() fillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2472,7 +2472,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2494,7 +2494,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2516,7 +2516,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2538,7 +2538,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2560,7 +2560,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2582,7 +2582,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2604,7 +2604,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2626,7 +2626,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2648,7 +2648,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2670,7 +2670,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2692,7 +2692,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2714,7 +2714,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2736,7 +2736,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2758,7 +2758,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2780,7 +2780,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2802,7 +2802,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2824,7 +2824,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2846,7 +2846,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2868,7 +2868,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2890,7 +2890,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2912,7 +2912,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2934,7 +2934,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2956,7 +2956,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -2978,7 +2978,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3000,7 +3000,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3022,7 +3022,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3044,7 +3044,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3066,7 +3066,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3088,7 +3088,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3110,7 +3110,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3132,7 +3132,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3154,7 +3154,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3176,7 +3176,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3198,7 +3198,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3220,7 +3220,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3242,7 +3242,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3264,7 +3264,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3286,7 +3286,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3308,7 +3308,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3330,7 +3330,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3352,7 +3352,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3374,7 +3374,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3396,7 +3396,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3418,7 +3418,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3440,7 +3440,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3462,7 +3462,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3484,7 +3484,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3506,7 +3506,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3528,7 +3528,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3550,7 +3550,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3572,7 +3572,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3594,7 +3594,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3616,7 +3616,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3638,7 +3638,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3660,7 +3660,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3682,7 +3682,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3704,7 +3704,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3726,7 +3726,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3748,7 +3748,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#radiusProperty() radiusProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3770,7 +3770,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3792,7 +3792,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3814,7 +3814,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3836,7 +3836,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3858,7 +3858,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3880,7 +3880,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3902,7 +3902,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#smoothProperty() smoothProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3924,7 +3924,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#strokeDashOffsetProperty() strokeDashOffsetProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3946,7 +3946,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#strokeLineCapProperty() strokeLineCapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3968,7 +3968,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#strokeLineJoinProperty() strokeLineJoinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -3990,7 +3990,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#strokeMiterLimitProperty() strokeMiterLimitProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -4012,7 +4012,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#strokeProperty() strokeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -4034,7 +4034,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#strokeTypeProperty() strokeTypeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -4056,7 +4056,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#strokeWidthProperty() strokeWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -4078,7 +4078,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -4100,7 +4100,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -4122,7 +4122,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -4144,7 +4144,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -4166,7 +4166,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 
@@ -4188,7 +4188,7 @@ public class CircleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Circle#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Circle> func) apply} method.
      * <p>
      * Example: 

@@ -131,7 +131,7 @@ public class AxisTickMarkBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the TickMark instance currently being constructed.
+     * Applies a function to the TickMark instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -142,8 +142,8 @@ public class AxisTickMarkBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.Axis.TickMark#setLabel(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.Axis.TickMark#setLabel(java.lang.String) setLabel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -152,8 +152,8 @@ public class AxisTickMarkBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.Axis.TickMark#setPosition(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.Axis.TickMark#setPosition(double) setPosition} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -162,8 +162,8 @@ public class AxisTickMarkBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.Axis.TickMark#setTextVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.Axis.TickMark#setTextVisible(boolean) setTextVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -172,8 +172,8 @@ public class AxisTickMarkBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.Axis.TickMark#setValue(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.Axis.TickMark#setValue(java.lang.Object) setValue} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -183,7 +183,7 @@ public class AxisTickMarkBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.Axis.TickMark#labelProperty() labelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.Axis.TickMark<T>> func) apply} method.
      * <p>
      * Example: 
@@ -205,7 +205,7 @@ public class AxisTickMarkBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.Axis.TickMark#positionProperty() positionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.Axis.TickMark<T>> func) apply} method.
      * <p>
      * Example: 
@@ -227,7 +227,7 @@ public class AxisTickMarkBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.Axis.TickMark#valueProperty() valueProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.Axis.TickMark<T>> func) apply} method.
      * <p>
      * Example: 

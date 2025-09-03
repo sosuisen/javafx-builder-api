@@ -171,7 +171,7 @@ public class InnerShadowBuilder {
         return false;
     }
     /**
-     * Applies a function to the InnerShadow instance currently being constructed.
+     * Applies a function to the InnerShadow instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -182,8 +182,8 @@ public class InnerShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.InnerShadow#setBlurType(javafx.scene.effect.BlurType)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.InnerShadow#setBlurType(javafx.scene.effect.BlurType) setBlurType} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -192,8 +192,8 @@ public class InnerShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.InnerShadow#setChoke(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.InnerShadow#setChoke(double) setChoke} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -202,8 +202,8 @@ public class InnerShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.InnerShadow#setColor(javafx.scene.paint.Color)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.InnerShadow#setColor(javafx.scene.paint.Color) setColor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -212,8 +212,8 @@ public class InnerShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.InnerShadow#setHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.InnerShadow#setHeight(double) setHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -222,8 +222,8 @@ public class InnerShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.InnerShadow#setInput(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.InnerShadow#setInput(javafx.scene.effect.Effect) setInput} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -232,8 +232,8 @@ public class InnerShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.InnerShadow#setOffsetX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.InnerShadow#setOffsetX(double) setOffsetX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -242,8 +242,8 @@ public class InnerShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.InnerShadow#setOffsetY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.InnerShadow#setOffsetY(double) setOffsetY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -252,8 +252,8 @@ public class InnerShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.InnerShadow#setRadius(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.InnerShadow#setRadius(double) setRadius} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -262,8 +262,8 @@ public class InnerShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.InnerShadow#setWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.InnerShadow#setWidth(double) setWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -273,7 +273,7 @@ public class InnerShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#blurTypeProperty() blurTypeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
      * <p>
      * Example: 
@@ -295,7 +295,7 @@ public class InnerShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#chokeProperty() chokeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
      * <p>
      * Example: 
@@ -317,7 +317,7 @@ public class InnerShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#colorProperty() colorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
      * <p>
      * Example: 
@@ -339,7 +339,7 @@ public class InnerShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
      * <p>
      * Example: 
@@ -361,7 +361,7 @@ public class InnerShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#inputProperty() inputProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
      * <p>
      * Example: 
@@ -383,7 +383,7 @@ public class InnerShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#offsetXProperty() offsetXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
      * <p>
      * Example: 
@@ -405,7 +405,7 @@ public class InnerShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#offsetYProperty() offsetYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
      * <p>
      * Example: 
@@ -427,7 +427,7 @@ public class InnerShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#radiusProperty() radiusProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
      * <p>
      * Example: 
@@ -449,7 +449,7 @@ public class InnerShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
      * <p>
      * Example: 

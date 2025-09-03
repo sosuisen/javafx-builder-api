@@ -159,7 +159,7 @@ public class XYChartDataBuilder<X, Y> {
         return false;
     }
     /**
-     * Applies a function to the Data instance currently being constructed.
+     * Applies a function to the Data instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -170,8 +170,8 @@ public class XYChartDataBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.XYChart.Data#setExtraValue(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.XYChart.Data#setExtraValue(java.lang.Object) setExtraValue} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -180,8 +180,8 @@ public class XYChartDataBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.XYChart.Data#setNode(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.XYChart.Data#setNode(javafx.scene.Node) setNode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -190,8 +190,8 @@ public class XYChartDataBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.XYChart.Data#setXValue(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.XYChart.Data#setXValue(java.lang.Object) setXValue} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -200,8 +200,8 @@ public class XYChartDataBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.XYChart.Data#setYValue(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.XYChart.Data#setYValue(java.lang.Object) setYValue} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -211,7 +211,7 @@ public class XYChartDataBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Data#XValueProperty() XValueProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Data<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -233,7 +233,7 @@ public class XYChartDataBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Data#YValueProperty() YValueProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Data<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -255,7 +255,7 @@ public class XYChartDataBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Data#extraValueProperty() extraValueProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Data<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -277,7 +277,7 @@ public class XYChartDataBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Data#nodeProperty() nodeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Data<X, Y>> func) apply} method.
      * <p>
      * Example: 

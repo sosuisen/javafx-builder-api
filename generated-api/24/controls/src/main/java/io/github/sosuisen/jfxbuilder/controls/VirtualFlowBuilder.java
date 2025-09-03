@@ -131,7 +131,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return false;
     }
     /**
-     * Applies a function to the VirtualFlow instance currently being constructed.
+     * Applies a function to the VirtualFlow instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -147,8 +147,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -157,8 +157,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -167,8 +167,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -177,8 +177,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -187,8 +187,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -197,8 +197,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -207,8 +207,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -217,8 +217,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -227,8 +227,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -237,8 +237,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -247,8 +247,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setCellCount(int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setCellCount(int) setCellCount} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -257,8 +257,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setCellFactory(javafx.util.Callback)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setCellFactory(javafx.util.Callback) setCellFactory} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -267,8 +267,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -277,8 +277,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -287,8 +287,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -297,8 +297,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -307,8 +307,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -317,8 +317,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -327,8 +327,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -337,8 +337,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setFixedCellSize(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setFixedCellSize(double) setFixedCellSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -347,8 +347,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -357,8 +357,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -367,8 +367,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -377,8 +377,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -387,8 +387,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -397,8 +397,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -407,8 +407,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -417,8 +417,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -427,8 +427,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -437,8 +437,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -447,8 +447,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -457,8 +457,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -467,8 +467,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -477,8 +477,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -487,8 +487,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -497,8 +497,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -507,8 +507,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -517,8 +517,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -527,8 +527,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -537,8 +537,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -547,8 +547,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -557,8 +557,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -567,8 +567,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -577,8 +577,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -587,8 +587,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -597,8 +597,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -607,8 +607,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -617,8 +617,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -627,8 +627,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -637,8 +637,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -647,8 +647,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -657,8 +657,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -667,8 +667,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -677,8 +677,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -687,8 +687,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -697,8 +697,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -707,8 +707,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -717,8 +717,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -727,8 +727,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -737,8 +737,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -747,8 +747,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -757,8 +757,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -767,8 +767,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -777,8 +777,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -787,8 +787,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -797,8 +797,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -807,8 +807,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -817,8 +817,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -827,8 +827,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -837,8 +837,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -847,8 +847,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -857,8 +857,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -867,8 +867,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -877,8 +877,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -887,8 +887,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -897,8 +897,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -907,8 +907,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setPannable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setPannable(boolean) setPannable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -917,8 +917,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -927,8 +927,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setPosition(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setPosition(double) setPosition} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -937,8 +937,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -947,8 +947,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -957,8 +957,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -967,8 +967,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -977,8 +977,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -987,8 +987,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -997,8 +997,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1007,8 +1007,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1017,8 +1017,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1027,8 +1027,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1037,8 +1037,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1047,8 +1047,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1057,8 +1057,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1067,8 +1067,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1077,8 +1077,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1087,8 +1087,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1097,8 +1097,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setVertical(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setVertical(boolean) setVertical} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1107,8 +1107,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1117,8 +1117,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.VirtualFlow#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.VirtualFlow#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2093,7 +2093,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2115,7 +2115,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2137,7 +2137,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2159,7 +2159,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2181,7 +2181,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2203,7 +2203,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2225,7 +2225,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2247,7 +2247,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2269,7 +2269,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2291,7 +2291,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2313,7 +2313,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2335,7 +2335,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2357,7 +2357,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#cellCountProperty() cellCountProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2379,7 +2379,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#cellFactoryProperty() cellFactoryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2401,7 +2401,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2423,7 +2423,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2445,7 +2445,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2467,7 +2467,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2489,7 +2489,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2511,7 +2511,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2533,7 +2533,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2555,7 +2555,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2577,7 +2577,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2599,7 +2599,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#fixedCellSizeProperty() fixedCellSizeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2621,7 +2621,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2643,7 +2643,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2665,7 +2665,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2687,7 +2687,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2709,7 +2709,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2731,7 +2731,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2753,7 +2753,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2775,7 +2775,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2797,7 +2797,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2819,7 +2819,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2841,7 +2841,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2863,7 +2863,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2885,7 +2885,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2907,7 +2907,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2929,7 +2929,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2951,7 +2951,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2973,7 +2973,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2995,7 +2995,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3017,7 +3017,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3039,7 +3039,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3061,7 +3061,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3083,7 +3083,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3105,7 +3105,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3127,7 +3127,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3149,7 +3149,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3171,7 +3171,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3193,7 +3193,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3215,7 +3215,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3237,7 +3237,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3259,7 +3259,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3281,7 +3281,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3303,7 +3303,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3325,7 +3325,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3347,7 +3347,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3369,7 +3369,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3391,7 +3391,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3413,7 +3413,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3435,7 +3435,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3457,7 +3457,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3479,7 +3479,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3501,7 +3501,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3523,7 +3523,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3545,7 +3545,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3567,7 +3567,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3589,7 +3589,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3611,7 +3611,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3633,7 +3633,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3655,7 +3655,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3677,7 +3677,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3699,7 +3699,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3721,7 +3721,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3743,7 +3743,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3765,7 +3765,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3787,7 +3787,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3809,7 +3809,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3831,7 +3831,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3853,7 +3853,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3875,7 +3875,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3897,7 +3897,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3919,7 +3919,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3941,7 +3941,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3963,7 +3963,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3985,7 +3985,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4007,7 +4007,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4029,7 +4029,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#pannableProperty() pannableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4051,7 +4051,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4073,7 +4073,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4095,7 +4095,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#positionProperty() positionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4117,7 +4117,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4139,7 +4139,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4161,7 +4161,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4183,7 +4183,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4205,7 +4205,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4227,7 +4227,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4249,7 +4249,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4271,7 +4271,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4293,7 +4293,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4315,7 +4315,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4337,7 +4337,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4359,7 +4359,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4381,7 +4381,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4403,7 +4403,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4425,7 +4425,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4447,7 +4447,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4469,7 +4469,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#verticalProperty() verticalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4491,7 +4491,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4513,7 +4513,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4535,7 +4535,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
      * <p>
      * Example: 

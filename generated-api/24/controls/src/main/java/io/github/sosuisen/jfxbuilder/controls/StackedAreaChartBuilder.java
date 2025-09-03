@@ -145,7 +145,7 @@ public class StackedAreaChartBuilder<X, Y> {
         return false;
     }
     /**
-     * Applies a function to the StackedAreaChart instance currently being constructed.
+     * Applies a function to the StackedAreaChart instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -161,8 +161,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -171,8 +171,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -181,8 +181,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -191,8 +191,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -201,8 +201,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setAlternativeColumnFillVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setAlternativeColumnFillVisible(boolean) setAlternativeColumnFillVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -211,8 +211,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setAlternativeRowFillVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setAlternativeRowFillVisible(boolean) setAlternativeRowFillVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -221,8 +221,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setAnimated(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setAnimated(boolean) setAnimated} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -231,8 +231,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -241,8 +241,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -251,8 +251,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -261,8 +261,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -271,8 +271,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -281,8 +281,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -291,8 +291,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -301,8 +301,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -311,8 +311,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setCreateSymbols(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setCreateSymbols(boolean) setCreateSymbols} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -321,8 +321,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -331,8 +331,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setData(javafx.collections.ObservableList)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setData(javafx.collections.ObservableList) setData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -341,8 +341,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -351,8 +351,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -361,8 +361,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -371,8 +371,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -381,8 +381,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -391,8 +391,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setHorizontalGridLinesVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setHorizontalGridLinesVisible(boolean) setHorizontalGridLinesVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -401,8 +401,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setHorizontalZeroLineVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setHorizontalZeroLineVisible(boolean) setHorizontalZeroLineVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -411,8 +411,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -421,8 +421,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -431,8 +431,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -441,8 +441,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -451,8 +451,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setLegendSide(javafx.geometry.Side)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setLegendSide(javafx.geometry.Side) setLegendSide} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -461,8 +461,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setLegendVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setLegendVisible(boolean) setLegendVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -471,8 +471,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -481,8 +481,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -491,8 +491,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -501,8 +501,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -511,8 +511,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -521,8 +521,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -531,8 +531,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -541,8 +541,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -551,8 +551,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -561,8 +561,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -571,8 +571,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -581,8 +581,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -591,8 +591,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -601,8 +601,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -611,8 +611,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -621,8 +621,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -631,8 +631,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -641,8 +641,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -651,8 +651,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -661,8 +661,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -671,8 +671,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -681,8 +681,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -691,8 +691,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -701,8 +701,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -711,8 +711,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -721,8 +721,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -731,8 +731,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -741,8 +741,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -751,8 +751,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -761,8 +761,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -771,8 +771,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -781,8 +781,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -791,8 +791,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -801,8 +801,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -811,8 +811,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -821,8 +821,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -831,8 +831,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -841,8 +841,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -851,8 +851,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -861,8 +861,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -871,8 +871,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -881,8 +881,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -891,8 +891,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -901,8 +901,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -911,8 +911,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -921,8 +921,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -931,8 +931,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -941,8 +941,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -951,8 +951,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -961,8 +961,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -971,8 +971,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -981,8 +981,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -991,8 +991,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1001,8 +1001,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1011,8 +1011,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1021,8 +1021,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1031,8 +1031,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1041,8 +1041,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1051,8 +1051,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1061,8 +1061,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1071,8 +1071,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1081,8 +1081,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1091,8 +1091,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1101,8 +1101,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1111,8 +1111,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setTitle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setTitle(java.lang.String) setTitle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1121,8 +1121,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setTitleSide(javafx.geometry.Side)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setTitleSide(javafx.geometry.Side) setTitleSide} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1131,8 +1131,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1141,8 +1141,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1151,8 +1151,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1161,8 +1161,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1171,8 +1171,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setVerticalGridLinesVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setVerticalGridLinesVisible(boolean) setVerticalGridLinesVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1181,8 +1181,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setVerticalZeroLineVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setVerticalZeroLineVisible(boolean) setVerticalZeroLineVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1191,8 +1191,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1201,8 +1201,8 @@ public class StackedAreaChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.StackedAreaChart#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.StackedAreaChart#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2204,7 +2204,7 @@ public class StackedAreaChartBuilder<X, Y> {
     
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2226,7 +2226,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2248,7 +2248,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2270,7 +2270,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2292,7 +2292,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#alternativeColumnFillVisibleProperty() alternativeColumnFillVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2314,7 +2314,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#alternativeRowFillVisibleProperty() alternativeRowFillVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2336,7 +2336,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#animatedProperty() animatedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2358,7 +2358,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2380,7 +2380,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2402,7 +2402,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2424,7 +2424,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2446,7 +2446,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2468,7 +2468,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2490,7 +2490,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2512,7 +2512,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2534,7 +2534,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2556,7 +2556,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2578,7 +2578,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#createSymbolsProperty() createSymbolsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2600,7 +2600,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2622,7 +2622,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#dataProperty() dataProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2644,7 +2644,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2666,7 +2666,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2688,7 +2688,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2710,7 +2710,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2732,7 +2732,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2754,7 +2754,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2776,7 +2776,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2798,7 +2798,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2820,7 +2820,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2842,7 +2842,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2864,7 +2864,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2886,7 +2886,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#horizontalGridLinesVisibleProperty() horizontalGridLinesVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2908,7 +2908,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#horizontalZeroLineVisibleProperty() horizontalZeroLineVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2930,7 +2930,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2952,7 +2952,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2974,7 +2974,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2996,7 +2996,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3018,7 +3018,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3040,7 +3040,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3062,7 +3062,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3084,7 +3084,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#legendSideProperty() legendSideProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3106,7 +3106,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#legendVisibleProperty() legendVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3128,7 +3128,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3150,7 +3150,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3172,7 +3172,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3194,7 +3194,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3216,7 +3216,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3238,7 +3238,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3260,7 +3260,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3282,7 +3282,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3304,7 +3304,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3326,7 +3326,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3348,7 +3348,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3370,7 +3370,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3392,7 +3392,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3414,7 +3414,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3436,7 +3436,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3458,7 +3458,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3480,7 +3480,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3502,7 +3502,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3524,7 +3524,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3546,7 +3546,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3568,7 +3568,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3590,7 +3590,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3612,7 +3612,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3634,7 +3634,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3656,7 +3656,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3678,7 +3678,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3700,7 +3700,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3722,7 +3722,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3744,7 +3744,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3766,7 +3766,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3788,7 +3788,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3810,7 +3810,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3832,7 +3832,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3854,7 +3854,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3876,7 +3876,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3898,7 +3898,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3920,7 +3920,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3942,7 +3942,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3964,7 +3964,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3986,7 +3986,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4008,7 +4008,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4030,7 +4030,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4052,7 +4052,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4074,7 +4074,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4096,7 +4096,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4118,7 +4118,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4140,7 +4140,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4162,7 +4162,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4184,7 +4184,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4206,7 +4206,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4228,7 +4228,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4250,7 +4250,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4272,7 +4272,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4294,7 +4294,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4316,7 +4316,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4338,7 +4338,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4360,7 +4360,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4382,7 +4382,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4404,7 +4404,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4426,7 +4426,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4448,7 +4448,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4470,7 +4470,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4492,7 +4492,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4514,7 +4514,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4536,7 +4536,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4558,7 +4558,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4580,7 +4580,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4602,7 +4602,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#titleProperty() titleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4624,7 +4624,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#titleSideProperty() titleSideProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4646,7 +4646,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4668,7 +4668,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4690,7 +4690,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4712,7 +4712,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#verticalGridLinesVisibleProperty() verticalGridLinesVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4734,7 +4734,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#verticalZeroLineVisibleProperty() verticalZeroLineVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4756,7 +4756,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4778,7 +4778,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4800,7 +4800,7 @@ public class StackedAreaChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
      * <p>
      * Example: 

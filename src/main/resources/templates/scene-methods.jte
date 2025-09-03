@@ -97,7 +97,7 @@ public class SceneBuilder {
     }
 
     /**
-     * Set the width of the scene. The default value is {@link #DEFAULT_WIDTH}.
+     * Sets the width of the scene. The default value is {@link #DEFAULT_WIDTH}.
      * 
      * @return builder instance
      */    
@@ -107,7 +107,7 @@ public class SceneBuilder {
     }
 
     /**
-     * Set the height of the scene. The default value is {@link #DEFAULT_HEIGHT}.
+     * Sets the height of the scene. The default value is {@link #DEFAULT_HEIGHT}.
      * 
      * @return builder instance
      */    
@@ -117,7 +117,7 @@ public class SceneBuilder {
     }
 
     /**
-     * Set the depthBuffer of the scene. The default value is {@link #DEFAULT_DEPTH_BUFFER}.
+     * Sets the depthBuffer of the scene. The default value is {@link #DEFAULT_DEPTH_BUFFER}.
      * 
      * @return builder instance
      */    
@@ -127,7 +127,7 @@ public class SceneBuilder {
     }
 
     /**
-     * Set the antiAliasing of the scene. The default value is {@link #DEFAULT_ANTI_ALIASING}.
+     * Sets the antiAliasing of the scene. The default value is {@link #DEFAULT_ANTI_ALIASING}.
      * 
      * @return builder instance
      */    

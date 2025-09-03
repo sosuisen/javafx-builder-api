@@ -143,7 +143,7 @@ public class SpotLightBuilder {
         return false;
     }
     /**
-     * Applies a function to the SpotLight instance currently being constructed.
+     * Applies a function to the SpotLight instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -159,8 +159,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -169,8 +169,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -179,8 +179,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -189,8 +189,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -199,8 +199,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -209,8 +209,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -219,8 +219,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,8 +229,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -239,8 +239,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setColor(javafx.scene.paint.Color)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setColor(javafx.scene.paint.Color) setColor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -249,8 +249,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setConstantAttenuation(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setConstantAttenuation(double) setConstantAttenuation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -259,8 +259,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -269,8 +269,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -279,8 +279,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setDirection(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setDirection(javafx.geometry.Point3D) setDirection} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -289,8 +289,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -299,8 +299,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -309,8 +309,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -319,8 +319,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setFalloff(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setFalloff(double) setFalloff} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -329,8 +329,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -339,8 +339,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -349,8 +349,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setInnerAngle(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setInnerAngle(double) setInnerAngle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -359,8 +359,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -369,8 +369,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -379,8 +379,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -389,8 +389,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setLightOn(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setLightOn(boolean) setLightOn} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -399,8 +399,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setLinearAttenuation(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setLinearAttenuation(double) setLinearAttenuation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -409,8 +409,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -419,8 +419,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setMaxRange(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setMaxRange(double) setMaxRange} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -429,8 +429,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -439,8 +439,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -449,8 +449,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -459,8 +459,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -469,8 +469,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -479,8 +479,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -489,8 +489,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -499,8 +499,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -509,8 +509,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -519,8 +519,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -529,8 +529,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -539,8 +539,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -549,8 +549,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -559,8 +559,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -569,8 +569,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -579,8 +579,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -589,8 +589,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -599,8 +599,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -609,8 +609,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -619,8 +619,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -629,8 +629,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -639,8 +639,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -649,8 +649,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -659,8 +659,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -669,8 +669,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -679,8 +679,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -689,8 +689,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -699,8 +699,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -709,8 +709,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -719,8 +719,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -729,8 +729,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -739,8 +739,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -749,8 +749,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -759,8 +759,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -769,8 +769,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -779,8 +779,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -789,8 +789,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -799,8 +799,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -809,8 +809,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -819,8 +819,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -829,8 +829,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -839,8 +839,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -849,8 +849,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setOuterAngle(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setOuterAngle(double) setOuterAngle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -859,8 +859,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -869,8 +869,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setQuadraticAttenuation(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setQuadraticAttenuation(double) setQuadraticAttenuation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -879,8 +879,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -889,8 +889,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -899,8 +899,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -909,8 +909,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -919,8 +919,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -929,8 +929,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -939,8 +939,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -949,8 +949,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -959,8 +959,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -969,8 +969,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -979,8 +979,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -989,8 +989,8 @@ public class SpotLightBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SpotLight#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SpotLight#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2018,7 +2018,7 @@ public class SpotLightBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2040,7 +2040,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2062,7 +2062,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2084,7 +2084,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2106,7 +2106,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2128,7 +2128,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2150,7 +2150,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2172,7 +2172,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2194,7 +2194,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2216,7 +2216,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2238,7 +2238,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#colorProperty() colorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2260,7 +2260,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#constantAttenuationProperty() constantAttenuationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2282,7 +2282,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2304,7 +2304,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2326,7 +2326,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#directionProperty() directionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2348,7 +2348,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2370,7 +2370,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2392,7 +2392,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2414,7 +2414,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2436,7 +2436,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2458,7 +2458,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#falloffProperty() falloffProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2480,7 +2480,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2502,7 +2502,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2524,7 +2524,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2546,7 +2546,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2568,7 +2568,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2590,7 +2590,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2612,7 +2612,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#innerAngleProperty() innerAngleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2634,7 +2634,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2656,7 +2656,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2678,7 +2678,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2700,7 +2700,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2722,7 +2722,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#lightOnProperty() lightOnProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2744,7 +2744,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#linearAttenuationProperty() linearAttenuationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2766,7 +2766,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2788,7 +2788,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2810,7 +2810,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2832,7 +2832,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#maxRangeProperty() maxRangeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2854,7 +2854,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2876,7 +2876,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2898,7 +2898,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2920,7 +2920,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2942,7 +2942,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2964,7 +2964,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -2986,7 +2986,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3008,7 +3008,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3030,7 +3030,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3052,7 +3052,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3074,7 +3074,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3096,7 +3096,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3118,7 +3118,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3140,7 +3140,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3162,7 +3162,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3184,7 +3184,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3206,7 +3206,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3228,7 +3228,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3250,7 +3250,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3272,7 +3272,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3294,7 +3294,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3316,7 +3316,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3338,7 +3338,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3360,7 +3360,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3382,7 +3382,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3404,7 +3404,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3426,7 +3426,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3448,7 +3448,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3470,7 +3470,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3492,7 +3492,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3514,7 +3514,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3536,7 +3536,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3558,7 +3558,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3580,7 +3580,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3602,7 +3602,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3624,7 +3624,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3646,7 +3646,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3668,7 +3668,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3690,7 +3690,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3712,7 +3712,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3734,7 +3734,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3756,7 +3756,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3778,7 +3778,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#outerAngleProperty() outerAngleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3800,7 +3800,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3822,7 +3822,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3844,7 +3844,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3866,7 +3866,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#quadraticAttenuationProperty() quadraticAttenuationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3888,7 +3888,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3910,7 +3910,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3932,7 +3932,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3954,7 +3954,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3976,7 +3976,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -3998,7 +3998,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -4020,7 +4020,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -4042,7 +4042,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -4064,7 +4064,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -4086,7 +4086,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -4108,7 +4108,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 
@@ -4130,7 +4130,7 @@ public class SpotLightBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.SpotLight#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
      * <p>
      * Example: 

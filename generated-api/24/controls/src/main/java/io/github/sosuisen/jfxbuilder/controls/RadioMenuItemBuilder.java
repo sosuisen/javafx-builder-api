@@ -157,7 +157,7 @@ public class RadioMenuItemBuilder {
         return false;
     }
     /**
-     * Applies a function to the RadioMenuItem instance currently being constructed.
+     * Applies a function to the RadioMenuItem instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -168,8 +168,8 @@ public class RadioMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.RadioMenuItem#setAccelerator(javafx.scene.input.KeyCombination)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setAccelerator(javafx.scene.input.KeyCombination) setAccelerator} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -178,8 +178,8 @@ public class RadioMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.RadioMenuItem#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -188,8 +188,8 @@ public class RadioMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.RadioMenuItem#setGraphic(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -198,8 +198,8 @@ public class RadioMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.RadioMenuItem#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -208,8 +208,8 @@ public class RadioMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.RadioMenuItem#setMnemonicParsing(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -218,8 +218,8 @@ public class RadioMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.RadioMenuItem#setOnAction(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -228,8 +228,8 @@ public class RadioMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.RadioMenuItem#setOnMenuValidation(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setOnMenuValidation(javafx.event.EventHandler) setOnMenuValidation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -238,8 +238,8 @@ public class RadioMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.RadioMenuItem#setSelected(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setSelected(boolean) setSelected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -248,8 +248,8 @@ public class RadioMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.RadioMenuItem#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -258,8 +258,8 @@ public class RadioMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.RadioMenuItem#setText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setText(java.lang.String) setText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -268,8 +268,8 @@ public class RadioMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.RadioMenuItem#setToggleGroup(javafx.scene.control.ToggleGroup)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setToggleGroup(javafx.scene.control.ToggleGroup) setToggleGroup} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -278,8 +278,8 @@ public class RadioMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.RadioMenuItem#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -288,8 +288,8 @@ public class RadioMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.RadioMenuItem#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -326,7 +326,7 @@ public class RadioMenuItemBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#acceleratorProperty() acceleratorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -348,7 +348,7 @@ public class RadioMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -370,7 +370,7 @@ public class RadioMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#graphicProperty() graphicProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -392,7 +392,7 @@ public class RadioMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -414,7 +414,7 @@ public class RadioMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#mnemonicParsingProperty() mnemonicParsingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -436,7 +436,7 @@ public class RadioMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#onActionProperty() onActionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -458,7 +458,7 @@ public class RadioMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#onMenuValidationProperty() onMenuValidationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -480,7 +480,7 @@ public class RadioMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#parentMenuProperty() parentMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -502,7 +502,7 @@ public class RadioMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#parentPopupProperty() parentPopupProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -524,7 +524,7 @@ public class RadioMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#selectedProperty() selectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -546,7 +546,7 @@ public class RadioMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -568,7 +568,7 @@ public class RadioMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#textProperty() textProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -590,7 +590,7 @@ public class RadioMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#toggleGroupProperty() toggleGroupProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -612,7 +612,7 @@ public class RadioMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
      * <p>
      * Example: 

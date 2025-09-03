@@ -159,7 +159,7 @@ public class TreeItemBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the TreeItem instance currently being constructed.
+     * Applies a function to the TreeItem instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -170,8 +170,8 @@ public class TreeItemBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeItem#setExpanded(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeItem#setExpanded(boolean) setExpanded} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -180,8 +180,8 @@ public class TreeItemBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeItem#setGraphic(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeItem#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -190,8 +190,8 @@ public class TreeItemBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeItem#setValue(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeItem#setValue(java.lang.Object) setValue} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -249,7 +249,7 @@ public class TreeItemBuilder<T> {
     
     /**
      * Applies a function to the {@link javafx.scene.control.TreeItem#expandedProperty() expandedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeItem<T>> func) apply} method.
      * <p>
      * Example: 
@@ -271,7 +271,7 @@ public class TreeItemBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeItem#graphicProperty() graphicProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeItem<T>> func) apply} method.
      * <p>
      * Example: 
@@ -293,7 +293,7 @@ public class TreeItemBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeItem#leafProperty() leafProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeItem<T>> func) apply} method.
      * <p>
      * Example: 
@@ -315,7 +315,7 @@ public class TreeItemBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeItem#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeItem<T>> func) apply} method.
      * <p>
      * Example: 
@@ -337,7 +337,7 @@ public class TreeItemBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeItem#valueProperty() valueProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeItem<T>> func) apply} method.
      * <p>
      * Example: 

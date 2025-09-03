@@ -129,7 +129,7 @@ public class PieChartDataBuilder {
         return false;
     }
     /**
-     * Applies a function to the Data instance currently being constructed.
+     * Applies a function to the Data instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -140,8 +140,8 @@ public class PieChartDataBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.PieChart.Data#setName(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.PieChart.Data#setName(java.lang.String) setName} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -150,8 +150,8 @@ public class PieChartDataBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.PieChart.Data#setPieValue(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.PieChart.Data#setPieValue(double) setPieValue} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -161,7 +161,7 @@ public class PieChartDataBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.PieChart.Data#chartProperty() chartProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.PieChart.Data> func) apply} method.
      * <p>
      * Example: 
@@ -183,7 +183,7 @@ public class PieChartDataBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.PieChart.Data#nameProperty() nameProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.PieChart.Data> func) apply} method.
      * <p>
      * Example: 
@@ -205,7 +205,7 @@ public class PieChartDataBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.PieChart.Data#nodeProperty() nodeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.PieChart.Data> func) apply} method.
      * <p>
      * Example: 
@@ -227,7 +227,7 @@ public class PieChartDataBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.PieChart.Data#pieValueProperty() pieValueProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.PieChart.Data> func) apply} method.
      * <p>
      * Example: 

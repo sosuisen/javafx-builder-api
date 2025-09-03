@@ -143,7 +143,7 @@ public class HLineToBuilder {
         return false;
     }
     /**
-     * Applies a function to the HLineTo instance currently being constructed.
+     * Applies a function to the HLineTo instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -154,8 +154,8 @@ public class HLineToBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.HLineTo#setAbsolute(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.HLineTo#setAbsolute(boolean) setAbsolute} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -164,8 +164,8 @@ public class HLineToBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.HLineTo#setX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.HLineTo#setX(double) setX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -175,7 +175,7 @@ public class HLineToBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.HLineTo#absoluteProperty() absoluteProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.HLineTo> func) apply} method.
      * <p>
      * Example: 
@@ -197,7 +197,7 @@ public class HLineToBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.HLineTo#xProperty() xProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.HLineTo> func) apply} method.
      * <p>
      * Example: 

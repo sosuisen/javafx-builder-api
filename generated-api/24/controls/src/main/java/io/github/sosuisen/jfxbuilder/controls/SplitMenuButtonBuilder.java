@@ -185,7 +185,7 @@ public class SplitMenuButtonBuilder {
         return false;
     }
     /**
-     * Applies a function to the SplitMenuButton instance currently being constructed.
+     * Applies a function to the SplitMenuButton instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -201,8 +201,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -211,8 +211,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -221,8 +221,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -231,8 +231,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -241,8 +241,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setAlignment(javafx.geometry.Pos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -251,8 +251,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -261,8 +261,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -271,8 +271,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -281,8 +281,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -291,8 +291,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -301,8 +301,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -311,8 +311,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -321,8 +321,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -331,8 +331,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setContentDisplay(javafx.scene.control.ContentDisplay)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -341,8 +341,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -351,8 +351,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -361,8 +361,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -371,8 +371,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -381,8 +381,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -391,8 +391,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setEllipsisString(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -401,8 +401,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -411,8 +411,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -421,8 +421,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setFont(javafx.scene.text.Font)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -431,8 +431,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setGraphic(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -441,8 +441,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setGraphicTextGap(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -451,8 +451,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -461,8 +461,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -471,8 +471,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -481,8 +481,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -491,8 +491,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setLineSpacing(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -501,8 +501,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -511,8 +511,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -521,8 +521,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -531,8 +531,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -541,8 +541,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -551,8 +551,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -561,8 +561,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -571,8 +571,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setMnemonicParsing(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -581,8 +581,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -591,8 +591,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -601,8 +601,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnAction(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -611,8 +611,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -621,8 +621,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -631,8 +631,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -641,8 +641,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -651,8 +651,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -661,8 +661,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -671,8 +671,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -681,8 +681,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnHidden(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -691,8 +691,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnHiding(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -701,8 +701,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -711,8 +711,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -721,8 +721,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -731,8 +731,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -741,8 +741,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -751,8 +751,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -761,8 +761,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -771,8 +771,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -781,8 +781,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -791,8 +791,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -801,8 +801,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -811,8 +811,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -821,8 +821,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -831,8 +831,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -841,8 +841,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -851,8 +851,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -861,8 +861,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -871,8 +871,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -881,8 +881,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -891,8 +891,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -901,8 +901,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -911,8 +911,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnShowing(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -921,8 +921,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnShown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -931,8 +931,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -941,8 +941,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -951,8 +951,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -961,8 +961,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -971,8 +971,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -981,8 +981,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -991,8 +991,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1001,8 +1001,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1011,8 +1011,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1021,8 +1021,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1031,8 +1031,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1041,8 +1041,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1051,8 +1051,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1061,8 +1061,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1071,8 +1071,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1081,8 +1081,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setPopupSide(javafx.geometry.Side)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setPopupSide(javafx.geometry.Side) setPopupSide} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1091,8 +1091,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1101,8 +1101,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1111,8 +1111,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1121,8 +1121,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1131,8 +1131,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1141,8 +1141,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1151,8 +1151,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1161,8 +1161,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1171,8 +1171,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1181,8 +1181,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1191,8 +1191,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1201,8 +1201,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1211,8 +1211,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1221,8 +1221,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setText(java.lang.String) setText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1231,8 +1231,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setTextAlignment(javafx.scene.text.TextAlignment)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1241,8 +1241,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setTextFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1251,8 +1251,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setTextOverrun(javafx.scene.control.OverrunStyle)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1261,8 +1261,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1271,8 +1271,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1281,8 +1281,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1291,8 +1291,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1301,8 +1301,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setUnderline(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setUnderline(boolean) setUnderline} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1311,8 +1311,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1321,8 +1321,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1331,8 +1331,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1341,8 +1341,8 @@ public class SplitMenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitMenuButton#setWrapText(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitMenuButton#setWrapText(boolean) setWrapText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2365,7 +2365,7 @@ public class SplitMenuButtonBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2387,7 +2387,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2409,7 +2409,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2431,7 +2431,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2453,7 +2453,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#alignmentProperty() alignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2475,7 +2475,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#armedProperty() armedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2497,7 +2497,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2519,7 +2519,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2541,7 +2541,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2563,7 +2563,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2585,7 +2585,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2607,7 +2607,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2629,7 +2629,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2651,7 +2651,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2673,7 +2673,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2695,7 +2695,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2717,7 +2717,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#contentDisplayProperty() contentDisplayProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2739,7 +2739,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2761,7 +2761,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2783,7 +2783,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2805,7 +2805,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2827,7 +2827,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2849,7 +2849,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2871,7 +2871,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2893,7 +2893,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#ellipsisStringProperty() ellipsisStringProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2915,7 +2915,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2937,7 +2937,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2959,7 +2959,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2981,7 +2981,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3003,7 +3003,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3025,7 +3025,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#fontProperty() fontProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3047,7 +3047,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#graphicProperty() graphicProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3069,7 +3069,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#graphicTextGapProperty() graphicTextGapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3091,7 +3091,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3113,7 +3113,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3135,7 +3135,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3157,7 +3157,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3179,7 +3179,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3201,7 +3201,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#labelPaddingProperty() labelPaddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3223,7 +3223,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3245,7 +3245,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3267,7 +3267,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3289,7 +3289,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#lineSpacingProperty() lineSpacingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3311,7 +3311,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3333,7 +3333,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3355,7 +3355,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3377,7 +3377,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3399,7 +3399,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3421,7 +3421,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3443,7 +3443,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3465,7 +3465,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#mnemonicParsingProperty() mnemonicParsingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3487,7 +3487,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3509,7 +3509,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3531,7 +3531,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3553,7 +3553,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onActionProperty() onActionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3575,7 +3575,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3597,7 +3597,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3619,7 +3619,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3641,7 +3641,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3663,7 +3663,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3685,7 +3685,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3707,7 +3707,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3729,7 +3729,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onHiddenProperty() onHiddenProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3751,7 +3751,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onHidingProperty() onHidingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3773,7 +3773,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3795,7 +3795,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3817,7 +3817,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3839,7 +3839,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3861,7 +3861,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3883,7 +3883,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3905,7 +3905,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3927,7 +3927,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3949,7 +3949,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3971,7 +3971,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3993,7 +3993,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4015,7 +4015,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4037,7 +4037,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4059,7 +4059,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4081,7 +4081,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4103,7 +4103,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4125,7 +4125,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4147,7 +4147,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4169,7 +4169,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4191,7 +4191,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4213,7 +4213,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4235,7 +4235,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onShowingProperty() onShowingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4257,7 +4257,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onShownProperty() onShownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4279,7 +4279,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4301,7 +4301,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4323,7 +4323,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4345,7 +4345,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4367,7 +4367,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4389,7 +4389,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4411,7 +4411,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4433,7 +4433,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4455,7 +4455,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4477,7 +4477,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4499,7 +4499,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4521,7 +4521,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4543,7 +4543,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4565,7 +4565,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4587,7 +4587,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4609,7 +4609,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4631,7 +4631,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#popupSideProperty() popupSideProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4653,7 +4653,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4675,7 +4675,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4697,7 +4697,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4719,7 +4719,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4741,7 +4741,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4763,7 +4763,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4785,7 +4785,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4807,7 +4807,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4829,7 +4829,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4851,7 +4851,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4873,7 +4873,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4895,7 +4895,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#showingProperty() showingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4917,7 +4917,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4939,7 +4939,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4961,7 +4961,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4983,7 +4983,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#textAlignmentProperty() textAlignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5005,7 +5005,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#textFillProperty() textFillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5027,7 +5027,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#textOverrunProperty() textOverrunProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5049,7 +5049,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#textProperty() textProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5071,7 +5071,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#textTruncatedProperty() textTruncatedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5093,7 +5093,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5115,7 +5115,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5137,7 +5137,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5159,7 +5159,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5181,7 +5181,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#underlineProperty() underlineProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5203,7 +5203,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5225,7 +5225,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5247,7 +5247,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5269,7 +5269,7 @@ public class SplitMenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#wrapTextProperty() wrapTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
      * <p>
      * Example: 

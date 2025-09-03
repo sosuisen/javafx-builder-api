@@ -143,7 +143,7 @@ public class ReflectionBuilder {
         return false;
     }
     /**
-     * Applies a function to the Reflection instance currently being constructed.
+     * Applies a function to the Reflection instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -154,8 +154,8 @@ public class ReflectionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Reflection#setBottomOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Reflection#setBottomOpacity(double) setBottomOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -164,8 +164,8 @@ public class ReflectionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Reflection#setFraction(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Reflection#setFraction(double) setFraction} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -174,8 +174,8 @@ public class ReflectionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Reflection#setInput(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Reflection#setInput(javafx.scene.effect.Effect) setInput} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -184,8 +184,8 @@ public class ReflectionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Reflection#setTopOffset(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Reflection#setTopOffset(double) setTopOffset} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -194,8 +194,8 @@ public class ReflectionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Reflection#setTopOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Reflection#setTopOpacity(double) setTopOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -205,7 +205,7 @@ public class ReflectionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Reflection#bottomOpacityProperty() bottomOpacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Reflection> func) apply} method.
      * <p>
      * Example: 
@@ -227,7 +227,7 @@ public class ReflectionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Reflection#fractionProperty() fractionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Reflection> func) apply} method.
      * <p>
      * Example: 
@@ -249,7 +249,7 @@ public class ReflectionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Reflection#inputProperty() inputProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Reflection> func) apply} method.
      * <p>
      * Example: 
@@ -271,7 +271,7 @@ public class ReflectionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Reflection#topOffsetProperty() topOffsetProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Reflection> func) apply} method.
      * <p>
      * Example: 
@@ -293,7 +293,7 @@ public class ReflectionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Reflection#topOpacityProperty() topOpacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Reflection> func) apply} method.
      * <p>
      * Example: 

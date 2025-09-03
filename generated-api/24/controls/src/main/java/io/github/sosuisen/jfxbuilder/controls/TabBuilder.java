@@ -157,7 +157,7 @@ public class TabBuilder {
         return false;
     }
     /**
-     * Applies a function to the Tab instance currently being constructed.
+     * Applies a function to the Tab instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -168,8 +168,8 @@ public class TabBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tab#setClosable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tab#setClosable(boolean) setClosable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -178,8 +178,8 @@ public class TabBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tab#setContent(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tab#setContent(javafx.scene.Node) setContent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -188,8 +188,8 @@ public class TabBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tab#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tab#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -198,8 +198,8 @@ public class TabBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tab#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tab#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -208,8 +208,8 @@ public class TabBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tab#setGraphic(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tab#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -218,8 +218,8 @@ public class TabBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tab#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tab#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -228,8 +228,8 @@ public class TabBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tab#setOnCloseRequest(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tab#setOnCloseRequest(javafx.event.EventHandler) setOnCloseRequest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -238,8 +238,8 @@ public class TabBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tab#setOnClosed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tab#setOnClosed(javafx.event.EventHandler) setOnClosed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -248,8 +248,8 @@ public class TabBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tab#setOnSelectionChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tab#setOnSelectionChanged(javafx.event.EventHandler) setOnSelectionChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -258,8 +258,8 @@ public class TabBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tab#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tab#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -268,8 +268,8 @@ public class TabBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tab#setText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tab#setText(java.lang.String) setText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -278,8 +278,8 @@ public class TabBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tab#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tab#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -288,8 +288,8 @@ public class TabBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tab#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tab#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -326,7 +326,7 @@ public class TabBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.Tab#closableProperty() closableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
      * <p>
      * Example: 
@@ -348,7 +348,7 @@ public class TabBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tab#contentProperty() contentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
      * <p>
      * Example: 
@@ -370,7 +370,7 @@ public class TabBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tab#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
      * <p>
      * Example: 
@@ -392,7 +392,7 @@ public class TabBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tab#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
      * <p>
      * Example: 
@@ -414,7 +414,7 @@ public class TabBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tab#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
      * <p>
      * Example: 
@@ -436,7 +436,7 @@ public class TabBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tab#graphicProperty() graphicProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
      * <p>
      * Example: 
@@ -458,7 +458,7 @@ public class TabBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tab#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
      * <p>
      * Example: 
@@ -480,7 +480,7 @@ public class TabBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tab#onCloseRequestProperty() onCloseRequestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
      * <p>
      * Example: 
@@ -502,7 +502,7 @@ public class TabBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tab#onClosedProperty() onClosedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
      * <p>
      * Example: 
@@ -524,7 +524,7 @@ public class TabBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tab#onSelectionChangedProperty() onSelectionChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
      * <p>
      * Example: 
@@ -546,7 +546,7 @@ public class TabBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tab#selectedProperty() selectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
      * <p>
      * Example: 
@@ -568,7 +568,7 @@ public class TabBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tab#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
      * <p>
      * Example: 
@@ -590,7 +590,7 @@ public class TabBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tab#tabPaneProperty() tabPaneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
      * <p>
      * Example: 
@@ -612,7 +612,7 @@ public class TabBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tab#textProperty() textProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
      * <p>
      * Example: 
@@ -634,7 +634,7 @@ public class TabBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tab#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
      * <p>
      * Example: 

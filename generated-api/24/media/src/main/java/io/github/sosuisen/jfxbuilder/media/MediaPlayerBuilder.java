@@ -129,7 +129,7 @@ public class MediaPlayerBuilder {
         return false;
     }
     /**
-     * Applies a function to the MediaPlayer instance currently being constructed.
+     * Applies a function to the MediaPlayer instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -140,8 +140,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setAudioSpectrumInterval(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setAudioSpectrumInterval(double) setAudioSpectrumInterval} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -150,8 +150,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setAudioSpectrumListener(javafx.scene.media.AudioSpectrumListener)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setAudioSpectrumListener(javafx.scene.media.AudioSpectrumListener) setAudioSpectrumListener} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -160,8 +160,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setAudioSpectrumNumBands(int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setAudioSpectrumNumBands(int) setAudioSpectrumNumBands} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -170,8 +170,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setAudioSpectrumThreshold(int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setAudioSpectrumThreshold(int) setAudioSpectrumThreshold} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -180,8 +180,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setAutoPlay(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setAutoPlay(boolean) setAutoPlay} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -190,8 +190,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setBalance(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setBalance(double) setBalance} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -200,8 +200,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setCycleCount(int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setCycleCount(int) setCycleCount} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -210,8 +210,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setMute(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setMute(boolean) setMute} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -220,8 +220,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setOnEndOfMedia(java.lang.Runnable)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setOnEndOfMedia(java.lang.Runnable) setOnEndOfMedia} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -230,8 +230,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setOnError(java.lang.Runnable)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setOnError(java.lang.Runnable) setOnError} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -240,8 +240,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setOnHalted(java.lang.Runnable)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setOnHalted(java.lang.Runnable) setOnHalted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -250,8 +250,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setOnMarker(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setOnMarker(javafx.event.EventHandler) setOnMarker} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -260,8 +260,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setOnPaused(java.lang.Runnable)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setOnPaused(java.lang.Runnable) setOnPaused} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -270,8 +270,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setOnPlaying(java.lang.Runnable)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setOnPlaying(java.lang.Runnable) setOnPlaying} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -280,8 +280,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setOnReady(java.lang.Runnable)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setOnReady(java.lang.Runnable) setOnReady} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -290,8 +290,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setOnRepeat(java.lang.Runnable)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setOnRepeat(java.lang.Runnable) setOnRepeat} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -300,8 +300,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setOnStalled(java.lang.Runnable)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setOnStalled(java.lang.Runnable) setOnStalled} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -310,8 +310,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setOnStopped(java.lang.Runnable)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setOnStopped(java.lang.Runnable) setOnStopped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -320,8 +320,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setRate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setRate(double) setRate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -330,8 +330,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setStartTime(javafx.util.Duration)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setStartTime(javafx.util.Duration) setStartTime} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -340,8 +340,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setStopTime(javafx.util.Duration)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setStopTime(javafx.util.Duration) setStopTime} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -350,8 +350,8 @@ public class MediaPlayerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.MediaPlayer#setVolume(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.MediaPlayer#setVolume(double) setVolume} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -361,7 +361,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#audioSpectrumIntervalProperty() audioSpectrumIntervalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -383,7 +383,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#audioSpectrumListenerProperty() audioSpectrumListenerProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -405,7 +405,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#audioSpectrumNumBandsProperty() audioSpectrumNumBandsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -427,7 +427,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#audioSpectrumThresholdProperty() audioSpectrumThresholdProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -449,7 +449,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#autoPlayProperty() autoPlayProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -471,7 +471,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#balanceProperty() balanceProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -493,7 +493,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#bufferProgressTimeProperty() bufferProgressTimeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -515,7 +515,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#currentCountProperty() currentCountProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -537,7 +537,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#currentRateProperty() currentRateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -559,7 +559,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#currentTimeProperty() currentTimeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -581,7 +581,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#cycleCountProperty() cycleCountProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -603,7 +603,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#cycleDurationProperty() cycleDurationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -625,7 +625,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#errorProperty() errorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -647,7 +647,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#muteProperty() muteProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -669,7 +669,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onEndOfMediaProperty() onEndOfMediaProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -691,7 +691,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onErrorProperty() onErrorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -713,7 +713,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onHaltedProperty() onHaltedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -735,7 +735,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onMarkerProperty() onMarkerProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -757,7 +757,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onPausedProperty() onPausedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -779,7 +779,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onPlayingProperty() onPlayingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -801,7 +801,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onReadyProperty() onReadyProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -823,7 +823,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onRepeatProperty() onRepeatProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -845,7 +845,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onStalledProperty() onStalledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -867,7 +867,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onStoppedProperty() onStoppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -889,7 +889,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#rateProperty() rateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -911,7 +911,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#startTimeProperty() startTimeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -933,7 +933,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#statusProperty() statusProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -955,7 +955,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#stopTimeProperty() stopTimeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -977,7 +977,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#totalDurationProperty() totalDurationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 
@@ -999,7 +999,7 @@ public class MediaPlayerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#volumeProperty() volumeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
      * <p>
      * Example: 

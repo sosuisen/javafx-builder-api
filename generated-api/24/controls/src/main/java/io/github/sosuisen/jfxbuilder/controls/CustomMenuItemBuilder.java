@@ -157,7 +157,7 @@ public class CustomMenuItemBuilder {
         return false;
     }
     /**
-     * Applies a function to the CustomMenuItem instance currently being constructed.
+     * Applies a function to the CustomMenuItem instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -168,8 +168,8 @@ public class CustomMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.CustomMenuItem#setAccelerator(javafx.scene.input.KeyCombination)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.CustomMenuItem#setAccelerator(javafx.scene.input.KeyCombination) setAccelerator} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -178,8 +178,8 @@ public class CustomMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.CustomMenuItem#setContent(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.CustomMenuItem#setContent(javafx.scene.Node) setContent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -188,8 +188,8 @@ public class CustomMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.CustomMenuItem#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.CustomMenuItem#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -198,8 +198,8 @@ public class CustomMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.CustomMenuItem#setGraphic(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.CustomMenuItem#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -208,8 +208,8 @@ public class CustomMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.CustomMenuItem#setHideOnClick(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.CustomMenuItem#setHideOnClick(boolean) setHideOnClick} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -218,8 +218,8 @@ public class CustomMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.CustomMenuItem#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.CustomMenuItem#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -228,8 +228,8 @@ public class CustomMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.CustomMenuItem#setMnemonicParsing(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.CustomMenuItem#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -238,8 +238,8 @@ public class CustomMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.CustomMenuItem#setOnAction(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.CustomMenuItem#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -248,8 +248,8 @@ public class CustomMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.CustomMenuItem#setOnMenuValidation(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.CustomMenuItem#setOnMenuValidation(javafx.event.EventHandler) setOnMenuValidation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -258,8 +258,8 @@ public class CustomMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.CustomMenuItem#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.CustomMenuItem#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -268,8 +268,8 @@ public class CustomMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.CustomMenuItem#setText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.CustomMenuItem#setText(java.lang.String) setText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -278,8 +278,8 @@ public class CustomMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.CustomMenuItem#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.CustomMenuItem#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -288,8 +288,8 @@ public class CustomMenuItemBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.CustomMenuItem#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.CustomMenuItem#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -326,7 +326,7 @@ public class CustomMenuItemBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.CustomMenuItem#acceleratorProperty() acceleratorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CustomMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -348,7 +348,7 @@ public class CustomMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.CustomMenuItem#contentProperty() contentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CustomMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -370,7 +370,7 @@ public class CustomMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.CustomMenuItem#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CustomMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -392,7 +392,7 @@ public class CustomMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.CustomMenuItem#graphicProperty() graphicProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CustomMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -414,7 +414,7 @@ public class CustomMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.CustomMenuItem#hideOnClickProperty() hideOnClickProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CustomMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -436,7 +436,7 @@ public class CustomMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.CustomMenuItem#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CustomMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -458,7 +458,7 @@ public class CustomMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.CustomMenuItem#mnemonicParsingProperty() mnemonicParsingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CustomMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -480,7 +480,7 @@ public class CustomMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.CustomMenuItem#onActionProperty() onActionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CustomMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -502,7 +502,7 @@ public class CustomMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.CustomMenuItem#onMenuValidationProperty() onMenuValidationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CustomMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -524,7 +524,7 @@ public class CustomMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.CustomMenuItem#parentMenuProperty() parentMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CustomMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -546,7 +546,7 @@ public class CustomMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.CustomMenuItem#parentPopupProperty() parentPopupProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CustomMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -568,7 +568,7 @@ public class CustomMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.CustomMenuItem#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CustomMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -590,7 +590,7 @@ public class CustomMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.CustomMenuItem#textProperty() textProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CustomMenuItem> func) apply} method.
      * <p>
      * Example: 
@@ -612,7 +612,7 @@ public class CustomMenuItemBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.CustomMenuItem#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CustomMenuItem> func) apply} method.
      * <p>
      * Example: 

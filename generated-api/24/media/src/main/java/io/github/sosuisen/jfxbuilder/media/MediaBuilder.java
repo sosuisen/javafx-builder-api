@@ -129,7 +129,7 @@ public class MediaBuilder {
         return false;
     }
     /**
-     * Applies a function to the Media instance currently being constructed.
+     * Applies a function to the Media instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -140,8 +140,8 @@ public class MediaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.Media#setOnError(java.lang.Runnable)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.Media#setOnError(java.lang.Runnable) setOnError} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -178,7 +178,7 @@ public class MediaBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.media.Media#durationProperty() durationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.Media> func) apply} method.
      * <p>
      * Example: 
@@ -200,7 +200,7 @@ public class MediaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.Media#errorProperty() errorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.Media> func) apply} method.
      * <p>
      * Example: 
@@ -222,7 +222,7 @@ public class MediaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.Media#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.Media> func) apply} method.
      * <p>
      * Example: 
@@ -244,7 +244,7 @@ public class MediaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.Media#onErrorProperty() onErrorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.Media> func) apply} method.
      * <p>
      * Example: 
@@ -266,7 +266,7 @@ public class MediaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.media.Media#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.Media> func) apply} method.
      * <p>
      * Example: 

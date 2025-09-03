@@ -115,7 +115,7 @@ public class GraphicsContextBuilder {
         return false;
     }
     /**
-     * Applies a function to the GraphicsContext instance currently being constructed.
+     * Applies a function to the GraphicsContext instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -126,8 +126,8 @@ public class GraphicsContextBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.canvas.GraphicsContext#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.canvas.GraphicsContext#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -136,8 +136,8 @@ public class GraphicsContextBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.canvas.GraphicsContext#setFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.canvas.GraphicsContext#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -146,8 +146,8 @@ public class GraphicsContextBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.canvas.GraphicsContext#setFillRule(javafx.scene.shape.FillRule)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.canvas.GraphicsContext#setFillRule(javafx.scene.shape.FillRule) setFillRule} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -156,8 +156,8 @@ public class GraphicsContextBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.canvas.GraphicsContext#setFont(javafx.scene.text.Font)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.canvas.GraphicsContext#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -166,8 +166,8 @@ public class GraphicsContextBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.canvas.GraphicsContext#setFontSmoothingType(javafx.scene.text.FontSmoothingType)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.canvas.GraphicsContext#setFontSmoothingType(javafx.scene.text.FontSmoothingType) setFontSmoothingType} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -176,8 +176,8 @@ public class GraphicsContextBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.canvas.GraphicsContext#setGlobalAlpha(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.canvas.GraphicsContext#setGlobalAlpha(double) setGlobalAlpha} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -186,8 +186,8 @@ public class GraphicsContextBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.canvas.GraphicsContext#setGlobalBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.canvas.GraphicsContext#setGlobalBlendMode(javafx.scene.effect.BlendMode) setGlobalBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -196,8 +196,8 @@ public class GraphicsContextBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.canvas.GraphicsContext#setImageSmoothing(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.canvas.GraphicsContext#setImageSmoothing(boolean) setImageSmoothing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -206,8 +206,8 @@ public class GraphicsContextBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.canvas.GraphicsContext#setLineCap(javafx.scene.shape.StrokeLineCap)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.canvas.GraphicsContext#setLineCap(javafx.scene.shape.StrokeLineCap) setLineCap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -216,8 +216,8 @@ public class GraphicsContextBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.canvas.GraphicsContext#setLineDashOffset(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.canvas.GraphicsContext#setLineDashOffset(double) setLineDashOffset} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -226,8 +226,8 @@ public class GraphicsContextBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.canvas.GraphicsContext#setLineDashes(double...)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.canvas.GraphicsContext#setLineDashes(double...) setLineDashes} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -236,8 +236,8 @@ public class GraphicsContextBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.canvas.GraphicsContext#setLineJoin(javafx.scene.shape.StrokeLineJoin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.canvas.GraphicsContext#setLineJoin(javafx.scene.shape.StrokeLineJoin) setLineJoin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -246,8 +246,8 @@ public class GraphicsContextBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.canvas.GraphicsContext#setLineWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.canvas.GraphicsContext#setLineWidth(double) setLineWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -256,8 +256,8 @@ public class GraphicsContextBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.canvas.GraphicsContext#setMiterLimit(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.canvas.GraphicsContext#setMiterLimit(double) setMiterLimit} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -266,8 +266,8 @@ public class GraphicsContextBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.canvas.GraphicsContext#setStroke(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.canvas.GraphicsContext#setStroke(javafx.scene.paint.Paint) setStroke} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -276,8 +276,8 @@ public class GraphicsContextBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.canvas.GraphicsContext#setTextAlign(javafx.scene.text.TextAlignment)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.canvas.GraphicsContext#setTextAlign(javafx.scene.text.TextAlignment) setTextAlign} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -286,8 +286,8 @@ public class GraphicsContextBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.canvas.GraphicsContext#setTextBaseline(javafx.geometry.VPos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.canvas.GraphicsContext#setTextBaseline(javafx.geometry.VPos) setTextBaseline} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -296,8 +296,8 @@ public class GraphicsContextBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.canvas.GraphicsContext#setTransform(double, double, double, double, double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.canvas.GraphicsContext#setTransform(double, double, double, double, double, double) setTransform} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -306,8 +306,8 @@ public class GraphicsContextBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.canvas.GraphicsContext#setTransform(javafx.scene.transform.Affine)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.canvas.GraphicsContext#setTransform(javafx.scene.transform.Affine) setTransform} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
