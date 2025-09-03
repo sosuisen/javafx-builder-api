@@ -157,7 +157,7 @@ public class EllipseBuilder {
         return false;
     }
     /**
-     * Applies a function to the Ellipse instance currently being built.
+     * Applies a function to the Ellipse instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2013,8 +2013,20 @@ public class EllipseBuilder {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2023,8 +2035,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2033,8 +2057,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2043,8 +2079,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2053,8 +2101,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2063,8 +2123,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2073,8 +2145,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2083,8 +2167,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2093,8 +2189,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2103,8 +2211,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#centerXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#centerXProperty() centerXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2113,8 +2233,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#centerYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#centerYProperty() centerYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2123,8 +2255,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2133,8 +2277,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2143,8 +2299,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2153,8 +2321,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2163,8 +2343,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2173,8 +2365,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2183,8 +2387,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2193,8 +2409,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2203,8 +2431,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#fillProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#fillProperty() fillProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fillProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fillPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2213,8 +2453,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2223,8 +2475,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2233,8 +2497,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2243,8 +2519,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2253,8 +2541,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2263,8 +2563,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2273,8 +2585,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2283,8 +2607,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2293,8 +2629,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2303,8 +2651,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2313,8 +2673,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2323,8 +2695,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2333,8 +2717,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2343,8 +2739,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2353,8 +2761,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2363,8 +2783,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2373,8 +2805,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2383,8 +2827,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2393,8 +2849,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2403,8 +2871,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2413,8 +2893,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2423,8 +2915,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2433,8 +2937,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2443,8 +2959,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2453,8 +2981,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2463,8 +3003,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2473,8 +3025,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2483,8 +3047,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2493,8 +3069,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2503,8 +3091,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2513,8 +3113,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2523,8 +3135,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2533,8 +3157,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2543,8 +3179,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2553,8 +3201,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2563,8 +3223,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2573,8 +3245,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2583,8 +3267,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2593,8 +3289,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2603,8 +3311,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2613,8 +3333,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2623,8 +3355,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2633,8 +3377,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2643,8 +3399,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2653,8 +3421,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2663,8 +3443,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2673,8 +3465,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2683,8 +3487,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2693,8 +3509,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2703,8 +3531,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2713,8 +3553,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2723,8 +3575,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2733,8 +3597,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2743,8 +3619,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2753,8 +3641,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2763,8 +3663,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2773,8 +3685,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2783,8 +3707,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2793,8 +3729,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#radiusXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#radiusXProperty() radiusXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.radiusXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .radiusXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2803,8 +3751,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#radiusYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#radiusYProperty() radiusYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.radiusYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .radiusYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2813,8 +3773,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2823,8 +3795,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2833,8 +3817,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2843,8 +3839,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2853,8 +3861,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2863,8 +3883,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2873,8 +3905,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#smoothProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#smoothProperty() smoothProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.smoothProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .smoothPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2883,8 +3927,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeDashOffsetProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeDashOffsetProperty() strokeDashOffsetProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeDashOffsetProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeDashOffsetPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2893,8 +3949,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeLineCapProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeLineCapProperty() strokeLineCapProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeLineCapProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeLineCapPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2903,8 +3971,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeLineJoinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeLineJoinProperty() strokeLineJoinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeLineJoinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeLineJoinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2913,8 +3993,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeMiterLimitProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeMiterLimitProperty() strokeMiterLimitProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeMiterLimitProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeMiterLimitPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2923,8 +4015,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeProperty() strokeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2933,8 +4037,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeTypeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeTypeProperty() strokeTypeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeTypeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeTypePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2943,8 +4059,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeWidthProperty() strokeWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2953,8 +4081,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2963,8 +4103,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2973,8 +4125,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2983,8 +4147,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2993,8 +4169,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3003,8 +4191,20 @@ public class EllipseBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Ellipse#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Ellipse#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

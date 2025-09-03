@@ -171,7 +171,7 @@ public class InnerShadowBuilder {
         return false;
     }
     /**
-     * Applies a function to the InnerShadow instance currently being built.
+     * Applies a function to the InnerShadow instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -272,8 +272,20 @@ public class InnerShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.InnerShadow#blurTypeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.InnerShadow#blurTypeProperty() blurTypeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blurTypeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blurTypePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -282,8 +294,20 @@ public class InnerShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.InnerShadow#chokeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.InnerShadow#chokeProperty() chokeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.chokeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .chokePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -292,8 +316,20 @@ public class InnerShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.InnerShadow#colorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.InnerShadow#colorProperty() colorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.colorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .colorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -302,8 +338,20 @@ public class InnerShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.InnerShadow#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.InnerShadow#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -312,8 +360,20 @@ public class InnerShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.InnerShadow#inputProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.InnerShadow#inputProperty() inputProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -322,8 +382,20 @@ public class InnerShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.InnerShadow#offsetXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.InnerShadow#offsetXProperty() offsetXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.offsetXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .offsetXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -332,8 +404,20 @@ public class InnerShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.InnerShadow#offsetYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.InnerShadow#offsetYProperty() offsetYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.offsetYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .offsetYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -342,8 +426,20 @@ public class InnerShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.InnerShadow#radiusProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.InnerShadow#radiusProperty() radiusProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.radiusProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .radiusPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -352,8 +448,20 @@ public class InnerShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.InnerShadow#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.InnerShadow#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

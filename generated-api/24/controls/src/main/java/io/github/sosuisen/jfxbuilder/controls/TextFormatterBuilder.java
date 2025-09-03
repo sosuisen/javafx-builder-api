@@ -173,7 +173,7 @@ public class TextFormatterBuilder<V> {
         return false;
     }
     /**
-     * Applies a function to the TextFormatter instance currently being built.
+     * Applies a function to the TextFormatter instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -194,8 +194,20 @@ public class TextFormatterBuilder<V> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextFormatter#valueProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextFormatter#valueProperty() valueProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextFormatter<V>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.valueProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .valuePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

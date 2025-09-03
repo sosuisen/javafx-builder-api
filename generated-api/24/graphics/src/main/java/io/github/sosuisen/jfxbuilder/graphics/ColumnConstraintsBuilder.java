@@ -171,7 +171,7 @@ public class ColumnConstraintsBuilder {
         return false;
     }
     /**
-     * Applies a function to the ColumnConstraints instance currently being built.
+     * Applies a function to the ColumnConstraints instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -252,8 +252,20 @@ public class ColumnConstraintsBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#fillWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#fillWidthProperty() fillWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.ColumnConstraints> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fillWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fillWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -262,8 +274,20 @@ public class ColumnConstraintsBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#halignmentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#halignmentProperty() halignmentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.ColumnConstraints> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.halignmentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .halignmentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -272,8 +296,20 @@ public class ColumnConstraintsBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#hgrowProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#hgrowProperty() hgrowProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.ColumnConstraints> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hgrowProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hgrowPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -282,8 +318,20 @@ public class ColumnConstraintsBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.ColumnConstraints> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -292,8 +340,20 @@ public class ColumnConstraintsBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.ColumnConstraints> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -302,8 +362,20 @@ public class ColumnConstraintsBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#percentWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#percentWidthProperty() percentWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.ColumnConstraints> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.percentWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .percentWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -312,8 +384,20 @@ public class ColumnConstraintsBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.ColumnConstraints> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

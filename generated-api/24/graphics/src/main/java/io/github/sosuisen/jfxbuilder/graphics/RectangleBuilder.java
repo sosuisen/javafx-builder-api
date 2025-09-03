@@ -171,7 +171,7 @@ public class RectangleBuilder {
         return false;
     }
     /**
-     * Applies a function to the Rectangle instance currently being built.
+     * Applies a function to the Rectangle instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2047,8 +2047,20 @@ public class RectangleBuilder {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2057,8 +2069,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2067,8 +2091,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2077,8 +2113,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2087,8 +2135,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#arcHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#arcHeightProperty() arcHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.arcHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .arcHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2097,8 +2157,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#arcWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#arcWidthProperty() arcWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.arcWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .arcWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2107,8 +2179,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2117,8 +2201,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2127,8 +2223,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2137,8 +2245,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2147,8 +2267,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2157,8 +2289,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2167,8 +2311,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2177,8 +2333,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2187,8 +2355,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2197,8 +2377,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2207,8 +2399,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2217,8 +2421,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2227,8 +2443,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2237,8 +2465,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#fillProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#fillProperty() fillProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fillProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fillPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2247,8 +2487,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2257,8 +2509,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2267,8 +2531,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2277,8 +2553,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2287,8 +2575,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2297,8 +2597,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2307,8 +2619,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2317,8 +2641,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2327,8 +2663,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2337,8 +2685,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2347,8 +2707,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2357,8 +2729,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2367,8 +2751,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2377,8 +2773,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2387,8 +2795,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2397,8 +2817,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2407,8 +2839,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2417,8 +2861,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2427,8 +2883,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2437,8 +2905,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2447,8 +2927,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2457,8 +2949,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2467,8 +2971,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2477,8 +2993,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2487,8 +3015,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2497,8 +3037,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2507,8 +3059,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2517,8 +3081,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2527,8 +3103,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2537,8 +3125,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2547,8 +3147,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2557,8 +3169,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2567,8 +3191,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2577,8 +3213,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2587,8 +3235,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2597,8 +3257,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2607,8 +3279,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2617,8 +3301,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2627,8 +3323,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2637,8 +3345,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2647,8 +3367,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2657,8 +3389,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2667,8 +3411,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2677,8 +3433,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2687,8 +3455,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2697,8 +3477,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2707,8 +3499,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2717,8 +3521,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2727,8 +3543,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2737,8 +3565,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2747,8 +3587,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2757,8 +3609,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2767,8 +3631,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2777,8 +3653,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2787,8 +3675,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2797,8 +3697,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2807,8 +3719,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2817,8 +3741,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2827,8 +3763,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2837,8 +3785,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2847,8 +3807,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2857,8 +3829,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2867,8 +3851,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2877,8 +3873,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2887,8 +3895,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2897,8 +3917,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#smoothProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#smoothProperty() smoothProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.smoothProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .smoothPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2907,8 +3939,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeDashOffsetProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeDashOffsetProperty() strokeDashOffsetProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeDashOffsetProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeDashOffsetPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2917,8 +3961,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeLineCapProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeLineCapProperty() strokeLineCapProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeLineCapProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeLineCapPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2927,8 +3983,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeLineJoinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeLineJoinProperty() strokeLineJoinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeLineJoinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeLineJoinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2937,8 +4005,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeMiterLimitProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeMiterLimitProperty() strokeMiterLimitProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeMiterLimitProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeMiterLimitPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2947,8 +4027,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeProperty() strokeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2957,8 +4049,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeTypeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeTypeProperty() strokeTypeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeTypeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeTypePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2967,8 +4071,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeWidthProperty() strokeWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2977,8 +4093,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2987,8 +4115,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2997,8 +4137,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3007,8 +4159,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3017,8 +4181,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3027,8 +4203,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3037,8 +4225,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3047,8 +4247,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3057,8 +4269,20 @@ public class RectangleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Rectangle#yProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Rectangle#yProperty() yProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.yProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

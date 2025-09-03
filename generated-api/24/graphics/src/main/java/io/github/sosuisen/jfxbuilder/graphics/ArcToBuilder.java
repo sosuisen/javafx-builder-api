@@ -143,7 +143,7 @@ public class ArcToBuilder {
         return false;
     }
     /**
-     * Applies a function to the ArcTo instance currently being built.
+     * Applies a function to the ArcTo instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -234,8 +234,20 @@ public class ArcToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.ArcTo#XAxisRotationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.ArcTo#XAxisRotationProperty() XAxisRotationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.ArcTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.XAxisRotationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .XAxisRotationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -244,8 +256,20 @@ public class ArcToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.ArcTo#absoluteProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.ArcTo#absoluteProperty() absoluteProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.ArcTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.absoluteProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .absolutePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -254,8 +278,20 @@ public class ArcToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.ArcTo#largeArcFlagProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.ArcTo#largeArcFlagProperty() largeArcFlagProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.ArcTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.largeArcFlagProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .largeArcFlagPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -264,8 +300,20 @@ public class ArcToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.ArcTo#radiusXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.ArcTo#radiusXProperty() radiusXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.ArcTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.radiusXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .radiusXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -274,8 +322,20 @@ public class ArcToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.ArcTo#radiusYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.ArcTo#radiusYProperty() radiusYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.ArcTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.radiusYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .radiusYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -284,8 +344,20 @@ public class ArcToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.ArcTo#sweepFlagProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.ArcTo#sweepFlagProperty() sweepFlagProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.ArcTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sweepFlagProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .sweepFlagPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -294,8 +366,20 @@ public class ArcToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.ArcTo#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.ArcTo#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.ArcTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -304,8 +388,20 @@ public class ArcToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.ArcTo#yProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.ArcTo#yProperty() yProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.ArcTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.yProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

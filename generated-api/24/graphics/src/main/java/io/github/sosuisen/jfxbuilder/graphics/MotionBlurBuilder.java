@@ -143,7 +143,7 @@ public class MotionBlurBuilder {
         return false;
     }
     /**
-     * Applies a function to the MotionBlur instance currently being built.
+     * Applies a function to the MotionBlur instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -184,8 +184,20 @@ public class MotionBlurBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.MotionBlur#angleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.MotionBlur#angleProperty() angleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.MotionBlur> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.angleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .anglePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -194,8 +206,20 @@ public class MotionBlurBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.MotionBlur#inputProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.MotionBlur#inputProperty() inputProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.MotionBlur> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -204,8 +228,20 @@ public class MotionBlurBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.MotionBlur#radiusProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.MotionBlur#radiusProperty() radiusProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.MotionBlur> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.radiusProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .radiusPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

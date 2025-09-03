@@ -143,7 +143,7 @@ public class LightSpotBuilder {
         return false;
     }
     /**
-     * Applies a function to the Spot instance currently being built.
+     * Applies a function to the Spot instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -234,8 +234,20 @@ public class LightSpotBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Light.Spot#colorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Light.Spot#colorProperty() colorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.colorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .colorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -244,8 +256,20 @@ public class LightSpotBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Light.Spot#pointsAtXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Light.Spot#pointsAtXProperty() pointsAtXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pointsAtXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pointsAtXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -254,8 +278,20 @@ public class LightSpotBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Light.Spot#pointsAtYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Light.Spot#pointsAtYProperty() pointsAtYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pointsAtYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pointsAtYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -264,8 +300,20 @@ public class LightSpotBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Light.Spot#pointsAtZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Light.Spot#pointsAtZProperty() pointsAtZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pointsAtZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pointsAtZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -274,8 +322,20 @@ public class LightSpotBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Light.Spot#specularExponentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Light.Spot#specularExponentProperty() specularExponentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.specularExponentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .specularExponentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -284,8 +344,20 @@ public class LightSpotBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Light.Spot#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Light.Spot#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -294,8 +366,20 @@ public class LightSpotBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Light.Spot#yProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Light.Spot#yProperty() yProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.yProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -304,8 +388,20 @@ public class LightSpotBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Light.Spot#zProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Light.Spot#zProperty() zProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.zProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .zPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

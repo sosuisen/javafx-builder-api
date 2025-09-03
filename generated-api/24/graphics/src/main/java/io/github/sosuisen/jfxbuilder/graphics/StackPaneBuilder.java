@@ -147,7 +147,7 @@ public class StackPaneBuilder {
         return false;
     }
     /**
-     * Applies a function to the StackPane instance currently being built.
+     * Applies a function to the StackPane instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2106,8 +2106,20 @@ public class StackPaneBuilder {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2116,8 +2128,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2126,8 +2150,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2136,8 +2172,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2146,8 +2194,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#alignmentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#alignmentProperty() alignmentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.alignmentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .alignmentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2156,8 +2216,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#backgroundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#backgroundProperty() backgroundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.backgroundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2166,8 +2238,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2176,8 +2260,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#borderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#borderProperty() borderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.borderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .borderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2186,8 +2282,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2196,8 +2304,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2206,8 +2326,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2216,8 +2348,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2226,8 +2370,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#cacheShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#cacheShapeProperty() cacheShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2236,8 +2392,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#centerShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#centerShapeProperty() centerShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2246,8 +2414,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2256,8 +2436,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2266,8 +2458,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2276,8 +2480,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2286,8 +2502,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2296,8 +2524,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2306,8 +2546,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2316,8 +2568,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2326,8 +2590,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2336,8 +2612,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2346,8 +2634,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2356,8 +2656,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2366,8 +2678,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2376,8 +2700,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2386,8 +2722,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2396,8 +2744,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2406,8 +2766,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#insetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#insetsProperty() insetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.insetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2416,8 +2788,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2426,8 +2810,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2436,8 +2832,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2446,8 +2854,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2456,8 +2876,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2466,8 +2898,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2476,8 +2920,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2486,8 +2942,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2496,8 +2964,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2506,8 +2986,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2516,8 +3008,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2526,8 +3030,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#needsLayoutProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#needsLayoutProperty() needsLayoutProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2536,8 +3052,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2546,8 +3074,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2556,8 +3096,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2566,8 +3118,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2576,8 +3140,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2586,8 +3162,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2596,8 +3184,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2606,8 +3206,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2616,8 +3228,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2626,8 +3250,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2636,8 +3272,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2646,8 +3294,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2656,8 +3316,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2666,8 +3338,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2676,8 +3360,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2686,8 +3382,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2696,8 +3404,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2706,8 +3426,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2716,8 +3448,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2726,8 +3470,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2736,8 +3492,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2746,8 +3514,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2756,8 +3536,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2766,8 +3558,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2776,8 +3580,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2786,8 +3602,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2796,8 +3624,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2806,8 +3646,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2816,8 +3668,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2826,8 +3690,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2836,8 +3712,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2846,8 +3734,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2856,8 +3756,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2866,8 +3778,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2876,8 +3800,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2886,8 +3822,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2896,8 +3844,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2906,8 +3866,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2916,8 +3888,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2926,8 +3910,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2936,8 +3932,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2946,8 +3954,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#opaqueInsetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opaqueInsetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2956,8 +3976,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#paddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#paddingProperty() paddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.paddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2966,8 +3998,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2976,8 +4020,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2986,8 +4042,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2996,8 +4064,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3006,8 +4086,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3016,8 +4108,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3026,8 +4130,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3036,8 +4152,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#scaleShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#scaleShapeProperty() scaleShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3046,8 +4174,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3056,8 +4196,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3066,8 +4218,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3076,8 +4240,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3086,8 +4262,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#shapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#shapeProperty() shapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.shapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .shapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3096,8 +4284,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#snapToPixelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#snapToPixelProperty() snapToPixelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.snapToPixelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3106,8 +4306,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3116,8 +4328,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3126,8 +4350,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3136,8 +4372,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3146,8 +4394,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3156,8 +4416,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3166,8 +4438,20 @@ public class StackPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.StackPane#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.StackPane#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

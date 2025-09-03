@@ -115,7 +115,7 @@ public class WebHistoryEntryBuilder {
         return false;
     }
     /**
-     * Applies a function to the Entry instance currently being built.
+     * Applies a function to the Entry instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -126,8 +126,20 @@ public class WebHistoryEntryBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.web.WebHistory.Entry#lastVisitedDateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.web.WebHistory.Entry#lastVisitedDateProperty() lastVisitedDateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebHistory.Entry> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.lastVisitedDateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .lastVisitedDatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -136,8 +148,20 @@ public class WebHistoryEntryBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.web.WebHistory.Entry#titleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.web.WebHistory.Entry#titleProperty() titleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebHistory.Entry> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.titleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .titlePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

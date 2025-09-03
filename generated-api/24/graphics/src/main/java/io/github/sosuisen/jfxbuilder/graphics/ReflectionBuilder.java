@@ -143,7 +143,7 @@ public class ReflectionBuilder {
         return false;
     }
     /**
-     * Applies a function to the Reflection instance currently being built.
+     * Applies a function to the Reflection instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -204,8 +204,20 @@ public class ReflectionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Reflection#bottomOpacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Reflection#bottomOpacityProperty() bottomOpacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Reflection> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.bottomOpacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .bottomOpacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -214,8 +226,20 @@ public class ReflectionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Reflection#fractionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Reflection#fractionProperty() fractionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Reflection> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fractionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fractionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -224,8 +248,20 @@ public class ReflectionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Reflection#inputProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Reflection#inputProperty() inputProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Reflection> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -234,8 +270,20 @@ public class ReflectionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Reflection#topOffsetProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Reflection#topOffsetProperty() topOffsetProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Reflection> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.topOffsetProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .topOffsetPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -244,8 +292,20 @@ public class ReflectionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Reflection#topOpacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Reflection#topOpacityProperty() topOpacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Reflection> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.topOpacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .topOpacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

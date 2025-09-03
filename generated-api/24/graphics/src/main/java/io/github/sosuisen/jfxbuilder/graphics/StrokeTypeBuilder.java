@@ -115,7 +115,7 @@ public class StrokeTypeBuilder {
         return false;
     }
     /**
-     * Applies a function to the StrokeType instance currently being built.
+     * Applies a function to the StrokeType instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

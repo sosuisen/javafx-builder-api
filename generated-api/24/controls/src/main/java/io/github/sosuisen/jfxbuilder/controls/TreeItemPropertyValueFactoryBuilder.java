@@ -131,7 +131,7 @@ public class TreeItemPropertyValueFactoryBuilder<S, T> {
         return false;
     }
     /**
-     * Applies a function to the TreeItemPropertyValueFactory instance currently being built.
+     * Applies a function to the TreeItemPropertyValueFactory instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -142,8 +142,20 @@ public class TreeItemPropertyValueFactoryBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.TreeItemPropertyValueFactory#getProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.TreeItemPropertyValueFactory#getProperty() getProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TreeItemPropertyValueFactory<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.getProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .getPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

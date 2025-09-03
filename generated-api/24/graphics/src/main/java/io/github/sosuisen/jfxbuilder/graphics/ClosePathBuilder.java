@@ -129,7 +129,7 @@ public class ClosePathBuilder {
         return false;
     }
     /**
-     * Applies a function to the ClosePath instance currently being built.
+     * Applies a function to the ClosePath instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -150,8 +150,20 @@ public class ClosePathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.ClosePath#absoluteProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.ClosePath#absoluteProperty() absoluteProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.ClosePath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.absoluteProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .absolutePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

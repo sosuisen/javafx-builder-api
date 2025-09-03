@@ -115,7 +115,7 @@ public class WebHistoryBuilder {
         return false;
     }
     /**
-     * Applies a function to the WebHistory instance currently being built.
+     * Applies a function to the WebHistory instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -163,8 +163,20 @@ public class WebHistoryBuilder {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.web.WebHistory#currentIndexProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.web.WebHistory#currentIndexProperty() currentIndexProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebHistory> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.currentIndexProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .currentIndexPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -173,8 +185,20 @@ public class WebHistoryBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.web.WebHistory#maxSizeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.web.WebHistory#maxSizeProperty() maxSizeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebHistory> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxSizeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxSizePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

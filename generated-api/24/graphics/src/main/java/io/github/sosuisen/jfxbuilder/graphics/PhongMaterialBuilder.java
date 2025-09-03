@@ -157,7 +157,7 @@ public class PhongMaterialBuilder {
         return false;
     }
     /**
-     * Applies a function to the PhongMaterial instance currently being built.
+     * Applies a function to the PhongMaterial instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -238,8 +238,20 @@ public class PhongMaterialBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.paint.PhongMaterial#bumpMapProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.paint.PhongMaterial#bumpMapProperty() bumpMapProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.bumpMapProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .bumpMapPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -248,8 +260,20 @@ public class PhongMaterialBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.paint.PhongMaterial#diffuseColorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.paint.PhongMaterial#diffuseColorProperty() diffuseColorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.diffuseColorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .diffuseColorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -258,8 +282,20 @@ public class PhongMaterialBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.paint.PhongMaterial#diffuseMapProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.paint.PhongMaterial#diffuseMapProperty() diffuseMapProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.diffuseMapProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .diffuseMapPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -268,8 +304,20 @@ public class PhongMaterialBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.paint.PhongMaterial#selfIlluminationMapProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.paint.PhongMaterial#selfIlluminationMapProperty() selfIlluminationMapProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.selfIlluminationMapProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .selfIlluminationMapPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -278,8 +326,20 @@ public class PhongMaterialBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.paint.PhongMaterial#specularColorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.paint.PhongMaterial#specularColorProperty() specularColorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.specularColorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .specularColorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -288,8 +348,20 @@ public class PhongMaterialBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.paint.PhongMaterial#specularMapProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.paint.PhongMaterial#specularMapProperty() specularMapProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.specularMapProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .specularMapPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -298,8 +370,20 @@ public class PhongMaterialBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.paint.PhongMaterial#specularPowerProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.paint.PhongMaterial#specularPowerProperty() specularPowerProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.specularPowerProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .specularPowerPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

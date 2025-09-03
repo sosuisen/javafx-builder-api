@@ -157,7 +157,7 @@ public class DisplacementMapBuilder {
         return false;
     }
     /**
-     * Applies a function to the DisplacementMap instance currently being built.
+     * Applies a function to the DisplacementMap instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -238,8 +238,20 @@ public class DisplacementMapBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#inputProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#inputProperty() inputProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DisplacementMap> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -248,8 +260,20 @@ public class DisplacementMapBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#mapDataProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#mapDataProperty() mapDataProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DisplacementMap> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mapDataProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mapDataPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -258,8 +282,20 @@ public class DisplacementMapBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#offsetXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#offsetXProperty() offsetXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DisplacementMap> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.offsetXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .offsetXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -268,8 +304,20 @@ public class DisplacementMapBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#offsetYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#offsetYProperty() offsetYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DisplacementMap> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.offsetYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .offsetYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -278,8 +326,20 @@ public class DisplacementMapBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DisplacementMap> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -288,8 +348,20 @@ public class DisplacementMapBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DisplacementMap> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -298,8 +370,20 @@ public class DisplacementMapBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#wrapProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#wrapProperty() wrapProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DisplacementMap> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.wrapProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .wrapPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

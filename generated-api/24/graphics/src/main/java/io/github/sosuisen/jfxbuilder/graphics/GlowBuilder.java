@@ -143,7 +143,7 @@ public class GlowBuilder {
         return false;
     }
     /**
-     * Applies a function to the Glow instance currently being built.
+     * Applies a function to the Glow instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -174,8 +174,20 @@ public class GlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Glow#inputProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Glow#inputProperty() inputProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Glow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -184,8 +196,20 @@ public class GlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Glow#levelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Glow#levelProperty() levelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Glow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.levelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .levelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

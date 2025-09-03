@@ -143,7 +143,7 @@ public class CubicCurveToBuilder {
         return false;
     }
     /**
-     * Applies a function to the CubicCurveTo instance currently being built.
+     * Applies a function to the CubicCurveTo instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -224,8 +224,20 @@ public class CubicCurveToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#absoluteProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#absoluteProperty() absoluteProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.CubicCurveTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.absoluteProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .absolutePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -234,8 +246,20 @@ public class CubicCurveToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#controlX1Property()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#controlX1Property() controlX1Property} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.CubicCurveTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.controlX1Property().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .controlX1PropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -244,8 +268,20 @@ public class CubicCurveToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#controlX2Property()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#controlX2Property() controlX2Property} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.CubicCurveTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.controlX2Property().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .controlX2PropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -254,8 +290,20 @@ public class CubicCurveToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#controlY1Property()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#controlY1Property() controlY1Property} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.CubicCurveTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.controlY1Property().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .controlY1PropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -264,8 +312,20 @@ public class CubicCurveToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#controlY2Property()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#controlY2Property() controlY2Property} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.CubicCurveTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.controlY2Property().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .controlY2PropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -274,8 +334,20 @@ public class CubicCurveToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.CubicCurveTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -284,8 +356,20 @@ public class CubicCurveToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#yProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#yProperty() yProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.CubicCurveTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.yProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

@@ -129,7 +129,7 @@ public class MenuBarSkinBuilder {
         return false;
     }
     /**
-     * Applies a function to the MenuBarSkin instance currently being built.
+     * Applies a function to the MenuBarSkin instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -187,8 +187,20 @@ public class MenuBarSkinBuilder {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.MenuBarSkin#containerAlignmentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.MenuBarSkin#containerAlignmentProperty() containerAlignmentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.MenuBarSkin> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.containerAlignmentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .containerAlignmentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -197,8 +209,20 @@ public class MenuBarSkinBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.MenuBarSkin#spacingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.MenuBarSkin#spacingProperty() spacingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.MenuBarSkin> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.spacingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .spacingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

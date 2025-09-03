@@ -129,7 +129,7 @@ public class AudioClipBuilder {
         return false;
     }
     /**
-     * Applies a function to the AudioClip instance currently being built.
+     * Applies a function to the AudioClip instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -200,8 +200,20 @@ public class AudioClipBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.AudioClip#balanceProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.AudioClip#balanceProperty() balanceProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.AudioClip> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.balanceProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .balancePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -210,8 +222,20 @@ public class AudioClipBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.AudioClip#cycleCountProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.AudioClip#cycleCountProperty() cycleCountProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.AudioClip> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cycleCountProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cycleCountPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -220,8 +244,20 @@ public class AudioClipBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.AudioClip#panProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.AudioClip#panProperty() panProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.AudioClip> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.panProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .panPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -230,8 +266,20 @@ public class AudioClipBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.AudioClip#priorityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.AudioClip#priorityProperty() priorityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.AudioClip> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.priorityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .priorityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -240,8 +288,20 @@ public class AudioClipBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.AudioClip#rateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.AudioClip#rateProperty() rateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.AudioClip> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .ratePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -250,8 +310,20 @@ public class AudioClipBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.AudioClip#volumeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.AudioClip#volumeProperty() volumeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.AudioClip> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.volumeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .volumePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

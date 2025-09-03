@@ -129,7 +129,7 @@ public class LabelSkinBuilder {
         return false;
     }
     /**
-     * Applies a function to the LabelSkin instance currently being built.
+     * Applies a function to the LabelSkin instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

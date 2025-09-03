@@ -159,7 +159,7 @@ public class StackedBarChartBuilder<X, Y> {
         return false;
     }
     /**
-     * Applies a function to the StackedBarChart instance currently being built.
+     * Applies a function to the StackedBarChart instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2217,8 +2217,20 @@ public class StackedBarChartBuilder<X, Y> {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2227,8 +2239,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2237,8 +2261,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2247,8 +2283,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2257,8 +2305,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#alternativeColumnFillVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#alternativeColumnFillVisibleProperty() alternativeColumnFillVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.alternativeColumnFillVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .alternativeColumnFillVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2267,8 +2327,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#alternativeRowFillVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#alternativeRowFillVisibleProperty() alternativeRowFillVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.alternativeRowFillVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .alternativeRowFillVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2277,8 +2349,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#animatedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#animatedProperty() animatedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.animatedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .animatedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2287,8 +2371,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#backgroundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#backgroundProperty() backgroundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.backgroundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2297,8 +2393,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2307,8 +2415,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#borderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#borderProperty() borderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.borderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .borderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2317,8 +2437,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2327,8 +2459,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2337,8 +2481,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2347,8 +2503,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2357,8 +2525,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#cacheShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#cacheShapeProperty() cacheShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2367,8 +2547,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#categoryGapProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#categoryGapProperty() categoryGapProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.categoryGapProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .categoryGapPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2377,8 +2569,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#centerShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#centerShapeProperty() centerShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2387,8 +2591,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2397,8 +2613,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2407,8 +2635,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#dataProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#dataProperty() dataProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.dataProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .dataPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2417,8 +2657,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2427,8 +2679,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2437,8 +2701,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2447,8 +2723,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2457,8 +2745,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2467,8 +2767,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2477,8 +2789,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2487,8 +2811,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2497,8 +2833,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2507,8 +2855,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2517,8 +2877,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2527,8 +2899,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#horizontalGridLinesVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#horizontalGridLinesVisibleProperty() horizontalGridLinesVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.horizontalGridLinesVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .horizontalGridLinesVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2537,8 +2921,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#horizontalZeroLineVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#horizontalZeroLineVisibleProperty() horizontalZeroLineVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.horizontalZeroLineVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .horizontalZeroLineVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2547,8 +2943,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2557,8 +2965,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2567,8 +2987,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2577,8 +3009,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#insetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#insetsProperty() insetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.insetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2587,8 +3031,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2597,8 +3053,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2607,8 +3075,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2617,8 +3097,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#legendSideProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#legendSideProperty() legendSideProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.legendSideProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .legendSidePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2627,8 +3119,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#legendVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#legendVisibleProperty() legendVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.legendVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .legendVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2637,8 +3141,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2647,8 +3163,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2657,8 +3185,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2667,8 +3207,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2677,8 +3229,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2687,8 +3251,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2697,8 +3273,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2707,8 +3295,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2717,8 +3317,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#needsLayoutProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#needsLayoutProperty() needsLayoutProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2727,8 +3339,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2737,8 +3361,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2747,8 +3383,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2757,8 +3405,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2767,8 +3427,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2777,8 +3449,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2787,8 +3471,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2797,8 +3493,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2807,8 +3515,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2817,8 +3537,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2827,8 +3559,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2837,8 +3581,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2847,8 +3603,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2857,8 +3625,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2867,8 +3647,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2877,8 +3669,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2887,8 +3691,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2897,8 +3713,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2907,8 +3735,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2917,8 +3757,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2927,8 +3779,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2937,8 +3801,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2947,8 +3823,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2957,8 +3845,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2967,8 +3867,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2977,8 +3889,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2987,8 +3911,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2997,8 +3933,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3007,8 +3955,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3017,8 +3977,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3027,8 +3999,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3037,8 +4021,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3047,8 +4043,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3057,8 +4065,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3067,8 +4087,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3077,8 +4109,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3087,8 +4131,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3097,8 +4153,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3107,8 +4175,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3117,8 +4197,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3127,8 +4219,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3137,8 +4241,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#opaqueInsetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opaqueInsetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3147,8 +4263,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#paddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#paddingProperty() paddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.paddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3157,8 +4285,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3167,8 +4307,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3177,8 +4329,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3187,8 +4351,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3197,8 +4373,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3207,8 +4395,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3217,8 +4417,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3227,8 +4439,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#scaleShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#scaleShapeProperty() scaleShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3237,8 +4461,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3247,8 +4483,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3257,8 +4505,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3267,8 +4527,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3277,8 +4549,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#shapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#shapeProperty() shapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.shapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .shapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3287,8 +4571,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#snapToPixelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#snapToPixelProperty() snapToPixelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.snapToPixelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3297,8 +4593,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3307,8 +4615,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#titleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#titleProperty() titleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.titleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .titlePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3317,8 +4637,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#titleSideProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#titleSideProperty() titleSideProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.titleSideProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .titleSidePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3327,8 +4659,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3337,8 +4681,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3347,8 +4703,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3357,8 +4725,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#verticalGridLinesVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#verticalGridLinesVisibleProperty() verticalGridLinesVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.verticalGridLinesVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .verticalGridLinesVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3367,8 +4747,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#verticalZeroLineVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#verticalZeroLineVisibleProperty() verticalZeroLineVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.verticalZeroLineVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .verticalZeroLineVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3377,8 +4769,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3387,8 +4791,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3397,8 +4813,20 @@ public class StackedBarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.StackedBarChart#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

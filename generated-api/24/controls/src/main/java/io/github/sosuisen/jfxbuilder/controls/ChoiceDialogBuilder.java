@@ -159,7 +159,7 @@ public class ChoiceDialogBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the ChoiceDialog instance currently being built.
+     * Applies a function to the ChoiceDialog instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -398,8 +398,20 @@ public class ChoiceDialogBuilder<T> {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#contentTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#contentTextProperty() contentTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contentTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contentTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -408,8 +420,20 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#dialogPaneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#dialogPaneProperty() dialogPaneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.dialogPaneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .dialogPanePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -418,8 +442,20 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#graphicProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#graphicProperty() graphicProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.graphicProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -428,8 +464,20 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#headerTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#headerTextProperty() headerTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.headerTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .headerTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -438,8 +486,20 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -448,8 +508,20 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#onCloseRequestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#onCloseRequestProperty() onCloseRequestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onCloseRequestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onCloseRequestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -458,8 +530,20 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#onHiddenProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#onHiddenProperty() onHiddenProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onHiddenProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onHiddenPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -468,8 +552,20 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#onHidingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#onHidingProperty() onHidingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onHidingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onHidingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -478,8 +574,20 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#onShowingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#onShowingProperty() onShowingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onShowingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onShowingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -488,8 +596,20 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#onShownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#onShownProperty() onShownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onShownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onShownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -498,8 +618,20 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#resizableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#resizableProperty() resizableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.resizableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .resizablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -508,8 +640,20 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#resultConverterProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#resultConverterProperty() resultConverterProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.resultConverterProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .resultConverterPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -518,8 +662,20 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#resultProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#resultProperty() resultProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.resultProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .resultPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -528,8 +684,20 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#selectedItemProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#selectedItemProperty() selectedItemProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.selectedItemProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .selectedItemPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -538,8 +706,20 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#showingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#showingProperty() showingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.showingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .showingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -548,8 +728,20 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#titleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#titleProperty() titleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.titleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .titlePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -558,8 +750,20 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -568,8 +772,20 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -578,8 +794,20 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#yProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ChoiceDialog#yProperty() yProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.yProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

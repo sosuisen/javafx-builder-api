@@ -157,7 +157,7 @@ public class RadioMenuItemBuilder {
         return false;
     }
     /**
-     * Applies a function to the RadioMenuItem instance currently being built.
+     * Applies a function to the RadioMenuItem instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -325,8 +325,20 @@ public class RadioMenuItemBuilder {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#acceleratorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#acceleratorProperty() acceleratorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.acceleratorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .acceleratorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -335,8 +347,20 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -345,8 +369,20 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#graphicProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#graphicProperty() graphicProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.graphicProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -355,8 +391,20 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -365,8 +413,20 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#mnemonicParsingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#mnemonicParsingProperty() mnemonicParsingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mnemonicParsingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mnemonicParsingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -375,8 +435,20 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#onActionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#onActionProperty() onActionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onActionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onActionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -385,8 +457,20 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#onMenuValidationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#onMenuValidationProperty() onMenuValidationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMenuValidationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMenuValidationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -395,8 +479,20 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#parentMenuProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#parentMenuProperty() parentMenuProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentMenuProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentMenuPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -405,8 +501,20 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#parentPopupProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#parentPopupProperty() parentPopupProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentPopupProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPopupPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -415,8 +523,20 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#selectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#selectedProperty() selectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.selectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .selectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -425,8 +545,20 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -435,8 +567,20 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#textProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#textProperty() textProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -445,8 +589,20 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#toggleGroupProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#toggleGroupProperty() toggleGroupProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.toggleGroupProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .toggleGroupPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -455,8 +611,20 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

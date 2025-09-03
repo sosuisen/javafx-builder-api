@@ -157,7 +157,7 @@ public class CylinderBuilder {
         return false;
     }
     /**
-     * Applies a function to the Cylinder instance currently being built.
+     * Applies a function to the Cylinder instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -1885,8 +1885,20 @@ public class CylinderBuilder {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1895,8 +1907,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1905,8 +1929,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1915,8 +1951,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1925,8 +1973,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1935,8 +1995,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1945,8 +2017,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1955,8 +2039,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1965,8 +2061,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1975,8 +2083,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1985,8 +2105,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#cullFaceProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#cullFaceProperty() cullFaceProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cullFaceProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cullFacePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1995,8 +2127,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2005,8 +2149,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2015,8 +2171,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2025,8 +2193,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2035,8 +2215,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#drawModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#drawModeProperty() drawModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.drawModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .drawModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2045,8 +2237,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2055,8 +2259,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2065,8 +2281,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2075,8 +2303,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2085,8 +2325,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2095,8 +2347,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2105,8 +2369,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2115,8 +2391,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2125,8 +2413,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2135,8 +2435,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2145,8 +2457,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2155,8 +2479,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2165,8 +2501,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2175,8 +2523,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2185,8 +2545,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2195,8 +2567,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2205,8 +2589,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2215,8 +2611,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#materialProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#materialProperty() materialProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.materialProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .materialPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2225,8 +2633,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2235,8 +2655,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2245,8 +2677,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2255,8 +2699,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2265,8 +2721,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2275,8 +2743,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2285,8 +2765,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2295,8 +2787,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2305,8 +2809,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2315,8 +2831,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2325,8 +2853,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2335,8 +2875,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2345,8 +2897,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2355,8 +2919,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2365,8 +2941,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2375,8 +2963,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2385,8 +2985,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2395,8 +3007,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2405,8 +3029,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2415,8 +3051,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2425,8 +3073,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2435,8 +3095,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2445,8 +3117,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2455,8 +3139,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2465,8 +3161,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2475,8 +3183,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2485,8 +3205,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2495,8 +3227,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2505,8 +3249,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2515,8 +3271,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2525,8 +3293,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2535,8 +3315,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2545,8 +3337,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2555,8 +3359,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2565,8 +3381,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2575,8 +3403,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2585,8 +3425,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2595,8 +3447,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2605,8 +3469,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2615,8 +3491,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2625,8 +3513,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2635,8 +3535,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2645,8 +3557,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2655,8 +3579,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2665,8 +3601,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2675,8 +3623,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#radiusProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#radiusProperty() radiusProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.radiusProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .radiusPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2685,8 +3645,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2695,8 +3667,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2705,8 +3689,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2715,8 +3711,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2725,8 +3733,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2735,8 +3755,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2745,8 +3777,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2755,8 +3799,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2765,8 +3821,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2775,8 +3843,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2785,8 +3865,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2795,8 +3887,20 @@ public class CylinderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Cylinder#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Cylinder#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

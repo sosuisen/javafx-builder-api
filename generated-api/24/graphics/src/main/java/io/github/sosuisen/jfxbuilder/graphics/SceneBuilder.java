@@ -148,7 +148,7 @@ public class SceneBuilder {
     }
 
     /**
-     * Applies a function to the Scene instance currently being built.
+     * Applies a function to the Scene instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -656,8 +656,20 @@ public class SceneBuilder {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.Scene#cameraProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#cameraProperty() cameraProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cameraProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cameraPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -666,8 +678,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -676,8 +700,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -686,8 +722,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -696,8 +744,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#fillProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#fillProperty() fillProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fillProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fillPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -706,8 +766,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#focusOwnerProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#focusOwnerProperty() focusOwnerProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusOwnerProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusOwnerPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -716,8 +788,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -726,8 +810,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -736,8 +832,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -746,8 +854,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -756,8 +876,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -766,8 +898,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -776,8 +920,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -786,8 +942,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -796,8 +964,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -806,8 +986,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -816,8 +1008,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -826,8 +1030,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -836,8 +1052,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -846,8 +1074,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -856,8 +1096,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -866,8 +1118,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -876,8 +1140,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -886,8 +1162,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -896,8 +1184,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -906,8 +1206,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -916,8 +1228,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -926,8 +1250,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -936,8 +1272,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -946,8 +1294,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -956,8 +1316,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -966,8 +1338,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -976,8 +1360,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -986,8 +1382,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -996,8 +1404,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1006,8 +1426,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1016,8 +1448,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1026,8 +1470,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1036,8 +1492,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1046,8 +1514,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1056,8 +1536,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1066,8 +1558,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1076,8 +1580,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1086,8 +1602,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1096,8 +1624,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1106,8 +1646,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1116,8 +1668,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1126,8 +1690,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#rootProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#rootProperty() rootProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rootProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rootPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1136,8 +1712,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#userAgentStylesheetProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#userAgentStylesheetProperty() userAgentStylesheetProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.userAgentStylesheetProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .userAgentStylesheetPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1146,8 +1734,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1156,8 +1756,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#windowProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#windowProperty() windowProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.windowProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .windowPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1166,8 +1778,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1176,8 +1800,20 @@ public class SceneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.Scene#yProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.Scene#yProperty() yProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.yProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

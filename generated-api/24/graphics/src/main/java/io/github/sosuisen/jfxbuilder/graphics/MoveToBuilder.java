@@ -143,7 +143,7 @@ public class MoveToBuilder {
         return false;
     }
     /**
-     * Applies a function to the MoveTo instance currently being built.
+     * Applies a function to the MoveTo instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -184,8 +184,20 @@ public class MoveToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.MoveTo#absoluteProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.MoveTo#absoluteProperty() absoluteProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.MoveTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.absoluteProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .absolutePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -194,8 +206,20 @@ public class MoveToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.MoveTo#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.MoveTo#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.MoveTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -204,8 +228,20 @@ public class MoveToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.MoveTo#yProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.MoveTo#yProperty() yProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.MoveTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.yProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

@@ -143,7 +143,7 @@ public class FloatMapBuilder {
         return false;
     }
     /**
-     * Applies a function to the FloatMap instance currently being built.
+     * Applies a function to the FloatMap instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -224,8 +224,20 @@ public class FloatMapBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.FloatMap#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.FloatMap#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.FloatMap> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -234,8 +246,20 @@ public class FloatMapBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.FloatMap#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.FloatMap#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.FloatMap> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

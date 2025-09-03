@@ -143,7 +143,7 @@ public class LineToBuilder {
         return false;
     }
     /**
-     * Applies a function to the LineTo instance currently being built.
+     * Applies a function to the LineTo instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -184,8 +184,20 @@ public class LineToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.LineTo#absoluteProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.LineTo#absoluteProperty() absoluteProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.LineTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.absoluteProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .absolutePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -194,8 +206,20 @@ public class LineToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.LineTo#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.LineTo#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.LineTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -204,8 +228,20 @@ public class LineToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.LineTo#yProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.LineTo#yProperty() yProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.LineTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.yProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

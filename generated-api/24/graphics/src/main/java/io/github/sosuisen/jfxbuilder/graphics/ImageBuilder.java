@@ -199,7 +199,7 @@ public class ImageBuilder {
         return false;
     }
     /**
-     * Applies a function to the Image instance currently being built.
+     * Applies a function to the Image instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -210,8 +210,20 @@ public class ImageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.Image#errorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.Image#errorProperty() errorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.Image> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.errorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .errorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -220,8 +232,20 @@ public class ImageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.Image#exceptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.Image#exceptionProperty() exceptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.Image> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.exceptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .exceptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -230,8 +254,20 @@ public class ImageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.Image#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.Image#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.Image> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -240,8 +276,20 @@ public class ImageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.Image#progressProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.Image#progressProperty() progressProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.Image> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.progressProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .progressPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -250,8 +298,20 @@ public class ImageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.Image#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.Image#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.Image> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

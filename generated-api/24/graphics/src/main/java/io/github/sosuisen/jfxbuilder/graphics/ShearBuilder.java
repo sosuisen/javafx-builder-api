@@ -157,7 +157,7 @@ public class ShearBuilder {
         return false;
     }
     /**
-     * Applies a function to the Shear instance currently being built.
+     * Applies a function to the Shear instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -218,8 +218,20 @@ public class ShearBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Shear#identityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Shear#identityProperty() identityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Shear> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.identityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .identityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -228,8 +240,20 @@ public class ShearBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Shear#onTransformChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Shear#onTransformChangedProperty() onTransformChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Shear> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTransformChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTransformChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -238,8 +262,20 @@ public class ShearBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Shear#pivotXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Shear#pivotXProperty() pivotXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Shear> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pivotXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pivotXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -248,8 +284,20 @@ public class ShearBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Shear#pivotYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Shear#pivotYProperty() pivotYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Shear> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pivotYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pivotYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -258,8 +306,20 @@ public class ShearBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Shear#type2DProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Shear#type2DProperty() type2DProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Shear> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.type2DProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .type2DPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -268,8 +328,20 @@ public class ShearBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Shear#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Shear#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Shear> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -278,8 +350,20 @@ public class ShearBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Shear#yProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Shear#yProperty() yProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Shear> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.yProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

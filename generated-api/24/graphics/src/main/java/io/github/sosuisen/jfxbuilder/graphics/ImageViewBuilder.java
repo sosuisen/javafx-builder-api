@@ -157,7 +157,7 @@ public class ImageViewBuilder {
         return false;
     }
     /**
-     * Applies a function to the ImageView instance currently being built.
+     * Applies a function to the ImageView instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -1915,8 +1915,20 @@ public class ImageViewBuilder {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1925,8 +1937,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1935,8 +1959,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1945,8 +1981,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1955,8 +2003,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1965,8 +2025,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1975,8 +2047,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1985,8 +2069,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1995,8 +2091,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2005,8 +2113,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2015,8 +2135,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2025,8 +2157,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2035,8 +2179,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2045,8 +2201,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2055,8 +2223,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2065,8 +2245,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2075,8 +2267,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2085,8 +2289,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#fitHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#fitHeightProperty() fitHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fitHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fitHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2095,8 +2311,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#fitWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#fitWidthProperty() fitWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fitWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fitWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2105,8 +2333,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2115,8 +2355,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2125,8 +2377,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2135,8 +2399,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2145,8 +2421,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2155,8 +2443,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2165,8 +2465,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#imageProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#imageProperty() imageProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.imageProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .imagePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2175,8 +2487,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2185,8 +2509,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2195,8 +2531,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2205,8 +2553,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2215,8 +2575,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2225,8 +2597,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2235,8 +2619,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2245,8 +2641,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2255,8 +2663,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2265,8 +2685,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2275,8 +2707,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2285,8 +2729,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2295,8 +2751,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2305,8 +2773,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2315,8 +2795,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2325,8 +2817,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2335,8 +2839,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2345,8 +2861,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2355,8 +2883,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2365,8 +2905,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2375,8 +2927,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2385,8 +2949,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2395,8 +2971,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2405,8 +2993,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2415,8 +3015,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2425,8 +3037,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2435,8 +3059,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2445,8 +3081,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2455,8 +3103,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2465,8 +3125,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2475,8 +3147,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2485,8 +3169,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2495,8 +3191,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2505,8 +3213,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2515,8 +3235,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2525,8 +3257,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2535,8 +3279,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2545,8 +3301,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2555,8 +3323,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2565,8 +3345,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2575,8 +3367,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2585,8 +3389,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2595,8 +3411,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2605,8 +3433,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2615,8 +3455,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2625,8 +3477,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2635,8 +3499,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2645,8 +3521,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2655,8 +3543,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2665,8 +3565,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2675,8 +3587,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2685,8 +3609,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#preserveRatioProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#preserveRatioProperty() preserveRatioProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.preserveRatioProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .preserveRatioPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2695,8 +3631,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2705,8 +3653,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2715,8 +3675,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2725,8 +3697,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2735,8 +3719,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2745,8 +3741,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2755,8 +3763,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2765,8 +3785,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#smoothProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#smoothProperty() smoothProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.smoothProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .smoothPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2775,8 +3807,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2785,8 +3829,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2795,8 +3851,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2805,8 +3873,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2815,8 +3895,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2825,8 +3917,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#viewportProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#viewportProperty() viewportProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewportProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewportPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2835,8 +3939,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2845,8 +3961,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2855,8 +3983,20 @@ public class ImageViewBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.ImageView#yProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.ImageView#yProperty() yProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.yProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

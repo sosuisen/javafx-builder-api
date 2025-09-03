@@ -143,7 +143,7 @@ public class AccordionBuilder {
         return false;
     }
     /**
-     * Applies a function to the Accordion instance currently being built.
+     * Applies a function to the Accordion instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2132,8 +2132,20 @@ public class AccordionBuilder {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2142,8 +2154,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2152,8 +2176,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2162,8 +2198,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2172,8 +2220,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#backgroundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#backgroundProperty() backgroundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.backgroundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2182,8 +2242,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2192,8 +2264,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#borderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#borderProperty() borderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.borderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .borderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2202,8 +2286,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2212,8 +2308,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2222,8 +2330,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2232,8 +2352,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2242,8 +2374,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#cacheShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#cacheShapeProperty() cacheShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2252,8 +2396,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#centerShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#centerShapeProperty() centerShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2262,8 +2418,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2272,8 +2440,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#contextMenuProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#contextMenuProperty() contextMenuProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contextMenuProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contextMenuPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2282,8 +2462,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2292,8 +2484,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2302,8 +2506,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2312,8 +2528,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2322,8 +2550,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2332,8 +2572,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2342,8 +2594,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2352,8 +2616,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#expandedPaneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#expandedPaneProperty() expandedPaneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.expandedPaneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .expandedPanePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2362,8 +2638,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2372,8 +2660,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2382,8 +2682,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2392,8 +2704,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2402,8 +2726,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2412,8 +2748,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2422,8 +2770,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2432,8 +2792,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2442,8 +2814,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#insetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#insetsProperty() insetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.insetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2452,8 +2836,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2462,8 +2858,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2472,8 +2880,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2482,8 +2902,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2492,8 +2924,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2502,8 +2946,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2512,8 +2968,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2522,8 +2990,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2532,8 +3012,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2542,8 +3034,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2552,8 +3056,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2562,8 +3078,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#needsLayoutProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#needsLayoutProperty() needsLayoutProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2572,8 +3100,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2582,8 +3122,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2592,8 +3144,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2602,8 +3166,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2612,8 +3188,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2622,8 +3210,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2632,8 +3232,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2642,8 +3254,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2652,8 +3276,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2662,8 +3298,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2672,8 +3320,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2682,8 +3342,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2692,8 +3364,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2702,8 +3386,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2712,8 +3408,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2722,8 +3430,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2732,8 +3452,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2742,8 +3474,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2752,8 +3496,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2762,8 +3518,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2772,8 +3540,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2782,8 +3562,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2792,8 +3584,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2802,8 +3606,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2812,8 +3628,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2822,8 +3650,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2832,8 +3672,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2842,8 +3694,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2852,8 +3716,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2862,8 +3738,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2872,8 +3760,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2882,8 +3782,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2892,8 +3804,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2902,8 +3826,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2912,8 +3848,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2922,8 +3870,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2932,8 +3892,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2942,8 +3914,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2952,8 +3936,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2962,8 +3958,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2972,8 +3980,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2982,8 +4002,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#opaqueInsetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opaqueInsetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2992,8 +4024,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#paddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#paddingProperty() paddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.paddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3002,8 +4046,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3012,8 +4068,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3022,8 +4090,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3032,8 +4112,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3042,8 +4134,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3052,8 +4156,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3062,8 +4178,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3072,8 +4200,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#scaleShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#scaleShapeProperty() scaleShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3082,8 +4222,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3092,8 +4244,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3102,8 +4266,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3112,8 +4288,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3122,8 +4310,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#shapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#shapeProperty() shapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.shapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .shapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3132,8 +4332,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#skinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#skinProperty() skinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.skinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .skinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3142,8 +4354,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#snapToPixelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#snapToPixelProperty() snapToPixelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.snapToPixelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3152,8 +4376,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3162,8 +4398,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#tooltipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#tooltipProperty() tooltipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tooltipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tooltipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3172,8 +4420,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3182,8 +4442,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3192,8 +4464,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3202,8 +4486,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3212,8 +4508,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3222,8 +4530,20 @@ public class AccordionBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Accordion#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Accordion#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

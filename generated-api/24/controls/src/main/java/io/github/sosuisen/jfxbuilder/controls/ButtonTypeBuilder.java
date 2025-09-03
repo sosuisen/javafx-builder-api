@@ -143,7 +143,7 @@ public class ButtonTypeBuilder {
         return false;
     }
     /**
-     * Applies a function to the ButtonType instance currently being built.
+     * Applies a function to the ButtonType instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

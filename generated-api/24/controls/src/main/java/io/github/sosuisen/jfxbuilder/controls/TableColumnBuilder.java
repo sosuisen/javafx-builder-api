@@ -145,7 +145,7 @@ public class TableColumnBuilder<S, T> {
         return false;
     }
     /**
-     * Applies a function to the TableColumn instance currently being built.
+     * Applies a function to the TableColumn instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -451,8 +451,20 @@ public class TableColumnBuilder<S, T> {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#cellFactoryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#cellFactoryProperty() cellFactoryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cellFactoryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cellFactoryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -461,8 +473,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#cellValueFactoryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#cellValueFactoryProperty() cellValueFactoryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cellValueFactoryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cellValueFactoryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -471,8 +495,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#comparatorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#comparatorProperty() comparatorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.comparatorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .comparatorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -481,8 +517,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#contextMenuProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#contextMenuProperty() contextMenuProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contextMenuProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contextMenuPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -491,8 +539,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#editableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#editableProperty() editableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.editableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .editablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -501,8 +561,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#graphicProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#graphicProperty() graphicProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.graphicProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -511,8 +583,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -521,8 +605,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -531,8 +627,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -541,8 +649,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#onEditCancelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#onEditCancelProperty() onEditCancelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onEditCancelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onEditCancelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -551,8 +671,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#onEditCommitProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#onEditCommitProperty() onEditCommitProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onEditCommitProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onEditCommitPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -561,8 +693,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#onEditStartProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#onEditStartProperty() onEditStartProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onEditStartProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onEditStartPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -571,8 +715,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#parentColumnProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#parentColumnProperty() parentColumnProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentColumnProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentColumnPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -581,8 +737,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -591,8 +759,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#reorderableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#reorderableProperty() reorderableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.reorderableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .reorderablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -601,8 +781,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#resizableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#resizableProperty() resizableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.resizableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .resizablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -611,8 +803,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#sortNodeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#sortNodeProperty() sortNodeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sortNodeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .sortNodePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -621,8 +825,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#sortTypeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#sortTypeProperty() sortTypeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sortTypeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .sortTypePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -631,8 +847,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#sortableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#sortableProperty() sortableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sortableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .sortablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -641,8 +869,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -651,8 +891,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#tableViewProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#tableViewProperty() tableViewProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tableViewProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tableViewPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -661,8 +913,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#textProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#textProperty() textProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -671,8 +935,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -681,8 +957,20 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableColumn#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableColumn#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

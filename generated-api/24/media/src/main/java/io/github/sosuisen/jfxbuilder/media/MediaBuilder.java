@@ -129,7 +129,7 @@ public class MediaBuilder {
         return false;
     }
     /**
-     * Applies a function to the Media instance currently being built.
+     * Applies a function to the Media instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -177,8 +177,20 @@ public class MediaBuilder {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.media.Media#durationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.Media#durationProperty() durationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.Media> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.durationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .durationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -187,8 +199,20 @@ public class MediaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.Media#errorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.Media#errorProperty() errorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.Media> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.errorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .errorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -197,8 +221,20 @@ public class MediaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.Media#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.Media#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.Media> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -207,8 +243,20 @@ public class MediaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.Media#onErrorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.Media#onErrorProperty() onErrorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.Media> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onErrorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onErrorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -217,8 +265,20 @@ public class MediaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.Media#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.Media#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.Media> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

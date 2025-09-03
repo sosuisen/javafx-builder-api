@@ -129,7 +129,7 @@ public class ToggleGroupBuilder {
         return false;
     }
     /**
-     * Applies a function to the ToggleGroup instance currently being built.
+     * Applies a function to the ToggleGroup instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -198,8 +198,20 @@ public class ToggleGroupBuilder {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.control.ToggleGroup#selectedToggleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ToggleGroup#selectedToggleProperty() selectedToggleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleGroup> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.selectedToggleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .selectedTogglePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

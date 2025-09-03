@@ -145,7 +145,7 @@ public class ComboBoxBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the ComboBox instance currently being built.
+     * Applies a function to the ComboBox instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2274,8 +2274,20 @@ public class ComboBoxBuilder<T> {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2284,8 +2296,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2294,8 +2318,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2304,8 +2340,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2314,8 +2362,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#armedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#armedProperty() armedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.armedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .armedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2324,8 +2384,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#backgroundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#backgroundProperty() backgroundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.backgroundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2334,8 +2406,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2344,8 +2428,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#borderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#borderProperty() borderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.borderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .borderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2354,8 +2450,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2364,8 +2472,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2374,8 +2494,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#buttonCellProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#buttonCellProperty() buttonCellProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.buttonCellProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .buttonCellPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2384,8 +2516,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2394,8 +2538,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2404,8 +2560,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#cacheShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#cacheShapeProperty() cacheShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2414,8 +2582,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#cellFactoryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#cellFactoryProperty() cellFactoryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cellFactoryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cellFactoryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2424,8 +2604,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#centerShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#centerShapeProperty() centerShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2434,8 +2626,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2444,8 +2648,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#contextMenuProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#contextMenuProperty() contextMenuProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contextMenuProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contextMenuPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2454,8 +2670,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#converterProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#converterProperty() converterProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.converterProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .converterPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2464,8 +2692,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2474,8 +2714,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2484,8 +2736,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2494,8 +2758,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2504,8 +2780,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#editableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#editableProperty() editableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.editableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .editablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2514,8 +2802,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#editorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#editorProperty() editorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.editorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .editorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2524,8 +2824,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2534,8 +2846,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2544,8 +2868,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2554,8 +2890,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2564,8 +2912,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2574,8 +2934,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2584,8 +2956,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2594,8 +2978,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2604,8 +3000,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2614,8 +3022,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2624,8 +3044,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2634,8 +3066,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#insetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#insetsProperty() insetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.insetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2644,8 +3088,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#itemsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#itemsProperty() itemsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.itemsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .itemsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2654,8 +3110,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2664,8 +3132,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2674,8 +3154,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2684,8 +3176,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2694,8 +3198,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2704,8 +3220,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2714,8 +3242,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2724,8 +3264,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2734,8 +3286,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2744,8 +3308,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2754,8 +3330,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2764,8 +3352,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#needsLayoutProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#needsLayoutProperty() needsLayoutProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2774,8 +3374,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2784,8 +3396,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onActionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onActionProperty() onActionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onActionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onActionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2794,8 +3418,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2804,8 +3440,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2814,8 +3462,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2824,8 +3484,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2834,8 +3506,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2844,8 +3528,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2854,8 +3550,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2864,8 +3572,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onHiddenProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onHiddenProperty() onHiddenProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onHiddenProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onHiddenPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2874,8 +3594,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onHidingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onHidingProperty() onHidingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onHidingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onHidingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2884,8 +3616,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2894,8 +3638,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2904,8 +3660,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2914,8 +3682,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2924,8 +3704,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2934,8 +3726,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2944,8 +3748,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2954,8 +3770,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2964,8 +3792,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2974,8 +3814,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2984,8 +3836,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2994,8 +3858,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3004,8 +3880,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3014,8 +3902,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3024,8 +3924,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3034,8 +3946,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3044,8 +3968,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3054,8 +3990,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3064,8 +4012,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3074,8 +4034,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3084,8 +4056,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3094,8 +4078,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onShowingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onShowingProperty() onShowingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onShowingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onShowingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3104,8 +4100,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onShownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onShownProperty() onShownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onShownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onShownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3114,8 +4122,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3124,8 +4144,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3134,8 +4166,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3144,8 +4188,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3154,8 +4210,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3164,8 +4232,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3174,8 +4254,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3184,8 +4276,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3194,8 +4298,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3204,8 +4320,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3214,8 +4342,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3224,8 +4364,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3234,8 +4386,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#opaqueInsetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opaqueInsetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3244,8 +4408,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#paddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#paddingProperty() paddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.paddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3254,8 +4430,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3264,8 +4452,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3274,8 +4474,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#placeholderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#placeholderProperty() placeholderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.placeholderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .placeholderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3284,8 +4496,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3294,8 +4518,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3304,8 +4540,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3314,8 +4562,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#promptTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#promptTextProperty() promptTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.promptTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .promptTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3324,8 +4584,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3334,8 +4606,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3344,8 +4628,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#scaleShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#scaleShapeProperty() scaleShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3354,8 +4650,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3364,8 +4672,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3374,8 +4694,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3384,8 +4716,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3394,8 +4738,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#selectionModelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#selectionModelProperty() selectionModelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.selectionModelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .selectionModelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3404,8 +4760,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#shapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#shapeProperty() shapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.shapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .shapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3414,8 +4782,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#showingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#showingProperty() showingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.showingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .showingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3424,8 +4804,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#skinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#skinProperty() skinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.skinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .skinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3434,8 +4826,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#snapToPixelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#snapToPixelProperty() snapToPixelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.snapToPixelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3444,8 +4848,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3454,8 +4870,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#tooltipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#tooltipProperty() tooltipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tooltipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tooltipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3464,8 +4892,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3474,8 +4914,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3484,8 +4936,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3494,8 +4958,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#valueProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#valueProperty() valueProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.valueProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .valuePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3504,8 +4980,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3514,8 +5002,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3524,8 +5024,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#visibleRowCountProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#visibleRowCountProperty() visibleRowCountProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleRowCountProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visibleRowCountPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3534,8 +5046,20 @@ public class ComboBoxBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ComboBox#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ComboBox#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

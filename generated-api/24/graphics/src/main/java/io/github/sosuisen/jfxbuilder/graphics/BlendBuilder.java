@@ -157,7 +157,7 @@ public class BlendBuilder {
         return false;
     }
     /**
-     * Applies a function to the Blend instance currently being built.
+     * Applies a function to the Blend instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -208,8 +208,20 @@ public class BlendBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Blend#bottomInputProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Blend#bottomInputProperty() bottomInputProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Blend> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.bottomInputProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .bottomInputPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -218,8 +230,20 @@ public class BlendBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Blend#modeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Blend#modeProperty() modeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Blend> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.modeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .modePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -228,8 +252,20 @@ public class BlendBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Blend#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Blend#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Blend> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -238,8 +274,20 @@ public class BlendBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Blend#topInputProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Blend#topInputProperty() topInputProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Blend> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.topInputProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .topInputPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

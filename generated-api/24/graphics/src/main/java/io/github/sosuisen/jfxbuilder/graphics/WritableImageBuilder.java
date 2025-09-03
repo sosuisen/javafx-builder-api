@@ -171,7 +171,7 @@ public class WritableImageBuilder {
         return false;
     }
     /**
-     * Applies a function to the WritableImage instance currently being built.
+     * Applies a function to the WritableImage instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -182,8 +182,20 @@ public class WritableImageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.WritableImage#errorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.WritableImage#errorProperty() errorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.WritableImage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.errorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .errorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -192,8 +204,20 @@ public class WritableImageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.WritableImage#exceptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.WritableImage#exceptionProperty() exceptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.WritableImage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.exceptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .exceptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -202,8 +226,20 @@ public class WritableImageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.WritableImage#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.WritableImage#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.WritableImage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -212,8 +248,20 @@ public class WritableImageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.WritableImage#progressProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.WritableImage#progressProperty() progressProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.WritableImage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.progressProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .progressPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -222,8 +270,20 @@ public class WritableImageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.image.WritableImage#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.image.WritableImage#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.WritableImage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

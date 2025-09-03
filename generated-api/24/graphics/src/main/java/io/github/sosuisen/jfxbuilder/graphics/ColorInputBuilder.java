@@ -143,7 +143,7 @@ public class ColorInputBuilder {
         return false;
     }
     /**
-     * Applies a function to the ColorInput instance currently being built.
+     * Applies a function to the ColorInput instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -204,8 +204,20 @@ public class ColorInputBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.ColorInput#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.ColorInput#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorInput> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -214,8 +226,20 @@ public class ColorInputBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.ColorInput#paintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.ColorInput#paintProperty() paintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorInput> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.paintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .paintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -224,8 +248,20 @@ public class ColorInputBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.ColorInput#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.ColorInput#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorInput> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -234,8 +270,20 @@ public class ColorInputBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.ColorInput#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.ColorInput#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorInput> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -244,8 +292,20 @@ public class ColorInputBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.ColorInput#yProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.ColorInput#yProperty() yProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorInput> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.yProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

@@ -147,7 +147,7 @@ public class TextFlowBuilder {
         return false;
     }
     /**
-     * Applies a function to the TextFlow instance currently being built.
+     * Applies a function to the TextFlow instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2126,8 +2126,20 @@ public class TextFlowBuilder {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2136,8 +2148,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2146,8 +2170,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2156,8 +2192,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2166,8 +2214,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#backgroundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#backgroundProperty() backgroundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.backgroundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2176,8 +2236,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2186,8 +2258,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#borderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#borderProperty() borderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.borderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .borderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2196,8 +2280,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2206,8 +2302,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2216,8 +2324,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2226,8 +2346,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2236,8 +2368,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#cacheShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#cacheShapeProperty() cacheShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2246,8 +2390,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#centerShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#centerShapeProperty() centerShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2256,8 +2412,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2266,8 +2434,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2276,8 +2456,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2286,8 +2478,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2296,8 +2500,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2306,8 +2522,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2316,8 +2544,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2326,8 +2566,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2336,8 +2588,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2346,8 +2610,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2356,8 +2632,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2366,8 +2654,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2376,8 +2676,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2386,8 +2698,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2396,8 +2720,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2406,8 +2742,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2416,8 +2764,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#insetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#insetsProperty() insetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.insetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2426,8 +2786,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2436,8 +2808,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2446,8 +2830,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2456,8 +2852,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#lineSpacingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#lineSpacingProperty() lineSpacingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.lineSpacingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .lineSpacingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2466,8 +2874,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2476,8 +2896,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2486,8 +2918,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2496,8 +2940,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2506,8 +2962,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2516,8 +2984,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2526,8 +3006,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2536,8 +3028,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2546,8 +3050,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#needsLayoutProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#needsLayoutProperty() needsLayoutProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2556,8 +3072,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2566,8 +3094,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2576,8 +3116,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2586,8 +3138,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2596,8 +3160,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2606,8 +3182,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2616,8 +3204,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2626,8 +3226,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2636,8 +3248,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2646,8 +3270,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2656,8 +3292,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2666,8 +3314,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2676,8 +3336,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2686,8 +3358,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2696,8 +3380,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2706,8 +3402,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2716,8 +3424,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2726,8 +3446,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2736,8 +3468,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2746,8 +3490,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2756,8 +3512,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2766,8 +3534,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2776,8 +3556,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2786,8 +3578,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2796,8 +3600,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2806,8 +3622,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2816,8 +3644,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2826,8 +3666,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2836,8 +3688,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2846,8 +3710,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2856,8 +3732,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2866,8 +3754,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2876,8 +3776,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2886,8 +3798,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2896,8 +3820,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2906,8 +3842,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2916,8 +3864,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2926,8 +3886,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2936,8 +3908,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2946,8 +3930,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2956,8 +3952,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2966,8 +3974,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#opaqueInsetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opaqueInsetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2976,8 +3996,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#paddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#paddingProperty() paddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.paddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2986,8 +4018,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2996,8 +4040,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3006,8 +4062,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3016,8 +4084,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3026,8 +4106,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3036,8 +4128,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3046,8 +4150,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3056,8 +4172,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#scaleShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#scaleShapeProperty() scaleShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3066,8 +4194,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3076,8 +4216,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3086,8 +4238,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3096,8 +4260,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3106,8 +4282,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#shapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#shapeProperty() shapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.shapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .shapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3116,8 +4304,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#snapToPixelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#snapToPixelProperty() snapToPixelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.snapToPixelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3126,8 +4326,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3136,8 +4348,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#tabSizeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#tabSizeProperty() tabSizeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tabSizeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tabSizePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3146,8 +4370,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#textAlignmentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#textAlignmentProperty() textAlignmentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textAlignmentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textAlignmentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3156,8 +4392,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3166,8 +4414,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3176,8 +4436,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3186,8 +4458,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3196,8 +4480,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3206,8 +4502,20 @@ public class TextFlowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.text.TextFlow#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.text.TextFlow#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

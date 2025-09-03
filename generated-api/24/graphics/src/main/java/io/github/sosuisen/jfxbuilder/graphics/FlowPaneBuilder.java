@@ -231,7 +231,7 @@ public class FlowPaneBuilder {
         return false;
     }
     /**
-     * Applies a function to the FlowPane instance currently being built.
+     * Applies a function to the FlowPane instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2250,8 +2250,20 @@ public class FlowPaneBuilder {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2260,8 +2272,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2270,8 +2294,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2280,8 +2316,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2290,8 +2338,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#alignmentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#alignmentProperty() alignmentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.alignmentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .alignmentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2300,8 +2360,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#backgroundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#backgroundProperty() backgroundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.backgroundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2310,8 +2382,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2320,8 +2404,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#borderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#borderProperty() borderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.borderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .borderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2330,8 +2426,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2340,8 +2448,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2350,8 +2470,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2360,8 +2492,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2370,8 +2514,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#cacheShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#cacheShapeProperty() cacheShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2380,8 +2536,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#centerShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#centerShapeProperty() centerShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2390,8 +2558,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2400,8 +2580,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#columnHalignmentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#columnHalignmentProperty() columnHalignmentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.columnHalignmentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .columnHalignmentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2410,8 +2602,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2420,8 +2624,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2430,8 +2646,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2440,8 +2668,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2450,8 +2690,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2460,8 +2712,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2470,8 +2734,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2480,8 +2756,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2490,8 +2778,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2500,8 +2800,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2510,8 +2822,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2520,8 +2844,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2530,8 +2866,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#hgapProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#hgapProperty() hgapProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hgapProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hgapPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2540,8 +2888,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2550,8 +2910,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2560,8 +2932,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2570,8 +2954,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#insetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#insetsProperty() insetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.insetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2580,8 +2976,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2590,8 +2998,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2600,8 +3020,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2610,8 +3042,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2620,8 +3064,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2630,8 +3086,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2640,8 +3108,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2650,8 +3130,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2660,8 +3152,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2670,8 +3174,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2680,8 +3196,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2690,8 +3218,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#needsLayoutProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#needsLayoutProperty() needsLayoutProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2700,8 +3240,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2710,8 +3262,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2720,8 +3284,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2730,8 +3306,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2740,8 +3328,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2750,8 +3350,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2760,8 +3372,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2770,8 +3394,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2780,8 +3416,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2790,8 +3438,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2800,8 +3460,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2810,8 +3482,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2820,8 +3504,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2830,8 +3526,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2840,8 +3548,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2850,8 +3570,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2860,8 +3592,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2870,8 +3614,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2880,8 +3636,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2890,8 +3658,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2900,8 +3680,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2910,8 +3702,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2920,8 +3724,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2930,8 +3746,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2940,8 +3768,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2950,8 +3790,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2960,8 +3812,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2970,8 +3834,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2980,8 +3856,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2990,8 +3878,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3000,8 +3900,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3010,8 +3922,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3020,8 +3944,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3030,8 +3966,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3040,8 +3988,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3050,8 +4010,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3060,8 +4032,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3070,8 +4054,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3080,8 +4076,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3090,8 +4098,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3100,8 +4120,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3110,8 +4142,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#opaqueInsetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opaqueInsetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3120,8 +4164,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#orientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#orientationProperty() orientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.orientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .orientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3130,8 +4186,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#paddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#paddingProperty() paddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.paddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3140,8 +4208,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3150,8 +4230,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3160,8 +4252,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3170,8 +4274,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3180,8 +4296,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#prefWrapLengthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#prefWrapLengthProperty() prefWrapLengthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWrapLengthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWrapLengthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3190,8 +4318,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3200,8 +4340,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3210,8 +4362,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3220,8 +4384,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#rowValignmentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#rowValignmentProperty() rowValignmentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rowValignmentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rowValignmentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3230,8 +4406,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#scaleShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#scaleShapeProperty() scaleShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3240,8 +4428,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3250,8 +4450,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3260,8 +4472,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3270,8 +4494,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3280,8 +4516,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#shapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#shapeProperty() shapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.shapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .shapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3290,8 +4538,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#snapToPixelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#snapToPixelProperty() snapToPixelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.snapToPixelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3300,8 +4560,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3310,8 +4582,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3320,8 +4604,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3330,8 +4626,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3340,8 +4648,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#vgapProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#vgapProperty() vgapProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.vgapProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .vgapPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3350,8 +4670,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3360,8 +4692,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3370,8 +4714,20 @@ public class FlowPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.FlowPane#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.FlowPane#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

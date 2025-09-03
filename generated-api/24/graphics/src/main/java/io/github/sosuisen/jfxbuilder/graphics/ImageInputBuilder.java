@@ -157,7 +157,7 @@ public class ImageInputBuilder {
         return false;
     }
     /**
-     * Applies a function to the ImageInput instance currently being built.
+     * Applies a function to the ImageInput instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -198,8 +198,20 @@ public class ImageInputBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.ImageInput#sourceProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.ImageInput#sourceProperty() sourceProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ImageInput> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sourceProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .sourcePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -208,8 +220,20 @@ public class ImageInputBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.ImageInput#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.ImageInput#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ImageInput> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -218,8 +242,20 @@ public class ImageInputBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.ImageInput#yProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.ImageInput#yProperty() yProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ImageInput> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.yProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

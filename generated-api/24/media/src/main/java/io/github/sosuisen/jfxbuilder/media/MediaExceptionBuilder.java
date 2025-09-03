@@ -115,7 +115,7 @@ public class MediaExceptionBuilder {
         return false;
     }
     /**
-     * Applies a function to the MediaException instance currently being built.
+     * Applies a function to the MediaException instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

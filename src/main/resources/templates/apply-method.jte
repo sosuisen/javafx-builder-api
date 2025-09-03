@@ -3,7 +3,7 @@
 @param ApplyMethodModel model
 
     /**
-     * Applies a function to the ${model.simpleClassName()} instance currently being built.
+     * Applies a function to the ${model.simpleClassName()} instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *@if(model.isNodeClass())
      * <p>Example usage:</p>     

@@ -143,7 +143,7 @@ public class PerspectiveTransformBuilder {
         return false;
     }
     /**
-     * Applies a function to the PerspectiveTransform instance currently being built.
+     * Applies a function to the PerspectiveTransform instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -244,8 +244,20 @@ public class PerspectiveTransformBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#inputProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#inputProperty() inputProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -254,8 +266,20 @@ public class PerspectiveTransformBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#llxProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#llxProperty() llxProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.llxProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .llxPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -264,8 +288,20 @@ public class PerspectiveTransformBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#llyProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#llyProperty() llyProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.llyProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .llyPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -274,8 +310,20 @@ public class PerspectiveTransformBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#lrxProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#lrxProperty() lrxProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.lrxProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .lrxPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -284,8 +332,20 @@ public class PerspectiveTransformBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#lryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#lryProperty() lryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.lryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .lryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -294,8 +354,20 @@ public class PerspectiveTransformBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#ulxProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#ulxProperty() ulxProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.ulxProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .ulxPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -304,8 +376,20 @@ public class PerspectiveTransformBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#ulyProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#ulyProperty() ulyProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.ulyProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .ulyPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -314,8 +398,20 @@ public class PerspectiveTransformBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#urxProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#urxProperty() urxProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.urxProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .urxPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -324,8 +420,20 @@ public class PerspectiveTransformBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#uryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#uryProperty() uryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.uryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .uryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
