@@ -170,9 +170,9 @@ add + [method name without "get"] + (java.util.Collection<? extends T> col)
 ```
 
 For example, the following `apply` notations have shorthand forms:
-- Original form 1: `VBoxBuilder.create().apply(vbox -> vbox.getChildren().addChildren(elements))`
+- Original form 1: `VBoxBuilder.create().apply(vbox -> vbox.getChildren().addAll(elements))`
 - Shorthand form 1: `VBoxBuilder.create().addChildren(elements)`
-- Original form 2: `VBoxBuilder.create().apply(vbox -> vbox.getChildren().addChildren(col))`
+- Original form 2: `VBoxBuilder.create().apply(vbox -> vbox.getChildren().addAll(col))`
 - Shorthand form 2: `VBoxBuilder.create().addChildren(col)`
 
 Exception:
@@ -187,7 +187,7 @@ This method creates and returns an instance of the builder class, then executes 
 Examples:
 
 - Original form: `VBoxBuilder.create(elements)`
-- Another form: `VBoxBuilder.create().apply(vbox -> vbox.getChildren().addChildren(elements))`
+- Another form: `VBoxBuilder.create().apply(vbox -> vbox.getChildren().addAll(elements))`
 - Shorthand of the another form: `VBoxBuilder.withChildren(elements)`
  
 Container classes include those like VBox where children can be specified in the constructor, and those like GridPane where children cannot be specified in the constructor.
@@ -201,7 +201,7 @@ Exceptions:
   - getStyleClass
 
 Note:
-- Since it's "add", it's merely adding values to the default `ObservableList`. Use this when values can be fixed rather than reactive.
+- Since it's "addAll", it's merely adding values to the default `ObservableList`. Use this when values can be fixed rather than reactive.
 - When you want to replace the entire `ObservableList` itself, use the default setter provided by the Basic APIs.
 - Example:
   - `ListViewBuilder.create().items(ObservableList list)`
@@ -231,19 +231,19 @@ Example: `BorderPane` becomes referenceable with the `.border-pane` selector.
 
 ### Stage
 
-The `StageBuilder` class includes a `withScene(Scene scene)` method
+The `StageBuilder` class includes a static `withScene(Scene scene)` method
 that creates an instance of the builder and then calls the `setScene(Scene scene)` method.
 This shorthand ensures consistency with other methods, such as the `withChildren` method found in container classes.
 
-There is no setter for the optional constructor argument `StageStyle`, but `StageBuilder` has  a `stageStyle` method. Other classes don't get such granular shortcuts, but `Stage` receives special treatment as it's at the top of the scene graph.
+There is no setter for the optional constructor argument `StageStyle`, but `StageBuilder` has  a `stageStyle` method.
 
 ### Scene
 
-The `SceneBuilder` class includes a `withRoot(Parent root)`
+The `SceneBuilder` class includes a static `withRoot(Parent root)`
 method that performs the same processing as the create(Parent root) method.
 This alias ensures consistency with other methods, such as the `withChildren` method found in container classes.
 
-The constructor arguments `width`, `height`, `depthBuffer`, and `antiAliasing` do not have setters on the `Scene` class, but custom setters have been added to `SceneBuilder`. Other classes don't get such granular shortcuts, but `Scene` receives special treatment as it's at the top of the scene graph.
+The constructor arguments `width`, `height`, `depthBuffer`, and `antiAliasing` do not have setters on the `Scene` class, but custom setters have been added to `SceneBuilder`.
 
 Example:
 ```java
@@ -263,7 +263,7 @@ StageBuilder.withScene(
 
 ### BorderPane
 
-`BorderPaneBuilder` has `withCenter`, `withLeft`, `withRight`, `withBottom` and `withTop` methods to maintain consistency with methods like `withChildren`.
+The `BorderPaneBuilder` class includes static `withCenter`, `withLeft`, `withRight`, `withBottom` and `withTop` methods to maintain consistency with methods like `withChildren`.
 
 ### GridPane
 
@@ -304,3 +304,64 @@ GridPaneBuilder.create()
                   .build())
     .build();
 ```
+
+### XYChart
+
+Subclasses of XYChart include a static `withData(XYChart.Series<X, Y>... elements)` and `withData(Collection<? extends XYChart.Series<X, Y>> col)` method to maintain consistency with methods like `withChildren`.
+
+`withData` method creates an instance of the builder, then calls the `addAll(XYChart.Series<X, Y>... elements)` method on the `ObservableList` returned by the `XYChart#getData()` method.
+
+After calling this method, you may need to invoke the `xAxis(Axis)` and `yAxis(Axis)` methods. If you do not, the default axis objects will be set for the x-axis and y-axis.
+
+The default axis classes are inferred from the type parameters of `XYChart.Data<X, Y>` objects contained in the `XYChart.Series` passed to the `withData` method. If the type is `String`, the axis object is created using `new CategoryAxis()`. If it's `Number`, it is created using `new NumberAxis()`. When there are no `Data` objects, the default x-axis object is created using `new CategoryAxis()` and the default y-axis object is created using `new NumberAxis()`.
+
+The constructor arguments `xAxis` and `yAxis` do not have setters on the `XYChart` class, but custom setters have been added to the builder classes of the subclasses of `XYChart`.
+
+Examples:
+```java
+AreaChart<String, Integer> areaChart = AreaChartBuilder
+    .withData(
+        XYChartSeriesBuilder
+            .withData(
+                new XYChart.Data<>("A", 10),
+                new XYChart.Data<>("B", 20)
+            )
+            .build(),
+        XYChartSeriesBuilder
+            .withData(
+                new XYChart.Data<>("A", 5),
+                new XYChart.Data<>("B", 30)
+            )
+            .build()
+    )
+    .legendVisible(false)
+    .build();
+```
+```java
+LineChart<Number, Number> lineChart = LineChartBuilder
+    .withData(
+        XYChartSeriesBuilder
+            .withData(
+                new XYChart.Data<Number, Number>(10, 10.5),
+                new XYChart.Data<Number, Number>(20, 30.5)
+            )
+            .build()
+    )
+    .xAxis(
+        NumberAxisBuilder.create()
+            .labelPropertyApply(prop -> prop.bind(xLabelProp))
+            .build()
+    )
+    .yAxis(
+        NumberAxisBuilder.create()
+            .labelPropertyApply(prop -> prop.bind(yLabelProp))
+            .build()
+    )
+    .prefWidth(300)
+    .minWidth(200)
+    .build();
+```
+
+Note:
+- Since it's "addAll", it's merely adding values to the default `ObservableList`. Use this when values can be fixed rather than reactive.
+- When you want to replace the entire `ObservableList` itself, use the default setter provided by the Basic APIs.
