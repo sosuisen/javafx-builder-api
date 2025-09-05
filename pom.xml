@@ -162,6 +162,7 @@
         <javafx.version>24.0.0</javafx.version>
         <javafx.major.version>24</javafx.major.version>
         <builder.component>controls</builder.component>
+        <builder.dependencies/>
       </properties>
     </profile>
     <profile>
@@ -169,11 +170,6 @@
       <properties>
         <javafx.version>24.0.0</javafx.version>
         <javafx.major.version>24</javafx.major.version>
-      </properties>
-    </profile>
-    <profile>
-      <id>development</id>
-      <properties>
       </properties>
     </profile>
     <profile>
