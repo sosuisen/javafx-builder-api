@@ -946,7 +946,7 @@ public class GroupBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getChildren()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -957,7 +957,7 @@ public class GroupBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getChildren()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.Group#getChildren()} method.
      * 
      * @return builder instance
      */

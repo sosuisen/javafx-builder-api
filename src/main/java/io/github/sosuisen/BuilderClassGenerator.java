@@ -25,6 +25,7 @@ import io.github.sosuisen.model.template.LayoutConstraintMethodModel;
 import io.github.sosuisen.model.template.PropertyMethodModel;
 import io.github.sosuisen.model.template.SetterMethodModel;
 import io.github.sosuisen.model.template.StylesheetMethodModel;
+import io.github.sosuisen.model.template.XYChartMethodModel;
 import gg.jte.ContentType;
 import gg.jte.TemplateEngine;
 import gg.jte.TemplateOutput;
@@ -41,7 +42,7 @@ public class BuilderClassGenerator {
     private final List<StaticSetterInfo> staticSetters;
 
     public BuilderClassGenerator(String packageName, String[] outputDir, Class<?> clazz,
-            List<StaticSetterInfo> staticSetters) {
+        List<StaticSetterInfo> staticSetters) {
         this.outputDir = outputDir;
         this.clazz = clazz;
         this.staticSetters = staticSetters;
@@ -96,8 +97,8 @@ public class BuilderClassGenerator {
 
     private String generateClassHeader() {
         ClassHeaderModel model = ClassHeaderModel.builder()
-                .classMetadata(classMetadata)
-                .build();
+            .classMetadata(classMetadata)
+            .build();
         TemplateOutput output = new StringOutput();
         templateEngine.render("class-header.jte", model, output);
         return output.toString();
@@ -132,9 +133,9 @@ public class BuilderClassGenerator {
 
     private String generateCreateMethod(Constructor<?> constructor) {
         CreateMethodModel model = CreateMethodModel.builder()
-                .classMetadata(classMetadata)
-                .constructor(constructor)
-                .build();
+            .classMetadata(classMetadata)
+            .constructor(constructor)
+            .build();
         TemplateOutput output = new StringOutput();
         templateEngine.render("create-method.jte", model, output);
         return output.toString();
@@ -142,8 +143,8 @@ public class BuilderClassGenerator {
 
     private String generateBuildMethod() {
         BuildMethodModel model = BuildMethodModel.builder()
-                .classMetadata(classMetadata)
-                .build();
+            .classMetadata(classMetadata)
+            .build();
         TemplateOutput output = new StringOutput();
         templateEngine.render("build-method.jte", model, output);
         return output.toString();
@@ -151,8 +152,8 @@ public class BuilderClassGenerator {
 
     private String generateApplyMethod() {
         ApplyMethodModel model = ApplyMethodModel.builder()
-                .classMetadata(classMetadata)
-                .build();
+            .classMetadata(classMetadata)
+            .build();
         TemplateOutput output = new StringOutput();
         templateEngine.render("apply-method.jte", model, output);
         return output.toString();
@@ -165,11 +166,12 @@ public class BuilderClassGenerator {
         // Filter setter methods and sort them by their string representation to ensure
         // consistent output order
         List<Method> setterMethods = Arrays.stream(methods)
-                .filter(
-                        method -> method.getName().startsWith("set")
-                                && !java.lang.reflect.Modifier.isStatic(method.getModifiers()))
-                .sorted(MethodComparator.forMethod())
-                .collect(Collectors.toList());
+            .filter(
+                method -> method.getName().startsWith("set")
+                    && !java.lang.reflect.Modifier.isStatic(method.getModifiers())
+            )
+            .sorted(MethodComparator.forMethod())
+            .collect(Collectors.toList());
 
         for (Method method : setterMethods) {
             content.append(generateSetterMethod(method));
@@ -179,9 +181,9 @@ public class BuilderClassGenerator {
 
     private String generateSetterMethod(Method method) {
         SetterMethodModel model = SetterMethodModel.builder()
-                .classMetadata(classMetadata)
-                .setterMethod(method)
-                .build();
+            .classMetadata(classMetadata)
+            .setterMethod(method)
+            .build();
         TemplateOutput output = new StringOutput();
         templateEngine.render("setter-method.jte", model, output);
         return output.toString();
@@ -194,18 +196,18 @@ public class BuilderClassGenerator {
         // name
         Method[] methods = clazz.getMethods();
         List<Method> observableListMethods = Arrays.stream(methods)
-                .filter(method -> {
-                    String methodName = method.getName();
-                    return !methodName.equals("getChildrenUnmodifiable") &&
-                            methodName.startsWith("get") &&
-                            !java.lang.reflect.Modifier.isStatic(method.getModifiers()) &&
-                            methodName.length() > 3 &&
-                            method.getParameterCount() == 0 &&
-                            method.getGenericReturnType().getTypeName()
-                                    .startsWith("javafx.collections.ObservableList<");
-                })
-                .sorted(Comparator.comparing(Method::getName))
-                .collect(Collectors.toList());
+            .filter(method -> {
+                String methodName = method.getName();
+                return !methodName.equals("getChildrenUnmodifiable") &&
+                    methodName.startsWith("get") &&
+                    !java.lang.reflect.Modifier.isStatic(method.getModifiers()) &&
+                    methodName.length() > 3 &&
+                    method.getParameterCount() == 0 &&
+                    method.getGenericReturnType().getTypeName()
+                        .startsWith("javafx.collections.ObservableList<");
+            })
+            .sorted(Comparator.comparing(Method::getName))
+            .collect(Collectors.toList());
 
         for (Method method : observableListMethods) {
             result.append(generateAddAndWithMethod(method.getName()));
@@ -217,9 +219,9 @@ public class BuilderClassGenerator {
     private String generateAddAndWithMethod(String getterMethodName) {
         try {
             AddWithMethodModel model = AddWithMethodModel.builder()
-                    .getterMethodName(getterMethodName)
-                    .classMetadata(classMetadata)
-                    .build();
+                .getterMethodName(getterMethodName)
+                .classMetadata(classMetadata)
+                .build();
             TemplateOutput output = new StringOutput();
             templateEngine.render("add-with-methods.jte", model, output);
             return output.toString();
@@ -231,17 +233,15 @@ public class BuilderClassGenerator {
 
     private String generateStylesheetMethod() {
         StylesheetMethodModel model = StylesheetMethodModel.builder()
-                .classMetadata(classMetadata)
-                .build();
+            .classMetadata(classMetadata)
+            .build();
         TemplateOutput output = new StringOutput();
         templateEngine.render("stylesheet-method.jte", model, output);
         return output.toString();
     }
 
     private String generateLayoutConstraintMethods() {
-        if (!classMetadata.isNodeClass()) {
-            return "";
-        }
+        if (!classMetadata.isNodeClass()) { return ""; }
         StringBuilder result = new StringBuilder();
         for (StaticSetterInfo setterInfo : staticSetters) {
             result.append(generateLayoutConstraintMethod(setterInfo));
@@ -251,9 +251,9 @@ public class BuilderClassGenerator {
 
     private String generateLayoutConstraintMethod(StaticSetterInfo setterInfo) {
         LayoutConstraintMethodModel model = LayoutConstraintMethodModel.builder()
-                .classMetadata(classMetadata)
-                .setterInfo(setterInfo)
-                .build();
+            .classMetadata(classMetadata)
+            .setterInfo(setterInfo)
+            .build();
         TemplateOutput output = new StringOutput();
         templateEngine.render("layout-constraint-methods.jte", model, output);
         return output.toString();
@@ -266,8 +266,9 @@ public class BuilderClassGenerator {
         Arrays.sort(methods, MethodComparator.forMethod());
 
         for (Method method : methods) {
-            if (method.getName().endsWith("Property") && !java.lang.reflect.Modifier.isStatic(method.getModifiers())
-                    && method.getParameterCount() == 0) {
+            if (method.getName().endsWith("Property")
+                && !java.lang.reflect.Modifier.isStatic(method.getModifiers())
+                && method.getParameterCount() == 0) {
 
                 content.append(generatePropertyMethod(method));
             }
@@ -278,9 +279,9 @@ public class BuilderClassGenerator {
 
     private String generatePropertyMethod(Method method) {
         PropertyMethodModel model = PropertyMethodModel.builder()
-                .classMetadata(classMetadata)
-                .propertyMethod(method)
-                .build();
+            .classMetadata(classMetadata)
+            .propertyMethod(method)
+            .build();
         TemplateOutput output = new StringOutput();
         templateEngine.render("property-method.jte", model, output);
         return output.toString();
@@ -298,13 +299,26 @@ public class BuilderClassGenerator {
             content.append(generateGridPaneMethods());
         }
 
+        try {
+            Class<?> xychartClass = Class.forName("javafx.scene.chart.XYChart");
+            if (xychartClass.isAssignableFrom(clazz)) {
+                content.append(generateXYChartWithMethod());
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println(
+                "Error generating builder for " + classMetadata.getCanonicalClassName() + ": "
+                    + e.getMessage()
+            );
+        }
+
         return content.toString();
     }
 
     private String generateBorderPaneMethods() {
         BorderPaneMethodModel model = BorderPaneMethodModel.builder()
-                .classMetadata(classMetadata)
-                .build();
+            .classMetadata(classMetadata)
+            .build();
         TemplateOutput output = new StringOutput();
         templateEngine.render("borderpane-methods.jte", model, output);
         return output.toString();
@@ -312,10 +326,19 @@ public class BuilderClassGenerator {
 
     private String generateGridPaneMethods() {
         GridPaneMethodModel model = GridPaneMethodModel.builder()
-                .classMetadata(classMetadata)
-                .build();
+            .classMetadata(classMetadata)
+            .build();
         TemplateOutput output = new StringOutput();
         templateEngine.render("gridpane-methods.jte", model, output);
+        return output.toString();
+    }
+
+    private String generateXYChartWithMethod() {
+        XYChartMethodModel model = XYChartMethodModel.builder()
+            .classMetadata(classMetadata)
+            .build();
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("xychart-methods.jte", model, output);
         return output.toString();
     }
 
