@@ -1,37 +1,36 @@
 {
-  // for JavaFX CSS Support
-  "css.lint.vendorPrefix": "ignore",
-  "java.configuration.updateBuildConfiguration": "automatic",
-  "maven.terminal.favorites": [
-    {
-      "command": "clean compile javafx:run -P javafx24,controls",
-      "debug": false
+    // for JavaFX CSS Support
+    "css.lint.vendorPrefix": "ignore",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "maven.terminal.favorites": [
+        {
+            "command": "clean compile javafx:run -P javafx24,controls",
+            "debug": false
+        },
+        {
+            "command": "clean compile javafx:run -P javafx24,graphics",
+            "debug": false
+        },
+        {
+            "command": "clean compile javafx:run -P javafx24,media",
+            "debug": false
+        },
+        {
+            "command": "clean compile javafx:run -P javafx24,web",
+            "debug": false
+        },
+    ],
+    "files.watcherExclude": {
+        "**/generated-api/**": true,
     },
-    {
-      "command": "clean compile javafx:run -P javafx24,graphics",
-      "debug": false
-    },
-    {
-      "command": "clean compile javafx:run -P javafx24,media",
-      "debug": false
-    },
-    {
-      "command": "clean compile javafx:run -P javafx24,web",
-      "debug": false
-    },
-  ],
-  "java.dependency.packagePresentation": "hierarchical",
-  "files.watcherExclude": {
-    "**/generated-api/**": true,
-  },
-  "maven.excludedFolders": [
-    "**/src",
-    "**/target",
-  ],
-  "java.autobuild.enabled": false,
-  "cSpell.words": [
-    "borderpane",
-    "Halignment",
-    "Vgrow"
-  ],
+    "maven.excludedFolders": [
+        "**/src",
+        "**/target",
+    ],
+    "java.autobuild.enabled": false,
+    "java.format.settings.url": "styles_for_jfxbuilder.xml",
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java",
+        "editor.formatOnSave": true,
+    }
 }
