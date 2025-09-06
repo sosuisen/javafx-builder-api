@@ -15,6 +15,7 @@ import io.github.sosuisen.model.MethodComparator;
 import io.github.sosuisen.model.data.ClassMetadata;
 import io.github.sosuisen.model.data.StaticSetterInfo;
 import io.github.sosuisen.model.template.AddWithMethodModel;
+import io.github.sosuisen.model.template.AlertMethodModel;
 import io.github.sosuisen.model.template.ApplyMethodModel;
 import io.github.sosuisen.model.template.BorderPaneMethodModel;
 import io.github.sosuisen.model.template.BuildMethodModel;
@@ -88,7 +89,30 @@ public class BuilderClassGenerator {
 
         content.append(generatePropertyMethods());
 
-        content.append(generateSpecialMethods());
+        if ("BorderPane".equals(clazz.getSimpleName())) {
+            content.append(generateBorderPaneMethods());
+        }
+
+        if ("GridPane".equals(clazz.getSimpleName())) {
+            content.append(generateGridPaneMethods());
+        }
+
+        if ("Alert".equals(clazz.getSimpleName())) {
+            content.append(generateAlertMethods());
+        }
+
+        try {
+            Class<?> xychartClass = Class.forName("javafx.scene.chart.XYChart");
+            if (xychartClass.isAssignableFrom(clazz)) {
+                content.append(generateXYChartMethod());
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println(
+                "Error generating builder for " + classMetadata.getCanonicalClassName() + ": "
+                    + e.getMessage()
+            );
+        }
 
         content.append("\n}\n");
 
@@ -287,34 +311,6 @@ public class BuilderClassGenerator {
         return output.toString();
     }
 
-    private String generateSpecialMethods() {
-        StringBuilder content = new StringBuilder();
-
-        // Generate BorderPane specific static methods
-        if ("BorderPane".equals(clazz.getSimpleName())) {
-            content.append(generateBorderPaneMethods());
-        }
-
-        if ("GridPane".equals(clazz.getSimpleName())) {
-            content.append(generateGridPaneMethods());
-        }
-
-        try {
-            Class<?> xychartClass = Class.forName("javafx.scene.chart.XYChart");
-            if (xychartClass.isAssignableFrom(clazz)) {
-                content.append(generateXYChartWithMethod());
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.out.println(
-                "Error generating builder for " + classMetadata.getCanonicalClassName() + ": "
-                    + e.getMessage()
-            );
-        }
-
-        return content.toString();
-    }
-
     private String generateBorderPaneMethods() {
         BorderPaneMethodModel model = BorderPaneMethodModel.builder()
             .classMetadata(classMetadata)
@@ -333,7 +329,16 @@ public class BuilderClassGenerator {
         return output.toString();
     }
 
-    private String generateXYChartWithMethod() {
+    private String generateAlertMethods() {
+        AlertMethodModel model = AlertMethodModel.builder()
+            .classMetadata(classMetadata)
+            .build();
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("alert-methods.jte", model, output);
+        return output.toString();
+    }
+
+    private String generateXYChartMethod() {
         XYChartMethodModel model = XYChartMethodModel.builder()
             .classMetadata(classMetadata)
             .build();
