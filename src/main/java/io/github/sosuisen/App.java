@@ -22,8 +22,8 @@ public class App extends Application {
     private static final String OUTPUT_ROOT = "generated-api";
     private static final String OUTPUT_PATH = "src/main/java/io/github/sosuisen/jfxbuilder";
 
-    private static final String ERRORCHECK_OUTPUT_PATH =
-        "src/main/java/io/github/sosuisen/jfxbuilder";
+    // private static final String ERRORCHECK_OUTPUT_PATH =
+    // "src/main/java/io/github/sosuisen/jfxbuilder";
 
     private List<StaticSetterInfo> staticSetters;
 
@@ -82,14 +82,14 @@ public class App extends Application {
 
                     // Create dynamic package name and output directories
                     String dynamicPackageName = PACKAGE_NAME + "." + moduleToken;
-                    String[] dynamicOutputDirs = new String[2];
+                    String[] dynamicOutputDirs = new String[1];
 
                     dynamicOutputDirs[0] =
                         OUTPUT_ROOT + "/" + BuildInfo.getJavaFXVersion().substring(0, 2) + "/"
                             + moduleToken
                             + "/" + OUTPUT_PATH + "/" + moduleToken;
 
-                    dynamicOutputDirs[1] = ERRORCHECK_OUTPUT_PATH + "/" + moduleToken;
+                    // dynamicOutputDirs[1] = ERRORCHECK_OUTPUT_PATH + "/" + moduleToken;
 
                     BuilderClassGenerator generator = new BuilderClassGenerator(
                         dynamicPackageName, dynamicOutputDirs,

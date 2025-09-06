@@ -84,7 +84,7 @@
               <outputDirectory>generated-api/${javafx.major.version}/${builder.component}/</outputDirectory>
               <resources>
                 <resource>
-                  <directory>src/main/resources/pom/</directory>
+                  <directory>config-sources/pom/</directory>
                   <filtering>true</filtering>
                   <includes>
                     <include>pom.xml</include>
@@ -103,13 +103,52 @@
               <outputDirectory>generated-api/${javafx.major.version}/${builder.component}/src/main/java/io/github/sosuisen/jfxbuilder/${builder.component}/</outputDirectory>
               <resources>
                 <resource>
-                  <directory>src/main/resources/package-info/${builder.component}</directory>
+                  <directory>config-sources/package-info/${builder.component}</directory>
                   <filtering>true</filtering>
                   <includes>
                     <include>package-info.java</include>
                   </includes>
                 </resource>
               </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <id>copy-module-info</id>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>generated-api/${javafx.major.version}/${builder.component}/src/main/java/</outputDirectory>
+              <resources>
+                <resource>
+                  <directory>config-sources/module-info/</directory>
+                  <filtering>true</filtering>
+                  <includes>
+                    <include>module-info.txt</include>
+                  </includes>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <version>3.1.0</version>
+        <executions>
+          <execution>
+            <id>rename-module-info</id>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>run</goal>
+            </goals>
+            <configuration>
+              <target>
+                <move file="generated-api/${javafx.major.version}/${builder.component}/src/main/java/module-info.txt"
+                      tofile="generated-api/${javafx.major.version}/${builder.component}/src/main/java/module-info.java"/>
+              </target>
             </configuration>
           </execution>
         </executions>
@@ -120,12 +159,6 @@
         <version>3.2.0</version>
         <configuration>
           <filesets>
-            <fileset>
-              <directory>src/main/java/io/github/sosuisen/jfxbuilder/${builder.component}/</directory>
-              <includes>
-                <include>**/*.java</include>
-              </includes>
-            </fileset>
             <fileset>
               <directory>generated-api/${javafx.major.version}/${builder.component}/</directory>
               <includes>
@@ -150,6 +183,36 @@
         </includes>
       </resource>
     </resources>
+
+    <pluginManagement>
+        <plugins>
+            <!-- m2e lifecycle mapping -->
+            <plugin>
+                <groupId>org.eclipse.m2e</groupId>
+                <artifactId>lifecycle-mapping</artifactId>
+                <version>1.0.0</version>
+                <configuration>
+                    <lifecycleMappingMetadata>
+                        <pluginExecutions>
+                            <pluginExecution>
+                                <pluginExecutionFilter>
+                                    <groupId>org.apache.maven.plugins</groupId>
+                                    <artifactId>maven-antrun-plugin</artifactId>
+                                    <versionRange>[3.0.0,)</versionRange>
+                                    <goals>
+                                        <goal>run</goal>
+                                    </goals>
+                                </pluginExecutionFilter>
+                                <action>
+                                    <execute/>
+                                </action>
+                            </pluginExecution>
+                        </pluginExecutions>
+                    </lifecycleMappingMetadata>
+                </configuration>
+            </plugin>
+        </plugins>
+    </pluginManagement>
   </build>
 
   <profiles>

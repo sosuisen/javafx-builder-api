@@ -1,0 +1,5 @@
+module io.github.sosuisen.jfxbuilder.${builder.component}.api {
+    requires javafx.${builder.component};
+
+    exports io.github.sosuisen.jfxbuilder.${builder.component};
+}
