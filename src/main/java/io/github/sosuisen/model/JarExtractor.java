@@ -28,16 +28,18 @@ public class JarExtractor {
 
         try (JarFile jarFile = new JarFile(jarPath.toString())) {
             jarFile.stream()
-                    .map(JarEntry::getName)
-                    .filter(name -> name.endsWith(".class"))
-                    // Remove .class extension
-                    .map(name -> name.replace('/', '.').substring(0, name.length() - 6))
-                    .filter(className -> className.startsWith(SCENE_CLASS_STARTS_WITH)
-                            || className.equals(STAGE_CLASS))
-                    // Skip classes ending with $digit (anonymous classes)
-                    .filter(className -> !className.matches(".*\\$\\d+$"))
-                    .sorted()
-                    .forEach(classes::add);
+                .map(JarEntry::getName)
+                .filter(name -> name.endsWith(".class"))
+                // Remove .class extension
+                .map(name -> name.replace('/', '.').substring(0, name.length() - 6))
+                .filter(
+                    className -> className.startsWith(SCENE_CLASS_STARTS_WITH)
+                        || className.equals(STAGE_CLASS)
+                )
+                // Skip classes ending with $digit (anonymous classes)
+                .filter(className -> !className.matches(".*\\$\\d+$"))
+                .sorted()
+                .forEach(classes::add);
         }
         return classes;
     }

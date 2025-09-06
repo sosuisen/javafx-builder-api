@@ -6,7 +6,8 @@ import java.util.Map;
 import io.github.sosuisen.model.mapper.TypeMappingManager;
 
 public class ParameterStringBuilder {
-    public static String buildParameterListWithTypes(Parameter[] parameters, String className, boolean isVarArgs) {
+    public static String buildParameterListWithTypes(Parameter[] parameters, String className,
+        boolean isVarArgs) {
         StringBuilder paramList = new StringBuilder();
         for (int i = 0; i < parameters.length; i++) {
             Parameter param = parameters[i];
@@ -70,8 +71,7 @@ public class ParameterStringBuilder {
     }
 
     /**
-     * Finds the index of the last occurrence of a period followed by a single
-     * letter.
+     * Finds the index of the last occurrence of a period followed by a single letter.
      * 
      * Example: ".S" matches in "java.lang.String..." and returns 9.
      * 
@@ -79,27 +79,26 @@ public class ParameterStringBuilder {
     private static int findLastDotWordIndexReverse(String str) {
         for (int i = str.length() - 2; i >= 0; i--) {
             if (str.charAt(i) == '.' &&
-                    Character.isLetterOrDigit(str.charAt(i + 1))) {
-                return i;
-            }
+                Character.isLetterOrDigit(str.charAt(i + 1))) { return i; }
         }
         return -1;
     }
 
     // Mapping for primitive array type descriptors to readable names with varargs
     private static final Map<String, String> PRIMITIVE_ARRAY_MAP = Map.of(
-            "[Z", "boolean...",
-            "[B", "byte...",
-            "[C", "char...",
-            "[D", "double...",
-            "[F", "float...",
-            "[I", "int...",
-            "[J", "long...",
-            "[S", "short...");
+        "[Z", "boolean...",
+        "[B", "byte...",
+        "[C", "char...",
+        "[D", "double...",
+        "[F", "float...",
+        "[I", "int...",
+        "[J", "long...",
+        "[S", "short..."
+    );
 
     /**
-     * Converts internal Java type name to readable format with varargs notation.
-     * Handles primitive arrays like [D -> double..., [I -> int..., etc.
+     * Converts internal Java type name to readable format with varargs notation. Handles primitive
+     * arrays like [D -> double..., [I -> int..., etc.
      * 
      * @param internalTypeName The internal type name from Class.getName()
      * @return Readable type name with varargs notation

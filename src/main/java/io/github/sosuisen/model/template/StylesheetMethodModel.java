@@ -6,9 +6,9 @@ import io.github.sosuisen.model.data.ClassMetadata;
  * Data model for stylesheet method JTE template
  */
 public record StylesheetMethodModel(
-        String simpleClassName,
-        String builderClassName,
-        String builderClassNameWithTypeParameter) {
+    String simpleClassName,
+    String builderClassName,
+    String builderClassNameWithTypeParameter) {
 
     public static Builder builder() {
         return new Builder();
@@ -30,9 +30,10 @@ public record StylesheetMethodModel(
             String simpleClassName = classMetadata.getTargetClass().getSimpleName();
 
             return new StylesheetMethodModel(
-                    simpleClassName,
-                    classMetadata.getBuilderClassName(),
-                    classMetadata.builderClassNameWithTypeParameter());
+                simpleClassName,
+                classMetadata.getBuilderClassName(),
+                classMetadata.builderClassNameWithTypeParameter()
+            );
         }
     }
 }

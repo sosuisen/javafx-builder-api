@@ -7,13 +7,13 @@ import io.github.sosuisen.model.mapper.ClassAnnotationManager;
  * Data model for class header JTE template
  */
 public record ClassHeaderModel(
-        String packageName,
-        String canonicalClassName,
-        String simpleClassName,
-        String builderClassName,
-        String typeParametersWithExtends,
-        String classNameWithTypeParameter,
-        String classAnnotation) {
+    String packageName,
+    String canonicalClassName,
+    String simpleClassName,
+    String builderClassName,
+    String typeParametersWithExtends,
+    String classNameWithTypeParameter,
+    String classAnnotation) {
 
     public static Builder builder() {
         return new Builder();
@@ -31,15 +31,17 @@ public record ClassHeaderModel(
             if (classMetadata == null) {
                 throw new IllegalStateException("classMetadata are required");
             }
-            String classAnnotation = ClassAnnotationManager.getClassAnnotation(classMetadata.getCanonicalClassName());
+            String classAnnotation =
+                ClassAnnotationManager.getClassAnnotation(classMetadata.getCanonicalClassName());
             return new ClassHeaderModel(
-                    classMetadata.getPackageName(),
-                    classMetadata.getCanonicalClassName(),
-                    classMetadata.getSimpleClassName(),
-                    classMetadata.getBuilderClassName(),
-                    classMetadata.getTypeParametersWithExtends(),
-                    classMetadata.classNameWithTypeParameter(),
-                    classAnnotation != null ? classAnnotation : "");
+                classMetadata.getPackageName(),
+                classMetadata.getCanonicalClassName(),
+                classMetadata.getSimpleClassName(),
+                classMetadata.getBuilderClassName(),
+                classMetadata.getTypeParametersWithExtends(),
+                classMetadata.classNameWithTypeParameter(),
+                classAnnotation != null ? classAnnotation : ""
+            );
         }
     }
 

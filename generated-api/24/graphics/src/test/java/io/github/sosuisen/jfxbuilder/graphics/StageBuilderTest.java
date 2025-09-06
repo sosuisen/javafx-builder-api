@@ -77,8 +77,8 @@ class StageBuilderTest {
 
         Platform.runLater(() -> {
             Stage stage = StageBuilder.create()
-                    .stageStyle(expectedStyle)
-                    .build();
+                .stageStyle(expectedStyle)
+                .build();
 
             assertEquals(expectedStyle, stage.getStyle());
         });
@@ -91,8 +91,8 @@ class StageBuilderTest {
 
         Platform.runLater(() -> {
             Stage stage = StageBuilder.create()
-                    .stageStyle(expectedStyle)
-                    .build();
+                .stageStyle(expectedStyle)
+                .build();
 
             assertEquals(expectedStyle, stage.getStyle());
         });
@@ -105,8 +105,8 @@ class StageBuilderTest {
 
         Platform.runLater(() -> {
             Stage stage = StageBuilder.withScene(testScene)
-                    .stageStyle(expectedStyle)
-                    .build();
+                .stageStyle(expectedStyle)
+                .build();
 
             assertEquals(testScene, stage.getScene());
             assertEquals(expectedStyle, stage.getStyle());
@@ -118,8 +118,8 @@ class StageBuilderTest {
     void shouldSetSceneUsingSceneMethod() {
         Platform.runLater(() -> {
             Stage stage = StageBuilder.create()
-                    .scene(testScene)
-                    .build();
+                .scene(testScene)
+                .build();
 
             assertEquals(testScene, stage.getScene());
         });
@@ -135,12 +135,12 @@ class StageBuilderTest {
 
         Platform.runLater(() -> {
             Stage stage = StageBuilder.create()
-                    .stageStyle(expectedStyle)
-                    .scene(testScene)
-                    .title(expectedTitle)
-                    .width(expectedWidth)
-                    .height(expectedHeight)
-                    .build();
+                .stageStyle(expectedStyle)
+                .scene(testScene)
+                .title(expectedTitle)
+                .width(expectedWidth)
+                .height(expectedHeight)
+                .build();
 
             assertEquals(expectedStyle, stage.getStyle());
             assertEquals(testScene, stage.getScene());
@@ -157,10 +157,10 @@ class StageBuilderTest {
 
         Platform.runLater(() -> {
             Stage stage = StageBuilder.create()
-                    .stageStyle(StageStyle.UNDECORATED)
-                    .stageStyle(StageStyle.TRANSPARENT)
-                    .stageStyle(finalStyle)
-                    .build();
+                .stageStyle(StageStyle.UNDECORATED)
+                .stageStyle(StageStyle.TRANSPARENT)
+                .stageStyle(finalStyle)
+                .build();
 
             assertEquals(finalStyle, stage.getStyle());
         });
@@ -171,9 +171,9 @@ class StageBuilderTest {
     void shouldUseDecoratedAsDefaultStyle() {
         Platform.runLater(() -> {
             Stage stage = StageBuilder.create()
-                    .scene(testScene)
-                    .title("Default Style Test")
-                    .build();
+                .scene(testScene)
+                .title("Default Style Test")
+                .build();
 
             assertEquals(StageStyle.DECORATED, stage.getStyle());
         });

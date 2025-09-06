@@ -53,10 +53,12 @@ public class LayoutConstraintsExtractor {
         // Filter static setter methods and sort them by their string representation to
         // ensure consistent output order
         List<Method> staticSetterMethods = Arrays.stream(methods)
-                .filter(method -> Modifier.isStatic(method.getModifiers()) &&
-                        method.getName().startsWith("set"))
-                .sorted(MethodComparator.forMethod())
-                .collect(Collectors.toList());
+            .filter(
+                method -> Modifier.isStatic(method.getModifiers()) &&
+                    method.getName().startsWith("set")
+            )
+            .sorted(MethodComparator.forMethod())
+            .collect(Collectors.toList());
 
         List<StaticSetterInfo> staticSetters = new ArrayList<>();
         for (Method method : staticSetterMethods) {
@@ -64,16 +66,22 @@ public class LayoutConstraintsExtractor {
             Parameter[] methodParameters = method.getParameters();
 
             for (Parameter param : methodParameters) {
-                parameters.add(new ParameterInfo(
+                parameters.add(
+                    new ParameterInfo(
                         param.getParameterizedType().getTypeName(),
-                        param.getName()));
+                        param.getName()
+                    )
+                );
             }
 
-            staticSetters.add(new StaticSetterInfo(
+            staticSetters.add(
+                new StaticSetterInfo(
                     clazz,
                     method.getName(),
                     parameters,
-                    method.getReturnType().getName()));
+                    method.getReturnType().getName()
+                )
+            );
         }
 
         return staticSetters;

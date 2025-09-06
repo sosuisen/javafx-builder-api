@@ -9,23 +9,23 @@ import io.github.sosuisen.model.data.StaticSetterInfo;
 public class LayoutConstraintMethodModel {
 
     public record StaticCall(
-            String sourceClassFullName,
-            String staticMethodName,
-            String argumentList) {
+        String sourceClassFullName,
+        String staticMethodName,
+        String argumentList) {
     }
 
     public record LayoutConstraintMethod(
-            String methodName,
-            String parameterList,
-            String parameterListSimpleTypesOnly,
-            StaticCall staticCall) {
+        String methodName,
+        String parameterList,
+        String parameterListSimpleTypesOnly,
+        StaticCall staticCall) {
     }
 
     private final String builderClassNameWithTypeParameter;
     private final LayoutConstraintMethod method;
 
     private LayoutConstraintMethodModel(String builderClassNameWithTypeParameter,
-            LayoutConstraintMethod method) {
+        LayoutConstraintMethod method) {
         this.builderClassNameWithTypeParameter = builderClassNameWithTypeParameter;
         this.method = method;
     }
@@ -62,35 +62,44 @@ public class LayoutConstraintMethodModel {
             String methodName = camelCaseSetterName + "In" + sourceClassName;
 
             // Filter out Node parameters and create parameter list
-            List<ParameterInfo> filteredParams = ParameterInfo.filterNodeParameters(setterInfo.parameters());
-            String parameterList = ParameterInfo.buildParameterList(filteredParams,
-                    classMetadata.getCanonicalClassName());
+            List<ParameterInfo> filteredParams =
+                ParameterInfo.filterNodeParameters(setterInfo.parameters());
+            String parameterList = ParameterInfo.buildParameterList(
+                filteredParams,
+                classMetadata.getCanonicalClassName()
+            );
 
-            String parameterListSimpleTypesOnly = ParameterInfo.buildParameterListSimpleTypesOnly(filteredParams,
-                    classMetadata.getCanonicalClassName());
+            String parameterListSimpleTypesOnly = ParameterInfo.buildParameterListSimpleTypesOnly(
+                filteredParams,
+                classMetadata.getCanonicalClassName()
+            );
 
             String argumentList = ParameterInfo.buildArgumentList(filteredParams);
 
             // Create single StaticCall for this setter
             StaticCall staticCall = new StaticCall(
-                    setterInfo.sourceClass().getName(),
-                    setterInfo.methodName(),
-                    argumentList);
+                setterInfo.sourceClass().getName(),
+                setterInfo.methodName(),
+                argumentList
+            );
 
-            return new LayoutConstraintMethodModel(classMetadata.builderClassNameWithTypeParameter(),
-                    new LayoutConstraintMethod(
-                            methodName,
-                            parameterList,
-                            parameterListSimpleTypesOnly,
-                            staticCall));
+            return new LayoutConstraintMethodModel(
+                classMetadata.builderClassNameWithTypeParameter(),
+                new LayoutConstraintMethod(
+                    methodName,
+                    parameterList,
+                    parameterListSimpleTypesOnly,
+                    staticCall
+                )
+            );
         }
 
         private String convertToSpecialCamelCase(String setterName) {
             // Special handling for names starting with 'H' or 'V' followed by lowercase
             // e.g., "Halignment" -> "hAlignment", "Vgrow" -> "vGrow"
             if (setterName.length() >= 2 &&
-                    (setterName.charAt(0) == 'H' || setterName.charAt(0) == 'V') &&
-                    Character.isLowerCase(setterName.charAt(1))) {
+                (setterName.charAt(0) == 'H' || setterName.charAt(0) == 'V') &&
+                Character.isLowerCase(setterName.charAt(1))) {
 
                 String firstChar = String.valueOf(setterName.charAt(0)).toLowerCase();
                 String secondChar = String.valueOf(setterName.charAt(1)).toUpperCase();
