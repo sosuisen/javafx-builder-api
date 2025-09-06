@@ -64,8 +64,8 @@ class ButtonBuilderTest {
     void shouldSetTextProperty() {
         String expectedText = "Updated Text";
         Button button = ButtonBuilder.create()
-                .text(expectedText)
-                .build();
+            .text(expectedText)
+            .build();
 
         assertEquals(expectedText, button.getText());
     }
@@ -74,8 +74,8 @@ class ButtonBuilderTest {
     @DisplayName("Should set cancel button property")
     void shouldSetCancelButtonProperty() {
         Button button = ButtonBuilder.create()
-                .cancelButton(true)
-                .build();
+            .cancelButton(true)
+            .build();
 
         assertTrue(button.isCancelButton());
     }
@@ -84,8 +84,8 @@ class ButtonBuilderTest {
     @DisplayName("Should set default button property")
     void shouldSetDefaultButtonProperty() {
         Button button = ButtonBuilder.create()
-                .defaultButton(true)
-                .build();
+            .defaultButton(true)
+            .build();
 
         assertTrue(button.isDefaultButton());
     }
@@ -93,12 +93,12 @@ class ButtonBuilderTest {
     @Test
     @DisplayName("Should set action handler")
     void shouldSetActionHandler() {
-        boolean[] actionCalled = { false };
+        boolean[] actionCalled = {false};
         EventHandler<ActionEvent> handler = e -> actionCalled[0] = true;
 
         Button button = ButtonBuilder.create()
-                .onAction(handler)
-                .build();
+            .onAction(handler)
+            .build();
 
         assertEquals(handler, button.getOnAction());
     }
@@ -107,8 +107,8 @@ class ButtonBuilderTest {
     @DisplayName("Should set mnemonic parsing")
     void shouldSetMnemonicParsing() {
         Button button = ButtonBuilder.create()
-                .mnemonicParsing(false)
-                .build();
+            .mnemonicParsing(false)
+            .build();
 
         assertFalse(button.isMnemonicParsing());
     }
@@ -118,8 +118,8 @@ class ButtonBuilderTest {
     void shouldSetFont() {
         Font expectedFont = Font.font("Arial", 14);
         Button button = ButtonBuilder.create()
-                .font(expectedFont)
-                .build();
+            .font(expectedFont)
+            .build();
 
         assertEquals(expectedFont, button.getFont());
     }
@@ -129,8 +129,8 @@ class ButtonBuilderTest {
     void shouldSetContentDisplay() {
         ContentDisplay expectedDisplay = ContentDisplay.TOP;
         Button button = ButtonBuilder.create()
-                .contentDisplay(expectedDisplay)
-                .build();
+            .contentDisplay(expectedDisplay)
+            .build();
 
         assertEquals(expectedDisplay, button.getContentDisplay());
     }
@@ -139,8 +139,8 @@ class ButtonBuilderTest {
     @DisplayName("Should set underline")
     void shouldSetUnderline() {
         Button button = ButtonBuilder.create()
-                .underline(true)
-                .build();
+            .underline(true)
+            .build();
 
         assertTrue(button.isUnderline());
     }
@@ -149,8 +149,8 @@ class ButtonBuilderTest {
     @DisplayName("Should set wrap text")
     void shouldSetWrapText() {
         Button button = ButtonBuilder.create()
-                .wrapText(true)
-                .build();
+            .wrapText(true)
+            .build();
 
         assertTrue(button.isWrapText());
     }
@@ -160,8 +160,8 @@ class ButtonBuilderTest {
     void shouldSetGraphicTextGap() {
         double expectedGap = 10.0;
         Button button = ButtonBuilder.create()
-                .graphicTextGap(expectedGap)
-                .build();
+            .graphicTextGap(expectedGap)
+            .build();
 
         assertEquals(expectedGap, button.getGraphicTextGap(), 0.001);
     }
@@ -171,8 +171,8 @@ class ButtonBuilderTest {
     void shouldSetEllipsisString() {
         String expectedEllipsis = "...";
         Button button = ButtonBuilder.create()
-                .ellipsisString(expectedEllipsis)
-                .build();
+            .ellipsisString(expectedEllipsis)
+            .build();
 
         assertEquals(expectedEllipsis, button.getEllipsisString());
     }
@@ -182,8 +182,8 @@ class ButtonBuilderTest {
     void shouldSetLineSpacing() {
         double expectedSpacing = 5.0;
         Button button = ButtonBuilder.create()
-                .lineSpacing(expectedSpacing)
-                .build();
+            .lineSpacing(expectedSpacing)
+            .build();
 
         assertEquals(expectedSpacing, button.getLineSpacing(), 0.001);
     }
@@ -193,8 +193,8 @@ class ButtonBuilderTest {
     void shouldSetTextAlignment() {
         TextAlignment expectedAlignment = TextAlignment.CENTER;
         Button button = ButtonBuilder.create()
-                .textAlignment(expectedAlignment)
-                .build();
+            .textAlignment(expectedAlignment)
+            .build();
 
         assertEquals(expectedAlignment, button.getTextAlignment());
     }
@@ -204,8 +204,8 @@ class ButtonBuilderTest {
     void shouldSetAlignment() {
         Pos expectedAlignment = Pos.CENTER_RIGHT;
         Button button = ButtonBuilder.create()
-                .alignment(expectedAlignment)
-                .build();
+            .alignment(expectedAlignment)
+            .build();
 
         assertEquals(expectedAlignment, button.getAlignment());
     }
@@ -215,8 +215,8 @@ class ButtonBuilderTest {
     void shouldSetTextFill() {
         Color expectedColor = Color.RED;
         Button button = ButtonBuilder.create()
-                .textFill(expectedColor)
-                .build();
+            .textFill(expectedColor)
+            .build();
 
         assertEquals(expectedColor, button.getTextFill());
     }
@@ -228,9 +228,9 @@ class ButtonBuilderTest {
         double expectedHeight = 50.0;
 
         Button button = ButtonBuilder.create()
-                .prefWidth(expectedWidth)
-                .prefHeight(expectedHeight)
-                .build();
+            .prefWidth(expectedWidth)
+            .prefHeight(expectedHeight)
+            .build();
 
         assertEquals(expectedWidth, button.getPrefWidth(), 0.001);
         assertEquals(expectedHeight, button.getPrefHeight(), 0.001);
@@ -241,8 +241,8 @@ class ButtonBuilderTest {
     void shouldSetPadding() {
         Insets expectedPadding = new Insets(10, 15, 10, 15);
         Button button = ButtonBuilder.create()
-                .padding(expectedPadding)
-                .build();
+            .padding(expectedPadding)
+            .build();
 
         assertEquals(expectedPadding, button.getPadding());
     }
@@ -252,8 +252,8 @@ class ButtonBuilderTest {
     void shouldSetCursor() {
         Cursor expectedCursor = Cursor.HAND;
         Button button = ButtonBuilder.create()
-                .cursor(expectedCursor)
-                .build();
+            .cursor(expectedCursor)
+            .build();
 
         assertEquals(expectedCursor, button.getCursor());
     }
@@ -262,8 +262,8 @@ class ButtonBuilderTest {
     @DisplayName("Should set disable property")
     void shouldSetDisableProperty() {
         Button button = ButtonBuilder.create()
-                .disable(true)
-                .build();
+            .disable(true)
+            .build();
 
         assertTrue(button.isDisable());
     }
@@ -273,8 +273,8 @@ class ButtonBuilderTest {
     void shouldSetId() {
         String expectedId = "test-button";
         Button button = ButtonBuilder.create()
-                .id(expectedId)
-                .build();
+            .id(expectedId)
+            .build();
 
         assertEquals(expectedId, button.getId());
     }
@@ -284,8 +284,8 @@ class ButtonBuilderTest {
     void shouldSetStyle() {
         String expectedStyle = "-fx-background-color: blue;";
         Button button = ButtonBuilder.create()
-                .style(expectedStyle)
-                .build();
+            .style(expectedStyle)
+            .build();
 
         assertEquals(expectedStyle, button.getStyle());
     }
@@ -295,8 +295,8 @@ class ButtonBuilderTest {
     void shouldSetOpacity() {
         double expectedOpacity = 0.7;
         Button button = ButtonBuilder.create()
-                .opacity(expectedOpacity)
-                .build();
+            .opacity(expectedOpacity)
+            .build();
 
         assertEquals(expectedOpacity, button.getOpacity(), 0.001);
     }
@@ -305,8 +305,8 @@ class ButtonBuilderTest {
     @DisplayName("Should set visible property")
     void shouldSetVisibleProperty() {
         Button button = ButtonBuilder.create()
-                .visible(false)
-                .build();
+            .visible(false)
+            .build();
 
         assertFalse(button.isVisible());
     }
@@ -315,8 +315,8 @@ class ButtonBuilderTest {
     @DisplayName("Should set managed property")
     void shouldSetManagedProperty() {
         Button button = ButtonBuilder.create()
-                .managed(false)
-                .build();
+            .managed(false)
+            .build();
 
         assertFalse(button.isManaged());
     }
@@ -329,12 +329,12 @@ class ButtonBuilderTest {
         double expectedWidth = 150.0;
 
         Button button = ButtonBuilder.create()
-                .text(expectedText)
-                .id(expectedId)
-                .prefWidth(expectedWidth)
-                .defaultButton(true)
-                .visible(true)
-                .build();
+            .text(expectedText)
+            .id(expectedId)
+            .prefWidth(expectedWidth)
+            .defaultButton(true)
+            .visible(true)
+            .build();
 
         assertEquals(expectedText, button.getText());
         assertEquals(expectedId, button.getId());
@@ -349,8 +349,8 @@ class ButtonBuilderTest {
         String customText = "Custom Function";
 
         Button button = ButtonBuilder.create()
-                .apply(btn -> btn.setText(customText))
-                .build();
+            .apply(btn -> btn.setText(customText))
+            .build();
 
         assertEquals(customText, button.getText());
     }
@@ -370,8 +370,8 @@ class ButtonBuilderTest {
     @DisplayName("Should allow independent modification of multiple instances from same builder")
     void shouldAllowIndependentModificationOfMultipleInstances() {
         ButtonBuilder builder = ButtonBuilder.create()
-                .text("Original Text")
-                .prefWidth(100.0);
+            .text("Original Text")
+            .prefWidth(100.0);
 
         Button instance1 = builder.build();
         Button instance2 = builder.build();
@@ -406,8 +406,8 @@ class ButtonBuilderTest {
     void shouldSupportDelayedInitializationWithMultipleInstancesFromParameterizedConstructor() {
         String constructorText = "Constructor Text";
         ButtonBuilder builder = ButtonBuilder.create(constructorText)
-                .defaultButton(true)
-                .prefWidth(150.0);
+            .defaultButton(true)
+            .prefWidth(150.0);
 
         Button instance1 = builder.build();
         Button instance2 = builder.build();
@@ -430,13 +430,13 @@ class ButtonBuilderTest {
     @DisplayName("Should create multiple instances with complex builder operations")
     void shouldCreateMultipleInstancesWithComplexBuilderOperations() {
         ButtonBuilder builder = ButtonBuilder.create("Shared Button")
-                .defaultButton(true)
-                .prefWidth(200.0)
-                .prefHeight(50.0)
-                .visible(true)
-                .apply(btn -> btn.setOpacity(0.9))
-                .style("-fx-background-color: blue;")
-                .id("shared-button");
+            .defaultButton(true)
+            .prefWidth(200.0)
+            .prefHeight(50.0)
+            .visible(true)
+            .apply(btn -> btn.setOpacity(0.9))
+            .style("-fx-background-color: blue;")
+            .id("shared-button");
 
         Button[] instances = new Button[5];
         for (int i = 0; i < 5; i++) {
@@ -476,10 +476,10 @@ class ButtonBuilderTest {
     void shouldHandleNullParametersGracefully() {
         assertDoesNotThrow(() -> {
             Button button = ButtonBuilder.create()
-                    .text(null)
-                    .id(null)
-                    .style(null)
-                    .build();
+                .text(null)
+                .id(null)
+                .style(null)
+                .build();
             assertNotNull(button);
         });
     }
@@ -488,22 +488,22 @@ class ButtonBuilderTest {
     @DisplayName("Should add CSS stylesheet text")
     void shouldAddCssStylesheetText() {
         String cssText = ".my-button { -fx-text-fill: white; -fx-background-color: red; }";
-        
+
         Button button = ButtonBuilder.create()
-                .text("Test Button")
-                .addStylesheetsText(cssText)
-                .build();
+            .text("Test Button")
+            .addStylesheetsText(cssText)
+            .build();
 
         assertNotNull(button);
         assertEquals("Test Button", button.getText());
-        
+
         // Verify that the stylesheet was added
         assertFalse(button.getStylesheets().isEmpty());
         assertEquals(1, button.getStylesheets().size());
-        
+
         String addedStylesheet = button.getStylesheets().get(0);
         assertTrue(addedStylesheet.startsWith("data:text/css;base64,"));
-        
+
         // Decode and verify the CSS content
         String base64Part = addedStylesheet.substring("data:text/css;base64,".length());
         String decodedCss = new String(java.util.Base64.getDecoder().decode(base64Part));
@@ -516,19 +516,19 @@ class ButtonBuilderTest {
         String cssText = ".my-button { -fx-font-size: 16px; }";
         String expectedText = "Styled Button";
         String expectedId = "styled-button";
-        
+
         Button button = ButtonBuilder.create()
-                .text(expectedText)
-                .id(expectedId)
-                .addStylesheetsText(cssText)
-                .prefWidth(200.0)
-                .build();
+            .text(expectedText)
+            .id(expectedId)
+            .addStylesheetsText(cssText)
+            .prefWidth(200.0)
+            .build();
 
         assertEquals(expectedText, button.getText());
         assertEquals(expectedId, button.getId());
         assertEquals(200.0, button.getPrefWidth(), 0.001);
         assertEquals(1, button.getStylesheets().size());
-        
+
         String addedStylesheet = button.getStylesheets().get(0);
         assertTrue(addedStylesheet.startsWith("data:text/css;base64,"));
     }

@@ -61,9 +61,10 @@ class TableViewBuilderTest {
     @DisplayName("Should create TableViewBuilder with items parameter")
     void shouldCreateTableViewBuilderWithItems() {
         ObservableList<Person> items = FXCollections.observableArrayList(
-                new Person("John", 25),
-                new Person("Jane", 30),
-                new Person("Bob", 35));
+            new Person("John", 25),
+            new Person("Jane", 30),
+            new Person("Bob", 35)
+        );
         TableViewBuilder<Person> builder = TableViewBuilder.create(items);
         assertNotNull(builder);
 
@@ -77,11 +78,12 @@ class TableViewBuilderTest {
     @DisplayName("Should set items property")
     void shouldSetItemsProperty() {
         ObservableList<Person> items = FXCollections.observableArrayList(
-                new Person("Alice", 28),
-                new Person("Charlie", 32));
+            new Person("Alice", 28),
+            new Person("Charlie", 32)
+        );
         TableView<Person> tableView = TableViewBuilder.<Person>create()
-                .items(items)
-                .build();
+            .items(items)
+            .build();
 
         assertEquals(items, tableView.getItems());
         assertEquals(2, tableView.getItems().size());
@@ -91,8 +93,8 @@ class TableViewBuilderTest {
     @DisplayName("Should set editable property")
     void shouldSetEditableProperty() {
         TableView<Person> tableView = TableViewBuilder.<Person>create()
-                .editable(true)
-                .build();
+            .editable(true)
+            .build();
 
         assertTrue(tableView.isEditable());
     }
@@ -102,8 +104,8 @@ class TableViewBuilderTest {
     void shouldSetFixedCellSizeProperty() {
         double expectedCellSize = 40.0;
         TableView<Person> tableView = TableViewBuilder.<Person>create()
-                .fixedCellSize(expectedCellSize)
-                .build();
+            .fixedCellSize(expectedCellSize)
+            .build();
 
         assertEquals(expectedCellSize, tableView.getFixedCellSize(), 0.001);
     }
@@ -113,8 +115,8 @@ class TableViewBuilderTest {
     void shouldSetPlaceholderProperty() {
         Label placeholder = new Label("No data available");
         TableView<Person> tableView = TableViewBuilder.<Person>create()
-                .placeholder(placeholder)
-                .build();
+            .placeholder(placeholder)
+            .build();
 
         assertEquals(placeholder, tableView.getPlaceholder());
     }
@@ -123,8 +125,8 @@ class TableViewBuilderTest {
     @DisplayName("Should set tableMenuButtonVisible property")
     void shouldSetTableMenuButtonVisibleProperty() {
         TableView<Person> tableView = TableViewBuilder.<Person>create()
-                .tableMenuButtonVisible(true)
-                .build();
+            .tableMenuButtonVisible(true)
+            .build();
 
         assertTrue(tableView.isTableMenuButtonVisible());
     }
@@ -136,9 +138,9 @@ class TableViewBuilderTest {
         double expectedHeight = 300.0;
 
         TableView<Person> tableView = TableViewBuilder.<Person>create()
-                .prefWidth(expectedWidth)
-                .prefHeight(expectedHeight)
-                .build();
+            .prefWidth(expectedWidth)
+            .prefHeight(expectedHeight)
+            .build();
 
         assertEquals(expectedWidth, tableView.getPrefWidth(), 0.001);
         assertEquals(expectedHeight, tableView.getPrefHeight(), 0.001);
@@ -149,8 +151,8 @@ class TableViewBuilderTest {
     void shouldSetId() {
         String expectedId = "test-tableview";
         TableView<Person> tableView = TableViewBuilder.<Person>create()
-                .id(expectedId)
-                .build();
+            .id(expectedId)
+            .build();
 
         assertEquals(expectedId, tableView.getId());
     }
@@ -160,8 +162,8 @@ class TableViewBuilderTest {
     void shouldSetStyle() {
         String expectedStyle = "-fx-background-color: lightgray;";
         TableView<Person> tableView = TableViewBuilder.<Person>create()
-                .style(expectedStyle)
-                .build();
+            .style(expectedStyle)
+            .build();
 
         assertEquals(expectedStyle, tableView.getStyle());
     }
@@ -170,8 +172,8 @@ class TableViewBuilderTest {
     @DisplayName("Should set visible property")
     void shouldSetVisibleProperty() {
         TableView<Person> tableView = TableViewBuilder.<Person>create()
-                .visible(false)
-                .build();
+            .visible(false)
+            .build();
 
         assertFalse(tableView.isVisible());
     }
@@ -180,8 +182,8 @@ class TableViewBuilderTest {
     @DisplayName("Should set managed property")
     void shouldSetManagedProperty() {
         TableView<Person> tableView = TableViewBuilder.<Person>create()
-                .managed(false)
-                .build();
+            .managed(false)
+            .build();
 
         assertFalse(tableView.isManaged());
     }
@@ -190,19 +192,20 @@ class TableViewBuilderTest {
     @DisplayName("Should chain multiple builder methods")
     void shouldChainMultipleBuilderMethods() {
         ObservableList<Person> items = FXCollections.observableArrayList(
-                new Person("David", 40),
-                new Person("Emma", 35));
+            new Person("David", 40),
+            new Person("Emma", 35)
+        );
         String expectedId = "chained-tableview";
         double expectedCellSize = 45.0;
 
         TableView<Person> tableView = TableViewBuilder.<Person>create()
-                .items(items)
-                .id(expectedId)
-                .fixedCellSize(expectedCellSize)
-                .editable(true)
-                .tableMenuButtonVisible(false)
-                .visible(true)
-                .build();
+            .items(items)
+            .id(expectedId)
+            .fixedCellSize(expectedCellSize)
+            .editable(true)
+            .tableMenuButtonVisible(false)
+            .visible(true)
+            .build();
 
         assertEquals(items, tableView.getItems());
         assertEquals(expectedId, tableView.getId());
@@ -218,8 +221,8 @@ class TableViewBuilderTest {
         double customCellSize = 55.0;
 
         TableView<Person> tableView = TableViewBuilder.<Person>create()
-                .apply(tv -> tv.setFixedCellSize(customCellSize))
-                .build();
+            .apply(tv -> tv.setFixedCellSize(customCellSize))
+            .build();
 
         assertEquals(customCellSize, tableView.getFixedCellSize(), 0.001);
     }
@@ -241,8 +244,8 @@ class TableViewBuilderTest {
         ObservableList<Person> items = FXCollections.observableArrayList(new Person("Shared", 50));
 
         TableViewBuilder<Person> builder = TableViewBuilder.<Person>create()
-                .fixedCellSize(25.0)
-                .items(items);
+            .fixedCellSize(25.0)
+            .items(items);
 
         TableView<Person> instance1 = builder.build();
         TableView<Person> instance2 = builder.build();
@@ -275,10 +278,11 @@ class TableViewBuilderTest {
     @Test
     @DisplayName("Should support delayed initialization with parameterized constructor")
     void shouldSupportDelayedInitializationWithParameterizedConstructor() {
-        ObservableList<Person> constructorItems = FXCollections.observableArrayList(new Person("Constructor", 60));
+        ObservableList<Person> constructorItems =
+            FXCollections.observableArrayList(new Person("Constructor", 60));
         TableViewBuilder<Person> builder = TableViewBuilder.create(constructorItems)
-                .editable(true)
-                .tableMenuButtonVisible(false);
+            .editable(true)
+            .tableMenuButtonVisible(false);
 
         TableView<Person> instance1 = builder.build();
         TableView<Person> instance2 = builder.build();
@@ -302,8 +306,8 @@ class TableViewBuilderTest {
     void shouldHandleNullItemsGracefully() {
         assertDoesNotThrow(() -> {
             TableView<Person> tableView = TableViewBuilder.<Person>create()
-                    .items(null)
-                    .build();
+                .items(null)
+                .build();
             assertNotNull(tableView);
             assertNull(tableView.getItems());
         });
@@ -312,10 +316,11 @@ class TableViewBuilderTest {
     @Test
     @DisplayName("Should work with different generic types")
     void shouldWorkWithDifferentGenericTypes() {
-        ObservableList<String> stringItems = FXCollections.observableArrayList("Item1", "Item2", "Item3");
+        ObservableList<String> stringItems =
+            FXCollections.observableArrayList("Item1", "Item2", "Item3");
         TableView<String> stringTableView = TableViewBuilder.<String>create(stringItems)
-                .fixedCellSize(35.0)
-                .build();
+            .fixedCellSize(35.0)
+            .build();
 
         assertNotNull(stringTableView);
         assertEquals(stringItems, stringTableView.getItems());
