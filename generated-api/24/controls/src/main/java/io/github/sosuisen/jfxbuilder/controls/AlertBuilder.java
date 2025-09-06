@@ -774,4 +774,41 @@ public class AlertBuilder {
         operations.add(obj -> op.accept(obj.yProperty()));
         return this;
     }
+
+    /**
+     * Creates an instance of the builder,
+     * then calls the {@link javafx.collections.ObservableList#setAll(E... elements) addAll(ButtonType... elements)} method
+     * on the ObservableList returned by the {@link javafx.scene.control.Alert#getButtonTypes() Alert#getButtonTypes()} method.
+     *
+     * <p>
+     * After calling this method, you may need to invoke the {@link AlertBuilder#alertType(javafx.scene.control.Alert.AlertType) alertType(AlertType)} method.
+     * If you do not, the default {@link javafx.scene.control.Alert.AlertType#NONE AlertType.NONE} will be set.
+     * </p>
+     *
+     * @return builder instance
+     */
+    @SafeVarargs
+    public static AlertBuilder withButtonTypes(javafx.scene.control.ButtonType... elements) {
+        AlertBuilder builder = new AlertBuilder();
+        builder.constructorArgs = new Object[]{javafx.scene.control.Alert.AlertType.NONE};
+        return builder.addButtonTypes(elements);
+    }
+
+    /**
+     * Creates an instance of the builder,
+     * then calls the {@link java.util.List#addAll(Collection<? extends E> c) setAll(Collection&lt;? extends ButtonType&gt; col} method
+     * on the ObservableList returned by the {@link javafx.scene.control.Alert#getButtonTypes() Alert#getButtonTypes()} method.
+     *
+     * <p>
+     * After calling this method, you may need to invoke the {@link AlertBuilder#alertType(javafx.scene.control.Alert.AlertType) alertType(AlertType)} method.
+     * If you do not, the default {@link javafx.scene.control.Alert.AlertType#NONE AlertType.NONE} will be set.
+     * </p>
+     *
+     * @return builder instance
+     */
+    public static AlertBuilder withButtonTypes(java.util.Collection<? extends javafx.scene.control.ButtonType> col) {
+        AlertBuilder builder = new AlertBuilder();
+        builder.constructorArgs = new Object[]{javafx.scene.control.Alert.AlertType.NONE};
+        return builder.addButtonTypes(col);
+    }
 }

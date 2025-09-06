@@ -55,7 +55,7 @@ Examples:
 
 ## Create Methods (Static)
 
-Each builder class includes a `static create` method with the same arguments as the original class constructor. The `create` method enables a fluent API by returning an instance of the builder class.
+Each builder class includes a **class method** `create` that accepts the same arguments as the original class constructor. This `create` method enables a fluent API by returning an instance of the builder class.
 
 Examples:
 - `Button()` -> `ButtonBuilder.create()`
@@ -63,7 +63,7 @@ Examples:
 
 ## Build Method
 
-This method builds and returns an instance of the original class.
+The `build` method builds and returns an instance of the original class.
 
 Note that intermediate builder methods are not evaluated until the build() method is called; in other words, they are evaluated lazily.
 
@@ -74,7 +74,7 @@ Button btn = ButtonBuilder.create().build();
 
 ## Setter Methods
 
-Each builder class includes a method named `XXX` where the name corresponds to the original class setter by removing `set` from `setXXX` and making the first letter lowercase.
+Each builder class includes setter methods named `XXX` where the name corresponds to the original class setter. This is achieved by removing `set` from `setXXX` and making the first letter lowercase.
 
 Method naming convention:
 ```
@@ -194,11 +194,12 @@ Container classes include those like VBox where children can be specified in the
 Therefore, having all containers able to create builders with child elements via `withXXX` methods provides better consistency.
 
 Exceptions:
-- If the original class does not have a default constructor, `withXXX` is impossible and therefore not provided, such as `LineChart`.
-- The following appearance-related methods are excluded:
-  - getStylesheets
-  - getTransforms
-  - getStyleClass
+- Essentially, `withXXX` is not available if the original class lacks a default constructor. This primarily applies to Skin Classes within the `javafx.scene.control.skin` package. 
+- Although sub-classes of [XYChart](#xychart) and [Alert](#alert) class also do not have default constructors, they uniquely include `withXXX` methods. (Refer to individual sections for more details.)
+- `withXXX` is applied to structural containment relationships. The following appearance-related methods are excluded:
+  - `getStylesheets`
+  - `getTransforms`
+  - `getStyleClass`
 
 Note:
 - Since it's "addAll", it's merely adding values to the default `ObservableList`. Use this when values can be fixed rather than reactive.
@@ -231,7 +232,7 @@ Example: `BorderPane` becomes referenceable with the `.border-pane` selector.
 
 ### Stage
 
-The `StageBuilder` class includes a static `withScene(Scene scene)` method
+The `StageBuilder` class includes a **class method** `withScene(Scene scene)`
 that creates an instance of the builder and then calls the `setScene(Scene scene)` method.
 This shorthand ensures consistency with other methods, such as the `withChildren` method found in container classes.
 
@@ -239,8 +240,8 @@ There is no setter for the optional constructor argument `StageStyle`, but `Stag
 
 ### Scene
 
-The `SceneBuilder` class includes a static `withRoot(Parent root)`
-method that performs the same processing as the create(Parent root) method.
+The `SceneBuilder` class includes a **class method** `withRoot(Parent root)`
+that performs the same processing as the create(Parent root) method.
 This alias ensures consistency with other methods, such as the `withChildren` method found in container classes.
 
 The constructor arguments `width`, `height`, `depthBuffer`, and `antiAliasing` do not have setters on the `Scene` class, but custom setters have been added to `SceneBuilder`.
@@ -263,7 +264,7 @@ StageBuilder.withScene(
 
 ### BorderPane
 
-The `BorderPaneBuilder` class includes static `withCenter`, `withLeft`, `withRight`, `withBottom` and `withTop` methods to maintain consistency with methods like `withChildren`.
+The `BorderPaneBuilder` class includes **class methods** `withCenter`, `withLeft`, `withRight`, `withBottom` and `withTop` to maintain consistency with methods like `withChildren`.
 
 ### GridPane
 
@@ -307,7 +308,7 @@ GridPaneBuilder.create()
 
 ### XYChart
 
-Subclasses of XYChart include a static `withData(XYChart.Series<X, Y>... elements)` and `withData(Collection<? extends XYChart.Series<X, Y>> col)` method to maintain consistency with methods like `withChildren`.
+Subclasses of XYChart include **class methods** `withData(XYChart.Series<X, Y>... elements)` and `withData(Collection<? extends XYChart.Series<X, Y>> col)` to maintain consistency with methods like `withChildren`.
 
 `withData` method creates an instance of the builder, then calls the `addAll(XYChart.Series<X, Y>... elements)` method on the `ObservableList` returned by the `XYChart#getData()` method.
 
@@ -365,3 +366,58 @@ LineChart<Number, Number> lineChart = LineChartBuilder
 Note:
 - Since it's "addAll", it's merely adding values to the default `ObservableList`. Use this when values can be fixed rather than reactive.
 - When you want to replace the entire `ObservableList` itself, use the default setter provided by the Basic APIs.
+
+### Alert
+
+`Alert` class includes **class methods** `withButtonTypes(ButtonType... elements)` and `withButtonTypes(Collection<? extends ButtonType> col)`
+to maintain consistency with methods like `withChildren`.
+
+`withData` method creates an instance of the `AlertBuilder`, 
+then calls the addAll(ButtonType... elements) method on the ObservableList returned by the Alert#getButtonTypes() method.
+
+After calling this method, you can invoke the alertType(AlertType) method. If you choose not to do so, the default AlertType.NONE will be set.
+
+Examples:
+```java
+AlertBuilder
+    .withButtonTypes(
+        new ButtonType("Restart Level", ButtonData.NEXT_FORWARD),
+        new ButtonType("Back to Menu", ButtonData.BACK_PREVIOUS),
+        new ButtonType("Exit", ButtonData.CANCEL_CLOSE)
+    )
+    .alertType(AlertType.CONFIRMATION)    
+    .title("GAME OVER")
+    .build()
+    .showAndWait()
+    .ifPresent(buttonType -> {
+        switch (buttonType.getButtonData()) {
+            case NEXT_FORWARD -> System.out.println("Restart Level");
+            case BACK_PREVIOUS -> System.out.println("Back to Menu");
+            case CANCEL_CLOSE -> System.out.println("Exit");
+            default -> throw new IllegalStateException();
+        }
+    });
+```
+<img src="../images/alert.png" width="320">
+
+Code example without using withButtonTypes:
+```java
+AlertBuilder
+    .create(AlertType.ERROR)
+    .title("Error")
+    .headerText("Fatal Error")
+    .height(240)
+    .width(480)
+    .apply(alert -> {
+        alert.getDialogPane()
+            .setExpandableContent(
+                new Label(
+                    "ERROR: Failed to establish a database connection to the remote server."
+                )
+            );
+        alert.getDialogPane().setExpanded(true);
+    })
+    .onHidden(_ -> Platform.exit())
+    .build()
+    .show();
+```
