@@ -3,10 +3,9 @@ package io.github.sosuisen.model.template;
 import io.github.sosuisen.model.data.ClassMetadata;
 
 /**
- * Data model for with method for XYChart JTE template
+ * Data model for methods for XYChart JTE template
  */
 public record XYChartMethodModel(
-    String packageName,
     String canonicalClassName,
     String simpleClassName,
     String builderClassName,
@@ -31,7 +30,6 @@ public record XYChartMethodModel(
             }
 
             return new XYChartMethodModel(
-                classMetadata.getPackageName(),
                 classMetadata.getCanonicalClassName(),
                 classMetadata.getSimpleClassName(),
                 classMetadata.getBuilderClassName(),
