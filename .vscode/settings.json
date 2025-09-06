@@ -24,6 +24,8 @@
         "**/generated-api/**": true,
     },
     "maven.excludedFolders": [
+        "**/config-sources/**",
+        "**/generated-api/**",
         "**/src",
         "**/target",
     ],
