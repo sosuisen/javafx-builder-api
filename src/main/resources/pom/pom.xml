@@ -100,6 +100,7 @@
             <!-- skip strict check java doc-->
             <additionalOption>-Xdoclint:none</additionalOption>
           </additionalOptions>
+          <notimestamp>true</notimestamp>
         </configuration>
         <executions>
           <execution>
