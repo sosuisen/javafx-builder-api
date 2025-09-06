@@ -7,15 +7,14 @@ import java.lang.reflect.Parameter;
 import java.util.Comparator;
 
 /**
- * Utility class providing consistent method and constructor comparison for
- * sorting.
- * This ensures deterministic output order in generated code.
+ * Utility class providing consistent method and constructor comparison for sorting. This ensures
+ * deterministic output order in generated code.
  */
 public class MethodComparator {
 
     /**
-     * Creates a comparator for methods based on their string representation.
-     * The comparison includes method name and parameter types.
+     * Creates a comparator for methods based on their string representation. The comparison
+     * includes method name and parameter types.
      * 
      * @return Comparator for Method objects
      */
@@ -24,8 +23,8 @@ public class MethodComparator {
     }
 
     /**
-     * Creates a comparator for constructors based on their string representation.
-     * The comparison includes constructor name and parameter types.
+     * Creates a comparator for constructors based on their string representation. The comparison
+     * includes constructor name and parameter types.
      * 
      * @return Comparator for Constructor objects
      */
@@ -34,9 +33,8 @@ public class MethodComparator {
     }
 
     /**
-     * Creates a string representation of the executable (method or constructor)
-     * signature.
-     * Format: name(paramType1, paramType2, ...)
+     * Creates a string representation of the executable (method or constructor) signature. Format:
+     * name(paramType1, paramType2, ...)
      * 
      * @param executable Method or Constructor to get signature from
      * @return String representation of the signature

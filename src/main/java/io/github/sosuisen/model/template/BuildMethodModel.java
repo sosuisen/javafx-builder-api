@@ -6,14 +6,14 @@ import io.github.sosuisen.model.data.ClassMetadata;
  * Data model for build method JTE template
  */
 public record BuildMethodModel(
-        String canonicalClassName,
-        String simpleClassName,
-        String returnType,
-        boolean hasDefaultConstructor,
-        boolean hasGenerics,
-        boolean suppressWarnings,
-        boolean isPaneSubclass,
-        String styleClass) {
+    String canonicalClassName,
+    String simpleClassName,
+    String returnType,
+    boolean hasDefaultConstructor,
+    boolean hasGenerics,
+    boolean suppressWarnings,
+    boolean isPaneSubclass,
+    String styleClass) {
 
     public static Builder builder() {
         return new Builder();
@@ -36,17 +36,19 @@ public record BuildMethodModel(
             boolean hasGenerics = !classMetadata.getTypeParametersWithExtends().isEmpty();
             boolean suppressWarnings = hasGenerics;
             boolean isPaneSubclass = isPaneSubclass(classMetadata.getTargetClass());
-            String styleClass = isPaneSubclass ? toKebabCase(classMetadata.getCanonicalClassName()) : null;
+            String styleClass =
+                isPaneSubclass ? toKebabCase(classMetadata.getCanonicalClassName()) : null;
 
             return new BuildMethodModel(
-                    classMetadata.getCanonicalClassName(),
-                    classMetadata.getSimpleClassName(),
-                    classMetadata.classNameWithTypeParameter(),
-                    hasDefaultConstructor,
-                    hasGenerics,
-                    suppressWarnings,
-                    isPaneSubclass,
-                    styleClass);
+                classMetadata.getCanonicalClassName(),
+                classMetadata.getSimpleClassName(),
+                classMetadata.classNameWithTypeParameter(),
+                hasDefaultConstructor,
+                hasGenerics,
+                suppressWarnings,
+                isPaneSubclass,
+                styleClass
+            );
         }
     }
 

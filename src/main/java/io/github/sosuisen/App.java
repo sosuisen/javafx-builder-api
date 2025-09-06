@@ -22,7 +22,8 @@ public class App extends Application {
     private static final String OUTPUT_ROOT = "generated-api";
     private static final String OUTPUT_PATH = "src/main/java/io/github/sosuisen/jfxbuilder";
 
-    private static final String ERRORCHECK_OUTPUT_PATH = "src/main/java/io/github/sosuisen/jfxbuilder";
+    private static final String ERRORCHECK_OUTPUT_PATH =
+        "src/main/java/io/github/sosuisen/jfxbuilder";
 
     private List<StaticSetterInfo> staticSetters;
 
@@ -72,9 +73,9 @@ public class App extends Application {
                 boolean isInnerClass = innerClassPattern.matcher(className).matches();
 
                 if (Modifier.isPublic(clazz.getModifiers())
-                        && !Modifier.isAbstract(clazz.getModifiers())
-                        && (!Modifier.isStatic(clazz.getModifiers())
-                                || (Modifier.isStatic(clazz.getModifiers()) && isInnerClass))) {
+                    && !Modifier.isAbstract(clazz.getModifiers())
+                    && (!Modifier.isStatic(clazz.getModifiers())
+                        || (Modifier.isStatic(clazz.getModifiers()) && isInnerClass))) {
 
                     // Extract second token from module name (e.g. controls from javafx.controls)
                     String moduleToken = getModuleToken(clazz);
@@ -83,21 +84,25 @@ public class App extends Application {
                     String dynamicPackageName = PACKAGE_NAME + "." + moduleToken;
                     String[] dynamicOutputDirs = new String[2];
 
-                    dynamicOutputDirs[0] = OUTPUT_ROOT + "/" + BuildInfo.getJavaFXVersion().substring(0, 2) + "/"
+                    dynamicOutputDirs[0] =
+                        OUTPUT_ROOT + "/" + BuildInfo.getJavaFXVersion().substring(0, 2) + "/"
                             + moduleToken
                             + "/" + OUTPUT_PATH + "/" + moduleToken;
 
                     dynamicOutputDirs[1] = ERRORCHECK_OUTPUT_PATH + "/" + moduleToken;
 
-                    BuilderClassGenerator generator = new BuilderClassGenerator(dynamicPackageName, dynamicOutputDirs,
-                            clazz, staticSetters);
+                    BuilderClassGenerator generator = new BuilderClassGenerator(
+                        dynamicPackageName, dynamicOutputDirs,
+                        clazz, staticSetters
+                    );
                     generator.generate();
                 }
             } catch (ClassNotFoundException e) {
                 System.out.println("Class not found: " + className);
             } catch (Exception e) {
                 e.printStackTrace();
-                System.out.println("Error generating builder for " + className + ": " + e.getMessage());
+                System.out
+                    .println("Error generating builder for " + className + ": " + e.getMessage());
             }
         }
     }

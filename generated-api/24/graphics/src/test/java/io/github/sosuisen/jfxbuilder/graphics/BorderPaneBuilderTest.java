@@ -51,7 +51,8 @@ class BorderPaneBuilderTest {
         Label bottomNode = new Label("Bottom");
         Label leftNode = new Label("Left");
 
-        BorderPaneBuilder builder = BorderPaneBuilder.create(centerNode, topNode, rightNode, bottomNode, leftNode);
+        BorderPaneBuilder builder =
+            BorderPaneBuilder.create(centerNode, topNode, rightNode, bottomNode, leftNode);
         assertNotNull(builder);
 
         BorderPane borderPane = builder.build();
@@ -68,8 +69,8 @@ class BorderPaneBuilderTest {
     void shouldSetCenterUsingInstanceMethod() {
         Button centerNode = new Button("Center");
         BorderPane borderPane = BorderPaneBuilder.create()
-                .center(centerNode)
-                .build();
+            .center(centerNode)
+            .build();
 
         assertEquals(centerNode, borderPane.getCenter());
     }
@@ -79,8 +80,8 @@ class BorderPaneBuilderTest {
     void shouldSetTopUsingInstanceMethod() {
         Label topNode = new Label("Top");
         BorderPane borderPane = BorderPaneBuilder.create()
-                .top(topNode)
-                .build();
+            .top(topNode)
+            .build();
 
         assertEquals(topNode, borderPane.getTop());
     }
@@ -90,8 +91,8 @@ class BorderPaneBuilderTest {
     void shouldSetLeftUsingInstanceMethod() {
         Label leftNode = new Label("Left");
         BorderPane borderPane = BorderPaneBuilder.create()
-                .left(leftNode)
-                .build();
+            .left(leftNode)
+            .build();
 
         assertEquals(leftNode, borderPane.getLeft());
     }
@@ -101,8 +102,8 @@ class BorderPaneBuilderTest {
     void shouldSetBottomUsingInstanceMethod() {
         Label bottomNode = new Label("Bottom");
         BorderPane borderPane = BorderPaneBuilder.create()
-                .bottom(bottomNode)
-                .build();
+            .bottom(bottomNode)
+            .build();
 
         assertEquals(bottomNode, borderPane.getBottom());
     }
@@ -112,8 +113,8 @@ class BorderPaneBuilderTest {
     void shouldSetRightUsingInstanceMethod() {
         Label rightNode = new Label("Right");
         BorderPane borderPane = BorderPaneBuilder.create()
-                .right(rightNode)
-                .build();
+            .right(rightNode)
+            .build();
 
         assertEquals(rightNode, borderPane.getRight());
     }
@@ -123,7 +124,7 @@ class BorderPaneBuilderTest {
     void shouldSetCenterUsingStaticMethod() {
         Button centerNode = new Button("Static Center");
         BorderPane borderPane = BorderPaneBuilder.withCenter(centerNode)
-                .build();
+            .build();
 
         assertEquals(centerNode, borderPane.getCenter());
     }
@@ -133,7 +134,7 @@ class BorderPaneBuilderTest {
     void shouldSetTopUsingStaticMethod() {
         Label topNode = new Label("Static Top");
         BorderPane borderPane = BorderPaneBuilder.withTop(topNode)
-                .build();
+            .build();
 
         assertEquals(topNode, borderPane.getTop());
     }
@@ -143,7 +144,7 @@ class BorderPaneBuilderTest {
     void shouldSetLeftUsingStaticMethod() {
         Label leftNode = new Label("Static Left");
         BorderPane borderPane = BorderPaneBuilder.withLeft(leftNode)
-                .build();
+            .build();
 
         assertEquals(leftNode, borderPane.getLeft());
     }
@@ -153,7 +154,7 @@ class BorderPaneBuilderTest {
     void shouldSetBottomUsingStaticMethod() {
         Label bottomNode = new Label("Static Bottom");
         BorderPane borderPane = BorderPaneBuilder.withBottom(bottomNode)
-                .build();
+            .build();
 
         assertEquals(bottomNode, borderPane.getBottom());
     }
@@ -163,7 +164,7 @@ class BorderPaneBuilderTest {
     void shouldSetRightUsingStaticMethod() {
         Label rightNode = new Label("Static Right");
         BorderPane borderPane = BorderPaneBuilder.withRight(rightNode)
-                .build();
+            .build();
 
         assertEquals(rightNode, borderPane.getRight());
     }
@@ -176,9 +177,9 @@ class BorderPaneBuilderTest {
         Label leftNode = new Label("Instance Left");
 
         BorderPane borderPane = BorderPaneBuilder.withCenter(centerNode)
-                .top(topNode)
-                .left(leftNode)
-                .build();
+            .top(topNode)
+            .left(leftNode)
+            .build();
 
         assertEquals(centerNode, borderPane.getCenter());
         assertEquals(topNode, borderPane.getTop());
@@ -192,8 +193,8 @@ class BorderPaneBuilderTest {
     void shouldSetPadding() {
         Insets expectedPadding = new Insets(10, 15, 10, 15);
         BorderPane borderPane = BorderPaneBuilder.create()
-                .padding(expectedPadding)
-                .build();
+            .padding(expectedPadding)
+            .build();
 
         assertEquals(expectedPadding, borderPane.getPadding());
     }
@@ -205,9 +206,9 @@ class BorderPaneBuilderTest {
         double expectedHeight = 200.0;
 
         BorderPane borderPane = BorderPaneBuilder.create()
-                .prefWidth(expectedWidth)
-                .prefHeight(expectedHeight)
-                .build();
+            .prefWidth(expectedWidth)
+            .prefHeight(expectedHeight)
+            .build();
 
         assertEquals(expectedWidth, borderPane.getPrefWidth(), 0.001);
         assertEquals(expectedHeight, borderPane.getPrefHeight(), 0.001);
@@ -218,8 +219,8 @@ class BorderPaneBuilderTest {
     void shouldSetId() {
         String expectedId = "test-borderpane";
         BorderPane borderPane = BorderPaneBuilder.create()
-                .id(expectedId)
-                .build();
+            .id(expectedId)
+            .build();
 
         assertEquals(expectedId, borderPane.getId());
     }
@@ -229,8 +230,8 @@ class BorderPaneBuilderTest {
     void shouldSetStyle() {
         String expectedStyle = "-fx-background-color: lightblue;";
         BorderPane borderPane = BorderPaneBuilder.create()
-                .style(expectedStyle)
-                .build();
+            .style(expectedStyle)
+            .build();
 
         assertEquals(expectedStyle, borderPane.getStyle());
     }
@@ -240,8 +241,8 @@ class BorderPaneBuilderTest {
     void shouldSetOpacity() {
         double expectedOpacity = 0.8;
         BorderPane borderPane = BorderPaneBuilder.create()
-                .opacity(expectedOpacity)
-                .build();
+            .opacity(expectedOpacity)
+            .build();
 
         assertEquals(expectedOpacity, borderPane.getOpacity(), 0.001);
     }
@@ -250,8 +251,8 @@ class BorderPaneBuilderTest {
     @DisplayName("Should set visible property")
     void shouldSetVisibleProperty() {
         BorderPane borderPane = BorderPaneBuilder.create()
-                .visible(false)
-                .build();
+            .visible(false)
+            .build();
 
         assertFalse(borderPane.isVisible());
     }
@@ -260,8 +261,8 @@ class BorderPaneBuilderTest {
     @DisplayName("Should set managed property")
     void shouldSetManagedProperty() {
         BorderPane borderPane = BorderPaneBuilder.create()
-                .managed(false)
-                .build();
+            .managed(false)
+            .build();
 
         assertFalse(borderPane.isManaged());
     }
@@ -275,12 +276,12 @@ class BorderPaneBuilderTest {
         double expectedWidth = 400.0;
 
         BorderPane borderPane = BorderPaneBuilder.create()
-                .center(centerNode)
-                .top(topNode)
-                .id(expectedId)
-                .prefWidth(expectedWidth)
-                .visible(true)
-                .build();
+            .center(centerNode)
+            .top(topNode)
+            .id(expectedId)
+            .prefWidth(expectedWidth)
+            .visible(true)
+            .build();
 
         assertEquals(centerNode, borderPane.getCenter());
         assertEquals(topNode, borderPane.getTop());
@@ -295,8 +296,8 @@ class BorderPaneBuilderTest {
         Insets customPadding = new Insets(20);
 
         BorderPane borderPane = BorderPaneBuilder.create()
-                .apply(bp -> bp.setPadding(customPadding))
-                .build();
+            .apply(bp -> bp.setPadding(customPadding))
+            .build();
 
         assertEquals(customPadding, borderPane.getPadding());
     }
@@ -305,7 +306,7 @@ class BorderPaneBuilderTest {
     @DisplayName("Should create different instances on multiple build calls")
     void shouldCreateDifferentInstancesOnMultipleBuildCalls() {
         BorderPaneBuilder builder = BorderPaneBuilder.create()
-                .center(new Button("Test"));
+            .center(new Button("Test"));
         BorderPane firstBuild = builder.build();
         BorderPane secondBuild = builder.build();
 
@@ -320,8 +321,8 @@ class BorderPaneBuilderTest {
     @DisplayName("Should allow independent modification of multiple instances from same builder")
     void shouldAllowIndependentModificationOfMultipleInstances() {
         BorderPaneBuilder builder = BorderPaneBuilder.create()
-                .prefWidth(250.0)
-                .prefHeight(150.0);
+            .prefWidth(250.0)
+            .prefHeight(150.0);
 
         BorderPane instance1 = builder.build();
         BorderPane instance2 = builder.build();
@@ -359,11 +360,11 @@ class BorderPaneBuilderTest {
     void shouldHandleNullParametersGracefully() {
         assertDoesNotThrow(() -> {
             BorderPane borderPane = BorderPaneBuilder.create()
-                    .center(null)
-                    .top(null)
-                    .id(null)
-                    .style(null)
-                    .build();
+                .center(null)
+                .top(null)
+                .id(null)
+                .style(null)
+                .build();
             assertNotNull(borderPane);
         });
     }
@@ -378,12 +379,12 @@ class BorderPaneBuilderTest {
         Label leftNode = new Label("Left");
 
         BorderPane borderPane = BorderPaneBuilder.create()
-                .center(centerNode)
-                .top(topNode)
-                .right(rightNode)
-                .bottom(bottomNode)
-                .left(leftNode)
-                .build();
+            .center(centerNode)
+            .top(topNode)
+            .right(rightNode)
+            .bottom(bottomNode)
+            .left(leftNode)
+            .build();
 
         assertEquals(centerNode, borderPane.getCenter());
         assertEquals(topNode, borderPane.getTop());

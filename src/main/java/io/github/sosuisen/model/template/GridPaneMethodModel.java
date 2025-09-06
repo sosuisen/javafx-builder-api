@@ -6,7 +6,7 @@ import io.github.sosuisen.model.data.ClassMetadata;
  * Data model for children method JTE template
  */
 public record GridPaneMethodModel(
-        String builderClassNameWithTypeParameter) {
+    String builderClassNameWithTypeParameter) {
 
     public static Builder builder() {
         return new Builder();
@@ -26,7 +26,8 @@ public record GridPaneMethodModel(
             }
 
             return new GridPaneMethodModel(
-                    classMetadata.builderClassNameWithTypeParameter());
+                classMetadata.builderClassNameWithTypeParameter()
+            );
         }
     }
 }

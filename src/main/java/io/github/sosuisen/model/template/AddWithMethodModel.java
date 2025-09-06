@@ -12,14 +12,14 @@ import io.github.sosuisen.model.mapper.TypeMappingManager;
  * Data model for add/with method JTE template
  */
 public record AddWithMethodModel(
-        String builderClassNameWithTypeParameter,
-        String observableListTypeParameter,
-        String typeParametersWithExtends,
-        String addMethodName,
-        String withMethodName,
-        String getterMethodName,
-        String originalClassName,
-        boolean hasWithMethod) {
+    String builderClassNameWithTypeParameter,
+    String observableListTypeParameter,
+    String typeParametersWithExtends,
+    String addMethodName,
+    String withMethodName,
+    String getterMethodName,
+    String originalClassName,
+    boolean hasWithMethod) {
 
     public static Builder builder() {
         return new Builder();
@@ -51,9 +51,10 @@ public record AddWithMethodModel(
             // Calculate with method name based on ignore list and constructor availability
             String withMethodName = null;
             List<String> ignoreList = List.of(
-                    "getStylesheets",
-                    "getTransforms",
-                    "getStyleClass");
+                "getStylesheets",
+                "getTransforms",
+                "getStyleClass"
+            );
             if (!ignoreList.contains(getterMethodName) && classMetadata.hasDefaultConstructor()) {
                 withMethodName = "with" + propertyName;
             }
@@ -69,29 +70,35 @@ public record AddWithMethodModel(
                     if (matcher.find()) {
                         observableListTypeParameter = matcher.group(1).replace("$", ".");
                         observableListTypeParameter = TypeMappingManager.getReplacement(
-                                classMetadata.getCanonicalClassName(),
-                                observableListTypeParameter);
+                            classMetadata.getCanonicalClassName(),
+                            observableListTypeParameter
+                        );
                     }
                 }
             } catch (NoSuchMethodException e) {
                 throw new IllegalArgumentException(
-                        "Method " + getterMethodName + " not found in class " + classMetadata.getCanonicalClassName(),
-                        e);
+                    "Method " + getterMethodName + " not found in class "
+                        + classMetadata.getCanonicalClassName(),
+                    e
+                );
             }
 
             if (observableListTypeParameter == null) {
-                throw new IllegalArgumentException("Method " + getterMethodName + " does not return an ObservableList");
+                throw new IllegalArgumentException(
+                    "Method " + getterMethodName + " does not return an ObservableList"
+                );
             }
 
             return new AddWithMethodModel(
-                    classMetadata.builderClassNameWithTypeParameter(),
-                    observableListTypeParameter,
-                    classMetadata.getTypeParametersWithExtends(),
-                    addMethodName,
-                    withMethodName,
-                    getterMethodName,
-                    classMetadata.getCanonicalClassName(),
-                    withMethodName != null);
+                classMetadata.builderClassNameWithTypeParameter(),
+                observableListTypeParameter,
+                classMetadata.getTypeParametersWithExtends(),
+                addMethodName,
+                withMethodName,
+                getterMethodName,
+                classMetadata.getCanonicalClassName(),
+                withMethodName != null
+            );
         }
     }
 }

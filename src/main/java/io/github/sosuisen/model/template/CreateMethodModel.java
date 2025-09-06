@@ -10,16 +10,16 @@ import io.github.sosuisen.model.data.ClassMetadata;
  * Data model for constructor method JTE template
  */
 public record CreateMethodModel(
-        String canonicalClassName,
-        String simpleClassName,
-        String typeParametersWithExtends,
-        String builderClassNameWithTypeParameter,
-        String builderClassName,
-        boolean isDefaultConstructor,
-        String parameterList,
-        String parameterListSimpleTypesOnly,
-        String argumentList,
-        boolean isVarArgs) {
+    String canonicalClassName,
+    String simpleClassName,
+    String typeParametersWithExtends,
+    String builderClassNameWithTypeParameter,
+    String builderClassName,
+    boolean isDefaultConstructor,
+    String parameterList,
+    String parameterListSimpleTypesOnly,
+    String argumentList,
+    boolean isVarArgs) {
 
     public static Builder builder() {
         return new Builder();
@@ -53,24 +53,28 @@ public record CreateMethodModel(
             boolean isVarArgs = constructor.isVarArgs();
 
             if (!isDefaultConstructor) {
-                parameterList = ParameterStringBuilder.buildParameterListWithTypes(parameters,
-                        classMetadata.getCanonicalClassName(),
-                        isVarArgs);
-                parameterListSimpleTypesOnly = ParameterStringBuilder.buildParameterListSimpleTypesOnly(parameters);
+                parameterList = ParameterStringBuilder.buildParameterListWithTypes(
+                    parameters,
+                    classMetadata.getCanonicalClassName(),
+                    isVarArgs
+                );
+                parameterListSimpleTypesOnly =
+                    ParameterStringBuilder.buildParameterListSimpleTypesOnly(parameters);
                 argumentList = ParameterStringBuilder.buildParameterListNamesOnly(parameters);
             }
 
             return new CreateMethodModel(
-                    classMetadata.getCanonicalClassName(),
-                    classMetadata.getSimpleClassName(),
-                    classMetadata.getTypeParametersWithExtends(),
-                    classMetadata.builderClassNameWithTypeParameter(),
-                    classMetadata.getBuilderClassName(),
-                    isDefaultConstructor,
-                    parameterList,
-                    parameterListSimpleTypesOnly,
-                    argumentList,
-                    isVarArgs);
+                classMetadata.getCanonicalClassName(),
+                classMetadata.getSimpleClassName(),
+                classMetadata.getTypeParametersWithExtends(),
+                classMetadata.builderClassNameWithTypeParameter(),
+                classMetadata.getBuilderClassName(),
+                isDefaultConstructor,
+                parameterList,
+                parameterListSimpleTypesOnly,
+                argumentList,
+                isVarArgs
+            );
         }
 
     }

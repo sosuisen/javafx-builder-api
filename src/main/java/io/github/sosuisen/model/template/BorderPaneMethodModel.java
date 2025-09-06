@@ -6,8 +6,8 @@ import io.github.sosuisen.model.data.ClassMetadata;
  * Data model for BorderPane method JTE template
  */
 public record BorderPaneMethodModel(
-        String builderClassName,
-        boolean isBorderPane) {
+    String builderClassName,
+    boolean isBorderPane) {
 
     public static Builder builder() {
         return new Builder();
@@ -26,11 +26,13 @@ public record BorderPaneMethodModel(
                 throw new IllegalStateException("classMetadata is required");
             }
 
-            boolean isBorderPane = "BorderPane".equals(classMetadata.getTargetClass().getSimpleName());
+            boolean isBorderPane =
+                "BorderPane".equals(classMetadata.getTargetClass().getSimpleName());
 
             return new BorderPaneMethodModel(
-                    classMetadata.getBuilderClassName(),
-                    isBorderPane);
+                classMetadata.getBuilderClassName(),
+                isBorderPane
+            );
         }
     }
 }
