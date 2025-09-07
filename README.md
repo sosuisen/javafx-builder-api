@@ -84,12 +84,12 @@ To generate it yourself, please refer to the instructions in [Generate builder c
 
 **JavaDoc pages**:
 
-https://sosuisen.github.io/javafx-builder-api-generator/
+https://sosuisen.github.io/javafx-builder-api/
 
 **Generated Source Code**: 
 
 The generated JavaFX Builder API source code is available at:
-https://github.com/sosuisen/javafx-builder-api-generator/tree/main/api/
+https://github.com/sosuisen/javafx-builder-api/tree/main/api/
 
 Most of the code comprises simple wrapper classes generated through mechanical transformation rules outlined in [./docs/API.md](./docs/API.md).
 
