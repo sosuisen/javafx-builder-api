@@ -8,7 +8,7 @@
   <description>JavaFX Builder API</description>
   <modules>
     <module>generator</module>
-    <module>api-24</module>
+    <module>api</module>
   </modules>
 
   <profiles>
@@ -18,10 +18,7 @@
         <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
-        <javafx.version>24.0.0</javafx.version>
-        <javafx.major.version>24</javafx.major.version>
-        <builder.component>controls</builder.component>
-        <builder.dependencies/>
+        <javafx.version>24.0.0</javafx.version>        
       </properties>
     </profile>
     <profile>
