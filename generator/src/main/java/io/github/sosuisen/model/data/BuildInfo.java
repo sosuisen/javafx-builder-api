@@ -19,6 +19,16 @@ public class BuildInfo {
         return BUILD_PROPS.getProperty("javafx.version");
     }
 
+    public static String getJavaFXMajorVersion() {
+        var version = BUILD_PROPS.getProperty("javafx.version");
+        var verArr = version.split("\\.");
+        if (verArr.length > 0) {
+            return verArr[0];
+        } else {
+            return "0";
+        }
+    }
+
     public static String getJavaFXPlatform() {
         return BUILD_PROPS.getProperty("javafx.platform");
     }

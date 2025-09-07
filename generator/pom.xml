@@ -14,7 +14,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <javafx.plugin.version>0.0.8</javafx.plugin.version>
-    <maven.compiler.release>17</maven.compiler.release>    
+    <maven.compiler.release>17</maven.compiler.release>
     <main.class>io.github.sosuisen.Launcher</main.class>
     <javafx.platform>win</javafx.platform>
     <outputDir.api>../api/${javafx.major.version}/${builder.component}</outputDir.api>
@@ -25,31 +25,36 @@
       <groupId>com.example.jfx</groupId>
       <artifactId>javafx-base</artifactId>
       <version>${javafx.version}</version>
-      <classifier>${javafx.platform}</classifier>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/sdk/${javafx.major.version}/javafx.base.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.example.jfx</groupId>
       <artifactId>javafx-graphics</artifactId>
       <version>${javafx.version}</version>
-      <classifier>${javafx.platform}</classifier>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/sdk/${javafx.major.version}/javafx.controls-${javafx.platform}.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.example.jfx</groupId>
       <artifactId>javafx-controls</artifactId>
       <version>${javafx.version}</version>
-      <classifier>${javafx.platform}</classifier>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/sdk/${javafx.major.version}/javafx.graphics-${javafx.platform}.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.example.jfx</groupId>
       <artifactId>javafx-media</artifactId>
       <version>${javafx.version}</version>
-      <classifier>${javafx.platform}</classifier>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/sdk/${javafx.major.version}/javafx.media-${javafx.platform}.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.example.jfx</groupId>
       <artifactId>javafx-web</artifactId>
       <version>${javafx.version}</version>
-      <classifier>${javafx.platform}</classifier>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/sdk/${javafx.major.version}/javafx.web-${javafx.platform}.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>gg.jte</groupId>

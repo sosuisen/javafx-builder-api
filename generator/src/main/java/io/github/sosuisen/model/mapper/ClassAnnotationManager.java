@@ -17,7 +17,7 @@ public class ClassAnnotationManager {
 
     private static void loadClassAnnotations() {
         try (InputStream is = ClassAnnotationManager.class
-                .getResourceAsStream("/mapper/" + BuildInfo.getJavaFXVersion() + "/class-annotation.properties")) {
+                .getResourceAsStream("/mapper/" + BuildInfo.getJavaFXMajorVersion() + "/class-annotation.properties")) {
             if (is != null) {
                 Properties props = new Properties();
                 props.load(is);
