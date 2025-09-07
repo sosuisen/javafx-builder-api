@@ -1,1 +1,1 @@
-moduleSearchIndex = [];updateSearchResults();
+moduleSearchIndex = [{"l":"io.github.sosuisen.api.jfxbuilder.graphics"}];updateSearchResults();
