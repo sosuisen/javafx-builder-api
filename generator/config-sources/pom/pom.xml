@@ -31,7 +31,7 @@
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-${builder.component}</artifactId>
-      <version>${javafx.major.version}</version>
+      <version>[${javafx.major.version}.0,${javafx.major.version}.1)</version>
     </dependency>
     ${builder.dependencies}
     <dependency>
