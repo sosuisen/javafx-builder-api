@@ -17,7 +17,6 @@
       <activation>
         <activeByDefault>true</activeByDefault>
       </activation>
-      <dependencies/>
       <properties>
         <javafx.version>24.0.0</javafx.version>
         <javafx.major.version>24</javafx.major.version>
