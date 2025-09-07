@@ -261,6 +261,16 @@ module com.example.app {
 }
 ```
 
+## Formatter
+
+For comfortable use of the JavaFX Builder API, maintain matching indentation of opening and closing parentheses.
+
+I have prepared an Eclipse code formatter profile (XML) for the JavaFX Builder API.
+
+You can import it into your IDE or place it in your project folder.
+
+Download it here: [Customized GoogleStyle for JavaFX builder](./styles_for_jfxbuilder.xml)
+
 ## Sample Project Using Builder API
 
 The BMI (Body Mass Index) calculator demonstrates modern JavaFX development utilizing MVVM architecture, fluent UI construction, and internationalization support.
