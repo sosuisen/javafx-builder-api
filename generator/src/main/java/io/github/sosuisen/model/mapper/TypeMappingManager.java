@@ -19,9 +19,8 @@ public class TypeMappingManager {
 
     private static void loadTypeMappings() {
         try (InputStream is = TypeMappingManager.class
-            .getResourceAsStream(
-                "/mapper/" + BuildInfo.getJavaFXVersion() + "/type-mapping.properties"
-            )) {
+                .getResourceAsStream(
+                        "/mapper/" + BuildInfo.getJavaFXMajorVersion() + "/type-mapping.properties")) {
             if (is != null) {
                 Properties props = new Properties();
                 props.load(is);
@@ -122,10 +121,12 @@ public class TypeMappingManager {
     }
 
     /**
-     * Parses a Java type string and processes each token through the provided processor function.
+     * Parses a Java type string and processes each token through the provided
+     * processor function.
      * 
      * @param typeString The Java type string to parse (e.g., "Map<String, Number>")
-     * @param processor Function to process each token (e.g., "Map", "String", "Number")
+     * @param processor  Function to process each token (e.g., "Map", "String",
+     *                   "Number")
      * @return Processed type string in which tokens are replaced by the processor.
      */
     public static String parseAndProcess(String typeString, Function<String, String> processor) {

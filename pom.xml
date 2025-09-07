@@ -18,7 +18,8 @@
         <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
-        <javafx.version>24.0.0</javafx.version>        
+        <javafx.version>24.0.0</javafx.version>
+        <javafx.major.version>24</javafx.major.version>
       </properties>
     </profile>
     <profile>

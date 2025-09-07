@@ -16,7 +16,7 @@ public class JarExtractor {
 
     private static Path resolveJarPath(String inputJar) {
         String jarFileName = String.format("%s-%s.jar", inputJar, BuildInfo.getJavaFXPlatform());
-        Path jarPath = Paths.get("sdk", BuildInfo.getJavaFXVersion(), jarFileName);
+        Path jarPath = Paths.get("sdk", BuildInfo.getJavaFXMajorVersion(), jarFileName);
         System.out.println("Reading JAR file: " + jarPath);
         return jarPath;
     }
@@ -28,18 +28,17 @@ public class JarExtractor {
 
         try (JarFile jarFile = new JarFile(jarPath.toString())) {
             jarFile.stream()
-                .map(JarEntry::getName)
-                .filter(name -> name.endsWith(".class"))
-                // Remove .class extension
-                .map(name -> name.replace('/', '.').substring(0, name.length() - 6))
-                .filter(
-                    className -> className.startsWith(SCENE_CLASS_STARTS_WITH)
-                        || className.equals(STAGE_CLASS)
-                )
-                // Skip classes ending with $digit (anonymous classes)
-                .filter(className -> !className.matches(".*\\$\\d+$"))
-                .sorted()
-                .forEach(classes::add);
+                    .map(JarEntry::getName)
+                    .filter(name -> name.endsWith(".class"))
+                    // Remove .class extension
+                    .map(name -> name.replace('/', '.').substring(0, name.length() - 6))
+                    .filter(
+                            className -> className.startsWith(SCENE_CLASS_STARTS_WITH)
+                                    || className.equals(STAGE_CLASS))
+                    // Skip classes ending with $digit (anonymous classes)
+                    .filter(className -> !className.matches(".*\\$\\d+$"))
+                    .sorted()
+                    .forEach(classes::add);
         }
         return classes;
     }

@@ -17,7 +17,8 @@ public class MethodAnnotationManager {
 
     private static void loadMethodAnnotations() {
         try (InputStream is = MethodAnnotationManager.class
-                .getResourceAsStream("/mapper/" + BuildInfo.getJavaFXVersion() + "/method-annotation.properties")) {
+                .getResourceAsStream(
+                        "/mapper/" + BuildInfo.getJavaFXMajorVersion() + "/method-annotation.properties")) {
             if (is != null) {
                 Properties props = new Properties();
                 props.load(is);

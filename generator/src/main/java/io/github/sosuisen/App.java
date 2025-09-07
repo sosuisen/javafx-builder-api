@@ -84,7 +84,7 @@ public class App extends Application {
                     String dynamicPackageName = PACKAGE_NAME + "." + moduleToken;
                     String[] dynamicOutputDirs = new String[1];
 
-                    dynamicOutputDirs[0] = OUTPUT_ROOT + BuildInfo.getJavaFXVersion().substring(0, 2) + "/"
+                    dynamicOutputDirs[0] = OUTPUT_ROOT + BuildInfo.getJavaFXMajorVersion() + "/"
                             + moduleToken
                             + "/" + OUTPUT_PATH + "/" + moduleToken;
 
