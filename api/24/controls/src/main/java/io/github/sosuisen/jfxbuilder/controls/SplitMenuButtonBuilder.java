@@ -2355,7 +2355,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2377,7 +2377,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2399,7 +2399,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2421,7 +2421,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2443,7 +2443,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2465,7 +2465,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#armedProperty() armedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2487,7 +2487,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2509,7 +2509,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2531,7 +2531,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2553,7 +2553,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2575,7 +2575,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2597,7 +2597,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2619,7 +2619,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2641,7 +2641,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2663,7 +2663,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2685,7 +2685,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2707,7 +2707,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#contentDisplayProperty() contentDisplayProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2729,7 +2729,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2751,7 +2751,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2773,7 +2773,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2795,7 +2795,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2817,7 +2817,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2839,7 +2839,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2861,7 +2861,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2883,7 +2883,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#ellipsisStringProperty() ellipsisStringProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2905,7 +2905,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2927,7 +2927,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2949,7 +2949,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2971,7 +2971,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2993,7 +2993,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3015,7 +3015,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#fontProperty() fontProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3037,7 +3037,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3059,7 +3059,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#graphicTextGapProperty() graphicTextGapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3081,7 +3081,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3103,7 +3103,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3125,7 +3125,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3147,7 +3147,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3169,7 +3169,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3191,7 +3191,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#labelPaddingProperty() labelPaddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3213,7 +3213,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3235,7 +3235,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3257,7 +3257,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3279,7 +3279,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#lineSpacingProperty() lineSpacingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3301,7 +3301,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3323,7 +3323,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3345,7 +3345,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3367,7 +3367,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3389,7 +3389,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3411,7 +3411,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3433,7 +3433,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3455,7 +3455,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3477,7 +3477,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3499,7 +3499,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3521,7 +3521,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3543,7 +3543,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3565,7 +3565,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3587,7 +3587,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3609,7 +3609,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3631,7 +3631,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3653,7 +3653,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3675,7 +3675,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3697,7 +3697,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3719,7 +3719,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3741,7 +3741,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3763,7 +3763,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3785,7 +3785,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3807,7 +3807,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3829,7 +3829,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3851,7 +3851,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3873,7 +3873,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3895,7 +3895,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3917,7 +3917,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3939,7 +3939,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3961,7 +3961,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3983,7 +3983,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4005,7 +4005,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4027,7 +4027,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4049,7 +4049,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4071,7 +4071,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4093,7 +4093,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4115,7 +4115,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4137,7 +4137,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4159,7 +4159,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4181,7 +4181,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4203,7 +4203,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4225,7 +4225,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4247,7 +4247,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4269,7 +4269,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4291,7 +4291,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4313,7 +4313,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4335,7 +4335,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4357,7 +4357,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4379,7 +4379,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4401,7 +4401,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4423,7 +4423,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4445,7 +4445,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4467,7 +4467,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4489,7 +4489,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4511,7 +4511,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4533,7 +4533,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4555,7 +4555,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4577,7 +4577,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4599,7 +4599,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4621,7 +4621,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#popupSideProperty() popupSideProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4643,7 +4643,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4665,7 +4665,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4687,7 +4687,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4709,7 +4709,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4731,7 +4731,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4753,7 +4753,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4775,7 +4775,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4797,7 +4797,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4819,7 +4819,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4841,7 +4841,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4863,7 +4863,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4885,7 +4885,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#showingProperty() showingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4907,7 +4907,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4929,7 +4929,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4951,7 +4951,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4973,7 +4973,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#textAlignmentProperty() textAlignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4995,7 +4995,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#textFillProperty() textFillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5017,7 +5017,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#textOverrunProperty() textOverrunProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5039,7 +5039,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#textProperty() textProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5061,7 +5061,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#textTruncatedProperty() textTruncatedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5083,7 +5083,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5105,7 +5105,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5127,7 +5127,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5149,7 +5149,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5171,7 +5171,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#underlineProperty() underlineProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5193,7 +5193,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5215,7 +5215,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5237,7 +5237,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5259,7 +5259,7 @@ public class SplitMenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitMenuButton#wrapTextProperty() wrapTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitMenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

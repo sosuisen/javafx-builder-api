@@ -208,7 +208,7 @@ public class BlendBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Blend#bottomInputProperty() bottomInputProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Blend> func) apply} method.
+     * This serves as a shorthand form of the {@link BlendBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -230,7 +230,7 @@ public class BlendBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Blend#modeProperty() modeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Blend> func) apply} method.
+     * This serves as a shorthand form of the {@link BlendBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -252,7 +252,7 @@ public class BlendBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Blend#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Blend> func) apply} method.
+     * This serves as a shorthand form of the {@link BlendBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -274,7 +274,7 @@ public class BlendBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Blend#topInputProperty() topInputProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Blend> func) apply} method.
+     * This serves as a shorthand form of the {@link BlendBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

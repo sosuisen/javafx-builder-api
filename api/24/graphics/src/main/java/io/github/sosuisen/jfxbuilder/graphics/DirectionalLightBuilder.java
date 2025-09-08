@@ -1940,7 +1940,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1962,7 +1962,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1984,7 +1984,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2006,7 +2006,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2028,7 +2028,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2050,7 +2050,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2072,7 +2072,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2094,7 +2094,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2116,7 +2116,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2138,7 +2138,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2160,7 +2160,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#colorProperty() colorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2182,7 +2182,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2204,7 +2204,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2226,7 +2226,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#directionProperty() directionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2248,7 +2248,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2270,7 +2270,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2292,7 +2292,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2314,7 +2314,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2336,7 +2336,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2358,7 +2358,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2380,7 +2380,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2402,7 +2402,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2424,7 +2424,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2446,7 +2446,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2468,7 +2468,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2490,7 +2490,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2512,7 +2512,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2534,7 +2534,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2556,7 +2556,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2578,7 +2578,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#lightOnProperty() lightOnProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2600,7 +2600,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2622,7 +2622,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2644,7 +2644,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2666,7 +2666,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2688,7 +2688,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2710,7 +2710,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2732,7 +2732,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2754,7 +2754,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2776,7 +2776,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2798,7 +2798,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2820,7 +2820,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2842,7 +2842,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2864,7 +2864,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2886,7 +2886,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2908,7 +2908,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2930,7 +2930,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2952,7 +2952,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2974,7 +2974,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2996,7 +2996,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3018,7 +3018,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3040,7 +3040,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3062,7 +3062,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3084,7 +3084,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3106,7 +3106,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3128,7 +3128,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3150,7 +3150,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3172,7 +3172,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3194,7 +3194,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3216,7 +3216,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3238,7 +3238,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3260,7 +3260,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3282,7 +3282,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3304,7 +3304,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3326,7 +3326,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3348,7 +3348,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3370,7 +3370,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3392,7 +3392,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3414,7 +3414,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3436,7 +3436,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3458,7 +3458,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3480,7 +3480,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3502,7 +3502,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3524,7 +3524,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3546,7 +3546,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3568,7 +3568,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3590,7 +3590,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3612,7 +3612,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3634,7 +3634,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3656,7 +3656,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3678,7 +3678,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3700,7 +3700,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3722,7 +3722,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3744,7 +3744,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3766,7 +3766,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3788,7 +3788,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3810,7 +3810,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3832,7 +3832,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3854,7 +3854,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3876,7 +3876,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3898,7 +3898,7 @@ public class DirectionalLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.DirectionalLight#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) apply} method.
+     * This serves as a shorthand form of the {@link DirectionalLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

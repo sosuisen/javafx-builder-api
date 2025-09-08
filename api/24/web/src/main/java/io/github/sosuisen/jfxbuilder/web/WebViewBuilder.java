@@ -1987,7 +1987,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2009,7 +2009,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2031,7 +2031,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2053,7 +2053,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2075,7 +2075,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2097,7 +2097,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2119,7 +2119,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2141,7 +2141,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2163,7 +2163,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2185,7 +2185,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2207,7 +2207,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#contextMenuEnabledProperty() contextMenuEnabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2229,7 +2229,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2251,7 +2251,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2273,7 +2273,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2295,7 +2295,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2317,7 +2317,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2339,7 +2339,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2361,7 +2361,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2383,7 +2383,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2405,7 +2405,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2427,7 +2427,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2449,7 +2449,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2471,7 +2471,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#fontScaleProperty() fontScaleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2493,7 +2493,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#fontSmoothingTypeProperty() fontSmoothingTypeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2515,7 +2515,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2537,7 +2537,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2559,7 +2559,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2581,7 +2581,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2603,7 +2603,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2625,7 +2625,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2647,7 +2647,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2669,7 +2669,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2691,7 +2691,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2713,7 +2713,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2735,7 +2735,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2757,7 +2757,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2779,7 +2779,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2801,7 +2801,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2823,7 +2823,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2845,7 +2845,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2867,7 +2867,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2889,7 +2889,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2911,7 +2911,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2933,7 +2933,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2955,7 +2955,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2977,7 +2977,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2999,7 +2999,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3021,7 +3021,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3043,7 +3043,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3065,7 +3065,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3087,7 +3087,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3109,7 +3109,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3131,7 +3131,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3153,7 +3153,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3175,7 +3175,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3197,7 +3197,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3219,7 +3219,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3241,7 +3241,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3263,7 +3263,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3285,7 +3285,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3307,7 +3307,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3329,7 +3329,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3351,7 +3351,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3373,7 +3373,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3395,7 +3395,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3417,7 +3417,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3439,7 +3439,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3461,7 +3461,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3483,7 +3483,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3505,7 +3505,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3527,7 +3527,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3549,7 +3549,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3571,7 +3571,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3593,7 +3593,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3615,7 +3615,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3637,7 +3637,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3659,7 +3659,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3681,7 +3681,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3703,7 +3703,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3725,7 +3725,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3747,7 +3747,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3769,7 +3769,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#pageFillProperty() pageFillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3791,7 +3791,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3813,7 +3813,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3835,7 +3835,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3857,7 +3857,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3879,7 +3879,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3901,7 +3901,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3923,7 +3923,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3945,7 +3945,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3967,7 +3967,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3989,7 +3989,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4011,7 +4011,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4033,7 +4033,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4055,7 +4055,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4077,7 +4077,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4099,7 +4099,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4121,7 +4121,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4143,7 +4143,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4165,7 +4165,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4187,7 +4187,7 @@ public class WebViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#zoomProperty() zoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
+     * This serves as a shorthand form of the {@link WebViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

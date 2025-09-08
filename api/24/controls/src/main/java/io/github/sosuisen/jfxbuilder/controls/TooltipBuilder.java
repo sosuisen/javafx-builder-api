@@ -640,7 +640,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#activatedProperty() activatedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -662,7 +662,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#anchorLocationProperty() anchorLocationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -684,7 +684,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#anchorXProperty() anchorXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -706,7 +706,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#anchorYProperty() anchorYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -728,7 +728,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#autoFixProperty() autoFixProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -750,7 +750,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#autoHideProperty() autoHideProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -772,7 +772,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#consumeAutoHidingEventsProperty() consumeAutoHidingEventsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -794,7 +794,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#contentDisplayProperty() contentDisplayProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -816,7 +816,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -838,7 +838,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -860,7 +860,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#fontProperty() fontProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -882,7 +882,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#forceIntegerRenderScaleProperty() forceIntegerRenderScaleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -904,7 +904,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -926,7 +926,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#graphicTextGapProperty() graphicTextGapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -948,7 +948,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -970,7 +970,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#hideDelayProperty() hideDelayProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -992,7 +992,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#hideOnEscapeProperty() hideOnEscapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1014,7 +1014,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1036,7 +1036,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1058,7 +1058,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1080,7 +1080,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1102,7 +1102,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1124,7 +1124,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#onAutoHideProperty() onAutoHideProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1146,7 +1146,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#onCloseRequestProperty() onCloseRequestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1168,7 +1168,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1190,7 +1190,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1212,7 +1212,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1234,7 +1234,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1256,7 +1256,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1278,7 +1278,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#outputScaleXProperty() outputScaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1300,7 +1300,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#outputScaleYProperty() outputScaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1322,7 +1322,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#ownerNodeProperty() ownerNodeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1344,7 +1344,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#ownerWindowProperty() ownerWindowProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1366,7 +1366,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1388,7 +1388,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1410,7 +1410,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#renderScaleXProperty() renderScaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1432,7 +1432,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#renderScaleYProperty() renderScaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1454,7 +1454,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1476,7 +1476,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#showDelayProperty() showDelayProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1498,7 +1498,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#showDurationProperty() showDurationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1520,7 +1520,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#showingProperty() showingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1542,7 +1542,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1564,7 +1564,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1586,7 +1586,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#textAlignmentProperty() textAlignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1608,7 +1608,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#textOverrunProperty() textOverrunProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1630,7 +1630,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#textProperty() textProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1652,7 +1652,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1674,7 +1674,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#wrapTextProperty() wrapTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1696,7 +1696,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1718,7 +1718,7 @@ public class TooltipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
+     * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

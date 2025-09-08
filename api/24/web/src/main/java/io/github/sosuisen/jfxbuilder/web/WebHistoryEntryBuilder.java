@@ -129,7 +129,7 @@ public class WebHistoryEntryBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebHistory.Entry#lastVisitedDateProperty() lastVisitedDateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebHistory.Entry> func) apply} method.
+     * This serves as a shorthand form of the {@link WebHistoryEntryBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -151,7 +151,7 @@ public class WebHistoryEntryBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebHistory.Entry#titleProperty() titleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebHistory.Entry> func) apply} method.
+     * This serves as a shorthand form of the {@link WebHistoryEntryBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

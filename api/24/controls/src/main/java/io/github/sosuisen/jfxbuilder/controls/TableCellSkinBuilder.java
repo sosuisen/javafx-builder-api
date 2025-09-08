@@ -169,7 +169,7 @@ public class TableCellSkinBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableCellSkin#cellSizeProperty() cellSizeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableCellSkin<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellSkinBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -191,7 +191,7 @@ public class TableCellSkinBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableCellSkin#tableColumnProperty() tableColumnProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableCellSkin<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellSkinBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

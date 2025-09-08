@@ -185,7 +185,7 @@ public class MoveToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.MoveTo#absoluteProperty() absoluteProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.MoveTo> func) apply} method.
+     * This serves as a shorthand form of the {@link MoveToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -207,7 +207,7 @@ public class MoveToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.MoveTo#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.MoveTo> func) apply} method.
+     * This serves as a shorthand form of the {@link MoveToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -229,7 +229,7 @@ public class MoveToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.MoveTo#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.MoveTo> func) apply} method.
+     * This serves as a shorthand form of the {@link MoveToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

@@ -1825,7 +1825,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1847,7 +1847,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1869,7 +1869,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1891,7 +1891,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1913,7 +1913,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1935,7 +1935,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1957,7 +1957,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1979,7 +1979,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2001,7 +2001,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2023,7 +2023,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2045,7 +2045,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2067,7 +2067,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2089,7 +2089,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2111,7 +2111,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2133,7 +2133,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2155,7 +2155,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2177,7 +2177,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2199,7 +2199,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#farClipProperty() farClipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2221,7 +2221,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2243,7 +2243,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2265,7 +2265,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2287,7 +2287,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2309,7 +2309,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2331,7 +2331,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2353,7 +2353,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2375,7 +2375,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2397,7 +2397,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2419,7 +2419,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2441,7 +2441,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2463,7 +2463,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2485,7 +2485,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2507,7 +2507,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2529,7 +2529,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#nearClipProperty() nearClipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2551,7 +2551,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2573,7 +2573,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2595,7 +2595,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2617,7 +2617,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2639,7 +2639,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2661,7 +2661,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2683,7 +2683,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2705,7 +2705,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2727,7 +2727,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2749,7 +2749,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2771,7 +2771,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2793,7 +2793,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2815,7 +2815,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2837,7 +2837,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2859,7 +2859,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2881,7 +2881,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2903,7 +2903,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2925,7 +2925,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2947,7 +2947,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2969,7 +2969,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2991,7 +2991,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3013,7 +3013,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3035,7 +3035,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3057,7 +3057,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3079,7 +3079,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3101,7 +3101,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3123,7 +3123,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3145,7 +3145,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3167,7 +3167,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3189,7 +3189,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3211,7 +3211,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3233,7 +3233,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3255,7 +3255,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3277,7 +3277,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3299,7 +3299,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3321,7 +3321,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3343,7 +3343,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3365,7 +3365,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3387,7 +3387,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3409,7 +3409,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3431,7 +3431,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3453,7 +3453,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3475,7 +3475,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3497,7 +3497,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3519,7 +3519,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3541,7 +3541,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3563,7 +3563,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3585,7 +3585,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3607,7 +3607,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3629,7 +3629,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3651,7 +3651,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3673,7 +3673,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3695,7 +3695,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3717,7 +3717,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3739,7 +3739,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3761,7 +3761,7 @@ public class ParallelCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ParallelCamera#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ParallelCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link ParallelCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

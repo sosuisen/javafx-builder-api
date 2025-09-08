@@ -2196,7 +2196,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2218,7 +2218,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2240,7 +2240,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2262,7 +2262,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2284,7 +2284,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#armedProperty() armedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2306,7 +2306,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2328,7 +2328,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2350,7 +2350,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2372,7 +2372,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2394,7 +2394,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2416,7 +2416,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2438,7 +2438,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2460,7 +2460,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2482,7 +2482,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2504,7 +2504,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2526,7 +2526,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2548,7 +2548,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2570,7 +2570,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2592,7 +2592,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2614,7 +2614,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2636,7 +2636,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#editableProperty() editableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2658,7 +2658,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2680,7 +2680,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2702,7 +2702,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2724,7 +2724,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2746,7 +2746,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2768,7 +2768,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2790,7 +2790,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2812,7 +2812,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2834,7 +2834,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2856,7 +2856,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2878,7 +2878,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2900,7 +2900,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2922,7 +2922,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2944,7 +2944,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2966,7 +2966,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2988,7 +2988,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3010,7 +3010,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3032,7 +3032,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3054,7 +3054,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3076,7 +3076,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3098,7 +3098,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3120,7 +3120,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3142,7 +3142,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3164,7 +3164,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3186,7 +3186,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3208,7 +3208,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3230,7 +3230,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3252,7 +3252,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3274,7 +3274,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3296,7 +3296,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3318,7 +3318,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3340,7 +3340,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3362,7 +3362,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3384,7 +3384,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3406,7 +3406,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3428,7 +3428,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3450,7 +3450,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3472,7 +3472,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3494,7 +3494,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3516,7 +3516,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3538,7 +3538,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3560,7 +3560,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3582,7 +3582,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3604,7 +3604,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3626,7 +3626,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3648,7 +3648,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3670,7 +3670,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3692,7 +3692,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3714,7 +3714,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3736,7 +3736,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3758,7 +3758,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3780,7 +3780,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3802,7 +3802,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3824,7 +3824,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3846,7 +3846,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3868,7 +3868,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3890,7 +3890,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3912,7 +3912,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3934,7 +3934,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3956,7 +3956,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3978,7 +3978,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4000,7 +4000,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4022,7 +4022,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4044,7 +4044,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4066,7 +4066,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4088,7 +4088,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4110,7 +4110,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4132,7 +4132,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4154,7 +4154,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4176,7 +4176,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4198,7 +4198,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4220,7 +4220,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4242,7 +4242,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4264,7 +4264,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4286,7 +4286,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4308,7 +4308,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4330,7 +4330,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4352,7 +4352,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#promptTextProperty() promptTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4374,7 +4374,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4396,7 +4396,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4418,7 +4418,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4440,7 +4440,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4462,7 +4462,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4484,7 +4484,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4506,7 +4506,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4528,7 +4528,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4550,7 +4550,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#showingProperty() showingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4572,7 +4572,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4594,7 +4594,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4616,7 +4616,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4638,7 +4638,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4660,7 +4660,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4682,7 +4682,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4704,7 +4704,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4726,7 +4726,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#valueProperty() valueProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4748,7 +4748,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4770,7 +4770,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4792,7 +4792,7 @@ public class ColorPickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorPickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

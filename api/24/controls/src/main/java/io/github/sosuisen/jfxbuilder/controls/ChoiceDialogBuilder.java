@@ -396,7 +396,7 @@ public class ChoiceDialogBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#contentTextProperty() contentTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -418,7 +418,7 @@ public class ChoiceDialogBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#dialogPaneProperty() dialogPaneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -440,7 +440,7 @@ public class ChoiceDialogBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -462,7 +462,7 @@ public class ChoiceDialogBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#headerTextProperty() headerTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -484,7 +484,7 @@ public class ChoiceDialogBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -506,7 +506,7 @@ public class ChoiceDialogBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#onCloseRequestProperty() onCloseRequestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -528,7 +528,7 @@ public class ChoiceDialogBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -550,7 +550,7 @@ public class ChoiceDialogBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -572,7 +572,7 @@ public class ChoiceDialogBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -594,7 +594,7 @@ public class ChoiceDialogBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -616,7 +616,7 @@ public class ChoiceDialogBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#resizableProperty() resizableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -638,7 +638,7 @@ public class ChoiceDialogBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#resultConverterProperty() resultConverterProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -660,7 +660,7 @@ public class ChoiceDialogBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#resultProperty() resultProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -682,7 +682,7 @@ public class ChoiceDialogBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#selectedItemProperty() selectedItemProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -704,7 +704,7 @@ public class ChoiceDialogBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#showingProperty() showingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -726,7 +726,7 @@ public class ChoiceDialogBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#titleProperty() titleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -748,7 +748,7 @@ public class ChoiceDialogBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -770,7 +770,7 @@ public class ChoiceDialogBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -792,7 +792,7 @@ public class ChoiceDialogBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

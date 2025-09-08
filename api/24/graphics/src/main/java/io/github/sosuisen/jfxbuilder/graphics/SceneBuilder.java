@@ -775,7 +775,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#cameraProperty() cameraProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -797,7 +797,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -819,7 +819,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -841,7 +841,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -863,7 +863,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#fillProperty() fillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -885,7 +885,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#focusOwnerProperty() focusOwnerProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -907,7 +907,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -929,7 +929,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -951,7 +951,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -973,7 +973,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -995,7 +995,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1017,7 +1017,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1039,7 +1039,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1061,7 +1061,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1083,7 +1083,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1105,7 +1105,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1127,7 +1127,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1149,7 +1149,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1171,7 +1171,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1193,7 +1193,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1215,7 +1215,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1237,7 +1237,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1259,7 +1259,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1281,7 +1281,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1303,7 +1303,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1325,7 +1325,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1347,7 +1347,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1369,7 +1369,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1391,7 +1391,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1413,7 +1413,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1435,7 +1435,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1457,7 +1457,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1479,7 +1479,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1501,7 +1501,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1523,7 +1523,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1545,7 +1545,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1567,7 +1567,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1589,7 +1589,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1611,7 +1611,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1633,7 +1633,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1655,7 +1655,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1677,7 +1677,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1699,7 +1699,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1721,7 +1721,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1743,7 +1743,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1765,7 +1765,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1787,7 +1787,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1809,7 +1809,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#rootProperty() rootProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1831,7 +1831,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#userAgentStylesheetProperty() userAgentStylesheetProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1853,7 +1853,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1875,7 +1875,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#windowProperty() windowProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1897,7 +1897,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1919,7 +1919,7 @@ public class SceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Scene#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Scene> func) apply} method.
+     * This serves as a shorthand form of the {@link SceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

@@ -1881,7 +1881,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1903,7 +1903,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1925,7 +1925,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1947,7 +1947,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1969,7 +1969,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1991,7 +1991,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2013,7 +2013,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2035,7 +2035,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2057,7 +2057,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2079,7 +2079,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2101,7 +2101,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#cullFaceProperty() cullFaceProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2123,7 +2123,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2145,7 +2145,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2167,7 +2167,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2189,7 +2189,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2211,7 +2211,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#drawModeProperty() drawModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2233,7 +2233,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2255,7 +2255,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2277,7 +2277,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2299,7 +2299,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2321,7 +2321,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2343,7 +2343,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2365,7 +2365,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2387,7 +2387,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2409,7 +2409,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2431,7 +2431,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2453,7 +2453,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2475,7 +2475,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2497,7 +2497,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2519,7 +2519,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2541,7 +2541,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2563,7 +2563,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2585,7 +2585,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2607,7 +2607,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#materialProperty() materialProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2629,7 +2629,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2651,7 +2651,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2673,7 +2673,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2695,7 +2695,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2717,7 +2717,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2739,7 +2739,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2761,7 +2761,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2783,7 +2783,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2805,7 +2805,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2827,7 +2827,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2849,7 +2849,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2871,7 +2871,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2893,7 +2893,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2915,7 +2915,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2937,7 +2937,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2959,7 +2959,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2981,7 +2981,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3003,7 +3003,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3025,7 +3025,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3047,7 +3047,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3069,7 +3069,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3091,7 +3091,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3113,7 +3113,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3135,7 +3135,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3157,7 +3157,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3179,7 +3179,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3201,7 +3201,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3223,7 +3223,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3245,7 +3245,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3267,7 +3267,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3289,7 +3289,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3311,7 +3311,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3333,7 +3333,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3355,7 +3355,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3377,7 +3377,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3399,7 +3399,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3421,7 +3421,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3443,7 +3443,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3465,7 +3465,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3487,7 +3487,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3509,7 +3509,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3531,7 +3531,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3553,7 +3553,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3575,7 +3575,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3597,7 +3597,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3619,7 +3619,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#radiusProperty() radiusProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3641,7 +3641,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3663,7 +3663,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3685,7 +3685,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3707,7 +3707,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3729,7 +3729,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3751,7 +3751,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3773,7 +3773,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3795,7 +3795,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3817,7 +3817,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3839,7 +3839,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3861,7 +3861,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3883,7 +3883,7 @@ public class CylinderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) apply} method.
+     * This serves as a shorthand form of the {@link CylinderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

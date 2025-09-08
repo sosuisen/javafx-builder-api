@@ -10,6 +10,7 @@ import io.github.sosuisen.model.mapper.TypeMappingManager;
  * Data model for property method JTE template
  */
 public record PropertyMethodModel(
+    String builderClassName,
     String builderClassNameWithTypeParameter,
     String methodName,
     String propertyName,
@@ -71,6 +72,7 @@ public record PropertyMethodModel(
             );
 
             return new PropertyMethodModel(
+                classMetadata.getBuilderClassName(),
                 classMetadata.builderClassNameWithTypeParameter(),
                 methodName,
                 propertyName,

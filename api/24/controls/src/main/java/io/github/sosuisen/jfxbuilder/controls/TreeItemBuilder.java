@@ -246,7 +246,7 @@ public class TreeItemBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TreeItem#expandedProperty() expandedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeItem<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TreeItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -268,7 +268,7 @@ public class TreeItemBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TreeItem#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeItem<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TreeItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -290,7 +290,7 @@ public class TreeItemBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TreeItem#leafProperty() leafProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeItem<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TreeItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -312,7 +312,7 @@ public class TreeItemBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TreeItem#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeItem<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TreeItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -334,7 +334,7 @@ public class TreeItemBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TreeItem#valueProperty() valueProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeItem<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TreeItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

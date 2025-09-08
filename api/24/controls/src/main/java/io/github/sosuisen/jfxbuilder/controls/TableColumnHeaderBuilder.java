@@ -2027,7 +2027,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2049,7 +2049,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2071,7 +2071,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2093,7 +2093,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2115,7 +2115,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2137,7 +2137,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2159,7 +2159,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2181,7 +2181,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2203,7 +2203,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2225,7 +2225,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2247,7 +2247,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2269,7 +2269,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2291,7 +2291,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2313,7 +2313,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2335,7 +2335,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2357,7 +2357,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2379,7 +2379,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2401,7 +2401,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2423,7 +2423,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2445,7 +2445,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2467,7 +2467,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2489,7 +2489,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2511,7 +2511,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2533,7 +2533,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2555,7 +2555,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2577,7 +2577,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2599,7 +2599,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2621,7 +2621,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2643,7 +2643,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2665,7 +2665,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2687,7 +2687,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2709,7 +2709,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2731,7 +2731,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2753,7 +2753,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2775,7 +2775,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2797,7 +2797,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2819,7 +2819,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2841,7 +2841,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2863,7 +2863,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2885,7 +2885,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2907,7 +2907,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2929,7 +2929,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2951,7 +2951,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2973,7 +2973,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2995,7 +2995,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3017,7 +3017,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3039,7 +3039,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3061,7 +3061,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3083,7 +3083,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3105,7 +3105,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3127,7 +3127,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3149,7 +3149,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3171,7 +3171,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3193,7 +3193,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3215,7 +3215,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3237,7 +3237,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3259,7 +3259,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3281,7 +3281,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3303,7 +3303,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3325,7 +3325,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3347,7 +3347,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3369,7 +3369,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3391,7 +3391,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3413,7 +3413,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3435,7 +3435,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3457,7 +3457,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3479,7 +3479,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3501,7 +3501,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3523,7 +3523,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3545,7 +3545,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3567,7 +3567,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3589,7 +3589,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3611,7 +3611,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3633,7 +3633,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3655,7 +3655,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3677,7 +3677,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3699,7 +3699,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3721,7 +3721,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3743,7 +3743,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3765,7 +3765,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3787,7 +3787,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3809,7 +3809,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3831,7 +3831,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3853,7 +3853,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3875,7 +3875,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3897,7 +3897,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3919,7 +3919,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3941,7 +3941,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3963,7 +3963,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3985,7 +3985,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4007,7 +4007,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4029,7 +4029,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4051,7 +4051,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4073,7 +4073,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4095,7 +4095,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4117,7 +4117,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4139,7 +4139,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4161,7 +4161,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4183,7 +4183,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4205,7 +4205,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4227,7 +4227,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#tableColumnProperty() tableColumnProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4249,7 +4249,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4271,7 +4271,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4293,7 +4293,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4315,7 +4315,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4337,7 +4337,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4359,7 +4359,7 @@ public class TableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

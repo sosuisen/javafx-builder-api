@@ -2098,7 +2098,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2120,7 +2120,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2142,7 +2142,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2164,7 +2164,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2186,7 +2186,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2208,7 +2208,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2230,7 +2230,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2252,7 +2252,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2274,7 +2274,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2296,7 +2296,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2318,7 +2318,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2340,7 +2340,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2362,7 +2362,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2384,7 +2384,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2406,7 +2406,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2428,7 +2428,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2450,7 +2450,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2472,7 +2472,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2494,7 +2494,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2516,7 +2516,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2538,7 +2538,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2560,7 +2560,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2582,7 +2582,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2604,7 +2604,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2626,7 +2626,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2648,7 +2648,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2670,7 +2670,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2692,7 +2692,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2714,7 +2714,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2736,7 +2736,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2758,7 +2758,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2780,7 +2780,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2802,7 +2802,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2824,7 +2824,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2846,7 +2846,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2868,7 +2868,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2890,7 +2890,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2912,7 +2912,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2934,7 +2934,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2956,7 +2956,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2978,7 +2978,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3000,7 +3000,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3022,7 +3022,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3044,7 +3044,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3066,7 +3066,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3088,7 +3088,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3110,7 +3110,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3132,7 +3132,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3154,7 +3154,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3176,7 +3176,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3198,7 +3198,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3220,7 +3220,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3242,7 +3242,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3264,7 +3264,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3286,7 +3286,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3308,7 +3308,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3330,7 +3330,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3352,7 +3352,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3374,7 +3374,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3396,7 +3396,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3418,7 +3418,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3440,7 +3440,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3462,7 +3462,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3484,7 +3484,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3506,7 +3506,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3528,7 +3528,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3550,7 +3550,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3572,7 +3572,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3594,7 +3594,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3616,7 +3616,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3638,7 +3638,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3660,7 +3660,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3682,7 +3682,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3704,7 +3704,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3726,7 +3726,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3748,7 +3748,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3770,7 +3770,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3792,7 +3792,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3814,7 +3814,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3836,7 +3836,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3858,7 +3858,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3880,7 +3880,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3902,7 +3902,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3924,7 +3924,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3946,7 +3946,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3968,7 +3968,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3990,7 +3990,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4012,7 +4012,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4034,7 +4034,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4056,7 +4056,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4078,7 +4078,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4100,7 +4100,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4122,7 +4122,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4144,7 +4144,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4166,7 +4166,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4188,7 +4188,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4210,7 +4210,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4232,7 +4232,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4254,7 +4254,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4276,7 +4276,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4298,7 +4298,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4320,7 +4320,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4342,7 +4342,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4364,7 +4364,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4386,7 +4386,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4408,7 +4408,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4430,7 +4430,7 @@ public class StackPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.StackPane#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) apply} method.
+     * This serves as a shorthand form of the {@link StackPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

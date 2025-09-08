@@ -152,7 +152,7 @@ public class SplitPaneDividerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane.Divider#positionProperty() positionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane.Divider> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneDividerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

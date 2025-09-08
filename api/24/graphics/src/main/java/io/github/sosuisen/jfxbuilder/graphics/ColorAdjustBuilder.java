@@ -205,7 +205,7 @@ public class ColorAdjustBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorAdjust#brightnessProperty() brightnessProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorAdjust> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorAdjustBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -227,7 +227,7 @@ public class ColorAdjustBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorAdjust#contrastProperty() contrastProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorAdjust> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorAdjustBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -249,7 +249,7 @@ public class ColorAdjustBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorAdjust#hueProperty() hueProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorAdjust> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorAdjustBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -271,7 +271,7 @@ public class ColorAdjustBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorAdjust#inputProperty() inputProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorAdjust> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorAdjustBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -293,7 +293,7 @@ public class ColorAdjustBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorAdjust#saturationProperty() saturationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorAdjust> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorAdjustBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

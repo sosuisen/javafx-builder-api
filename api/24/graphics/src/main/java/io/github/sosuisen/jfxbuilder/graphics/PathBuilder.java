@@ -2023,7 +2023,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2045,7 +2045,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2067,7 +2067,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2089,7 +2089,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2111,7 +2111,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2133,7 +2133,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2155,7 +2155,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2177,7 +2177,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2199,7 +2199,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2221,7 +2221,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2243,7 +2243,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2265,7 +2265,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2287,7 +2287,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2309,7 +2309,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2331,7 +2331,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2353,7 +2353,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2375,7 +2375,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2397,7 +2397,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#fillProperty() fillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2419,7 +2419,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#fillRuleProperty() fillRuleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2441,7 +2441,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2463,7 +2463,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2485,7 +2485,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2507,7 +2507,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2529,7 +2529,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2551,7 +2551,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2573,7 +2573,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2595,7 +2595,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2617,7 +2617,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2639,7 +2639,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2661,7 +2661,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2683,7 +2683,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2705,7 +2705,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2727,7 +2727,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2749,7 +2749,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2771,7 +2771,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2793,7 +2793,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2815,7 +2815,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2837,7 +2837,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2859,7 +2859,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2881,7 +2881,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2903,7 +2903,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2925,7 +2925,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2947,7 +2947,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2969,7 +2969,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2991,7 +2991,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3013,7 +3013,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3035,7 +3035,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3057,7 +3057,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3079,7 +3079,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3101,7 +3101,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3123,7 +3123,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3145,7 +3145,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3167,7 +3167,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3189,7 +3189,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3211,7 +3211,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3233,7 +3233,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3255,7 +3255,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3277,7 +3277,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3299,7 +3299,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3321,7 +3321,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3343,7 +3343,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3365,7 +3365,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3387,7 +3387,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3409,7 +3409,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3431,7 +3431,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3453,7 +3453,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3475,7 +3475,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3497,7 +3497,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3519,7 +3519,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3541,7 +3541,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3563,7 +3563,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3585,7 +3585,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3607,7 +3607,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3629,7 +3629,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3651,7 +3651,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3673,7 +3673,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3695,7 +3695,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3717,7 +3717,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3739,7 +3739,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3761,7 +3761,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3783,7 +3783,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3805,7 +3805,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3827,7 +3827,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3849,7 +3849,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#smoothProperty() smoothProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3871,7 +3871,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#strokeDashOffsetProperty() strokeDashOffsetProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3893,7 +3893,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#strokeLineCapProperty() strokeLineCapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3915,7 +3915,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#strokeLineJoinProperty() strokeLineJoinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3937,7 +3937,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#strokeMiterLimitProperty() strokeMiterLimitProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3959,7 +3959,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#strokeProperty() strokeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3981,7 +3981,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#strokeTypeProperty() strokeTypeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4003,7 +4003,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#strokeWidthProperty() strokeWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4025,7 +4025,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4047,7 +4047,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4069,7 +4069,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4091,7 +4091,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4113,7 +4113,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4135,7 +4135,7 @@ public class PathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
+     * This serves as a shorthand form of the {@link PathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

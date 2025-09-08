@@ -2219,7 +2219,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2241,7 +2241,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2263,7 +2263,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2285,7 +2285,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2307,7 +2307,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2329,7 +2329,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2351,7 +2351,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2373,7 +2373,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2395,7 +2395,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2417,7 +2417,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2439,7 +2439,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2461,7 +2461,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2483,7 +2483,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2505,7 +2505,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2527,7 +2527,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2549,7 +2549,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#contentDisplayProperty() contentDisplayProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2571,7 +2571,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2593,7 +2593,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2615,7 +2615,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2637,7 +2637,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2659,7 +2659,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2681,7 +2681,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#editableProperty() editableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2703,7 +2703,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#editingProperty() editingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2725,7 +2725,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2747,7 +2747,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2769,7 +2769,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#ellipsisStringProperty() ellipsisStringProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2791,7 +2791,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#emptyProperty() emptyProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2813,7 +2813,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2835,7 +2835,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2857,7 +2857,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2879,7 +2879,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2901,7 +2901,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2923,7 +2923,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#fontProperty() fontProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2945,7 +2945,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2967,7 +2967,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#graphicTextGapProperty() graphicTextGapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2989,7 +2989,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3011,7 +3011,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3033,7 +3033,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3055,7 +3055,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#indexProperty() indexProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3077,7 +3077,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3099,7 +3099,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3121,7 +3121,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#itemProperty() itemProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3143,7 +3143,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#labelPaddingProperty() labelPaddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3165,7 +3165,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3187,7 +3187,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3209,7 +3209,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3231,7 +3231,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#lineSpacingProperty() lineSpacingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3253,7 +3253,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3275,7 +3275,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3297,7 +3297,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3319,7 +3319,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3341,7 +3341,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3363,7 +3363,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3385,7 +3385,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3407,7 +3407,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3429,7 +3429,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3451,7 +3451,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3473,7 +3473,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3495,7 +3495,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3517,7 +3517,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3539,7 +3539,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3561,7 +3561,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3583,7 +3583,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3605,7 +3605,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3627,7 +3627,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3649,7 +3649,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3671,7 +3671,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3693,7 +3693,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3715,7 +3715,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3737,7 +3737,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3759,7 +3759,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3781,7 +3781,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3803,7 +3803,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3825,7 +3825,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3847,7 +3847,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3869,7 +3869,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3891,7 +3891,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3913,7 +3913,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3935,7 +3935,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3957,7 +3957,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3979,7 +3979,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4001,7 +4001,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4023,7 +4023,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4045,7 +4045,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4067,7 +4067,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4089,7 +4089,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4111,7 +4111,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4133,7 +4133,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4155,7 +4155,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4177,7 +4177,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4199,7 +4199,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4221,7 +4221,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4243,7 +4243,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4265,7 +4265,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4287,7 +4287,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4309,7 +4309,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4331,7 +4331,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4353,7 +4353,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4375,7 +4375,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4397,7 +4397,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4419,7 +4419,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4441,7 +4441,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4463,7 +4463,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4485,7 +4485,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4507,7 +4507,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4529,7 +4529,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4551,7 +4551,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4573,7 +4573,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4595,7 +4595,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4617,7 +4617,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4639,7 +4639,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4661,7 +4661,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4683,7 +4683,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#selectedProperty() selectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4705,7 +4705,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4727,7 +4727,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4749,7 +4749,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4771,7 +4771,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4793,7 +4793,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#tableColumnProperty() tableColumnProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4815,7 +4815,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#tableRowProperty() tableRowProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4837,7 +4837,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#tableViewProperty() tableViewProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4859,7 +4859,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#textAlignmentProperty() textAlignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4881,7 +4881,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#textFillProperty() textFillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4903,7 +4903,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#textOverrunProperty() textOverrunProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4925,7 +4925,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#textProperty() textProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4947,7 +4947,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#textTruncatedProperty() textTruncatedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4969,7 +4969,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4991,7 +4991,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5013,7 +5013,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5035,7 +5035,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5057,7 +5057,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#underlineProperty() underlineProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5079,7 +5079,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5101,7 +5101,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5123,7 +5123,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5145,7 +5145,7 @@ public class TableCellBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableCell#wrapTextProperty() wrapTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableCell<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

@@ -205,7 +205,7 @@ public class ColorInputBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorInput#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorInput> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorInputBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -227,7 +227,7 @@ public class ColorInputBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorInput#paintProperty() paintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorInput> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorInputBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -249,7 +249,7 @@ public class ColorInputBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorInput#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorInput> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorInputBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -271,7 +271,7 @@ public class ColorInputBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorInput#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorInput> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorInputBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -293,7 +293,7 @@ public class ColorInputBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorInput#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorInput> func) apply} method.
+     * This serves as a shorthand form of the {@link ColorInputBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

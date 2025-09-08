@@ -1930,7 +1930,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1952,7 +1952,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1974,7 +1974,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1996,7 +1996,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2018,7 +2018,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2040,7 +2040,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2062,7 +2062,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2084,7 +2084,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2106,7 +2106,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2128,7 +2128,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2150,7 +2150,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#colorProperty() colorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2172,7 +2172,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2194,7 +2194,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2216,7 +2216,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2238,7 +2238,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2260,7 +2260,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2282,7 +2282,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2304,7 +2304,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2326,7 +2326,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2348,7 +2348,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2370,7 +2370,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2392,7 +2392,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2414,7 +2414,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2436,7 +2436,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2458,7 +2458,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2480,7 +2480,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2502,7 +2502,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2524,7 +2524,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2546,7 +2546,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#lightOnProperty() lightOnProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2568,7 +2568,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2590,7 +2590,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2612,7 +2612,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2634,7 +2634,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2656,7 +2656,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2678,7 +2678,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2700,7 +2700,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2722,7 +2722,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2744,7 +2744,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2766,7 +2766,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2788,7 +2788,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2810,7 +2810,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2832,7 +2832,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2854,7 +2854,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2876,7 +2876,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2898,7 +2898,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2920,7 +2920,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2942,7 +2942,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2964,7 +2964,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2986,7 +2986,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3008,7 +3008,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3030,7 +3030,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3052,7 +3052,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3074,7 +3074,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3096,7 +3096,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3118,7 +3118,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3140,7 +3140,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3162,7 +3162,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3184,7 +3184,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3206,7 +3206,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3228,7 +3228,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3250,7 +3250,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3272,7 +3272,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3294,7 +3294,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3316,7 +3316,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3338,7 +3338,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3360,7 +3360,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3382,7 +3382,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3404,7 +3404,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3426,7 +3426,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3448,7 +3448,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3470,7 +3470,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3492,7 +3492,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3514,7 +3514,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3536,7 +3536,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3558,7 +3558,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3580,7 +3580,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3602,7 +3602,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3624,7 +3624,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3646,7 +3646,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3668,7 +3668,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3690,7 +3690,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3712,7 +3712,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3734,7 +3734,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3756,7 +3756,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3778,7 +3778,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3800,7 +3800,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3822,7 +3822,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3844,7 +3844,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3866,7 +3866,7 @@ public class AmbientLightBuilder {
     /**
      * Applies a function to the {@link javafx.scene.AmbientLight#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) apply} method.
+     * This serves as a shorthand form of the {@link AmbientLightBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

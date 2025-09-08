@@ -2342,7 +2342,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2364,7 +2364,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2386,7 +2386,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2408,7 +2408,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2430,7 +2430,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2452,7 +2452,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#armedProperty() armedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2474,7 +2474,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2496,7 +2496,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2518,7 +2518,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2540,7 +2540,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2562,7 +2562,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2584,7 +2584,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2606,7 +2606,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2628,7 +2628,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2650,7 +2650,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2672,7 +2672,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2694,7 +2694,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#contentDisplayProperty() contentDisplayProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2716,7 +2716,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2738,7 +2738,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2760,7 +2760,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2782,7 +2782,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2804,7 +2804,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2826,7 +2826,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2848,7 +2848,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2870,7 +2870,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#ellipsisStringProperty() ellipsisStringProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2892,7 +2892,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2914,7 +2914,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2936,7 +2936,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2958,7 +2958,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2980,7 +2980,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3002,7 +3002,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#fontProperty() fontProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3024,7 +3024,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3046,7 +3046,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#graphicTextGapProperty() graphicTextGapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3068,7 +3068,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3090,7 +3090,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3112,7 +3112,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3134,7 +3134,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3156,7 +3156,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3178,7 +3178,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#labelPaddingProperty() labelPaddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3200,7 +3200,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3222,7 +3222,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3244,7 +3244,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3266,7 +3266,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#lineSpacingProperty() lineSpacingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3288,7 +3288,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3310,7 +3310,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3332,7 +3332,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3354,7 +3354,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3376,7 +3376,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3398,7 +3398,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3420,7 +3420,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3442,7 +3442,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3464,7 +3464,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3486,7 +3486,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3508,7 +3508,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3530,7 +3530,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3552,7 +3552,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3574,7 +3574,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3596,7 +3596,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3618,7 +3618,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3640,7 +3640,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3662,7 +3662,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3684,7 +3684,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3706,7 +3706,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3728,7 +3728,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3750,7 +3750,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3772,7 +3772,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3794,7 +3794,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3816,7 +3816,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3838,7 +3838,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3860,7 +3860,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3882,7 +3882,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3904,7 +3904,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3926,7 +3926,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3948,7 +3948,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3970,7 +3970,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3992,7 +3992,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4014,7 +4014,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4036,7 +4036,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4058,7 +4058,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4080,7 +4080,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4102,7 +4102,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4124,7 +4124,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4146,7 +4146,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4168,7 +4168,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4190,7 +4190,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4212,7 +4212,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4234,7 +4234,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4256,7 +4256,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4278,7 +4278,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4300,7 +4300,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4322,7 +4322,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4344,7 +4344,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4366,7 +4366,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4388,7 +4388,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4410,7 +4410,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4432,7 +4432,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4454,7 +4454,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4476,7 +4476,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4498,7 +4498,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4520,7 +4520,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4542,7 +4542,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4564,7 +4564,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4586,7 +4586,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4608,7 +4608,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#popupSideProperty() popupSideProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4630,7 +4630,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4652,7 +4652,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4674,7 +4674,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4696,7 +4696,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4718,7 +4718,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4740,7 +4740,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4762,7 +4762,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4784,7 +4784,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4806,7 +4806,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4828,7 +4828,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4850,7 +4850,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4872,7 +4872,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#showingProperty() showingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4894,7 +4894,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4916,7 +4916,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4938,7 +4938,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4960,7 +4960,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#textAlignmentProperty() textAlignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4982,7 +4982,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#textFillProperty() textFillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5004,7 +5004,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#textOverrunProperty() textOverrunProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5026,7 +5026,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#textProperty() textProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5048,7 +5048,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#textTruncatedProperty() textTruncatedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5070,7 +5070,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5092,7 +5092,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5114,7 +5114,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5136,7 +5136,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5158,7 +5158,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#underlineProperty() underlineProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5180,7 +5180,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5202,7 +5202,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5224,7 +5224,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5246,7 +5246,7 @@ public class MenuButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#wrapTextProperty() wrapTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

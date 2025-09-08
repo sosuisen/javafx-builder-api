@@ -185,7 +185,7 @@ public class EqualizerBandBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.EqualizerBand#bandwidthProperty() bandwidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.EqualizerBand> func) apply} method.
+     * This serves as a shorthand form of the {@link EqualizerBandBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -207,7 +207,7 @@ public class EqualizerBandBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.EqualizerBand#centerFrequencyProperty() centerFrequencyProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.EqualizerBand> func) apply} method.
+     * This serves as a shorthand form of the {@link EqualizerBandBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -229,7 +229,7 @@ public class EqualizerBandBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.EqualizerBand#gainProperty() gainProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.EqualizerBand> func) apply} method.
+     * This serves as a shorthand form of the {@link EqualizerBandBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

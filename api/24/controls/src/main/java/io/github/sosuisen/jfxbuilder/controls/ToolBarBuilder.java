@@ -2126,7 +2126,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2148,7 +2148,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2170,7 +2170,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2192,7 +2192,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2214,7 +2214,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2236,7 +2236,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2258,7 +2258,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2280,7 +2280,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2302,7 +2302,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2324,7 +2324,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2346,7 +2346,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2368,7 +2368,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2390,7 +2390,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2412,7 +2412,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2434,7 +2434,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2456,7 +2456,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2478,7 +2478,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2500,7 +2500,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2522,7 +2522,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2544,7 +2544,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2566,7 +2566,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2588,7 +2588,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2610,7 +2610,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2632,7 +2632,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2654,7 +2654,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2676,7 +2676,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2698,7 +2698,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2720,7 +2720,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2742,7 +2742,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2764,7 +2764,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2786,7 +2786,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2808,7 +2808,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2830,7 +2830,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2852,7 +2852,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2874,7 +2874,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2896,7 +2896,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2918,7 +2918,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2940,7 +2940,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2962,7 +2962,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2984,7 +2984,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3006,7 +3006,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3028,7 +3028,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3050,7 +3050,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3072,7 +3072,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3094,7 +3094,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3116,7 +3116,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3138,7 +3138,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3160,7 +3160,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3182,7 +3182,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3204,7 +3204,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3226,7 +3226,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3248,7 +3248,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3270,7 +3270,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3292,7 +3292,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3314,7 +3314,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3336,7 +3336,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3358,7 +3358,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3380,7 +3380,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3402,7 +3402,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3424,7 +3424,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3446,7 +3446,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3468,7 +3468,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3490,7 +3490,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3512,7 +3512,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3534,7 +3534,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3556,7 +3556,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3578,7 +3578,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3600,7 +3600,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3622,7 +3622,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3644,7 +3644,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3666,7 +3666,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3688,7 +3688,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3710,7 +3710,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3732,7 +3732,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3754,7 +3754,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3776,7 +3776,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3798,7 +3798,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3820,7 +3820,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3842,7 +3842,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3864,7 +3864,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3886,7 +3886,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3908,7 +3908,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3930,7 +3930,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3952,7 +3952,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3974,7 +3974,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3996,7 +3996,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#orientationProperty() orientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4018,7 +4018,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4040,7 +4040,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4062,7 +4062,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4084,7 +4084,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4106,7 +4106,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4128,7 +4128,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4150,7 +4150,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4172,7 +4172,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4194,7 +4194,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4216,7 +4216,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4238,7 +4238,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4260,7 +4260,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4282,7 +4282,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4304,7 +4304,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4326,7 +4326,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4348,7 +4348,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4370,7 +4370,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4392,7 +4392,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4414,7 +4414,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4436,7 +4436,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4458,7 +4458,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4480,7 +4480,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4502,7 +4502,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4524,7 +4524,7 @@ public class ToolBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToolBar#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ToolBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

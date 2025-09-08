@@ -175,7 +175,7 @@ public class GaussianBlurBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.GaussianBlur#inputProperty() inputProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.GaussianBlur> func) apply} method.
+     * This serves as a shorthand form of the {@link GaussianBlurBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -197,7 +197,7 @@ public class GaussianBlurBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.GaussianBlur#radiusProperty() radiusProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.GaussianBlur> func) apply} method.
+     * This serves as a shorthand form of the {@link GaussianBlurBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

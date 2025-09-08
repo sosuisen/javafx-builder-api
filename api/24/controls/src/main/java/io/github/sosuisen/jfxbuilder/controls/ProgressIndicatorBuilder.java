@@ -2080,7 +2080,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2102,7 +2102,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2124,7 +2124,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2146,7 +2146,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2168,7 +2168,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2190,7 +2190,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2212,7 +2212,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2234,7 +2234,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2256,7 +2256,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2278,7 +2278,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2300,7 +2300,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2322,7 +2322,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2344,7 +2344,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2366,7 +2366,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2388,7 +2388,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2410,7 +2410,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2432,7 +2432,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2454,7 +2454,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2476,7 +2476,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2498,7 +2498,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2520,7 +2520,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2542,7 +2542,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2564,7 +2564,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2586,7 +2586,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2608,7 +2608,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2630,7 +2630,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2652,7 +2652,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2674,7 +2674,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2696,7 +2696,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2718,7 +2718,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#indeterminateProperty() indeterminateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2740,7 +2740,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2762,7 +2762,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2784,7 +2784,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2806,7 +2806,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2828,7 +2828,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2850,7 +2850,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2872,7 +2872,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2894,7 +2894,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2916,7 +2916,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2938,7 +2938,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2960,7 +2960,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2982,7 +2982,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3004,7 +3004,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3026,7 +3026,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3048,7 +3048,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3070,7 +3070,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3092,7 +3092,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3114,7 +3114,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3136,7 +3136,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3158,7 +3158,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3180,7 +3180,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3202,7 +3202,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3224,7 +3224,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3246,7 +3246,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3268,7 +3268,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3290,7 +3290,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3312,7 +3312,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3334,7 +3334,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3356,7 +3356,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3378,7 +3378,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3400,7 +3400,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3422,7 +3422,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3444,7 +3444,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3466,7 +3466,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3488,7 +3488,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3510,7 +3510,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3532,7 +3532,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3554,7 +3554,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3576,7 +3576,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3598,7 +3598,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3620,7 +3620,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3642,7 +3642,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3664,7 +3664,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3686,7 +3686,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3708,7 +3708,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3730,7 +3730,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3752,7 +3752,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3774,7 +3774,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3796,7 +3796,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3818,7 +3818,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3840,7 +3840,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3862,7 +3862,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3884,7 +3884,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3906,7 +3906,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3928,7 +3928,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3950,7 +3950,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3972,7 +3972,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3994,7 +3994,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4016,7 +4016,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4038,7 +4038,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4060,7 +4060,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4082,7 +4082,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4104,7 +4104,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#progressProperty() progressProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4126,7 +4126,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4148,7 +4148,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4170,7 +4170,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4192,7 +4192,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4214,7 +4214,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4236,7 +4236,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4258,7 +4258,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4280,7 +4280,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4302,7 +4302,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4324,7 +4324,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4346,7 +4346,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4368,7 +4368,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4390,7 +4390,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4412,7 +4412,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4434,7 +4434,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4456,7 +4456,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4478,7 +4478,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4500,7 +4500,7 @@ public class ProgressIndicatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressIndicatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

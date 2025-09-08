@@ -2027,7 +2027,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2049,7 +2049,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2071,7 +2071,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2093,7 +2093,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2115,7 +2115,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2137,7 +2137,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2159,7 +2159,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2181,7 +2181,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2203,7 +2203,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2225,7 +2225,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2247,7 +2247,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2269,7 +2269,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2291,7 +2291,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2313,7 +2313,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2335,7 +2335,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2357,7 +2357,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2379,7 +2379,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2401,7 +2401,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2423,7 +2423,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2445,7 +2445,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2467,7 +2467,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2489,7 +2489,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2511,7 +2511,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2533,7 +2533,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2555,7 +2555,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2577,7 +2577,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2599,7 +2599,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2621,7 +2621,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2643,7 +2643,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2665,7 +2665,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2687,7 +2687,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2709,7 +2709,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2731,7 +2731,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2753,7 +2753,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2775,7 +2775,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2797,7 +2797,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2819,7 +2819,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2841,7 +2841,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2863,7 +2863,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2885,7 +2885,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2907,7 +2907,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2929,7 +2929,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2951,7 +2951,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2973,7 +2973,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2995,7 +2995,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3017,7 +3017,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3039,7 +3039,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3061,7 +3061,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3083,7 +3083,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3105,7 +3105,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3127,7 +3127,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3149,7 +3149,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3171,7 +3171,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3193,7 +3193,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3215,7 +3215,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3237,7 +3237,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3259,7 +3259,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3281,7 +3281,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3303,7 +3303,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3325,7 +3325,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3347,7 +3347,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3369,7 +3369,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3391,7 +3391,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3413,7 +3413,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3435,7 +3435,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3457,7 +3457,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3479,7 +3479,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3501,7 +3501,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3523,7 +3523,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3545,7 +3545,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3567,7 +3567,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3589,7 +3589,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3611,7 +3611,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3633,7 +3633,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3655,7 +3655,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3677,7 +3677,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3699,7 +3699,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3721,7 +3721,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3743,7 +3743,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3765,7 +3765,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3787,7 +3787,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3809,7 +3809,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3831,7 +3831,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3853,7 +3853,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3875,7 +3875,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3897,7 +3897,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3919,7 +3919,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3941,7 +3941,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3963,7 +3963,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3985,7 +3985,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4007,7 +4007,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4029,7 +4029,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4051,7 +4051,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4073,7 +4073,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4095,7 +4095,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4117,7 +4117,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4139,7 +4139,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4161,7 +4161,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4183,7 +4183,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4205,7 +4205,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4227,7 +4227,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4249,7 +4249,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4271,7 +4271,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4293,7 +4293,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4315,7 +4315,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4337,7 +4337,7 @@ public class RegionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Region#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Region> func) apply} method.
+     * This serves as a shorthand form of the {@link RegionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

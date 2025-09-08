@@ -245,7 +245,7 @@ public class PerspectiveTransformBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#inputProperty() inputProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveTransformBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -267,7 +267,7 @@ public class PerspectiveTransformBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#llxProperty() llxProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveTransformBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -289,7 +289,7 @@ public class PerspectiveTransformBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#llyProperty() llyProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveTransformBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -311,7 +311,7 @@ public class PerspectiveTransformBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#lrxProperty() lrxProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveTransformBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -333,7 +333,7 @@ public class PerspectiveTransformBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#lryProperty() lryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveTransformBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -355,7 +355,7 @@ public class PerspectiveTransformBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#ulxProperty() ulxProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveTransformBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -377,7 +377,7 @@ public class PerspectiveTransformBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#ulyProperty() ulyProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveTransformBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -399,7 +399,7 @@ public class PerspectiveTransformBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#urxProperty() urxProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveTransformBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -421,7 +421,7 @@ public class PerspectiveTransformBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#uryProperty() uryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveTransformBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

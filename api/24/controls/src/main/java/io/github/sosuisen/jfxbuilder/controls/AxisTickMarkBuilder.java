@@ -184,7 +184,7 @@ public class AxisTickMarkBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.chart.Axis.TickMark#labelProperty() labelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.Axis.TickMark<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link AxisTickMarkBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -206,7 +206,7 @@ public class AxisTickMarkBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.chart.Axis.TickMark#positionProperty() positionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.Axis.TickMark<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link AxisTickMarkBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -228,7 +228,7 @@ public class AxisTickMarkBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.chart.Axis.TickMark#valueProperty() valueProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.Axis.TickMark<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link AxisTickMarkBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

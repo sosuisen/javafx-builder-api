@@ -2187,7 +2187,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2209,7 +2209,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2231,7 +2231,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2253,7 +2253,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2275,7 +2275,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2297,7 +2297,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2319,7 +2319,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2341,7 +2341,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2363,7 +2363,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2385,7 +2385,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2407,7 +2407,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2429,7 +2429,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2451,7 +2451,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2473,7 +2473,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2495,7 +2495,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2517,7 +2517,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2539,7 +2539,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2561,7 +2561,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2583,7 +2583,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2605,7 +2605,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#editableProperty() editableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2627,7 +2627,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#editorProperty() editorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2649,7 +2649,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2671,7 +2671,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2693,7 +2693,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2715,7 +2715,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2737,7 +2737,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2759,7 +2759,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2781,7 +2781,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2803,7 +2803,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2825,7 +2825,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2847,7 +2847,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2869,7 +2869,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#initialDelayProperty() initialDelayProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2891,7 +2891,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2913,7 +2913,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2935,7 +2935,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2957,7 +2957,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2979,7 +2979,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3001,7 +3001,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3023,7 +3023,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3045,7 +3045,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3067,7 +3067,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3089,7 +3089,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3111,7 +3111,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3133,7 +3133,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3155,7 +3155,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3177,7 +3177,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3199,7 +3199,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3221,7 +3221,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3243,7 +3243,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3265,7 +3265,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3287,7 +3287,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3309,7 +3309,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3331,7 +3331,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3353,7 +3353,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3375,7 +3375,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3397,7 +3397,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3419,7 +3419,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3441,7 +3441,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3463,7 +3463,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3485,7 +3485,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3507,7 +3507,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3529,7 +3529,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3551,7 +3551,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3573,7 +3573,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3595,7 +3595,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3617,7 +3617,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3639,7 +3639,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3661,7 +3661,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3683,7 +3683,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3705,7 +3705,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3727,7 +3727,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3749,7 +3749,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3771,7 +3771,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3793,7 +3793,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3815,7 +3815,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3837,7 +3837,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3859,7 +3859,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3881,7 +3881,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3903,7 +3903,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3925,7 +3925,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3947,7 +3947,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3969,7 +3969,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3991,7 +3991,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4013,7 +4013,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4035,7 +4035,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4057,7 +4057,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4079,7 +4079,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4101,7 +4101,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4123,7 +4123,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4145,7 +4145,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4167,7 +4167,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4189,7 +4189,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4211,7 +4211,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4233,7 +4233,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4255,7 +4255,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#promptTextProperty() promptTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4277,7 +4277,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#repeatDelayProperty() repeatDelayProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4299,7 +4299,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4321,7 +4321,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4343,7 +4343,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4365,7 +4365,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4387,7 +4387,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4409,7 +4409,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4431,7 +4431,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4453,7 +4453,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4475,7 +4475,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4497,7 +4497,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4519,7 +4519,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4541,7 +4541,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4563,7 +4563,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4585,7 +4585,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4607,7 +4607,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4629,7 +4629,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#valueFactoryProperty() valueFactoryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4651,7 +4651,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#valueProperty() valueProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4673,7 +4673,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4695,7 +4695,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4717,7 +4717,7 @@ public class SpinnerBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

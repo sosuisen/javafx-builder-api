@@ -195,7 +195,7 @@ public class LightPointBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Point#colorProperty() colorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Point> func) apply} method.
+     * This serves as a shorthand form of the {@link LightPointBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -217,7 +217,7 @@ public class LightPointBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Point#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Point> func) apply} method.
+     * This serves as a shorthand form of the {@link LightPointBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -239,7 +239,7 @@ public class LightPointBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Point#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Point> func) apply} method.
+     * This serves as a shorthand form of the {@link LightPointBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -261,7 +261,7 @@ public class LightPointBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Point#zProperty() zProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Point> func) apply} method.
+     * This serves as a shorthand form of the {@link LightPointBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

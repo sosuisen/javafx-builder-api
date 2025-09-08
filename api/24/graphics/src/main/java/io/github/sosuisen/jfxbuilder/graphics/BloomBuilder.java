@@ -175,7 +175,7 @@ public class BloomBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Bloom#inputProperty() inputProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Bloom> func) apply} method.
+     * This serves as a shorthand form of the {@link BloomBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -197,7 +197,7 @@ public class BloomBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Bloom#thresholdProperty() thresholdProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Bloom> func) apply} method.
+     * This serves as a shorthand form of the {@link BloomBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

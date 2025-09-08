@@ -2040,7 +2040,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2062,7 +2062,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2084,7 +2084,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2106,7 +2106,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2128,7 +2128,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#arcHeightProperty() arcHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2150,7 +2150,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#arcWidthProperty() arcWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2172,7 +2172,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2194,7 +2194,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2216,7 +2216,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2238,7 +2238,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2260,7 +2260,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2282,7 +2282,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2304,7 +2304,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2326,7 +2326,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2348,7 +2348,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2370,7 +2370,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2392,7 +2392,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2414,7 +2414,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2436,7 +2436,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2458,7 +2458,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#fillProperty() fillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2480,7 +2480,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2502,7 +2502,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2524,7 +2524,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2546,7 +2546,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2568,7 +2568,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2590,7 +2590,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2612,7 +2612,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2634,7 +2634,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2656,7 +2656,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2678,7 +2678,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2700,7 +2700,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2722,7 +2722,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2744,7 +2744,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2766,7 +2766,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2788,7 +2788,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2810,7 +2810,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2832,7 +2832,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2854,7 +2854,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2876,7 +2876,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2898,7 +2898,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2920,7 +2920,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2942,7 +2942,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2964,7 +2964,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2986,7 +2986,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3008,7 +3008,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3030,7 +3030,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3052,7 +3052,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3074,7 +3074,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3096,7 +3096,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3118,7 +3118,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3140,7 +3140,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3162,7 +3162,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3184,7 +3184,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3206,7 +3206,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3228,7 +3228,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3250,7 +3250,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3272,7 +3272,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3294,7 +3294,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3316,7 +3316,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3338,7 +3338,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3360,7 +3360,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3382,7 +3382,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3404,7 +3404,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3426,7 +3426,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3448,7 +3448,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3470,7 +3470,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3492,7 +3492,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3514,7 +3514,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3536,7 +3536,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3558,7 +3558,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3580,7 +3580,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3602,7 +3602,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3624,7 +3624,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3646,7 +3646,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3668,7 +3668,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3690,7 +3690,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3712,7 +3712,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3734,7 +3734,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3756,7 +3756,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3778,7 +3778,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3800,7 +3800,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3822,7 +3822,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3844,7 +3844,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3866,7 +3866,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3888,7 +3888,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3910,7 +3910,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#smoothProperty() smoothProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3932,7 +3932,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeDashOffsetProperty() strokeDashOffsetProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3954,7 +3954,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeLineCapProperty() strokeLineCapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3976,7 +3976,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeLineJoinProperty() strokeLineJoinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3998,7 +3998,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeMiterLimitProperty() strokeMiterLimitProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4020,7 +4020,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeProperty() strokeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4042,7 +4042,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeTypeProperty() strokeTypeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4064,7 +4064,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeWidthProperty() strokeWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4086,7 +4086,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4108,7 +4108,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4130,7 +4130,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4152,7 +4152,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4174,7 +4174,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4196,7 +4196,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4218,7 +4218,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4240,7 +4240,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4262,7 +4262,7 @@ public class RectangleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
+     * This serves as a shorthand form of the {@link RectangleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

@@ -251,7 +251,7 @@ public class RowConstraintsBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.RowConstraints#fillHeightProperty() fillHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.RowConstraints> func) apply} method.
+     * This serves as a shorthand form of the {@link RowConstraintsBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -273,7 +273,7 @@ public class RowConstraintsBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.RowConstraints#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.RowConstraints> func) apply} method.
+     * This serves as a shorthand form of the {@link RowConstraintsBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -295,7 +295,7 @@ public class RowConstraintsBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.RowConstraints#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.RowConstraints> func) apply} method.
+     * This serves as a shorthand form of the {@link RowConstraintsBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -317,7 +317,7 @@ public class RowConstraintsBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.RowConstraints#percentHeightProperty() percentHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.RowConstraints> func) apply} method.
+     * This serves as a shorthand form of the {@link RowConstraintsBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -339,7 +339,7 @@ public class RowConstraintsBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.RowConstraints#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.RowConstraints> func) apply} method.
+     * This serves as a shorthand form of the {@link RowConstraintsBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -361,7 +361,7 @@ public class RowConstraintsBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.RowConstraints#valignmentProperty() valignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.RowConstraints> func) apply} method.
+     * This serves as a shorthand form of the {@link RowConstraintsBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -383,7 +383,7 @@ public class RowConstraintsBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.RowConstraints#vgrowProperty() vgrowProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.RowConstraints> func) apply} method.
+     * This serves as a shorthand form of the {@link RowConstraintsBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

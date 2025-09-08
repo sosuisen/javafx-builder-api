@@ -2208,7 +2208,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2230,7 +2230,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2252,7 +2252,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2274,7 +2274,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2296,7 +2296,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2318,7 +2318,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2340,7 +2340,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2362,7 +2362,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2384,7 +2384,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2406,7 +2406,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2428,7 +2428,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2450,7 +2450,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2472,7 +2472,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2494,7 +2494,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2516,7 +2516,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2538,7 +2538,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#converterProperty() converterProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2560,7 +2560,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2582,7 +2582,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2604,7 +2604,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2626,7 +2626,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2648,7 +2648,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2670,7 +2670,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2692,7 +2692,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2714,7 +2714,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2736,7 +2736,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2758,7 +2758,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2780,7 +2780,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2802,7 +2802,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2824,7 +2824,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2846,7 +2846,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2868,7 +2868,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2890,7 +2890,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2912,7 +2912,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#itemsProperty() itemsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2934,7 +2934,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2956,7 +2956,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2978,7 +2978,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3000,7 +3000,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3022,7 +3022,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3044,7 +3044,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3066,7 +3066,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3088,7 +3088,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3110,7 +3110,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3132,7 +3132,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3154,7 +3154,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3176,7 +3176,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3198,7 +3198,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3220,7 +3220,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3242,7 +3242,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3264,7 +3264,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3286,7 +3286,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3308,7 +3308,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3330,7 +3330,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3352,7 +3352,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3374,7 +3374,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3396,7 +3396,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3418,7 +3418,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3440,7 +3440,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3462,7 +3462,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3484,7 +3484,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3506,7 +3506,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3528,7 +3528,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3550,7 +3550,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3572,7 +3572,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3594,7 +3594,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3616,7 +3616,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3638,7 +3638,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3660,7 +3660,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3682,7 +3682,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3704,7 +3704,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3726,7 +3726,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3748,7 +3748,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3770,7 +3770,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3792,7 +3792,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3814,7 +3814,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3836,7 +3836,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3858,7 +3858,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3880,7 +3880,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3902,7 +3902,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3924,7 +3924,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3946,7 +3946,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3968,7 +3968,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3990,7 +3990,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4012,7 +4012,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4034,7 +4034,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4056,7 +4056,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4078,7 +4078,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4100,7 +4100,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4122,7 +4122,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4144,7 +4144,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4166,7 +4166,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4188,7 +4188,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4210,7 +4210,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4232,7 +4232,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4254,7 +4254,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4276,7 +4276,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4298,7 +4298,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4320,7 +4320,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4342,7 +4342,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4364,7 +4364,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4386,7 +4386,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4408,7 +4408,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4430,7 +4430,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4452,7 +4452,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4474,7 +4474,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4496,7 +4496,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4518,7 +4518,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#selectionModelProperty() selectionModelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4540,7 +4540,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4562,7 +4562,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#showingProperty() showingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4584,7 +4584,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4606,7 +4606,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4628,7 +4628,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4650,7 +4650,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4672,7 +4672,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4694,7 +4694,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4716,7 +4716,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4738,7 +4738,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#valueProperty() valueProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4760,7 +4760,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4782,7 +4782,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4804,7 +4804,7 @@ public class ChoiceBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ChoiceBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

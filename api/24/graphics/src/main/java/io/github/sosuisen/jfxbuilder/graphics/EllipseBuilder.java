@@ -2007,7 +2007,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2029,7 +2029,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2051,7 +2051,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2073,7 +2073,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2095,7 +2095,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2117,7 +2117,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2139,7 +2139,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2161,7 +2161,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2183,7 +2183,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2205,7 +2205,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#centerXProperty() centerXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2227,7 +2227,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#centerYProperty() centerYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2249,7 +2249,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2271,7 +2271,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2293,7 +2293,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2315,7 +2315,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2337,7 +2337,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2359,7 +2359,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2381,7 +2381,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2403,7 +2403,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2425,7 +2425,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#fillProperty() fillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2447,7 +2447,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2469,7 +2469,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2491,7 +2491,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2513,7 +2513,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2535,7 +2535,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2557,7 +2557,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2579,7 +2579,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2601,7 +2601,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2623,7 +2623,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2645,7 +2645,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2667,7 +2667,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2689,7 +2689,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2711,7 +2711,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2733,7 +2733,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2755,7 +2755,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2777,7 +2777,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2799,7 +2799,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2821,7 +2821,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2843,7 +2843,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2865,7 +2865,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2887,7 +2887,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2909,7 +2909,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2931,7 +2931,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2953,7 +2953,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2975,7 +2975,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2997,7 +2997,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3019,7 +3019,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3041,7 +3041,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3063,7 +3063,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3085,7 +3085,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3107,7 +3107,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3129,7 +3129,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3151,7 +3151,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3173,7 +3173,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3195,7 +3195,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3217,7 +3217,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3239,7 +3239,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3261,7 +3261,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3283,7 +3283,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3305,7 +3305,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3327,7 +3327,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3349,7 +3349,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3371,7 +3371,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3393,7 +3393,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3415,7 +3415,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3437,7 +3437,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3459,7 +3459,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3481,7 +3481,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3503,7 +3503,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3525,7 +3525,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3547,7 +3547,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3569,7 +3569,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3591,7 +3591,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3613,7 +3613,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3635,7 +3635,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3657,7 +3657,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3679,7 +3679,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3701,7 +3701,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3723,7 +3723,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#radiusXProperty() radiusXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3745,7 +3745,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#radiusYProperty() radiusYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3767,7 +3767,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3789,7 +3789,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3811,7 +3811,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3833,7 +3833,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3855,7 +3855,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3877,7 +3877,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3899,7 +3899,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#smoothProperty() smoothProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3921,7 +3921,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeDashOffsetProperty() strokeDashOffsetProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3943,7 +3943,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeLineCapProperty() strokeLineCapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3965,7 +3965,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeLineJoinProperty() strokeLineJoinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3987,7 +3987,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeMiterLimitProperty() strokeMiterLimitProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4009,7 +4009,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeProperty() strokeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4031,7 +4031,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeTypeProperty() strokeTypeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4053,7 +4053,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#strokeWidthProperty() strokeWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4075,7 +4075,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4097,7 +4097,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4119,7 +4119,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4141,7 +4141,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4163,7 +4163,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4185,7 +4185,7 @@ public class EllipseBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Ellipse#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) apply} method.
+     * This serves as a shorthand form of the {@link EllipseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

@@ -2147,7 +2147,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2169,7 +2169,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2191,7 +2191,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2213,7 +2213,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2235,7 +2235,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#baselineOffsetProperty() baselineOffsetProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2257,7 +2257,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2279,7 +2279,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2301,7 +2301,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2323,7 +2323,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#boundsTypeProperty() boundsTypeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2345,7 +2345,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2367,7 +2367,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2389,7 +2389,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#caretBiasProperty() caretBiasProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2411,7 +2411,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#caretPositionProperty() caretPositionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2433,7 +2433,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#caretShapeProperty() caretShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2455,7 +2455,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2477,7 +2477,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2499,7 +2499,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2521,7 +2521,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2543,7 +2543,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2565,7 +2565,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2587,7 +2587,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2609,7 +2609,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2631,7 +2631,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#fillProperty() fillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2653,7 +2653,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2675,7 +2675,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2697,7 +2697,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2719,7 +2719,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2741,7 +2741,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#fontProperty() fontProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2763,7 +2763,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#fontSmoothingTypeProperty() fontSmoothingTypeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2785,7 +2785,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2807,7 +2807,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2829,7 +2829,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2851,7 +2851,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2873,7 +2873,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2895,7 +2895,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2917,7 +2917,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#lineSpacingProperty() lineSpacingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2939,7 +2939,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2961,7 +2961,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2983,7 +2983,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3005,7 +3005,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3027,7 +3027,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3049,7 +3049,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3071,7 +3071,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3093,7 +3093,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3115,7 +3115,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3137,7 +3137,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3159,7 +3159,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3181,7 +3181,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3203,7 +3203,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3225,7 +3225,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3247,7 +3247,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3269,7 +3269,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3291,7 +3291,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3313,7 +3313,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3335,7 +3335,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3357,7 +3357,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3379,7 +3379,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3401,7 +3401,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3423,7 +3423,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3445,7 +3445,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3467,7 +3467,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3489,7 +3489,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3511,7 +3511,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3533,7 +3533,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3555,7 +3555,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3577,7 +3577,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3599,7 +3599,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3621,7 +3621,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3643,7 +3643,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3665,7 +3665,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3687,7 +3687,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3709,7 +3709,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3731,7 +3731,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3753,7 +3753,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3775,7 +3775,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3797,7 +3797,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3819,7 +3819,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3841,7 +3841,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3863,7 +3863,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3885,7 +3885,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3907,7 +3907,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3929,7 +3929,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3951,7 +3951,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3973,7 +3973,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3995,7 +3995,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4017,7 +4017,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4039,7 +4039,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4061,7 +4061,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4083,7 +4083,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4105,7 +4105,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4127,7 +4127,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#selectionEndProperty() selectionEndProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4149,7 +4149,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#selectionFillProperty() selectionFillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4171,7 +4171,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#selectionShapeProperty() selectionShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4193,7 +4193,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#selectionStartProperty() selectionStartProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4215,7 +4215,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#smoothProperty() smoothProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4237,7 +4237,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#strikethroughProperty() strikethroughProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4259,7 +4259,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#strokeDashOffsetProperty() strokeDashOffsetProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4281,7 +4281,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#strokeLineCapProperty() strokeLineCapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4303,7 +4303,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#strokeLineJoinProperty() strokeLineJoinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4325,7 +4325,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#strokeMiterLimitProperty() strokeMiterLimitProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4347,7 +4347,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#strokeProperty() strokeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4369,7 +4369,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#strokeTypeProperty() strokeTypeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4391,7 +4391,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#strokeWidthProperty() strokeWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4413,7 +4413,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4435,7 +4435,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#tabSizeProperty() tabSizeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4457,7 +4457,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#textAlignmentProperty() textAlignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4479,7 +4479,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#textOriginProperty() textOriginProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4501,7 +4501,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#textProperty() textProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4523,7 +4523,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4545,7 +4545,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4567,7 +4567,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4589,7 +4589,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#underlineProperty() underlineProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4611,7 +4611,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4633,7 +4633,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4655,7 +4655,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#wrappingWidthProperty() wrappingWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4677,7 +4677,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4699,7 +4699,7 @@ public class TextBuilder {
     /**
      * Applies a function to the {@link javafx.scene.text.Text#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.Text> func) apply} method.
+     * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

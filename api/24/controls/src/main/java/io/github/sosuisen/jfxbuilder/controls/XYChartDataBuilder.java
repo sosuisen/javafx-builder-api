@@ -210,7 +210,7 @@ public class XYChartDataBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Data#XValueProperty() XValueProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Data<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link XYChartDataBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -232,7 +232,7 @@ public class XYChartDataBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Data#YValueProperty() YValueProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Data<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link XYChartDataBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -254,7 +254,7 @@ public class XYChartDataBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Data#extraValueProperty() extraValueProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Data<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link XYChartDataBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -276,7 +276,7 @@ public class XYChartDataBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Data#nodeProperty() nodeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Data<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link XYChartDataBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

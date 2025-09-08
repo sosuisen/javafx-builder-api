@@ -218,7 +218,7 @@ public class ShearBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Shear#identityProperty() identityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Shear> func) apply} method.
+     * This serves as a shorthand form of the {@link ShearBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -240,7 +240,7 @@ public class ShearBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Shear#onTransformChangedProperty() onTransformChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Shear> func) apply} method.
+     * This serves as a shorthand form of the {@link ShearBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -262,7 +262,7 @@ public class ShearBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Shear#pivotXProperty() pivotXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Shear> func) apply} method.
+     * This serves as a shorthand form of the {@link ShearBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -284,7 +284,7 @@ public class ShearBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Shear#pivotYProperty() pivotYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Shear> func) apply} method.
+     * This serves as a shorthand form of the {@link ShearBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -306,7 +306,7 @@ public class ShearBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Shear#type2DProperty() type2DProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Shear> func) apply} method.
+     * This serves as a shorthand form of the {@link ShearBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -328,7 +328,7 @@ public class ShearBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Shear#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Shear> func) apply} method.
+     * This serves as a shorthand form of the {@link ShearBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -350,7 +350,7 @@ public class ShearBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Shear#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Shear> func) apply} method.
+     * This serves as a shorthand form of the {@link ShearBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

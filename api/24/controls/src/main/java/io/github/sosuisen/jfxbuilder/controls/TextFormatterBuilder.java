@@ -193,7 +193,7 @@ public class TextFormatterBuilder<V> {
     /**
      * Applies a function to the {@link javafx.scene.control.TextFormatter#valueProperty() valueProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextFormatter<V>> func) apply} method.
+     * This serves as a shorthand form of the {@link TextFormatterBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

@@ -2219,7 +2219,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2241,7 +2241,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2263,7 +2263,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2285,7 +2285,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2307,7 +2307,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2329,7 +2329,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2351,7 +2351,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2373,7 +2373,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2395,7 +2395,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2417,7 +2417,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2439,7 +2439,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2461,7 +2461,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2483,7 +2483,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2505,7 +2505,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2527,7 +2527,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2549,7 +2549,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#contentDisplayProperty() contentDisplayProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2571,7 +2571,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2593,7 +2593,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2615,7 +2615,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2637,7 +2637,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2659,7 +2659,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2681,7 +2681,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#editableProperty() editableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2703,7 +2703,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#editingProperty() editingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2725,7 +2725,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2747,7 +2747,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2769,7 +2769,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#ellipsisStringProperty() ellipsisStringProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2791,7 +2791,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#emptyProperty() emptyProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2813,7 +2813,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2835,7 +2835,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2857,7 +2857,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2879,7 +2879,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2901,7 +2901,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2923,7 +2923,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#fontProperty() fontProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2945,7 +2945,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2967,7 +2967,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#graphicTextGapProperty() graphicTextGapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2989,7 +2989,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3011,7 +3011,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3033,7 +3033,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3055,7 +3055,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#indexProperty() indexProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3077,7 +3077,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3099,7 +3099,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3121,7 +3121,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#itemProperty() itemProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3143,7 +3143,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#labelPaddingProperty() labelPaddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3165,7 +3165,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3187,7 +3187,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3209,7 +3209,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3231,7 +3231,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#lineSpacingProperty() lineSpacingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3253,7 +3253,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3275,7 +3275,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3297,7 +3297,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3319,7 +3319,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3341,7 +3341,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3363,7 +3363,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3385,7 +3385,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3407,7 +3407,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3429,7 +3429,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3451,7 +3451,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3473,7 +3473,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3495,7 +3495,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3517,7 +3517,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3539,7 +3539,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3561,7 +3561,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3583,7 +3583,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3605,7 +3605,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3627,7 +3627,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3649,7 +3649,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3671,7 +3671,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3693,7 +3693,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3715,7 +3715,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3737,7 +3737,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3759,7 +3759,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3781,7 +3781,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3803,7 +3803,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3825,7 +3825,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3847,7 +3847,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3869,7 +3869,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3891,7 +3891,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3913,7 +3913,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3935,7 +3935,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3957,7 +3957,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3979,7 +3979,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4001,7 +4001,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4023,7 +4023,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4045,7 +4045,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4067,7 +4067,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4089,7 +4089,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4111,7 +4111,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4133,7 +4133,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4155,7 +4155,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4177,7 +4177,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4199,7 +4199,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4221,7 +4221,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4243,7 +4243,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4265,7 +4265,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4287,7 +4287,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4309,7 +4309,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4331,7 +4331,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4353,7 +4353,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4375,7 +4375,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4397,7 +4397,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4419,7 +4419,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4441,7 +4441,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4463,7 +4463,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4485,7 +4485,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4507,7 +4507,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4529,7 +4529,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4551,7 +4551,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4573,7 +4573,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4595,7 +4595,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4617,7 +4617,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4639,7 +4639,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4661,7 +4661,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4683,7 +4683,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#selectedProperty() selectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4705,7 +4705,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4727,7 +4727,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4749,7 +4749,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4771,7 +4771,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4793,7 +4793,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#tableColumnProperty() tableColumnProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4815,7 +4815,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#tableRowProperty() tableRowProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4837,7 +4837,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#textAlignmentProperty() textAlignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4859,7 +4859,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#textFillProperty() textFillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4881,7 +4881,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#textOverrunProperty() textOverrunProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4903,7 +4903,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#textProperty() textProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4925,7 +4925,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#textTruncatedProperty() textTruncatedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4947,7 +4947,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4969,7 +4969,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4991,7 +4991,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5013,7 +5013,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5035,7 +5035,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#treeTableViewProperty() treeTableViewProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5057,7 +5057,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#underlineProperty() underlineProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5079,7 +5079,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5101,7 +5101,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5123,7 +5123,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5145,7 +5145,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#wrapTextProperty() wrapTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ProgressBarTreeTableCell<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link ProgressBarTreeTableCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

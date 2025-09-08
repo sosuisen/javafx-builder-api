@@ -2151,7 +2151,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2173,7 +2173,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2195,7 +2195,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2217,7 +2217,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2239,7 +2239,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2261,7 +2261,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2283,7 +2283,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2305,7 +2305,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#bottomProperty() bottomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2327,7 +2327,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2349,7 +2349,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2371,7 +2371,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2393,7 +2393,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2415,7 +2415,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2437,7 +2437,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#centerProperty() centerProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2459,7 +2459,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2481,7 +2481,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2503,7 +2503,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2525,7 +2525,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2547,7 +2547,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2569,7 +2569,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2591,7 +2591,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2613,7 +2613,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2635,7 +2635,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2657,7 +2657,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2679,7 +2679,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2701,7 +2701,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2723,7 +2723,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2745,7 +2745,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2767,7 +2767,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2789,7 +2789,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2811,7 +2811,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2833,7 +2833,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2855,7 +2855,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2877,7 +2877,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2899,7 +2899,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2921,7 +2921,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#leftProperty() leftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2943,7 +2943,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2965,7 +2965,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2987,7 +2987,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3009,7 +3009,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3031,7 +3031,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3053,7 +3053,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3075,7 +3075,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3097,7 +3097,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3119,7 +3119,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3141,7 +3141,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3163,7 +3163,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3185,7 +3185,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3207,7 +3207,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3229,7 +3229,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3251,7 +3251,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3273,7 +3273,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3295,7 +3295,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3317,7 +3317,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3339,7 +3339,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3361,7 +3361,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3383,7 +3383,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3405,7 +3405,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3427,7 +3427,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3449,7 +3449,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3471,7 +3471,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3493,7 +3493,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3515,7 +3515,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3537,7 +3537,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3559,7 +3559,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3581,7 +3581,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3603,7 +3603,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3625,7 +3625,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3647,7 +3647,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3669,7 +3669,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3691,7 +3691,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3713,7 +3713,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3735,7 +3735,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3757,7 +3757,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3779,7 +3779,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3801,7 +3801,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3823,7 +3823,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3845,7 +3845,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3867,7 +3867,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3889,7 +3889,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3911,7 +3911,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3933,7 +3933,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3955,7 +3955,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3977,7 +3977,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3999,7 +3999,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4021,7 +4021,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4043,7 +4043,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4065,7 +4065,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4087,7 +4087,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4109,7 +4109,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4131,7 +4131,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4153,7 +4153,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4175,7 +4175,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4197,7 +4197,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#rightProperty() rightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4219,7 +4219,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4241,7 +4241,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4263,7 +4263,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4285,7 +4285,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4307,7 +4307,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4329,7 +4329,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4351,7 +4351,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4373,7 +4373,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4395,7 +4395,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4417,7 +4417,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4439,7 +4439,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#topProperty() topProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4461,7 +4461,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4483,7 +4483,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4505,7 +4505,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4527,7 +4527,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4549,7 +4549,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4571,7 +4571,7 @@ public class BorderPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.BorderPane#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * This serves as a shorthand form of the {@link BorderPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

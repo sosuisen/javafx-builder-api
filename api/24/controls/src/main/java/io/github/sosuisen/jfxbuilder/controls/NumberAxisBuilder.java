@@ -2289,7 +2289,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2311,7 +2311,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2333,7 +2333,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2355,7 +2355,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2377,7 +2377,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#animatedProperty() animatedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2399,7 +2399,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#autoRangingProperty() autoRangingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2421,7 +2421,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2443,7 +2443,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2465,7 +2465,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2487,7 +2487,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2509,7 +2509,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2531,7 +2531,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2553,7 +2553,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2575,7 +2575,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2597,7 +2597,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2619,7 +2619,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2641,7 +2641,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2663,7 +2663,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2685,7 +2685,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2707,7 +2707,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2729,7 +2729,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2751,7 +2751,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2773,7 +2773,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2795,7 +2795,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2817,7 +2817,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2839,7 +2839,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2861,7 +2861,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2883,7 +2883,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#forceZeroInRangeProperty() forceZeroInRangeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2905,7 +2905,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2927,7 +2927,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2949,7 +2949,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2971,7 +2971,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2993,7 +2993,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3015,7 +3015,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#labelProperty() labelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3037,7 +3037,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3059,7 +3059,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3081,7 +3081,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3103,7 +3103,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3125,7 +3125,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3147,7 +3147,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#lowerBoundProperty() lowerBoundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3169,7 +3169,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3191,7 +3191,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3213,7 +3213,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3235,7 +3235,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3257,7 +3257,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3279,7 +3279,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#minorTickCountProperty() minorTickCountProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3301,7 +3301,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#minorTickLengthProperty() minorTickLengthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3323,7 +3323,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#minorTickVisibleProperty() minorTickVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3345,7 +3345,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3367,7 +3367,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3389,7 +3389,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3411,7 +3411,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3433,7 +3433,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3455,7 +3455,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3477,7 +3477,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3499,7 +3499,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3521,7 +3521,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3543,7 +3543,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3565,7 +3565,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3587,7 +3587,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3609,7 +3609,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3631,7 +3631,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3653,7 +3653,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3675,7 +3675,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3697,7 +3697,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3719,7 +3719,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3741,7 +3741,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3763,7 +3763,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3785,7 +3785,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3807,7 +3807,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3829,7 +3829,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3851,7 +3851,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3873,7 +3873,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3895,7 +3895,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3917,7 +3917,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3939,7 +3939,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3961,7 +3961,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3983,7 +3983,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4005,7 +4005,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4027,7 +4027,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4049,7 +4049,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4071,7 +4071,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4093,7 +4093,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4115,7 +4115,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4137,7 +4137,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4159,7 +4159,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4181,7 +4181,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4203,7 +4203,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4225,7 +4225,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4247,7 +4247,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4269,7 +4269,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4291,7 +4291,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4313,7 +4313,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4335,7 +4335,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4357,7 +4357,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4379,7 +4379,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4401,7 +4401,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4423,7 +4423,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4445,7 +4445,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4467,7 +4467,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4489,7 +4489,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#scaleProperty() scaleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4511,7 +4511,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4533,7 +4533,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4555,7 +4555,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4577,7 +4577,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4599,7 +4599,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4621,7 +4621,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4643,7 +4643,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#sideProperty() sideProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4665,7 +4665,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4687,7 +4687,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4709,7 +4709,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLabelFillProperty() tickLabelFillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4731,7 +4731,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLabelFontProperty() tickLabelFontProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4753,7 +4753,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLabelFormatterProperty() tickLabelFormatterProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4775,7 +4775,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLabelGapProperty() tickLabelGapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4797,7 +4797,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLabelRotationProperty() tickLabelRotationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4819,7 +4819,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLabelsVisibleProperty() tickLabelsVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4841,7 +4841,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLengthProperty() tickLengthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4863,7 +4863,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickMarkVisibleProperty() tickMarkVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4885,7 +4885,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickUnitProperty() tickUnitProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4907,7 +4907,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4929,7 +4929,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4951,7 +4951,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4973,7 +4973,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#upperBoundProperty() upperBoundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4995,7 +4995,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5017,7 +5017,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5039,7 +5039,7 @@ public class NumberAxisBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.NumberAxis#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * This serves as a shorthand form of the {@link NumberAxisBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

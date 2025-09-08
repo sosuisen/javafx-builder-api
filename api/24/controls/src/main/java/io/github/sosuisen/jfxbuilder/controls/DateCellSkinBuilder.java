@@ -167,7 +167,7 @@ public class DateCellSkinBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.DateCellSkin#cellSizeProperty() cellSizeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.DateCellSkin> func) apply} method.
+     * This serves as a shorthand form of the {@link DateCellSkinBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

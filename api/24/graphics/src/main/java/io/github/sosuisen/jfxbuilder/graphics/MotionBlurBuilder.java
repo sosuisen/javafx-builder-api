@@ -185,7 +185,7 @@ public class MotionBlurBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.MotionBlur#angleProperty() angleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.MotionBlur> func) apply} method.
+     * This serves as a shorthand form of the {@link MotionBlurBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -207,7 +207,7 @@ public class MotionBlurBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.MotionBlur#inputProperty() inputProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.MotionBlur> func) apply} method.
+     * This serves as a shorthand form of the {@link MotionBlurBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -229,7 +229,7 @@ public class MotionBlurBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.MotionBlur#radiusProperty() radiusProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.MotionBlur> func) apply} method.
+     * This serves as a shorthand form of the {@link MotionBlurBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

@@ -2219,7 +2219,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2241,7 +2241,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2263,7 +2263,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2285,7 +2285,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2307,7 +2307,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2329,7 +2329,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2351,7 +2351,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2373,7 +2373,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2395,7 +2395,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2417,7 +2417,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2439,7 +2439,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2461,7 +2461,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2483,7 +2483,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2505,7 +2505,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2527,7 +2527,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2549,7 +2549,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#contentDisplayProperty() contentDisplayProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2571,7 +2571,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2593,7 +2593,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2615,7 +2615,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2637,7 +2637,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2659,7 +2659,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2681,7 +2681,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#editableProperty() editableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2703,7 +2703,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#editingProperty() editingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2725,7 +2725,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2747,7 +2747,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2769,7 +2769,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#ellipsisStringProperty() ellipsisStringProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2791,7 +2791,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#emptyProperty() emptyProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2813,7 +2813,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2835,7 +2835,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2857,7 +2857,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2879,7 +2879,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2901,7 +2901,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2923,7 +2923,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#fontProperty() fontProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2945,7 +2945,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2967,7 +2967,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#graphicTextGapProperty() graphicTextGapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2989,7 +2989,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3011,7 +3011,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3033,7 +3033,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3055,7 +3055,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#indexProperty() indexProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3077,7 +3077,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3099,7 +3099,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3121,7 +3121,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#itemProperty() itemProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3143,7 +3143,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#labelPaddingProperty() labelPaddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3165,7 +3165,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3187,7 +3187,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3209,7 +3209,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3231,7 +3231,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#lineSpacingProperty() lineSpacingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3253,7 +3253,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3275,7 +3275,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3297,7 +3297,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3319,7 +3319,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3341,7 +3341,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3363,7 +3363,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3385,7 +3385,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3407,7 +3407,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3429,7 +3429,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3451,7 +3451,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3473,7 +3473,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3495,7 +3495,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3517,7 +3517,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3539,7 +3539,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3561,7 +3561,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3583,7 +3583,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3605,7 +3605,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3627,7 +3627,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3649,7 +3649,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3671,7 +3671,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3693,7 +3693,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3715,7 +3715,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3737,7 +3737,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3759,7 +3759,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3781,7 +3781,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3803,7 +3803,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3825,7 +3825,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3847,7 +3847,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3869,7 +3869,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3891,7 +3891,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3913,7 +3913,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3935,7 +3935,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3957,7 +3957,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3979,7 +3979,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4001,7 +4001,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4023,7 +4023,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4045,7 +4045,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4067,7 +4067,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4089,7 +4089,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4111,7 +4111,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4133,7 +4133,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4155,7 +4155,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4177,7 +4177,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4199,7 +4199,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4221,7 +4221,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4243,7 +4243,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4265,7 +4265,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4287,7 +4287,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4309,7 +4309,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4331,7 +4331,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4353,7 +4353,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4375,7 +4375,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4397,7 +4397,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4419,7 +4419,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4441,7 +4441,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4463,7 +4463,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4485,7 +4485,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4507,7 +4507,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4529,7 +4529,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4551,7 +4551,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4573,7 +4573,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4595,7 +4595,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4617,7 +4617,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4639,7 +4639,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4661,7 +4661,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4683,7 +4683,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#selectedProperty() selectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4705,7 +4705,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4727,7 +4727,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4749,7 +4749,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4771,7 +4771,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4793,7 +4793,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#textAlignmentProperty() textAlignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4815,7 +4815,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#textFillProperty() textFillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4837,7 +4837,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#textOverrunProperty() textOverrunProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4859,7 +4859,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#textProperty() textProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4881,7 +4881,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#textTruncatedProperty() textTruncatedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4903,7 +4903,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4925,7 +4925,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4947,7 +4947,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4969,7 +4969,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4991,7 +4991,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#underlineProperty() underlineProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5013,7 +5013,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5035,7 +5035,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5057,7 +5057,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5079,7 +5079,7 @@ public class IndexedCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.IndexedCell#wrapTextProperty() wrapTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.IndexedCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link IndexedCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

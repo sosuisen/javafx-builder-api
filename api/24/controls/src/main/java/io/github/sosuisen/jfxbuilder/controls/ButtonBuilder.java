@@ -2253,7 +2253,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2275,7 +2275,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2297,7 +2297,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2319,7 +2319,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2341,7 +2341,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2363,7 +2363,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#armedProperty() armedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2385,7 +2385,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2407,7 +2407,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2429,7 +2429,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2451,7 +2451,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2473,7 +2473,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2495,7 +2495,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2517,7 +2517,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2539,7 +2539,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2561,7 +2561,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#cancelButtonProperty() cancelButtonProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2583,7 +2583,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2605,7 +2605,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2627,7 +2627,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#contentDisplayProperty() contentDisplayProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2649,7 +2649,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2671,7 +2671,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2693,7 +2693,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#defaultButtonProperty() defaultButtonProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2715,7 +2715,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2737,7 +2737,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2759,7 +2759,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2781,7 +2781,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2803,7 +2803,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2825,7 +2825,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#ellipsisStringProperty() ellipsisStringProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2847,7 +2847,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2869,7 +2869,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2891,7 +2891,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2913,7 +2913,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2935,7 +2935,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2957,7 +2957,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#fontProperty() fontProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2979,7 +2979,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3001,7 +3001,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#graphicTextGapProperty() graphicTextGapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3023,7 +3023,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3045,7 +3045,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3067,7 +3067,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3089,7 +3089,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3111,7 +3111,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3133,7 +3133,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#labelPaddingProperty() labelPaddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3155,7 +3155,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3177,7 +3177,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3199,7 +3199,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3221,7 +3221,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#lineSpacingProperty() lineSpacingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3243,7 +3243,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3265,7 +3265,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3287,7 +3287,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3309,7 +3309,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3331,7 +3331,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3353,7 +3353,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3375,7 +3375,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3397,7 +3397,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3419,7 +3419,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3441,7 +3441,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3463,7 +3463,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3485,7 +3485,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3507,7 +3507,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3529,7 +3529,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3551,7 +3551,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3573,7 +3573,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3595,7 +3595,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3617,7 +3617,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3639,7 +3639,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3661,7 +3661,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3683,7 +3683,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3705,7 +3705,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3727,7 +3727,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3749,7 +3749,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3771,7 +3771,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3793,7 +3793,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3815,7 +3815,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3837,7 +3837,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3859,7 +3859,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3881,7 +3881,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3903,7 +3903,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3925,7 +3925,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3947,7 +3947,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3969,7 +3969,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3991,7 +3991,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4013,7 +4013,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4035,7 +4035,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4057,7 +4057,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4079,7 +4079,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4101,7 +4101,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4123,7 +4123,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4145,7 +4145,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4167,7 +4167,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4189,7 +4189,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4211,7 +4211,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4233,7 +4233,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4255,7 +4255,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4277,7 +4277,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4299,7 +4299,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4321,7 +4321,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4343,7 +4343,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4365,7 +4365,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4387,7 +4387,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4409,7 +4409,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4431,7 +4431,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4453,7 +4453,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4475,7 +4475,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4497,7 +4497,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4519,7 +4519,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4541,7 +4541,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4563,7 +4563,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4585,7 +4585,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4607,7 +4607,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4629,7 +4629,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4651,7 +4651,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4673,7 +4673,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4695,7 +4695,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4717,7 +4717,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4739,7 +4739,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4761,7 +4761,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4783,7 +4783,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#textAlignmentProperty() textAlignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4805,7 +4805,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#textFillProperty() textFillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4827,7 +4827,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#textOverrunProperty() textOverrunProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4849,7 +4849,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#textProperty() textProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4871,7 +4871,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#textTruncatedProperty() textTruncatedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4893,7 +4893,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4915,7 +4915,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4937,7 +4937,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4959,7 +4959,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4981,7 +4981,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#underlineProperty() underlineProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5003,7 +5003,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5025,7 +5025,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5047,7 +5047,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5069,7 +5069,7 @@ public class ButtonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Button#wrapTextProperty() wrapTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Button> func) apply} method.
+     * This serves as a shorthand form of the {@link ButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

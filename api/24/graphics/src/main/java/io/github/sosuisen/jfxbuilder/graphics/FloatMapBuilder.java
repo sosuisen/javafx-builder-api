@@ -225,7 +225,7 @@ public class FloatMapBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.FloatMap#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.FloatMap> func) apply} method.
+     * This serves as a shorthand form of the {@link FloatMapBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -247,7 +247,7 @@ public class FloatMapBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.FloatMap#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.FloatMap> func) apply} method.
+     * This serves as a shorthand form of the {@link FloatMapBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

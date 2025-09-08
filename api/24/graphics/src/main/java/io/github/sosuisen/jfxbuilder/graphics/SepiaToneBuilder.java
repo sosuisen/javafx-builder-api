@@ -175,7 +175,7 @@ public class SepiaToneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.SepiaTone#inputProperty() inputProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.SepiaTone> func) apply} method.
+     * This serves as a shorthand form of the {@link SepiaToneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -197,7 +197,7 @@ public class SepiaToneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.SepiaTone#levelProperty() levelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.SepiaTone> func) apply} method.
+     * This serves as a shorthand form of the {@link SepiaToneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

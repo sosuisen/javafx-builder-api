@@ -187,7 +187,7 @@ public class MenuBarSkinBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.MenuBarSkin#containerAlignmentProperty() containerAlignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.MenuBarSkin> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuBarSkinBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -209,7 +209,7 @@ public class MenuBarSkinBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.MenuBarSkin#spacingProperty() spacingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.MenuBarSkin> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuBarSkinBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

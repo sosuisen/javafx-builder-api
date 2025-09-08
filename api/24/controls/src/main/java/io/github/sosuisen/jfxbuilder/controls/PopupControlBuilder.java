@@ -517,7 +517,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#anchorLocationProperty() anchorLocationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -539,7 +539,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#anchorXProperty() anchorXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -561,7 +561,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#anchorYProperty() anchorYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -583,7 +583,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#autoFixProperty() autoFixProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -605,7 +605,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#autoHideProperty() autoHideProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -627,7 +627,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#consumeAutoHidingEventsProperty() consumeAutoHidingEventsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -649,7 +649,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -671,7 +671,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -693,7 +693,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#forceIntegerRenderScaleProperty() forceIntegerRenderScaleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -715,7 +715,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -737,7 +737,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#hideOnEscapeProperty() hideOnEscapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -759,7 +759,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -781,7 +781,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -803,7 +803,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -825,7 +825,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -847,7 +847,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -869,7 +869,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#onAutoHideProperty() onAutoHideProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -891,7 +891,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#onCloseRequestProperty() onCloseRequestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -913,7 +913,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -935,7 +935,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -957,7 +957,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -979,7 +979,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1001,7 +1001,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1023,7 +1023,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#outputScaleXProperty() outputScaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1045,7 +1045,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#outputScaleYProperty() outputScaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1067,7 +1067,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#ownerNodeProperty() ownerNodeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1089,7 +1089,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#ownerWindowProperty() ownerWindowProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1111,7 +1111,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1133,7 +1133,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1155,7 +1155,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#renderScaleXProperty() renderScaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1177,7 +1177,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#renderScaleYProperty() renderScaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1199,7 +1199,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1221,7 +1221,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#showingProperty() showingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1243,7 +1243,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1265,7 +1265,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1287,7 +1287,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1309,7 +1309,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1331,7 +1331,7 @@ public class PopupControlBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PopupControl#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * This serves as a shorthand form of the {@link PopupControlBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

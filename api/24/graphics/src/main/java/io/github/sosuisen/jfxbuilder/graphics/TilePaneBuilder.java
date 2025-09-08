@@ -2256,7 +2256,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2278,7 +2278,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2300,7 +2300,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2322,7 +2322,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2344,7 +2344,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2366,7 +2366,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2388,7 +2388,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2410,7 +2410,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2432,7 +2432,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2454,7 +2454,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2476,7 +2476,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2498,7 +2498,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2520,7 +2520,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2542,7 +2542,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2564,7 +2564,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2586,7 +2586,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2608,7 +2608,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2630,7 +2630,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2652,7 +2652,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2674,7 +2674,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2696,7 +2696,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2718,7 +2718,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2740,7 +2740,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2762,7 +2762,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2784,7 +2784,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2806,7 +2806,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2828,7 +2828,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2850,7 +2850,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#hgapProperty() hgapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2872,7 +2872,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2894,7 +2894,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2916,7 +2916,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2938,7 +2938,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2960,7 +2960,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2982,7 +2982,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3004,7 +3004,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3026,7 +3026,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3048,7 +3048,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3070,7 +3070,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3092,7 +3092,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3114,7 +3114,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3136,7 +3136,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3158,7 +3158,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3180,7 +3180,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3202,7 +3202,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3224,7 +3224,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3246,7 +3246,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3268,7 +3268,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3290,7 +3290,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3312,7 +3312,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3334,7 +3334,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3356,7 +3356,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3378,7 +3378,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3400,7 +3400,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3422,7 +3422,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3444,7 +3444,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3466,7 +3466,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3488,7 +3488,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3510,7 +3510,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3532,7 +3532,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3554,7 +3554,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3576,7 +3576,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3598,7 +3598,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3620,7 +3620,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3642,7 +3642,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3664,7 +3664,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3686,7 +3686,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3708,7 +3708,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3730,7 +3730,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3752,7 +3752,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3774,7 +3774,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3796,7 +3796,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3818,7 +3818,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3840,7 +3840,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3862,7 +3862,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3884,7 +3884,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3906,7 +3906,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3928,7 +3928,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3950,7 +3950,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3972,7 +3972,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3994,7 +3994,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4016,7 +4016,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4038,7 +4038,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4060,7 +4060,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4082,7 +4082,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4104,7 +4104,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4126,7 +4126,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4148,7 +4148,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#orientationProperty() orientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4170,7 +4170,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4192,7 +4192,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4214,7 +4214,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4236,7 +4236,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#prefColumnsProperty() prefColumnsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4258,7 +4258,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4280,7 +4280,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#prefRowsProperty() prefRowsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4302,7 +4302,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#prefTileHeightProperty() prefTileHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4324,7 +4324,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#prefTileWidthProperty() prefTileWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4346,7 +4346,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4368,7 +4368,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4390,7 +4390,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4412,7 +4412,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4434,7 +4434,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4456,7 +4456,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4478,7 +4478,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4500,7 +4500,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4522,7 +4522,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4544,7 +4544,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4566,7 +4566,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4588,7 +4588,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4610,7 +4610,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#tileAlignmentProperty() tileAlignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4632,7 +4632,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#tileHeightProperty() tileHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4654,7 +4654,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#tileWidthProperty() tileWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4676,7 +4676,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4698,7 +4698,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4720,7 +4720,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4742,7 +4742,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#vgapProperty() vgapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4764,7 +4764,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4786,7 +4786,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4808,7 +4808,7 @@ public class TilePaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.TilePane#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) apply} method.
+     * This serves as a shorthand form of the {@link TilePaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

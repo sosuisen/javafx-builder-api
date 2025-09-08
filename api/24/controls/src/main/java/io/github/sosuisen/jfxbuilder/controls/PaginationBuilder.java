@@ -2123,7 +2123,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2145,7 +2145,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2167,7 +2167,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2189,7 +2189,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2211,7 +2211,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2233,7 +2233,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2255,7 +2255,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2277,7 +2277,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2299,7 +2299,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2321,7 +2321,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2343,7 +2343,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2365,7 +2365,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2387,7 +2387,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2409,7 +2409,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2431,7 +2431,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2453,7 +2453,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#currentPageIndexProperty() currentPageIndexProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2475,7 +2475,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2497,7 +2497,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2519,7 +2519,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2541,7 +2541,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2563,7 +2563,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2585,7 +2585,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2607,7 +2607,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2629,7 +2629,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2651,7 +2651,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2673,7 +2673,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2695,7 +2695,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2717,7 +2717,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2739,7 +2739,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2761,7 +2761,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2783,7 +2783,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2805,7 +2805,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2827,7 +2827,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2849,7 +2849,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2871,7 +2871,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2893,7 +2893,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2915,7 +2915,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2937,7 +2937,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2959,7 +2959,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2981,7 +2981,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#maxPageIndicatorCountProperty() maxPageIndicatorCountProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3003,7 +3003,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3025,7 +3025,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3047,7 +3047,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3069,7 +3069,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3091,7 +3091,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3113,7 +3113,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3135,7 +3135,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3157,7 +3157,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3179,7 +3179,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3201,7 +3201,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3223,7 +3223,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3245,7 +3245,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3267,7 +3267,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3289,7 +3289,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3311,7 +3311,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3333,7 +3333,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3355,7 +3355,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3377,7 +3377,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3399,7 +3399,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3421,7 +3421,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3443,7 +3443,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3465,7 +3465,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3487,7 +3487,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3509,7 +3509,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3531,7 +3531,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3553,7 +3553,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3575,7 +3575,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3597,7 +3597,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3619,7 +3619,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3641,7 +3641,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3663,7 +3663,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3685,7 +3685,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3707,7 +3707,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3729,7 +3729,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3751,7 +3751,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3773,7 +3773,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3795,7 +3795,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3817,7 +3817,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3839,7 +3839,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3861,7 +3861,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3883,7 +3883,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3905,7 +3905,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3927,7 +3927,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3949,7 +3949,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3971,7 +3971,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3993,7 +3993,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4015,7 +4015,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4037,7 +4037,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4059,7 +4059,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#pageCountProperty() pageCountProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4081,7 +4081,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#pageFactoryProperty() pageFactoryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4103,7 +4103,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4125,7 +4125,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4147,7 +4147,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4169,7 +4169,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4191,7 +4191,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4213,7 +4213,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4235,7 +4235,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4257,7 +4257,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4279,7 +4279,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4301,7 +4301,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4323,7 +4323,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4345,7 +4345,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4367,7 +4367,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4389,7 +4389,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4411,7 +4411,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4433,7 +4433,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4455,7 +4455,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4477,7 +4477,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4499,7 +4499,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4521,7 +4521,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4543,7 +4543,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4565,7 +4565,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4587,7 +4587,7 @@ public class PaginationBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Pagination#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Pagination> func) apply} method.
+     * This serves as a shorthand form of the {@link PaginationBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

@@ -2219,7 +2219,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2241,7 +2241,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2263,7 +2263,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2285,7 +2285,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2307,7 +2307,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2329,7 +2329,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2351,7 +2351,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2373,7 +2373,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2395,7 +2395,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2417,7 +2417,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2439,7 +2439,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2461,7 +2461,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2483,7 +2483,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2505,7 +2505,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2527,7 +2527,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2549,7 +2549,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#contentDisplayProperty() contentDisplayProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2571,7 +2571,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2593,7 +2593,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2615,7 +2615,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2637,7 +2637,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2659,7 +2659,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2681,7 +2681,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#editableProperty() editableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2703,7 +2703,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#editingProperty() editingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2725,7 +2725,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2747,7 +2747,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2769,7 +2769,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#ellipsisStringProperty() ellipsisStringProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2791,7 +2791,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#emptyProperty() emptyProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2813,7 +2813,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2835,7 +2835,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2857,7 +2857,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2879,7 +2879,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2901,7 +2901,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2923,7 +2923,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#fontProperty() fontProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2945,7 +2945,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2967,7 +2967,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#graphicTextGapProperty() graphicTextGapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2989,7 +2989,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3011,7 +3011,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3033,7 +3033,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3055,7 +3055,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3077,7 +3077,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3099,7 +3099,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#itemProperty() itemProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3121,7 +3121,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#labelPaddingProperty() labelPaddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3143,7 +3143,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3165,7 +3165,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3187,7 +3187,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3209,7 +3209,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#lineSpacingProperty() lineSpacingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3231,7 +3231,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3253,7 +3253,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3275,7 +3275,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3297,7 +3297,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3319,7 +3319,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3341,7 +3341,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3363,7 +3363,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3385,7 +3385,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3407,7 +3407,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3429,7 +3429,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3451,7 +3451,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3473,7 +3473,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3495,7 +3495,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3517,7 +3517,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3539,7 +3539,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3561,7 +3561,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3583,7 +3583,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3605,7 +3605,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3627,7 +3627,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3649,7 +3649,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3671,7 +3671,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3693,7 +3693,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3715,7 +3715,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3737,7 +3737,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3759,7 +3759,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3781,7 +3781,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3803,7 +3803,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3825,7 +3825,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3847,7 +3847,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3869,7 +3869,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3891,7 +3891,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3913,7 +3913,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3935,7 +3935,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3957,7 +3957,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3979,7 +3979,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4001,7 +4001,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4023,7 +4023,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4045,7 +4045,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4067,7 +4067,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4089,7 +4089,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4111,7 +4111,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4133,7 +4133,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4155,7 +4155,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4177,7 +4177,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4199,7 +4199,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4221,7 +4221,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4243,7 +4243,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4265,7 +4265,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4287,7 +4287,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4309,7 +4309,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4331,7 +4331,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4353,7 +4353,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4375,7 +4375,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4397,7 +4397,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4419,7 +4419,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4441,7 +4441,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4463,7 +4463,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4485,7 +4485,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4507,7 +4507,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4529,7 +4529,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4551,7 +4551,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4573,7 +4573,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4595,7 +4595,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4617,7 +4617,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4639,7 +4639,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4661,7 +4661,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#selectedProperty() selectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4683,7 +4683,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4705,7 +4705,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4727,7 +4727,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4749,7 +4749,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4771,7 +4771,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#textAlignmentProperty() textAlignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4793,7 +4793,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#textFillProperty() textFillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4815,7 +4815,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#textOverrunProperty() textOverrunProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4837,7 +4837,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#textProperty() textProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4859,7 +4859,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#textTruncatedProperty() textTruncatedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4881,7 +4881,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4903,7 +4903,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4925,7 +4925,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4947,7 +4947,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4969,7 +4969,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#underlineProperty() underlineProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4991,7 +4991,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5013,7 +5013,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5035,7 +5035,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5057,7 +5057,7 @@ public class CellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.Cell#wrapTextProperty() wrapTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Cell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

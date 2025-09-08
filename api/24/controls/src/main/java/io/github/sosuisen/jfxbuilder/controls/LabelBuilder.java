@@ -2233,7 +2233,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2255,7 +2255,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2277,7 +2277,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2299,7 +2299,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2321,7 +2321,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2343,7 +2343,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2365,7 +2365,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2387,7 +2387,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2409,7 +2409,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2431,7 +2431,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2453,7 +2453,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2475,7 +2475,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2497,7 +2497,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2519,7 +2519,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2541,7 +2541,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2563,7 +2563,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#contentDisplayProperty() contentDisplayProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2585,7 +2585,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2607,7 +2607,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2629,7 +2629,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2651,7 +2651,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2673,7 +2673,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2695,7 +2695,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2717,7 +2717,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2739,7 +2739,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#ellipsisStringProperty() ellipsisStringProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2761,7 +2761,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2783,7 +2783,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2805,7 +2805,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2827,7 +2827,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2849,7 +2849,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2871,7 +2871,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#fontProperty() fontProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2893,7 +2893,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2915,7 +2915,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#graphicTextGapProperty() graphicTextGapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2937,7 +2937,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2959,7 +2959,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2981,7 +2981,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3003,7 +3003,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3025,7 +3025,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3047,7 +3047,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#labelForProperty() labelForProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3069,7 +3069,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#labelPaddingProperty() labelPaddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3091,7 +3091,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3113,7 +3113,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3135,7 +3135,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3157,7 +3157,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#lineSpacingProperty() lineSpacingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3179,7 +3179,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3201,7 +3201,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3223,7 +3223,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3245,7 +3245,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3267,7 +3267,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3289,7 +3289,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3311,7 +3311,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3333,7 +3333,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3355,7 +3355,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3377,7 +3377,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3399,7 +3399,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3421,7 +3421,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3443,7 +3443,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3465,7 +3465,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3487,7 +3487,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3509,7 +3509,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3531,7 +3531,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3553,7 +3553,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3575,7 +3575,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3597,7 +3597,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3619,7 +3619,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3641,7 +3641,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3663,7 +3663,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3685,7 +3685,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3707,7 +3707,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3729,7 +3729,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3751,7 +3751,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3773,7 +3773,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3795,7 +3795,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3817,7 +3817,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3839,7 +3839,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3861,7 +3861,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3883,7 +3883,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3905,7 +3905,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3927,7 +3927,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3949,7 +3949,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3971,7 +3971,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3993,7 +3993,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4015,7 +4015,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4037,7 +4037,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4059,7 +4059,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4081,7 +4081,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4103,7 +4103,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4125,7 +4125,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4147,7 +4147,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4169,7 +4169,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4191,7 +4191,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4213,7 +4213,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4235,7 +4235,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4257,7 +4257,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4279,7 +4279,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4301,7 +4301,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4323,7 +4323,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4345,7 +4345,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4367,7 +4367,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4389,7 +4389,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4411,7 +4411,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4433,7 +4433,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4455,7 +4455,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4477,7 +4477,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4499,7 +4499,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4521,7 +4521,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4543,7 +4543,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4565,7 +4565,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4587,7 +4587,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4609,7 +4609,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4631,7 +4631,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4653,7 +4653,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4675,7 +4675,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4697,7 +4697,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#textAlignmentProperty() textAlignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4719,7 +4719,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#textFillProperty() textFillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4741,7 +4741,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#textOverrunProperty() textOverrunProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4763,7 +4763,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#textProperty() textProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4785,7 +4785,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#textTruncatedProperty() textTruncatedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4807,7 +4807,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4829,7 +4829,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4851,7 +4851,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4873,7 +4873,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4895,7 +4895,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#underlineProperty() underlineProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4917,7 +4917,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4939,7 +4939,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4961,7 +4961,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4983,7 +4983,7 @@ public class LabelBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Label#wrapTextProperty() wrapTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * This serves as a shorthand form of the {@link LabelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

@@ -235,7 +235,7 @@ public class LightSpotBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Spot#colorProperty() colorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
+     * This serves as a shorthand form of the {@link LightSpotBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -257,7 +257,7 @@ public class LightSpotBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Spot#pointsAtXProperty() pointsAtXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
+     * This serves as a shorthand form of the {@link LightSpotBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -279,7 +279,7 @@ public class LightSpotBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Spot#pointsAtYProperty() pointsAtYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
+     * This serves as a shorthand form of the {@link LightSpotBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -301,7 +301,7 @@ public class LightSpotBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Spot#pointsAtZProperty() pointsAtZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
+     * This serves as a shorthand form of the {@link LightSpotBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -323,7 +323,7 @@ public class LightSpotBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Spot#specularExponentProperty() specularExponentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
+     * This serves as a shorthand form of the {@link LightSpotBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -345,7 +345,7 @@ public class LightSpotBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Spot#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
+     * This serves as a shorthand form of the {@link LightSpotBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -367,7 +367,7 @@ public class LightSpotBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Spot#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
+     * This serves as a shorthand form of the {@link LightSpotBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -389,7 +389,7 @@ public class LightSpotBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Spot#zProperty() zProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
+     * This serves as a shorthand form of the {@link LightSpotBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

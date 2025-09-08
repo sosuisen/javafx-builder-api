@@ -313,7 +313,7 @@ public class CheckMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckMenuItem#acceleratorProperty() acceleratorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -335,7 +335,7 @@ public class CheckMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckMenuItem#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -357,7 +357,7 @@ public class CheckMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckMenuItem#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -379,7 +379,7 @@ public class CheckMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckMenuItem#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -401,7 +401,7 @@ public class CheckMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckMenuItem#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -423,7 +423,7 @@ public class CheckMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckMenuItem#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -445,7 +445,7 @@ public class CheckMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckMenuItem#onMenuValidationProperty() onMenuValidationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -467,7 +467,7 @@ public class CheckMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckMenuItem#parentMenuProperty() parentMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -489,7 +489,7 @@ public class CheckMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckMenuItem#parentPopupProperty() parentPopupProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -511,7 +511,7 @@ public class CheckMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckMenuItem#selectedProperty() selectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -533,7 +533,7 @@ public class CheckMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckMenuItem#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -555,7 +555,7 @@ public class CheckMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckMenuItem#textProperty() textProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -577,7 +577,7 @@ public class CheckMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckMenuItem#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

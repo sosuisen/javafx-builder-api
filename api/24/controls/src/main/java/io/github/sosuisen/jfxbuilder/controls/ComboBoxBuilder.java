@@ -2268,7 +2268,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2290,7 +2290,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2312,7 +2312,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2334,7 +2334,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2356,7 +2356,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#armedProperty() armedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2378,7 +2378,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2400,7 +2400,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2422,7 +2422,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2444,7 +2444,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2466,7 +2466,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2488,7 +2488,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#buttonCellProperty() buttonCellProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2510,7 +2510,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2532,7 +2532,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2554,7 +2554,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2576,7 +2576,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#cellFactoryProperty() cellFactoryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2598,7 +2598,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2620,7 +2620,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2642,7 +2642,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2664,7 +2664,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#converterProperty() converterProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2686,7 +2686,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2708,7 +2708,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2730,7 +2730,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2752,7 +2752,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2774,7 +2774,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#editableProperty() editableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2796,7 +2796,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#editorProperty() editorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2818,7 +2818,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2840,7 +2840,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2862,7 +2862,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2884,7 +2884,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2906,7 +2906,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2928,7 +2928,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2950,7 +2950,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2972,7 +2972,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2994,7 +2994,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3016,7 +3016,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3038,7 +3038,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3060,7 +3060,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3082,7 +3082,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#itemsProperty() itemsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3104,7 +3104,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3126,7 +3126,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3148,7 +3148,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3170,7 +3170,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3192,7 +3192,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3214,7 +3214,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3236,7 +3236,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3258,7 +3258,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3280,7 +3280,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3302,7 +3302,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3324,7 +3324,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3346,7 +3346,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3368,7 +3368,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3390,7 +3390,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3412,7 +3412,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3434,7 +3434,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3456,7 +3456,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3478,7 +3478,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3500,7 +3500,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3522,7 +3522,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3544,7 +3544,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3566,7 +3566,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3588,7 +3588,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3610,7 +3610,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3632,7 +3632,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3654,7 +3654,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3676,7 +3676,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3698,7 +3698,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3720,7 +3720,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3742,7 +3742,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3764,7 +3764,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3786,7 +3786,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3808,7 +3808,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3830,7 +3830,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3852,7 +3852,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3874,7 +3874,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3896,7 +3896,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3918,7 +3918,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3940,7 +3940,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3962,7 +3962,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3984,7 +3984,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4006,7 +4006,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4028,7 +4028,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4050,7 +4050,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4072,7 +4072,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4094,7 +4094,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4116,7 +4116,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4138,7 +4138,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4160,7 +4160,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4182,7 +4182,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4204,7 +4204,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4226,7 +4226,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4248,7 +4248,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4270,7 +4270,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4292,7 +4292,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4314,7 +4314,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4336,7 +4336,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4358,7 +4358,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4380,7 +4380,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4402,7 +4402,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4424,7 +4424,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4446,7 +4446,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4468,7 +4468,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#placeholderProperty() placeholderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4490,7 +4490,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4512,7 +4512,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4534,7 +4534,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4556,7 +4556,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#promptTextProperty() promptTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4578,7 +4578,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4600,7 +4600,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4622,7 +4622,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4644,7 +4644,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4666,7 +4666,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4688,7 +4688,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4710,7 +4710,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4732,7 +4732,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#selectionModelProperty() selectionModelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4754,7 +4754,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4776,7 +4776,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#showingProperty() showingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4798,7 +4798,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4820,7 +4820,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4842,7 +4842,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4864,7 +4864,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4886,7 +4886,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4908,7 +4908,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4930,7 +4930,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4952,7 +4952,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#valueProperty() valueProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4974,7 +4974,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4996,7 +4996,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5018,7 +5018,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#visibleRowCountProperty() visibleRowCountProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5040,7 +5040,7 @@ public class ComboBoxBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link ComboBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
