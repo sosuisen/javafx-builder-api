@@ -1,8 +1,8 @@
 package io.github.sosuisen.model;
 
 import java.lang.reflect.Parameter;
+import java.lang.reflect.Type;
 import java.util.Map;
-
 import io.github.sosuisen.model.mapper.TypeMappingManager;
 
 public class ParameterStringBuilder {
@@ -42,30 +42,36 @@ public class ParameterStringBuilder {
         return argList.toString();
     }
 
-    public static String buildParameterListCanonicalTypesOnly(Parameter[] parameters) {
+    public static String buildParameterListCanonicalTypesOnly(Type[] types) {
         StringBuilder argList = new StringBuilder();
-        for (int i = 0; i < parameters.length; i++) {
-            Parameter param = parameters[i];
-            String typeName = toReadableTypeName(param.getType().getName());
+        for (int i = 0; i < types.length; i++) {
+            Type type = types[i];
+            String typeName = toReadableTypeName(type.getTypeName());
+            typeName = typeName.replaceAll("<(.+)>$", "");
             typeName = typeName.replace("$", ".");
+            typeName = typeName.replace("[]", "...");
+
             argList.append(typeName);
-            if (i < parameters.length - 1) {
+            if (i < types.length - 1) {
                 argList.append(", ");
             }
         }
         return argList.toString();
     }
 
-    public static String buildParameterListSimpleTypesOnly(Parameter[] parameters) {
-        StringBuilder argList = new StringBuilder();
-        for (int i = 0; i < parameters.length; i++) {
-            Parameter param = parameters[i];
-            String typeName = toReadableTypeName(param.getType().getName());
 
+    public static String buildParameterListSimpleTypesOnly(Type[] types) {
+        StringBuilder argList = new StringBuilder();
+        for (int i = 0; i < types.length; i++) {
+            Type type = types[i];
+            String typeName = toReadableTypeName(type.getTypeName());
+            typeName = typeName.replaceAll("<(.+)>$", "");
             typeName = typeName.substring(findLastDotWordIndexReverse(typeName) + 1);
             typeName = typeName.replace("$", ".");
+            typeName = typeName.replace("[]", "...");
+
             argList.append(typeName);
-            if (i < parameters.length - 1) {
+            if (i < types.length - 1) {
                 argList.append(", ");
             }
         }

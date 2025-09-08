@@ -437,7 +437,7 @@ public class TreeTableRowBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TreeTableRow#setItem(java.lang.Object) setItem} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TreeTableRow#setItem(T) setItem} method on the instance being constructed.
      *
      * @return builder instance
      */

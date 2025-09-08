@@ -64,6 +64,7 @@ public class MenuButtonBuilder {
      *
      * @return an instance of the {@code MenuButtonBuilder}.
      */
+    @SafeVarargs
     public static MenuButtonBuilder create(java.lang.String text, javafx.scene.Node graphic, javafx.scene.control.MenuItem... items) {
         MenuButtonBuilder builder = new MenuButtonBuilder();
         builder.constructorArgs = new Object[]{text, graphic, items};

@@ -40,6 +40,7 @@ public class TabPaneBuilder {
      *
      * @return an instance of the {@code TabPaneBuilder}.
      */
+    @SafeVarargs
     public static TabPaneBuilder create(javafx.scene.control.Tab... tabs) {
         TabPaneBuilder builder = new TabPaneBuilder();
         builder.constructorArgs = new Object[]{tabs};

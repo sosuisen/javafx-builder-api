@@ -76,9 +76,17 @@ public record AddWithMethodModel(
                             classMetadata.getCanonicalClassName(),
                             observableListTypeParameter
                         );
+
                         Matcher innerMatcher = pattern.matcher(observableListTypeParameter);
                         if (innerMatcher.find()) {
                             // e.g.) javafx.scene.chart.XYChart.Series<X, Y>...
+                            isSafeVarargs = true;
+                        }
+                        Pattern singleCharPattern = Pattern.compile("^\\w$");
+                        Matcher singleCharMatcher =
+                            singleCharPattern.matcher(observableListTypeParameter);
+                        if (singleCharMatcher.find()) {
+                            // e.g.) T...
                             isSafeVarargs = true;
                         }
                     }

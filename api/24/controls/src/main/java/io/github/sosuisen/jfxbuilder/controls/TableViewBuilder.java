@@ -1286,6 +1286,7 @@ public class TableViewBuilder<S> {
      * 
      * @return builder instance
      */
+    @SafeVarargs
     public final TableViewBuilder<S> addItems(S... elements) {
         operations.add(obj -> obj.getItems().addAll(elements));
         return this;
@@ -1306,6 +1307,7 @@ public class TableViewBuilder<S> {
      * 
      * @return builder instance
      */
+    @SafeVarargs
     public static <S> TableViewBuilder<S> withItems(S... elements) {
         TableViewBuilder<S> builder = new TableViewBuilder<S>();
         return builder.addItems(elements);

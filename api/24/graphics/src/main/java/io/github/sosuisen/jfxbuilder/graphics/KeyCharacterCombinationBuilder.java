@@ -45,6 +45,7 @@ public class KeyCharacterCombinationBuilder {
      *
      * @return an instance of the {@code KeyCharacterCombinationBuilder}.
      */
+    @SafeVarargs
     public static KeyCharacterCombinationBuilder create(java.lang.String character, javafx.scene.input.KeyCombination.Modifier... modifiers) {
         KeyCharacterCombinationBuilder builder = new KeyCharacterCombinationBuilder();
         builder.constructorArgs = new Object[]{character, modifiers};

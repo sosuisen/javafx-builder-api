@@ -40,6 +40,7 @@ public class AnchorPaneBuilder {
      *
      * @return an instance of the {@code AnchorPaneBuilder}.
      */
+    @SafeVarargs
     public static AnchorPaneBuilder create(javafx.scene.Node... children) {
         AnchorPaneBuilder builder = new AnchorPaneBuilder();
         builder.constructorArgs = new Object[]{children};

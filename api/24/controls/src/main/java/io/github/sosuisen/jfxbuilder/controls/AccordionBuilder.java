@@ -40,6 +40,7 @@ public class AccordionBuilder {
      *
      * @return an instance of the {@code AccordionBuilder}.
      */
+    @SafeVarargs
     public static AccordionBuilder create(javafx.scene.control.TitledPane... titledPanes) {
         AccordionBuilder builder = new AccordionBuilder();
         builder.constructorArgs = new Object[]{titledPanes};

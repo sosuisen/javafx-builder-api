@@ -1169,7 +1169,7 @@ public class ChoiceBoxBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setValue(java.lang.Object) setValue} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setValue(T) setValue} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1203,6 +1203,7 @@ public class ChoiceBoxBuilder<T> {
      * 
      * @return builder instance
      */
+    @SafeVarargs
     public final ChoiceBoxBuilder<T> addItems(T... elements) {
         operations.add(obj -> obj.getItems().addAll(elements));
         return this;
@@ -1223,6 +1224,7 @@ public class ChoiceBoxBuilder<T> {
      * 
      * @return builder instance
      */
+    @SafeVarargs
     public static <T> ChoiceBoxBuilder<T> withItems(T... elements) {
         ChoiceBoxBuilder<T> builder = new ChoiceBoxBuilder<T>();
         return builder.addItems(elements);

@@ -45,6 +45,7 @@ public class AlertBuilder {
      *
      * @return an instance of the {@code AlertBuilder}.
      */
+    @SafeVarargs
     public static AlertBuilder create(javafx.scene.control.Alert.AlertType alertType, java.lang.String contentText, javafx.scene.control.ButtonType... buttons) {
         AlertBuilder builder = new AlertBuilder();
         builder.constructorArgs = new Object[]{alertType, contentText, buttons};
@@ -271,7 +272,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setResult(java.lang.Object) setResult} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setResult(R) setResult} method on the instance being constructed.
      *
      * @return builder instance
      */

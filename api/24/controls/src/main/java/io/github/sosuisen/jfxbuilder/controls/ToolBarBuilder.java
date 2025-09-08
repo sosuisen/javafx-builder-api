@@ -40,6 +40,7 @@ public class ToolBarBuilder {
      *
      * @return an instance of the {@code ToolBarBuilder}.
      */
+    @SafeVarargs
     public static ToolBarBuilder create(javafx.scene.Node... items) {
         ToolBarBuilder builder = new ToolBarBuilder();
         builder.constructorArgs = new Object[]{items};

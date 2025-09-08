@@ -45,6 +45,7 @@ public class BorderBuilder {
      *
      * @return an instance of the {@code BorderBuilder}.
      */
+    @SafeVarargs
     public static BorderBuilder create(javafx.scene.layout.BorderImage... images) {
         BorderBuilder builder = new BorderBuilder();
         builder.constructorArgs = new Object[]{images};
@@ -57,6 +58,7 @@ public class BorderBuilder {
      *
      * @return an instance of the {@code BorderBuilder}.
      */
+    @SafeVarargs
     public static BorderBuilder create(javafx.scene.layout.BorderStroke... strokes) {
         BorderBuilder builder = new BorderBuilder();
         builder.constructorArgs = new Object[]{strokes};

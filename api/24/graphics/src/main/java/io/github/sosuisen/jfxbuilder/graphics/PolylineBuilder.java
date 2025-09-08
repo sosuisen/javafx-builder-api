@@ -40,6 +40,7 @@ public class PolylineBuilder {
      *
      * @return an instance of the {@code PolylineBuilder}.
      */
+    @SafeVarargs
     public static PolylineBuilder create(double... points) {
         PolylineBuilder builder = new PolylineBuilder();
         builder.constructorArgs = new Object[]{points};

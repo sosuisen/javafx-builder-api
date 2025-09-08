@@ -52,6 +52,7 @@ public class FlowPaneBuilder {
      *
      * @return an instance of the {@code FlowPaneBuilder}.
      */
+    @SafeVarargs
     public static FlowPaneBuilder create(double hgap, double vgap, javafx.scene.Node... children) {
         FlowPaneBuilder builder = new FlowPaneBuilder();
         builder.constructorArgs = new Object[]{hgap, vgap, children};
@@ -88,6 +89,7 @@ public class FlowPaneBuilder {
      *
      * @return an instance of the {@code FlowPaneBuilder}.
      */
+    @SafeVarargs
     public static FlowPaneBuilder create(javafx.geometry.Orientation orientation, double hgap, double vgap, javafx.scene.Node... children) {
         FlowPaneBuilder builder = new FlowPaneBuilder();
         builder.constructorArgs = new Object[]{orientation, hgap, vgap, children};
@@ -100,6 +102,7 @@ public class FlowPaneBuilder {
      *
      * @return an instance of the {@code FlowPaneBuilder}.
      */
+    @SafeVarargs
     public static FlowPaneBuilder create(javafx.geometry.Orientation orientation, javafx.scene.Node... children) {
         FlowPaneBuilder builder = new FlowPaneBuilder();
         builder.constructorArgs = new Object[]{orientation, children};
@@ -112,6 +115,7 @@ public class FlowPaneBuilder {
      *
      * @return an instance of the {@code FlowPaneBuilder}.
      */
+    @SafeVarargs
     public static FlowPaneBuilder create(javafx.scene.Node... children) {
         FlowPaneBuilder builder = new FlowPaneBuilder();
         builder.constructorArgs = new Object[]{children};

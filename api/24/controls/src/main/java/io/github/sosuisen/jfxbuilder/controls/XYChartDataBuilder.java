@@ -35,7 +35,7 @@ public class XYChartDataBuilder<X, Y> {
     public static <X, Y> XYChartDataBuilder<X, Y> create() { return new XYChartDataBuilder<X, Y>(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.chart.XYChart.Data#Data(java.lang.Object, java.lang.Object) Data(Object, Object)}
+     * Accepts the constructor arguments of {@link javafx.scene.chart.XYChart.Data#Data(X, Y) Data(X, Y)}
      * and returns an instance of {@code XYChartDataBuilder<X, Y>}.
      *
      * @return an instance of the {@code XYChartDataBuilder<X, Y>}.
@@ -47,7 +47,7 @@ public class XYChartDataBuilder<X, Y> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.chart.XYChart.Data#Data(java.lang.Object, java.lang.Object, java.lang.Object) Data(Object, Object, Object)}
+     * Accepts the constructor arguments of {@link javafx.scene.chart.XYChart.Data#Data(X, Y, java.lang.Object) Data(X, Y, Object)}
      * and returns an instance of {@code XYChartDataBuilder<X, Y>}.
      *
      * @return an instance of the {@code XYChartDataBuilder<X, Y>}.
@@ -186,7 +186,7 @@ public class XYChartDataBuilder<X, Y> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.chart.XYChart.Data#setXValue(java.lang.Object) setXValue} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.chart.XYChart.Data#setXValue(X) setXValue} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -196,7 +196,7 @@ public class XYChartDataBuilder<X, Y> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.chart.XYChart.Data#setYValue(java.lang.Object) setYValue} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.chart.XYChart.Data#setYValue(Y) setYValue} method on the instance being constructed.
      *
      * @return builder instance
      */

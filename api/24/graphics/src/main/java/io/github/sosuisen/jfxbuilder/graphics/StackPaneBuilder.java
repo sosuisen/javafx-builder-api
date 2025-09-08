@@ -40,6 +40,7 @@ public class StackPaneBuilder {
      *
      * @return an instance of the {@code StackPaneBuilder}.
      */
+    @SafeVarargs
     public static StackPaneBuilder create(javafx.scene.Node... children) {
         StackPaneBuilder builder = new StackPaneBuilder();
         builder.constructorArgs = new Object[]{children};

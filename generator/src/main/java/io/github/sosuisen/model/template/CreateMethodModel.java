@@ -2,7 +2,7 @@ package io.github.sosuisen.model.template;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Parameter;
-
+import java.lang.reflect.Type;
 import io.github.sosuisen.model.ParameterStringBuilder;
 import io.github.sosuisen.model.data.ClassMetadata;
 
@@ -46,6 +46,7 @@ public record CreateMethodModel(
             }
 
             Parameter[] parameters = constructor.getParameters();
+            Type[] types = constructor.getGenericParameterTypes();
             boolean isDefaultConstructor = parameters.length == 0;
 
             String parameterList = "";
@@ -53,7 +54,7 @@ public record CreateMethodModel(
             String parameterListSimpleTypesOnly = "";
             String argumentList = "";
             boolean isVarArgs = constructor.isVarArgs();
-            boolean hasTypeParameter = constructor.getTypeParameters().length > 0;
+            boolean hasTypeParameter = constructor.getGenericParameterTypes().length > 0;
             boolean isSafeVarargs = isVarArgs && hasTypeParameter;
 
             if (!isDefaultConstructor) {
@@ -63,9 +64,9 @@ public record CreateMethodModel(
                     isVarArgs
                 );
                 parameterListTypesOnly =
-                    ParameterStringBuilder.buildParameterListCanonicalTypesOnly(parameters);
+                    ParameterStringBuilder.buildParameterListCanonicalTypesOnly(types);
                 parameterListSimpleTypesOnly =
-                    ParameterStringBuilder.buildParameterListSimpleTypesOnly(parameters);
+                    ParameterStringBuilder.buildParameterListSimpleTypesOnly(types);
                 argumentList = ParameterStringBuilder.buildParameterListNamesOnly(parameters);
             }
 

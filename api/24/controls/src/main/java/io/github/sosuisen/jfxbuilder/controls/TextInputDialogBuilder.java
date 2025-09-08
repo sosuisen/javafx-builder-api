@@ -262,7 +262,7 @@ public class TextInputDialogBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TextInputDialog#setResult(java.lang.Object) setResult} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TextInputDialog#setResult(R) setResult} method on the instance being constructed.
      *
      * @return builder instance
      */
