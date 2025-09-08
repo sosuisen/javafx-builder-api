@@ -39,7 +39,7 @@ StageBuilder
 ```
 <img src="../images/example_panel.png">
 
-# Basic APIs
+# Basic API
 
 The builder classes generally offer a fluent API with names derived from the original class API using simple conventions.
 
@@ -64,7 +64,7 @@ Examples:
 
 ## Create Methods (Static)
 
-Each builder class includes a **class method** `create` that accepts the same arguments as the original class constructor. This `create` method enables a fluent API by returning an instance of the builder class.
+Each builder class includes **static** `create` methods that accept the same arguments as the original class constructors. This `create` method enables a fluent API by returning an instance of the builder class.
 
 Examples:
 - `Button()` -> `ButtonBuilder.create()`
@@ -87,16 +87,16 @@ Each builder class includes setter methods named `XXX` where the name correspond
 
 Method naming convention:
 ```
-[method name without "set"]
+[Method name without "set" and with the first letter in lowercase]
 ```
 
 Example:
 ```java
-// Original class
+// The original class
 var btn1 = new Button();
 btn.setText("hello");
 
-// Builder class has `text(String value)` method
+// The builder class has a `text(String value)` method
 var btn2 = ButtonBuilder.create()
     .text("hello")
     .build();
@@ -111,17 +111,22 @@ When you call `apply()` with a functional interface(Consumer<T>) during the buil
 
 Examples:
 ```java
-ButtonBuilder.create()
+// The original class
+var btn1 = new Button();
+btn1.textProperty().bind(prop);
+
+// The builder class has an `apply(Consumer<Button> func)` method
+var btn2 = ButtonBuilder.create()
     .apply(btn -> btn.textProperty().bind(prop))
     .build();
 ```
 
-Most goals can be accomplished using this `apply` method. However, for commonly used patterns, extra APIs (to be introduced later) are provided for more concise code.
+Most goals can be accomplished using this `apply` method. However, for commonly used patterns, extra API (to be introduced later) are provided for more concise code.
 
 
-# Extra APIs
+# Extra API
 
-You can utilize the builder classes by mastering only the Basic APIs. Additionally, several utilities are provided as Extra APIs for commonly used patterns.
+You can utilize the builder classes by mastering only the Basic API. Additionally, several utilities are provided as Extra API for commonly used patterns.
 
 ## xxxPropertyApply - Access to Property
 
@@ -129,7 +134,7 @@ You can directly access many properties of the instance using `xxxPropertyApply`
 
 Method naming convention:
 ```
-[property name]  + "Apply"
+[Property name]  + "Apply"
 ```
 
 For example, the following `apply` notation has a shorthand form:
@@ -145,7 +150,7 @@ All static setter methods of `javafx.scene.layout.Pane` container classes are re
 
 Method naming convention:
 ```
-[lowercased method name without "set"] + "In" + [container class name]
+[Method name without "set" and with the first letter in lowercase] + "In" + [Container class name]
 ```
 
 Examples: 
@@ -176,8 +181,8 @@ When the original class has a method that returns an `ObservableList` via `getXX
 
 Method naming convention and its arguments:
 ```
-add + [method name without "get"] + (T... elements)
-add + [method name without "get"] + (java.util.Collection<? extends T> col)
+add + [Method name without "get"] + (T... elements)
+add + [Method name without "get"] + (java.util.Collection<? extends T> col)
 ```
 
 For example, the following `apply` notations have shorthand forms:
@@ -191,9 +196,9 @@ Exception:
 
 ## With Method (Static)
 
-Builder classes that have `addXXX` methods also have a **class method** `withXXX` that takes the same arguments.
+Builder classes that have an `addXXX` method also have a **static** `withXXX` method that takes the same arguments.
 
-This method creates and returns an instance of the builder class, then executes `addXXX` method.
+This method creates and returns an instance of the builder class, then executes the `addXXX` method.
 
 Examples:
 
@@ -206,7 +211,7 @@ Therefore, having all containers able to create builders with child elements via
 
 Exceptions:
 - Essentially, `withXXX` is not available if the original class lacks a default constructor. This primarily applies to Skin Classes within the `javafx.scene.control.skin` package. 
-- Although sub-classes of [XYChart](#xychart) and [Alert](#alert) class also do not have default constructors, they uniquely include `withXXX` methods. (Refer to individual sections for more details.)
+- Although [Alert](#alert) class and subclasses of [XYChart](#xychart) also do not have default constructors, they uniquely include `withXXX` methods. (Refer to individual sections for more details.)
 - `withXXX` is applied to structural containment relationships. The following appearance-related methods are excluded:
   - `getStylesheets`
   - `getTransforms`
@@ -214,7 +219,7 @@ Exceptions:
 
 Note:
 - Since it's "addAll", it's merely adding values to the default `ObservableList`. Use this when values can be fixed rather than reactive.
-- When you want to replace the entire `ObservableList` itself, use the default setter provided by the Basic APIs.
+- When you want to replace the entire `ObservableList` itself, use the default setter provided by the Basic API.
 - Example:
   - `ListViewBuilder.create().items(ObservableList list)`
 
@@ -227,7 +232,9 @@ The `Scene` class and classes that inherit from `Parent` have an `addStylesheets
 They also have an `addStylesheetsText(String css)` method, a utility setter to add a CSS string directly.
 
 Example:
-- `SceneBuilder.create().addStylesheetsText(".my-button { -fx-text-fill: white; }")`
+```
+SceneBuilder.create().addStylesheetsText(".my-button { -fx-text-fill: white; }")
+```
 
 ### Default styleClass for Container Classes
 
@@ -243,19 +250,19 @@ Example: `BorderPane` becomes referenceable with the `.border-pane` selector.
 
 ### Stage
 
-The `StageBuilder` class includes a **class method** `withScene(Scene scene)`
+The `StageBuilder` class includes a **static** `withScene(Scene scene)` method
 that creates an instance of the builder and then calls the `setScene(Scene scene)` method.
 This shorthand ensures consistency with other methods, such as the `withChildren` method found in container classes.
 
-There is no setter for the optional constructor argument `StageStyle`, but `StageBuilder` has  a `stageStyle` method.
+The `Stage` class does not have a setter for the `StageStyle` constructor argument, but `StageBuilder` provides a `stageStyle` method.
 
 ### Scene
 
-The `SceneBuilder` class includes a **class method** `withRoot(Parent root)`
+The `SceneBuilder` class includes a **static** `withRoot(Parent root)` method
 that performs the same processing as the create(Parent root) method.
 This alias ensures consistency with other methods, such as the `withChildren` method found in container classes.
 
-The constructor arguments `width`, `height`, `depthBuffer`, and `antiAliasing` do not have setters on the `Scene` class, but custom setters have been added to `SceneBuilder`.
+The `Scene` class does not have setters for the constructor arguments `width`, `height`, `depthBuffer`, and `antiAliasing`, but `SceneBuilder` provides setters for them.
 
 Example:
 ```java
@@ -282,7 +289,7 @@ StageBuilder
 
 ### BorderPane
 
-The `BorderPaneBuilder` class includes **class methods** `withCenter`, `withLeft`, `withRight`, `withBottom` and `withTop` to maintain consistency with methods like `withChildren`.
+The `BorderPaneBuilder` class includes **static** `withCenter`, `withLeft`, `withRight`, `withBottom` and `withTop` methods to maintain consistency with methods like `withChildren`.
 
 ### GridPane
 
@@ -332,7 +339,7 @@ GridPaneBuilder.create()
 
 ### XYChart
 
-Subclasses of XYChart include **class methods** `withData(XYChart.Series<X, Y>... elements)` and `withData(Collection<? extends XYChart.Series<X, Y>> col)` to maintain consistency with methods like `withChildren`.
+Subclasses of XYChart include **static** `withData(XYChart.Series<X, Y>... elements)` and `withData(Collection<? extends XYChart.Series<X, Y>> col)` methods to maintain consistency with methods like `withChildren`.
 
 `withData` method creates an instance of the builder, then calls the `addAll(XYChart.Series<X, Y>... elements)` method on the `ObservableList` returned by the `XYChart#getData()` method.
 
@@ -340,7 +347,7 @@ After calling this method, you may need to invoke the `xAxis(Axis)` and `yAxis(A
 
 The default axis classes are inferred from the type parameters of `XYChart.Data<X, Y>` objects contained in the `XYChart.Series` passed to the `withData` method. If the type is `String`, the axis object is created using `new CategoryAxis()`. If it's `Number`, it is created using `new NumberAxis()`. When there are no `Data` objects, the default x-axis object is created using `new CategoryAxis()` and the default y-axis object is created using `new NumberAxis()`.
 
-The constructor arguments `xAxis` and `yAxis` do not have setters on the `XYChart` class, but custom setters have been added to the builder classes of the subclasses of `XYChart`.
+The `XYChart` class does not have setters for the constructor arguments `xAxis` and `yAxis`, but the builder classes of its subclasses do provide setters for these arguments.
 
 Examples:
 ```java
@@ -389,11 +396,11 @@ LineChart<Number, Number> lineChart = LineChartBuilder
 
 Note:
 - Since it's "addAll", it's merely adding values to the default `ObservableList`. Use this when values can be fixed rather than reactive.
-- When you want to replace the entire `ObservableList` itself, use the default setter provided by the Basic APIs.
+- When you want to replace the entire `ObservableList` itself, use the default setter provided by the Basic API.
 
 ### Alert
 
-`Alert` class includes **class methods** `withButtonTypes(ButtonType... elements)` and `withButtonTypes(Collection<? extends ButtonType> col)`
+`Alert` class includes **static** `withButtonTypes(ButtonType... elements)` and `withButtonTypes(Collection<? extends ButtonType> col)` methods
 to maintain consistency with methods like `withChildren`.
 
 `withData` method creates an instance of the `AlertBuilder`, 
