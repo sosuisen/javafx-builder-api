@@ -53,7 +53,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  * @author Hidekazu Kubota &lt;hidekazu.kubota@gmail.com&gt;
  */
 public class SceneBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.Scene>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.Scene>> operations = new java.util.ArrayList<>();
     private SceneBuilder() {}
   
     // Default values for constructor parameters
@@ -76,7 +76,7 @@ public class SceneBuilder {
      */
     public static final javafx.scene.SceneAntialiasing DEFAULT_ANTI_ALIASING = javafx.scene.SceneAntialiasing.DISABLED;
     
-    private static javafx.scene.paint.Paint DEFAULT_FILL = javafx.scene.paint.Color.WHITE;
+    private static final javafx.scene.paint.Paint DEFAULT_FILL = javafx.scene.paint.Color.WHITE;
 
     private javafx.scene.Parent root;    
     private double width = DEFAULT_WIDTH;
@@ -85,7 +85,7 @@ public class SceneBuilder {
     private javafx.scene.SceneAntialiasing antiAliasing = DEFAULT_ANTI_ALIASING;
 
     /**
-     * Performs the same processing as the {@link create(Parent root)} method.
+     * Performs the same processing as the {@link io.github.sosuisen.jfxbuilder.graphics.SceneBuilder#create(javafx.scene.Parent) create(javafx.scene.Parent)} method.
      * This alias ensures consistency with other methods, such as the {@code withChildren} method found in container classes.
      *
      * @return an instance of the SceneBuilder.
