@@ -40,6 +40,7 @@ public class ChoiceDialogBuilder<T> {
      *
      * @return an instance of the {@code ChoiceDialogBuilder<T>}.
      */
+    @SafeVarargs
     public static <T> ChoiceDialogBuilder<T> create(T defaultChoice, T... choices) {
         ChoiceDialogBuilder<T> builder = new ChoiceDialogBuilder<T>();
         builder.constructorArgs = new Object[]{defaultChoice, choices};
