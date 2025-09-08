@@ -42,13 +42,13 @@ package io.github.sosuisen.jfxbuilder.graphics;
  * @author Hidekazu Kubota &lt;hidekazu.kubota@gmail.com&gt;
  */
 public class StageBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.stage.Stage>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.stage.Stage>> operations = new java.util.ArrayList<>();
     private StageBuilder() {}
     
     private javafx.stage.StageStyle style = javafx.stage.StageStyle.DECORATED;
 
     /**
-     * Creates an instance of the builder and then calls the {@link javafx.stage.Stage#setScene(Scene scene)} method.
+     * Creates an instance of the builder and then calls the {@link javafx.stage.Stage#setScene(javafx.scene.Scene) setScene(javafx.scene.Scene)} method.
      * This shorthand ensures consistency with other methods, such as the `withChildren` method found in container classes.
      *
      * @return an instance of the StageBuilder.
@@ -62,7 +62,6 @@ public class StageBuilder {
 
     /**
      * Sets a {@link javafx.stage.StageStyle}.
-     *
      * There is no setter for the optional constructor argument {@code StageStyle};
      * however, the {@code StageBuilder} includes a convenient {@code stageStyle} method.
      *
