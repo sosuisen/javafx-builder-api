@@ -12,8 +12,6 @@ import io.github.sosuisen.model.data.BuildInfo;
 
 public class TypeMappingManager {
     private static final Map<String, String> TYPE_MAPPINGS = new HashMap<>();
-    private static final Map<String, String> TYPE_MAPPINGS_ONLY_CODE = new HashMap<>();
-    private static final Map<String, String> TYPE_MAPPINGS_ONLY_JAVADOC = new HashMap<>();
     private static final Map<String, String> STRING_MAPPINGS = new HashMap<>();
 
     public enum CodeOrJavaDoc {
@@ -42,12 +40,6 @@ public class TypeMappingManager {
                     } else if (key.contains("%")) {
                         // Format: {className}%{matchString}={replacementString}
                         STRING_MAPPINGS.put(key, value);
-                    } else if (key.contains("!")) {
-                        // Format: {className}!{matchTypeCodeOnly}={replacementString}
-                        TYPE_MAPPINGS_ONLY_CODE.put(key, value);
-                    } else if (key.contains("^")) {
-                        // Format: {className}^{matchTypeJavaDocOnly}={replacementString}
-                        TYPE_MAPPINGS_ONLY_JAVADOC.put(key, value);
                     }
                 }
             }
@@ -66,8 +58,7 @@ public class TypeMappingManager {
      * @param paramType The original parameter type
      * @return The replacement type if found, otherwise the original type
      */
-    public static String getReplacement(String className, String paramType,
-        CodeOrJavaDoc codeOrJavaDoc) {
+    public static String getReplacement(String className, String paramType) {
 
         // First check string mappings (new format with %)
         String stringReplacement = findStringReplacement(className, paramType);
@@ -76,7 +67,7 @@ public class TypeMappingManager {
         }
 
         // Then check type mappings (existing format with #)
-        MappingEntry entry = findMappingEntry(className, codeOrJavaDoc);
+        MappingEntry entry = findMappingEntry(className);
 
         if (entry != null) {
             // Found match, process paramType with parsing
@@ -110,13 +101,8 @@ public class TypeMappingManager {
         return null; // No match found
     }
 
-    private static MappingEntry findMappingEntry(String className, CodeOrJavaDoc codeOrJavaDoc) {
-        Set<Map.Entry<String, String>> entrySet =
-            switch (codeOrJavaDoc) {
-                case CODE -> TYPE_MAPPINGS_ONLY_CODE.entrySet();
-                case JAVADOC -> TYPE_MAPPINGS_ONLY_JAVADOC.entrySet();
-                case BOTH -> TYPE_MAPPINGS.entrySet();
-            };
+    private static MappingEntry findMappingEntry(String className) {
+        Set<Map.Entry<String, String>> entrySet = TYPE_MAPPINGS.entrySet();
 
         // Check TYPE_MAPPINGS for matching class
         for (Map.Entry<String, String> entry : entrySet) {
