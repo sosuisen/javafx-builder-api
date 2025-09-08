@@ -13,8 +13,8 @@
      * and returns an instance of {@code ${model.builderClassNameWithTypeParameter()}}.
      *
      * @return an instance of the {@code ${model.builderClassNameWithTypeParameter()}}.
-     */
-    @if(model.isVarArgs())@SafeVarargs@endif
+     */@if(model.isSafeVarargs())
+    @SafeVarargs@endif
     public static ${model.typeParametersWithExtends().isEmpty() ? "" : model.typeParametersWithExtends() + " "}${model.builderClassNameWithTypeParameter()} create(${model.parameterList()}) {
         ${model.builderClassNameWithTypeParameter()} builder = new ${model.builderClassNameWithTypeParameter()}();
         builder.constructorArgs = new Object[]{${model.argumentList()}};
