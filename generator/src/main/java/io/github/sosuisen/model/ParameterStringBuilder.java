@@ -47,6 +47,7 @@ public class ParameterStringBuilder {
         for (int i = 0; i < parameters.length; i++) {
             Parameter param = parameters[i];
             String typeName = toReadableTypeName(param.getType().getName());
+            typeName = typeName.replace("$", ".");
             argList.append(typeName);
             if (i < parameters.length - 1) {
                 argList.append(", ");
@@ -62,6 +63,7 @@ public class ParameterStringBuilder {
             String typeName = toReadableTypeName(param.getType().getName());
 
             typeName = typeName.substring(findLastDotWordIndexReverse(typeName) + 1);
+            typeName = typeName.replace("$", ".");
             argList.append(typeName);
             if (i < parameters.length - 1) {
                 argList.append(", ");
