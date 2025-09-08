@@ -38,6 +38,10 @@ public class ClassMetadata {
         return builderClassName;
     }
 
+    public String getCanonicalBuilderClassName() {
+        return packageName + "." + builderClassName;
+    }
+
     public String getPackageName() {
         return packageName;
     }
@@ -53,9 +57,7 @@ public class ClassMetadata {
     public boolean hasDefaultConstructor() {
         Constructor<?>[] constructors = targetClass.getConstructors();
         for (Constructor<?> constructor : constructors) {
-            if (constructor.getParameterCount() == 0) {
-                return true;
-            }
+            if (constructor.getParameterCount() == 0) { return true; }
         }
         return false;
     }
@@ -75,19 +77,16 @@ public class ClassMetadata {
         }
 
         // If no uppercase letter found, use the entire className
-        if (firstUpperCaseIndex == -1) {
-            return canonicalClassName.replace(".", "") + "Builder";
-        }
+        if (firstUpperCaseIndex == -1) { return canonicalClassName.replace(".", "") + "Builder"; }
 
         // Extract substring from first uppercase letter onwards and remove dots
-        String result = canonicalClassName.substring(firstUpperCaseIndex).replace(".", "") + "Builder";
+        String result =
+            canonicalClassName.substring(firstUpperCaseIndex).replace(".", "") + "Builder";
         return result;
     }
 
     private String getTypeParameterString() {
-        if (targetClass.getTypeParameters().length == 0) {
-            return "";
-        }
+        if (targetClass.getTypeParameters().length == 0) { return ""; }
 
         StringBuilder typeParameterBuilder = new StringBuilder("<");
         for (int i = 0; i < targetClass.getTypeParameters().length; i++) {
@@ -101,9 +100,7 @@ public class ClassMetadata {
     }
 
     private String getTypeParametersWithExtendsString() {
-        if (targetClass.getTypeParameters().length == 0) {
-            return "";
-        }
+        if (targetClass.getTypeParameters().length == 0) { return ""; }
 
         StringBuilder typeParameterBuilder = new StringBuilder("<");
         for (int i = 0; i < targetClass.getTypeParameters().length; i++) {
@@ -115,8 +112,10 @@ public class ClassMetadata {
                 if (!bounds[0].getTypeName().equals("java.lang.Object")) {
                     // e.g.) CellSkinBase<C extends Cell>
                     typeParameterBuilder
-                            .append(targetClass.getTypeParameters()[i].getName() + " extends "
-                                    + bounds[0].getTypeName());
+                        .append(
+                            targetClass.getTypeParameters()[i].getName() + " extends "
+                                + bounds[0].getTypeName()
+                        );
                 } else {
                     typeParameterBuilder.append(targetClass.getTypeParameters()[i].getName());
                 }
