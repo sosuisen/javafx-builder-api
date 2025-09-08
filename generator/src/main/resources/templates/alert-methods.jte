@@ -16,7 +16,6 @@
      *
      * @return builder instance
      */
-    @SafeVarargs
     public static ${model.typeParametersWithExtends().isEmpty() ? "" : model.typeParametersWithExtends() + " "}${model.builderClassNameWithTypeParameter()} withButtonTypes(javafx.scene.control.ButtonType... elements) {
         ${model.builderClassNameWithTypeParameter()} builder = new ${model.builderClassNameWithTypeParameter()}();
         builder.constructorArgs = new Object[]{javafx.scene.control.Alert.AlertType.NONE};
