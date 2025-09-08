@@ -2197,7 +2197,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2219,7 +2219,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2241,7 +2241,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2263,7 +2263,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2285,7 +2285,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#alternativeColumnFillVisibleProperty() alternativeColumnFillVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2307,7 +2307,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#alternativeRowFillVisibleProperty() alternativeRowFillVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2329,7 +2329,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#animatedProperty() animatedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2351,7 +2351,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2373,7 +2373,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2395,7 +2395,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2417,7 +2417,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2439,7 +2439,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2461,7 +2461,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2483,7 +2483,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2505,7 +2505,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2527,7 +2527,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2549,7 +2549,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2571,7 +2571,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#createSymbolsProperty() createSymbolsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2593,7 +2593,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2615,7 +2615,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#dataProperty() dataProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2637,7 +2637,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2659,7 +2659,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2681,7 +2681,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2703,7 +2703,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2725,7 +2725,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2747,7 +2747,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2769,7 +2769,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2791,7 +2791,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2813,7 +2813,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2835,7 +2835,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2857,7 +2857,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2879,7 +2879,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#horizontalGridLinesVisibleProperty() horizontalGridLinesVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2901,7 +2901,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#horizontalZeroLineVisibleProperty() horizontalZeroLineVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2923,7 +2923,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2945,7 +2945,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2967,7 +2967,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2989,7 +2989,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3011,7 +3011,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3033,7 +3033,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3055,7 +3055,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3077,7 +3077,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#legendSideProperty() legendSideProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3099,7 +3099,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#legendVisibleProperty() legendVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3121,7 +3121,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3143,7 +3143,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3165,7 +3165,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3187,7 +3187,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3209,7 +3209,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3231,7 +3231,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3253,7 +3253,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3275,7 +3275,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3297,7 +3297,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3319,7 +3319,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3341,7 +3341,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3363,7 +3363,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3385,7 +3385,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3407,7 +3407,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3429,7 +3429,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3451,7 +3451,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3473,7 +3473,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3495,7 +3495,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3517,7 +3517,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3539,7 +3539,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3561,7 +3561,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3583,7 +3583,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3605,7 +3605,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3627,7 +3627,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3649,7 +3649,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3671,7 +3671,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3693,7 +3693,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3715,7 +3715,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3737,7 +3737,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3759,7 +3759,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3781,7 +3781,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3803,7 +3803,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3825,7 +3825,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3847,7 +3847,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3869,7 +3869,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3891,7 +3891,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3913,7 +3913,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3935,7 +3935,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3957,7 +3957,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3979,7 +3979,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4001,7 +4001,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4023,7 +4023,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4045,7 +4045,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4067,7 +4067,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4089,7 +4089,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4111,7 +4111,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4133,7 +4133,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4155,7 +4155,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4177,7 +4177,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4199,7 +4199,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4221,7 +4221,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4243,7 +4243,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4265,7 +4265,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4287,7 +4287,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4309,7 +4309,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4331,7 +4331,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4353,7 +4353,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4375,7 +4375,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4397,7 +4397,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4419,7 +4419,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4441,7 +4441,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4463,7 +4463,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4485,7 +4485,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4507,7 +4507,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4529,7 +4529,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4551,7 +4551,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4573,7 +4573,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4595,7 +4595,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#titleProperty() titleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4617,7 +4617,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#titleSideProperty() titleSideProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4639,7 +4639,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4661,7 +4661,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4683,7 +4683,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4705,7 +4705,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#verticalGridLinesVisibleProperty() verticalGridLinesVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4727,7 +4727,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#verticalZeroLineVisibleProperty() verticalZeroLineVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4749,7 +4749,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4771,7 +4771,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4793,7 +4793,7 @@ public class AreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.AreaChart#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.AreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link AreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

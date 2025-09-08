@@ -2250,7 +2250,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2272,7 +2272,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2294,7 +2294,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2316,7 +2316,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2338,7 +2338,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2360,7 +2360,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#allowIndeterminateProperty() allowIndeterminateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2382,7 +2382,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#armedProperty() armedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2404,7 +2404,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2426,7 +2426,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2448,7 +2448,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2470,7 +2470,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2492,7 +2492,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2514,7 +2514,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2536,7 +2536,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2558,7 +2558,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2580,7 +2580,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2602,7 +2602,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2624,7 +2624,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#contentDisplayProperty() contentDisplayProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2646,7 +2646,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2668,7 +2668,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2690,7 +2690,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2712,7 +2712,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2734,7 +2734,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2756,7 +2756,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2778,7 +2778,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2800,7 +2800,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#ellipsisStringProperty() ellipsisStringProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2822,7 +2822,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2844,7 +2844,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2866,7 +2866,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2888,7 +2888,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2910,7 +2910,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2932,7 +2932,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#fontProperty() fontProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2954,7 +2954,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2976,7 +2976,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#graphicTextGapProperty() graphicTextGapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2998,7 +2998,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3020,7 +3020,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3042,7 +3042,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3064,7 +3064,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#indeterminateProperty() indeterminateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3086,7 +3086,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3108,7 +3108,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3130,7 +3130,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#labelPaddingProperty() labelPaddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3152,7 +3152,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3174,7 +3174,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3196,7 +3196,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3218,7 +3218,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#lineSpacingProperty() lineSpacingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3240,7 +3240,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3262,7 +3262,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3284,7 +3284,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3306,7 +3306,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3328,7 +3328,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3350,7 +3350,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3372,7 +3372,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3394,7 +3394,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3416,7 +3416,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3438,7 +3438,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3460,7 +3460,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3482,7 +3482,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3504,7 +3504,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3526,7 +3526,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3548,7 +3548,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3570,7 +3570,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3592,7 +3592,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3614,7 +3614,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3636,7 +3636,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3658,7 +3658,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3680,7 +3680,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3702,7 +3702,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3724,7 +3724,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3746,7 +3746,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3768,7 +3768,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3790,7 +3790,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3812,7 +3812,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3834,7 +3834,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3856,7 +3856,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3878,7 +3878,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3900,7 +3900,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3922,7 +3922,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3944,7 +3944,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3966,7 +3966,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3988,7 +3988,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4010,7 +4010,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4032,7 +4032,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4054,7 +4054,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4076,7 +4076,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4098,7 +4098,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4120,7 +4120,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4142,7 +4142,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4164,7 +4164,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4186,7 +4186,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4208,7 +4208,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4230,7 +4230,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4252,7 +4252,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4274,7 +4274,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4296,7 +4296,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4318,7 +4318,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4340,7 +4340,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4362,7 +4362,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4384,7 +4384,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4406,7 +4406,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4428,7 +4428,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4450,7 +4450,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4472,7 +4472,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4494,7 +4494,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4516,7 +4516,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4538,7 +4538,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4560,7 +4560,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4582,7 +4582,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4604,7 +4604,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4626,7 +4626,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4648,7 +4648,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4670,7 +4670,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4692,7 +4692,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#selectedProperty() selectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4714,7 +4714,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4736,7 +4736,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4758,7 +4758,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4780,7 +4780,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4802,7 +4802,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#textAlignmentProperty() textAlignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4824,7 +4824,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#textFillProperty() textFillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4846,7 +4846,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#textOverrunProperty() textOverrunProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4868,7 +4868,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#textProperty() textProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4890,7 +4890,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#textTruncatedProperty() textTruncatedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4912,7 +4912,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4934,7 +4934,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4956,7 +4956,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4978,7 +4978,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5000,7 +5000,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#underlineProperty() underlineProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5022,7 +5022,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5044,7 +5044,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5066,7 +5066,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5088,7 +5088,7 @@ public class CheckBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.CheckBox#wrapTextProperty() wrapTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

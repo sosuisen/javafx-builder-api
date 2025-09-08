@@ -225,7 +225,7 @@ public class CubicCurveToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#absoluteProperty() absoluteProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.CubicCurveTo> func) apply} method.
+     * This serves as a shorthand form of the {@link CubicCurveToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -247,7 +247,7 @@ public class CubicCurveToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#controlX1Property() controlX1Property} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.CubicCurveTo> func) apply} method.
+     * This serves as a shorthand form of the {@link CubicCurveToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -269,7 +269,7 @@ public class CubicCurveToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#controlX2Property() controlX2Property} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.CubicCurveTo> func) apply} method.
+     * This serves as a shorthand form of the {@link CubicCurveToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -291,7 +291,7 @@ public class CubicCurveToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#controlY1Property() controlY1Property} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.CubicCurveTo> func) apply} method.
+     * This serves as a shorthand form of the {@link CubicCurveToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -313,7 +313,7 @@ public class CubicCurveToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#controlY2Property() controlY2Property} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.CubicCurveTo> func) apply} method.
+     * This serves as a shorthand form of the {@link CubicCurveToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -335,7 +335,7 @@ public class CubicCurveToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.CubicCurveTo> func) apply} method.
+     * This serves as a shorthand form of the {@link CubicCurveToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -357,7 +357,7 @@ public class CubicCurveToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.CubicCurveTo> func) apply} method.
+     * This serves as a shorthand form of the {@link CubicCurveToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

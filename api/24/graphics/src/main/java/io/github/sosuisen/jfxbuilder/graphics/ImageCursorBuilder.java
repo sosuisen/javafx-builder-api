@@ -168,7 +168,7 @@ public class ImageCursorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ImageCursor#hotspotXProperty() hotspotXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ImageCursor> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageCursorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -190,7 +190,7 @@ public class ImageCursorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ImageCursor#hotspotYProperty() hotspotYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ImageCursor> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageCursorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -212,7 +212,7 @@ public class ImageCursorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.ImageCursor#imageProperty() imageProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ImageCursor> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageCursorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

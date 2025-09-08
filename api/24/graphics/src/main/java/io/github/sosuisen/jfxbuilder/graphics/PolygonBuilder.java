@@ -2000,7 +2000,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2022,7 +2022,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2044,7 +2044,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2066,7 +2066,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2088,7 +2088,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2110,7 +2110,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2132,7 +2132,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2154,7 +2154,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2176,7 +2176,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2198,7 +2198,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2220,7 +2220,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2242,7 +2242,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2264,7 +2264,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2286,7 +2286,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2308,7 +2308,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2330,7 +2330,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2352,7 +2352,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2374,7 +2374,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#fillProperty() fillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2396,7 +2396,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2418,7 +2418,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2440,7 +2440,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2462,7 +2462,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2484,7 +2484,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2506,7 +2506,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2528,7 +2528,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2550,7 +2550,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2572,7 +2572,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2594,7 +2594,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2616,7 +2616,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2638,7 +2638,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2660,7 +2660,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2682,7 +2682,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2704,7 +2704,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2726,7 +2726,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2748,7 +2748,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2770,7 +2770,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2792,7 +2792,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2814,7 +2814,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2836,7 +2836,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2858,7 +2858,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2880,7 +2880,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2902,7 +2902,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2924,7 +2924,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2946,7 +2946,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2968,7 +2968,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2990,7 +2990,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3012,7 +3012,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3034,7 +3034,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3056,7 +3056,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3078,7 +3078,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3100,7 +3100,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3122,7 +3122,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3144,7 +3144,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3166,7 +3166,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3188,7 +3188,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3210,7 +3210,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3232,7 +3232,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3254,7 +3254,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3276,7 +3276,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3298,7 +3298,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3320,7 +3320,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3342,7 +3342,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3364,7 +3364,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3386,7 +3386,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3408,7 +3408,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3430,7 +3430,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3452,7 +3452,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3474,7 +3474,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3496,7 +3496,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3518,7 +3518,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3540,7 +3540,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3562,7 +3562,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3584,7 +3584,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3606,7 +3606,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3628,7 +3628,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3650,7 +3650,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3672,7 +3672,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3694,7 +3694,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3716,7 +3716,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3738,7 +3738,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3760,7 +3760,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3782,7 +3782,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3804,7 +3804,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#smoothProperty() smoothProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3826,7 +3826,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#strokeDashOffsetProperty() strokeDashOffsetProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3848,7 +3848,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#strokeLineCapProperty() strokeLineCapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3870,7 +3870,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#strokeLineJoinProperty() strokeLineJoinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3892,7 +3892,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#strokeMiterLimitProperty() strokeMiterLimitProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3914,7 +3914,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#strokeProperty() strokeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3936,7 +3936,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#strokeTypeProperty() strokeTypeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3958,7 +3958,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#strokeWidthProperty() strokeWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3980,7 +3980,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4002,7 +4002,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4024,7 +4024,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4046,7 +4046,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4068,7 +4068,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4090,7 +4090,7 @@ public class PolygonBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Polygon#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polygon> func) apply} method.
+     * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

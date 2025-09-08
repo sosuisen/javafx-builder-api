@@ -2067,7 +2067,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2089,7 +2089,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2111,7 +2111,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2133,7 +2133,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2155,7 +2155,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2177,7 +2177,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2199,7 +2199,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2221,7 +2221,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2243,7 +2243,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2265,7 +2265,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2287,7 +2287,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2309,7 +2309,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2331,7 +2331,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2353,7 +2353,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2375,7 +2375,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2397,7 +2397,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2419,7 +2419,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2441,7 +2441,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2463,7 +2463,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2485,7 +2485,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2507,7 +2507,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2529,7 +2529,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2551,7 +2551,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2573,7 +2573,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2595,7 +2595,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2617,7 +2617,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2639,7 +2639,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2661,7 +2661,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2683,7 +2683,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2705,7 +2705,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2727,7 +2727,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2749,7 +2749,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2771,7 +2771,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2793,7 +2793,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2815,7 +2815,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2837,7 +2837,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2859,7 +2859,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2881,7 +2881,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2903,7 +2903,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2925,7 +2925,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2947,7 +2947,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2969,7 +2969,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2991,7 +2991,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3013,7 +3013,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3035,7 +3035,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3057,7 +3057,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3079,7 +3079,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3101,7 +3101,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3123,7 +3123,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3145,7 +3145,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3167,7 +3167,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3189,7 +3189,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3211,7 +3211,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3233,7 +3233,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3255,7 +3255,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3277,7 +3277,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3299,7 +3299,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3321,7 +3321,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3343,7 +3343,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3365,7 +3365,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3387,7 +3387,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3409,7 +3409,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3431,7 +3431,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3453,7 +3453,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3475,7 +3475,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3497,7 +3497,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3519,7 +3519,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3541,7 +3541,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3563,7 +3563,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3585,7 +3585,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3607,7 +3607,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3629,7 +3629,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3651,7 +3651,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3673,7 +3673,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3695,7 +3695,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3717,7 +3717,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3739,7 +3739,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3761,7 +3761,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3783,7 +3783,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3805,7 +3805,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3827,7 +3827,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3849,7 +3849,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3871,7 +3871,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3893,7 +3893,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3915,7 +3915,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3937,7 +3937,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3959,7 +3959,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3981,7 +3981,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4003,7 +4003,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4025,7 +4025,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4047,7 +4047,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4069,7 +4069,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4091,7 +4091,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4113,7 +4113,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4135,7 +4135,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4157,7 +4157,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4179,7 +4179,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4201,7 +4201,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4223,7 +4223,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4245,7 +4245,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4267,7 +4267,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4289,7 +4289,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4311,7 +4311,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4333,7 +4333,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4355,7 +4355,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4377,7 +4377,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4399,7 +4399,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4421,7 +4421,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4443,7 +4443,7 @@ public class HTMLEditorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
+     * This serves as a shorthand form of the {@link HTMLEditorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

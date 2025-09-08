@@ -152,7 +152,7 @@ public class ClosePathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.ClosePath#absoluteProperty() absoluteProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.ClosePath> func) apply} method.
+     * This serves as a shorthand form of the {@link ClosePathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

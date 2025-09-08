@@ -2137,7 +2137,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2159,7 +2159,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2181,7 +2181,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2203,7 +2203,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2225,7 +2225,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2247,7 +2247,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#anchorProperty() anchorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2269,7 +2269,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2291,7 +2291,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2313,7 +2313,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2335,7 +2335,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2357,7 +2357,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2379,7 +2379,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2401,7 +2401,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2423,7 +2423,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2445,7 +2445,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#caretPositionProperty() caretPositionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2467,7 +2467,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2489,7 +2489,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2511,7 +2511,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2533,7 +2533,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2555,7 +2555,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2577,7 +2577,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2599,7 +2599,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2621,7 +2621,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#editableProperty() editableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2643,7 +2643,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2665,7 +2665,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2687,7 +2687,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2709,7 +2709,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2731,7 +2731,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2753,7 +2753,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2775,7 +2775,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2797,7 +2797,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#fontProperty() fontProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2819,7 +2819,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2841,7 +2841,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2863,7 +2863,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2885,7 +2885,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2907,7 +2907,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2929,7 +2929,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2951,7 +2951,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2973,7 +2973,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2995,7 +2995,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#lengthProperty() lengthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3017,7 +3017,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3039,7 +3039,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3061,7 +3061,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3083,7 +3083,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3105,7 +3105,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3127,7 +3127,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3149,7 +3149,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3171,7 +3171,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3193,7 +3193,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3215,7 +3215,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3237,7 +3237,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3259,7 +3259,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3281,7 +3281,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3303,7 +3303,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3325,7 +3325,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3347,7 +3347,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3369,7 +3369,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3391,7 +3391,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3413,7 +3413,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3435,7 +3435,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3457,7 +3457,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3479,7 +3479,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3501,7 +3501,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3523,7 +3523,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3545,7 +3545,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3567,7 +3567,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3589,7 +3589,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3611,7 +3611,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3633,7 +3633,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3655,7 +3655,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3677,7 +3677,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3699,7 +3699,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3721,7 +3721,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3743,7 +3743,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3765,7 +3765,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3787,7 +3787,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3809,7 +3809,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3831,7 +3831,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3853,7 +3853,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3875,7 +3875,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3897,7 +3897,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3919,7 +3919,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3941,7 +3941,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3963,7 +3963,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3985,7 +3985,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4007,7 +4007,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4029,7 +4029,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4051,7 +4051,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4073,7 +4073,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4095,7 +4095,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4117,7 +4117,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4139,7 +4139,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4161,7 +4161,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4183,7 +4183,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4205,7 +4205,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4227,7 +4227,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#prefColumnCountProperty() prefColumnCountProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4249,7 +4249,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4271,7 +4271,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4293,7 +4293,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4315,7 +4315,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#promptTextProperty() promptTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4337,7 +4337,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#redoableProperty() redoableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4359,7 +4359,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4381,7 +4381,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4403,7 +4403,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4425,7 +4425,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4447,7 +4447,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4469,7 +4469,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4491,7 +4491,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4513,7 +4513,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#selectedTextProperty() selectedTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4535,7 +4535,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#selectionProperty() selectionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4557,7 +4557,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4579,7 +4579,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4601,7 +4601,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4623,7 +4623,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4645,7 +4645,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#textFormatterProperty() textFormatterProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4667,7 +4667,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#textProperty() textProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4689,7 +4689,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4711,7 +4711,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4733,7 +4733,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4755,7 +4755,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4777,7 +4777,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#undoableProperty() undoableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4799,7 +4799,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4821,7 +4821,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4843,7 +4843,7 @@ public class PasswordFieldBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.PasswordField#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) apply} method.
+     * This serves as a shorthand form of the {@link PasswordFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

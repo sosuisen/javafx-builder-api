@@ -1878,7 +1878,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1900,7 +1900,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1922,7 +1922,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1944,7 +1944,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1966,7 +1966,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1988,7 +1988,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2010,7 +2010,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2032,7 +2032,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2054,7 +2054,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2076,7 +2076,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2098,7 +2098,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#cullFaceProperty() cullFaceProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2120,7 +2120,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2142,7 +2142,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#depthProperty() depthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2164,7 +2164,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2186,7 +2186,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2208,7 +2208,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2230,7 +2230,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#drawModeProperty() drawModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2252,7 +2252,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2274,7 +2274,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2296,7 +2296,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2318,7 +2318,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2340,7 +2340,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2362,7 +2362,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2384,7 +2384,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2406,7 +2406,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2428,7 +2428,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2450,7 +2450,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2472,7 +2472,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2494,7 +2494,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2516,7 +2516,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2538,7 +2538,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2560,7 +2560,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2582,7 +2582,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2604,7 +2604,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2626,7 +2626,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#materialProperty() materialProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2648,7 +2648,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2670,7 +2670,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2692,7 +2692,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2714,7 +2714,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2736,7 +2736,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2758,7 +2758,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2780,7 +2780,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2802,7 +2802,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2824,7 +2824,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2846,7 +2846,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2868,7 +2868,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2890,7 +2890,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2912,7 +2912,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2934,7 +2934,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2956,7 +2956,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2978,7 +2978,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3000,7 +3000,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3022,7 +3022,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3044,7 +3044,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3066,7 +3066,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3088,7 +3088,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3110,7 +3110,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3132,7 +3132,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3154,7 +3154,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3176,7 +3176,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3198,7 +3198,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3220,7 +3220,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3242,7 +3242,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3264,7 +3264,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3286,7 +3286,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3308,7 +3308,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3330,7 +3330,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3352,7 +3352,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3374,7 +3374,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3396,7 +3396,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3418,7 +3418,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3440,7 +3440,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3462,7 +3462,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3484,7 +3484,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3506,7 +3506,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3528,7 +3528,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3550,7 +3550,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3572,7 +3572,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3594,7 +3594,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3616,7 +3616,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3638,7 +3638,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3660,7 +3660,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3682,7 +3682,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3704,7 +3704,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3726,7 +3726,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3748,7 +3748,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3770,7 +3770,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3792,7 +3792,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3814,7 +3814,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3836,7 +3836,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3858,7 +3858,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3880,7 +3880,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3902,7 +3902,7 @@ public class BoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
+     * This serves as a shorthand form of the {@link BoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

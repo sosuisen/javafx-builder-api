@@ -198,7 +198,7 @@ public class ImageInputBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.ImageInput#sourceProperty() sourceProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ImageInput> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageInputBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -220,7 +220,7 @@ public class ImageInputBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.ImageInput#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ImageInput> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageInputBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -242,7 +242,7 @@ public class ImageInputBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.ImageInput#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ImageInput> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageInputBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

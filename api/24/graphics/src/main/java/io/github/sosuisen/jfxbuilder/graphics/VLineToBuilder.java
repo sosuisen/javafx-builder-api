@@ -175,7 +175,7 @@ public class VLineToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.VLineTo#absoluteProperty() absoluteProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.VLineTo> func) apply} method.
+     * This serves as a shorthand form of the {@link VLineToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -197,7 +197,7 @@ public class VLineToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.VLineTo#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.VLineTo> func) apply} method.
+     * This serves as a shorthand form of the {@link VLineToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

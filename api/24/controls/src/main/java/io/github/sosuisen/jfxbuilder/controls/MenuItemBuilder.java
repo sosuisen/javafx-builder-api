@@ -303,7 +303,7 @@ public class MenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#acceleratorProperty() acceleratorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -325,7 +325,7 @@ public class MenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -347,7 +347,7 @@ public class MenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -369,7 +369,7 @@ public class MenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -391,7 +391,7 @@ public class MenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -413,7 +413,7 @@ public class MenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -435,7 +435,7 @@ public class MenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#onMenuValidationProperty() onMenuValidationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -457,7 +457,7 @@ public class MenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#parentMenuProperty() parentMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -479,7 +479,7 @@ public class MenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#parentPopupProperty() parentPopupProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -501,7 +501,7 @@ public class MenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -523,7 +523,7 @@ public class MenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#textProperty() textProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -545,7 +545,7 @@ public class MenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.MenuItem#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link MenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

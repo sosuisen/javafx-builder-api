@@ -384,7 +384,7 @@ public class AffineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#identityProperty() identityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * This serves as a shorthand form of the {@link AffineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -406,7 +406,7 @@ public class AffineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#mxxProperty() mxxProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * This serves as a shorthand form of the {@link AffineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -428,7 +428,7 @@ public class AffineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#mxyProperty() mxyProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * This serves as a shorthand form of the {@link AffineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -450,7 +450,7 @@ public class AffineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#mxzProperty() mxzProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * This serves as a shorthand form of the {@link AffineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -472,7 +472,7 @@ public class AffineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#myxProperty() myxProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * This serves as a shorthand form of the {@link AffineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -494,7 +494,7 @@ public class AffineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#myyProperty() myyProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * This serves as a shorthand form of the {@link AffineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -516,7 +516,7 @@ public class AffineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#myzProperty() myzProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * This serves as a shorthand form of the {@link AffineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -538,7 +538,7 @@ public class AffineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#mzxProperty() mzxProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * This serves as a shorthand form of the {@link AffineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -560,7 +560,7 @@ public class AffineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#mzyProperty() mzyProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * This serves as a shorthand form of the {@link AffineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -582,7 +582,7 @@ public class AffineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#mzzProperty() mzzProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * This serves as a shorthand form of the {@link AffineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -604,7 +604,7 @@ public class AffineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#onTransformChangedProperty() onTransformChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * This serves as a shorthand form of the {@link AffineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -626,7 +626,7 @@ public class AffineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#txProperty() txProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * This serves as a shorthand form of the {@link AffineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -648,7 +648,7 @@ public class AffineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#tyProperty() tyProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * This serves as a shorthand form of the {@link AffineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -670,7 +670,7 @@ public class AffineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#type2DProperty() type2DProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * This serves as a shorthand form of the {@link AffineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -692,7 +692,7 @@ public class AffineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Affine#tzProperty() tzProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * This serves as a shorthand form of the {@link AffineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

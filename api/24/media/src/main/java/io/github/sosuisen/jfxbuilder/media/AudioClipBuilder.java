@@ -202,7 +202,7 @@ public class AudioClipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.AudioClip#balanceProperty() balanceProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.AudioClip> func) apply} method.
+     * This serves as a shorthand form of the {@link AudioClipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -224,7 +224,7 @@ public class AudioClipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.AudioClip#cycleCountProperty() cycleCountProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.AudioClip> func) apply} method.
+     * This serves as a shorthand form of the {@link AudioClipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -246,7 +246,7 @@ public class AudioClipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.AudioClip#panProperty() panProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.AudioClip> func) apply} method.
+     * This serves as a shorthand form of the {@link AudioClipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -268,7 +268,7 @@ public class AudioClipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.AudioClip#priorityProperty() priorityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.AudioClip> func) apply} method.
+     * This serves as a shorthand form of the {@link AudioClipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -290,7 +290,7 @@ public class AudioClipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.AudioClip#rateProperty() rateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.AudioClip> func) apply} method.
+     * This serves as a shorthand form of the {@link AudioClipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -312,7 +312,7 @@ public class AudioClipBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.AudioClip#volumeProperty() volumeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.AudioClip> func) apply} method.
+     * This serves as a shorthand form of the {@link AudioClipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

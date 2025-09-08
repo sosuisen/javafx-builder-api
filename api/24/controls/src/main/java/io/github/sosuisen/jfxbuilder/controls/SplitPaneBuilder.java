@@ -2192,7 +2192,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2214,7 +2214,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2236,7 +2236,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2258,7 +2258,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2280,7 +2280,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2302,7 +2302,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2324,7 +2324,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2346,7 +2346,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2368,7 +2368,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2390,7 +2390,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2412,7 +2412,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2434,7 +2434,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2456,7 +2456,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2478,7 +2478,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2500,7 +2500,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2522,7 +2522,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2544,7 +2544,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2566,7 +2566,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2588,7 +2588,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2610,7 +2610,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2632,7 +2632,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2654,7 +2654,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2676,7 +2676,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2698,7 +2698,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2720,7 +2720,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2742,7 +2742,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2764,7 +2764,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2786,7 +2786,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2808,7 +2808,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2830,7 +2830,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2852,7 +2852,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2874,7 +2874,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2896,7 +2896,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2918,7 +2918,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2940,7 +2940,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2962,7 +2962,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2984,7 +2984,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3006,7 +3006,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3028,7 +3028,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3050,7 +3050,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3072,7 +3072,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3094,7 +3094,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3116,7 +3116,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3138,7 +3138,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3160,7 +3160,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3182,7 +3182,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3204,7 +3204,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3226,7 +3226,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3248,7 +3248,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3270,7 +3270,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3292,7 +3292,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3314,7 +3314,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3336,7 +3336,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3358,7 +3358,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3380,7 +3380,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3402,7 +3402,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3424,7 +3424,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3446,7 +3446,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3468,7 +3468,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3490,7 +3490,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3512,7 +3512,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3534,7 +3534,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3556,7 +3556,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3578,7 +3578,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3600,7 +3600,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3622,7 +3622,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3644,7 +3644,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3666,7 +3666,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3688,7 +3688,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3710,7 +3710,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3732,7 +3732,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3754,7 +3754,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3776,7 +3776,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3798,7 +3798,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3820,7 +3820,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3842,7 +3842,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3864,7 +3864,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3886,7 +3886,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3908,7 +3908,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3930,7 +3930,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3952,7 +3952,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3974,7 +3974,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3996,7 +3996,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4018,7 +4018,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4040,7 +4040,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4062,7 +4062,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#orientationProperty() orientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4084,7 +4084,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4106,7 +4106,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4128,7 +4128,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4150,7 +4150,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4172,7 +4172,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4194,7 +4194,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4216,7 +4216,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4238,7 +4238,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4260,7 +4260,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4282,7 +4282,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4304,7 +4304,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4326,7 +4326,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4348,7 +4348,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4370,7 +4370,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4392,7 +4392,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4414,7 +4414,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4436,7 +4436,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4458,7 +4458,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4480,7 +4480,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4502,7 +4502,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4524,7 +4524,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4546,7 +4546,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4568,7 +4568,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4590,7 +4590,7 @@ public class SplitPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) apply} method.
+     * This serves as a shorthand form of the {@link SplitPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

@@ -179,7 +179,7 @@ public class TreeCellSkinBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TreeCellSkin#cellSizeProperty() cellSizeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TreeCellSkin<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TreeCellSkinBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -201,7 +201,7 @@ public class TreeCellSkinBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TreeCellSkin#indentProperty() indentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TreeCellSkin<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TreeCellSkinBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

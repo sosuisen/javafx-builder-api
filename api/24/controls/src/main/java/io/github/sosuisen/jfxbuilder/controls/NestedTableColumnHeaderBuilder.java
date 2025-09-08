@@ -2052,7 +2052,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2074,7 +2074,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2096,7 +2096,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2118,7 +2118,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2140,7 +2140,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2162,7 +2162,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2184,7 +2184,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2206,7 +2206,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2228,7 +2228,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2250,7 +2250,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2272,7 +2272,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2294,7 +2294,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2316,7 +2316,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2338,7 +2338,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2360,7 +2360,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2382,7 +2382,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2404,7 +2404,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2426,7 +2426,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2448,7 +2448,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2470,7 +2470,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2492,7 +2492,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2514,7 +2514,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2536,7 +2536,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2558,7 +2558,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2580,7 +2580,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2602,7 +2602,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2624,7 +2624,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2646,7 +2646,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2668,7 +2668,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2690,7 +2690,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2712,7 +2712,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2734,7 +2734,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2756,7 +2756,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2778,7 +2778,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2800,7 +2800,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2822,7 +2822,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2844,7 +2844,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2866,7 +2866,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2888,7 +2888,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2910,7 +2910,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2932,7 +2932,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2954,7 +2954,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2976,7 +2976,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2998,7 +2998,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3020,7 +3020,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3042,7 +3042,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3064,7 +3064,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3086,7 +3086,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3108,7 +3108,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3130,7 +3130,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3152,7 +3152,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3174,7 +3174,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3196,7 +3196,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3218,7 +3218,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3240,7 +3240,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3262,7 +3262,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3284,7 +3284,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3306,7 +3306,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3328,7 +3328,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3350,7 +3350,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3372,7 +3372,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3394,7 +3394,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3416,7 +3416,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3438,7 +3438,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3460,7 +3460,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3482,7 +3482,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3504,7 +3504,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3526,7 +3526,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3548,7 +3548,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3570,7 +3570,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3592,7 +3592,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3614,7 +3614,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3636,7 +3636,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3658,7 +3658,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3680,7 +3680,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3702,7 +3702,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3724,7 +3724,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3746,7 +3746,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3768,7 +3768,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3790,7 +3790,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3812,7 +3812,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3834,7 +3834,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3856,7 +3856,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3878,7 +3878,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3900,7 +3900,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3922,7 +3922,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3944,7 +3944,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3966,7 +3966,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3988,7 +3988,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4010,7 +4010,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4032,7 +4032,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4054,7 +4054,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4076,7 +4076,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4098,7 +4098,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4120,7 +4120,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4142,7 +4142,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4164,7 +4164,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4186,7 +4186,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4208,7 +4208,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4230,7 +4230,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4252,7 +4252,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#tableColumnProperty() tableColumnProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4274,7 +4274,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4296,7 +4296,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4318,7 +4318,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4340,7 +4340,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4362,7 +4362,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4384,7 +4384,7 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.NestedTableColumnHeader#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) apply} method.
+     * This serves as a shorthand form of the {@link NestedTableColumnHeaderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

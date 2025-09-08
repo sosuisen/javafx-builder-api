@@ -1994,7 +1994,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2016,7 +2016,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2038,7 +2038,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2060,7 +2060,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2082,7 +2082,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2104,7 +2104,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2126,7 +2126,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2148,7 +2148,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2170,7 +2170,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2192,7 +2192,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2214,7 +2214,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2236,7 +2236,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2258,7 +2258,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2280,7 +2280,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2302,7 +2302,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2324,7 +2324,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2346,7 +2346,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#endXProperty() endXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2368,7 +2368,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#endYProperty() endYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2390,7 +2390,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2412,7 +2412,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#fillProperty() fillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2434,7 +2434,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2456,7 +2456,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2478,7 +2478,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2500,7 +2500,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2522,7 +2522,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2544,7 +2544,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2566,7 +2566,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2588,7 +2588,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2610,7 +2610,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2632,7 +2632,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2654,7 +2654,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2676,7 +2676,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2698,7 +2698,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2720,7 +2720,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2742,7 +2742,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2764,7 +2764,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2786,7 +2786,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2808,7 +2808,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2830,7 +2830,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2852,7 +2852,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2874,7 +2874,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2896,7 +2896,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2918,7 +2918,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2940,7 +2940,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2962,7 +2962,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2984,7 +2984,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3006,7 +3006,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3028,7 +3028,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3050,7 +3050,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3072,7 +3072,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3094,7 +3094,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3116,7 +3116,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3138,7 +3138,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3160,7 +3160,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3182,7 +3182,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3204,7 +3204,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3226,7 +3226,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3248,7 +3248,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3270,7 +3270,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3292,7 +3292,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3314,7 +3314,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3336,7 +3336,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3358,7 +3358,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3380,7 +3380,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3402,7 +3402,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3424,7 +3424,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3446,7 +3446,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3468,7 +3468,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3490,7 +3490,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3512,7 +3512,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3534,7 +3534,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3556,7 +3556,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3578,7 +3578,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3600,7 +3600,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3622,7 +3622,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3644,7 +3644,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3666,7 +3666,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3688,7 +3688,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3710,7 +3710,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3732,7 +3732,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3754,7 +3754,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3776,7 +3776,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3798,7 +3798,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3820,7 +3820,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3842,7 +3842,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#smoothProperty() smoothProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3864,7 +3864,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#startXProperty() startXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3886,7 +3886,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#startYProperty() startYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3908,7 +3908,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#strokeDashOffsetProperty() strokeDashOffsetProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3930,7 +3930,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#strokeLineCapProperty() strokeLineCapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3952,7 +3952,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#strokeLineJoinProperty() strokeLineJoinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3974,7 +3974,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#strokeMiterLimitProperty() strokeMiterLimitProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3996,7 +3996,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#strokeProperty() strokeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4018,7 +4018,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#strokeTypeProperty() strokeTypeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4040,7 +4040,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#strokeWidthProperty() strokeWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4062,7 +4062,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4084,7 +4084,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4106,7 +4106,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4128,7 +4128,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4150,7 +4150,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4172,7 +4172,7 @@ public class LineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
+     * This serves as a shorthand form of the {@link LineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

@@ -362,7 +362,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#audioSpectrumIntervalProperty() audioSpectrumIntervalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -384,7 +384,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#audioSpectrumListenerProperty() audioSpectrumListenerProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -406,7 +406,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#audioSpectrumNumBandsProperty() audioSpectrumNumBandsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -428,7 +428,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#audioSpectrumThresholdProperty() audioSpectrumThresholdProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -450,7 +450,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#autoPlayProperty() autoPlayProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -472,7 +472,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#balanceProperty() balanceProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -494,7 +494,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#bufferProgressTimeProperty() bufferProgressTimeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -516,7 +516,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#currentCountProperty() currentCountProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -538,7 +538,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#currentRateProperty() currentRateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -560,7 +560,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#currentTimeProperty() currentTimeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -582,7 +582,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#cycleCountProperty() cycleCountProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -604,7 +604,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#cycleDurationProperty() cycleDurationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -626,7 +626,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#errorProperty() errorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -648,7 +648,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#muteProperty() muteProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -670,7 +670,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onEndOfMediaProperty() onEndOfMediaProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -692,7 +692,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onErrorProperty() onErrorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -714,7 +714,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onHaltedProperty() onHaltedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -736,7 +736,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onMarkerProperty() onMarkerProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -758,7 +758,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onPausedProperty() onPausedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -780,7 +780,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onPlayingProperty() onPlayingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -802,7 +802,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onReadyProperty() onReadyProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -824,7 +824,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onRepeatProperty() onRepeatProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -846,7 +846,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onStalledProperty() onStalledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -868,7 +868,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#onStoppedProperty() onStoppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -890,7 +890,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#rateProperty() rateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -912,7 +912,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#startTimeProperty() startTimeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -934,7 +934,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#statusProperty() statusProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -956,7 +956,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#stopTimeProperty() stopTimeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -978,7 +978,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#totalDurationProperty() totalDurationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1000,7 +1000,7 @@ public class MediaPlayerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaPlayer#volumeProperty() volumeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaPlayerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

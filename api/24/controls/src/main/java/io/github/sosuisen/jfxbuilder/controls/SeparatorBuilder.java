@@ -2100,7 +2100,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2122,7 +2122,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2144,7 +2144,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2166,7 +2166,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2188,7 +2188,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2210,7 +2210,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2232,7 +2232,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2254,7 +2254,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2276,7 +2276,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2298,7 +2298,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2320,7 +2320,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2342,7 +2342,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2364,7 +2364,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2386,7 +2386,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2408,7 +2408,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2430,7 +2430,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2452,7 +2452,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2474,7 +2474,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2496,7 +2496,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2518,7 +2518,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2540,7 +2540,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2562,7 +2562,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2584,7 +2584,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2606,7 +2606,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2628,7 +2628,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2650,7 +2650,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2672,7 +2672,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#halignmentProperty() halignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2694,7 +2694,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2716,7 +2716,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2738,7 +2738,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2760,7 +2760,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2782,7 +2782,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2804,7 +2804,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2826,7 +2826,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2848,7 +2848,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2870,7 +2870,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2892,7 +2892,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2914,7 +2914,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2936,7 +2936,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2958,7 +2958,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2980,7 +2980,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3002,7 +3002,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3024,7 +3024,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3046,7 +3046,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3068,7 +3068,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3090,7 +3090,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3112,7 +3112,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3134,7 +3134,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3156,7 +3156,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3178,7 +3178,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3200,7 +3200,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3222,7 +3222,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3244,7 +3244,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3266,7 +3266,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3288,7 +3288,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3310,7 +3310,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3332,7 +3332,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3354,7 +3354,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3376,7 +3376,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3398,7 +3398,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3420,7 +3420,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3442,7 +3442,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3464,7 +3464,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3486,7 +3486,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3508,7 +3508,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3530,7 +3530,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3552,7 +3552,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3574,7 +3574,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3596,7 +3596,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3618,7 +3618,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3640,7 +3640,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3662,7 +3662,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3684,7 +3684,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3706,7 +3706,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3728,7 +3728,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3750,7 +3750,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3772,7 +3772,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3794,7 +3794,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3816,7 +3816,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3838,7 +3838,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3860,7 +3860,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3882,7 +3882,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3904,7 +3904,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3926,7 +3926,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3948,7 +3948,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3970,7 +3970,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3992,7 +3992,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#orientationProperty() orientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4014,7 +4014,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4036,7 +4036,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4058,7 +4058,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4080,7 +4080,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4102,7 +4102,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4124,7 +4124,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4146,7 +4146,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4168,7 +4168,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4190,7 +4190,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4212,7 +4212,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4234,7 +4234,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4256,7 +4256,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4278,7 +4278,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4300,7 +4300,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4322,7 +4322,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4344,7 +4344,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4366,7 +4366,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4388,7 +4388,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4410,7 +4410,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4432,7 +4432,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4454,7 +4454,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4476,7 +4476,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#valignmentProperty() valignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4498,7 +4498,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4520,7 +4520,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4542,7 +4542,7 @@ public class SeparatorBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Separator#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Separator> func) apply} method.
+     * This serves as a shorthand form of the {@link SeparatorBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

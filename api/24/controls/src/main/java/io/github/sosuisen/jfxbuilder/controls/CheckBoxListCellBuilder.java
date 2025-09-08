@@ -2265,7 +2265,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2287,7 +2287,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2309,7 +2309,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2331,7 +2331,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2353,7 +2353,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2375,7 +2375,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2397,7 +2397,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2419,7 +2419,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2441,7 +2441,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2463,7 +2463,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2485,7 +2485,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2507,7 +2507,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2529,7 +2529,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2551,7 +2551,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2573,7 +2573,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2595,7 +2595,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#contentDisplayProperty() contentDisplayProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2617,7 +2617,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2639,7 +2639,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#converterProperty() converterProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2661,7 +2661,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2683,7 +2683,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2705,7 +2705,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2727,7 +2727,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2749,7 +2749,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#editableProperty() editableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2771,7 +2771,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#editingProperty() editingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2793,7 +2793,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2815,7 +2815,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2837,7 +2837,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#ellipsisStringProperty() ellipsisStringProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2859,7 +2859,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#emptyProperty() emptyProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2881,7 +2881,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2903,7 +2903,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2925,7 +2925,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2947,7 +2947,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2969,7 +2969,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2991,7 +2991,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#fontProperty() fontProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3013,7 +3013,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3035,7 +3035,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#graphicTextGapProperty() graphicTextGapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3057,7 +3057,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3079,7 +3079,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3101,7 +3101,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3123,7 +3123,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#indexProperty() indexProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3145,7 +3145,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3167,7 +3167,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3189,7 +3189,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#itemProperty() itemProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3211,7 +3211,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#labelPaddingProperty() labelPaddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3233,7 +3233,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3255,7 +3255,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3277,7 +3277,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3299,7 +3299,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#lineSpacingProperty() lineSpacingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3321,7 +3321,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#listViewProperty() listViewProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3343,7 +3343,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3365,7 +3365,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3387,7 +3387,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3409,7 +3409,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3431,7 +3431,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3453,7 +3453,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3475,7 +3475,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3497,7 +3497,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3519,7 +3519,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3541,7 +3541,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3563,7 +3563,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3585,7 +3585,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3607,7 +3607,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3629,7 +3629,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3651,7 +3651,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3673,7 +3673,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3695,7 +3695,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3717,7 +3717,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3739,7 +3739,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3761,7 +3761,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3783,7 +3783,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3805,7 +3805,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3827,7 +3827,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3849,7 +3849,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3871,7 +3871,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3893,7 +3893,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3915,7 +3915,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3937,7 +3937,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3959,7 +3959,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3981,7 +3981,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4003,7 +4003,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4025,7 +4025,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4047,7 +4047,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4069,7 +4069,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4091,7 +4091,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4113,7 +4113,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4135,7 +4135,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4157,7 +4157,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4179,7 +4179,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4201,7 +4201,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4223,7 +4223,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4245,7 +4245,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4267,7 +4267,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4289,7 +4289,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4311,7 +4311,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4333,7 +4333,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4355,7 +4355,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4377,7 +4377,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4399,7 +4399,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4421,7 +4421,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4443,7 +4443,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4465,7 +4465,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4487,7 +4487,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4509,7 +4509,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4531,7 +4531,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4553,7 +4553,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4575,7 +4575,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4597,7 +4597,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4619,7 +4619,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4641,7 +4641,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4663,7 +4663,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4685,7 +4685,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4707,7 +4707,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4729,7 +4729,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4751,7 +4751,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4773,7 +4773,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#selectedProperty() selectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4795,7 +4795,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#selectedStateCallbackProperty() selectedStateCallbackProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4817,7 +4817,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4839,7 +4839,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4861,7 +4861,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4883,7 +4883,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4905,7 +4905,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#textAlignmentProperty() textAlignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4927,7 +4927,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#textFillProperty() textFillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4949,7 +4949,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#textOverrunProperty() textOverrunProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4971,7 +4971,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#textProperty() textProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4993,7 +4993,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#textTruncatedProperty() textTruncatedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5015,7 +5015,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5037,7 +5037,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5059,7 +5059,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5081,7 +5081,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5103,7 +5103,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#underlineProperty() underlineProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5125,7 +5125,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5147,7 +5147,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5169,7 +5169,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -5191,7 +5191,7 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.cell.CheckBoxListCell#wrapTextProperty() wrapTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxListCell<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link CheckBoxListCellBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

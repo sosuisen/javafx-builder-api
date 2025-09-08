@@ -271,7 +271,7 @@ public class DropShadowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#blurTypeProperty() blurTypeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
+     * This serves as a shorthand form of the {@link DropShadowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -293,7 +293,7 @@ public class DropShadowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#colorProperty() colorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
+     * This serves as a shorthand form of the {@link DropShadowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -315,7 +315,7 @@ public class DropShadowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
+     * This serves as a shorthand form of the {@link DropShadowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -337,7 +337,7 @@ public class DropShadowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#inputProperty() inputProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
+     * This serves as a shorthand form of the {@link DropShadowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -359,7 +359,7 @@ public class DropShadowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#offsetXProperty() offsetXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
+     * This serves as a shorthand form of the {@link DropShadowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -381,7 +381,7 @@ public class DropShadowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#offsetYProperty() offsetYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
+     * This serves as a shorthand form of the {@link DropShadowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -403,7 +403,7 @@ public class DropShadowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#radiusProperty() radiusProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
+     * This serves as a shorthand form of the {@link DropShadowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -425,7 +425,7 @@ public class DropShadowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#spreadProperty() spreadProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
+     * This serves as a shorthand form of the {@link DropShadowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -447,7 +447,7 @@ public class DropShadowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
+     * This serves as a shorthand form of the {@link DropShadowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

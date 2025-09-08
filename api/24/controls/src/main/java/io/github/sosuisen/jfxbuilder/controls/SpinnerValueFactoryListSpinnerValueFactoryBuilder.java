@@ -209,7 +209,7 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#converterProperty() converterProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerValueFactoryListSpinnerValueFactoryBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -231,7 +231,7 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#itemsProperty() itemsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerValueFactoryListSpinnerValueFactoryBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -253,7 +253,7 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#valueProperty() valueProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerValueFactoryListSpinnerValueFactoryBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -275,7 +275,7 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#wrapAroundProperty() wrapAroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory<T>> func) apply} method.
+     * This serves as a shorthand form of the {@link SpinnerValueFactoryListSpinnerValueFactoryBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

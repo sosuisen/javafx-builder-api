@@ -2144,7 +2144,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2166,7 +2166,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2188,7 +2188,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2210,7 +2210,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2232,7 +2232,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2254,7 +2254,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2276,7 +2276,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2298,7 +2298,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2320,7 +2320,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2342,7 +2342,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2364,7 +2364,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2386,7 +2386,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2408,7 +2408,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2430,7 +2430,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2452,7 +2452,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2474,7 +2474,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2496,7 +2496,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2518,7 +2518,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2540,7 +2540,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2562,7 +2562,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2584,7 +2584,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2606,7 +2606,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2628,7 +2628,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#fillWidthProperty() fillWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2650,7 +2650,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2672,7 +2672,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2694,7 +2694,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2716,7 +2716,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2738,7 +2738,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2760,7 +2760,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2782,7 +2782,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2804,7 +2804,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2826,7 +2826,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2848,7 +2848,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2870,7 +2870,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2892,7 +2892,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2914,7 +2914,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2936,7 +2936,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2958,7 +2958,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2980,7 +2980,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3002,7 +3002,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3024,7 +3024,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3046,7 +3046,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3068,7 +3068,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3090,7 +3090,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3112,7 +3112,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3134,7 +3134,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3156,7 +3156,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3178,7 +3178,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3200,7 +3200,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3222,7 +3222,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3244,7 +3244,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3266,7 +3266,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3288,7 +3288,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3310,7 +3310,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3332,7 +3332,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3354,7 +3354,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3376,7 +3376,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3398,7 +3398,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3420,7 +3420,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3442,7 +3442,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3464,7 +3464,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3486,7 +3486,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3508,7 +3508,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3530,7 +3530,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3552,7 +3552,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3574,7 +3574,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3596,7 +3596,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3618,7 +3618,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3640,7 +3640,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3662,7 +3662,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3684,7 +3684,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3706,7 +3706,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3728,7 +3728,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3750,7 +3750,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3772,7 +3772,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3794,7 +3794,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3816,7 +3816,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3838,7 +3838,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3860,7 +3860,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3882,7 +3882,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3904,7 +3904,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3926,7 +3926,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3948,7 +3948,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3970,7 +3970,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3992,7 +3992,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4014,7 +4014,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4036,7 +4036,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4058,7 +4058,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4080,7 +4080,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4102,7 +4102,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4124,7 +4124,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4146,7 +4146,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4168,7 +4168,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4190,7 +4190,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4212,7 +4212,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4234,7 +4234,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4256,7 +4256,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4278,7 +4278,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4300,7 +4300,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4322,7 +4322,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4344,7 +4344,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4366,7 +4366,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#spacingProperty() spacingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4388,7 +4388,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4410,7 +4410,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4432,7 +4432,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4454,7 +4454,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4476,7 +4476,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4498,7 +4498,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4520,7 +4520,7 @@ public class VBoxBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.VBox#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * This serves as a shorthand form of the {@link VBoxBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

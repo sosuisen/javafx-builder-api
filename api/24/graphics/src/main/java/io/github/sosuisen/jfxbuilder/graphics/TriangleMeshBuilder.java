@@ -165,7 +165,7 @@ public class TriangleMeshBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.TriangleMesh#vertexFormatProperty() vertexFormatProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.TriangleMesh> func) apply} method.
+     * This serves as a shorthand form of the {@link TriangleMeshBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

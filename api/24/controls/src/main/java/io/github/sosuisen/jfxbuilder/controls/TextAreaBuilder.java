@@ -2216,7 +2216,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2238,7 +2238,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2260,7 +2260,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2282,7 +2282,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2304,7 +2304,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#anchorProperty() anchorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2326,7 +2326,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2348,7 +2348,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2370,7 +2370,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2392,7 +2392,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2414,7 +2414,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2436,7 +2436,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2458,7 +2458,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2480,7 +2480,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2502,7 +2502,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#caretPositionProperty() caretPositionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2524,7 +2524,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2546,7 +2546,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2568,7 +2568,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2590,7 +2590,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2612,7 +2612,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2634,7 +2634,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2656,7 +2656,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2678,7 +2678,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#editableProperty() editableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2700,7 +2700,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2722,7 +2722,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2744,7 +2744,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2766,7 +2766,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2788,7 +2788,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2810,7 +2810,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2832,7 +2832,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2854,7 +2854,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#fontProperty() fontProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2876,7 +2876,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2898,7 +2898,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2920,7 +2920,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2942,7 +2942,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2964,7 +2964,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2986,7 +2986,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3008,7 +3008,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3030,7 +3030,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3052,7 +3052,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#lengthProperty() lengthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3074,7 +3074,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3096,7 +3096,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3118,7 +3118,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3140,7 +3140,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3162,7 +3162,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3184,7 +3184,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3206,7 +3206,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3228,7 +3228,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3250,7 +3250,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3272,7 +3272,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3294,7 +3294,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3316,7 +3316,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3338,7 +3338,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3360,7 +3360,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3382,7 +3382,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3404,7 +3404,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3426,7 +3426,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3448,7 +3448,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3470,7 +3470,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3492,7 +3492,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3514,7 +3514,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3536,7 +3536,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3558,7 +3558,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3580,7 +3580,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3602,7 +3602,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3624,7 +3624,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3646,7 +3646,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3668,7 +3668,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3690,7 +3690,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3712,7 +3712,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3734,7 +3734,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3756,7 +3756,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3778,7 +3778,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3800,7 +3800,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3822,7 +3822,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3844,7 +3844,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3866,7 +3866,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3888,7 +3888,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3910,7 +3910,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3932,7 +3932,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3954,7 +3954,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3976,7 +3976,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3998,7 +3998,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4020,7 +4020,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4042,7 +4042,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4064,7 +4064,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4086,7 +4086,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4108,7 +4108,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4130,7 +4130,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4152,7 +4152,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4174,7 +4174,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4196,7 +4196,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4218,7 +4218,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4240,7 +4240,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4262,7 +4262,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#prefColumnCountProperty() prefColumnCountProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4284,7 +4284,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4306,7 +4306,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#prefRowCountProperty() prefRowCountProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4328,7 +4328,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4350,7 +4350,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4372,7 +4372,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#promptTextProperty() promptTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4394,7 +4394,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#redoableProperty() redoableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4416,7 +4416,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4438,7 +4438,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4460,7 +4460,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4482,7 +4482,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4504,7 +4504,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4526,7 +4526,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4548,7 +4548,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4570,7 +4570,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#scrollLeftProperty() scrollLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4592,7 +4592,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#scrollTopProperty() scrollTopProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4614,7 +4614,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#selectedTextProperty() selectedTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4636,7 +4636,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#selectionProperty() selectionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4658,7 +4658,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4680,7 +4680,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4702,7 +4702,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4724,7 +4724,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4746,7 +4746,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#textFormatterProperty() textFormatterProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4768,7 +4768,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#textProperty() textProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4790,7 +4790,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4812,7 +4812,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4834,7 +4834,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4856,7 +4856,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4878,7 +4878,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#undoableProperty() undoableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4900,7 +4900,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4922,7 +4922,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4944,7 +4944,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4966,7 +4966,7 @@ public class TextAreaBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#wrapTextProperty() wrapTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * This serves as a shorthand form of the {@link TextAreaBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

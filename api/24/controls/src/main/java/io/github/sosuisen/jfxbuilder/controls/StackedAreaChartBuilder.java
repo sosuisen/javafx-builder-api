@@ -2197,7 +2197,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2219,7 +2219,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2241,7 +2241,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2263,7 +2263,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2285,7 +2285,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#alternativeColumnFillVisibleProperty() alternativeColumnFillVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2307,7 +2307,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#alternativeRowFillVisibleProperty() alternativeRowFillVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2329,7 +2329,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#animatedProperty() animatedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2351,7 +2351,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2373,7 +2373,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2395,7 +2395,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2417,7 +2417,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2439,7 +2439,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2461,7 +2461,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2483,7 +2483,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2505,7 +2505,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2527,7 +2527,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2549,7 +2549,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2571,7 +2571,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#createSymbolsProperty() createSymbolsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2593,7 +2593,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2615,7 +2615,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#dataProperty() dataProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2637,7 +2637,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2659,7 +2659,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2681,7 +2681,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2703,7 +2703,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2725,7 +2725,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2747,7 +2747,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2769,7 +2769,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2791,7 +2791,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2813,7 +2813,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2835,7 +2835,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2857,7 +2857,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2879,7 +2879,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#horizontalGridLinesVisibleProperty() horizontalGridLinesVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2901,7 +2901,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#horizontalZeroLineVisibleProperty() horizontalZeroLineVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2923,7 +2923,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2945,7 +2945,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2967,7 +2967,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2989,7 +2989,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3011,7 +3011,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3033,7 +3033,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3055,7 +3055,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3077,7 +3077,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#legendSideProperty() legendSideProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3099,7 +3099,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#legendVisibleProperty() legendVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3121,7 +3121,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3143,7 +3143,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3165,7 +3165,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3187,7 +3187,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3209,7 +3209,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3231,7 +3231,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3253,7 +3253,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3275,7 +3275,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3297,7 +3297,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3319,7 +3319,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3341,7 +3341,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3363,7 +3363,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3385,7 +3385,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3407,7 +3407,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3429,7 +3429,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3451,7 +3451,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3473,7 +3473,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3495,7 +3495,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3517,7 +3517,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3539,7 +3539,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3561,7 +3561,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3583,7 +3583,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3605,7 +3605,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3627,7 +3627,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3649,7 +3649,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3671,7 +3671,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3693,7 +3693,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3715,7 +3715,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3737,7 +3737,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3759,7 +3759,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3781,7 +3781,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3803,7 +3803,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3825,7 +3825,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3847,7 +3847,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3869,7 +3869,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3891,7 +3891,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3913,7 +3913,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3935,7 +3935,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3957,7 +3957,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3979,7 +3979,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4001,7 +4001,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4023,7 +4023,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4045,7 +4045,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4067,7 +4067,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4089,7 +4089,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4111,7 +4111,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4133,7 +4133,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4155,7 +4155,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4177,7 +4177,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4199,7 +4199,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4221,7 +4221,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4243,7 +4243,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4265,7 +4265,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4287,7 +4287,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4309,7 +4309,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4331,7 +4331,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4353,7 +4353,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4375,7 +4375,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4397,7 +4397,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4419,7 +4419,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4441,7 +4441,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4463,7 +4463,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4485,7 +4485,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4507,7 +4507,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4529,7 +4529,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4551,7 +4551,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4573,7 +4573,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4595,7 +4595,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#titleProperty() titleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4617,7 +4617,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#titleSideProperty() titleSideProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4639,7 +4639,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4661,7 +4661,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4683,7 +4683,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4705,7 +4705,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#verticalGridLinesVisibleProperty() verticalGridLinesVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4727,7 +4727,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#verticalZeroLineVisibleProperty() verticalZeroLineVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4749,7 +4749,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4771,7 +4771,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4793,7 +4793,7 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.StackedAreaChart#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link StackedAreaChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

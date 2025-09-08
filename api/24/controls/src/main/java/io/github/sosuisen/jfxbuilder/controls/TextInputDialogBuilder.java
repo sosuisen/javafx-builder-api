@@ -325,7 +325,7 @@ public class TextInputDialogBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#contentTextProperty() contentTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextInputDialog> func) apply} method.
+     * This serves as a shorthand form of the {@link TextInputDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -347,7 +347,7 @@ public class TextInputDialogBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#dialogPaneProperty() dialogPaneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextInputDialog> func) apply} method.
+     * This serves as a shorthand form of the {@link TextInputDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -369,7 +369,7 @@ public class TextInputDialogBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextInputDialog> func) apply} method.
+     * This serves as a shorthand form of the {@link TextInputDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -391,7 +391,7 @@ public class TextInputDialogBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#headerTextProperty() headerTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextInputDialog> func) apply} method.
+     * This serves as a shorthand form of the {@link TextInputDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -413,7 +413,7 @@ public class TextInputDialogBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextInputDialog> func) apply} method.
+     * This serves as a shorthand form of the {@link TextInputDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -435,7 +435,7 @@ public class TextInputDialogBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#onCloseRequestProperty() onCloseRequestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextInputDialog> func) apply} method.
+     * This serves as a shorthand form of the {@link TextInputDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -457,7 +457,7 @@ public class TextInputDialogBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextInputDialog> func) apply} method.
+     * This serves as a shorthand form of the {@link TextInputDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -479,7 +479,7 @@ public class TextInputDialogBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextInputDialog> func) apply} method.
+     * This serves as a shorthand form of the {@link TextInputDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -501,7 +501,7 @@ public class TextInputDialogBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextInputDialog> func) apply} method.
+     * This serves as a shorthand form of the {@link TextInputDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -523,7 +523,7 @@ public class TextInputDialogBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextInputDialog> func) apply} method.
+     * This serves as a shorthand form of the {@link TextInputDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -545,7 +545,7 @@ public class TextInputDialogBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#resizableProperty() resizableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextInputDialog> func) apply} method.
+     * This serves as a shorthand form of the {@link TextInputDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -567,7 +567,7 @@ public class TextInputDialogBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#resultConverterProperty() resultConverterProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextInputDialog> func) apply} method.
+     * This serves as a shorthand form of the {@link TextInputDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -589,7 +589,7 @@ public class TextInputDialogBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#resultProperty() resultProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextInputDialog> func) apply} method.
+     * This serves as a shorthand form of the {@link TextInputDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -611,7 +611,7 @@ public class TextInputDialogBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#showingProperty() showingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextInputDialog> func) apply} method.
+     * This serves as a shorthand form of the {@link TextInputDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -633,7 +633,7 @@ public class TextInputDialogBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#titleProperty() titleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextInputDialog> func) apply} method.
+     * This serves as a shorthand form of the {@link TextInputDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -655,7 +655,7 @@ public class TextInputDialogBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextInputDialog> func) apply} method.
+     * This serves as a shorthand form of the {@link TextInputDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -677,7 +677,7 @@ public class TextInputDialogBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextInputDialog> func) apply} method.
+     * This serves as a shorthand form of the {@link TextInputDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -699,7 +699,7 @@ public class TextInputDialogBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TextInputDialog#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextInputDialog> func) apply} method.
+     * This serves as a shorthand form of the {@link TextInputDialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

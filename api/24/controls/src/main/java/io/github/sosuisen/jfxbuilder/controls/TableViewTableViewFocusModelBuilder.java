@@ -144,7 +144,7 @@ public class TableViewTableViewFocusModelBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableView.TableViewFocusModel#focusedCellProperty() focusedCellProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView.TableViewFocusModel<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableViewTableViewFocusModelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -167,7 +167,7 @@ public class TableViewTableViewFocusModelBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableView.TableViewFocusModel#focusedIndexProperty() focusedIndexProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView.TableViewFocusModel<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableViewTableViewFocusModelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -189,7 +189,7 @@ public class TableViewTableViewFocusModelBuilder<S> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableView.TableViewFocusModel#focusedItemProperty() focusedItemProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView.TableViewFocusModel<S>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableViewTableViewFocusModelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

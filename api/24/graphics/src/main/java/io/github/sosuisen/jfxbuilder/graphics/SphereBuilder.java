@@ -1871,7 +1871,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1893,7 +1893,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1915,7 +1915,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1937,7 +1937,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1959,7 +1959,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1981,7 +1981,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2003,7 +2003,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2025,7 +2025,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2047,7 +2047,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2069,7 +2069,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2091,7 +2091,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#cullFaceProperty() cullFaceProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2113,7 +2113,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2135,7 +2135,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2157,7 +2157,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2179,7 +2179,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2201,7 +2201,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#drawModeProperty() drawModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2223,7 +2223,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2245,7 +2245,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2267,7 +2267,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2289,7 +2289,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2311,7 +2311,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2333,7 +2333,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2355,7 +2355,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2377,7 +2377,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2399,7 +2399,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2421,7 +2421,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2443,7 +2443,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2465,7 +2465,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2487,7 +2487,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2509,7 +2509,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2531,7 +2531,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2553,7 +2553,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2575,7 +2575,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#materialProperty() materialProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2597,7 +2597,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2619,7 +2619,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2641,7 +2641,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2663,7 +2663,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2685,7 +2685,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2707,7 +2707,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2729,7 +2729,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2751,7 +2751,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2773,7 +2773,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2795,7 +2795,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2817,7 +2817,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2839,7 +2839,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2861,7 +2861,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2883,7 +2883,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2905,7 +2905,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2927,7 +2927,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2949,7 +2949,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2971,7 +2971,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2993,7 +2993,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3015,7 +3015,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3037,7 +3037,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3059,7 +3059,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3081,7 +3081,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3103,7 +3103,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3125,7 +3125,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3147,7 +3147,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3169,7 +3169,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3191,7 +3191,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3213,7 +3213,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3235,7 +3235,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3257,7 +3257,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3279,7 +3279,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3301,7 +3301,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3323,7 +3323,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3345,7 +3345,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3367,7 +3367,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3389,7 +3389,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3411,7 +3411,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3433,7 +3433,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3455,7 +3455,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3477,7 +3477,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3499,7 +3499,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3521,7 +3521,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3543,7 +3543,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3565,7 +3565,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3587,7 +3587,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#radiusProperty() radiusProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3609,7 +3609,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3631,7 +3631,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3653,7 +3653,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3675,7 +3675,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3697,7 +3697,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3719,7 +3719,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3741,7 +3741,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3763,7 +3763,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3785,7 +3785,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3807,7 +3807,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3829,7 +3829,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3851,7 +3851,7 @@ public class SphereBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
+     * This serves as a shorthand form of the {@link SphereBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

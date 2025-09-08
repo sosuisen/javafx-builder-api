@@ -169,7 +169,7 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
     /**
      * Applies a function to the {@link javafx.scene.control.skin.CellSkinBase#cellSizeProperty() cellSizeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.CellSkinBase<C>> func) apply} method.
+     * This serves as a shorthand form of the {@link CellSkinBaseBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

@@ -2207,7 +2207,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2229,7 +2229,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2251,7 +2251,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2273,7 +2273,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2295,7 +2295,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#alternativeColumnFillVisibleProperty() alternativeColumnFillVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2317,7 +2317,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#alternativeRowFillVisibleProperty() alternativeRowFillVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2339,7 +2339,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#animatedProperty() animatedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2361,7 +2361,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#axisSortingPolicyProperty() axisSortingPolicyProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2383,7 +2383,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2405,7 +2405,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2427,7 +2427,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2449,7 +2449,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2471,7 +2471,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2493,7 +2493,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2515,7 +2515,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2537,7 +2537,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2559,7 +2559,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2581,7 +2581,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2603,7 +2603,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#createSymbolsProperty() createSymbolsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2625,7 +2625,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2647,7 +2647,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#dataProperty() dataProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2669,7 +2669,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2691,7 +2691,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2713,7 +2713,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2735,7 +2735,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2757,7 +2757,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2779,7 +2779,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2801,7 +2801,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2823,7 +2823,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2845,7 +2845,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2867,7 +2867,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2889,7 +2889,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2911,7 +2911,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#horizontalGridLinesVisibleProperty() horizontalGridLinesVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2933,7 +2933,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#horizontalZeroLineVisibleProperty() horizontalZeroLineVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2955,7 +2955,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2977,7 +2977,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2999,7 +2999,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3021,7 +3021,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3043,7 +3043,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3065,7 +3065,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3087,7 +3087,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3109,7 +3109,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#legendSideProperty() legendSideProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3131,7 +3131,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#legendVisibleProperty() legendVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3153,7 +3153,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3175,7 +3175,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3197,7 +3197,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3219,7 +3219,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3241,7 +3241,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3263,7 +3263,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3285,7 +3285,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3307,7 +3307,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3329,7 +3329,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3351,7 +3351,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3373,7 +3373,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3395,7 +3395,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3417,7 +3417,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3439,7 +3439,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3461,7 +3461,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3483,7 +3483,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3505,7 +3505,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3527,7 +3527,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3549,7 +3549,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3571,7 +3571,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3593,7 +3593,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3615,7 +3615,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3637,7 +3637,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3659,7 +3659,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3681,7 +3681,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3703,7 +3703,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3725,7 +3725,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3747,7 +3747,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3769,7 +3769,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3791,7 +3791,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3813,7 +3813,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3835,7 +3835,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3857,7 +3857,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3879,7 +3879,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3901,7 +3901,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3923,7 +3923,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3945,7 +3945,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3967,7 +3967,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3989,7 +3989,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4011,7 +4011,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4033,7 +4033,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4055,7 +4055,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4077,7 +4077,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4099,7 +4099,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4121,7 +4121,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4143,7 +4143,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4165,7 +4165,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4187,7 +4187,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4209,7 +4209,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4231,7 +4231,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4253,7 +4253,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4275,7 +4275,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4297,7 +4297,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4319,7 +4319,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4341,7 +4341,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4363,7 +4363,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4385,7 +4385,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4407,7 +4407,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4429,7 +4429,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4451,7 +4451,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4473,7 +4473,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4495,7 +4495,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4517,7 +4517,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4539,7 +4539,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4561,7 +4561,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4583,7 +4583,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4605,7 +4605,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4627,7 +4627,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#titleProperty() titleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4649,7 +4649,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#titleSideProperty() titleSideProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4671,7 +4671,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4693,7 +4693,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4715,7 +4715,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4737,7 +4737,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#verticalGridLinesVisibleProperty() verticalGridLinesVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4759,7 +4759,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#verticalZeroLineVisibleProperty() verticalZeroLineVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4781,7 +4781,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4803,7 +4803,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4825,7 +4825,7 @@ public class LineChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link LineChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

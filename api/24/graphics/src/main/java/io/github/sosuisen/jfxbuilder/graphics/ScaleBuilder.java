@@ -264,7 +264,7 @@ public class ScaleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Scale#identityProperty() identityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
+     * This serves as a shorthand form of the {@link ScaleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -286,7 +286,7 @@ public class ScaleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Scale#onTransformChangedProperty() onTransformChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
+     * This serves as a shorthand form of the {@link ScaleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -308,7 +308,7 @@ public class ScaleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Scale#pivotXProperty() pivotXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
+     * This serves as a shorthand form of the {@link ScaleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -330,7 +330,7 @@ public class ScaleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Scale#pivotYProperty() pivotYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
+     * This serves as a shorthand form of the {@link ScaleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -352,7 +352,7 @@ public class ScaleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Scale#pivotZProperty() pivotZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
+     * This serves as a shorthand form of the {@link ScaleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -374,7 +374,7 @@ public class ScaleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Scale#type2DProperty() type2DProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
+     * This serves as a shorthand form of the {@link ScaleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -396,7 +396,7 @@ public class ScaleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Scale#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
+     * This serves as a shorthand form of the {@link ScaleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -418,7 +418,7 @@ public class ScaleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Scale#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
+     * This serves as a shorthand form of the {@link ScaleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -440,7 +440,7 @@ public class ScaleBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Scale#zProperty() zProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
+     * This serves as a shorthand form of the {@link ScaleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

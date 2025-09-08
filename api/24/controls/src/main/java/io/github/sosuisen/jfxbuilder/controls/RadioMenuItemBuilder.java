@@ -323,7 +323,7 @@ public class RadioMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#acceleratorProperty() acceleratorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link RadioMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -345,7 +345,7 @@ public class RadioMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link RadioMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -367,7 +367,7 @@ public class RadioMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link RadioMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -389,7 +389,7 @@ public class RadioMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link RadioMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -411,7 +411,7 @@ public class RadioMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link RadioMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -433,7 +433,7 @@ public class RadioMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link RadioMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -455,7 +455,7 @@ public class RadioMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#onMenuValidationProperty() onMenuValidationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link RadioMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -477,7 +477,7 @@ public class RadioMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#parentMenuProperty() parentMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link RadioMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -499,7 +499,7 @@ public class RadioMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#parentPopupProperty() parentPopupProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link RadioMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -521,7 +521,7 @@ public class RadioMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#selectedProperty() selectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link RadioMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -543,7 +543,7 @@ public class RadioMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link RadioMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -565,7 +565,7 @@ public class RadioMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#textProperty() textProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link RadioMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -587,7 +587,7 @@ public class RadioMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#toggleGroupProperty() toggleGroupProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link RadioMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -609,7 +609,7 @@ public class RadioMenuItemBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.RadioMenuItem#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) apply} method.
+     * This serves as a shorthand form of the {@link RadioMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

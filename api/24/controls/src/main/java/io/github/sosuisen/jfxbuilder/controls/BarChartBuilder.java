@@ -2220,7 +2220,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2242,7 +2242,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2264,7 +2264,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2286,7 +2286,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2308,7 +2308,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#alternativeColumnFillVisibleProperty() alternativeColumnFillVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2330,7 +2330,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#alternativeRowFillVisibleProperty() alternativeRowFillVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2352,7 +2352,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#animatedProperty() animatedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2374,7 +2374,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2396,7 +2396,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#barGapProperty() barGapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2418,7 +2418,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2440,7 +2440,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2462,7 +2462,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2484,7 +2484,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2506,7 +2506,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2528,7 +2528,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2550,7 +2550,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2572,7 +2572,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#categoryGapProperty() categoryGapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2594,7 +2594,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2616,7 +2616,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2638,7 +2638,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2660,7 +2660,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#dataProperty() dataProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2682,7 +2682,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2704,7 +2704,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2726,7 +2726,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2748,7 +2748,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2770,7 +2770,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2792,7 +2792,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2814,7 +2814,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2836,7 +2836,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2858,7 +2858,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2880,7 +2880,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2902,7 +2902,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2924,7 +2924,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#horizontalGridLinesVisibleProperty() horizontalGridLinesVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2946,7 +2946,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#horizontalZeroLineVisibleProperty() horizontalZeroLineVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2968,7 +2968,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2990,7 +2990,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3012,7 +3012,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3034,7 +3034,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3056,7 +3056,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3078,7 +3078,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3100,7 +3100,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3122,7 +3122,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#legendSideProperty() legendSideProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3144,7 +3144,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#legendVisibleProperty() legendVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3166,7 +3166,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3188,7 +3188,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3210,7 +3210,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3232,7 +3232,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3254,7 +3254,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3276,7 +3276,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3298,7 +3298,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3320,7 +3320,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3342,7 +3342,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3364,7 +3364,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3386,7 +3386,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3408,7 +3408,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3430,7 +3430,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3452,7 +3452,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3474,7 +3474,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3496,7 +3496,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3518,7 +3518,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3540,7 +3540,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3562,7 +3562,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3584,7 +3584,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3606,7 +3606,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3628,7 +3628,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3650,7 +3650,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3672,7 +3672,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3694,7 +3694,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3716,7 +3716,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3738,7 +3738,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3760,7 +3760,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3782,7 +3782,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3804,7 +3804,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3826,7 +3826,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3848,7 +3848,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3870,7 +3870,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3892,7 +3892,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3914,7 +3914,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3936,7 +3936,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3958,7 +3958,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3980,7 +3980,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4002,7 +4002,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4024,7 +4024,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4046,7 +4046,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4068,7 +4068,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4090,7 +4090,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4112,7 +4112,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4134,7 +4134,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4156,7 +4156,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4178,7 +4178,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4200,7 +4200,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4222,7 +4222,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4244,7 +4244,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4266,7 +4266,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4288,7 +4288,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4310,7 +4310,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4332,7 +4332,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4354,7 +4354,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4376,7 +4376,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4398,7 +4398,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4420,7 +4420,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4442,7 +4442,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4464,7 +4464,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4486,7 +4486,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4508,7 +4508,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4530,7 +4530,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4552,7 +4552,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4574,7 +4574,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4596,7 +4596,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4618,7 +4618,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4640,7 +4640,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#titleProperty() titleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4662,7 +4662,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#titleSideProperty() titleSideProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4684,7 +4684,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4706,7 +4706,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4728,7 +4728,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4750,7 +4750,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#verticalGridLinesVisibleProperty() verticalGridLinesVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4772,7 +4772,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#verticalZeroLineVisibleProperty() verticalZeroLineVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4794,7 +4794,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4816,7 +4816,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4838,7 +4838,7 @@ public class BarChartBuilder<X, Y> {
     /**
      * Applies a function to the {@link javafx.scene.chart.BarChart#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * This serves as a shorthand form of the {@link BarChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

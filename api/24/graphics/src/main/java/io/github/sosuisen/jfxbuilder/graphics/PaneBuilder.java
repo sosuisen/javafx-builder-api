@@ -2088,7 +2088,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2110,7 +2110,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2132,7 +2132,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2154,7 +2154,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2176,7 +2176,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2198,7 +2198,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2220,7 +2220,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2242,7 +2242,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2264,7 +2264,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2286,7 +2286,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2308,7 +2308,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2330,7 +2330,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2352,7 +2352,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2374,7 +2374,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2396,7 +2396,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2418,7 +2418,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2440,7 +2440,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2462,7 +2462,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2484,7 +2484,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2506,7 +2506,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2528,7 +2528,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2550,7 +2550,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2572,7 +2572,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2594,7 +2594,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2616,7 +2616,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2638,7 +2638,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2660,7 +2660,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2682,7 +2682,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2704,7 +2704,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2726,7 +2726,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2748,7 +2748,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2770,7 +2770,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2792,7 +2792,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2814,7 +2814,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2836,7 +2836,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2858,7 +2858,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2880,7 +2880,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2902,7 +2902,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2924,7 +2924,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2946,7 +2946,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2968,7 +2968,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2990,7 +2990,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3012,7 +3012,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3034,7 +3034,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3056,7 +3056,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3078,7 +3078,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3100,7 +3100,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3122,7 +3122,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3144,7 +3144,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3166,7 +3166,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3188,7 +3188,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3210,7 +3210,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3232,7 +3232,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3254,7 +3254,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3276,7 +3276,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3298,7 +3298,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3320,7 +3320,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3342,7 +3342,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3364,7 +3364,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3386,7 +3386,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3408,7 +3408,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3430,7 +3430,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3452,7 +3452,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3474,7 +3474,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3496,7 +3496,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3518,7 +3518,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3540,7 +3540,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3562,7 +3562,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3584,7 +3584,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3606,7 +3606,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3628,7 +3628,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3650,7 +3650,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3672,7 +3672,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3694,7 +3694,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3716,7 +3716,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3738,7 +3738,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3760,7 +3760,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3782,7 +3782,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3804,7 +3804,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3826,7 +3826,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3848,7 +3848,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3870,7 +3870,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3892,7 +3892,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3914,7 +3914,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3936,7 +3936,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3958,7 +3958,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3980,7 +3980,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4002,7 +4002,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4024,7 +4024,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4046,7 +4046,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4068,7 +4068,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4090,7 +4090,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4112,7 +4112,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4134,7 +4134,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4156,7 +4156,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4178,7 +4178,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4200,7 +4200,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4222,7 +4222,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4244,7 +4244,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4266,7 +4266,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4288,7 +4288,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4310,7 +4310,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4332,7 +4332,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4354,7 +4354,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4376,7 +4376,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4398,7 +4398,7 @@ public class PaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.layout.Pane#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) apply} method.
+     * This serves as a shorthand form of the {@link PaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

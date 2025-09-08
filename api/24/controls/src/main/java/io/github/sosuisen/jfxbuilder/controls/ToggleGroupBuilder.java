@@ -198,7 +198,7 @@ public class ToggleGroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleGroup#selectedToggleProperty() selectedToggleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleGroup> func) apply} method.
+     * This serves as a shorthand form of the {@link ToggleGroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

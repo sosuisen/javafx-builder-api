@@ -1929,7 +1929,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1951,7 +1951,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1973,7 +1973,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1995,7 +1995,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2017,7 +2017,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#autoSizeChildrenProperty() autoSizeChildrenProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2039,7 +2039,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2061,7 +2061,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2083,7 +2083,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2105,7 +2105,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2127,7 +2127,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2149,7 +2149,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2171,7 +2171,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2193,7 +2193,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2215,7 +2215,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2237,7 +2237,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2259,7 +2259,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2281,7 +2281,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2303,7 +2303,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2325,7 +2325,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2347,7 +2347,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2369,7 +2369,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2391,7 +2391,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2413,7 +2413,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2435,7 +2435,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2457,7 +2457,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2479,7 +2479,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2501,7 +2501,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2523,7 +2523,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2545,7 +2545,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2567,7 +2567,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2589,7 +2589,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2611,7 +2611,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2633,7 +2633,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2655,7 +2655,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2677,7 +2677,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2699,7 +2699,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2721,7 +2721,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2743,7 +2743,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2765,7 +2765,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2787,7 +2787,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2809,7 +2809,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2831,7 +2831,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2853,7 +2853,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2875,7 +2875,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2897,7 +2897,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2919,7 +2919,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2941,7 +2941,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2963,7 +2963,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2985,7 +2985,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3007,7 +3007,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3029,7 +3029,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3051,7 +3051,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3073,7 +3073,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3095,7 +3095,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3117,7 +3117,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3139,7 +3139,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3161,7 +3161,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3183,7 +3183,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3205,7 +3205,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3227,7 +3227,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3249,7 +3249,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3271,7 +3271,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3293,7 +3293,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3315,7 +3315,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3337,7 +3337,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3359,7 +3359,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3381,7 +3381,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3403,7 +3403,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3425,7 +3425,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3447,7 +3447,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3469,7 +3469,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3491,7 +3491,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3513,7 +3513,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3535,7 +3535,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3557,7 +3557,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3579,7 +3579,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3601,7 +3601,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3623,7 +3623,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3645,7 +3645,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3667,7 +3667,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3689,7 +3689,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3711,7 +3711,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3733,7 +3733,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3755,7 +3755,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3777,7 +3777,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3799,7 +3799,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3821,7 +3821,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3843,7 +3843,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3865,7 +3865,7 @@ public class GroupBuilder {
     /**
      * Applies a function to the {@link javafx.scene.Group#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
+     * This serves as a shorthand form of the {@link GroupBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

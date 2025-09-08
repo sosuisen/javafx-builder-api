@@ -162,7 +162,7 @@ public class PieChartDataBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.PieChart.Data#chartProperty() chartProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.PieChart.Data> func) apply} method.
+     * This serves as a shorthand form of the {@link PieChartDataBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -184,7 +184,7 @@ public class PieChartDataBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.PieChart.Data#nameProperty() nameProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.PieChart.Data> func) apply} method.
+     * This serves as a shorthand form of the {@link PieChartDataBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -206,7 +206,7 @@ public class PieChartDataBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.PieChart.Data#nodeProperty() nodeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.PieChart.Data> func) apply} method.
+     * This serves as a shorthand form of the {@link PieChartDataBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -228,7 +228,7 @@ public class PieChartDataBuilder {
     /**
      * Applies a function to the {@link javafx.scene.chart.PieChart.Data#pieValueProperty() pieValueProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.PieChart.Data> func) apply} method.
+     * This serves as a shorthand form of the {@link PieChartDataBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

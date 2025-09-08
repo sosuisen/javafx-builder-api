@@ -448,7 +448,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#cellFactoryProperty() cellFactoryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -470,7 +470,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#cellValueFactoryProperty() cellValueFactoryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -492,7 +492,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#comparatorProperty() comparatorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -514,7 +514,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -536,7 +536,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#editableProperty() editableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -558,7 +558,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -580,7 +580,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -602,7 +602,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -624,7 +624,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -646,7 +646,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#onEditCancelProperty() onEditCancelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -668,7 +668,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#onEditCommitProperty() onEditCommitProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -690,7 +690,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#onEditStartProperty() onEditStartProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -712,7 +712,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#parentColumnProperty() parentColumnProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -734,7 +734,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -756,7 +756,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#reorderableProperty() reorderableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -778,7 +778,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#resizableProperty() resizableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -800,7 +800,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#sortNodeProperty() sortNodeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -822,7 +822,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#sortTypeProperty() sortTypeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -844,7 +844,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#sortableProperty() sortableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -866,7 +866,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -888,7 +888,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#tableViewProperty() tableViewProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -910,7 +910,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#textProperty() textProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -932,7 +932,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -954,7 +954,7 @@ public class TableColumnBuilder<S, T> {
     /**
      * Applies a function to the {@link javafx.scene.control.TableColumn#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) apply} method.
+     * This serves as a shorthand form of the {@link TableColumnBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

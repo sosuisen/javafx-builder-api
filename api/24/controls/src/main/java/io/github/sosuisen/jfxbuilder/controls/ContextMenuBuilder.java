@@ -586,7 +586,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#anchorLocationProperty() anchorLocationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -608,7 +608,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#anchorXProperty() anchorXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -630,7 +630,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#anchorYProperty() anchorYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -652,7 +652,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#autoFixProperty() autoFixProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -674,7 +674,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#autoHideProperty() autoHideProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -696,7 +696,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#consumeAutoHidingEventsProperty() consumeAutoHidingEventsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -718,7 +718,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -740,7 +740,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -762,7 +762,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#forceIntegerRenderScaleProperty() forceIntegerRenderScaleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -784,7 +784,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -806,7 +806,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#hideOnEscapeProperty() hideOnEscapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -828,7 +828,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -850,7 +850,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -872,7 +872,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -894,7 +894,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -916,7 +916,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -938,7 +938,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -960,7 +960,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#onAutoHideProperty() onAutoHideProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -982,7 +982,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#onCloseRequestProperty() onCloseRequestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1004,7 +1004,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1026,7 +1026,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1048,7 +1048,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1070,7 +1070,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1092,7 +1092,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1114,7 +1114,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#outputScaleXProperty() outputScaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1136,7 +1136,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#outputScaleYProperty() outputScaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1158,7 +1158,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#ownerNodeProperty() ownerNodeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1180,7 +1180,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#ownerWindowProperty() ownerWindowProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1202,7 +1202,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1224,7 +1224,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1246,7 +1246,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#renderScaleXProperty() renderScaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1268,7 +1268,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#renderScaleYProperty() renderScaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1290,7 +1290,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1312,7 +1312,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#showingProperty() showingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1334,7 +1334,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1356,7 +1356,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1378,7 +1378,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1400,7 +1400,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1422,7 +1422,7 @@ public class ContextMenuBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

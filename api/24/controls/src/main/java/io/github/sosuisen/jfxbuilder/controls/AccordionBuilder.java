@@ -2126,7 +2126,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2148,7 +2148,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2170,7 +2170,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2192,7 +2192,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2214,7 +2214,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2236,7 +2236,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2258,7 +2258,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2280,7 +2280,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2302,7 +2302,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2324,7 +2324,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2346,7 +2346,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2368,7 +2368,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2390,7 +2390,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2412,7 +2412,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2434,7 +2434,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2456,7 +2456,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2478,7 +2478,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2500,7 +2500,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2522,7 +2522,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2544,7 +2544,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2566,7 +2566,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2588,7 +2588,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2610,7 +2610,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#expandedPaneProperty() expandedPaneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2632,7 +2632,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2654,7 +2654,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2676,7 +2676,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2698,7 +2698,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2720,7 +2720,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2742,7 +2742,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2764,7 +2764,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2786,7 +2786,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2808,7 +2808,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2830,7 +2830,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2852,7 +2852,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2874,7 +2874,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2896,7 +2896,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2918,7 +2918,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2940,7 +2940,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2962,7 +2962,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2984,7 +2984,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3006,7 +3006,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3028,7 +3028,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3050,7 +3050,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3072,7 +3072,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3094,7 +3094,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3116,7 +3116,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3138,7 +3138,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3160,7 +3160,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3182,7 +3182,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3204,7 +3204,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3226,7 +3226,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3248,7 +3248,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3270,7 +3270,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3292,7 +3292,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3314,7 +3314,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3336,7 +3336,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3358,7 +3358,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3380,7 +3380,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3402,7 +3402,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3424,7 +3424,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3446,7 +3446,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3468,7 +3468,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3490,7 +3490,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3512,7 +3512,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3534,7 +3534,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3556,7 +3556,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3578,7 +3578,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3600,7 +3600,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3622,7 +3622,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3644,7 +3644,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3666,7 +3666,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3688,7 +3688,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3710,7 +3710,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3732,7 +3732,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3754,7 +3754,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3776,7 +3776,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3798,7 +3798,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3820,7 +3820,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3842,7 +3842,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3864,7 +3864,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3886,7 +3886,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3908,7 +3908,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3930,7 +3930,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3952,7 +3952,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3974,7 +3974,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3996,7 +3996,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4018,7 +4018,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4040,7 +4040,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4062,7 +4062,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4084,7 +4084,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4106,7 +4106,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4128,7 +4128,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4150,7 +4150,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4172,7 +4172,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4194,7 +4194,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4216,7 +4216,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4238,7 +4238,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4260,7 +4260,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4282,7 +4282,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4304,7 +4304,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4326,7 +4326,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4348,7 +4348,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4370,7 +4370,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4392,7 +4392,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4414,7 +4414,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4436,7 +4436,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4458,7 +4458,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4480,7 +4480,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4502,7 +4502,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4524,7 +4524,7 @@ public class AccordionBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
+     * This serves as a shorthand form of the {@link AccordionBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

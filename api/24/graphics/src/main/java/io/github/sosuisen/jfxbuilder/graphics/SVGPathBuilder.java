@@ -1961,7 +1961,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1983,7 +1983,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2005,7 +2005,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2027,7 +2027,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2049,7 +2049,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2071,7 +2071,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2093,7 +2093,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2115,7 +2115,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2137,7 +2137,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2159,7 +2159,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2181,7 +2181,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#contentProperty() contentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2203,7 +2203,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2225,7 +2225,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2247,7 +2247,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2269,7 +2269,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2291,7 +2291,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2313,7 +2313,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2335,7 +2335,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2357,7 +2357,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#fillProperty() fillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2379,7 +2379,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#fillRuleProperty() fillRuleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2401,7 +2401,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2423,7 +2423,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2445,7 +2445,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2467,7 +2467,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2489,7 +2489,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2511,7 +2511,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2533,7 +2533,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2555,7 +2555,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2577,7 +2577,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2599,7 +2599,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2621,7 +2621,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2643,7 +2643,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2665,7 +2665,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2687,7 +2687,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2709,7 +2709,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2731,7 +2731,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2753,7 +2753,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2775,7 +2775,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2797,7 +2797,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2819,7 +2819,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2841,7 +2841,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2863,7 +2863,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2885,7 +2885,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2907,7 +2907,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2929,7 +2929,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2951,7 +2951,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2973,7 +2973,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2995,7 +2995,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3017,7 +3017,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3039,7 +3039,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3061,7 +3061,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3083,7 +3083,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3105,7 +3105,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3127,7 +3127,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3149,7 +3149,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3171,7 +3171,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3193,7 +3193,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3215,7 +3215,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3237,7 +3237,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3259,7 +3259,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3281,7 +3281,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3303,7 +3303,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3325,7 +3325,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3347,7 +3347,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3369,7 +3369,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3391,7 +3391,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3413,7 +3413,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3435,7 +3435,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3457,7 +3457,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3479,7 +3479,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3501,7 +3501,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3523,7 +3523,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3545,7 +3545,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3567,7 +3567,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3589,7 +3589,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3611,7 +3611,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3633,7 +3633,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3655,7 +3655,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3677,7 +3677,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3699,7 +3699,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3721,7 +3721,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3743,7 +3743,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3765,7 +3765,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3787,7 +3787,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3809,7 +3809,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#smoothProperty() smoothProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3831,7 +3831,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeDashOffsetProperty() strokeDashOffsetProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3853,7 +3853,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeLineCapProperty() strokeLineCapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3875,7 +3875,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeLineJoinProperty() strokeLineJoinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3897,7 +3897,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeMiterLimitProperty() strokeMiterLimitProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3919,7 +3919,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeProperty() strokeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3941,7 +3941,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeTypeProperty() strokeTypeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3963,7 +3963,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeWidthProperty() strokeWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3985,7 +3985,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4007,7 +4007,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4029,7 +4029,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4051,7 +4051,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4073,7 +4073,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4095,7 +4095,7 @@ public class SVGPathBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * This serves as a shorthand form of the {@link SVGPathBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

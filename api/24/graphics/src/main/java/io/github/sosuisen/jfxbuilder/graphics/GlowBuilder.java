@@ -175,7 +175,7 @@ public class GlowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Glow#inputProperty() inputProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Glow> func) apply} method.
+     * This serves as a shorthand form of the {@link GlowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -197,7 +197,7 @@ public class GlowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.Glow#levelProperty() levelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Glow> func) apply} method.
+     * This serves as a shorthand form of the {@link GlowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

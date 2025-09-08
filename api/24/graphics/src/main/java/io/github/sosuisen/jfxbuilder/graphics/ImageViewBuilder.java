@@ -1911,7 +1911,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1933,7 +1933,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1955,7 +1955,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1977,7 +1977,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1999,7 +1999,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2021,7 +2021,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2043,7 +2043,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2065,7 +2065,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2087,7 +2087,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2109,7 +2109,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2131,7 +2131,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2153,7 +2153,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2175,7 +2175,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2197,7 +2197,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2219,7 +2219,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2241,7 +2241,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2263,7 +2263,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2285,7 +2285,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#fitHeightProperty() fitHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2307,7 +2307,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#fitWidthProperty() fitWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2329,7 +2329,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2351,7 +2351,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2373,7 +2373,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2395,7 +2395,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2417,7 +2417,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2439,7 +2439,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2461,7 +2461,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#imageProperty() imageProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2483,7 +2483,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2505,7 +2505,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2527,7 +2527,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2549,7 +2549,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2571,7 +2571,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2593,7 +2593,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2615,7 +2615,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2637,7 +2637,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2659,7 +2659,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2681,7 +2681,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2703,7 +2703,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2725,7 +2725,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2747,7 +2747,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2769,7 +2769,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2791,7 +2791,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2813,7 +2813,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2835,7 +2835,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2857,7 +2857,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2879,7 +2879,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2901,7 +2901,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2923,7 +2923,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2945,7 +2945,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2967,7 +2967,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2989,7 +2989,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3011,7 +3011,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3033,7 +3033,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3055,7 +3055,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3077,7 +3077,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3099,7 +3099,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3121,7 +3121,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3143,7 +3143,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3165,7 +3165,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3187,7 +3187,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3209,7 +3209,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3231,7 +3231,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3253,7 +3253,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3275,7 +3275,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3297,7 +3297,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3319,7 +3319,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3341,7 +3341,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3363,7 +3363,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3385,7 +3385,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3407,7 +3407,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3429,7 +3429,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3451,7 +3451,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3473,7 +3473,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3495,7 +3495,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3517,7 +3517,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3539,7 +3539,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3561,7 +3561,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3583,7 +3583,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3605,7 +3605,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#preserveRatioProperty() preserveRatioProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3627,7 +3627,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3649,7 +3649,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3671,7 +3671,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3693,7 +3693,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3715,7 +3715,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3737,7 +3737,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3759,7 +3759,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3781,7 +3781,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#smoothProperty() smoothProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3803,7 +3803,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3825,7 +3825,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3847,7 +3847,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3869,7 +3869,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3891,7 +3891,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3913,7 +3913,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#viewportProperty() viewportProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3935,7 +3935,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3957,7 +3957,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3979,7 +3979,7 @@ public class ImageViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
+     * This serves as a shorthand form of the {@link ImageViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

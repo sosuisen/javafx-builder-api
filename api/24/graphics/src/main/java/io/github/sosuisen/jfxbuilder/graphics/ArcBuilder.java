@@ -2024,7 +2024,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2046,7 +2046,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2068,7 +2068,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2090,7 +2090,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2112,7 +2112,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2134,7 +2134,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2156,7 +2156,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2178,7 +2178,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2200,7 +2200,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2222,7 +2222,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#centerXProperty() centerXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2244,7 +2244,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#centerYProperty() centerYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2266,7 +2266,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2288,7 +2288,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2310,7 +2310,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2332,7 +2332,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2354,7 +2354,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2376,7 +2376,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2398,7 +2398,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2420,7 +2420,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2442,7 +2442,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#fillProperty() fillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2464,7 +2464,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2486,7 +2486,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2508,7 +2508,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2530,7 +2530,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2552,7 +2552,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2574,7 +2574,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2596,7 +2596,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2618,7 +2618,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2640,7 +2640,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2662,7 +2662,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2684,7 +2684,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#lengthProperty() lengthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2706,7 +2706,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2728,7 +2728,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2750,7 +2750,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2772,7 +2772,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2794,7 +2794,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2816,7 +2816,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2838,7 +2838,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2860,7 +2860,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2882,7 +2882,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2904,7 +2904,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2926,7 +2926,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2948,7 +2948,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2970,7 +2970,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2992,7 +2992,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3014,7 +3014,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3036,7 +3036,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3058,7 +3058,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3080,7 +3080,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3102,7 +3102,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3124,7 +3124,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3146,7 +3146,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3168,7 +3168,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3190,7 +3190,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3212,7 +3212,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3234,7 +3234,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3256,7 +3256,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3278,7 +3278,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3300,7 +3300,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3322,7 +3322,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3344,7 +3344,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3366,7 +3366,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3388,7 +3388,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3410,7 +3410,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3432,7 +3432,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3454,7 +3454,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3476,7 +3476,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3498,7 +3498,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3520,7 +3520,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3542,7 +3542,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3564,7 +3564,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3586,7 +3586,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3608,7 +3608,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3630,7 +3630,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3652,7 +3652,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3674,7 +3674,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3696,7 +3696,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3718,7 +3718,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3740,7 +3740,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3762,7 +3762,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#radiusXProperty() radiusXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3784,7 +3784,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#radiusYProperty() radiusYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3806,7 +3806,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3828,7 +3828,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3850,7 +3850,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3872,7 +3872,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3894,7 +3894,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3916,7 +3916,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3938,7 +3938,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#smoothProperty() smoothProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3960,7 +3960,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#startAngleProperty() startAngleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3982,7 +3982,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#strokeDashOffsetProperty() strokeDashOffsetProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4004,7 +4004,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#strokeLineCapProperty() strokeLineCapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4026,7 +4026,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#strokeLineJoinProperty() strokeLineJoinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4048,7 +4048,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#strokeMiterLimitProperty() strokeMiterLimitProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4070,7 +4070,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#strokeProperty() strokeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4092,7 +4092,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#strokeTypeProperty() strokeTypeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4114,7 +4114,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#strokeWidthProperty() strokeWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4136,7 +4136,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4158,7 +4158,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4180,7 +4180,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4202,7 +4202,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4224,7 +4224,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#typeProperty() typeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4246,7 +4246,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4268,7 +4268,7 @@ public class ArcBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

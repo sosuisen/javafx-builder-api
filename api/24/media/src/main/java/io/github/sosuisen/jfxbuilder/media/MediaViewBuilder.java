@@ -1908,7 +1908,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1930,7 +1930,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1952,7 +1952,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1974,7 +1974,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1996,7 +1996,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2018,7 +2018,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2040,7 +2040,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2062,7 +2062,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2084,7 +2084,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2106,7 +2106,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2128,7 +2128,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2150,7 +2150,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2172,7 +2172,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2194,7 +2194,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2216,7 +2216,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2238,7 +2238,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2260,7 +2260,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2282,7 +2282,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#fitHeightProperty() fitHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2304,7 +2304,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#fitWidthProperty() fitWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2326,7 +2326,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2348,7 +2348,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2370,7 +2370,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2392,7 +2392,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2414,7 +2414,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2436,7 +2436,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2458,7 +2458,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2480,7 +2480,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2502,7 +2502,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2524,7 +2524,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2546,7 +2546,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2568,7 +2568,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2590,7 +2590,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2612,7 +2612,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#mediaPlayerProperty() mediaPlayerProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2634,7 +2634,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2656,7 +2656,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2678,7 +2678,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2700,7 +2700,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2722,7 +2722,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2744,7 +2744,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2766,7 +2766,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2788,7 +2788,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2810,7 +2810,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2832,7 +2832,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onErrorProperty() onErrorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2854,7 +2854,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2876,7 +2876,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2898,7 +2898,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2920,7 +2920,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2942,7 +2942,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2964,7 +2964,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2986,7 +2986,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3008,7 +3008,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3030,7 +3030,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3052,7 +3052,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3074,7 +3074,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3096,7 +3096,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3118,7 +3118,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3140,7 +3140,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3162,7 +3162,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3184,7 +3184,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3206,7 +3206,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3228,7 +3228,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3250,7 +3250,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3272,7 +3272,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3294,7 +3294,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3316,7 +3316,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3338,7 +3338,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3360,7 +3360,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3382,7 +3382,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3404,7 +3404,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3426,7 +3426,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3448,7 +3448,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3470,7 +3470,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3492,7 +3492,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3514,7 +3514,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3536,7 +3536,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3558,7 +3558,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3580,7 +3580,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3602,7 +3602,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3624,7 +3624,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#preserveRatioProperty() preserveRatioProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3646,7 +3646,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3668,7 +3668,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3690,7 +3690,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3712,7 +3712,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3734,7 +3734,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3756,7 +3756,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3778,7 +3778,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3800,7 +3800,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#smoothProperty() smoothProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3822,7 +3822,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3844,7 +3844,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3866,7 +3866,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3888,7 +3888,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3910,7 +3910,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3932,7 +3932,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#viewportProperty() viewportProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3954,7 +3954,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3976,7 +3976,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3998,7 +3998,7 @@ public class MediaViewBuilder {
     /**
      * Applies a function to the {@link javafx.scene.media.MediaView#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaView> func) apply} method.
+     * This serves as a shorthand form of the {@link MediaViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

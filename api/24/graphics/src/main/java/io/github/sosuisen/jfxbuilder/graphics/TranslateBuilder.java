@@ -208,7 +208,7 @@ public class TranslateBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Translate#identityProperty() identityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Translate> func) apply} method.
+     * This serves as a shorthand form of the {@link TranslateBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -230,7 +230,7 @@ public class TranslateBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Translate#onTransformChangedProperty() onTransformChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Translate> func) apply} method.
+     * This serves as a shorthand form of the {@link TranslateBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -252,7 +252,7 @@ public class TranslateBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Translate#type2DProperty() type2DProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Translate> func) apply} method.
+     * This serves as a shorthand form of the {@link TranslateBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -274,7 +274,7 @@ public class TranslateBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Translate#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Translate> func) apply} method.
+     * This serves as a shorthand form of the {@link TranslateBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -296,7 +296,7 @@ public class TranslateBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Translate#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Translate> func) apply} method.
+     * This serves as a shorthand form of the {@link TranslateBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -318,7 +318,7 @@ public class TranslateBuilder {
     /**
      * Applies a function to the {@link javafx.scene.transform.Translate#zProperty() zProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Translate> func) apply} method.
+     * This serves as a shorthand form of the {@link TranslateBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

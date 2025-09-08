@@ -1858,7 +1858,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1880,7 +1880,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1902,7 +1902,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1924,7 +1924,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1946,7 +1946,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1968,7 +1968,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1990,7 +1990,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2012,7 +2012,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2034,7 +2034,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2056,7 +2056,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2078,7 +2078,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2100,7 +2100,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2122,7 +2122,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2144,7 +2144,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2166,7 +2166,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2188,7 +2188,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2210,7 +2210,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2232,7 +2232,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#farClipProperty() farClipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2254,7 +2254,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#fieldOfViewProperty() fieldOfViewProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2276,7 +2276,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2298,7 +2298,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2320,7 +2320,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2342,7 +2342,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2364,7 +2364,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2386,7 +2386,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2408,7 +2408,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2430,7 +2430,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2452,7 +2452,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2474,7 +2474,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2496,7 +2496,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2518,7 +2518,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2540,7 +2540,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2562,7 +2562,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2584,7 +2584,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#nearClipProperty() nearClipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2606,7 +2606,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2628,7 +2628,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2650,7 +2650,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2672,7 +2672,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2694,7 +2694,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2716,7 +2716,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2738,7 +2738,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2760,7 +2760,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2782,7 +2782,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2804,7 +2804,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2826,7 +2826,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2848,7 +2848,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2870,7 +2870,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2892,7 +2892,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2914,7 +2914,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2936,7 +2936,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2958,7 +2958,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2980,7 +2980,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3002,7 +3002,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3024,7 +3024,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3046,7 +3046,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3068,7 +3068,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3090,7 +3090,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3112,7 +3112,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3134,7 +3134,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3156,7 +3156,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3178,7 +3178,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3200,7 +3200,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3222,7 +3222,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3244,7 +3244,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3266,7 +3266,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3288,7 +3288,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3310,7 +3310,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3332,7 +3332,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3354,7 +3354,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3376,7 +3376,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3398,7 +3398,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3420,7 +3420,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3442,7 +3442,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3464,7 +3464,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3486,7 +3486,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3508,7 +3508,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3530,7 +3530,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3552,7 +3552,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3574,7 +3574,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3596,7 +3596,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3618,7 +3618,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3640,7 +3640,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3662,7 +3662,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3684,7 +3684,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3706,7 +3706,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3728,7 +3728,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3750,7 +3750,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3772,7 +3772,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3794,7 +3794,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#verticalFieldOfViewProperty() verticalFieldOfViewProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3816,7 +3816,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3838,7 +3838,7 @@ public class PerspectiveCameraBuilder {
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * This serves as a shorthand form of the {@link PerspectiveCameraBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

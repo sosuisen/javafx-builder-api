@@ -314,7 +314,7 @@ public class DialogBuilder<R> {
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#contentTextProperty() contentTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * This serves as a shorthand form of the {@link DialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -336,7 +336,7 @@ public class DialogBuilder<R> {
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#dialogPaneProperty() dialogPaneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * This serves as a shorthand form of the {@link DialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -358,7 +358,7 @@ public class DialogBuilder<R> {
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * This serves as a shorthand form of the {@link DialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -380,7 +380,7 @@ public class DialogBuilder<R> {
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#headerTextProperty() headerTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * This serves as a shorthand form of the {@link DialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -402,7 +402,7 @@ public class DialogBuilder<R> {
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * This serves as a shorthand form of the {@link DialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -424,7 +424,7 @@ public class DialogBuilder<R> {
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#onCloseRequestProperty() onCloseRequestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * This serves as a shorthand form of the {@link DialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -446,7 +446,7 @@ public class DialogBuilder<R> {
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * This serves as a shorthand form of the {@link DialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -468,7 +468,7 @@ public class DialogBuilder<R> {
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * This serves as a shorthand form of the {@link DialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -490,7 +490,7 @@ public class DialogBuilder<R> {
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * This serves as a shorthand form of the {@link DialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -512,7 +512,7 @@ public class DialogBuilder<R> {
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * This serves as a shorthand form of the {@link DialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -534,7 +534,7 @@ public class DialogBuilder<R> {
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#resizableProperty() resizableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * This serves as a shorthand form of the {@link DialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -556,7 +556,7 @@ public class DialogBuilder<R> {
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#resultConverterProperty() resultConverterProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * This serves as a shorthand form of the {@link DialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -578,7 +578,7 @@ public class DialogBuilder<R> {
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#resultProperty() resultProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * This serves as a shorthand form of the {@link DialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -600,7 +600,7 @@ public class DialogBuilder<R> {
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#showingProperty() showingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * This serves as a shorthand form of the {@link DialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -622,7 +622,7 @@ public class DialogBuilder<R> {
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#titleProperty() titleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * This serves as a shorthand form of the {@link DialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -644,7 +644,7 @@ public class DialogBuilder<R> {
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * This serves as a shorthand form of the {@link DialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -666,7 +666,7 @@ public class DialogBuilder<R> {
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * This serves as a shorthand form of the {@link DialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -688,7 +688,7 @@ public class DialogBuilder<R> {
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * This serves as a shorthand form of the {@link DialogBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

@@ -1838,7 +1838,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1860,7 +1860,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1882,7 +1882,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1904,7 +1904,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1926,7 +1926,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1948,7 +1948,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1970,7 +1970,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1992,7 +1992,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2014,7 +2014,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2036,7 +2036,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2058,7 +2058,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2080,7 +2080,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2102,7 +2102,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2124,7 +2124,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2146,7 +2146,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2168,7 +2168,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2190,7 +2190,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2212,7 +2212,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2234,7 +2234,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2256,7 +2256,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2278,7 +2278,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2300,7 +2300,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2322,7 +2322,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2344,7 +2344,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2366,7 +2366,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2388,7 +2388,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2410,7 +2410,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2432,7 +2432,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2454,7 +2454,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2476,7 +2476,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2498,7 +2498,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2520,7 +2520,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2542,7 +2542,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2564,7 +2564,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2586,7 +2586,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2608,7 +2608,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2630,7 +2630,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2652,7 +2652,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2674,7 +2674,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2696,7 +2696,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2718,7 +2718,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2740,7 +2740,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2762,7 +2762,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2784,7 +2784,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2806,7 +2806,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2828,7 +2828,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2850,7 +2850,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2872,7 +2872,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2894,7 +2894,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2916,7 +2916,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2938,7 +2938,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2960,7 +2960,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2982,7 +2982,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3004,7 +3004,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3026,7 +3026,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3048,7 +3048,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3070,7 +3070,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3092,7 +3092,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3114,7 +3114,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3136,7 +3136,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3158,7 +3158,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3180,7 +3180,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3202,7 +3202,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3224,7 +3224,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3246,7 +3246,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3268,7 +3268,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3290,7 +3290,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3312,7 +3312,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3334,7 +3334,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3356,7 +3356,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3378,7 +3378,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3400,7 +3400,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3422,7 +3422,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3444,7 +3444,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3466,7 +3466,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3488,7 +3488,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3510,7 +3510,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3532,7 +3532,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3554,7 +3554,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3576,7 +3576,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3598,7 +3598,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3620,7 +3620,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3642,7 +3642,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3664,7 +3664,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3686,7 +3686,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3708,7 +3708,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3730,7 +3730,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3752,7 +3752,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3774,7 +3774,7 @@ public class CanvasBuilder {
     /**
      * Applies a function to the {@link javafx.scene.canvas.Canvas#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.canvas.Canvas> func) apply} method.
+     * This serves as a shorthand form of the {@link CanvasBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

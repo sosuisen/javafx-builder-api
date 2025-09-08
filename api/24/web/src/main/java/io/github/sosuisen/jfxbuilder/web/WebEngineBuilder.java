@@ -275,7 +275,7 @@ public class WebEngineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#confirmHandlerProperty() confirmHandlerProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * This serves as a shorthand form of the {@link WebEngineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -297,7 +297,7 @@ public class WebEngineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#createPopupHandlerProperty() createPopupHandlerProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * This serves as a shorthand form of the {@link WebEngineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -319,7 +319,7 @@ public class WebEngineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#documentProperty() documentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * This serves as a shorthand form of the {@link WebEngineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -341,7 +341,7 @@ public class WebEngineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#javaScriptEnabledProperty() javaScriptEnabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * This serves as a shorthand form of the {@link WebEngineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -363,7 +363,7 @@ public class WebEngineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#locationProperty() locationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * This serves as a shorthand form of the {@link WebEngineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -385,7 +385,7 @@ public class WebEngineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#onAlertProperty() onAlertProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * This serves as a shorthand form of the {@link WebEngineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -407,7 +407,7 @@ public class WebEngineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#onErrorProperty() onErrorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * This serves as a shorthand form of the {@link WebEngineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -429,7 +429,7 @@ public class WebEngineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#onResizedProperty() onResizedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * This serves as a shorthand form of the {@link WebEngineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -451,7 +451,7 @@ public class WebEngineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#onStatusChangedProperty() onStatusChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * This serves as a shorthand form of the {@link WebEngineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -473,7 +473,7 @@ public class WebEngineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#onVisibilityChangedProperty() onVisibilityChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * This serves as a shorthand form of the {@link WebEngineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -495,7 +495,7 @@ public class WebEngineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#promptHandlerProperty() promptHandlerProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * This serves as a shorthand form of the {@link WebEngineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -517,7 +517,7 @@ public class WebEngineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#titleProperty() titleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * This serves as a shorthand form of the {@link WebEngineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -539,7 +539,7 @@ public class WebEngineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#userAgentProperty() userAgentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * This serves as a shorthand form of the {@link WebEngineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -561,7 +561,7 @@ public class WebEngineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#userDataDirectoryProperty() userDataDirectoryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * This serves as a shorthand form of the {@link WebEngineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -583,7 +583,7 @@ public class WebEngineBuilder {
     /**
      * Applies a function to the {@link javafx.scene.web.WebEngine#userStyleSheetLocationProperty() userStyleSheetLocationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * This serves as a shorthand form of the {@link WebEngineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

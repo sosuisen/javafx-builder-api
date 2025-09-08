@@ -238,7 +238,7 @@ public class PhongMaterialBuilder {
     /**
      * Applies a function to the {@link javafx.scene.paint.PhongMaterial#bumpMapProperty() bumpMapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
+     * This serves as a shorthand form of the {@link PhongMaterialBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -260,7 +260,7 @@ public class PhongMaterialBuilder {
     /**
      * Applies a function to the {@link javafx.scene.paint.PhongMaterial#diffuseColorProperty() diffuseColorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
+     * This serves as a shorthand form of the {@link PhongMaterialBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -282,7 +282,7 @@ public class PhongMaterialBuilder {
     /**
      * Applies a function to the {@link javafx.scene.paint.PhongMaterial#diffuseMapProperty() diffuseMapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
+     * This serves as a shorthand form of the {@link PhongMaterialBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -304,7 +304,7 @@ public class PhongMaterialBuilder {
     /**
      * Applies a function to the {@link javafx.scene.paint.PhongMaterial#selfIlluminationMapProperty() selfIlluminationMapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
+     * This serves as a shorthand form of the {@link PhongMaterialBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -326,7 +326,7 @@ public class PhongMaterialBuilder {
     /**
      * Applies a function to the {@link javafx.scene.paint.PhongMaterial#specularColorProperty() specularColorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
+     * This serves as a shorthand form of the {@link PhongMaterialBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -348,7 +348,7 @@ public class PhongMaterialBuilder {
     /**
      * Applies a function to the {@link javafx.scene.paint.PhongMaterial#specularMapProperty() specularMapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
+     * This serves as a shorthand form of the {@link PhongMaterialBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -370,7 +370,7 @@ public class PhongMaterialBuilder {
     /**
      * Applies a function to the {@link javafx.scene.paint.PhongMaterial#specularPowerProperty() specularPowerProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
+     * This serves as a shorthand form of the {@link PhongMaterialBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

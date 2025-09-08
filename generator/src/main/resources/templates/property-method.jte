@@ -6,7 +6,7 @@
     /**
      * Applies a function to the {@link ${model.originalClassName()}#${model.propertyName()}() ${model.propertyName()}} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<${model.classNameWithTypeParameter()}> func) apply} method.
+     * This serves as a shorthand form of the {@link ${model.builderClassName()}#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

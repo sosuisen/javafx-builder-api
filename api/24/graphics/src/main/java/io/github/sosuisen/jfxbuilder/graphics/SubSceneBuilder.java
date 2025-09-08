@@ -1878,7 +1878,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1900,7 +1900,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1922,7 +1922,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1944,7 +1944,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1966,7 +1966,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1988,7 +1988,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2010,7 +2010,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2032,7 +2032,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2054,7 +2054,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2076,7 +2076,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#cameraProperty() cameraProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2098,7 +2098,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2120,7 +2120,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2142,7 +2142,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2164,7 +2164,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2186,7 +2186,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2208,7 +2208,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2230,7 +2230,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2252,7 +2252,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2274,7 +2274,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#fillProperty() fillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2296,7 +2296,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2318,7 +2318,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2340,7 +2340,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2362,7 +2362,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2384,7 +2384,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2406,7 +2406,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2428,7 +2428,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2450,7 +2450,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2472,7 +2472,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2494,7 +2494,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2516,7 +2516,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2538,7 +2538,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2560,7 +2560,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2582,7 +2582,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2604,7 +2604,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2626,7 +2626,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2648,7 +2648,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2670,7 +2670,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2692,7 +2692,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2714,7 +2714,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2736,7 +2736,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2758,7 +2758,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2780,7 +2780,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2802,7 +2802,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2824,7 +2824,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2846,7 +2846,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2868,7 +2868,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2890,7 +2890,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2912,7 +2912,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2934,7 +2934,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2956,7 +2956,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2978,7 +2978,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3000,7 +3000,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3022,7 +3022,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3044,7 +3044,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3066,7 +3066,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3088,7 +3088,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3110,7 +3110,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3132,7 +3132,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3154,7 +3154,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3176,7 +3176,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3198,7 +3198,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3220,7 +3220,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3242,7 +3242,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3264,7 +3264,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3286,7 +3286,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3308,7 +3308,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3330,7 +3330,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3352,7 +3352,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3374,7 +3374,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3396,7 +3396,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3418,7 +3418,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3440,7 +3440,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3462,7 +3462,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3484,7 +3484,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3506,7 +3506,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3528,7 +3528,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3550,7 +3550,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3572,7 +3572,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3594,7 +3594,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#rootProperty() rootProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3616,7 +3616,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3638,7 +3638,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3660,7 +3660,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3682,7 +3682,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3704,7 +3704,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3726,7 +3726,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3748,7 +3748,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3770,7 +3770,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3792,7 +3792,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3814,7 +3814,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3836,7 +3836,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#userAgentStylesheetProperty() userAgentStylesheetProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3858,7 +3858,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3880,7 +3880,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3902,7 +3902,7 @@ public class SubSceneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.SubScene#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SubScene> func) apply} method.
+     * This serves as a shorthand form of the {@link SubSceneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

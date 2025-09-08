@@ -2127,7 +2127,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2149,7 +2149,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2171,7 +2171,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2193,7 +2193,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2215,7 +2215,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2237,7 +2237,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2259,7 +2259,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#blockIncrementProperty() blockIncrementProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2281,7 +2281,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2303,7 +2303,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2325,7 +2325,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2347,7 +2347,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2369,7 +2369,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2391,7 +2391,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2413,7 +2413,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2435,7 +2435,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2457,7 +2457,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2479,7 +2479,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2501,7 +2501,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2523,7 +2523,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2545,7 +2545,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2567,7 +2567,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2589,7 +2589,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2611,7 +2611,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2633,7 +2633,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2655,7 +2655,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2677,7 +2677,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2699,7 +2699,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2721,7 +2721,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2743,7 +2743,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2765,7 +2765,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2787,7 +2787,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2809,7 +2809,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2831,7 +2831,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2853,7 +2853,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2875,7 +2875,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2897,7 +2897,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2919,7 +2919,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2941,7 +2941,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2963,7 +2963,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2985,7 +2985,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#maxProperty() maxProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3007,7 +3007,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3029,7 +3029,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3051,7 +3051,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#minProperty() minProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3073,7 +3073,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3095,7 +3095,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3117,7 +3117,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3139,7 +3139,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3161,7 +3161,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3183,7 +3183,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3205,7 +3205,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3227,7 +3227,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3249,7 +3249,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3271,7 +3271,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3293,7 +3293,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3315,7 +3315,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3337,7 +3337,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3359,7 +3359,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3381,7 +3381,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3403,7 +3403,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3425,7 +3425,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3447,7 +3447,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3469,7 +3469,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3491,7 +3491,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3513,7 +3513,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3535,7 +3535,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3557,7 +3557,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3579,7 +3579,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3601,7 +3601,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3623,7 +3623,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3645,7 +3645,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3667,7 +3667,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3689,7 +3689,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3711,7 +3711,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3733,7 +3733,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3755,7 +3755,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3777,7 +3777,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3799,7 +3799,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3821,7 +3821,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3843,7 +3843,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3865,7 +3865,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3887,7 +3887,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3909,7 +3909,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3931,7 +3931,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3953,7 +3953,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3975,7 +3975,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3997,7 +3997,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4019,7 +4019,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4041,7 +4041,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4063,7 +4063,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#orientationProperty() orientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4085,7 +4085,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4107,7 +4107,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4129,7 +4129,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4151,7 +4151,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4173,7 +4173,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4195,7 +4195,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4217,7 +4217,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4239,7 +4239,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4261,7 +4261,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4283,7 +4283,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4305,7 +4305,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4327,7 +4327,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4349,7 +4349,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4371,7 +4371,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4393,7 +4393,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4415,7 +4415,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4437,7 +4437,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4459,7 +4459,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4481,7 +4481,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4503,7 +4503,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4525,7 +4525,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4547,7 +4547,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#unitIncrementProperty() unitIncrementProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4569,7 +4569,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#valueProperty() valueProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4591,7 +4591,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4613,7 +4613,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#visibleAmountProperty() visibleAmountProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4635,7 +4635,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4657,7 +4657,7 @@ public class ScrollBarBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
+     * This serves as a shorthand form of the {@link ScrollBarBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

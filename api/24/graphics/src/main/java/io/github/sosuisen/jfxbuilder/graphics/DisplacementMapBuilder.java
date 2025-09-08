@@ -238,7 +238,7 @@ public class DisplacementMapBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.DisplacementMap#inputProperty() inputProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DisplacementMap> func) apply} method.
+     * This serves as a shorthand form of the {@link DisplacementMapBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -260,7 +260,7 @@ public class DisplacementMapBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.DisplacementMap#mapDataProperty() mapDataProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DisplacementMap> func) apply} method.
+     * This serves as a shorthand form of the {@link DisplacementMapBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -282,7 +282,7 @@ public class DisplacementMapBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.DisplacementMap#offsetXProperty() offsetXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DisplacementMap> func) apply} method.
+     * This serves as a shorthand form of the {@link DisplacementMapBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -304,7 +304,7 @@ public class DisplacementMapBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.DisplacementMap#offsetYProperty() offsetYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DisplacementMap> func) apply} method.
+     * This serves as a shorthand form of the {@link DisplacementMapBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -326,7 +326,7 @@ public class DisplacementMapBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.DisplacementMap#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DisplacementMap> func) apply} method.
+     * This serves as a shorthand form of the {@link DisplacementMapBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -348,7 +348,7 @@ public class DisplacementMapBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.DisplacementMap#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DisplacementMap> func) apply} method.
+     * This serves as a shorthand form of the {@link DisplacementMapBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -370,7 +370,7 @@ public class DisplacementMapBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.DisplacementMap#wrapProperty() wrapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DisplacementMap> func) apply} method.
+     * This serves as a shorthand form of the {@link DisplacementMapBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

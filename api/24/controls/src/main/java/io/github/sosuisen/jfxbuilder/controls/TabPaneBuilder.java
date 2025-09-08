@@ -2206,7 +2206,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2228,7 +2228,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2250,7 +2250,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2272,7 +2272,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2294,7 +2294,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2316,7 +2316,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2338,7 +2338,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2360,7 +2360,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2382,7 +2382,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2404,7 +2404,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2426,7 +2426,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2448,7 +2448,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2470,7 +2470,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2492,7 +2492,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2514,7 +2514,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2536,7 +2536,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2558,7 +2558,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2580,7 +2580,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2602,7 +2602,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2624,7 +2624,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2646,7 +2646,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2668,7 +2668,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2690,7 +2690,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2712,7 +2712,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2734,7 +2734,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2756,7 +2756,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2778,7 +2778,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2800,7 +2800,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2822,7 +2822,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2844,7 +2844,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2866,7 +2866,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2888,7 +2888,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2910,7 +2910,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2932,7 +2932,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2954,7 +2954,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2976,7 +2976,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2998,7 +2998,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3020,7 +3020,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3042,7 +3042,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3064,7 +3064,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3086,7 +3086,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3108,7 +3108,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3130,7 +3130,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3152,7 +3152,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3174,7 +3174,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3196,7 +3196,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3218,7 +3218,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3240,7 +3240,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3262,7 +3262,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3284,7 +3284,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3306,7 +3306,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3328,7 +3328,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3350,7 +3350,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3372,7 +3372,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3394,7 +3394,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3416,7 +3416,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3438,7 +3438,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3460,7 +3460,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3482,7 +3482,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3504,7 +3504,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3526,7 +3526,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3548,7 +3548,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3570,7 +3570,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3592,7 +3592,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3614,7 +3614,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3636,7 +3636,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3658,7 +3658,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3680,7 +3680,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3702,7 +3702,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3724,7 +3724,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3746,7 +3746,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3768,7 +3768,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3790,7 +3790,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3812,7 +3812,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3834,7 +3834,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3856,7 +3856,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3878,7 +3878,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3900,7 +3900,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3922,7 +3922,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3944,7 +3944,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3966,7 +3966,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3988,7 +3988,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4010,7 +4010,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4032,7 +4032,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4054,7 +4054,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4076,7 +4076,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4098,7 +4098,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4120,7 +4120,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4142,7 +4142,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4164,7 +4164,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4186,7 +4186,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4208,7 +4208,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#rotateGraphicProperty() rotateGraphicProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4230,7 +4230,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4252,7 +4252,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4274,7 +4274,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4296,7 +4296,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4318,7 +4318,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4340,7 +4340,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4362,7 +4362,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4384,7 +4384,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#selectionModelProperty() selectionModelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4406,7 +4406,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4428,7 +4428,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#sideProperty() sideProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4450,7 +4450,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4472,7 +4472,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4494,7 +4494,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4516,7 +4516,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#tabClosingPolicyProperty() tabClosingPolicyProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4538,7 +4538,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#tabDragPolicyProperty() tabDragPolicyProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4560,7 +4560,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#tabMaxHeightProperty() tabMaxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4582,7 +4582,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#tabMaxWidthProperty() tabMaxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4604,7 +4604,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#tabMinHeightProperty() tabMinHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4626,7 +4626,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#tabMinWidthProperty() tabMinWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4648,7 +4648,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4670,7 +4670,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4692,7 +4692,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4714,7 +4714,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4736,7 +4736,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4758,7 +4758,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4780,7 +4780,7 @@ public class TabPaneBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.TabPane#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TabPane> func) apply} method.
+     * This serves as a shorthand form of the {@link TabPaneBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

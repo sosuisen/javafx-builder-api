@@ -235,7 +235,7 @@ public class ArcToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.ArcTo#XAxisRotationProperty() XAxisRotationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.ArcTo> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -257,7 +257,7 @@ public class ArcToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.ArcTo#absoluteProperty() absoluteProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.ArcTo> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -279,7 +279,7 @@ public class ArcToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.ArcTo#largeArcFlagProperty() largeArcFlagProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.ArcTo> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -301,7 +301,7 @@ public class ArcToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.ArcTo#radiusXProperty() radiusXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.ArcTo> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -323,7 +323,7 @@ public class ArcToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.ArcTo#radiusYProperty() radiusYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.ArcTo> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -345,7 +345,7 @@ public class ArcToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.ArcTo#sweepFlagProperty() sweepFlagProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.ArcTo> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -367,7 +367,7 @@ public class ArcToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.ArcTo#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.ArcTo> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -389,7 +389,7 @@ public class ArcToBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.ArcTo#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.ArcTo> func) apply} method.
+     * This serves as a shorthand form of the {@link ArcToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

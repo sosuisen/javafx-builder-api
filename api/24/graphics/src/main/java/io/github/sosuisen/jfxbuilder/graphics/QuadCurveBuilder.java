@@ -2014,7 +2014,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2036,7 +2036,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2058,7 +2058,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2080,7 +2080,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2102,7 +2102,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2124,7 +2124,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2146,7 +2146,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2168,7 +2168,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2190,7 +2190,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2212,7 +2212,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2234,7 +2234,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#controlXProperty() controlXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2256,7 +2256,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#controlYProperty() controlYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2278,7 +2278,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2300,7 +2300,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2322,7 +2322,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2344,7 +2344,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2366,7 +2366,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2388,7 +2388,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2410,7 +2410,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#endXProperty() endXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2432,7 +2432,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#endYProperty() endYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2454,7 +2454,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2476,7 +2476,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#fillProperty() fillProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2498,7 +2498,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2520,7 +2520,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2542,7 +2542,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2564,7 +2564,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2586,7 +2586,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2608,7 +2608,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2630,7 +2630,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2652,7 +2652,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2674,7 +2674,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2696,7 +2696,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2718,7 +2718,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2740,7 +2740,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2762,7 +2762,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2784,7 +2784,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2806,7 +2806,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2828,7 +2828,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2850,7 +2850,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2872,7 +2872,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2894,7 +2894,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2916,7 +2916,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2938,7 +2938,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2960,7 +2960,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2982,7 +2982,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3004,7 +3004,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3026,7 +3026,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3048,7 +3048,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3070,7 +3070,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3092,7 +3092,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3114,7 +3114,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3136,7 +3136,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3158,7 +3158,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3180,7 +3180,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3202,7 +3202,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3224,7 +3224,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3246,7 +3246,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3268,7 +3268,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3290,7 +3290,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3312,7 +3312,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3334,7 +3334,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3356,7 +3356,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3378,7 +3378,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3400,7 +3400,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3422,7 +3422,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3444,7 +3444,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3466,7 +3466,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3488,7 +3488,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3510,7 +3510,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3532,7 +3532,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3554,7 +3554,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3576,7 +3576,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3598,7 +3598,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3620,7 +3620,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3642,7 +3642,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3664,7 +3664,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3686,7 +3686,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3708,7 +3708,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3730,7 +3730,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3752,7 +3752,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3774,7 +3774,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3796,7 +3796,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3818,7 +3818,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3840,7 +3840,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3862,7 +3862,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3884,7 +3884,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3906,7 +3906,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#smoothProperty() smoothProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3928,7 +3928,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#startXProperty() startXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3950,7 +3950,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#startYProperty() startYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3972,7 +3972,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#strokeDashOffsetProperty() strokeDashOffsetProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3994,7 +3994,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#strokeLineCapProperty() strokeLineCapProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4016,7 +4016,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#strokeLineJoinProperty() strokeLineJoinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4038,7 +4038,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#strokeMiterLimitProperty() strokeMiterLimitProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4060,7 +4060,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#strokeProperty() strokeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4082,7 +4082,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#strokeTypeProperty() strokeTypeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4104,7 +4104,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#strokeWidthProperty() strokeWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4126,7 +4126,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4148,7 +4148,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4170,7 +4170,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4192,7 +4192,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4214,7 +4214,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4236,7 +4236,7 @@ public class QuadCurveBuilder {
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurve#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) apply} method.
+     * This serves as a shorthand form of the {@link QuadCurveBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

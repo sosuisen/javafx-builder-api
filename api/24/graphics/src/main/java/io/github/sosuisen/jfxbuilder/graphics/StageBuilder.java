@@ -459,7 +459,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#alwaysOnTopProperty() alwaysOnTopProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -481,7 +481,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -503,7 +503,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -525,7 +525,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#forceIntegerRenderScaleProperty() forceIntegerRenderScaleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -547,7 +547,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#fullScreenExitHintProperty() fullScreenExitHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -569,7 +569,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#fullScreenExitKeyProperty() fullScreenExitKeyProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -591,7 +591,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#fullScreenProperty() fullScreenProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -613,7 +613,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -635,7 +635,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#iconifiedProperty() iconifiedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -657,7 +657,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -679,7 +679,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -701,7 +701,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#maximizedProperty() maximizedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -723,7 +723,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -745,7 +745,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -767,7 +767,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#onCloseRequestProperty() onCloseRequestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -789,7 +789,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -811,7 +811,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -833,7 +833,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -855,7 +855,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -877,7 +877,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -899,7 +899,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#outputScaleXProperty() outputScaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -921,7 +921,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#outputScaleYProperty() outputScaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -943,7 +943,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#renderScaleXProperty() renderScaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -965,7 +965,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#renderScaleYProperty() renderScaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -987,7 +987,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#resizableProperty() resizableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1009,7 +1009,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1031,7 +1031,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#showingProperty() showingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1053,7 +1053,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#titleProperty() titleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1075,7 +1075,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1097,7 +1097,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#xProperty() xProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -1119,7 +1119,7 @@ public class StageBuilder {
     /**
      * Applies a function to the {@link javafx.stage.Stage#yProperty() yProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * This serves as a shorthand form of the {@link StageBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

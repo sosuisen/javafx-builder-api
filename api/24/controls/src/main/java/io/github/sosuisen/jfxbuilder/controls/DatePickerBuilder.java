@@ -2190,7 +2190,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2212,7 +2212,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2234,7 +2234,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2256,7 +2256,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2278,7 +2278,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#armedProperty() armedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2300,7 +2300,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2322,7 +2322,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2344,7 +2344,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#borderProperty() borderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2366,7 +2366,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2388,7 +2388,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2410,7 +2410,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2432,7 +2432,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2454,7 +2454,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2476,7 +2476,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2498,7 +2498,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#chronologyProperty() chronologyProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2520,7 +2520,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#clipProperty() clipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2542,7 +2542,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2564,7 +2564,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#converterProperty() converterProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2586,7 +2586,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2608,7 +2608,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#dayCellFactoryProperty() dayCellFactoryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2630,7 +2630,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2652,7 +2652,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#disableProperty() disableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2674,7 +2674,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2696,7 +2696,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#editableProperty() editableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2718,7 +2718,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#editorProperty() editorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2740,7 +2740,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#effectProperty() effectProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2762,7 +2762,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2784,7 +2784,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2806,7 +2806,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2828,7 +2828,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2850,7 +2850,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2872,7 +2872,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2894,7 +2894,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2916,7 +2916,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2938,7 +2938,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#idProperty() idProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2960,7 +2960,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -2982,7 +2982,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3004,7 +3004,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3026,7 +3026,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3048,7 +3048,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3070,7 +3070,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3092,7 +3092,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3114,7 +3114,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#managedProperty() managedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3136,7 +3136,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3158,7 +3158,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3180,7 +3180,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3202,7 +3202,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3224,7 +3224,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3246,7 +3246,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3268,7 +3268,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3290,7 +3290,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3312,7 +3312,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3334,7 +3334,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3356,7 +3356,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3378,7 +3378,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3400,7 +3400,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3422,7 +3422,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3444,7 +3444,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3466,7 +3466,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3488,7 +3488,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3510,7 +3510,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3532,7 +3532,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3554,7 +3554,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3576,7 +3576,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3598,7 +3598,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3620,7 +3620,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3642,7 +3642,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3664,7 +3664,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3686,7 +3686,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3708,7 +3708,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3730,7 +3730,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3752,7 +3752,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3774,7 +3774,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3796,7 +3796,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3818,7 +3818,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3840,7 +3840,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3862,7 +3862,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3884,7 +3884,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3906,7 +3906,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3928,7 +3928,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3950,7 +3950,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3972,7 +3972,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -3994,7 +3994,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4016,7 +4016,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4038,7 +4038,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4060,7 +4060,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4082,7 +4082,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4104,7 +4104,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4126,7 +4126,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4148,7 +4148,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4170,7 +4170,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4192,7 +4192,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4214,7 +4214,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4236,7 +4236,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4258,7 +4258,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4280,7 +4280,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4302,7 +4302,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4324,7 +4324,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#parentProperty() parentProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4346,7 +4346,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4368,7 +4368,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4390,7 +4390,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4412,7 +4412,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4434,7 +4434,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#promptTextProperty() promptTextProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4456,7 +4456,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4478,7 +4478,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4500,7 +4500,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4522,7 +4522,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4544,7 +4544,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4566,7 +4566,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4588,7 +4588,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4610,7 +4610,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4632,7 +4632,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#showWeekNumbersProperty() showWeekNumbersProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4654,7 +4654,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#showingProperty() showingProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4676,7 +4676,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#skinProperty() skinProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4698,7 +4698,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4720,7 +4720,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#styleProperty() styleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4742,7 +4742,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4764,7 +4764,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4786,7 +4786,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4808,7 +4808,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4830,7 +4830,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#valueProperty() valueProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4852,7 +4852,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4874,7 +4874,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -4896,7 +4896,7 @@ public class DatePickerBuilder {
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DatePicker> func) apply} method.
+     * This serves as a shorthand form of the {@link DatePickerBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>

@@ -271,7 +271,7 @@ public class InnerShadowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#blurTypeProperty() blurTypeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
+     * This serves as a shorthand form of the {@link InnerShadowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -293,7 +293,7 @@ public class InnerShadowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#chokeProperty() chokeProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
+     * This serves as a shorthand form of the {@link InnerShadowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -315,7 +315,7 @@ public class InnerShadowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#colorProperty() colorProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
+     * This serves as a shorthand form of the {@link InnerShadowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -337,7 +337,7 @@ public class InnerShadowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#heightProperty() heightProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
+     * This serves as a shorthand form of the {@link InnerShadowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -359,7 +359,7 @@ public class InnerShadowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#inputProperty() inputProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
+     * This serves as a shorthand form of the {@link InnerShadowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -381,7 +381,7 @@ public class InnerShadowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#offsetXProperty() offsetXProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
+     * This serves as a shorthand form of the {@link InnerShadowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -403,7 +403,7 @@ public class InnerShadowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#offsetYProperty() offsetYProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
+     * This serves as a shorthand form of the {@link InnerShadowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -425,7 +425,7 @@ public class InnerShadowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#radiusProperty() radiusProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
+     * This serves as a shorthand form of the {@link InnerShadowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
@@ -447,7 +447,7 @@ public class InnerShadowBuilder {
     /**
      * Applies a function to the {@link javafx.scene.effect.InnerShadow#widthProperty() widthProperty} 
      * of the instance being constructed. 
-     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) apply} method.
+     * This serves as a shorthand form of the {@link InnerShadowBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
      * Example: 
      * </p>
