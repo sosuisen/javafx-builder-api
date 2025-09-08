@@ -40,7 +40,6 @@ public class ChoiceBoxTreeTableCellBuilder<S, T> {
      *
      * @return an instance of the {@code ChoiceBoxTreeTableCellBuilder<S, T>}.
      */
-    @SafeVarargs
     public static <S, T> ChoiceBoxTreeTableCellBuilder<S, T> create(T... items) {
         ChoiceBoxTreeTableCellBuilder<S, T> builder = new ChoiceBoxTreeTableCellBuilder<S, T>();
         builder.constructorArgs = new Object[]{items};

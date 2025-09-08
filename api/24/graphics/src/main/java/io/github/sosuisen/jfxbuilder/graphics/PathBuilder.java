@@ -52,7 +52,6 @@ public class PathBuilder {
      *
      * @return an instance of the {@code PathBuilder}.
      */
-    @SafeVarargs
     public static PathBuilder create(javafx.scene.shape.PathElement... elements) {
         PathBuilder builder = new PathBuilder();
         builder.constructorArgs = new Object[]{elements};

@@ -40,7 +40,6 @@ public class TextFlowBuilder {
      *
      * @return an instance of the {@code TextFlowBuilder}.
      */
-    @SafeVarargs
     public static TextFlowBuilder create(javafx.scene.Node... children) {
         TextFlowBuilder builder = new TextFlowBuilder();
         builder.constructorArgs = new Object[]{children};

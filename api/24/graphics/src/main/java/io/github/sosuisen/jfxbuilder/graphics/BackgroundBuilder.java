@@ -45,7 +45,6 @@ public class BackgroundBuilder {
      *
      * @return an instance of the {@code BackgroundBuilder}.
      */
-    @SafeVarargs
     public static BackgroundBuilder create(javafx.scene.layout.BackgroundFill... fills) {
         BackgroundBuilder builder = new BackgroundBuilder();
         builder.constructorArgs = new Object[]{fills};
@@ -70,7 +69,6 @@ public class BackgroundBuilder {
      *
      * @return an instance of the {@code BackgroundBuilder}.
      */
-    @SafeVarargs
     public static BackgroundBuilder create(javafx.scene.layout.BackgroundImage... images) {
         BackgroundBuilder builder = new BackgroundBuilder();
         builder.constructorArgs = new Object[]{images};

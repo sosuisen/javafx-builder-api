@@ -40,7 +40,6 @@ public class ContextMenuBuilder {
      *
      * @return an instance of the {@code ContextMenuBuilder}.
      */
-    @SafeVarargs
     public static ContextMenuBuilder create(javafx.scene.control.MenuItem... items) {
         ContextMenuBuilder builder = new ContextMenuBuilder();
         builder.constructorArgs = new Object[]{items};

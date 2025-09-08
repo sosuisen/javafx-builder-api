@@ -45,7 +45,6 @@ public class RadialGradientBuilder {
      *
      * @return an instance of the {@code RadialGradientBuilder}.
      */
-    @SafeVarargs
     public static RadialGradientBuilder create(double focusAngle, double focusDistance, double centerX, double centerY, double radius, boolean proportional, javafx.scene.paint.CycleMethod cycleMethod, javafx.scene.paint.Stop... stops) {
         RadialGradientBuilder builder = new RadialGradientBuilder();
         builder.constructorArgs = new Object[]{focusAngle, focusDistance, centerX, centerY, radius, proportional, cycleMethod, stops};
