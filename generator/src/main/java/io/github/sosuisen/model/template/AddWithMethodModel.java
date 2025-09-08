@@ -19,7 +19,8 @@ public record AddWithMethodModel(
     String withMethodName,
     String getterMethodName,
     String originalClassName,
-    boolean hasWithMethod) {
+    boolean hasWithMethod,
+    boolean isSafeVarargs) {
 
     public static Builder builder() {
         return new Builder();
@@ -59,6 +60,8 @@ public record AddWithMethodModel(
                 withMethodName = "with" + propertyName;
             }
 
+            boolean isSafeVarargs = false;
+
             // Extract observable list type parameter from getter method return type
             String observableListTypeParameter = null;
             try {
@@ -73,6 +76,11 @@ public record AddWithMethodModel(
                             classMetadata.getCanonicalClassName(),
                             observableListTypeParameter
                         );
+                        Matcher innerMatcher = pattern.matcher(observableListTypeParameter);
+                        if (innerMatcher.find()) {
+                            // e.g.) javafx.scene.chart.XYChart.Series<X, Y>...
+                            isSafeVarargs = true;
+                        }
                     }
                 }
             } catch (NoSuchMethodException e) {
@@ -97,7 +105,8 @@ public record AddWithMethodModel(
                 withMethodName,
                 getterMethodName,
                 classMetadata.getCanonicalClassName(),
-                withMethodName != null
+                withMethodName != null,
+                isSafeVarargs
             );
         }
     }

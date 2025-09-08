@@ -20,7 +20,7 @@ public record CreateMethodModel(
     String parameterListTypesOnly,
     String parameterListSimpleTypesOnly,
     String argumentList,
-    boolean isVarArgs) {
+    boolean isSafeVarargs) {
 
     public static Builder builder() {
         return new Builder();
@@ -53,6 +53,8 @@ public record CreateMethodModel(
             String parameterListSimpleTypesOnly = "";
             String argumentList = "";
             boolean isVarArgs = constructor.isVarArgs();
+            boolean hasTypeParameter = constructor.getTypeParameters().length > 0;
+            boolean isSafeVarargs = isVarArgs && hasTypeParameter;
 
             if (!isDefaultConstructor) {
                 parameterList = ParameterStringBuilder.buildParameterListWithTypes(
@@ -78,7 +80,7 @@ public record CreateMethodModel(
                 parameterListTypesOnly,
                 parameterListSimpleTypesOnly,
                 argumentList,
-                isVarArgs
+                isSafeVarargs
             );
         }
 

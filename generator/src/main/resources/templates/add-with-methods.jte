@@ -7,8 +7,8 @@
      * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link ${model.originalClassName()}#${model.getterMethodName()}()} method.
      * 
      * @return builder instance
-     */
-    @SafeVarargs
+     */@if(model.isSafeVarargs())
+    @SafeVarargs@endif
     public final ${model.builderClassNameWithTypeParameter()} ${model.addMethodName()}(${model.observableListTypeParameter()}... elements) {
         operations.add(obj -> obj.${model.getterMethodName()}().addAll(elements));
         return this;
@@ -28,8 +28,8 @@
      * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link ${model.originalClassName()}#${model.getterMethodName()}()} method.
      * 
      * @return builder instance
-     */
-    @SafeVarargs
+     */@if(model.isSafeVarargs())
+    @SafeVarargs@endif
     public static ${model.typeParametersWithExtends().isEmpty() ? "" : model.typeParametersWithExtends() + " "}${model.builderClassNameWithTypeParameter()} ${model.withMethodName()}(${model.observableListTypeParameter()}... elements) {
         ${model.builderClassNameWithTypeParameter()} builder = new ${model.builderClassNameWithTypeParameter()}();
         return builder.${model.addMethodName()}(elements);
