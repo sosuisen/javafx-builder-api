@@ -17,6 +17,7 @@ public record CreateMethodModel(
     String builderClassName,
     boolean isDefaultConstructor,
     String parameterList,
+    String parameterListTypesOnly,
     String parameterListSimpleTypesOnly,
     String argumentList,
     boolean isVarArgs) {
@@ -48,6 +49,7 @@ public record CreateMethodModel(
             boolean isDefaultConstructor = parameters.length == 0;
 
             String parameterList = "";
+            String parameterListTypesOnly = "";
             String parameterListSimpleTypesOnly = "";
             String argumentList = "";
             boolean isVarArgs = constructor.isVarArgs();
@@ -58,6 +60,8 @@ public record CreateMethodModel(
                     classMetadata.getCanonicalClassName(),
                     isVarArgs
                 );
+                parameterListTypesOnly =
+                    ParameterStringBuilder.buildParameterListCanonicalTypesOnly(parameters);
                 parameterListSimpleTypesOnly =
                     ParameterStringBuilder.buildParameterListSimpleTypesOnly(parameters);
                 argumentList = ParameterStringBuilder.buildParameterListNamesOnly(parameters);
@@ -71,6 +75,7 @@ public record CreateMethodModel(
                 classMetadata.getBuilderClassName(),
                 isDefaultConstructor,
                 parameterList,
+                parameterListTypesOnly,
                 parameterListSimpleTypesOnly,
                 argumentList,
                 isVarArgs
