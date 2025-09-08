@@ -26,35 +26,35 @@
       <artifactId>javafx-base</artifactId>
       <version>${javafx.version}</version>
       <scope>system</scope>
-      <systemPath>${project.basedir}/sdk/${javafx.major.version}/javafx.base.jar</systemPath>
+      <systemPath>${pom.basedir}/sdk/${javafx.major.version}/javafx.base.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.example.jfx</groupId>
       <artifactId>javafx-graphics</artifactId>
       <version>${javafx.version}</version>
       <scope>system</scope>
-      <systemPath>${project.basedir}/sdk/${javafx.major.version}/javafx.controls-${javafx.platform}.jar</systemPath>
+      <systemPath>${pom.basedir}/sdk/${javafx.major.version}/javafx.controls-${javafx.platform}.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.example.jfx</groupId>
       <artifactId>javafx-controls</artifactId>
       <version>${javafx.version}</version>
       <scope>system</scope>
-      <systemPath>${project.basedir}/sdk/${javafx.major.version}/javafx.graphics-${javafx.platform}.jar</systemPath>
+      <systemPath>${pom.basedir}/sdk/${javafx.major.version}/javafx.graphics-${javafx.platform}.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.example.jfx</groupId>
       <artifactId>javafx-media</artifactId>
       <version>${javafx.version}</version>
       <scope>system</scope>
-      <systemPath>${project.basedir}/sdk/${javafx.major.version}/javafx.media-${javafx.platform}.jar</systemPath>
+      <systemPath>${pom.basedir}/sdk/${javafx.major.version}/javafx.media-${javafx.platform}.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.example.jfx</groupId>
       <artifactId>javafx-web</artifactId>
       <version>${javafx.version}</version>
       <scope>system</scope>
-      <systemPath>${project.basedir}/sdk/${javafx.major.version}/javafx.web-${javafx.platform}.jar</systemPath>
+      <systemPath>${pom.basedir}/sdk/${javafx.major.version}/javafx.web-${javafx.platform}.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>gg.jte</groupId>
