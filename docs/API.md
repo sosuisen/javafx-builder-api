@@ -1,6 +1,6 @@
 # JavaFX Builder API
 
-The builder classes provide a fluent API for creating JavaFX components:
+The builder classes offer a fluent API for creating JavaFX components in the following way:
 
 ```java
 // Example using the builder API
