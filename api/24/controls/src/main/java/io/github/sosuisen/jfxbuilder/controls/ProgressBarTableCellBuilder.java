@@ -427,7 +427,7 @@ public class ProgressBarTableCellBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTableCell#setItem(java.lang.Double) setItem} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTableCell#setItem(S) setItem} method on the instance being constructed.
      *
      * @return builder instance
      */

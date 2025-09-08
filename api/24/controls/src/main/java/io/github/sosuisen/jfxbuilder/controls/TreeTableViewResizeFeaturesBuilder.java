@@ -141,7 +141,7 @@ public class TreeTableViewResizeFeaturesBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TreeTableView.ResizeFeatures#setColumnWidth(javafx.scene.control.TreeTableColumn, double) setColumnWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TreeTableView.ResizeFeatures#setColumnWidth(javafx.scene.control.TableColumnBase, double) setColumnWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
