@@ -40,6 +40,7 @@ public class ComboBoxListCellBuilder<T> {
      *
      * @return an instance of the {@code ComboBoxListCellBuilder<T>}.
      */
+    @SafeVarargs
     public static <T> ComboBoxListCellBuilder<T> create(T... items) {
         ComboBoxListCellBuilder<T> builder = new ComboBoxListCellBuilder<T>();
         builder.constructorArgs = new Object[]{items};

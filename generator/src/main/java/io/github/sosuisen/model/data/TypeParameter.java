@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class TypeParameter {
     private static Pattern pattern = Pattern.compile("<(.+)>$");
-    private static Pattern singleCharPattern = Pattern.compile("^\\w$");
+    private static Pattern singleCharPattern = Pattern.compile("^\\w(\\[\\])?$");
 
     public static boolean hasTypeParameter(String typeName) {
         Matcher diamondMatcher = pattern.matcher(typeName);
@@ -16,7 +16,7 @@ public class TypeParameter {
         Matcher singleCharMatcher =
             singleCharPattern.matcher(typeName);
         if (singleCharMatcher.find()) {
-            // e.g.) T...
+            // e.g.) T[]
             return true;
         }
         return false;
