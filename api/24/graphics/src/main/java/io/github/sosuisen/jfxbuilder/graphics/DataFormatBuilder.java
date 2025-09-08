@@ -33,7 +33,6 @@ public class DataFormatBuilder {
      *
      * @return an instance of the {@code DataFormatBuilder}.
      */
-    @SafeVarargs
     public static DataFormatBuilder create(java.lang.String... ids) {
         DataFormatBuilder builder = new DataFormatBuilder();
         builder.constructorArgs = new Object[]{ids};

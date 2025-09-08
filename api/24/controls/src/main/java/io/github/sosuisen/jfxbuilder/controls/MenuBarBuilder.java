@@ -40,7 +40,6 @@ public class MenuBarBuilder {
      *
      * @return an instance of the {@code MenuBarBuilder}.
      */
-    @SafeVarargs
     public static MenuBarBuilder create(javafx.scene.control.Menu... menus) {
         MenuBarBuilder builder = new MenuBarBuilder();
         builder.constructorArgs = new Object[]{menus};

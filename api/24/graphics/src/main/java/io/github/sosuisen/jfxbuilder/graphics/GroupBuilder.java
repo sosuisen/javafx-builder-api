@@ -52,7 +52,6 @@ public class GroupBuilder {
      *
      * @return an instance of the {@code GroupBuilder}.
      */
-    @SafeVarargs
     public static GroupBuilder create(javafx.scene.Node... children) {
         GroupBuilder builder = new GroupBuilder();
         builder.constructorArgs = new Object[]{children};

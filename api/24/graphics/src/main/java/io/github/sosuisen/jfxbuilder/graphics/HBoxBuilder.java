@@ -52,7 +52,6 @@ public class HBoxBuilder {
      *
      * @return an instance of the {@code HBoxBuilder}.
      */
-    @SafeVarargs
     public static HBoxBuilder create(double spacing, javafx.scene.Node... children) {
         HBoxBuilder builder = new HBoxBuilder();
         builder.constructorArgs = new Object[]{spacing, children};
@@ -65,7 +64,6 @@ public class HBoxBuilder {
      *
      * @return an instance of the {@code HBoxBuilder}.
      */
-    @SafeVarargs
     public static HBoxBuilder create(javafx.scene.Node... children) {
         HBoxBuilder builder = new HBoxBuilder();
         builder.constructorArgs = new Object[]{children};

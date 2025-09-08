@@ -1157,7 +1157,7 @@ public class ColorPickerBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setValue(T) setValue} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setValue(javafx.scene.paint.Color) setValue} method on the instance being constructed.
      *
      * @return builder instance
      */

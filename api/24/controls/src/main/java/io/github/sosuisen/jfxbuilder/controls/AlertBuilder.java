@@ -45,7 +45,6 @@ public class AlertBuilder {
      *
      * @return an instance of the {@code AlertBuilder}.
      */
-    @SafeVarargs
     public static AlertBuilder create(javafx.scene.control.Alert.AlertType alertType, java.lang.String contentText, javafx.scene.control.ButtonType... buttons) {
         AlertBuilder builder = new AlertBuilder();
         builder.constructorArgs = new Object[]{alertType, contentText, buttons};
@@ -272,7 +271,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setResult(R) setResult} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setResult(javafx.scene.control.ButtonType) setResult} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -771,7 +770,7 @@ public class AlertBuilder {
 
     /**
      * Creates an instance of the builder,
-     * then calls the {@link javafx.collections.ObservableList#setAll(E... elements) addAll(ButtonType... elements)} method
+     * then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll(ButtonType... elements)} method
      * on the ObservableList returned by the {@link javafx.scene.control.Alert#getButtonTypes() Alert#getButtonTypes()} method.
      *
      * <p>
@@ -781,7 +780,6 @@ public class AlertBuilder {
      *
      * @return builder instance
      */
-    @SafeVarargs
     public static AlertBuilder withButtonTypes(javafx.scene.control.ButtonType... elements) {
         AlertBuilder builder = new AlertBuilder();
         builder.constructorArgs = new Object[]{javafx.scene.control.Alert.AlertType.NONE};
@@ -790,7 +788,7 @@ public class AlertBuilder {
 
     /**
      * Creates an instance of the builder,
-     * then calls the {@link java.util.List#addAll(Collection<? extends E> c) setAll(Collection&lt;? extends ButtonType&gt; col} method
+     * then calls the {@link java.util.List#addAll(java.util.Collection) setAll(Collection&lt;? extends ButtonType&gt; col} method
      * on the ObservableList returned by the {@link javafx.scene.control.Alert#getButtonTypes() Alert#getButtonTypes()} method.
      *
      * <p>
