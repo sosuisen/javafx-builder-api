@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class DatePickerBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.DatePicker>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.DatePicker>> operations = new java.util.ArrayList<>();
     private DatePickerBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class DatePickerBuilder {
     public static DatePickerBuilder create() { return new DatePickerBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.DatePicker#DatePicker(LocalDate) DatePicker(LocalDate)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.DatePicker#DatePicker(java.time.LocalDate) DatePicker(LocalDate)}
      * and returns an instance of {@code DatePickerBuilder}.
      *
      * @return an instance of the {@code DatePickerBuilder}.
      */
-    
     public static DatePickerBuilder create(java.time.LocalDate localDate) {
         DatePickerBuilder builder = new DatePickerBuilder();
         builder.constructorArgs = new Object[]{localDate};
@@ -1228,77 +1227,62 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DatePicker#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DatePicker#getStyleClass()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final DatePickerBuilder addStyleClass(java.lang.String... elements) {
-        operations.add(obj -> {
-            obj.getStyleClass().addAll(elements);
-        });
+        operations.add(obj -> obj.getStyleClass().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DatePicker#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DatePicker#getStyleClass()} method.
      * 
      * @return builder instance
      */
     public final DatePickerBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
-        operations.add(obj -> {
-            obj.getStyleClass().addAll(col);
-        });
+        operations.add(obj -> obj.getStyleClass().addAll(col));
         return this;
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DatePicker#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DatePicker#getStylesheets()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final DatePickerBuilder addStylesheets(java.lang.String... elements) {
-        operations.add(obj -> {
-            obj.getStylesheets().addAll(elements);
-        });
+        operations.add(obj -> obj.getStylesheets().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DatePicker#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DatePicker#getStylesheets()} method.
      * 
      * @return builder instance
      */
     public final DatePickerBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
-        operations.add(obj -> {
-            obj.getStylesheets().addAll(col);
-        });
+        operations.add(obj -> obj.getStylesheets().addAll(col));
         return this;
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DatePicker#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DatePicker#getTransforms()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final DatePickerBuilder addTransforms(javafx.scene.transform.Transform... elements) {
-        operations.add(obj -> {
-            obj.getTransforms().addAll(elements);
-        });
+        operations.add(obj -> obj.getTransforms().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DatePicker#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DatePicker#getTransforms()} method.
      * 
      * @return builder instance
      */
     public final DatePickerBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
-        operations.add(obj -> {
-            obj.getTransforms().addAll(col);
-        });
+        operations.add(obj -> obj.getTransforms().addAll(col));
         return this;
     }    
     /**
@@ -1319,7 +1303,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.AnchorPane#setBottomAnchor(Node child, java.lang.Double value) AnchorPane.setBottomAnchor(Node, Double)} 
+     * Invokes the {@link javafx.scene.layout.AnchorPane#setBottomAnchor(javafx.scene.Node child, java.lang.Double value) AnchorPane.setBottomAnchor(javafx.scene.Node, Double)} 
      * using a fluent API.
      *
      * <p>
@@ -1347,7 +1331,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.AnchorPane#setLeftAnchor(Node child, java.lang.Double value) AnchorPane.setLeftAnchor(Node, Double)} 
+     * Invokes the {@link javafx.scene.layout.AnchorPane#setLeftAnchor(javafx.scene.Node child, java.lang.Double value) AnchorPane.setLeftAnchor(javafx.scene.Node, Double)} 
      * using a fluent API.
      *
      * <p>
@@ -1375,7 +1359,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.AnchorPane#setRightAnchor(Node child, java.lang.Double value) AnchorPane.setRightAnchor(Node, Double)} 
+     * Invokes the {@link javafx.scene.layout.AnchorPane#setRightAnchor(javafx.scene.Node child, java.lang.Double value) AnchorPane.setRightAnchor(javafx.scene.Node, Double)} 
      * using a fluent API.
      *
      * <p>
@@ -1403,7 +1387,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.AnchorPane#setTopAnchor(Node child, java.lang.Double value) AnchorPane.setTopAnchor(Node, Double)} 
+     * Invokes the {@link javafx.scene.layout.AnchorPane#setTopAnchor(javafx.scene.Node child, java.lang.Double value) AnchorPane.setTopAnchor(javafx.scene.Node, Double)} 
      * using a fluent API.
      *
      * <p>
@@ -1431,7 +1415,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.BorderPane#setAlignment(Node child, javafx.geometry.Pos value) BorderPane.setAlignment(Node, Pos)} 
+     * Invokes the {@link javafx.scene.layout.BorderPane#setAlignment(javafx.scene.Node child, javafx.geometry.Pos value) BorderPane.setAlignment(javafx.scene.Node, Pos)} 
      * using a fluent API.
      *
      * <p>
@@ -1459,7 +1443,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.BorderPane#setMargin(Node child, javafx.geometry.Insets value) BorderPane.setMargin(Node, Insets)} 
+     * Invokes the {@link javafx.scene.layout.BorderPane#setMargin(javafx.scene.Node child, javafx.geometry.Insets value) BorderPane.setMargin(javafx.scene.Node, Insets)} 
      * using a fluent API.
      *
      * <p>
@@ -1487,7 +1471,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.FlowPane#setMargin(Node child, javafx.geometry.Insets value) FlowPane.setMargin(Node, Insets)} 
+     * Invokes the {@link javafx.scene.layout.FlowPane#setMargin(javafx.scene.Node child, javafx.geometry.Insets value) FlowPane.setMargin(javafx.scene.Node, Insets)} 
      * using a fluent API.
      *
      * <p>
@@ -1515,7 +1499,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setColumnIndex(Node child, java.lang.Integer value) GridPane.setColumnIndex(Node, Integer)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setColumnIndex(javafx.scene.Node child, java.lang.Integer value) GridPane.setColumnIndex(javafx.scene.Node, Integer)} 
      * using a fluent API.
      *
      * <p>
@@ -1543,7 +1527,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setColumnSpan(Node child, java.lang.Integer value) GridPane.setColumnSpan(Node, Integer)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setColumnSpan(javafx.scene.Node child, java.lang.Integer value) GridPane.setColumnSpan(javafx.scene.Node, Integer)} 
      * using a fluent API.
      *
      * <p>
@@ -1571,7 +1555,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(Node child, int columnIndex, int rowIndex) GridPane.setConstraints(Node, int, int)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(javafx.scene.Node child, int columnIndex, int rowIndex) GridPane.setConstraints(javafx.scene.Node, int, int)} 
      * using a fluent API.
      *
      * <p>
@@ -1599,7 +1583,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(Node child, int columnIndex, int rowIndex, int columnspan, int rowspan) GridPane.setConstraints(Node, int, int, int, int)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(javafx.scene.Node child, int columnIndex, int rowIndex, int columnspan, int rowspan) GridPane.setConstraints(javafx.scene.Node, int, int, int, int)} 
      * using a fluent API.
      *
      * <p>
@@ -1627,7 +1611,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(Node child, int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment) GridPane.setConstraints(Node, int, int, int, int, HPos, VPos)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(javafx.scene.Node child, int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment) GridPane.setConstraints(javafx.scene.Node, int, int, int, int, HPos, VPos)} 
      * using a fluent API.
      *
      * <p>
@@ -1655,7 +1639,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(Node child, int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow) GridPane.setConstraints(Node, int, int, int, int, HPos, VPos, Priority, Priority)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(javafx.scene.Node child, int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow) GridPane.setConstraints(javafx.scene.Node, int, int, int, int, HPos, VPos, Priority, Priority)} 
      * using a fluent API.
      *
      * <p>
@@ -1683,7 +1667,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(Node child, int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow, javafx.geometry.Insets margin) GridPane.setConstraints(Node, int, int, int, int, HPos, VPos, Priority, Priority, Insets)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(javafx.scene.Node child, int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow, javafx.geometry.Insets margin) GridPane.setConstraints(javafx.scene.Node, int, int, int, int, HPos, VPos, Priority, Priority, Insets)} 
      * using a fluent API.
      *
      * <p>
@@ -1711,7 +1695,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setFillHeight(Node child, java.lang.Boolean value) GridPane.setFillHeight(Node, Boolean)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setFillHeight(javafx.scene.Node child, java.lang.Boolean value) GridPane.setFillHeight(javafx.scene.Node, Boolean)} 
      * using a fluent API.
      *
      * <p>
@@ -1739,7 +1723,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setFillWidth(Node child, java.lang.Boolean value) GridPane.setFillWidth(Node, Boolean)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setFillWidth(javafx.scene.Node child, java.lang.Boolean value) GridPane.setFillWidth(javafx.scene.Node, Boolean)} 
      * using a fluent API.
      *
      * <p>
@@ -1767,7 +1751,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setHalignment(Node child, javafx.geometry.HPos value) GridPane.setHalignment(Node, HPos)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setHalignment(javafx.scene.Node child, javafx.geometry.HPos value) GridPane.setHalignment(javafx.scene.Node, HPos)} 
      * using a fluent API.
      *
      * <p>
@@ -1795,7 +1779,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setHgrow(Node child, javafx.scene.layout.Priority value) GridPane.setHgrow(Node, Priority)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setHgrow(javafx.scene.Node child, javafx.scene.layout.Priority value) GridPane.setHgrow(javafx.scene.Node, Priority)} 
      * using a fluent API.
      *
      * <p>
@@ -1823,7 +1807,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setMargin(Node child, javafx.geometry.Insets value) GridPane.setMargin(Node, Insets)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setMargin(javafx.scene.Node child, javafx.geometry.Insets value) GridPane.setMargin(javafx.scene.Node, Insets)} 
      * using a fluent API.
      *
      * <p>
@@ -1851,7 +1835,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setRowIndex(Node child, java.lang.Integer value) GridPane.setRowIndex(Node, Integer)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setRowIndex(javafx.scene.Node child, java.lang.Integer value) GridPane.setRowIndex(javafx.scene.Node, Integer)} 
      * using a fluent API.
      *
      * <p>
@@ -1879,7 +1863,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setRowSpan(Node child, java.lang.Integer value) GridPane.setRowSpan(Node, Integer)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setRowSpan(javafx.scene.Node child, java.lang.Integer value) GridPane.setRowSpan(javafx.scene.Node, Integer)} 
      * using a fluent API.
      *
      * <p>
@@ -1907,7 +1891,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setValignment(Node child, javafx.geometry.VPos value) GridPane.setValignment(Node, VPos)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setValignment(javafx.scene.Node child, javafx.geometry.VPos value) GridPane.setValignment(javafx.scene.Node, VPos)} 
      * using a fluent API.
      *
      * <p>
@@ -1935,7 +1919,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setVgrow(Node child, javafx.scene.layout.Priority value) GridPane.setVgrow(Node, Priority)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setVgrow(javafx.scene.Node child, javafx.scene.layout.Priority value) GridPane.setVgrow(javafx.scene.Node, Priority)} 
      * using a fluent API.
      *
      * <p>
@@ -1963,7 +1947,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.HBox#setHgrow(Node child, javafx.scene.layout.Priority value) HBox.setHgrow(Node, Priority)} 
+     * Invokes the {@link javafx.scene.layout.HBox#setHgrow(javafx.scene.Node child, javafx.scene.layout.Priority value) HBox.setHgrow(javafx.scene.Node, Priority)} 
      * using a fluent API.
      *
      * <p>
@@ -1991,7 +1975,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.HBox#setMargin(Node child, javafx.geometry.Insets value) HBox.setMargin(Node, Insets)} 
+     * Invokes the {@link javafx.scene.layout.HBox#setMargin(javafx.scene.Node child, javafx.geometry.Insets value) HBox.setMargin(javafx.scene.Node, Insets)} 
      * using a fluent API.
      *
      * <p>
@@ -2019,7 +2003,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.StackPane#setAlignment(Node child, javafx.geometry.Pos value) StackPane.setAlignment(Node, Pos)} 
+     * Invokes the {@link javafx.scene.layout.StackPane#setAlignment(javafx.scene.Node child, javafx.geometry.Pos value) StackPane.setAlignment(javafx.scene.Node, Pos)} 
      * using a fluent API.
      *
      * <p>
@@ -2047,7 +2031,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.StackPane#setMargin(Node child, javafx.geometry.Insets value) StackPane.setMargin(Node, Insets)} 
+     * Invokes the {@link javafx.scene.layout.StackPane#setMargin(javafx.scene.Node child, javafx.geometry.Insets value) StackPane.setMargin(javafx.scene.Node, Insets)} 
      * using a fluent API.
      *
      * <p>
@@ -2075,7 +2059,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.TilePane#setAlignment(Node child, javafx.geometry.Pos value) TilePane.setAlignment(Node, Pos)} 
+     * Invokes the {@link javafx.scene.layout.TilePane#setAlignment(javafx.scene.Node child, javafx.geometry.Pos value) TilePane.setAlignment(javafx.scene.Node, Pos)} 
      * using a fluent API.
      *
      * <p>
@@ -2103,7 +2087,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.TilePane#setMargin(Node child, javafx.geometry.Insets value) TilePane.setMargin(Node, Insets)} 
+     * Invokes the {@link javafx.scene.layout.TilePane#setMargin(javafx.scene.Node child, javafx.geometry.Insets value) TilePane.setMargin(javafx.scene.Node, Insets)} 
      * using a fluent API.
      *
      * <p>
@@ -2131,7 +2115,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.VBox#setMargin(Node child, javafx.geometry.Insets value) VBox.setMargin(Node, Insets)} 
+     * Invokes the {@link javafx.scene.layout.VBox#setMargin(javafx.scene.Node child, javafx.geometry.Insets value) VBox.setMargin(javafx.scene.Node, Insets)} 
      * using a fluent API.
      *
      * <p>
@@ -2159,7 +2143,7 @@ public class DatePickerBuilder {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.VBox#setVgrow(Node child, javafx.scene.layout.Priority value) VBox.setVgrow(Node, Priority)} 
+     * Invokes the {@link javafx.scene.layout.VBox#setVgrow(javafx.scene.Node child, javafx.scene.layout.Priority value) VBox.setVgrow(javafx.scene.Node, Priority)} 
      * using a fluent API.
      *
      * <p>

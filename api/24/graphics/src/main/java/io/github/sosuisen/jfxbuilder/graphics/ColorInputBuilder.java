@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class ColorInputBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.ColorInput>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.ColorInput>> operations = new java.util.ArrayList<>();
     private ColorInputBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class ColorInputBuilder {
     public static ColorInputBuilder create() { return new ColorInputBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.effect.ColorInput#ColorInput(double, double, double, double, Paint) ColorInput(double, double, double, double, Paint)}
+     * Accepts the constructor arguments of {@link javafx.scene.effect.ColorInput#ColorInput(double, double, double, double, javafx.scene.paint.Paint) ColorInput(double, double, double, double, Paint)}
      * and returns an instance of {@code ColorInputBuilder}.
      *
      * @return an instance of the {@code ColorInputBuilder}.
      */
-    
     public static ColorInputBuilder create(double x, double y, double width, double height, javafx.scene.paint.Paint paint) {
         ColorInputBuilder builder = new ColorInputBuilder();
         builder.constructorArgs = new Object[]{x, y, width, height, paint};

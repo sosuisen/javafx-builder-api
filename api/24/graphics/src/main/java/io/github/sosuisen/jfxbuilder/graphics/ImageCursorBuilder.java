@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class ImageCursorBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.ImageCursor>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.ImageCursor>> operations = new java.util.ArrayList<>();
     private ImageCursorBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class ImageCursorBuilder {
     public static ImageCursorBuilder create() { return new ImageCursorBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.ImageCursor#ImageCursor(Image) ImageCursor(Image)}
+     * Accepts the constructor arguments of {@link javafx.scene.ImageCursor#ImageCursor(javafx.scene.image.Image) ImageCursor(Image)}
      * and returns an instance of {@code ImageCursorBuilder}.
      *
      * @return an instance of the {@code ImageCursorBuilder}.
      */
-    
     public static ImageCursorBuilder create(javafx.scene.image.Image image) {
         ImageCursorBuilder builder = new ImageCursorBuilder();
         builder.constructorArgs = new Object[]{image};
@@ -48,12 +47,11 @@ public class ImageCursorBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.ImageCursor#ImageCursor(Image, double, double) ImageCursor(Image, double, double)}
+     * Accepts the constructor arguments of {@link javafx.scene.ImageCursor#ImageCursor(javafx.scene.image.Image, double, double) ImageCursor(Image, double, double)}
      * and returns an instance of {@code ImageCursorBuilder}.
      *
      * @return an instance of the {@code ImageCursorBuilder}.
      */
-    
     public static ImageCursorBuilder create(javafx.scene.image.Image image, double hotspotX, double hotspotY) {
         ImageCursorBuilder builder = new ImageCursorBuilder();
         builder.constructorArgs = new Object[]{image, hotspotX, hotspotY};

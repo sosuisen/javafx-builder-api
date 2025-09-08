@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TextFormatterBuilder<V> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.TextFormatter<V>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.TextFormatter<V>>> operations = new java.util.ArrayList<>();
     private TextFormatterBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(UnaryOperator) TextFormatter(UnaryOperator)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(java.util.function.UnaryOperator) TextFormatter(UnaryOperator)}
      * and returns an instance of {@code TextFormatterBuilder<V>}.
      *
      * @return an instance of the {@code TextFormatterBuilder<V>}.
      */
-    
     public static <V> TextFormatterBuilder<V> create(java.util.function.UnaryOperator<javafx.scene.control.TextFormatter.Change> filter) {
         TextFormatterBuilder<V> builder = new TextFormatterBuilder<V>();
         builder.constructorArgs = new Object[]{filter};
@@ -41,12 +40,11 @@ public class TextFormatterBuilder<V> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(StringConverter) TextFormatter(StringConverter)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(javafx.util.StringConverter) TextFormatter(StringConverter)}
      * and returns an instance of {@code TextFormatterBuilder<V>}.
      *
      * @return an instance of the {@code TextFormatterBuilder<V>}.
      */
-    
     public static <V> TextFormatterBuilder<V> create(javafx.util.StringConverter<V> valueConverter) {
         TextFormatterBuilder<V> builder = new TextFormatterBuilder<V>();
         builder.constructorArgs = new Object[]{valueConverter};
@@ -54,12 +52,11 @@ public class TextFormatterBuilder<V> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(StringConverter, Object) TextFormatter(StringConverter, Object)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(javafx.util.StringConverter, java.lang.Object) TextFormatter(StringConverter, Object)}
      * and returns an instance of {@code TextFormatterBuilder<V>}.
      *
      * @return an instance of the {@code TextFormatterBuilder<V>}.
      */
-    
     public static <V> TextFormatterBuilder<V> create(javafx.util.StringConverter<V> valueConverter, V defaultValue) {
         TextFormatterBuilder<V> builder = new TextFormatterBuilder<V>();
         builder.constructorArgs = new Object[]{valueConverter, defaultValue};
@@ -67,12 +64,11 @@ public class TextFormatterBuilder<V> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(StringConverter, Object, UnaryOperator) TextFormatter(StringConverter, Object, UnaryOperator)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(javafx.util.StringConverter, java.lang.Object, java.util.function.UnaryOperator) TextFormatter(StringConverter, Object, UnaryOperator)}
      * and returns an instance of {@code TextFormatterBuilder<V>}.
      *
      * @return an instance of the {@code TextFormatterBuilder<V>}.
      */
-    
     public static <V> TextFormatterBuilder<V> create(javafx.util.StringConverter<V> valueConverter, V defaultValue, java.util.function.UnaryOperator<javafx.scene.control.TextFormatter.Change> filter) {
         TextFormatterBuilder<V> builder = new TextFormatterBuilder<V>();
         builder.constructorArgs = new Object[]{valueConverter, defaultValue, filter};
@@ -82,7 +78,7 @@ public class TextFormatterBuilder<V> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TextFormatter<V>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TextFormatter} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

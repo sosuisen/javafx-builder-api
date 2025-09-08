@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class BorderWidthsBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.layout.BorderWidths>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.layout.BorderWidths>> operations = new java.util.ArrayList<>();
     private BorderWidthsBuilder() {}
     
     /**
@@ -33,7 +33,6 @@ public class BorderWidthsBuilder {
      *
      * @return an instance of the {@code BorderWidthsBuilder}.
      */
-    
     public static BorderWidthsBuilder create(double width) {
         BorderWidthsBuilder builder = new BorderWidthsBuilder();
         builder.constructorArgs = new Object[]{width};
@@ -46,7 +45,6 @@ public class BorderWidthsBuilder {
      *
      * @return an instance of the {@code BorderWidthsBuilder}.
      */
-    
     public static BorderWidthsBuilder create(double top, double right, double bottom, double left) {
         BorderWidthsBuilder builder = new BorderWidthsBuilder();
         builder.constructorArgs = new Object[]{top, right, bottom, left};
@@ -59,7 +57,6 @@ public class BorderWidthsBuilder {
      *
      * @return an instance of the {@code BorderWidthsBuilder}.
      */
-    
     public static BorderWidthsBuilder create(double top, double right, double bottom, double left, boolean topAsPercentage, boolean rightAsPercentage, boolean bottomAsPercentage, boolean leftAsPercentage) {
         BorderWidthsBuilder builder = new BorderWidthsBuilder();
         builder.constructorArgs = new Object[]{top, right, bottom, left, topAsPercentage, rightAsPercentage, bottomAsPercentage, leftAsPercentage};

@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class AlertAlertTypeBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.Alert.AlertType>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.Alert.AlertType>> operations = new java.util.ArrayList<>();
     private AlertAlertTypeBuilder() {}
     
     private Object[] constructorArgs;

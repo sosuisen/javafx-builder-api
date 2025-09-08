@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class LightingBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.Lighting>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.Lighting>> operations = new java.util.ArrayList<>();
     private LightingBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class LightingBuilder {
     public static LightingBuilder create() { return new LightingBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.effect.Lighting#Lighting(Light) Lighting(Light)}
+     * Accepts the constructor arguments of {@link javafx.scene.effect.Lighting#Lighting(javafx.scene.effect.Light) Lighting(Light)}
      * and returns an instance of {@code LightingBuilder}.
      *
      * @return an instance of the {@code LightingBuilder}.
      */
-    
     public static LightingBuilder create(javafx.scene.effect.Light light) {
         LightingBuilder builder = new LightingBuilder();
         builder.constructorArgs = new Object[]{light};

@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class BackgroundBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.layout.Background>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.layout.Background>> operations = new java.util.ArrayList<>();
     private BackgroundBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.layout.Background#Background(List, List) Background(List, List)}
+     * Accepts the constructor arguments of {@link javafx.scene.layout.Background#Background(java.util.List, java.util.List) Background(List, List)}
      * and returns an instance of {@code BackgroundBuilder}.
      *
      * @return an instance of the {@code BackgroundBuilder}.
      */
-    
     public static BackgroundBuilder create(java.util.List<javafx.scene.layout.BackgroundFill> fills, java.util.List<javafx.scene.layout.BackgroundImage> images) {
         BackgroundBuilder builder = new BackgroundBuilder();
         builder.constructorArgs = new Object[]{fills, images};
@@ -41,12 +40,11 @@ public class BackgroundBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.layout.Background#Background(BackgroundFill...) Background(BackgroundFill...)}
+     * Accepts the constructor arguments of {@link javafx.scene.layout.Background#Background(javafx.scene.layout.BackgroundFill...) Background(BackgroundFill...)}
      * and returns an instance of {@code BackgroundBuilder}.
      *
      * @return an instance of the {@code BackgroundBuilder}.
      */
-    @SafeVarargs
     public static BackgroundBuilder create(javafx.scene.layout.BackgroundFill... fills) {
         BackgroundBuilder builder = new BackgroundBuilder();
         builder.constructorArgs = new Object[]{fills};
@@ -54,12 +52,11 @@ public class BackgroundBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.layout.Background#Background(BackgroundFill..., BackgroundImage...) Background(BackgroundFill..., BackgroundImage...)}
+     * Accepts the constructor arguments of {@link javafx.scene.layout.Background#Background(javafx.scene.layout.BackgroundFill..., javafx.scene.layout.BackgroundImage...) Background(BackgroundFill..., BackgroundImage...)}
      * and returns an instance of {@code BackgroundBuilder}.
      *
      * @return an instance of the {@code BackgroundBuilder}.
      */
-    
     public static BackgroundBuilder create(javafx.scene.layout.BackgroundFill[] fills, javafx.scene.layout.BackgroundImage[] images) {
         BackgroundBuilder builder = new BackgroundBuilder();
         builder.constructorArgs = new Object[]{fills, images};
@@ -67,12 +64,11 @@ public class BackgroundBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.layout.Background#Background(BackgroundImage...) Background(BackgroundImage...)}
+     * Accepts the constructor arguments of {@link javafx.scene.layout.Background#Background(javafx.scene.layout.BackgroundImage...) Background(BackgroundImage...)}
      * and returns an instance of {@code BackgroundBuilder}.
      *
      * @return an instance of the {@code BackgroundBuilder}.
      */
-    @SafeVarargs
     public static BackgroundBuilder create(javafx.scene.layout.BackgroundImage... images) {
         BackgroundBuilder builder = new BackgroundBuilder();
         builder.constructorArgs = new Object[]{images};

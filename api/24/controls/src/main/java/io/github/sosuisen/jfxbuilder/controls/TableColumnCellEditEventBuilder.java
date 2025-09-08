@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TableColumnCellEditEventBuilder<S, T> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.TableColumn.CellEditEvent<S, T>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.TableColumn.CellEditEvent<S, T>>> operations = new java.util.ArrayList<>();
     private TableColumnCellEditEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TableColumn.CellEditEvent#CellEditEvent(TableView, TablePosition, EventType, Object) CellEditEvent(TableView, TablePosition, EventType, Object)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TableColumn.CellEditEvent#CellEditEvent(javafx.scene.control.TableView, javafx.scene.control.TablePosition, javafx.event.EventType, java.lang.Object) CellEditEvent(TableView, TablePosition, EventType, Object)}
      * and returns an instance of {@code TableColumnCellEditEventBuilder<S, T>}.
      *
      * @return an instance of the {@code TableColumnCellEditEventBuilder<S, T>}.
      */
-    
     public static <S, T> TableColumnCellEditEventBuilder<S, T> create(javafx.scene.control.TableView<S> table, javafx.scene.control.TablePosition<S, T> pos, javafx.event.EventType<javafx.scene.control.TableColumn.CellEditEvent<S, T>> eventType, T newValue) {
         TableColumnCellEditEventBuilder<S, T> builder = new TableColumnCellEditEventBuilder<S, T>();
         builder.constructorArgs = new Object[]{table, pos, eventType, newValue};
@@ -43,7 +42,7 @@ public class TableColumnCellEditEventBuilder<S, T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TableColumn.CellEditEvent<S, T>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TableColumn.CellEditEvent} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

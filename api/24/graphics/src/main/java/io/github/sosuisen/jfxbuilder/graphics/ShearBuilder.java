@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class ShearBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.transform.Shear>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.transform.Shear>> operations = new java.util.ArrayList<>();
     private ShearBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class ShearBuilder {
      *
      * @return an instance of the {@code ShearBuilder}.
      */
-    
     public static ShearBuilder create(double x, double y) {
         ShearBuilder builder = new ShearBuilder();
         builder.constructorArgs = new Object[]{x, y};
@@ -53,7 +52,6 @@ public class ShearBuilder {
      *
      * @return an instance of the {@code ShearBuilder}.
      */
-    
     public static ShearBuilder create(double x, double y, double pivotX, double pivotY) {
         ShearBuilder builder = new ShearBuilder();
         builder.constructorArgs = new Object[]{x, y, pivotX, pivotY};

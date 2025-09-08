@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class SepiaToneBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.SepiaTone>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.SepiaTone>> operations = new java.util.ArrayList<>();
     private SepiaToneBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class SepiaToneBuilder {
      *
      * @return an instance of the {@code SepiaToneBuilder}.
      */
-    
     public static SepiaToneBuilder create(double level) {
         SepiaToneBuilder builder = new SepiaToneBuilder();
         builder.constructorArgs = new Object[]{level};

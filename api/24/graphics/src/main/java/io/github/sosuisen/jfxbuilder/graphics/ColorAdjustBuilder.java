@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class ColorAdjustBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.ColorAdjust>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.ColorAdjust>> operations = new java.util.ArrayList<>();
     private ColorAdjustBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class ColorAdjustBuilder {
      *
      * @return an instance of the {@code ColorAdjustBuilder}.
      */
-    
     public static ColorAdjustBuilder create(double hue, double saturation, double brightness, double contrast) {
         ColorAdjustBuilder builder = new ColorAdjustBuilder();
         builder.constructorArgs = new Object[]{hue, saturation, brightness, contrast};

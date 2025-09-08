@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class ContextMenuSkinBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.ContextMenuSkin>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.skin.ContextMenuSkin>> operations = new java.util.ArrayList<>();
     private ContextMenuSkinBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.skin.ContextMenuSkin#ContextMenuSkin(ContextMenu) ContextMenuSkin(ContextMenu)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.ContextMenuSkin#ContextMenuSkin(javafx.scene.control.ContextMenu) ContextMenuSkin(ContextMenu)}
      * and returns an instance of {@code ContextMenuSkinBuilder}.
      *
      * @return an instance of the {@code ContextMenuSkinBuilder}.
      */
-    
     public static ContextMenuSkinBuilder create(javafx.scene.control.ContextMenu control) {
         ContextMenuSkinBuilder builder = new ContextMenuSkinBuilder();
         builder.constructorArgs = new Object[]{control};

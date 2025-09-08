@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class FloatMapBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.FloatMap>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.FloatMap>> operations = new java.util.ArrayList<>();
     private FloatMapBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class FloatMapBuilder {
      *
      * @return an instance of the {@code FloatMapBuilder}.
      */
-    
     public static FloatMapBuilder create(int width, int height) {
         FloatMapBuilder builder = new FloatMapBuilder();
         builder.constructorArgs = new Object[]{width, height};

@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TableViewResizeFeaturesBuilder<S> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.TableView.ResizeFeatures<S>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.TableView.ResizeFeatures<S>>> operations = new java.util.ArrayList<>();
     private TableViewResizeFeaturesBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TableView.ResizeFeatures#ResizeFeatures(TableView, TableColumn, Double) ResizeFeatures(TableView, TableColumn, Double)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TableView.ResizeFeatures#ResizeFeatures(javafx.scene.control.TableView, javafx.scene.control.TableColumn, java.lang.Double) ResizeFeatures(TableView, TableColumn, Double)}
      * and returns an instance of {@code TableViewResizeFeaturesBuilder<S>}.
      *
      * @return an instance of the {@code TableViewResizeFeaturesBuilder<S>}.
      */
-    
     public static <S> TableViewResizeFeaturesBuilder<S> create(javafx.scene.control.TableView<S> table, javafx.scene.control.TableColumn<S, ?> column, java.lang.Double delta) {
         TableViewResizeFeaturesBuilder<S> builder = new TableViewResizeFeaturesBuilder<S>();
         builder.constructorArgs = new Object[]{table, column, delta};
@@ -43,7 +42,7 @@ public class TableViewResizeFeaturesBuilder<S> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TableView.ResizeFeatures<S>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TableView.ResizeFeatures} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

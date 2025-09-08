@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.media;
  */
 
 public class VideoTrackBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.media.VideoTrack>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.media.VideoTrack>> operations = new java.util.ArrayList<>();
     private VideoTrackBuilder() {}
     
     private Object[] constructorArgs;

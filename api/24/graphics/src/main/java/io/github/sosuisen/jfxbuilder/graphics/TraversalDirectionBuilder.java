@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class TraversalDirectionBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.TraversalDirection>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.TraversalDirection>> operations = new java.util.ArrayList<>();
     private TraversalDirectionBuilder() {}
     
     private Object[] constructorArgs;

@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class TransformChangedEventBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.transform.TransformChangedEvent>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.transform.TransformChangedEvent>> operations = new java.util.ArrayList<>();
     private TransformChangedEventBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class TransformChangedEventBuilder {
     public static TransformChangedEventBuilder create() { return new TransformChangedEventBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.transform.TransformChangedEvent#TransformChangedEvent(Object, EventTarget) TransformChangedEvent(Object, EventTarget)}
+     * Accepts the constructor arguments of {@link javafx.scene.transform.TransformChangedEvent#TransformChangedEvent(java.lang.Object, javafx.event.EventTarget) TransformChangedEvent(Object, EventTarget)}
      * and returns an instance of {@code TransformChangedEventBuilder}.
      *
      * @return an instance of the {@code TransformChangedEventBuilder}.
      */
-    
     public static TransformChangedEventBuilder create(java.lang.Object source, javafx.event.EventTarget target) {
         TransformChangedEventBuilder builder = new TransformChangedEventBuilder();
         builder.constructorArgs = new Object[]{source, target};

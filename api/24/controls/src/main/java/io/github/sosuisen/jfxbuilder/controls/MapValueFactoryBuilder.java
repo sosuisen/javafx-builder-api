@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class MapValueFactoryBuilder<T> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.cell.MapValueFactory<T>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.cell.MapValueFactory<T>>> operations = new java.util.ArrayList<>();
     private MapValueFactoryBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.cell.MapValueFactory#MapValueFactory(Object) MapValueFactory(Object)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.MapValueFactory#MapValueFactory(java.lang.Object) MapValueFactory(Object)}
      * and returns an instance of {@code MapValueFactoryBuilder<T>}.
      *
      * @return an instance of the {@code MapValueFactoryBuilder<T>}.
      */
-    
     public static <T> MapValueFactoryBuilder<T> create(java.lang.Object key) {
         MapValueFactoryBuilder<T> builder = new MapValueFactoryBuilder<T>();
         builder.constructorArgs = new Object[]{key};
@@ -43,7 +42,7 @@ public class MapValueFactoryBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.cell.MapValueFactory<T>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.cell.MapValueFactory} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

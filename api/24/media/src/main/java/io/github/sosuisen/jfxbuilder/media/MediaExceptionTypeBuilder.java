@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.media;
  */
 
 public class MediaExceptionTypeBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.media.MediaException.Type>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.media.MediaException.Type>> operations = new java.util.ArrayList<>();
     private MediaExceptionTypeBuilder() {}
     
     private Object[] constructorArgs;

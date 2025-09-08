@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class ToggleButtonSkinBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.ToggleButtonSkin>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.skin.ToggleButtonSkin>> operations = new java.util.ArrayList<>();
     private ToggleButtonSkinBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.skin.ToggleButtonSkin#ToggleButtonSkin(ToggleButton) ToggleButtonSkin(ToggleButton)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.ToggleButtonSkin#ToggleButtonSkin(javafx.scene.control.ToggleButton) ToggleButtonSkin(ToggleButton)}
      * and returns an instance of {@code ToggleButtonSkinBuilder}.
      *
      * @return an instance of the {@code ToggleButtonSkinBuilder}.
      */
-    
     public static ToggleButtonSkinBuilder create(javafx.scene.control.ToggleButton control) {
         ToggleButtonSkinBuilder builder = new ToggleButtonSkinBuilder();
         builder.constructorArgs = new Object[]{control};
@@ -140,27 +139,22 @@ public class ToggleButtonSkinBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ToggleButtonSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ToggleButtonSkin#getChildren()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final ToggleButtonSkinBuilder addChildren(javafx.scene.Node... elements) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(elements);
-        });
+        operations.add(obj -> obj.getChildren().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ToggleButtonSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ToggleButtonSkin#getChildren()} method.
      * 
      * @return builder instance
      */
     public final ToggleButtonSkinBuilder addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(col);
-        });
+        operations.add(obj -> obj.getChildren().addAll(col));
         return this;
     }
 }

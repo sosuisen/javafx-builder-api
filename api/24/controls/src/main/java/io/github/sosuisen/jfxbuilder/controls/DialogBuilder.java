@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class DialogBuilder<R> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.Dialog<R>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.Dialog<R>>> operations = new java.util.ArrayList<>();
     private DialogBuilder() {}
     
     /**
@@ -37,7 +37,7 @@ public class DialogBuilder<R> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.Dialog<R>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.Dialog} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class BackgroundFillBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.layout.BackgroundFill>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.layout.BackgroundFill>> operations = new java.util.ArrayList<>();
     private BackgroundFillBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.layout.BackgroundFill#BackgroundFill(Paint, CornerRadii, Insets) BackgroundFill(Paint, CornerRadii, Insets)}
+     * Accepts the constructor arguments of {@link javafx.scene.layout.BackgroundFill#BackgroundFill(javafx.scene.paint.Paint, javafx.scene.layout.CornerRadii, javafx.geometry.Insets) BackgroundFill(Paint, CornerRadii, Insets)}
      * and returns an instance of {@code BackgroundFillBuilder}.
      *
      * @return an instance of the {@code BackgroundFillBuilder}.
      */
-    
     public static BackgroundFillBuilder create(javafx.scene.paint.Paint fill, javafx.scene.layout.CornerRadii radii, javafx.geometry.Insets insets) {
         BackgroundFillBuilder builder = new BackgroundFillBuilder();
         builder.constructorArgs = new Object[]{fill, radii, insets};

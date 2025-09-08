@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.web;
  */
 
 public class WebHistoryEntryBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.web.WebHistory.Entry>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.web.WebHistory.Entry>> operations = new java.util.ArrayList<>();
     private WebHistoryEntryBuilder() {}
     
     private Object[] constructorArgs;

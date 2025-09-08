@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class RotateBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.transform.Rotate>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.transform.Rotate>> operations = new java.util.ArrayList<>();
     private RotateBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class RotateBuilder {
      *
      * @return an instance of the {@code RotateBuilder}.
      */
-    
     public static RotateBuilder create(double angle) {
         RotateBuilder builder = new RotateBuilder();
         builder.constructorArgs = new Object[]{angle};
@@ -53,7 +52,6 @@ public class RotateBuilder {
      *
      * @return an instance of the {@code RotateBuilder}.
      */
-    
     public static RotateBuilder create(double angle, double pivotX, double pivotY) {
         RotateBuilder builder = new RotateBuilder();
         builder.constructorArgs = new Object[]{angle, pivotX, pivotY};
@@ -66,7 +64,6 @@ public class RotateBuilder {
      *
      * @return an instance of the {@code RotateBuilder}.
      */
-    
     public static RotateBuilder create(double angle, double pivotX, double pivotY, double pivotZ) {
         RotateBuilder builder = new RotateBuilder();
         builder.constructorArgs = new Object[]{angle, pivotX, pivotY, pivotZ};
@@ -74,12 +71,11 @@ public class RotateBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.transform.Rotate#Rotate(double, double, double, double, Point3D) Rotate(double, double, double, double, Point3D)}
+     * Accepts the constructor arguments of {@link javafx.scene.transform.Rotate#Rotate(double, double, double, double, javafx.geometry.Point3D) Rotate(double, double, double, double, Point3D)}
      * and returns an instance of {@code RotateBuilder}.
      *
      * @return an instance of the {@code RotateBuilder}.
      */
-    
     public static RotateBuilder create(double angle, double pivotX, double pivotY, double pivotZ, javafx.geometry.Point3D axis) {
         RotateBuilder builder = new RotateBuilder();
         builder.constructorArgs = new Object[]{angle, pivotX, pivotY, pivotZ, axis};
@@ -87,12 +83,11 @@ public class RotateBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.transform.Rotate#Rotate(double, Point3D) Rotate(double, Point3D)}
+     * Accepts the constructor arguments of {@link javafx.scene.transform.Rotate#Rotate(double, javafx.geometry.Point3D) Rotate(double, Point3D)}
      * and returns an instance of {@code RotateBuilder}.
      *
      * @return an instance of the {@code RotateBuilder}.
      */
-    
     public static RotateBuilder create(double angle, javafx.geometry.Point3D axis) {
         RotateBuilder builder = new RotateBuilder();
         builder.constructorArgs = new Object[]{angle, axis};

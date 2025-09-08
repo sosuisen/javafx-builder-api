@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class AccessibleAttributeBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.AccessibleAttribute>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.AccessibleAttribute>> operations = new java.util.ArrayList<>();
     private AccessibleAttributeBuilder() {}
     
     private Object[] constructorArgs;

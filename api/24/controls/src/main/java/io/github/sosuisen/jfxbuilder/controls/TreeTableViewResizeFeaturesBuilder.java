@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TreeTableViewResizeFeaturesBuilder<S> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.TreeTableView.ResizeFeatures<S>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.TreeTableView.ResizeFeatures<S>>> operations = new java.util.ArrayList<>();
     private TreeTableViewResizeFeaturesBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TreeTableView.ResizeFeatures#ResizeFeatures(TreeTableView, TreeTableColumn, Double) ResizeFeatures(TreeTableView, TreeTableColumn, Double)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeTableView.ResizeFeatures#ResizeFeatures(javafx.scene.control.TreeTableView, javafx.scene.control.TreeTableColumn, java.lang.Double) ResizeFeatures(TreeTableView, TreeTableColumn, Double)}
      * and returns an instance of {@code TreeTableViewResizeFeaturesBuilder<S>}.
      *
      * @return an instance of the {@code TreeTableViewResizeFeaturesBuilder<S>}.
      */
-    
     public static <S> TreeTableViewResizeFeaturesBuilder<S> create(javafx.scene.control.TreeTableView<S> treeTable, javafx.scene.control.TreeTableColumn<S, ?> column, java.lang.Double delta) {
         TreeTableViewResizeFeaturesBuilder<S> builder = new TreeTableViewResizeFeaturesBuilder<S>();
         builder.constructorArgs = new Object[]{treeTable, column, delta};
@@ -43,7 +42,7 @@ public class TreeTableViewResizeFeaturesBuilder<S> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TreeTableView.ResizeFeatures<S>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TreeTableView.ResizeFeatures} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

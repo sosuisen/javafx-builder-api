@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class CycleMethodBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.paint.CycleMethod>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.paint.CycleMethod>> operations = new java.util.ArrayList<>();
     private CycleMethodBuilder() {}
     
     private Object[] constructorArgs;

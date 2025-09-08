@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class ArcTypeBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.shape.ArcType>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.shape.ArcType>> operations = new java.util.ArrayList<>();
     private ArcTypeBuilder() {}
     
     private Object[] constructorArgs;

@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class WritableImageBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.image.WritableImage>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.image.WritableImage>> operations = new java.util.ArrayList<>();
     private WritableImageBuilder() {}
     
     /**
@@ -33,7 +33,6 @@ public class WritableImageBuilder {
      *
      * @return an instance of the {@code WritableImageBuilder}.
      */
-    
     public static WritableImageBuilder create(int width, int height) {
         WritableImageBuilder builder = new WritableImageBuilder();
         builder.constructorArgs = new Object[]{width, height};
@@ -41,12 +40,11 @@ public class WritableImageBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.image.WritableImage#WritableImage(PixelBuffer) WritableImage(PixelBuffer)}
+     * Accepts the constructor arguments of {@link javafx.scene.image.WritableImage#WritableImage(javafx.scene.image.PixelBuffer) WritableImage(PixelBuffer)}
      * and returns an instance of {@code WritableImageBuilder}.
      *
      * @return an instance of the {@code WritableImageBuilder}.
      */
-    
     public static WritableImageBuilder create(javafx.scene.image.PixelBuffer<? extends java.nio.Buffer> pixelBuffer) {
         WritableImageBuilder builder = new WritableImageBuilder();
         builder.constructorArgs = new Object[]{pixelBuffer};
@@ -54,12 +52,11 @@ public class WritableImageBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.image.WritableImage#WritableImage(PixelReader, int, int) WritableImage(PixelReader, int, int)}
+     * Accepts the constructor arguments of {@link javafx.scene.image.WritableImage#WritableImage(javafx.scene.image.PixelReader, int, int) WritableImage(PixelReader, int, int)}
      * and returns an instance of {@code WritableImageBuilder}.
      *
      * @return an instance of the {@code WritableImageBuilder}.
      */
-    
     public static WritableImageBuilder create(javafx.scene.image.PixelReader reader, int width, int height) {
         WritableImageBuilder builder = new WritableImageBuilder();
         builder.constructorArgs = new Object[]{reader, width, height};
@@ -67,12 +64,11 @@ public class WritableImageBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.image.WritableImage#WritableImage(PixelReader, int, int, int, int) WritableImage(PixelReader, int, int, int, int)}
+     * Accepts the constructor arguments of {@link javafx.scene.image.WritableImage#WritableImage(javafx.scene.image.PixelReader, int, int, int, int) WritableImage(PixelReader, int, int, int, int)}
      * and returns an instance of {@code WritableImageBuilder}.
      *
      * @return an instance of the {@code WritableImageBuilder}.
      */
-    
     public static WritableImageBuilder create(javafx.scene.image.PixelReader reader, int x, int y, int width, int height) {
         WritableImageBuilder builder = new WritableImageBuilder();
         builder.constructorArgs = new Object[]{reader, x, y, width, height};

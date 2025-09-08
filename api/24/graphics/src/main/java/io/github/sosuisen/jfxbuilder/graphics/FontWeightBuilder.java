@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class FontWeightBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.text.FontWeight>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.text.FontWeight>> operations = new java.util.ArrayList<>();
     private FontWeightBuilder() {}
     
     private Object[] constructorArgs;

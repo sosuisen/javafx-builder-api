@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class BlendBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.Blend>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.Blend>> operations = new java.util.ArrayList<>();
     private BlendBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class BlendBuilder {
     public static BlendBuilder create() { return new BlendBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.effect.Blend#Blend(BlendMode) Blend(BlendMode)}
+     * Accepts the constructor arguments of {@link javafx.scene.effect.Blend#Blend(javafx.scene.effect.BlendMode) Blend(BlendMode)}
      * and returns an instance of {@code BlendBuilder}.
      *
      * @return an instance of the {@code BlendBuilder}.
      */
-    
     public static BlendBuilder create(javafx.scene.effect.BlendMode mode) {
         BlendBuilder builder = new BlendBuilder();
         builder.constructorArgs = new Object[]{mode};
@@ -48,12 +47,11 @@ public class BlendBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.effect.Blend#Blend(BlendMode, Effect, Effect) Blend(BlendMode, Effect, Effect)}
+     * Accepts the constructor arguments of {@link javafx.scene.effect.Blend#Blend(javafx.scene.effect.BlendMode, javafx.scene.effect.Effect, javafx.scene.effect.Effect) Blend(BlendMode, Effect, Effect)}
      * and returns an instance of {@code BlendBuilder}.
      *
      * @return an instance of the {@code BlendBuilder}.
      */
-    
     public static BlendBuilder create(javafx.scene.effect.BlendMode mode, javafx.scene.effect.Effect bottomInput, javafx.scene.effect.Effect topInput) {
         BlendBuilder builder = new BlendBuilder();
         builder.constructorArgs = new Object[]{mode, bottomInput, topInput};

@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class DateCellSkinBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.DateCellSkin>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.skin.DateCellSkin>> operations = new java.util.ArrayList<>();
     private DateCellSkinBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.skin.DateCellSkin#DateCellSkin(DateCell) DateCellSkin(DateCell)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.DateCellSkin#DateCellSkin(javafx.scene.control.DateCell) DateCellSkin(DateCell)}
      * and returns an instance of {@code DateCellSkinBuilder}.
      *
      * @return an instance of the {@code DateCellSkinBuilder}.
      */
-    
     public static DateCellSkinBuilder create(javafx.scene.control.DateCell control) {
         DateCellSkinBuilder builder = new DateCellSkinBuilder();
         builder.constructorArgs = new Object[]{control};
@@ -140,27 +139,22 @@ public class DateCellSkinBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.DateCellSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.DateCellSkin#getChildren()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final DateCellSkinBuilder addChildren(javafx.scene.Node... elements) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(elements);
-        });
+        operations.add(obj -> obj.getChildren().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.DateCellSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.DateCellSkin#getChildren()} method.
      * 
      * @return builder instance
      */
     public final DateCellSkinBuilder addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(col);
-        });
+        operations.add(obj -> obj.getChildren().addAll(col));
         return this;
     }
 

@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class BackgroundPositionBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.layout.BackgroundPosition>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.layout.BackgroundPosition>> operations = new java.util.ArrayList<>();
     private BackgroundPositionBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.layout.BackgroundPosition#BackgroundPosition(Side, double, boolean, Side, double, boolean) BackgroundPosition(Side, double, boolean, Side, double, boolean)}
+     * Accepts the constructor arguments of {@link javafx.scene.layout.BackgroundPosition#BackgroundPosition(javafx.geometry.Side, double, boolean, javafx.geometry.Side, double, boolean) BackgroundPosition(Side, double, boolean, Side, double, boolean)}
      * and returns an instance of {@code BackgroundPositionBuilder}.
      *
      * @return an instance of the {@code BackgroundPositionBuilder}.
      */
-    
     public static BackgroundPositionBuilder create(javafx.geometry.Side horizontalSide, double horizontalPosition, boolean horizontalAsPercentage, javafx.geometry.Side verticalSide, double verticalPosition, boolean verticalAsPercentage) {
         BackgroundPositionBuilder builder = new BackgroundPositionBuilder();
         builder.constructorArgs = new Object[]{horizontalSide, horizontalPosition, horizontalAsPercentage, verticalSide, verticalPosition, verticalAsPercentage};

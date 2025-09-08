@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.media;
  */
 
 public class MediaErrorEventBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.media.MediaErrorEvent>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.media.MediaErrorEvent>> operations = new java.util.ArrayList<>();
     private MediaErrorEventBuilder() {}
     
     private Object[] constructorArgs;

@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class TriangleMeshBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.shape.TriangleMesh>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.shape.TriangleMesh>> operations = new java.util.ArrayList<>();
     private TriangleMeshBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class TriangleMeshBuilder {
     public static TriangleMeshBuilder create() { return new TriangleMeshBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.shape.TriangleMesh#TriangleMesh(VertexFormat) TriangleMesh(VertexFormat)}
+     * Accepts the constructor arguments of {@link javafx.scene.shape.TriangleMesh#TriangleMesh(javafx.scene.shape.VertexFormat) TriangleMesh(VertexFormat)}
      * and returns an instance of {@code TriangleMeshBuilder}.
      *
      * @return an instance of the {@code TriangleMeshBuilder}.
      */
-    
     public static TriangleMeshBuilder create(javafx.scene.shape.VertexFormat vertexFormat) {
         TriangleMeshBuilder builder = new TriangleMeshBuilder();
         builder.constructorArgs = new Object[]{vertexFormat};

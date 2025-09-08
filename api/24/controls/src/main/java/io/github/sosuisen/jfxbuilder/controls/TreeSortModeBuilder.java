@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TreeSortModeBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.TreeSortMode>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.TreeSortMode>> operations = new java.util.ArrayList<>();
     private TreeSortModeBuilder() {}
     
     private Object[] constructorArgs;

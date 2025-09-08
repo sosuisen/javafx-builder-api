@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class OverrunStyleBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.OverrunStyle>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.OverrunStyle>> operations = new java.util.ArrayList<>();
     private OverrunStyleBuilder() {}
     
     private Object[] constructorArgs;

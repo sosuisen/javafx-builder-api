@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class CheckBoxSkinBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.CheckBoxSkin>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.skin.CheckBoxSkin>> operations = new java.util.ArrayList<>();
     private CheckBoxSkinBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.skin.CheckBoxSkin#CheckBoxSkin(CheckBox) CheckBoxSkin(CheckBox)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.CheckBoxSkin#CheckBoxSkin(javafx.scene.control.CheckBox) CheckBoxSkin(CheckBox)}
      * and returns an instance of {@code CheckBoxSkinBuilder}.
      *
      * @return an instance of the {@code CheckBoxSkinBuilder}.
      */
-    
     public static CheckBoxSkinBuilder create(javafx.scene.control.CheckBox control) {
         CheckBoxSkinBuilder builder = new CheckBoxSkinBuilder();
         builder.constructorArgs = new Object[]{control};
@@ -140,27 +139,22 @@ public class CheckBoxSkinBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.CheckBoxSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.CheckBoxSkin#getChildren()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final CheckBoxSkinBuilder addChildren(javafx.scene.Node... elements) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(elements);
-        });
+        operations.add(obj -> obj.getChildren().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.CheckBoxSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.CheckBoxSkin#getChildren()} method.
      * 
      * @return builder instance
      */
     public final CheckBoxSkinBuilder addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(col);
-        });
+        operations.add(obj -> obj.getChildren().addAll(col));
         return this;
     }
 }

@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class SplitPaneDividerBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.SplitPane.Divider>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.SplitPane.Divider>> operations = new java.util.ArrayList<>();
     private SplitPaneDividerBuilder() {}
     
     /**

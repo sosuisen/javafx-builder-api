@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class LinearGradientBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.paint.LinearGradient>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.paint.LinearGradient>> operations = new java.util.ArrayList<>();
     private LinearGradientBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.paint.LinearGradient#LinearGradient(double, double, double, double, boolean, CycleMethod, List) LinearGradient(double, double, double, double, boolean, CycleMethod, List)}
+     * Accepts the constructor arguments of {@link javafx.scene.paint.LinearGradient#LinearGradient(double, double, double, double, boolean, javafx.scene.paint.CycleMethod, java.util.List) LinearGradient(double, double, double, double, boolean, CycleMethod, List)}
      * and returns an instance of {@code LinearGradientBuilder}.
      *
      * @return an instance of the {@code LinearGradientBuilder}.
      */
-    
     public static LinearGradientBuilder create(double startX, double startY, double endX, double endY, boolean proportional, javafx.scene.paint.CycleMethod cycleMethod, java.util.List<javafx.scene.paint.Stop> stops) {
         LinearGradientBuilder builder = new LinearGradientBuilder();
         builder.constructorArgs = new Object[]{startX, startY, endX, endY, proportional, cycleMethod, stops};
@@ -41,12 +40,11 @@ public class LinearGradientBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.paint.LinearGradient#LinearGradient(double, double, double, double, boolean, CycleMethod, Stop...) LinearGradient(double, double, double, double, boolean, CycleMethod, Stop...)}
+     * Accepts the constructor arguments of {@link javafx.scene.paint.LinearGradient#LinearGradient(double, double, double, double, boolean, javafx.scene.paint.CycleMethod, javafx.scene.paint.Stop...) LinearGradient(double, double, double, double, boolean, CycleMethod, Stop...)}
      * and returns an instance of {@code LinearGradientBuilder}.
      *
      * @return an instance of the {@code LinearGradientBuilder}.
      */
-    @SafeVarargs
     public static LinearGradientBuilder create(double startX, double startY, double endX, double endY, boolean proportional, javafx.scene.paint.CycleMethod cycleMethod, javafx.scene.paint.Stop... stops) {
         LinearGradientBuilder builder = new LinearGradientBuilder();
         builder.constructorArgs = new Object[]{startX, startY, endX, endY, proportional, cycleMethod, stops};

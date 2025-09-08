@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class StackedBarChartBuilder<X, Y> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.chart.StackedBarChart<X, Y>>> operations = new java.util.ArrayList<>();
     private StackedBarChartBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.chart.StackedBarChart#StackedBarChart(Axis, Axis) StackedBarChart(Axis, Axis)}
+     * Accepts the constructor arguments of {@link javafx.scene.chart.StackedBarChart#StackedBarChart(javafx.scene.chart.Axis, javafx.scene.chart.Axis) StackedBarChart(Axis, Axis)}
      * and returns an instance of {@code StackedBarChartBuilder<X, Y>}.
      *
      * @return an instance of the {@code StackedBarChartBuilder<X, Y>}.
      */
-    
     public static <X, Y> StackedBarChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) {
         StackedBarChartBuilder<X, Y> builder = new StackedBarChartBuilder<X, Y>();
         builder.constructorArgs = new Object[]{xAxis, yAxis};
@@ -41,12 +40,11 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.chart.StackedBarChart#StackedBarChart(Axis, Axis, ObservableList) StackedBarChart(Axis, Axis, ObservableList)}
+     * Accepts the constructor arguments of {@link javafx.scene.chart.StackedBarChart#StackedBarChart(javafx.scene.chart.Axis, javafx.scene.chart.Axis, javafx.collections.ObservableList) StackedBarChart(Axis, Axis, ObservableList)}
      * and returns an instance of {@code StackedBarChartBuilder<X, Y>}.
      *
      * @return an instance of the {@code StackedBarChartBuilder<X, Y>}.
      */
-    
     public static <X, Y> StackedBarChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) {
         StackedBarChartBuilder<X, Y> builder = new StackedBarChartBuilder<X, Y>();
         builder.constructorArgs = new Object[]{xAxis, yAxis, data};
@@ -54,12 +52,11 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.chart.StackedBarChart#StackedBarChart(Axis, Axis, ObservableList, double) StackedBarChart(Axis, Axis, ObservableList, double)}
+     * Accepts the constructor arguments of {@link javafx.scene.chart.StackedBarChart#StackedBarChart(javafx.scene.chart.Axis, javafx.scene.chart.Axis, javafx.collections.ObservableList, double) StackedBarChart(Axis, Axis, ObservableList, double)}
      * and returns an instance of {@code StackedBarChartBuilder<X, Y>}.
      *
      * @return an instance of the {@code StackedBarChartBuilder<X, Y>}.
      */
-    
     public static <X, Y> StackedBarChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data, double categoryGap) {
         StackedBarChartBuilder<X, Y> builder = new StackedBarChartBuilder<X, Y>();
         builder.constructorArgs = new Object[]{xAxis, yAxis, data, categoryGap};
@@ -69,7 +66,7 @@ public class StackedBarChartBuilder<X, Y> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.chart.StackedBarChart<X, Y>} class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.StackedBarChart} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method
@@ -1223,102 +1220,83 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getData()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getData()} method.
      * 
      * @return builder instance
      */
     @SafeVarargs
     public final StackedBarChartBuilder<X, Y> addData(javafx.scene.chart.XYChart.Series<X, Y>... elements) {
-        operations.add(obj -> {
-            obj.getData().addAll(elements);
-        });
+        operations.add(obj -> obj.getData().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getData()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getData()} method.
      * 
      * @return builder instance
      */
     public final StackedBarChartBuilder<X, Y> addData(java.util.Collection<? extends javafx.scene.chart.XYChart.Series<X, Y>> col) {
-        operations.add(obj -> {
-            obj.getData().addAll(col);
-        });
+        operations.add(obj -> obj.getData().addAll(col));
         return this;
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStyleClass()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final StackedBarChartBuilder<X, Y> addStyleClass(java.lang.String... elements) {
-        operations.add(obj -> {
-            obj.getStyleClass().addAll(elements);
-        });
+        operations.add(obj -> obj.getStyleClass().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStyleClass()} method.
      * 
      * @return builder instance
      */
     public final StackedBarChartBuilder<X, Y> addStyleClass(java.util.Collection<? extends java.lang.String> col) {
-        operations.add(obj -> {
-            obj.getStyleClass().addAll(col);
-        });
+        operations.add(obj -> obj.getStyleClass().addAll(col));
         return this;
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStylesheets()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final StackedBarChartBuilder<X, Y> addStylesheets(java.lang.String... elements) {
-        operations.add(obj -> {
-            obj.getStylesheets().addAll(elements);
-        });
+        operations.add(obj -> obj.getStylesheets().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStylesheets()} method.
      * 
      * @return builder instance
      */
     public final StackedBarChartBuilder<X, Y> addStylesheets(java.util.Collection<? extends java.lang.String> col) {
-        operations.add(obj -> {
-            obj.getStylesheets().addAll(col);
-        });
+        operations.add(obj -> obj.getStylesheets().addAll(col));
         return this;
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getTransforms()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final StackedBarChartBuilder<X, Y> addTransforms(javafx.scene.transform.Transform... elements) {
-        operations.add(obj -> {
-            obj.getTransforms().addAll(elements);
-        });
+        operations.add(obj -> obj.getTransforms().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getTransforms()} method.
      * 
      * @return builder instance
      */
     public final StackedBarChartBuilder<X, Y> addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
-        operations.add(obj -> {
-            obj.getTransforms().addAll(col);
-        });
+        operations.add(obj -> obj.getTransforms().addAll(col));
         return this;
     }    
     /**
@@ -1339,7 +1317,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.AnchorPane#setBottomAnchor(Node child, java.lang.Double value) AnchorPane.setBottomAnchor(Node, Double)} 
+     * Invokes the {@link javafx.scene.layout.AnchorPane#setBottomAnchor(javafx.scene.Node child, java.lang.Double value) AnchorPane.setBottomAnchor(javafx.scene.Node, Double)} 
      * using a fluent API.
      *
      * <p>
@@ -1367,7 +1345,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.AnchorPane#setLeftAnchor(Node child, java.lang.Double value) AnchorPane.setLeftAnchor(Node, Double)} 
+     * Invokes the {@link javafx.scene.layout.AnchorPane#setLeftAnchor(javafx.scene.Node child, java.lang.Double value) AnchorPane.setLeftAnchor(javafx.scene.Node, Double)} 
      * using a fluent API.
      *
      * <p>
@@ -1395,7 +1373,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.AnchorPane#setRightAnchor(Node child, java.lang.Double value) AnchorPane.setRightAnchor(Node, Double)} 
+     * Invokes the {@link javafx.scene.layout.AnchorPane#setRightAnchor(javafx.scene.Node child, java.lang.Double value) AnchorPane.setRightAnchor(javafx.scene.Node, Double)} 
      * using a fluent API.
      *
      * <p>
@@ -1423,7 +1401,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.AnchorPane#setTopAnchor(Node child, java.lang.Double value) AnchorPane.setTopAnchor(Node, Double)} 
+     * Invokes the {@link javafx.scene.layout.AnchorPane#setTopAnchor(javafx.scene.Node child, java.lang.Double value) AnchorPane.setTopAnchor(javafx.scene.Node, Double)} 
      * using a fluent API.
      *
      * <p>
@@ -1451,7 +1429,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.BorderPane#setAlignment(Node child, javafx.geometry.Pos value) BorderPane.setAlignment(Node, Pos)} 
+     * Invokes the {@link javafx.scene.layout.BorderPane#setAlignment(javafx.scene.Node child, javafx.geometry.Pos value) BorderPane.setAlignment(javafx.scene.Node, Pos)} 
      * using a fluent API.
      *
      * <p>
@@ -1479,7 +1457,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.BorderPane#setMargin(Node child, javafx.geometry.Insets value) BorderPane.setMargin(Node, Insets)} 
+     * Invokes the {@link javafx.scene.layout.BorderPane#setMargin(javafx.scene.Node child, javafx.geometry.Insets value) BorderPane.setMargin(javafx.scene.Node, Insets)} 
      * using a fluent API.
      *
      * <p>
@@ -1507,7 +1485,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.FlowPane#setMargin(Node child, javafx.geometry.Insets value) FlowPane.setMargin(Node, Insets)} 
+     * Invokes the {@link javafx.scene.layout.FlowPane#setMargin(javafx.scene.Node child, javafx.geometry.Insets value) FlowPane.setMargin(javafx.scene.Node, Insets)} 
      * using a fluent API.
      *
      * <p>
@@ -1535,7 +1513,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setColumnIndex(Node child, java.lang.Integer value) GridPane.setColumnIndex(Node, Integer)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setColumnIndex(javafx.scene.Node child, java.lang.Integer value) GridPane.setColumnIndex(javafx.scene.Node, Integer)} 
      * using a fluent API.
      *
      * <p>
@@ -1563,7 +1541,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setColumnSpan(Node child, java.lang.Integer value) GridPane.setColumnSpan(Node, Integer)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setColumnSpan(javafx.scene.Node child, java.lang.Integer value) GridPane.setColumnSpan(javafx.scene.Node, Integer)} 
      * using a fluent API.
      *
      * <p>
@@ -1591,7 +1569,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(Node child, int columnIndex, int rowIndex) GridPane.setConstraints(Node, int, int)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(javafx.scene.Node child, int columnIndex, int rowIndex) GridPane.setConstraints(javafx.scene.Node, int, int)} 
      * using a fluent API.
      *
      * <p>
@@ -1619,7 +1597,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(Node child, int columnIndex, int rowIndex, int columnspan, int rowspan) GridPane.setConstraints(Node, int, int, int, int)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(javafx.scene.Node child, int columnIndex, int rowIndex, int columnspan, int rowspan) GridPane.setConstraints(javafx.scene.Node, int, int, int, int)} 
      * using a fluent API.
      *
      * <p>
@@ -1647,7 +1625,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(Node child, int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment) GridPane.setConstraints(Node, int, int, int, int, HPos, VPos)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(javafx.scene.Node child, int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment) GridPane.setConstraints(javafx.scene.Node, int, int, int, int, HPos, VPos)} 
      * using a fluent API.
      *
      * <p>
@@ -1675,7 +1653,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(Node child, int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow) GridPane.setConstraints(Node, int, int, int, int, HPos, VPos, Priority, Priority)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(javafx.scene.Node child, int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow) GridPane.setConstraints(javafx.scene.Node, int, int, int, int, HPos, VPos, Priority, Priority)} 
      * using a fluent API.
      *
      * <p>
@@ -1703,7 +1681,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(Node child, int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow, javafx.geometry.Insets margin) GridPane.setConstraints(Node, int, int, int, int, HPos, VPos, Priority, Priority, Insets)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(javafx.scene.Node child, int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow, javafx.geometry.Insets margin) GridPane.setConstraints(javafx.scene.Node, int, int, int, int, HPos, VPos, Priority, Priority, Insets)} 
      * using a fluent API.
      *
      * <p>
@@ -1731,7 +1709,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setFillHeight(Node child, java.lang.Boolean value) GridPane.setFillHeight(Node, Boolean)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setFillHeight(javafx.scene.Node child, java.lang.Boolean value) GridPane.setFillHeight(javafx.scene.Node, Boolean)} 
      * using a fluent API.
      *
      * <p>
@@ -1759,7 +1737,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setFillWidth(Node child, java.lang.Boolean value) GridPane.setFillWidth(Node, Boolean)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setFillWidth(javafx.scene.Node child, java.lang.Boolean value) GridPane.setFillWidth(javafx.scene.Node, Boolean)} 
      * using a fluent API.
      *
      * <p>
@@ -1787,7 +1765,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setHalignment(Node child, javafx.geometry.HPos value) GridPane.setHalignment(Node, HPos)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setHalignment(javafx.scene.Node child, javafx.geometry.HPos value) GridPane.setHalignment(javafx.scene.Node, HPos)} 
      * using a fluent API.
      *
      * <p>
@@ -1815,7 +1793,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setHgrow(Node child, javafx.scene.layout.Priority value) GridPane.setHgrow(Node, Priority)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setHgrow(javafx.scene.Node child, javafx.scene.layout.Priority value) GridPane.setHgrow(javafx.scene.Node, Priority)} 
      * using a fluent API.
      *
      * <p>
@@ -1843,7 +1821,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setMargin(Node child, javafx.geometry.Insets value) GridPane.setMargin(Node, Insets)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setMargin(javafx.scene.Node child, javafx.geometry.Insets value) GridPane.setMargin(javafx.scene.Node, Insets)} 
      * using a fluent API.
      *
      * <p>
@@ -1871,7 +1849,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setRowIndex(Node child, java.lang.Integer value) GridPane.setRowIndex(Node, Integer)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setRowIndex(javafx.scene.Node child, java.lang.Integer value) GridPane.setRowIndex(javafx.scene.Node, Integer)} 
      * using a fluent API.
      *
      * <p>
@@ -1899,7 +1877,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setRowSpan(Node child, java.lang.Integer value) GridPane.setRowSpan(Node, Integer)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setRowSpan(javafx.scene.Node child, java.lang.Integer value) GridPane.setRowSpan(javafx.scene.Node, Integer)} 
      * using a fluent API.
      *
      * <p>
@@ -1927,7 +1905,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setValignment(Node child, javafx.geometry.VPos value) GridPane.setValignment(Node, VPos)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setValignment(javafx.scene.Node child, javafx.geometry.VPos value) GridPane.setValignment(javafx.scene.Node, VPos)} 
      * using a fluent API.
      *
      * <p>
@@ -1955,7 +1933,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.GridPane#setVgrow(Node child, javafx.scene.layout.Priority value) GridPane.setVgrow(Node, Priority)} 
+     * Invokes the {@link javafx.scene.layout.GridPane#setVgrow(javafx.scene.Node child, javafx.scene.layout.Priority value) GridPane.setVgrow(javafx.scene.Node, Priority)} 
      * using a fluent API.
      *
      * <p>
@@ -1983,7 +1961,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.HBox#setHgrow(Node child, javafx.scene.layout.Priority value) HBox.setHgrow(Node, Priority)} 
+     * Invokes the {@link javafx.scene.layout.HBox#setHgrow(javafx.scene.Node child, javafx.scene.layout.Priority value) HBox.setHgrow(javafx.scene.Node, Priority)} 
      * using a fluent API.
      *
      * <p>
@@ -2011,7 +1989,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.HBox#setMargin(Node child, javafx.geometry.Insets value) HBox.setMargin(Node, Insets)} 
+     * Invokes the {@link javafx.scene.layout.HBox#setMargin(javafx.scene.Node child, javafx.geometry.Insets value) HBox.setMargin(javafx.scene.Node, Insets)} 
      * using a fluent API.
      *
      * <p>
@@ -2039,7 +2017,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.StackPane#setAlignment(Node child, javafx.geometry.Pos value) StackPane.setAlignment(Node, Pos)} 
+     * Invokes the {@link javafx.scene.layout.StackPane#setAlignment(javafx.scene.Node child, javafx.geometry.Pos value) StackPane.setAlignment(javafx.scene.Node, Pos)} 
      * using a fluent API.
      *
      * <p>
@@ -2067,7 +2045,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.StackPane#setMargin(Node child, javafx.geometry.Insets value) StackPane.setMargin(Node, Insets)} 
+     * Invokes the {@link javafx.scene.layout.StackPane#setMargin(javafx.scene.Node child, javafx.geometry.Insets value) StackPane.setMargin(javafx.scene.Node, Insets)} 
      * using a fluent API.
      *
      * <p>
@@ -2095,7 +2073,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.TilePane#setAlignment(Node child, javafx.geometry.Pos value) TilePane.setAlignment(Node, Pos)} 
+     * Invokes the {@link javafx.scene.layout.TilePane#setAlignment(javafx.scene.Node child, javafx.geometry.Pos value) TilePane.setAlignment(javafx.scene.Node, Pos)} 
      * using a fluent API.
      *
      * <p>
@@ -2123,7 +2101,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.TilePane#setMargin(Node child, javafx.geometry.Insets value) TilePane.setMargin(Node, Insets)} 
+     * Invokes the {@link javafx.scene.layout.TilePane#setMargin(javafx.scene.Node child, javafx.geometry.Insets value) TilePane.setMargin(javafx.scene.Node, Insets)} 
      * using a fluent API.
      *
      * <p>
@@ -2151,7 +2129,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.VBox#setMargin(Node child, javafx.geometry.Insets value) VBox.setMargin(Node, Insets)} 
+     * Invokes the {@link javafx.scene.layout.VBox#setMargin(javafx.scene.Node child, javafx.geometry.Insets value) VBox.setMargin(javafx.scene.Node, Insets)} 
      * using a fluent API.
      *
      * <p>
@@ -2179,7 +2157,7 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Invokes the {@link javafx.scene.layout.VBox#setVgrow(Node child, javafx.scene.layout.Priority value) VBox.setVgrow(Node, Priority)} 
+     * Invokes the {@link javafx.scene.layout.VBox#setVgrow(javafx.scene.Node child, javafx.scene.layout.Priority value) VBox.setVgrow(javafx.scene.Node, Priority)} 
      * using a fluent API.
      *
      * <p>
@@ -4827,11 +4805,11 @@ public class StackedBarChartBuilder<X, Y> {
 
     /**
      * Creates an instance of the builder,
-     * then calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll(XYChart.Series&lt;X, Y&gt;... elements)} method
+     * then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll(XYChart.Series&lt;X, Y&gt;... elements)} method
      * on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getData() StackedBarChart#getData()} method.
      *
      * <p>
-     * After calling this method, you may need to invoke the {@link StackedBarChartBuilder<X, Y>#xAxis(javafx.scene.chart.Axis) xAxis(Axis)} and {@link StackedBarChartBuilder<X, Y>#yAxis(javafx.scene.chart.Axis) yAxis(Axis)} methods. 
+     * After calling this method, you may need to invoke the {@link io.github.sosuisen.jfxbuilder.controls.StackedBarChartBuilder#xAxis(javafx.scene.chart.Axis) xAxis(Axis)} and {@link io.github.sosuisen.jfxbuilder.controls.StackedBarChartBuilder#yAxis(javafx.scene.chart.Axis) yAxis(Axis)} methods. 
      * If you do not, the default axis objects will be set for the x-axis and y-axis.
      * </p>
      *
@@ -4856,11 +4834,11 @@ public class StackedBarChartBuilder<X, Y> {
 
     /**
      * Creates an instance of the builder,
-     * then calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll(Collection&lt;? extends XYChart.Series&lt;X, Y&gt;&gt; col} method
+     * then calls the {@link java.util.List#addAll(java.util.Collection) addAll(Collection&lt;? extends XYChart.Series&lt;X, Y&gt;&gt; col} method
      * on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getData() StackedBarChart#getData()} method.
      *
      * <p>
-     * After calling this method, you may need to invoke the {@link StackedBarChartBuilder<X, Y>#xAxis(javafx.scene.chart.Axis) xAxis(Axis)} and {@link StackedBarChartBuilder<X, Y>#yAxis(javafx.scene.chart.Axis) yAxis(Axis)} methods. 
+     * After calling this method, you may need to invoke the {@link io.github.sosuisen.jfxbuilder.controls.StackedBarChartBuilder#xAxis(javafx.scene.chart.Axis) xAxis(Axis)} and {@link io.github.sosuisen.jfxbuilder.controls.StackedBarChartBuilder#yAxis(javafx.scene.chart.Axis) yAxis(Axis)} methods. 
      * If you do not, the default axis objects will be set for the x-axis and y-axis.
      * </p>
      *
@@ -4910,8 +4888,7 @@ public class StackedBarChartBuilder<X, Y> {
 
     /**
      * A builder method that set xAxis object to the instance being constructed.
-     *
-     * This method is used together with the {@link StackedBarChartBuilder<X, Y>#withData(Series...)} or the {@link StackedBarChartBuilder<X, Y>#withData(java.util.Collection col)}.
+     * This method is used together with the {@link io.github.sosuisen.jfxbuilder.controls.StackedBarChartBuilder#withData(javafx.scene.chart.XYChart.Series...) withData(Series...)} or the {@link io.github.sosuisen.jfxbuilder.controls.StackedBarChartBuilder#withData(java.util.Collection col) withData(Collection)}.
      *
      * @return builder instance
      */
@@ -4923,8 +4900,7 @@ public class StackedBarChartBuilder<X, Y> {
 
     /**
      * A builder method that set yAxis object to the instance being constructed.
-     *
-     * This method is used together with the {@link StackedBarChartBuilder<X, Y>#withData(Series...)} or the {@link StackedBarChartBuilder<X, Y>#withData(java.util.Collection col)}.
+     * This method is used together with the {@link io.github.sosuisen.jfxbuilder.controls.StackedBarChartBuilder#withData(javafx.scene.chart.XYChart.Series...) withData(Series...)} or the {@link io.github.sosuisen.jfxbuilder.controls.StackedBarChartBuilder#withData(java.util.Collection col) withData(Collection)}.
      *
      * @return builder instance
      */

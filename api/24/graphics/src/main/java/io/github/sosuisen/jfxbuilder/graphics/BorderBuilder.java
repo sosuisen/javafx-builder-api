@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class BorderBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.layout.Border>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.layout.Border>> operations = new java.util.ArrayList<>();
     private BorderBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.layout.Border#Border(List, List) Border(List, List)}
+     * Accepts the constructor arguments of {@link javafx.scene.layout.Border#Border(java.util.List, java.util.List) Border(List, List)}
      * and returns an instance of {@code BorderBuilder}.
      *
      * @return an instance of the {@code BorderBuilder}.
      */
-    
     public static BorderBuilder create(java.util.List<javafx.scene.layout.BorderStroke> strokes, java.util.List<javafx.scene.layout.BorderImage> images) {
         BorderBuilder builder = new BorderBuilder();
         builder.constructorArgs = new Object[]{strokes, images};
@@ -41,12 +40,11 @@ public class BorderBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.layout.Border#Border(BorderImage...) Border(BorderImage...)}
+     * Accepts the constructor arguments of {@link javafx.scene.layout.Border#Border(javafx.scene.layout.BorderImage...) Border(BorderImage...)}
      * and returns an instance of {@code BorderBuilder}.
      *
      * @return an instance of the {@code BorderBuilder}.
      */
-    @SafeVarargs
     public static BorderBuilder create(javafx.scene.layout.BorderImage... images) {
         BorderBuilder builder = new BorderBuilder();
         builder.constructorArgs = new Object[]{images};
@@ -54,12 +52,11 @@ public class BorderBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.layout.Border#Border(BorderStroke...) Border(BorderStroke...)}
+     * Accepts the constructor arguments of {@link javafx.scene.layout.Border#Border(javafx.scene.layout.BorderStroke...) Border(BorderStroke...)}
      * and returns an instance of {@code BorderBuilder}.
      *
      * @return an instance of the {@code BorderBuilder}.
      */
-    @SafeVarargs
     public static BorderBuilder create(javafx.scene.layout.BorderStroke... strokes) {
         BorderBuilder builder = new BorderBuilder();
         builder.constructorArgs = new Object[]{strokes};
@@ -67,12 +64,11 @@ public class BorderBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.layout.Border#Border(BorderStroke..., BorderImage...) Border(BorderStroke..., BorderImage...)}
+     * Accepts the constructor arguments of {@link javafx.scene.layout.Border#Border(javafx.scene.layout.BorderStroke..., javafx.scene.layout.BorderImage...) Border(BorderStroke..., BorderImage...)}
      * and returns an instance of {@code BorderBuilder}.
      *
      * @return an instance of the {@code BorderBuilder}.
      */
-    
     public static BorderBuilder create(javafx.scene.layout.BorderStroke[] strokes, javafx.scene.layout.BorderImage[] images) {
         BorderBuilder builder = new BorderBuilder();
         builder.constructorArgs = new Object[]{strokes, images};

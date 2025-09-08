@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class PixelFormatTypeBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.image.PixelFormat.Type>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.image.PixelFormat.Type>> operations = new java.util.ArrayList<>();
     private PixelFormatTypeBuilder() {}
     
     private Object[] constructorArgs;

@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class SelectionModeBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.SelectionMode>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.SelectionMode>> operations = new java.util.ArrayList<>();
     private SelectionModeBuilder() {}
     
     private Object[] constructorArgs;

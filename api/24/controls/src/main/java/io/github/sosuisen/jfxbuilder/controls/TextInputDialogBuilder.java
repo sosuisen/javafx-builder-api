@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TextInputDialogBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.TextInputDialog>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.TextInputDialog>> operations = new java.util.ArrayList<>();
     private TextInputDialogBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class TextInputDialogBuilder {
     public static TextInputDialogBuilder create() { return new TextInputDialogBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TextInputDialog#TextInputDialog(String) TextInputDialog(String)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TextInputDialog#TextInputDialog(java.lang.String) TextInputDialog(String)}
      * and returns an instance of {@code TextInputDialogBuilder}.
      *
      * @return an instance of the {@code TextInputDialogBuilder}.
      */
-    
     public static TextInputDialogBuilder create(java.lang.String defaultValue) {
         TextInputDialogBuilder builder = new TextInputDialogBuilder();
         builder.constructorArgs = new Object[]{defaultValue};

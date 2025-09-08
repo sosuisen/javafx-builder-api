@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class TranslateBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.transform.Translate>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.transform.Translate>> operations = new java.util.ArrayList<>();
     private TranslateBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class TranslateBuilder {
      *
      * @return an instance of the {@code TranslateBuilder}.
      */
-    
     public static TranslateBuilder create(double x, double y) {
         TranslateBuilder builder = new TranslateBuilder();
         builder.constructorArgs = new Object[]{x, y};
@@ -53,7 +52,6 @@ public class TranslateBuilder {
      *
      * @return an instance of the {@code TranslateBuilder}.
      */
-    
     public static TranslateBuilder create(double x, double y, double z) {
         TranslateBuilder builder = new TranslateBuilder();
         builder.constructorArgs = new Object[]{x, y, z};

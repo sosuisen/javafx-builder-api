@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class ImageInputBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.ImageInput>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.ImageInput>> operations = new java.util.ArrayList<>();
     private ImageInputBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class ImageInputBuilder {
     public static ImageInputBuilder create() { return new ImageInputBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.effect.ImageInput#ImageInput(Image) ImageInput(Image)}
+     * Accepts the constructor arguments of {@link javafx.scene.effect.ImageInput#ImageInput(javafx.scene.image.Image) ImageInput(Image)}
      * and returns an instance of {@code ImageInputBuilder}.
      *
      * @return an instance of the {@code ImageInputBuilder}.
      */
-    
     public static ImageInputBuilder create(javafx.scene.image.Image source) {
         ImageInputBuilder builder = new ImageInputBuilder();
         builder.constructorArgs = new Object[]{source};
@@ -48,12 +47,11 @@ public class ImageInputBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.effect.ImageInput#ImageInput(Image, double, double) ImageInput(Image, double, double)}
+     * Accepts the constructor arguments of {@link javafx.scene.effect.ImageInput#ImageInput(javafx.scene.image.Image, double, double) ImageInput(Image, double, double)}
      * and returns an instance of {@code ImageInputBuilder}.
      *
      * @return an instance of the {@code ImageInputBuilder}.
      */
-    
     public static ImageInputBuilder create(javafx.scene.image.Image source, double x, double y) {
         ImageInputBuilder builder = new ImageInputBuilder();
         builder.constructorArgs = new Object[]{source, x, y};

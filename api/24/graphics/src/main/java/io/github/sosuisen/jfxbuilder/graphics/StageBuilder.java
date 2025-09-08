@@ -411,43 +411,37 @@ public class StageBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.stage.Stage#getIcons()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.stage.Stage#getIcons()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final StageBuilder addIcons(javafx.scene.image.Image... elements) {
-        operations.add(obj -> {
-            obj.getIcons().addAll(elements);
-        });
+        operations.add(obj -> obj.getIcons().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.stage.Stage#getIcons()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.stage.Stage#getIcons()} method.
      * 
      * @return builder instance
      */
     public final StageBuilder addIcons(java.util.Collection<? extends javafx.scene.image.Image> col) {
-        operations.add(obj -> {
-            obj.getIcons().addAll(col);
-        });
+        operations.add(obj -> obj.getIcons().addAll(col));
         return this;
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.stage.Stage#getIcons()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.stage.Stage#getIcons()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public static StageBuilder withIcons(javafx.scene.image.Image... elements) {
         StageBuilder builder = new StageBuilder();
         return builder.addIcons(elements);
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.stage.Stage#getIcons()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.stage.Stage#getIcons()} method.
      * 
      * @return builder instance
      */

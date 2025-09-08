@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class XYChartDataBuilder<X, Y> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.chart.XYChart.Data<X, Y>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.chart.XYChart.Data<X, Y>>> operations = new java.util.ArrayList<>();
     private XYChartDataBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class XYChartDataBuilder<X, Y> {
     public static <X, Y> XYChartDataBuilder<X, Y> create() { return new XYChartDataBuilder<X, Y>(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.chart.XYChart.Data#Data(Object, Object) Data(Object, Object)}
+     * Accepts the constructor arguments of {@link javafx.scene.chart.XYChart.Data#Data(java.lang.Object, java.lang.Object) Data(Object, Object)}
      * and returns an instance of {@code XYChartDataBuilder<X, Y>}.
      *
      * @return an instance of the {@code XYChartDataBuilder<X, Y>}.
      */
-    
     public static <X, Y> XYChartDataBuilder<X, Y> create(X xValue, Y yValue) {
         XYChartDataBuilder<X, Y> builder = new XYChartDataBuilder<X, Y>();
         builder.constructorArgs = new Object[]{xValue, yValue};
@@ -48,12 +47,11 @@ public class XYChartDataBuilder<X, Y> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.chart.XYChart.Data#Data(Object, Object, Object) Data(Object, Object, Object)}
+     * Accepts the constructor arguments of {@link javafx.scene.chart.XYChart.Data#Data(java.lang.Object, java.lang.Object, java.lang.Object) Data(Object, Object, Object)}
      * and returns an instance of {@code XYChartDataBuilder<X, Y>}.
      *
      * @return an instance of the {@code XYChartDataBuilder<X, Y>}.
      */
-    
     public static <X, Y> XYChartDataBuilder<X, Y> create(X xValue, Y yValue, java.lang.Object extraValue) {
         XYChartDataBuilder<X, Y> builder = new XYChartDataBuilder<X, Y>();
         builder.constructorArgs = new Object[]{xValue, yValue, extraValue};
@@ -63,7 +61,7 @@ public class XYChartDataBuilder<X, Y> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.chart.XYChart.Data<X, Y>} class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.XYChart.Data} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

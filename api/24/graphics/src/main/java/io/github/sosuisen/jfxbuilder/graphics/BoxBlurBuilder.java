@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class BoxBlurBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.BoxBlur>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.BoxBlur>> operations = new java.util.ArrayList<>();
     private BoxBlurBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class BoxBlurBuilder {
      *
      * @return an instance of the {@code BoxBlurBuilder}.
      */
-    
     public static BoxBlurBuilder create(double width, double height, int iterations) {
         BoxBlurBuilder builder = new BoxBlurBuilder();
         builder.constructorArgs = new Object[]{width, height, iterations};

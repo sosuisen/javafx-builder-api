@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class KeyCombinationModifierBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.KeyCombination.Modifier>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.KeyCombination.Modifier>> operations = new java.util.ArrayList<>();
     private KeyCombinationModifierBuilder() {}
     
     private Object[] constructorArgs;

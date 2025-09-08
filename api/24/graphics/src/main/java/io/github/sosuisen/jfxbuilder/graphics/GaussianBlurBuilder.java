@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class GaussianBlurBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.GaussianBlur>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.GaussianBlur>> operations = new java.util.ArrayList<>();
     private GaussianBlurBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class GaussianBlurBuilder {
      *
      * @return an instance of the {@code GaussianBlurBuilder}.
      */
-    
     public static GaussianBlurBuilder create(double radius) {
         GaussianBlurBuilder builder = new GaussianBlurBuilder();
         builder.constructorArgs = new Object[]{radius};

@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TooltipSkinBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.TooltipSkin>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.skin.TooltipSkin>> operations = new java.util.ArrayList<>();
     private TooltipSkinBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.skin.TooltipSkin#TooltipSkin(Tooltip) TooltipSkin(Tooltip)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.TooltipSkin#TooltipSkin(javafx.scene.control.Tooltip) TooltipSkin(Tooltip)}
      * and returns an instance of {@code TooltipSkinBuilder}.
      *
      * @return an instance of the {@code TooltipSkinBuilder}.
      */
-    
     public static TooltipSkinBuilder create(javafx.scene.control.Tooltip t) {
         TooltipSkinBuilder builder = new TooltipSkinBuilder();
         builder.constructorArgs = new Object[]{t};

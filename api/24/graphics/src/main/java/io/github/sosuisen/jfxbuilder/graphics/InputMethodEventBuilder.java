@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class InputMethodEventBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.InputMethodEvent>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.InputMethodEvent>> operations = new java.util.ArrayList<>();
     private InputMethodEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.InputMethodEvent#InputMethodEvent(Object, EventTarget, EventType, List, String, int) InputMethodEvent(Object, EventTarget, EventType, List, String, int)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.InputMethodEvent#InputMethodEvent(java.lang.Object, javafx.event.EventTarget, javafx.event.EventType, java.util.List, java.lang.String, int) InputMethodEvent(Object, EventTarget, EventType, List, String, int)}
      * and returns an instance of {@code InputMethodEventBuilder}.
      *
      * @return an instance of the {@code InputMethodEventBuilder}.
      */
-    
     public static InputMethodEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.InputMethodEvent> eventType, java.util.List<javafx.scene.input.InputMethodTextRun> composed, java.lang.String committed, int caretPosition) {
         InputMethodEventBuilder builder = new InputMethodEventBuilder();
         builder.constructorArgs = new Object[]{source, target, eventType, composed, committed, caretPosition};
@@ -41,12 +40,11 @@ public class InputMethodEventBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.InputMethodEvent#InputMethodEvent(EventType, List, String, int) InputMethodEvent(EventType, List, String, int)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.InputMethodEvent#InputMethodEvent(javafx.event.EventType, java.util.List, java.lang.String, int) InputMethodEvent(EventType, List, String, int)}
      * and returns an instance of {@code InputMethodEventBuilder}.
      *
      * @return an instance of the {@code InputMethodEventBuilder}.
      */
-    
     public static InputMethodEventBuilder create(javafx.event.EventType<javafx.scene.input.InputMethodEvent> eventType, java.util.List<javafx.scene.input.InputMethodTextRun> composed, java.lang.String committed, int caretPosition) {
         InputMethodEventBuilder builder = new InputMethodEventBuilder();
         builder.constructorArgs = new Object[]{eventType, composed, committed, caretPosition};
@@ -153,27 +151,22 @@ public class InputMethodEventBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.input.InputMethodEvent#getComposed()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.input.InputMethodEvent#getComposed()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final InputMethodEventBuilder addComposed(javafx.scene.input.InputMethodTextRun... elements) {
-        operations.add(obj -> {
-            obj.getComposed().addAll(elements);
-        });
+        operations.add(obj -> obj.getComposed().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.input.InputMethodEvent#getComposed()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.input.InputMethodEvent#getComposed()} method.
      * 
      * @return builder instance
      */
     public final InputMethodEventBuilder addComposed(java.util.Collection<? extends javafx.scene.input.InputMethodTextRun> col) {
-        operations.add(obj -> {
-            obj.getComposed().addAll(col);
-        });
+        operations.add(obj -> obj.getComposed().addAll(col));
         return this;
     }
 }

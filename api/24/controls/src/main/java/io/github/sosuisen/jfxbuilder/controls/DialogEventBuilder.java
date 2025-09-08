@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class DialogEventBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.DialogEvent>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.DialogEvent>> operations = new java.util.ArrayList<>();
     private DialogEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.DialogEvent#DialogEvent(Dialog, EventType) DialogEvent(Dialog, EventType)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.DialogEvent#DialogEvent(javafx.scene.control.Dialog, javafx.event.EventType) DialogEvent(Dialog, EventType)}
      * and returns an instance of {@code DialogEventBuilder}.
      *
      * @return an instance of the {@code DialogEventBuilder}.
      */
-    
     public static DialogEventBuilder create(javafx.scene.control.Dialog<?> source, javafx.event.EventType<? extends javafx.event.Event> eventType) {
         DialogEventBuilder builder = new DialogEventBuilder();
         builder.constructorArgs = new Object[]{source, eventType};

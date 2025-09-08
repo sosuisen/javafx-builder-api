@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class MatrixTypeBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.transform.MatrixType>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.transform.MatrixType>> operations = new java.util.ArrayList<>();
     private MatrixTypeBuilder() {}
     
     private Object[] constructorArgs;

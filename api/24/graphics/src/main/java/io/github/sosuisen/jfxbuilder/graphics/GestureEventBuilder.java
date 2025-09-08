@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class GestureEventBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.GestureEvent>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.GestureEvent>> operations = new java.util.ArrayList<>();
     private GestureEventBuilder() {}
     
     private Object[] constructorArgs;

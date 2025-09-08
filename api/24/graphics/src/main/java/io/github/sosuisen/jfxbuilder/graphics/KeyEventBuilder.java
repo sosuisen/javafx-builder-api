@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class KeyEventBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.KeyEvent>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.KeyEvent>> operations = new java.util.ArrayList<>();
     private KeyEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.KeyEvent#KeyEvent(Object, EventTarget, EventType, String, String, KeyCode, boolean, boolean, boolean, boolean) KeyEvent(Object, EventTarget, EventType, String, String, KeyCode, boolean, boolean, boolean, boolean)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.KeyEvent#KeyEvent(java.lang.Object, javafx.event.EventTarget, javafx.event.EventType, java.lang.String, java.lang.String, javafx.scene.input.KeyCode, boolean, boolean, boolean, boolean) KeyEvent(Object, EventTarget, EventType, String, String, KeyCode, boolean, boolean, boolean, boolean)}
      * and returns an instance of {@code KeyEventBuilder}.
      *
      * @return an instance of the {@code KeyEventBuilder}.
      */
-    
     public static KeyEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.KeyEvent> eventType, java.lang.String character, java.lang.String text, javafx.scene.input.KeyCode code, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown) {
         KeyEventBuilder builder = new KeyEventBuilder();
         builder.constructorArgs = new Object[]{source, target, eventType, character, text, code, shiftDown, controlDown, altDown, metaDown};
@@ -41,12 +40,11 @@ public class KeyEventBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.KeyEvent#KeyEvent(EventType, String, String, KeyCode, boolean, boolean, boolean, boolean) KeyEvent(EventType, String, String, KeyCode, boolean, boolean, boolean, boolean)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.KeyEvent#KeyEvent(javafx.event.EventType, java.lang.String, java.lang.String, javafx.scene.input.KeyCode, boolean, boolean, boolean, boolean) KeyEvent(EventType, String, String, KeyCode, boolean, boolean, boolean, boolean)}
      * and returns an instance of {@code KeyEventBuilder}.
      *
      * @return an instance of the {@code KeyEventBuilder}.
      */
-    
     public static KeyEventBuilder create(javafx.event.EventType<javafx.scene.input.KeyEvent> eventType, java.lang.String character, java.lang.String text, javafx.scene.input.KeyCode code, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown) {
         KeyEventBuilder builder = new KeyEventBuilder();
         builder.constructorArgs = new Object[]{eventType, character, text, code, shiftDown, controlDown, altDown, metaDown};

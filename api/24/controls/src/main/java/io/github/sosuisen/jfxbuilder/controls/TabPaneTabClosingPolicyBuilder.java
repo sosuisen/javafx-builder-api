@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TabPaneTabClosingPolicyBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.TabPane.TabClosingPolicy>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.TabPane.TabClosingPolicy>> operations = new java.util.ArrayList<>();
     private TabPaneTabClosingPolicyBuilder() {}
     
     private Object[] constructorArgs;

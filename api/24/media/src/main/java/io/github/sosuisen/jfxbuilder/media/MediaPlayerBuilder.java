@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.media;
  */
 
 public class MediaPlayerBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.media.MediaPlayer>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.media.MediaPlayer>> operations = new java.util.ArrayList<>();
     private MediaPlayerBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.media.MediaPlayer#MediaPlayer(Media) MediaPlayer(Media)}
+     * Accepts the constructor arguments of {@link javafx.scene.media.MediaPlayer#MediaPlayer(javafx.scene.media.Media) MediaPlayer(Media)}
      * and returns an instance of {@code MediaPlayerBuilder}.
      *
      * @return an instance of the {@code MediaPlayerBuilder}.
      */
-    
     public static MediaPlayerBuilder create(javafx.scene.media.Media media) {
         MediaPlayerBuilder builder = new MediaPlayerBuilder();
         builder.constructorArgs = new Object[]{media};

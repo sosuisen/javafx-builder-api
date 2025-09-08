@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class LightPointBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.Light.Point>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.Light.Point>> operations = new java.util.ArrayList<>();
     private LightPointBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class LightPointBuilder {
     public static LightPointBuilder create() { return new LightPointBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.effect.Light.Point#Point(double, double, double, Color) Point(double, double, double, Color)}
+     * Accepts the constructor arguments of {@link javafx.scene.effect.Light.Point#Point(double, double, double, javafx.scene.paint.Color) Point(double, double, double, Color)}
      * and returns an instance of {@code LightPointBuilder}.
      *
      * @return an instance of the {@code LightPointBuilder}.
      */
-    
     public static LightPointBuilder create(double x, double y, double z, javafx.scene.paint.Color color) {
         LightPointBuilder builder = new LightPointBuilder();
         builder.constructorArgs = new Object[]{x, y, z, color};

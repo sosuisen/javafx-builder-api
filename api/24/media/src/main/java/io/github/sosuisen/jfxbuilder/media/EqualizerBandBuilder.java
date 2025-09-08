@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.media;
  */
 
 public class EqualizerBandBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.media.EqualizerBand>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.media.EqualizerBand>> operations = new java.util.ArrayList<>();
     private EqualizerBandBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class EqualizerBandBuilder {
      *
      * @return an instance of the {@code EqualizerBandBuilder}.
      */
-    
     public static EqualizerBandBuilder create(double centerFrequency, double bandwidth, double gain) {
         EqualizerBandBuilder builder = new EqualizerBandBuilder();
         builder.constructorArgs = new Object[]{centerFrequency, bandwidth, gain};

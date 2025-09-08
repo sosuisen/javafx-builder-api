@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class TransferModeBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.TransferMode>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.TransferMode>> operations = new java.util.ArrayList<>();
     private TransferModeBuilder() {}
     
     private Object[] constructorArgs;

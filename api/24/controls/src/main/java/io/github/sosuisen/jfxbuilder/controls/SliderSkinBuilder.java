@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class SliderSkinBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.SliderSkin>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.skin.SliderSkin>> operations = new java.util.ArrayList<>();
     private SliderSkinBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.skin.SliderSkin#SliderSkin(Slider) SliderSkin(Slider)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.SliderSkin#SliderSkin(javafx.scene.control.Slider) SliderSkin(Slider)}
      * and returns an instance of {@code SliderSkinBuilder}.
      *
      * @return an instance of the {@code SliderSkinBuilder}.
      */
-    
     public static SliderSkinBuilder create(javafx.scene.control.Slider control) {
         SliderSkinBuilder builder = new SliderSkinBuilder();
         builder.constructorArgs = new Object[]{control};
@@ -140,27 +139,22 @@ public class SliderSkinBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SliderSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SliderSkin#getChildren()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final SliderSkinBuilder addChildren(javafx.scene.Node... elements) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(elements);
-        });
+        operations.add(obj -> obj.getChildren().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SliderSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.SliderSkin#getChildren()} method.
      * 
      * @return builder instance
      */
     public final SliderSkinBuilder addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(col);
-        });
+        operations.add(obj -> obj.getChildren().addAll(col));
         return this;
     }
 }

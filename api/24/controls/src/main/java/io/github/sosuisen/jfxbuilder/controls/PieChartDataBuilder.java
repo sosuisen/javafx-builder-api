@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class PieChartDataBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.chart.PieChart.Data>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.chart.PieChart.Data>> operations = new java.util.ArrayList<>();
     private PieChartDataBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.chart.PieChart.Data#Data(String, double) Data(String, double)}
+     * Accepts the constructor arguments of {@link javafx.scene.chart.PieChart.Data#Data(java.lang.String, double) Data(String, double)}
      * and returns an instance of {@code PieChartDataBuilder}.
      *
      * @return an instance of the {@code PieChartDataBuilder}.
      */
-    
     public static PieChartDataBuilder create(java.lang.String name, double value) {
         PieChartDataBuilder builder = new PieChartDataBuilder();
         builder.constructorArgs = new Object[]{name, value};

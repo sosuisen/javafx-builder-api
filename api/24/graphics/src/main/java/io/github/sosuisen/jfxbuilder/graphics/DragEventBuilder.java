@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class DragEventBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.DragEvent>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.DragEvent>> operations = new java.util.ArrayList<>();
     private DragEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.DragEvent#DragEvent(Object, EventTarget, EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult) DragEvent(Object, EventTarget, EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.DragEvent#DragEvent(java.lang.Object, javafx.event.EventTarget, javafx.event.EventType, javafx.scene.input.Dragboard, double, double, double, double, javafx.scene.input.TransferMode, java.lang.Object, java.lang.Object, javafx.scene.input.PickResult) DragEvent(Object, EventTarget, EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult)}
      * and returns an instance of {@code DragEventBuilder}.
      *
      * @return an instance of the {@code DragEventBuilder}.
      */
-    
     public static DragEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.DragEvent> eventType, javafx.scene.input.Dragboard dragboard, double x, double y, double screenX, double screenY, javafx.scene.input.TransferMode transferMode, java.lang.Object gestureSource, java.lang.Object gestureTarget, javafx.scene.input.PickResult pickResult) {
         DragEventBuilder builder = new DragEventBuilder();
         builder.constructorArgs = new Object[]{source, target, eventType, dragboard, x, y, screenX, screenY, transferMode, gestureSource, gestureTarget, pickResult};
@@ -41,12 +40,11 @@ public class DragEventBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.DragEvent#DragEvent(EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult) DragEvent(EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.DragEvent#DragEvent(javafx.event.EventType, javafx.scene.input.Dragboard, double, double, double, double, javafx.scene.input.TransferMode, java.lang.Object, java.lang.Object, javafx.scene.input.PickResult) DragEvent(EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult)}
      * and returns an instance of {@code DragEventBuilder}.
      *
      * @return an instance of the {@code DragEventBuilder}.
      */
-    
     public static DragEventBuilder create(javafx.event.EventType<javafx.scene.input.DragEvent> eventType, javafx.scene.input.Dragboard dragboard, double x, double y, double screenX, double screenY, javafx.scene.input.TransferMode transferMode, java.lang.Object gestureSource, java.lang.Object gestureTarget, javafx.scene.input.PickResult pickResult) {
         DragEventBuilder builder = new DragEventBuilder();
         builder.constructorArgs = new Object[]{eventType, dragboard, x, y, screenX, screenY, transferMode, gestureSource, gestureTarget, pickResult};

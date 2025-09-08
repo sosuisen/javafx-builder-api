@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class LightDistantBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.Light.Distant>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.Light.Distant>> operations = new java.util.ArrayList<>();
     private LightDistantBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class LightDistantBuilder {
     public static LightDistantBuilder create() { return new LightDistantBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.effect.Light.Distant#Distant(double, double, Color) Distant(double, double, Color)}
+     * Accepts the constructor arguments of {@link javafx.scene.effect.Light.Distant#Distant(double, double, javafx.scene.paint.Color) Distant(double, double, Color)}
      * and returns an instance of {@code LightDistantBuilder}.
      *
      * @return an instance of the {@code LightDistantBuilder}.
      */
-    
     public static LightDistantBuilder create(double azimuth, double elevation, javafx.scene.paint.Color color) {
         LightDistantBuilder builder = new LightDistantBuilder();
         builder.constructorArgs = new Object[]{azimuth, elevation, color};

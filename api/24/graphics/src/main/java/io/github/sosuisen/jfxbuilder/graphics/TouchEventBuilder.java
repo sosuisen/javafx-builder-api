@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class TouchEventBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.TouchEvent>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.TouchEvent>> operations = new java.util.ArrayList<>();
     private TouchEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.TouchEvent#TouchEvent(Object, EventTarget, EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean) TouchEvent(Object, EventTarget, EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.TouchEvent#TouchEvent(java.lang.Object, javafx.event.EventTarget, javafx.event.EventType, javafx.scene.input.TouchPoint, java.util.List, int, boolean, boolean, boolean, boolean) TouchEvent(Object, EventTarget, EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean)}
      * and returns an instance of {@code TouchEventBuilder}.
      *
      * @return an instance of the {@code TouchEventBuilder}.
      */
-    
     public static TouchEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.TouchEvent> eventType, javafx.scene.input.TouchPoint touchPoint, java.util.List<javafx.scene.input.TouchPoint> touchPoints, int eventSetId, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown) {
         TouchEventBuilder builder = new TouchEventBuilder();
         builder.constructorArgs = new Object[]{source, target, eventType, touchPoint, touchPoints, eventSetId, shiftDown, controlDown, altDown, metaDown};
@@ -41,12 +40,11 @@ public class TouchEventBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.TouchEvent#TouchEvent(EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean) TouchEvent(EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.TouchEvent#TouchEvent(javafx.event.EventType, javafx.scene.input.TouchPoint, java.util.List, int, boolean, boolean, boolean, boolean) TouchEvent(EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean)}
      * and returns an instance of {@code TouchEventBuilder}.
      *
      * @return an instance of the {@code TouchEventBuilder}.
      */
-    
     public static TouchEventBuilder create(javafx.event.EventType<javafx.scene.input.TouchEvent> eventType, javafx.scene.input.TouchPoint touchPoint, java.util.List<javafx.scene.input.TouchPoint> touchPoints, int eventSetId, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown) {
         TouchEventBuilder builder = new TouchEventBuilder();
         builder.constructorArgs = new Object[]{eventType, touchPoint, touchPoints, eventSetId, shiftDown, controlDown, altDown, metaDown};

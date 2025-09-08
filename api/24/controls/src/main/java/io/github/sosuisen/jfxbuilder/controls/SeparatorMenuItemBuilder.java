@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class SeparatorMenuItemBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.SeparatorMenuItem>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.SeparatorMenuItem>> operations = new java.util.ArrayList<>();
     private SeparatorMenuItemBuilder() {}
     
     /**
@@ -270,27 +270,22 @@ public class SeparatorMenuItemBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SeparatorMenuItem#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SeparatorMenuItem#getStyleClass()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final SeparatorMenuItemBuilder addStyleClass(java.lang.String... elements) {
-        operations.add(obj -> {
-            obj.getStyleClass().addAll(elements);
-        });
+        operations.add(obj -> obj.getStyleClass().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SeparatorMenuItem#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SeparatorMenuItem#getStyleClass()} method.
      * 
      * @return builder instance
      */
     public final SeparatorMenuItemBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
-        operations.add(obj -> {
-            obj.getStyleClass().addAll(col);
-        });
+        operations.add(obj -> obj.getStyleClass().addAll(col));
         return this;
     }
 

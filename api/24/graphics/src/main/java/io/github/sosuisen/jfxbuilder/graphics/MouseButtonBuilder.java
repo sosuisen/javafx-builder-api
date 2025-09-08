@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class MouseButtonBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.MouseButton>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.MouseButton>> operations = new java.util.ArrayList<>();
     private MouseButtonBuilder() {}
     
     private Object[] constructorArgs;

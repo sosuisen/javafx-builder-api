@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class ScrollPaneScrollBarPolicyBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.ScrollPane.ScrollBarPolicy>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.ScrollPane.ScrollBarPolicy>> operations = new java.util.ArrayList<>();
     private ScrollPaneScrollBarPolicyBuilder() {}
     
     private Object[] constructorArgs;

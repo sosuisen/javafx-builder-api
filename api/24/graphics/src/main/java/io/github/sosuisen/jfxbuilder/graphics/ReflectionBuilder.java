@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class ReflectionBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.Reflection>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.Reflection>> operations = new java.util.ArrayList<>();
     private ReflectionBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class ReflectionBuilder {
      *
      * @return an instance of the {@code ReflectionBuilder}.
      */
-    
     public static ReflectionBuilder create(double topOffset, double fraction, double topOpacity, double bottomOpacity) {
         ReflectionBuilder builder = new ReflectionBuilder();
         builder.constructorArgs = new Object[]{topOffset, fraction, topOpacity, bottomOpacity};

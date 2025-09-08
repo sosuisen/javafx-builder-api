@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class MnemonicBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.Mnemonic>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.Mnemonic>> operations = new java.util.ArrayList<>();
     private MnemonicBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.Mnemonic#Mnemonic(Node, KeyCombination) Mnemonic(Node, KeyCombination)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.Mnemonic#Mnemonic(javafx.scene.Node, javafx.scene.input.KeyCombination) Mnemonic(Node, KeyCombination)}
      * and returns an instance of {@code MnemonicBuilder}.
      *
      * @return an instance of the {@code MnemonicBuilder}.
      */
-    
     public static MnemonicBuilder create(javafx.scene.Node node, javafx.scene.input.KeyCombination keyCombination) {
         MnemonicBuilder builder = new MnemonicBuilder();
         builder.constructorArgs = new Object[]{node, keyCombination};

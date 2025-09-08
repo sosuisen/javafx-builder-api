@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.media;
  */
 
 public class MediaMarkerEventBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.media.MediaMarkerEvent>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.media.MediaMarkerEvent>> operations = new java.util.ArrayList<>();
     private MediaMarkerEventBuilder() {}
     
     private Object[] constructorArgs;

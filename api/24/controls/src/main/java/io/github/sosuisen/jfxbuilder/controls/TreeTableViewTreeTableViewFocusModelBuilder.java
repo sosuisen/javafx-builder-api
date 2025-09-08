@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.TreeTableView.TreeTableViewFocusModel<S>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.TreeTableView.TreeTableViewFocusModel<S>>> operations = new java.util.ArrayList<>();
     private TreeTableViewTreeTableViewFocusModelBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#TreeTableViewFocusModel(TreeTableView) TreeTableViewFocusModel(TreeTableView)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#TreeTableViewFocusModel(javafx.scene.control.TreeTableView) TreeTableViewFocusModel(TreeTableView)}
      * and returns an instance of {@code TreeTableViewTreeTableViewFocusModelBuilder<S>}.
      *
      * @return an instance of the {@code TreeTableViewTreeTableViewFocusModelBuilder<S>}.
      */
-    
     public static <S> TreeTableViewTreeTableViewFocusModelBuilder<S> create(javafx.scene.control.TreeTableView<S> treeTableView) {
         TreeTableViewTreeTableViewFocusModelBuilder<S> builder = new TreeTableViewTreeTableViewFocusModelBuilder<S>();
         builder.constructorArgs = new Object[]{treeTableView};
@@ -43,7 +42,7 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel<S>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

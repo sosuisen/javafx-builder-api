@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class StopBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.paint.Stop>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.paint.Stop>> operations = new java.util.ArrayList<>();
     private StopBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.paint.Stop#Stop(double, Color) Stop(double, Color)}
+     * Accepts the constructor arguments of {@link javafx.scene.paint.Stop#Stop(double, javafx.scene.paint.Color) Stop(double, Color)}
      * and returns an instance of {@code StopBuilder}.
      *
      * @return an instance of the {@code StopBuilder}.
      */
-    
     public static StopBuilder create(double offset, javafx.scene.paint.Color color) {
         StopBuilder builder = new StopBuilder();
         builder.constructorArgs = new Object[]{offset, color};

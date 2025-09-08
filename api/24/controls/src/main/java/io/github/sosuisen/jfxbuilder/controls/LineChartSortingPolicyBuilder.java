@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class LineChartSortingPolicyBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.chart.LineChart.SortingPolicy>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.chart.LineChart.SortingPolicy>> operations = new java.util.ArrayList<>();
     private LineChartSortingPolicyBuilder() {}
     
     private Object[] constructorArgs;

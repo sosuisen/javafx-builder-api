@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TreeTableColumnCellDataFeaturesBuilder<S, T> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.TreeTableColumn.CellDataFeatures<S, T>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.TreeTableColumn.CellDataFeatures<S, T>>> operations = new java.util.ArrayList<>();
     private TreeTableColumnCellDataFeaturesBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TreeTableColumn.CellDataFeatures#CellDataFeatures(TreeTableView, TreeTableColumn, TreeItem) CellDataFeatures(TreeTableView, TreeTableColumn, TreeItem)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeTableColumn.CellDataFeatures#CellDataFeatures(javafx.scene.control.TreeTableView, javafx.scene.control.TreeTableColumn, javafx.scene.control.TreeItem) CellDataFeatures(TreeTableView, TreeTableColumn, TreeItem)}
      * and returns an instance of {@code TreeTableColumnCellDataFeaturesBuilder<S, T>}.
      *
      * @return an instance of the {@code TreeTableColumnCellDataFeaturesBuilder<S, T>}.
      */
-    
     public static <S, T> TreeTableColumnCellDataFeaturesBuilder<S, T> create(javafx.scene.control.TreeTableView<S> treeTableView, javafx.scene.control.TreeTableColumn<S, T> tableColumn, javafx.scene.control.TreeItem<S> value) {
         TreeTableColumnCellDataFeaturesBuilder<S, T> builder = new TreeTableColumnCellDataFeaturesBuilder<S, T>();
         builder.constructorArgs = new Object[]{treeTableView, tableColumn, value};
@@ -43,7 +42,7 @@ public class TreeTableColumnCellDataFeaturesBuilder<S, T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TreeTableColumn.CellDataFeatures<S, T>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TreeTableColumn.CellDataFeatures} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

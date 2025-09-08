@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TablePositionBuilder<S, T> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.TablePosition<S, T>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.TablePosition<S, T>>> operations = new java.util.ArrayList<>();
     private TablePositionBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TablePosition#TablePosition(TableView, int, TableColumn) TablePosition(TableView, int, TableColumn)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TablePosition#TablePosition(javafx.scene.control.TableView, int, javafx.scene.control.TableColumn) TablePosition(TableView, int, TableColumn)}
      * and returns an instance of {@code TablePositionBuilder<S, T>}.
      *
      * @return an instance of the {@code TablePositionBuilder<S, T>}.
      */
-    
     public static <S, T> TablePositionBuilder<S, T> create(javafx.scene.control.TableView<S> tableView, int row, javafx.scene.control.TableColumn<S, T> tableColumn) {
         TablePositionBuilder<S, T> builder = new TablePositionBuilder<S, T>();
         builder.constructorArgs = new Object[]{tableView, row, tableColumn};
@@ -43,7 +42,7 @@ public class TablePositionBuilder<S, T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TablePosition<S, T>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TablePosition} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

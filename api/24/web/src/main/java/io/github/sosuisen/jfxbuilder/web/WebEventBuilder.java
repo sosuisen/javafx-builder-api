@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.web;
  */
 @SuppressWarnings("rawtypes")
 public class WebEventBuilder<T> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.web.WebEvent<T>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.web.WebEvent<T>>> operations = new java.util.ArrayList<>();
     private WebEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.web.WebEvent#WebEvent(Object, EventType, Object) WebEvent(Object, EventType, Object)}
+     * Accepts the constructor arguments of {@link javafx.scene.web.WebEvent#WebEvent(java.lang.Object, javafx.event.EventType, java.lang.Object) WebEvent(Object, EventType, Object)}
      * and returns an instance of {@code WebEventBuilder<T>}.
      *
      * @return an instance of the {@code WebEventBuilder<T>}.
      */
-    
     public static <T> WebEventBuilder<T> create(java.lang.Object source, javafx.event.EventType<javafx.scene.web.WebEvent> type, T data) {
         WebEventBuilder<T> builder = new WebEventBuilder<T>();
         builder.constructorArgs = new Object[]{source, type, data};
@@ -43,7 +42,7 @@ public class WebEventBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.web.WebEvent<T>} class.
+     * Builds and returns an instance of the {@link javafx.scene.web.WebEvent} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

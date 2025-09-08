@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class ContentDisplayBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.ContentDisplay>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.ContentDisplay>> operations = new java.util.ArrayList<>();
     private ContentDisplayBuilder() {}
     
     private Object[] constructorArgs;

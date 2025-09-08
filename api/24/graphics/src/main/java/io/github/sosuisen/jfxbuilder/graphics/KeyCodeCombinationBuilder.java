@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class KeyCodeCombinationBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.KeyCodeCombination>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.KeyCodeCombination>> operations = new java.util.ArrayList<>();
     private KeyCodeCombinationBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.KeyCodeCombination#KeyCodeCombination(KeyCode, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue) KeyCodeCombination(KeyCode, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.KeyCodeCombination#KeyCodeCombination(javafx.scene.input.KeyCode, javafx.scene.input.KeyCombination.ModifierValue, javafx.scene.input.KeyCombination.ModifierValue, javafx.scene.input.KeyCombination.ModifierValue, javafx.scene.input.KeyCombination.ModifierValue, javafx.scene.input.KeyCombination.ModifierValue) KeyCodeCombination(KeyCode, KeyCombination.ModifierValue, KeyCombination.ModifierValue, KeyCombination.ModifierValue, KeyCombination.ModifierValue, KeyCombination.ModifierValue)}
      * and returns an instance of {@code KeyCodeCombinationBuilder}.
      *
      * @return an instance of the {@code KeyCodeCombinationBuilder}.
      */
-    
     public static KeyCodeCombinationBuilder create(javafx.scene.input.KeyCode code, javafx.scene.input.KeyCombination.ModifierValue shift, javafx.scene.input.KeyCombination.ModifierValue control, javafx.scene.input.KeyCombination.ModifierValue alt, javafx.scene.input.KeyCombination.ModifierValue meta, javafx.scene.input.KeyCombination.ModifierValue shortcut) {
         KeyCodeCombinationBuilder builder = new KeyCodeCombinationBuilder();
         builder.constructorArgs = new Object[]{code, shift, control, alt, meta, shortcut};
@@ -41,12 +40,11 @@ public class KeyCodeCombinationBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.KeyCodeCombination#KeyCodeCombination(KeyCode, KeyCombination$Modifier...) KeyCodeCombination(KeyCode, KeyCombination$Modifier...)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.KeyCodeCombination#KeyCodeCombination(javafx.scene.input.KeyCode, javafx.scene.input.KeyCombination.Modifier...) KeyCodeCombination(KeyCode, KeyCombination.Modifier...)}
      * and returns an instance of {@code KeyCodeCombinationBuilder}.
      *
      * @return an instance of the {@code KeyCodeCombinationBuilder}.
      */
-    @SafeVarargs
     public static KeyCodeCombinationBuilder create(javafx.scene.input.KeyCode code, javafx.scene.input.KeyCombination.Modifier... modifiers) {
         KeyCodeCombinationBuilder builder = new KeyCodeCombinationBuilder();
         builder.constructorArgs = new Object[]{code, modifiers};

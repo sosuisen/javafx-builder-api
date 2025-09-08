@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 @SuppressWarnings("rawtypes")
 public class TreeViewSkinBuilder<T> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.TreeViewSkin<T>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.skin.TreeViewSkin<T>>> operations = new java.util.ArrayList<>();
     private TreeViewSkinBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.skin.TreeViewSkin#TreeViewSkin(TreeView) TreeViewSkin(TreeView)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.TreeViewSkin#TreeViewSkin(javafx.scene.control.TreeView) TreeViewSkin(TreeView)}
      * and returns an instance of {@code TreeViewSkinBuilder<T>}.
      *
      * @return an instance of the {@code TreeViewSkinBuilder<T>}.
      */
-    
     public static <T> TreeViewSkinBuilder<T> create(javafx.scene.control.TreeView control) {
         TreeViewSkinBuilder<T> builder = new TreeViewSkinBuilder<T>();
         builder.constructorArgs = new Object[]{control};
@@ -43,7 +42,7 @@ public class TreeViewSkinBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.skin.TreeViewSkin<T>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.TreeViewSkin} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method
@@ -142,27 +141,22 @@ public class TreeViewSkinBuilder<T> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TreeViewSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TreeViewSkin#getChildren()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final TreeViewSkinBuilder<T> addChildren(javafx.scene.Node... elements) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(elements);
-        });
+        operations.add(obj -> obj.getChildren().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TreeViewSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TreeViewSkin#getChildren()} method.
      * 
      * @return builder instance
      */
     public final TreeViewSkinBuilder<T> addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(col);
-        });
+        operations.add(obj -> obj.getChildren().addAll(col));
         return this;
     }
 }

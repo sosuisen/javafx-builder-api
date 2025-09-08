@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class CheckBoxTreeItemBuilder<T> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.CheckBoxTreeItem<T>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.CheckBoxTreeItem<T>>> operations = new java.util.ArrayList<>();
     private CheckBoxTreeItemBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class CheckBoxTreeItemBuilder<T> {
     public static <T> CheckBoxTreeItemBuilder<T> create() { return new CheckBoxTreeItemBuilder<T>(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(Object) CheckBoxTreeItem(Object)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(java.lang.Object) CheckBoxTreeItem(Object)}
      * and returns an instance of {@code CheckBoxTreeItemBuilder<T>}.
      *
      * @return an instance of the {@code CheckBoxTreeItemBuilder<T>}.
      */
-    
     public static <T> CheckBoxTreeItemBuilder<T> create(T value) {
         CheckBoxTreeItemBuilder<T> builder = new CheckBoxTreeItemBuilder<T>();
         builder.constructorArgs = new Object[]{value};
@@ -48,12 +47,11 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(Object, Node) CheckBoxTreeItem(Object, Node)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(java.lang.Object, javafx.scene.Node) CheckBoxTreeItem(Object, Node)}
      * and returns an instance of {@code CheckBoxTreeItemBuilder<T>}.
      *
      * @return an instance of the {@code CheckBoxTreeItemBuilder<T>}.
      */
-    
     public static <T> CheckBoxTreeItemBuilder<T> create(T value, javafx.scene.Node graphic) {
         CheckBoxTreeItemBuilder<T> builder = new CheckBoxTreeItemBuilder<T>();
         builder.constructorArgs = new Object[]{value, graphic};
@@ -61,12 +59,11 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(Object, Node, boolean) CheckBoxTreeItem(Object, Node, boolean)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(java.lang.Object, javafx.scene.Node, boolean) CheckBoxTreeItem(Object, Node, boolean)}
      * and returns an instance of {@code CheckBoxTreeItemBuilder<T>}.
      *
      * @return an instance of the {@code CheckBoxTreeItemBuilder<T>}.
      */
-    
     public static <T> CheckBoxTreeItemBuilder<T> create(T value, javafx.scene.Node graphic, boolean selected) {
         CheckBoxTreeItemBuilder<T> builder = new CheckBoxTreeItemBuilder<T>();
         builder.constructorArgs = new Object[]{value, graphic, selected};
@@ -74,12 +71,11 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(Object, Node, boolean, boolean) CheckBoxTreeItem(Object, Node, boolean, boolean)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(java.lang.Object, javafx.scene.Node, boolean, boolean) CheckBoxTreeItem(Object, Node, boolean, boolean)}
      * and returns an instance of {@code CheckBoxTreeItemBuilder<T>}.
      *
      * @return an instance of the {@code CheckBoxTreeItemBuilder<T>}.
      */
-    
     public static <T> CheckBoxTreeItemBuilder<T> create(T value, javafx.scene.Node graphic, boolean selected, boolean independent) {
         CheckBoxTreeItemBuilder<T> builder = new CheckBoxTreeItemBuilder<T>();
         builder.constructorArgs = new Object[]{value, graphic, selected, independent};
@@ -89,7 +85,7 @@ public class CheckBoxTreeItemBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.CheckBoxTreeItem<T>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.CheckBoxTreeItem} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method
@@ -254,32 +250,28 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBoxTreeItem#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBoxTreeItem#getChildren()} method.
      * 
      * @return builder instance
      */
     @SafeVarargs
     public final CheckBoxTreeItemBuilder<T> addChildren(javafx.scene.control.TreeItem<T>... elements) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(elements);
-        });
+        operations.add(obj -> obj.getChildren().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBoxTreeItem#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBoxTreeItem#getChildren()} method.
      * 
      * @return builder instance
      */
     public final CheckBoxTreeItemBuilder<T> addChildren(java.util.Collection<? extends javafx.scene.control.TreeItem<T>> col) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(col);
-        });
+        operations.add(obj -> obj.getChildren().addAll(col));
         return this;
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBoxTreeItem#getChildren()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBoxTreeItem#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -290,7 +282,7 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBoxTreeItem#getChildren()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBoxTreeItem#getChildren()} method.
      * 
      * @return builder instance
      */

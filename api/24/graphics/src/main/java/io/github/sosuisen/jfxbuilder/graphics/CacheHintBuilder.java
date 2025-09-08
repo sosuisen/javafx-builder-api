@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class CacheHintBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.CacheHint>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.CacheHint>> operations = new java.util.ArrayList<>();
     private CacheHintBuilder() {}
     
     private Object[] constructorArgs;

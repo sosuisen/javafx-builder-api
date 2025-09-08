@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class KeyCodeBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.KeyCode>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.KeyCode>> operations = new java.util.ArrayList<>();
     private KeyCodeBuilder() {}
     
     private Object[] constructorArgs;

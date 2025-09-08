@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class VLineToBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.shape.VLineTo>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.shape.VLineTo>> operations = new java.util.ArrayList<>();
     private VLineToBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class VLineToBuilder {
      *
      * @return an instance of the {@code VLineToBuilder}.
      */
-    
     public static VLineToBuilder create(double y) {
         VLineToBuilder builder = new VLineToBuilder();
         builder.constructorArgs = new Object[]{y};

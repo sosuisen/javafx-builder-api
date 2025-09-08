@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class RotateEventBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.RotateEvent>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.RotateEvent>> operations = new java.util.ArrayList<>();
     private RotateEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.RotateEvent#RotateEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult) RotateEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.RotateEvent#RotateEvent(java.lang.Object, javafx.event.EventTarget, javafx.event.EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, javafx.scene.input.PickResult) RotateEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
      * and returns an instance of {@code RotateEventBuilder}.
      *
      * @return an instance of the {@code RotateEventBuilder}.
      */
-    
     public static RotateEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.RotateEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, boolean inertia, double angle, double totalAngle, javafx.scene.input.PickResult pickResult) {
         RotateEventBuilder builder = new RotateEventBuilder();
         builder.constructorArgs = new Object[]{source, target, eventType, x, y, screenX, screenY, shiftDown, controlDown, altDown, metaDown, direct, inertia, angle, totalAngle, pickResult};
@@ -41,12 +40,11 @@ public class RotateEventBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.RotateEvent#RotateEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult) RotateEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.RotateEvent#RotateEvent(javafx.event.EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, javafx.scene.input.PickResult) RotateEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
      * and returns an instance of {@code RotateEventBuilder}.
      *
      * @return an instance of the {@code RotateEventBuilder}.
      */
-    
     public static RotateEventBuilder create(javafx.event.EventType<javafx.scene.input.RotateEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, boolean inertia, double angle, double totalAngle, javafx.scene.input.PickResult pickResult) {
         RotateEventBuilder builder = new RotateEventBuilder();
         builder.constructorArgs = new Object[]{eventType, x, y, screenX, screenY, shiftDown, controlDown, altDown, metaDown, direct, inertia, angle, totalAngle, pickResult};

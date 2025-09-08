@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class PhongMaterialBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.paint.PhongMaterial>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.paint.PhongMaterial>> operations = new java.util.ArrayList<>();
     private PhongMaterialBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class PhongMaterialBuilder {
     public static PhongMaterialBuilder create() { return new PhongMaterialBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.paint.PhongMaterial#PhongMaterial(Color) PhongMaterial(Color)}
+     * Accepts the constructor arguments of {@link javafx.scene.paint.PhongMaterial#PhongMaterial(javafx.scene.paint.Color) PhongMaterial(Color)}
      * and returns an instance of {@code PhongMaterialBuilder}.
      *
      * @return an instance of the {@code PhongMaterialBuilder}.
      */
-    
     public static PhongMaterialBuilder create(javafx.scene.paint.Color diffuseColor) {
         PhongMaterialBuilder builder = new PhongMaterialBuilder();
         builder.constructorArgs = new Object[]{diffuseColor};
@@ -48,12 +47,11 @@ public class PhongMaterialBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.paint.PhongMaterial#PhongMaterial(Color, Image, Image, Image, Image) PhongMaterial(Color, Image, Image, Image, Image)}
+     * Accepts the constructor arguments of {@link javafx.scene.paint.PhongMaterial#PhongMaterial(javafx.scene.paint.Color, javafx.scene.image.Image, javafx.scene.image.Image, javafx.scene.image.Image, javafx.scene.image.Image) PhongMaterial(Color, Image, Image, Image, Image)}
      * and returns an instance of {@code PhongMaterialBuilder}.
      *
      * @return an instance of the {@code PhongMaterialBuilder}.
      */
-    
     public static PhongMaterialBuilder create(javafx.scene.paint.Color diffuseColor, javafx.scene.image.Image diffuseMap, javafx.scene.image.Image specularMap, javafx.scene.image.Image bumpMap, javafx.scene.image.Image selfIlluminationMap) {
         PhongMaterialBuilder builder = new PhongMaterialBuilder();
         builder.constructorArgs = new Object[]{diffuseColor, diffuseMap, specularMap, bumpMap, selfIlluminationMap};

@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TreeTablePositionBuilder<S, T> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.TreeTablePosition<S, T>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.TreeTablePosition<S, T>>> operations = new java.util.ArrayList<>();
     private TreeTablePositionBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TreeTablePosition#TreeTablePosition(TreeTableView, int, TreeTableColumn) TreeTablePosition(TreeTableView, int, TreeTableColumn)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeTablePosition#TreeTablePosition(javafx.scene.control.TreeTableView, int, javafx.scene.control.TreeTableColumn) TreeTablePosition(TreeTableView, int, TreeTableColumn)}
      * and returns an instance of {@code TreeTablePositionBuilder<S, T>}.
      *
      * @return an instance of the {@code TreeTablePositionBuilder<S, T>}.
      */
-    
     public static <S, T> TreeTablePositionBuilder<S, T> create(javafx.scene.control.TreeTableView<S> treeTableView, int row, javafx.scene.control.TreeTableColumn<S, T> tableColumn) {
         TreeTablePositionBuilder<S, T> builder = new TreeTablePositionBuilder<S, T>();
         builder.constructorArgs = new Object[]{treeTableView, row, tableColumn};
@@ -43,7 +42,7 @@ public class TreeTablePositionBuilder<S, T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TreeTablePosition<S, T>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TreeTablePosition} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

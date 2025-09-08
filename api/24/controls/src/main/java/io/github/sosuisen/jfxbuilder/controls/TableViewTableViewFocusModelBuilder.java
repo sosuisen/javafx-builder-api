@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TableViewTableViewFocusModelBuilder<S> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.TableView.TableViewFocusModel<S>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.TableView.TableViewFocusModel<S>>> operations = new java.util.ArrayList<>();
     private TableViewTableViewFocusModelBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TableView.TableViewFocusModel#TableViewFocusModel(TableView) TableViewFocusModel(TableView)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TableView.TableViewFocusModel#TableViewFocusModel(javafx.scene.control.TableView) TableViewFocusModel(TableView)}
      * and returns an instance of {@code TableViewTableViewFocusModelBuilder<S>}.
      *
      * @return an instance of the {@code TableViewTableViewFocusModelBuilder<S>}.
      */
-    
     public static <S> TableViewTableViewFocusModelBuilder<S> create(javafx.scene.control.TableView<S> tableView) {
         TableViewTableViewFocusModelBuilder<S> builder = new TableViewTableViewFocusModelBuilder<S>();
         builder.constructorArgs = new Object[]{tableView};
@@ -43,7 +42,7 @@ public class TableViewTableViewFocusModelBuilder<S> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TableView.TableViewFocusModel<S>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TableView.TableViewFocusModel} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

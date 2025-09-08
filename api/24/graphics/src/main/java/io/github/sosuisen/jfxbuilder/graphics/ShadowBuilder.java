@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class ShadowBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.Shadow>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.Shadow>> operations = new java.util.ArrayList<>();
     private ShadowBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class ShadowBuilder {
     public static ShadowBuilder create() { return new ShadowBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.effect.Shadow#Shadow(double, Color) Shadow(double, Color)}
+     * Accepts the constructor arguments of {@link javafx.scene.effect.Shadow#Shadow(double, javafx.scene.paint.Color) Shadow(double, Color)}
      * and returns an instance of {@code ShadowBuilder}.
      *
      * @return an instance of the {@code ShadowBuilder}.
      */
-    
     public static ShadowBuilder create(double radius, javafx.scene.paint.Color color) {
         ShadowBuilder builder = new ShadowBuilder();
         builder.constructorArgs = new Object[]{radius, color};
@@ -48,12 +47,11 @@ public class ShadowBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.effect.Shadow#Shadow(BlurType, Color, double) Shadow(BlurType, Color, double)}
+     * Accepts the constructor arguments of {@link javafx.scene.effect.Shadow#Shadow(javafx.scene.effect.BlurType, javafx.scene.paint.Color, double) Shadow(BlurType, Color, double)}
      * and returns an instance of {@code ShadowBuilder}.
      *
      * @return an instance of the {@code ShadowBuilder}.
      */
-    
     public static ShadowBuilder create(javafx.scene.effect.BlurType blurType, javafx.scene.paint.Color color, double radius) {
         ShadowBuilder builder = new ShadowBuilder();
         builder.constructorArgs = new Object[]{blurType, color, radius};

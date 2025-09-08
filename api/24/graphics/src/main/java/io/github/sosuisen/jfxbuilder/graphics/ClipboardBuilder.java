@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class ClipboardBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.Clipboard>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.Clipboard>> operations = new java.util.ArrayList<>();
     private ClipboardBuilder() {}
     
     private Object[] constructorArgs;

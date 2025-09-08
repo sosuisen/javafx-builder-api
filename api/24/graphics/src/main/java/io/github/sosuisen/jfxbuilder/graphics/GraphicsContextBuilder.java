@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class GraphicsContextBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.canvas.GraphicsContext>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.canvas.GraphicsContext>> operations = new java.util.ArrayList<>();
     private GraphicsContextBuilder() {}
     
     private Object[] constructorArgs;

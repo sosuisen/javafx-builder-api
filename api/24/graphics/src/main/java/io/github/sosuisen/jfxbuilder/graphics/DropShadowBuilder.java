@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class DropShadowBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.DropShadow>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.DropShadow>> operations = new java.util.ArrayList<>();
     private DropShadowBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class DropShadowBuilder {
     public static DropShadowBuilder create() { return new DropShadowBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.effect.DropShadow#DropShadow(double, double, double, Color) DropShadow(double, double, double, Color)}
+     * Accepts the constructor arguments of {@link javafx.scene.effect.DropShadow#DropShadow(double, double, double, javafx.scene.paint.Color) DropShadow(double, double, double, Color)}
      * and returns an instance of {@code DropShadowBuilder}.
      *
      * @return an instance of the {@code DropShadowBuilder}.
      */
-    
     public static DropShadowBuilder create(double radius, double offsetX, double offsetY, javafx.scene.paint.Color color) {
         DropShadowBuilder builder = new DropShadowBuilder();
         builder.constructorArgs = new Object[]{radius, offsetX, offsetY, color};
@@ -48,12 +47,11 @@ public class DropShadowBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.effect.DropShadow#DropShadow(double, Color) DropShadow(double, Color)}
+     * Accepts the constructor arguments of {@link javafx.scene.effect.DropShadow#DropShadow(double, javafx.scene.paint.Color) DropShadow(double, Color)}
      * and returns an instance of {@code DropShadowBuilder}.
      *
      * @return an instance of the {@code DropShadowBuilder}.
      */
-    
     public static DropShadowBuilder create(double radius, javafx.scene.paint.Color color) {
         DropShadowBuilder builder = new DropShadowBuilder();
         builder.constructorArgs = new Object[]{radius, color};
@@ -61,12 +59,11 @@ public class DropShadowBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.effect.DropShadow#DropShadow(BlurType, Color, double, double, double, double) DropShadow(BlurType, Color, double, double, double, double)}
+     * Accepts the constructor arguments of {@link javafx.scene.effect.DropShadow#DropShadow(javafx.scene.effect.BlurType, javafx.scene.paint.Color, double, double, double, double) DropShadow(BlurType, Color, double, double, double, double)}
      * and returns an instance of {@code DropShadowBuilder}.
      *
      * @return an instance of the {@code DropShadowBuilder}.
      */
-    
     public static DropShadowBuilder create(javafx.scene.effect.BlurType blurType, javafx.scene.paint.Color color, double radius, double spread, double offsetX, double offsetY) {
         DropShadowBuilder builder = new DropShadowBuilder();
         builder.constructorArgs = new Object[]{blurType, color, radius, spread, offsetX, offsetY};

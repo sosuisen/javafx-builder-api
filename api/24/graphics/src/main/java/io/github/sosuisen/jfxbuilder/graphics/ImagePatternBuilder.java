@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class ImagePatternBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.paint.ImagePattern>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.paint.ImagePattern>> operations = new java.util.ArrayList<>();
     private ImagePatternBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.paint.ImagePattern#ImagePattern(Image) ImagePattern(Image)}
+     * Accepts the constructor arguments of {@link javafx.scene.paint.ImagePattern#ImagePattern(javafx.scene.image.Image) ImagePattern(Image)}
      * and returns an instance of {@code ImagePatternBuilder}.
      *
      * @return an instance of the {@code ImagePatternBuilder}.
      */
-    
     public static ImagePatternBuilder create(javafx.scene.image.Image image) {
         ImagePatternBuilder builder = new ImagePatternBuilder();
         builder.constructorArgs = new Object[]{image};
@@ -41,12 +40,11 @@ public class ImagePatternBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.paint.ImagePattern#ImagePattern(Image, double, double, double, double, boolean) ImagePattern(Image, double, double, double, double, boolean)}
+     * Accepts the constructor arguments of {@link javafx.scene.paint.ImagePattern#ImagePattern(javafx.scene.image.Image, double, double, double, double, boolean) ImagePattern(Image, double, double, double, double, boolean)}
      * and returns an instance of {@code ImagePatternBuilder}.
      *
      * @return an instance of the {@code ImagePatternBuilder}.
      */
-    
     public static ImagePatternBuilder create(javafx.scene.image.Image image, double x, double y, double width, double height, boolean proportional) {
         ImagePatternBuilder builder = new ImagePatternBuilder();
         builder.constructorArgs = new Object[]{image, x, y, width, height, proportional};
