@@ -427,11 +427,11 @@ public class ProgressBarTableCellBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTableCell#setItem(Double) setItem} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTableCell#setItem(java.lang.Double) setItem} method on the instance being constructed.
      *
      * @return builder instance
      */
-    public  ProgressBarTableCellBuilder<S> item(Double value) {
+    public  ProgressBarTableCellBuilder<S> item(java.lang.Double value) {
         operations.add(obj -> obj.setItem(value));
         return this;
     }
@@ -3120,7 +3120,7 @@ public class ProgressBarTableCellBuilder<S> {
      *
      * @return builder instance
      */
-    public ProgressBarTableCellBuilder<S> itemPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<Double>> op) {
+    public ProgressBarTableCellBuilder<S> itemPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Double>> op) {
         operations.add(obj -> op.accept(obj.itemProperty()));
         return this;
     }
@@ -4792,7 +4792,7 @@ public class ProgressBarTableCellBuilder<S> {
      *
      * @return builder instance
      */
-    public ProgressBarTableCellBuilder<S> tableColumnPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TableColumn<S, Double>>> op) {
+    public ProgressBarTableCellBuilder<S> tableColumnPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TableColumn<S, java.lang.Double>>> op) {
         operations.add(obj -> op.accept(obj.tableColumnProperty()));
         return this;
     }

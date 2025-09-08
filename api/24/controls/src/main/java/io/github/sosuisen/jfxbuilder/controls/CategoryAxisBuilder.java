@@ -1312,7 +1312,7 @@ public class CategoryAxisBuilder {
      * @return builder instance
      */
     @SafeVarargs
-    public final CategoryAxisBuilder addTickMarks(javafx.scene.chart.Axis.TickMark<String>... elements) {
+    public final CategoryAxisBuilder addTickMarks(javafx.scene.chart.Axis.TickMark<java.lang.String>... elements) {
         operations.add(obj -> obj.getTickMarks().addAll(elements));
         return this;
     }
@@ -1322,7 +1322,7 @@ public class CategoryAxisBuilder {
      * 
      * @return builder instance
      */
-    public final CategoryAxisBuilder addTickMarks(java.util.Collection<? extends javafx.scene.chart.Axis.TickMark<String>> col) {
+    public final CategoryAxisBuilder addTickMarks(java.util.Collection<? extends javafx.scene.chart.Axis.TickMark<java.lang.String>> col) {
         operations.add(obj -> obj.getTickMarks().addAll(col));
         return this;
     }
@@ -1333,7 +1333,7 @@ public class CategoryAxisBuilder {
      * @return builder instance
      */
     @SafeVarargs
-    public static CategoryAxisBuilder withTickMarks(javafx.scene.chart.Axis.TickMark<String>... elements) {
+    public static CategoryAxisBuilder withTickMarks(javafx.scene.chart.Axis.TickMark<java.lang.String>... elements) {
         CategoryAxisBuilder builder = new CategoryAxisBuilder();
         return builder.addTickMarks(elements);
     }
@@ -1343,7 +1343,7 @@ public class CategoryAxisBuilder {
      * 
      * @return builder instance
      */
-    public static CategoryAxisBuilder withTickMarks(java.util.Collection<? extends javafx.scene.chart.Axis.TickMark<String>> col) {
+    public static CategoryAxisBuilder withTickMarks(java.util.Collection<? extends javafx.scene.chart.Axis.TickMark<java.lang.String>> col) {
         CategoryAxisBuilder builder = new CategoryAxisBuilder();
         return builder.addTickMarks(col);
     }

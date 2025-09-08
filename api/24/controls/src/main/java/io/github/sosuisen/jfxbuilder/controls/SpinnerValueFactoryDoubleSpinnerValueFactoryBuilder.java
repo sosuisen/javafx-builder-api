@@ -177,7 +177,7 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
      *
      * @return builder instance
      */
-    public  SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder converter(javafx.util.StringConverter<Double> newValue) {
+    public  SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder converter(javafx.util.StringConverter<java.lang.Double> newValue) {
         operations.add(obj -> obj.setConverter(newValue));
         return this;
     }
@@ -203,11 +203,11 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#setValue(Double) setValue} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#setValue(java.lang.Double) setValue} method on the instance being constructed.
      *
      * @return builder instance
      */
-    public  SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder value(Double newValue) {
+    public  SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder value(java.lang.Double newValue) {
         operations.add(obj -> obj.setValue(newValue));
         return this;
     }
@@ -261,7 +261,7 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
      *
      * @return builder instance
      */
-    public SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<Double>>> op) {
+    public SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<java.lang.Double>>> op) {
         operations.add(obj -> op.accept(obj.converterProperty()));
         return this;
     }
@@ -327,7 +327,7 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
      *
      * @return builder instance
      */
-    public SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<Double>> op) {
+    public SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Double>> op) {
         operations.add(obj -> op.accept(obj.valueProperty()));
         return this;
     }
