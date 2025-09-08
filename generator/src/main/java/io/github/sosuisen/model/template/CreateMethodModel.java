@@ -54,8 +54,14 @@ public record CreateMethodModel(
             String parameterListSimpleTypesOnly = "";
             String argumentList = "";
             boolean isVarArgs = constructor.isVarArgs();
-            boolean hasTypeParameter = constructor.getGenericParameterTypes().length > 0;
-            boolean isSafeVarargs = isVarArgs && hasTypeParameter;
+            boolean hasTypeParameter = false;
+            for (var type : types) {
+                if (type.getTypeName().contains("<")) {
+                    hasTypeParameter = true;
+                    break;
+                }
+            }
+            final boolean isSafeVarargs = isVarArgs && hasTypeParameter;
 
             if (!isDefaultConstructor) {
                 parameterList = ParameterStringBuilder.buildParameterListWithTypes(
@@ -64,9 +70,15 @@ public record CreateMethodModel(
                     isVarArgs
                 );
                 parameterListTypesOnly =
-                    ParameterStringBuilder.buildParameterListCanonicalTypesOnly(types);
+                    ParameterStringBuilder.buildParameterListCanonicalTypesOnly(
+                        types,
+                        classMetadata.getCanonicalClassName()
+                    );
                 parameterListSimpleTypesOnly =
-                    ParameterStringBuilder.buildParameterListSimpleTypesOnly(types);
+                    ParameterStringBuilder.buildParameterListSimpleTypesOnly(
+                        types,
+                        classMetadata.getCanonicalClassName()
+                    );
                 argumentList = ParameterStringBuilder.buildParameterListNamesOnly(parameters);
             }
 
