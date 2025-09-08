@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class InputMethodTextRunBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.InputMethodTextRun>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.InputMethodTextRun>> operations = new java.util.ArrayList<>();
     private InputMethodTextRunBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.InputMethodTextRun#InputMethodTextRun(String, InputMethodHighlight) InputMethodTextRun(String, InputMethodHighlight)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.InputMethodTextRun#InputMethodTextRun(java.lang.String, javafx.scene.input.InputMethodHighlight) InputMethodTextRun(String, InputMethodHighlight)}
      * and returns an instance of {@code InputMethodTextRunBuilder}.
      *
      * @return an instance of the {@code InputMethodTextRunBuilder}.
      */
-    
     public static InputMethodTextRunBuilder create(java.lang.String text, javafx.scene.input.InputMethodHighlight highlight) {
         InputMethodTextRunBuilder builder = new InputMethodTextRunBuilder();
         builder.constructorArgs = new Object[]{text, highlight};

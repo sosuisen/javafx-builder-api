@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class RadioMenuItemBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.RadioMenuItem>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.RadioMenuItem>> operations = new java.util.ArrayList<>();
     private RadioMenuItemBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class RadioMenuItemBuilder {
     public static RadioMenuItemBuilder create() { return new RadioMenuItemBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.RadioMenuItem#RadioMenuItem(String) RadioMenuItem(String)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.RadioMenuItem#RadioMenuItem(java.lang.String) RadioMenuItem(String)}
      * and returns an instance of {@code RadioMenuItemBuilder}.
      *
      * @return an instance of the {@code RadioMenuItemBuilder}.
      */
-    
     public static RadioMenuItemBuilder create(java.lang.String text) {
         RadioMenuItemBuilder builder = new RadioMenuItemBuilder();
         builder.constructorArgs = new Object[]{text};
@@ -48,12 +47,11 @@ public class RadioMenuItemBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.RadioMenuItem#RadioMenuItem(String, Node) RadioMenuItem(String, Node)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.RadioMenuItem#RadioMenuItem(java.lang.String, javafx.scene.Node) RadioMenuItem(String, Node)}
      * and returns an instance of {@code RadioMenuItemBuilder}.
      *
      * @return an instance of the {@code RadioMenuItemBuilder}.
      */
-    
     public static RadioMenuItemBuilder create(java.lang.String text, javafx.scene.Node graphic) {
         RadioMenuItemBuilder builder = new RadioMenuItemBuilder();
         builder.constructorArgs = new Object[]{text, graphic};
@@ -296,27 +294,22 @@ public class RadioMenuItemBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioMenuItem#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioMenuItem#getStyleClass()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final RadioMenuItemBuilder addStyleClass(java.lang.String... elements) {
-        operations.add(obj -> {
-            obj.getStyleClass().addAll(elements);
-        });
+        operations.add(obj -> obj.getStyleClass().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioMenuItem#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioMenuItem#getStyleClass()} method.
      * 
      * @return builder instance
      */
     public final RadioMenuItemBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
-        operations.add(obj -> {
-            obj.getStyleClass().addAll(col);
-        });
+        operations.add(obj -> obj.getStyleClass().addAll(col));
         return this;
     }
 

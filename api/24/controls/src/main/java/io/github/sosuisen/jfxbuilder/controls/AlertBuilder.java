@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class AlertBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.Alert>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.Alert>> operations = new java.util.ArrayList<>();
     private AlertBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.Alert#Alert(Alert$AlertType) Alert(Alert$AlertType)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.Alert#Alert(javafx.scene.control.Alert.AlertType) Alert(Alert.AlertType)}
      * and returns an instance of {@code AlertBuilder}.
      *
      * @return an instance of the {@code AlertBuilder}.
      */
-    
     public static AlertBuilder create(javafx.scene.control.Alert.AlertType alertType) {
         AlertBuilder builder = new AlertBuilder();
         builder.constructorArgs = new Object[]{alertType};
@@ -41,12 +40,11 @@ public class AlertBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.Alert#Alert(Alert$AlertType, String, ButtonType...) Alert(Alert$AlertType, String, ButtonType...)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.Alert#Alert(javafx.scene.control.Alert.AlertType, java.lang.String, javafx.scene.control.ButtonType...) Alert(Alert.AlertType, String, ButtonType...)}
      * and returns an instance of {@code AlertBuilder}.
      *
      * @return an instance of the {@code AlertBuilder}.
      */
-    @SafeVarargs
     public static AlertBuilder create(javafx.scene.control.Alert.AlertType alertType, java.lang.String contentText, javafx.scene.control.ButtonType... buttons) {
         AlertBuilder builder = new AlertBuilder();
         builder.constructorArgs = new Object[]{alertType, contentText, buttons};
@@ -153,7 +151,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setAlertType(javafx.scene.control.Alert$AlertType) setAlertType} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setAlertType(javafx.scene.control.Alert.AlertType) setAlertType} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -333,27 +331,22 @@ public class AlertBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Alert#getButtonTypes()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Alert#getButtonTypes()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final AlertBuilder addButtonTypes(javafx.scene.control.ButtonType... elements) {
-        operations.add(obj -> {
-            obj.getButtonTypes().addAll(elements);
-        });
+        operations.add(obj -> obj.getButtonTypes().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Alert#getButtonTypes()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Alert#getButtonTypes()} method.
      * 
      * @return builder instance
      */
     public final AlertBuilder addButtonTypes(java.util.Collection<? extends javafx.scene.control.ButtonType> col) {
-        operations.add(obj -> {
-            obj.getButtonTypes().addAll(col);
-        });
+        operations.add(obj -> obj.getButtonTypes().addAll(col));
         return this;
     }
 

@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 @SuppressWarnings("rawtypes")
 public class TreeTableViewEditEventBuilder<S> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.TreeTableView.EditEvent<S>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.TreeTableView.EditEvent<S>>> operations = new java.util.ArrayList<>();
     private TreeTableViewEditEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TreeTableView.EditEvent#EditEvent(TreeTableView, EventType, TreeItem, Object, Object) EditEvent(TreeTableView, EventType, TreeItem, Object, Object)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeTableView.EditEvent#EditEvent(javafx.scene.control.TreeTableView, javafx.event.EventType, javafx.scene.control.TreeItem, java.lang.Object, java.lang.Object) EditEvent(TreeTableView, EventType, TreeItem, Object, Object)}
      * and returns an instance of {@code TreeTableViewEditEventBuilder<S>}.
      *
      * @return an instance of the {@code TreeTableViewEditEventBuilder<S>}.
      */
-    
     public static <S> TreeTableViewEditEventBuilder<S> create(javafx.scene.control.TreeTableView<S> source, javafx.event.EventType<? extends javafx.scene.control.TreeTableView.EditEvent> eventType, javafx.scene.control.TreeItem<S> treeItem, S oldValue, S newValue) {
         TreeTableViewEditEventBuilder<S> builder = new TreeTableViewEditEventBuilder<S>();
         builder.constructorArgs = new Object[]{source, eventType, treeItem, oldValue, newValue};
@@ -43,7 +42,7 @@ public class TreeTableViewEditEventBuilder<S> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TreeTableView.EditEvent<S>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TreeTableView.EditEvent} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

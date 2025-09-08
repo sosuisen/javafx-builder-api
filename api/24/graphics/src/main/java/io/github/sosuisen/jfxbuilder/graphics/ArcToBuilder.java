@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class ArcToBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.shape.ArcTo>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.shape.ArcTo>> operations = new java.util.ArrayList<>();
     private ArcToBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class ArcToBuilder {
      *
      * @return an instance of the {@code ArcToBuilder}.
      */
-    
     public static ArcToBuilder create(double radiusX, double radiusY, double xAxisRotation, double x, double y, boolean largeArcFlag, boolean sweepFlag) {
         ArcToBuilder builder = new ArcToBuilder();
         builder.constructorArgs = new Object[]{radiusX, radiusY, xAxisRotation, x, y, largeArcFlag, sweepFlag};

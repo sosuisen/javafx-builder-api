@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class RadioButtonSkinBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.RadioButtonSkin>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.skin.RadioButtonSkin>> operations = new java.util.ArrayList<>();
     private RadioButtonSkinBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.skin.RadioButtonSkin#RadioButtonSkin(RadioButton) RadioButtonSkin(RadioButton)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.RadioButtonSkin#RadioButtonSkin(javafx.scene.control.RadioButton) RadioButtonSkin(RadioButton)}
      * and returns an instance of {@code RadioButtonSkinBuilder}.
      *
      * @return an instance of the {@code RadioButtonSkinBuilder}.
      */
-    
     public static RadioButtonSkinBuilder create(javafx.scene.control.RadioButton control) {
         RadioButtonSkinBuilder builder = new RadioButtonSkinBuilder();
         builder.constructorArgs = new Object[]{control};
@@ -140,27 +139,22 @@ public class RadioButtonSkinBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.RadioButtonSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.RadioButtonSkin#getChildren()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final RadioButtonSkinBuilder addChildren(javafx.scene.Node... elements) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(elements);
-        });
+        operations.add(obj -> obj.getChildren().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.RadioButtonSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.RadioButtonSkin#getChildren()} method.
      * 
      * @return builder instance
      */
     public final RadioButtonSkinBuilder addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(col);
-        });
+        operations.add(obj -> obj.getChildren().addAll(col));
         return this;
     }
 }

@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory<T>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory<T>>> operations = new java.util.ArrayList<>();
     private SpinnerValueFactoryListSpinnerValueFactoryBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#ListSpinnerValueFactory(ObservableList) ListSpinnerValueFactory(ObservableList)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#ListSpinnerValueFactory(javafx.collections.ObservableList) ListSpinnerValueFactory(ObservableList)}
      * and returns an instance of {@code SpinnerValueFactoryListSpinnerValueFactoryBuilder<T>}.
      *
      * @return an instance of the {@code SpinnerValueFactoryListSpinnerValueFactoryBuilder<T>}.
      */
-    
     public static <T> SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> create(javafx.collections.ObservableList<T> items) {
         SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> builder = new SpinnerValueFactoryListSpinnerValueFactoryBuilder<T>();
         builder.constructorArgs = new Object[]{items};
@@ -43,7 +42,7 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory<T>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method
@@ -182,27 +181,22 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#getItems()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#getItems()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> addItems(T... elements) {
-        operations.add(obj -> {
-            obj.getItems().addAll(elements);
-        });
+        operations.add(obj -> obj.getItems().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#getItems()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#getItems()} method.
      * 
      * @return builder instance
      */
     public final SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> addItems(java.util.Collection<? extends T> col) {
-        operations.add(obj -> {
-            obj.getItems().addAll(col);
-        });
+        operations.add(obj -> obj.getItems().addAll(col));
         return this;
     }
 

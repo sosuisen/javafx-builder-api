@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class BackgroundSizeBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.layout.BackgroundSize>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.layout.BackgroundSize>> operations = new java.util.ArrayList<>();
     private BackgroundSizeBuilder() {}
     
     /**
@@ -33,7 +33,6 @@ public class BackgroundSizeBuilder {
      *
      * @return an instance of the {@code BackgroundSizeBuilder}.
      */
-    
     public static BackgroundSizeBuilder create(double width, double height, boolean widthAsPercentage, boolean heightAsPercentage, boolean contain, boolean cover) {
         BackgroundSizeBuilder builder = new BackgroundSizeBuilder();
         builder.constructorArgs = new Object[]{width, height, widthAsPercentage, heightAsPercentage, contain, cover};

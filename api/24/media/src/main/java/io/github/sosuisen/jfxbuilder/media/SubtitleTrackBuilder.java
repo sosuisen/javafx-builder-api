@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.media;
  */
 
 public class SubtitleTrackBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.media.SubtitleTrack>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.media.SubtitleTrack>> operations = new java.util.ArrayList<>();
     private SubtitleTrackBuilder() {}
     
     private Object[] constructorArgs;

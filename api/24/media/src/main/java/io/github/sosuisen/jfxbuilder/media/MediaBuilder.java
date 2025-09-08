@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.media;
  */
 
 public class MediaBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.media.Media>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.media.Media>> operations = new java.util.ArrayList<>();
     private MediaBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.media.Media#Media(String) Media(String)}
+     * Accepts the constructor arguments of {@link javafx.scene.media.Media#Media(java.lang.String) Media(String)}
      * and returns an instance of {@code MediaBuilder}.
      *
      * @return an instance of the {@code MediaBuilder}.
      */
-    
     public static MediaBuilder create(java.lang.String source) {
         MediaBuilder builder = new MediaBuilder();
         builder.constructorArgs = new Object[]{source};
@@ -150,27 +149,22 @@ public class MediaBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.media.Media#getTracks()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.media.Media#getTracks()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final MediaBuilder addTracks(javafx.scene.media.Track... elements) {
-        operations.add(obj -> {
-            obj.getTracks().addAll(elements);
-        });
+        operations.add(obj -> obj.getTracks().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.media.Media#getTracks()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.media.Media#getTracks()} method.
      * 
      * @return builder instance
      */
     public final MediaBuilder addTracks(java.util.Collection<? extends javafx.scene.media.Track> col) {
-        operations.add(obj -> {
-            obj.getTracks().addAll(col);
-        });
+        operations.add(obj -> obj.getTracks().addAll(col));
         return this;
     }
 

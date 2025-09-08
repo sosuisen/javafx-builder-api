@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class ScaleBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.transform.Scale>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.transform.Scale>> operations = new java.util.ArrayList<>();
     private ScaleBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class ScaleBuilder {
      *
      * @return an instance of the {@code ScaleBuilder}.
      */
-    
     public static ScaleBuilder create(double x, double y) {
         ScaleBuilder builder = new ScaleBuilder();
         builder.constructorArgs = new Object[]{x, y};
@@ -53,7 +52,6 @@ public class ScaleBuilder {
      *
      * @return an instance of the {@code ScaleBuilder}.
      */
-    
     public static ScaleBuilder create(double x, double y, double z) {
         ScaleBuilder builder = new ScaleBuilder();
         builder.constructorArgs = new Object[]{x, y, z};
@@ -66,7 +64,6 @@ public class ScaleBuilder {
      *
      * @return an instance of the {@code ScaleBuilder}.
      */
-    
     public static ScaleBuilder create(double x, double y, double pivotX, double pivotY) {
         ScaleBuilder builder = new ScaleBuilder();
         builder.constructorArgs = new Object[]{x, y, pivotX, pivotY};
@@ -79,7 +76,6 @@ public class ScaleBuilder {
      *
      * @return an instance of the {@code ScaleBuilder}.
      */
-    
     public static ScaleBuilder create(double x, double y, double z, double pivotX, double pivotY, double pivotZ) {
         ScaleBuilder builder = new ScaleBuilder();
         builder.constructorArgs = new Object[]{x, y, z, pivotX, pivotY, pivotZ};

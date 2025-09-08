@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TooltipBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.Tooltip>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.Tooltip>> operations = new java.util.ArrayList<>();
     private TooltipBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class TooltipBuilder {
     public static TooltipBuilder create() { return new TooltipBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.Tooltip#Tooltip(String) Tooltip(String)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.Tooltip#Tooltip(java.lang.String) Tooltip(String)}
      * and returns an instance of {@code TooltipBuilder}.
      *
      * @return an instance of the {@code TooltipBuilder}.
      */
-    
     public static TooltipBuilder create(java.lang.String text) {
         TooltipBuilder builder = new TooltipBuilder();
         builder.constructorArgs = new Object[]{text};
@@ -153,7 +152,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setAnchorLocation(javafx.stage.PopupWindow$AnchorLocation) setAnchorLocation} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setAnchorLocation(javafx.stage.PopupWindow.AnchorLocation) setAnchorLocation} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -613,27 +612,22 @@ public class TooltipBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Tooltip#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Tooltip#getStyleClass()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final TooltipBuilder addStyleClass(java.lang.String... elements) {
-        operations.add(obj -> {
-            obj.getStyleClass().addAll(elements);
-        });
+        operations.add(obj -> obj.getStyleClass().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Tooltip#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Tooltip#getStyleClass()} method.
      * 
      * @return builder instance
      */
     public final TooltipBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
-        operations.add(obj -> {
-            obj.getStyleClass().addAll(col);
-        });
+        operations.add(obj -> obj.getStyleClass().addAll(col));
         return this;
     }
 

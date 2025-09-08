@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class BorderRepeatBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.layout.BorderRepeat>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.layout.BorderRepeat>> operations = new java.util.ArrayList<>();
     private BorderRepeatBuilder() {}
     
     private Object[] constructorArgs;

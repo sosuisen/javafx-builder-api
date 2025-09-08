@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class StrokeLineJoinBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.shape.StrokeLineJoin>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.shape.StrokeLineJoin>> operations = new java.util.ArrayList<>();
     private StrokeLineJoinBuilder() {}
     
     private Object[] constructorArgs;

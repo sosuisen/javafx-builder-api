@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class ButtonTypeBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.ButtonType>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.ButtonType>> operations = new java.util.ArrayList<>();
     private ButtonTypeBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.ButtonType#ButtonType(String) ButtonType(String)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.ButtonType#ButtonType(java.lang.String) ButtonType(String)}
      * and returns an instance of {@code ButtonTypeBuilder}.
      *
      * @return an instance of the {@code ButtonTypeBuilder}.
      */
-    
     public static ButtonTypeBuilder create(java.lang.String text) {
         ButtonTypeBuilder builder = new ButtonTypeBuilder();
         builder.constructorArgs = new Object[]{text};
@@ -41,12 +40,11 @@ public class ButtonTypeBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.ButtonType#ButtonType(String, ButtonBar$ButtonData) ButtonType(String, ButtonBar$ButtonData)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.ButtonType#ButtonType(java.lang.String, javafx.scene.control.ButtonBar.ButtonData) ButtonType(String, ButtonBar.ButtonData)}
      * and returns an instance of {@code ButtonTypeBuilder}.
      *
      * @return an instance of the {@code ButtonTypeBuilder}.
      */
-    
     public static ButtonTypeBuilder create(java.lang.String text, javafx.scene.control.ButtonBar.ButtonData buttonData) {
         ButtonTypeBuilder builder = new ButtonTypeBuilder();
         builder.constructorArgs = new Object[]{text, buttonData};

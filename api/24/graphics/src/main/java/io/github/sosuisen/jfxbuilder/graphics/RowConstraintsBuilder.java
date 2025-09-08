@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class RowConstraintsBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.layout.RowConstraints>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.layout.RowConstraints>> operations = new java.util.ArrayList<>();
     private RowConstraintsBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class RowConstraintsBuilder {
      *
      * @return an instance of the {@code RowConstraintsBuilder}.
      */
-    
     public static RowConstraintsBuilder create(double height) {
         RowConstraintsBuilder builder = new RowConstraintsBuilder();
         builder.constructorArgs = new Object[]{height};
@@ -53,7 +52,6 @@ public class RowConstraintsBuilder {
      *
      * @return an instance of the {@code RowConstraintsBuilder}.
      */
-    
     public static RowConstraintsBuilder create(double minHeight, double prefHeight, double maxHeight) {
         RowConstraintsBuilder builder = new RowConstraintsBuilder();
         builder.constructorArgs = new Object[]{minHeight, prefHeight, maxHeight};
@@ -61,12 +59,11 @@ public class RowConstraintsBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.layout.RowConstraints#RowConstraints(double, double, double, Priority, VPos, boolean) RowConstraints(double, double, double, Priority, VPos, boolean)}
+     * Accepts the constructor arguments of {@link javafx.scene.layout.RowConstraints#RowConstraints(double, double, double, javafx.scene.layout.Priority, javafx.geometry.VPos, boolean) RowConstraints(double, double, double, Priority, VPos, boolean)}
      * and returns an instance of {@code RowConstraintsBuilder}.
      *
      * @return an instance of the {@code RowConstraintsBuilder}.
      */
-    
     public static RowConstraintsBuilder create(double minHeight, double prefHeight, double maxHeight, javafx.scene.layout.Priority vgrow, javafx.geometry.VPos valignment, boolean fillHeight) {
         RowConstraintsBuilder builder = new RowConstraintsBuilder();
         builder.constructorArgs = new Object[]{minHeight, prefHeight, maxHeight, vgrow, valignment, fillHeight};

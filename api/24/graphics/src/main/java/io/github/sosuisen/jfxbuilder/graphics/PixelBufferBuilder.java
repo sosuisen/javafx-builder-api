@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class PixelBufferBuilder<T extends java.nio.Buffer> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.image.PixelBuffer<T>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.image.PixelBuffer<T>>> operations = new java.util.ArrayList<>();
     private PixelBufferBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.image.PixelBuffer#PixelBuffer(int, int, Buffer, PixelFormat) PixelBuffer(int, int, Buffer, PixelFormat)}
+     * Accepts the constructor arguments of {@link javafx.scene.image.PixelBuffer#PixelBuffer(int, int, java.nio.Buffer, javafx.scene.image.PixelFormat) PixelBuffer(int, int, Buffer, PixelFormat)}
      * and returns an instance of {@code PixelBufferBuilder<T>}.
      *
      * @return an instance of the {@code PixelBufferBuilder<T>}.
      */
-    
     public static <T extends java.nio.Buffer> PixelBufferBuilder<T> create(int width, int height, T buffer, javafx.scene.image.PixelFormat<T> pixelFormat) {
         PixelBufferBuilder<T> builder = new PixelBufferBuilder<T>();
         builder.constructorArgs = new Object[]{width, height, buffer, pixelFormat};
@@ -43,7 +42,7 @@ public class PixelBufferBuilder<T extends java.nio.Buffer> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.image.PixelBuffer<T>} class.
+     * Builds and returns an instance of the {@link javafx.scene.image.PixelBuffer} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

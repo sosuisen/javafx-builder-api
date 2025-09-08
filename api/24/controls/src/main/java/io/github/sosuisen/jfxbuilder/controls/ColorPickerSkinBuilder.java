@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class ColorPickerSkinBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.ColorPickerSkin>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.skin.ColorPickerSkin>> operations = new java.util.ArrayList<>();
     private ColorPickerSkinBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.skin.ColorPickerSkin#ColorPickerSkin(ColorPicker) ColorPickerSkin(ColorPicker)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.ColorPickerSkin#ColorPickerSkin(javafx.scene.control.ColorPicker) ColorPickerSkin(ColorPicker)}
      * and returns an instance of {@code ColorPickerSkinBuilder}.
      *
      * @return an instance of the {@code ColorPickerSkinBuilder}.
      */
-    
     public static ColorPickerSkinBuilder create(javafx.scene.control.ColorPicker control) {
         ColorPickerSkinBuilder builder = new ColorPickerSkinBuilder();
         builder.constructorArgs = new Object[]{control};
@@ -140,27 +139,22 @@ public class ColorPickerSkinBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ColorPickerSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ColorPickerSkin#getChildren()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final ColorPickerSkinBuilder addChildren(javafx.scene.Node... elements) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(elements);
-        });
+        operations.add(obj -> obj.getChildren().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ColorPickerSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ColorPickerSkin#getChildren()} method.
      * 
      * @return builder instance
      */
     public final ColorPickerSkinBuilder addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(col);
-        });
+        operations.add(obj -> obj.getChildren().addAll(col));
         return this;
     }
 }

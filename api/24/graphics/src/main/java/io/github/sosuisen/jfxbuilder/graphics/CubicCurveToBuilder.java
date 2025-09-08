@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class CubicCurveToBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.shape.CubicCurveTo>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.shape.CubicCurveTo>> operations = new java.util.ArrayList<>();
     private CubicCurveToBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class CubicCurveToBuilder {
      *
      * @return an instance of the {@code CubicCurveToBuilder}.
      */
-    
     public static CubicCurveToBuilder create(double controlX1, double controlY1, double controlX2, double controlY2, double x, double y) {
         CubicCurveToBuilder builder = new CubicCurveToBuilder();
         builder.constructorArgs = new Object[]{controlX1, controlY1, controlX2, controlY2, x, y};

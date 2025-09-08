@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TabPaneTabDragPolicyBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.TabPane.TabDragPolicy>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.TabPane.TabDragPolicy>> operations = new java.util.ArrayList<>();
     private TabPaneTabDragPolicyBuilder() {}
     
     private Object[] constructorArgs;

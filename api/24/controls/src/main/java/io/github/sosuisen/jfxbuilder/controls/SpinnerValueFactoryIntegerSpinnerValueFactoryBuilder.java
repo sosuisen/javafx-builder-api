@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory>> operations = new java.util.ArrayList<>();
     private SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder() {}
     
     /**
@@ -33,7 +33,6 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
      *
      * @return an instance of the {@code SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder}.
      */
-    
     public static SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder create(int min, int max) {
         SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder builder = new SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder();
         builder.constructorArgs = new Object[]{min, max};
@@ -46,7 +45,6 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
      *
      * @return an instance of the {@code SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder}.
      */
-    
     public static SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder create(int min, int max, int initialValue) {
         SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder builder = new SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder();
         builder.constructorArgs = new Object[]{min, max, initialValue};
@@ -59,7 +57,6 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
      *
      * @return an instance of the {@code SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder}.
      */
-    
     public static SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder create(int min, int max, int initialValue, int amountToStepBy) {
         SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder builder = new SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder();
         builder.constructorArgs = new Object[]{min, max, initialValue, amountToStepBy};

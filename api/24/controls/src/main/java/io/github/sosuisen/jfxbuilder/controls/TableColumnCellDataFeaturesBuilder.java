@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TableColumnCellDataFeaturesBuilder<S, T> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.TableColumn.CellDataFeatures<S, T>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.TableColumn.CellDataFeatures<S, T>>> operations = new java.util.ArrayList<>();
     private TableColumnCellDataFeaturesBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TableColumn.CellDataFeatures#CellDataFeatures(TableView, TableColumn, Object) CellDataFeatures(TableView, TableColumn, Object)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TableColumn.CellDataFeatures#CellDataFeatures(javafx.scene.control.TableView, javafx.scene.control.TableColumn, java.lang.Object) CellDataFeatures(TableView, TableColumn, Object)}
      * and returns an instance of {@code TableColumnCellDataFeaturesBuilder<S, T>}.
      *
      * @return an instance of the {@code TableColumnCellDataFeaturesBuilder<S, T>}.
      */
-    
     public static <S, T> TableColumnCellDataFeaturesBuilder<S, T> create(javafx.scene.control.TableView<S> tableView, javafx.scene.control.TableColumn<S, T> tableColumn, S value) {
         TableColumnCellDataFeaturesBuilder<S, T> builder = new TableColumnCellDataFeaturesBuilder<S, T>();
         builder.constructorArgs = new Object[]{tableView, tableColumn, value};
@@ -43,7 +42,7 @@ public class TableColumnCellDataFeaturesBuilder<S, T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TableColumn.CellDataFeatures<S, T>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TableColumn.CellDataFeatures} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

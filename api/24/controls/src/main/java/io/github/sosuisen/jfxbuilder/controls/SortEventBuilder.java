@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class SortEventBuilder<C> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.SortEvent<C>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.SortEvent<C>>> operations = new java.util.ArrayList<>();
     private SortEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.SortEvent#SortEvent(Object, EventTarget) SortEvent(Object, EventTarget)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.SortEvent#SortEvent(java.lang.Object, javafx.event.EventTarget) SortEvent(Object, EventTarget)}
      * and returns an instance of {@code SortEventBuilder<C>}.
      *
      * @return an instance of the {@code SortEventBuilder<C>}.
      */
-    
     public static <C> SortEventBuilder<C> create(C source, javafx.event.EventTarget target) {
         SortEventBuilder<C> builder = new SortEventBuilder<C>();
         builder.constructorArgs = new Object[]{source, target};
@@ -43,7 +42,7 @@ public class SortEventBuilder<C> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.SortEvent<C>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.SortEvent} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

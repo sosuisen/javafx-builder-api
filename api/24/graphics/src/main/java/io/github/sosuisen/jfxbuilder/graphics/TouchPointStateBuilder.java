@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class TouchPointStateBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.TouchPoint.State>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.TouchPoint.State>> operations = new java.util.ArrayList<>();
     private TouchPointStateBuilder() {}
     
     private Object[] constructorArgs;

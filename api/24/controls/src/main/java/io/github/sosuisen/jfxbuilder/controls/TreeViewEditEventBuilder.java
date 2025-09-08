@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 @SuppressWarnings("rawtypes")
 public class TreeViewEditEventBuilder<T> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.TreeView.EditEvent<T>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.TreeView.EditEvent<T>>> operations = new java.util.ArrayList<>();
     private TreeViewEditEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TreeView.EditEvent#EditEvent(TreeView, EventType, TreeItem, Object, Object) EditEvent(TreeView, EventType, TreeItem, Object, Object)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeView.EditEvent#EditEvent(javafx.scene.control.TreeView, javafx.event.EventType, javafx.scene.control.TreeItem, java.lang.Object, java.lang.Object) EditEvent(TreeView, EventType, TreeItem, Object, Object)}
      * and returns an instance of {@code TreeViewEditEventBuilder<T>}.
      *
      * @return an instance of the {@code TreeViewEditEventBuilder<T>}.
      */
-    
     public static <T> TreeViewEditEventBuilder<T> create(javafx.scene.control.TreeView<T> source, javafx.event.EventType<? extends javafx.scene.control.TreeView.EditEvent> eventType, javafx.scene.control.TreeItem<T> treeItem, T oldValue, T newValue) {
         TreeViewEditEventBuilder<T> builder = new TreeViewEditEventBuilder<T>();
         builder.constructorArgs = new Object[]{source, eventType, treeItem, oldValue, newValue};
@@ -43,7 +42,7 @@ public class TreeViewEditEventBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TreeView.EditEvent<T>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TreeView.EditEvent} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

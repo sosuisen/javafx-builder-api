@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class FontSmoothingTypeBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.text.FontSmoothingType>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.text.FontSmoothingType>> operations = new java.util.ArrayList<>();
     private FontSmoothingTypeBuilder() {}
     
     private Object[] constructorArgs;

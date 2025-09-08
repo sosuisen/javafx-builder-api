@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class BorderStrokeBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.layout.BorderStroke>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.layout.BorderStroke>> operations = new java.util.ArrayList<>();
     private BorderStrokeBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.layout.BorderStroke#BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths) BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths)}
+     * Accepts the constructor arguments of {@link javafx.scene.layout.BorderStroke#BorderStroke(javafx.scene.paint.Paint, javafx.scene.layout.BorderStrokeStyle, javafx.scene.layout.CornerRadii, javafx.scene.layout.BorderWidths) BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths)}
      * and returns an instance of {@code BorderStrokeBuilder}.
      *
      * @return an instance of the {@code BorderStrokeBuilder}.
      */
-    
     public static BorderStrokeBuilder create(javafx.scene.paint.Paint stroke, javafx.scene.layout.BorderStrokeStyle style, javafx.scene.layout.CornerRadii radii, javafx.scene.layout.BorderWidths widths) {
         BorderStrokeBuilder builder = new BorderStrokeBuilder();
         builder.constructorArgs = new Object[]{stroke, style, radii, widths};
@@ -41,12 +40,11 @@ public class BorderStrokeBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.layout.BorderStroke#BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths, Insets) BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths, Insets)}
+     * Accepts the constructor arguments of {@link javafx.scene.layout.BorderStroke#BorderStroke(javafx.scene.paint.Paint, javafx.scene.layout.BorderStrokeStyle, javafx.scene.layout.CornerRadii, javafx.scene.layout.BorderWidths, javafx.geometry.Insets) BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths, Insets)}
      * and returns an instance of {@code BorderStrokeBuilder}.
      *
      * @return an instance of the {@code BorderStrokeBuilder}.
      */
-    
     public static BorderStrokeBuilder create(javafx.scene.paint.Paint stroke, javafx.scene.layout.BorderStrokeStyle style, javafx.scene.layout.CornerRadii radii, javafx.scene.layout.BorderWidths widths, javafx.geometry.Insets insets) {
         BorderStrokeBuilder builder = new BorderStrokeBuilder();
         builder.constructorArgs = new Object[]{stroke, style, radii, widths, insets};
@@ -54,12 +52,11 @@ public class BorderStrokeBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.layout.BorderStroke#BorderStroke(Paint, Paint, Paint, Paint, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, CornerRadii, BorderWidths, Insets) BorderStroke(Paint, Paint, Paint, Paint, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, CornerRadii, BorderWidths, Insets)}
+     * Accepts the constructor arguments of {@link javafx.scene.layout.BorderStroke#BorderStroke(javafx.scene.paint.Paint, javafx.scene.paint.Paint, javafx.scene.paint.Paint, javafx.scene.paint.Paint, javafx.scene.layout.BorderStrokeStyle, javafx.scene.layout.BorderStrokeStyle, javafx.scene.layout.BorderStrokeStyle, javafx.scene.layout.BorderStrokeStyle, javafx.scene.layout.CornerRadii, javafx.scene.layout.BorderWidths, javafx.geometry.Insets) BorderStroke(Paint, Paint, Paint, Paint, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, CornerRadii, BorderWidths, Insets)}
      * and returns an instance of {@code BorderStrokeBuilder}.
      *
      * @return an instance of the {@code BorderStrokeBuilder}.
      */
-    
     public static BorderStrokeBuilder create(javafx.scene.paint.Paint topStroke, javafx.scene.paint.Paint rightStroke, javafx.scene.paint.Paint bottomStroke, javafx.scene.paint.Paint leftStroke, javafx.scene.layout.BorderStrokeStyle topStyle, javafx.scene.layout.BorderStrokeStyle rightStyle, javafx.scene.layout.BorderStrokeStyle bottomStyle, javafx.scene.layout.BorderStrokeStyle leftStyle, javafx.scene.layout.CornerRadii radii, javafx.scene.layout.BorderWidths widths, javafx.geometry.Insets insets) {
         BorderStrokeBuilder builder = new BorderStrokeBuilder();
         builder.constructorArgs = new Object[]{topStroke, rightStroke, bottomStroke, leftStroke, topStyle, rightStyle, bottomStyle, leftStyle, radii, widths, insets};

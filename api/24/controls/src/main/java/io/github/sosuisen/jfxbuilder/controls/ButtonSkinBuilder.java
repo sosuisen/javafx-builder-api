@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class ButtonSkinBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.ButtonSkin>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.skin.ButtonSkin>> operations = new java.util.ArrayList<>();
     private ButtonSkinBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.skin.ButtonSkin#ButtonSkin(Button) ButtonSkin(Button)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.ButtonSkin#ButtonSkin(javafx.scene.control.Button) ButtonSkin(Button)}
      * and returns an instance of {@code ButtonSkinBuilder}.
      *
      * @return an instance of the {@code ButtonSkinBuilder}.
      */
-    
     public static ButtonSkinBuilder create(javafx.scene.control.Button control) {
         ButtonSkinBuilder builder = new ButtonSkinBuilder();
         builder.constructorArgs = new Object[]{control};
@@ -140,27 +139,22 @@ public class ButtonSkinBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ButtonSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ButtonSkin#getChildren()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final ButtonSkinBuilder addChildren(javafx.scene.Node... elements) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(elements);
-        });
+        operations.add(obj -> obj.getChildren().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ButtonSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ButtonSkin#getChildren()} method.
      * 
      * @return builder instance
      */
     public final ButtonSkinBuilder addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(col);
-        });
+        operations.add(obj -> obj.getChildren().addAll(col));
         return this;
     }
 }

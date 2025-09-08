@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class ScrollToEventBuilder<T> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.ScrollToEvent<T>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.ScrollToEvent<T>>> operations = new java.util.ArrayList<>();
     private ScrollToEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.ScrollToEvent#ScrollToEvent(Object, EventTarget, EventType, Object) ScrollToEvent(Object, EventTarget, EventType, Object)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.ScrollToEvent#ScrollToEvent(java.lang.Object, javafx.event.EventTarget, javafx.event.EventType, java.lang.Object) ScrollToEvent(Object, EventTarget, EventType, Object)}
      * and returns an instance of {@code ScrollToEventBuilder<T>}.
      *
      * @return an instance of the {@code ScrollToEventBuilder<T>}.
      */
-    
     public static <T> ScrollToEventBuilder<T> create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.control.ScrollToEvent<T>> type, T scrollTarget) {
         ScrollToEventBuilder<T> builder = new ScrollToEventBuilder<T>();
         builder.constructorArgs = new Object[]{source, target, type, scrollTarget};
@@ -43,7 +42,7 @@ public class ScrollToEventBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.ScrollToEvent<T>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.ScrollToEvent} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class DragboardBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.Dragboard>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.Dragboard>> operations = new java.util.ArrayList<>();
     private DragboardBuilder() {}
     
     private Object[] constructorArgs;

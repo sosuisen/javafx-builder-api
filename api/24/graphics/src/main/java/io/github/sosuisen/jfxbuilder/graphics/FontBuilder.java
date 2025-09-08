@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class FontBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.text.Font>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.text.Font>> operations = new java.util.ArrayList<>();
     private FontBuilder() {}
     
     /**
@@ -33,7 +33,6 @@ public class FontBuilder {
      *
      * @return an instance of the {@code FontBuilder}.
      */
-    
     public static FontBuilder create(double size) {
         FontBuilder builder = new FontBuilder();
         builder.constructorArgs = new Object[]{size};
@@ -41,12 +40,11 @@ public class FontBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.text.Font#Font(String, double) Font(String, double)}
+     * Accepts the constructor arguments of {@link javafx.scene.text.Font#Font(java.lang.String, double) Font(String, double)}
      * and returns an instance of {@code FontBuilder}.
      *
      * @return an instance of the {@code FontBuilder}.
      */
-    
     public static FontBuilder create(java.lang.String name, double size) {
         FontBuilder builder = new FontBuilder();
         builder.constructorArgs = new Object[]{name, size};

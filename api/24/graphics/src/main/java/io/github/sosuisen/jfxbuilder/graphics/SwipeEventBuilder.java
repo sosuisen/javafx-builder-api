@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class SwipeEventBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.SwipeEvent>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.SwipeEvent>> operations = new java.util.ArrayList<>();
     private SwipeEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.SwipeEvent#SwipeEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult) SwipeEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.SwipeEvent#SwipeEvent(java.lang.Object, javafx.event.EventTarget, javafx.event.EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, javafx.scene.input.PickResult) SwipeEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult)}
      * and returns an instance of {@code SwipeEventBuilder}.
      *
      * @return an instance of the {@code SwipeEventBuilder}.
      */
-    
     public static SwipeEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.SwipeEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, int touchCount, javafx.scene.input.PickResult pickResult) {
         SwipeEventBuilder builder = new SwipeEventBuilder();
         builder.constructorArgs = new Object[]{source, target, eventType, x, y, screenX, screenY, shiftDown, controlDown, altDown, metaDown, direct, touchCount, pickResult};
@@ -41,12 +40,11 @@ public class SwipeEventBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.SwipeEvent#SwipeEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult) SwipeEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.SwipeEvent#SwipeEvent(javafx.event.EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, javafx.scene.input.PickResult) SwipeEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult)}
      * and returns an instance of {@code SwipeEventBuilder}.
      *
      * @return an instance of the {@code SwipeEventBuilder}.
      */
-    
     public static SwipeEventBuilder create(javafx.event.EventType<javafx.scene.input.SwipeEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, int touchCount, javafx.scene.input.PickResult pickResult) {
         SwipeEventBuilder builder = new SwipeEventBuilder();
         builder.constructorArgs = new Object[]{eventType, x, y, screenX, screenY, shiftDown, controlDown, altDown, metaDown, direct, touchCount, pickResult};

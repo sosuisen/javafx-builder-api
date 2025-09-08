@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class NonInvertibleTransformExceptionBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.transform.NonInvertibleTransformException>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.transform.NonInvertibleTransformException>> operations = new java.util.ArrayList<>();
     private NonInvertibleTransformExceptionBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.transform.NonInvertibleTransformException#NonInvertibleTransformException(String) NonInvertibleTransformException(String)}
+     * Accepts the constructor arguments of {@link javafx.scene.transform.NonInvertibleTransformException#NonInvertibleTransformException(java.lang.String) NonInvertibleTransformException(String)}
      * and returns an instance of {@code NonInvertibleTransformExceptionBuilder}.
      *
      * @return an instance of the {@code NonInvertibleTransformExceptionBuilder}.
      */
-    
     public static NonInvertibleTransformExceptionBuilder create(java.lang.String message) {
         NonInvertibleTransformExceptionBuilder builder = new NonInvertibleTransformExceptionBuilder();
         builder.constructorArgs = new Object[]{message};

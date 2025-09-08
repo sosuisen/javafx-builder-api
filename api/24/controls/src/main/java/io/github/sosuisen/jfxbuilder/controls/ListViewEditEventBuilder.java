@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class ListViewEditEventBuilder<T> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.ListView.EditEvent<T>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.ListView.EditEvent<T>>> operations = new java.util.ArrayList<>();
     private ListViewEditEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.ListView.EditEvent#EditEvent(ListView, EventType, Object, int) EditEvent(ListView, EventType, Object, int)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.ListView.EditEvent#EditEvent(javafx.scene.control.ListView, javafx.event.EventType, java.lang.Object, int) EditEvent(ListView, EventType, Object, int)}
      * and returns an instance of {@code ListViewEditEventBuilder<T>}.
      *
      * @return an instance of the {@code ListViewEditEventBuilder<T>}.
      */
-    
     public static <T> ListViewEditEventBuilder<T> create(javafx.scene.control.ListView<T> source, javafx.event.EventType<? extends javafx.scene.control.ListView.EditEvent<T>> eventType, T newValue, int editIndex) {
         ListViewEditEventBuilder<T> builder = new ListViewEditEventBuilder<T>();
         builder.constructorArgs = new Object[]{source, eventType, newValue, editIndex};
@@ -43,7 +42,7 @@ public class ListViewEditEventBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.ListView.EditEvent<T>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.ListView.EditEvent} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

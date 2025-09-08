@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class TouchPointBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.TouchPoint>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.TouchPoint>> operations = new java.util.ArrayList<>();
     private TouchPointBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.TouchPoint#TouchPoint(int, TouchPoint$State, double, double, double, double, EventTarget, PickResult) TouchPoint(int, TouchPoint$State, double, double, double, double, EventTarget, PickResult)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.TouchPoint#TouchPoint(int, javafx.scene.input.TouchPoint.State, double, double, double, double, javafx.event.EventTarget, javafx.scene.input.PickResult) TouchPoint(int, TouchPoint.State, double, double, double, double, EventTarget, PickResult)}
      * and returns an instance of {@code TouchPointBuilder}.
      *
      * @return an instance of the {@code TouchPointBuilder}.
      */
-    
     public static TouchPointBuilder create(int id, javafx.scene.input.TouchPoint.State state, double x, double y, double screenX, double screenY, javafx.event.EventTarget target, javafx.scene.input.PickResult pickResult) {
         TouchPointBuilder builder = new TouchPointBuilder();
         builder.constructorArgs = new Object[]{id, state, x, y, screenX, screenY, target, pickResult};

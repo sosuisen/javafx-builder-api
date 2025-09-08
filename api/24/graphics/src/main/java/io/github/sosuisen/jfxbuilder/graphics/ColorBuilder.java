@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class ColorBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.paint.Color>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.paint.Color>> operations = new java.util.ArrayList<>();
     private ColorBuilder() {}
     
     /**
@@ -33,7 +33,6 @@ public class ColorBuilder {
      *
      * @return an instance of the {@code ColorBuilder}.
      */
-    
     public static ColorBuilder create(double red, double green, double blue, double opacity) {
         ColorBuilder builder = new ColorBuilder();
         builder.constructorArgs = new Object[]{red, green, blue, opacity};

@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class ProgressIndicatorSkinBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.ProgressIndicatorSkin>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.skin.ProgressIndicatorSkin>> operations = new java.util.ArrayList<>();
     private ProgressIndicatorSkinBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.skin.ProgressIndicatorSkin#ProgressIndicatorSkin(ProgressIndicator) ProgressIndicatorSkin(ProgressIndicator)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.ProgressIndicatorSkin#ProgressIndicatorSkin(javafx.scene.control.ProgressIndicator) ProgressIndicatorSkin(ProgressIndicator)}
      * and returns an instance of {@code ProgressIndicatorSkinBuilder}.
      *
      * @return an instance of the {@code ProgressIndicatorSkinBuilder}.
      */
-    
     public static ProgressIndicatorSkinBuilder create(javafx.scene.control.ProgressIndicator control) {
         ProgressIndicatorSkinBuilder builder = new ProgressIndicatorSkinBuilder();
         builder.constructorArgs = new Object[]{control};
@@ -140,27 +139,22 @@ public class ProgressIndicatorSkinBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ProgressIndicatorSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ProgressIndicatorSkin#getChildren()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final ProgressIndicatorSkinBuilder addChildren(javafx.scene.Node... elements) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(elements);
-        });
+        operations.add(obj -> obj.getChildren().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ProgressIndicatorSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ProgressIndicatorSkin#getChildren()} method.
      * 
      * @return builder instance
      */
     public final ProgressIndicatorSkinBuilder addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(col);
-        });
+        operations.add(obj -> obj.getChildren().addAll(col));
         return this;
     }
 }

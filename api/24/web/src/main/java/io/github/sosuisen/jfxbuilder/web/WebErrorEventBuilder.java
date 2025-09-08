@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.web;
  */
 
 public class WebErrorEventBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.web.WebErrorEvent>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.web.WebErrorEvent>> operations = new java.util.ArrayList<>();
     private WebErrorEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.web.WebErrorEvent#WebErrorEvent(Object, EventType, String, Throwable) WebErrorEvent(Object, EventType, String, Throwable)}
+     * Accepts the constructor arguments of {@link javafx.scene.web.WebErrorEvent#WebErrorEvent(java.lang.Object, javafx.event.EventType, java.lang.String, java.lang.Throwable) WebErrorEvent(Object, EventType, String, Throwable)}
      * and returns an instance of {@code WebErrorEventBuilder}.
      *
      * @return an instance of the {@code WebErrorEventBuilder}.
      */
-    
     public static WebErrorEventBuilder create(java.lang.Object source, javafx.event.EventType<javafx.scene.web.WebErrorEvent> type, java.lang.String message, java.lang.Throwable exception) {
         WebErrorEventBuilder builder = new WebErrorEventBuilder();
         builder.constructorArgs = new Object[]{source, type, message, exception};

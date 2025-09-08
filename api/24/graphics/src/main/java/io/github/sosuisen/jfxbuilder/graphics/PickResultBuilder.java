@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class PickResultBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.PickResult>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.PickResult>> operations = new java.util.ArrayList<>();
     private PickResultBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.PickResult#PickResult(EventTarget, double, double) PickResult(EventTarget, double, double)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.PickResult#PickResult(javafx.event.EventTarget, double, double) PickResult(EventTarget, double, double)}
      * and returns an instance of {@code PickResultBuilder}.
      *
      * @return an instance of the {@code PickResultBuilder}.
      */
-    
     public static PickResultBuilder create(javafx.event.EventTarget target, double sceneX, double sceneY) {
         PickResultBuilder builder = new PickResultBuilder();
         builder.constructorArgs = new Object[]{target, sceneX, sceneY};
@@ -41,12 +40,11 @@ public class PickResultBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.PickResult#PickResult(Node, Point3D, double) PickResult(Node, Point3D, double)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.PickResult#PickResult(javafx.scene.Node, javafx.geometry.Point3D, double) PickResult(Node, Point3D, double)}
      * and returns an instance of {@code PickResultBuilder}.
      *
      * @return an instance of the {@code PickResultBuilder}.
      */
-    
     public static PickResultBuilder create(javafx.scene.Node node, javafx.geometry.Point3D point, double distance) {
         PickResultBuilder builder = new PickResultBuilder();
         builder.constructorArgs = new Object[]{node, point, distance};
@@ -54,12 +52,11 @@ public class PickResultBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.PickResult#PickResult(Node, Point3D, double, int, Point2D) PickResult(Node, Point3D, double, int, Point2D)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.PickResult#PickResult(javafx.scene.Node, javafx.geometry.Point3D, double, int, javafx.geometry.Point2D) PickResult(Node, Point3D, double, int, Point2D)}
      * and returns an instance of {@code PickResultBuilder}.
      *
      * @return an instance of the {@code PickResultBuilder}.
      */
-    
     public static PickResultBuilder create(javafx.scene.Node node, javafx.geometry.Point3D point, double distance, int face, javafx.geometry.Point2D texCoord) {
         PickResultBuilder builder = new PickResultBuilder();
         builder.constructorArgs = new Object[]{node, point, distance, face, texCoord};
@@ -67,12 +64,11 @@ public class PickResultBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.PickResult#PickResult(Node, Point3D, double, int, Point3D, Point2D) PickResult(Node, Point3D, double, int, Point3D, Point2D)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.PickResult#PickResult(javafx.scene.Node, javafx.geometry.Point3D, double, int, javafx.geometry.Point3D, javafx.geometry.Point2D) PickResult(Node, Point3D, double, int, Point3D, Point2D)}
      * and returns an instance of {@code PickResultBuilder}.
      *
      * @return an instance of the {@code PickResultBuilder}.
      */
-    
     public static PickResultBuilder create(javafx.scene.Node node, javafx.geometry.Point3D point, double distance, int face, javafx.geometry.Point3D normal, javafx.geometry.Point2D texCoord) {
         PickResultBuilder builder = new PickResultBuilder();
         builder.constructorArgs = new Object[]{node, point, distance, face, normal, texCoord};

@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class MenuBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.Menu>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.Menu>> operations = new java.util.ArrayList<>();
     private MenuBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class MenuBuilder {
     public static MenuBuilder create() { return new MenuBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.Menu#Menu(String) Menu(String)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.Menu#Menu(java.lang.String) Menu(String)}
      * and returns an instance of {@code MenuBuilder}.
      *
      * @return an instance of the {@code MenuBuilder}.
      */
-    
     public static MenuBuilder create(java.lang.String text) {
         MenuBuilder builder = new MenuBuilder();
         builder.constructorArgs = new Object[]{text};
@@ -48,12 +47,11 @@ public class MenuBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.Menu#Menu(String, Node) Menu(String, Node)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.Menu#Menu(java.lang.String, javafx.scene.Node) Menu(String, Node)}
      * and returns an instance of {@code MenuBuilder}.
      *
      * @return an instance of the {@code MenuBuilder}.
      */
-    
     public static MenuBuilder create(java.lang.String text, javafx.scene.Node graphic) {
         MenuBuilder builder = new MenuBuilder();
         builder.constructorArgs = new Object[]{text, graphic};
@@ -61,12 +59,11 @@ public class MenuBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.Menu#Menu(String, Node, MenuItem...) Menu(String, Node, MenuItem...)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.Menu#Menu(java.lang.String, javafx.scene.Node, javafx.scene.control.MenuItem...) Menu(String, Node, MenuItem...)}
      * and returns an instance of {@code MenuBuilder}.
      *
      * @return an instance of the {@code MenuBuilder}.
      */
-    @SafeVarargs
     public static MenuBuilder create(java.lang.String text, javafx.scene.Node graphic, javafx.scene.control.MenuItem... items) {
         MenuBuilder builder = new MenuBuilder();
         builder.constructorArgs = new Object[]{text, graphic, items};
@@ -329,43 +326,37 @@ public class MenuBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Menu#getItems()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Menu#getItems()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final MenuBuilder addItems(javafx.scene.control.MenuItem... elements) {
-        operations.add(obj -> {
-            obj.getItems().addAll(elements);
-        });
+        operations.add(obj -> obj.getItems().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Menu#getItems()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Menu#getItems()} method.
      * 
      * @return builder instance
      */
     public final MenuBuilder addItems(java.util.Collection<? extends javafx.scene.control.MenuItem> col) {
-        operations.add(obj -> {
-            obj.getItems().addAll(col);
-        });
+        operations.add(obj -> obj.getItems().addAll(col));
         return this;
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Menu#getItems()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Menu#getItems()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public static MenuBuilder withItems(javafx.scene.control.MenuItem... elements) {
         MenuBuilder builder = new MenuBuilder();
         return builder.addItems(elements);
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Menu#getItems()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Menu#getItems()} method.
      * 
      * @return builder instance
      */
@@ -375,27 +366,22 @@ public class MenuBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Menu#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Menu#getStyleClass()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final MenuBuilder addStyleClass(java.lang.String... elements) {
-        operations.add(obj -> {
-            obj.getStyleClass().addAll(elements);
-        });
+        operations.add(obj -> obj.getStyleClass().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Menu#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Menu#getStyleClass()} method.
      * 
      * @return builder instance
      */
     public final MenuBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
-        operations.add(obj -> {
-            obj.getStyleClass().addAll(col);
-        });
+        operations.add(obj -> obj.getStyleClass().addAll(col));
         return this;
     }
 

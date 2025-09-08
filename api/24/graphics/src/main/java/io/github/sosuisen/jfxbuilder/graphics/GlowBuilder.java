@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class GlowBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.Glow>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.Glow>> operations = new java.util.ArrayList<>();
     private GlowBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class GlowBuilder {
      *
      * @return an instance of the {@code GlowBuilder}.
      */
-    
     public static GlowBuilder create(double level) {
         GlowBuilder builder = new GlowBuilder();
         builder.constructorArgs = new Object[]{level};

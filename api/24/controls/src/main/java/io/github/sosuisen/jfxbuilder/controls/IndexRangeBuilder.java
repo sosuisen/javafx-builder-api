@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class IndexRangeBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.IndexRange>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.IndexRange>> operations = new java.util.ArrayList<>();
     private IndexRangeBuilder() {}
     
     /**
@@ -33,7 +33,6 @@ public class IndexRangeBuilder {
      *
      * @return an instance of the {@code IndexRangeBuilder}.
      */
-    
     public static IndexRangeBuilder create(int start, int end) {
         IndexRangeBuilder builder = new IndexRangeBuilder();
         builder.constructorArgs = new Object[]{start, end};
@@ -41,12 +40,11 @@ public class IndexRangeBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.IndexRange#IndexRange(IndexRange) IndexRange(IndexRange)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.IndexRange#IndexRange(javafx.scene.control.IndexRange) IndexRange(IndexRange)}
      * and returns an instance of {@code IndexRangeBuilder}.
      *
      * @return an instance of the {@code IndexRangeBuilder}.
      */
-    
     public static IndexRangeBuilder create(javafx.scene.control.IndexRange range) {
         IndexRangeBuilder builder = new IndexRangeBuilder();
         builder.constructorArgs = new Object[]{range};

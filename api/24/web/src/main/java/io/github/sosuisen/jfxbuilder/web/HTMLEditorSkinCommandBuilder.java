@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.web;
  */
 
 public class HTMLEditorSkinCommandBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.web.HTMLEditorSkin.Command>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.web.HTMLEditorSkin.Command>> operations = new java.util.ArrayList<>();
     private HTMLEditorSkinCommandBuilder() {}
     
     private Object[] constructorArgs;

@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class HyperlinkSkinBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.HyperlinkSkin>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.skin.HyperlinkSkin>> operations = new java.util.ArrayList<>();
     private HyperlinkSkinBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.skin.HyperlinkSkin#HyperlinkSkin(Hyperlink) HyperlinkSkin(Hyperlink)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.HyperlinkSkin#HyperlinkSkin(javafx.scene.control.Hyperlink) HyperlinkSkin(Hyperlink)}
      * and returns an instance of {@code HyperlinkSkinBuilder}.
      *
      * @return an instance of the {@code HyperlinkSkinBuilder}.
      */
-    
     public static HyperlinkSkinBuilder create(javafx.scene.control.Hyperlink control) {
         HyperlinkSkinBuilder builder = new HyperlinkSkinBuilder();
         builder.constructorArgs = new Object[]{control};
@@ -140,27 +139,22 @@ public class HyperlinkSkinBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.HyperlinkSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.HyperlinkSkin#getChildren()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final HyperlinkSkinBuilder addChildren(javafx.scene.Node... elements) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(elements);
-        });
+        operations.add(obj -> obj.getChildren().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.HyperlinkSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.HyperlinkSkin#getChildren()} method.
      * 
      * @return builder instance
      */
     public final HyperlinkSkinBuilder addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(col);
-        });
+        operations.add(obj -> obj.getChildren().addAll(col));
         return this;
     }
 }

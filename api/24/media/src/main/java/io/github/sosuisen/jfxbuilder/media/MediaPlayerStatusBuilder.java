@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.media;
  */
 
 public class MediaPlayerStatusBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.media.MediaPlayer.Status>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.media.MediaPlayer.Status>> operations = new java.util.ArrayList<>();
     private MediaPlayerStatusBuilder() {}
     
     private Object[] constructorArgs;

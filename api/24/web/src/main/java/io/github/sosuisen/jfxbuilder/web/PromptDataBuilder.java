@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.web;
  */
 
 public class PromptDataBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.web.PromptData>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.web.PromptData>> operations = new java.util.ArrayList<>();
     private PromptDataBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.web.PromptData#PromptData(String, String) PromptData(String, String)}
+     * Accepts the constructor arguments of {@link javafx.scene.web.PromptData#PromptData(java.lang.String, java.lang.String) PromptData(String, String)}
      * and returns an instance of {@code PromptDataBuilder}.
      *
      * @return an instance of the {@code PromptDataBuilder}.
      */
-    
     public static PromptDataBuilder create(java.lang.String message, java.lang.String defaultValue) {
         PromptDataBuilder builder = new PromptDataBuilder();
         builder.constructorArgs = new Object[]{message, defaultValue};

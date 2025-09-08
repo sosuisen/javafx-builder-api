@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.media;
  */
 
 public class AudioClipBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.media.AudioClip>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.media.AudioClip>> operations = new java.util.ArrayList<>();
     private AudioClipBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.media.AudioClip#AudioClip(String) AudioClip(String)}
+     * Accepts the constructor arguments of {@link javafx.scene.media.AudioClip#AudioClip(java.lang.String) AudioClip(String)}
      * and returns an instance of {@code AudioClipBuilder}.
      *
      * @return an instance of the {@code AudioClipBuilder}.
      */
-    
     public static AudioClipBuilder create(java.lang.String source) {
         AudioClipBuilder builder = new AudioClipBuilder();
         builder.constructorArgs = new Object[]{source};

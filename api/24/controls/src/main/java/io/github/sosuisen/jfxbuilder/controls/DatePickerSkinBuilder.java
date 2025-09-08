@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class DatePickerSkinBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.DatePickerSkin>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.skin.DatePickerSkin>> operations = new java.util.ArrayList<>();
     private DatePickerSkinBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.skin.DatePickerSkin#DatePickerSkin(DatePicker) DatePickerSkin(DatePicker)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.DatePickerSkin#DatePickerSkin(javafx.scene.control.DatePicker) DatePickerSkin(DatePicker)}
      * and returns an instance of {@code DatePickerSkinBuilder}.
      *
      * @return an instance of the {@code DatePickerSkinBuilder}.
      */
-    
     public static DatePickerSkinBuilder create(javafx.scene.control.DatePicker control) {
         DatePickerSkinBuilder builder = new DatePickerSkinBuilder();
         builder.constructorArgs = new Object[]{control};
@@ -140,27 +139,22 @@ public class DatePickerSkinBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.DatePickerSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.DatePickerSkin#getChildren()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final DatePickerSkinBuilder addChildren(javafx.scene.Node... elements) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(elements);
-        });
+        operations.add(obj -> obj.getChildren().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.DatePickerSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.DatePickerSkin#getChildren()} method.
      * 
      * @return builder instance
      */
     public final DatePickerSkinBuilder addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(col);
-        });
+        operations.add(obj -> obj.getChildren().addAll(col));
         return this;
     }
 }

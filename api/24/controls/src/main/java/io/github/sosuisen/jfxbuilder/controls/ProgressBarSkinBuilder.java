@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class ProgressBarSkinBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.ProgressBarSkin>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.skin.ProgressBarSkin>> operations = new java.util.ArrayList<>();
     private ProgressBarSkinBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.skin.ProgressBarSkin#ProgressBarSkin(ProgressBar) ProgressBarSkin(ProgressBar)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.ProgressBarSkin#ProgressBarSkin(javafx.scene.control.ProgressBar) ProgressBarSkin(ProgressBar)}
      * and returns an instance of {@code ProgressBarSkinBuilder}.
      *
      * @return an instance of the {@code ProgressBarSkinBuilder}.
      */
-    
     public static ProgressBarSkinBuilder create(javafx.scene.control.ProgressBar control) {
         ProgressBarSkinBuilder builder = new ProgressBarSkinBuilder();
         builder.constructorArgs = new Object[]{control};
@@ -140,27 +139,22 @@ public class ProgressBarSkinBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ProgressBarSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ProgressBarSkin#getChildren()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final ProgressBarSkinBuilder addChildren(javafx.scene.Node... elements) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(elements);
-        });
+        operations.add(obj -> obj.getChildren().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ProgressBarSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ProgressBarSkin#getChildren()} method.
      * 
      * @return builder instance
      */
     public final ProgressBarSkinBuilder addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(col);
-        });
+        operations.add(obj -> obj.getChildren().addAll(col));
         return this;
     }
 }

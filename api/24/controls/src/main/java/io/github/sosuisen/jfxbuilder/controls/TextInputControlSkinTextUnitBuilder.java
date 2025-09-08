@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TextInputControlSkinTextUnitBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.TextInputControlSkin.TextUnit>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.skin.TextInputControlSkin.TextUnit>> operations = new java.util.ArrayList<>();
     private TextInputControlSkinTextUnitBuilder() {}
     
     private Object[] constructorArgs;

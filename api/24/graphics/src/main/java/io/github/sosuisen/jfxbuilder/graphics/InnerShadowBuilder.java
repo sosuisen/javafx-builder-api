@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class InnerShadowBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.InnerShadow>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.InnerShadow>> operations = new java.util.ArrayList<>();
     private InnerShadowBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class InnerShadowBuilder {
     public static InnerShadowBuilder create() { return new InnerShadowBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.effect.InnerShadow#InnerShadow(double, double, double, Color) InnerShadow(double, double, double, Color)}
+     * Accepts the constructor arguments of {@link javafx.scene.effect.InnerShadow#InnerShadow(double, double, double, javafx.scene.paint.Color) InnerShadow(double, double, double, Color)}
      * and returns an instance of {@code InnerShadowBuilder}.
      *
      * @return an instance of the {@code InnerShadowBuilder}.
      */
-    
     public static InnerShadowBuilder create(double radius, double offsetX, double offsetY, javafx.scene.paint.Color color) {
         InnerShadowBuilder builder = new InnerShadowBuilder();
         builder.constructorArgs = new Object[]{radius, offsetX, offsetY, color};
@@ -48,12 +47,11 @@ public class InnerShadowBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.effect.InnerShadow#InnerShadow(double, Color) InnerShadow(double, Color)}
+     * Accepts the constructor arguments of {@link javafx.scene.effect.InnerShadow#InnerShadow(double, javafx.scene.paint.Color) InnerShadow(double, Color)}
      * and returns an instance of {@code InnerShadowBuilder}.
      *
      * @return an instance of the {@code InnerShadowBuilder}.
      */
-    
     public static InnerShadowBuilder create(double radius, javafx.scene.paint.Color color) {
         InnerShadowBuilder builder = new InnerShadowBuilder();
         builder.constructorArgs = new Object[]{radius, color};
@@ -61,12 +59,11 @@ public class InnerShadowBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.effect.InnerShadow#InnerShadow(BlurType, Color, double, double, double, double) InnerShadow(BlurType, Color, double, double, double, double)}
+     * Accepts the constructor arguments of {@link javafx.scene.effect.InnerShadow#InnerShadow(javafx.scene.effect.BlurType, javafx.scene.paint.Color, double, double, double, double) InnerShadow(BlurType, Color, double, double, double, double)}
      * and returns an instance of {@code InnerShadowBuilder}.
      *
      * @return an instance of the {@code InnerShadowBuilder}.
      */
-    
     public static InnerShadowBuilder create(javafx.scene.effect.BlurType blurType, javafx.scene.paint.Color color, double radius, double choke, double offsetX, double offsetY) {
         InnerShadowBuilder builder = new InnerShadowBuilder();
         builder.constructorArgs = new Object[]{blurType, color, radius, choke, offsetX, offsetY};

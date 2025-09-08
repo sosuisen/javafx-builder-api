@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TreeItemPropertyValueFactoryBuilder<S, T> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.cell.TreeItemPropertyValueFactory<S, T>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.cell.TreeItemPropertyValueFactory<S, T>>> operations = new java.util.ArrayList<>();
     private TreeItemPropertyValueFactoryBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.cell.TreeItemPropertyValueFactory#TreeItemPropertyValueFactory(String) TreeItemPropertyValueFactory(String)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.TreeItemPropertyValueFactory#TreeItemPropertyValueFactory(java.lang.String) TreeItemPropertyValueFactory(String)}
      * and returns an instance of {@code TreeItemPropertyValueFactoryBuilder<S, T>}.
      *
      * @return an instance of the {@code TreeItemPropertyValueFactoryBuilder<S, T>}.
      */
-    
     public static <S, T> TreeItemPropertyValueFactoryBuilder<S, T> create(java.lang.String property) {
         TreeItemPropertyValueFactoryBuilder<S, T> builder = new TreeItemPropertyValueFactoryBuilder<S, T>();
         builder.constructorArgs = new Object[]{property};
@@ -43,7 +42,7 @@ public class TreeItemPropertyValueFactoryBuilder<S, T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.cell.TreeItemPropertyValueFactory<S, T>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.cell.TreeItemPropertyValueFactory} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

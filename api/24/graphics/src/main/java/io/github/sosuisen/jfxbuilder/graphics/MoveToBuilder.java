@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class MoveToBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.shape.MoveTo>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.shape.MoveTo>> operations = new java.util.ArrayList<>();
     private MoveToBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class MoveToBuilder {
      *
      * @return an instance of the {@code MoveToBuilder}.
      */
-    
     public static MoveToBuilder create(double x, double y) {
         MoveToBuilder builder = new MoveToBuilder();
         builder.constructorArgs = new Object[]{x, y};

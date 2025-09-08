@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.web;
  */
 
 public class WebEngineBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.web.WebEngine>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.web.WebEngine>> operations = new java.util.ArrayList<>();
     private WebEngineBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class WebEngineBuilder {
     public static WebEngineBuilder create() { return new WebEngineBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.web.WebEngine#WebEngine(String) WebEngine(String)}
+     * Accepts the constructor arguments of {@link javafx.scene.web.WebEngine#WebEngine(java.lang.String) WebEngine(String)}
      * and returns an instance of {@code WebEngineBuilder}.
      *
      * @return an instance of the {@code WebEngineBuilder}.
      */
-    
     public static WebEngineBuilder create(java.lang.String url) {
         WebEngineBuilder builder = new WebEngineBuilder();
         builder.constructorArgs = new Object[]{url};

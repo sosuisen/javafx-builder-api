@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class BackgroundImageBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.layout.BackgroundImage>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.layout.BackgroundImage>> operations = new java.util.ArrayList<>();
     private BackgroundImageBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.layout.BackgroundImage#BackgroundImage(Image, BackgroundRepeat, BackgroundRepeat, BackgroundPosition, BackgroundSize) BackgroundImage(Image, BackgroundRepeat, BackgroundRepeat, BackgroundPosition, BackgroundSize)}
+     * Accepts the constructor arguments of {@link javafx.scene.layout.BackgroundImage#BackgroundImage(javafx.scene.image.Image, javafx.scene.layout.BackgroundRepeat, javafx.scene.layout.BackgroundRepeat, javafx.scene.layout.BackgroundPosition, javafx.scene.layout.BackgroundSize) BackgroundImage(Image, BackgroundRepeat, BackgroundRepeat, BackgroundPosition, BackgroundSize)}
      * and returns an instance of {@code BackgroundImageBuilder}.
      *
      * @return an instance of the {@code BackgroundImageBuilder}.
      */
-    
     public static BackgroundImageBuilder create(javafx.scene.image.Image image, javafx.scene.layout.BackgroundRepeat repeatX, javafx.scene.layout.BackgroundRepeat repeatY, javafx.scene.layout.BackgroundPosition position, javafx.scene.layout.BackgroundSize size) {
         BackgroundImageBuilder builder = new BackgroundImageBuilder();
         builder.constructorArgs = new Object[]{image, repeatX, repeatY, position, size};

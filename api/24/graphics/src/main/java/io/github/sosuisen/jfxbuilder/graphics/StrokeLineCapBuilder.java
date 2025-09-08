@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class StrokeLineCapBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.shape.StrokeLineCap>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.shape.StrokeLineCap>> operations = new java.util.ArrayList<>();
     private StrokeLineCapBuilder() {}
     
     private Object[] constructorArgs;

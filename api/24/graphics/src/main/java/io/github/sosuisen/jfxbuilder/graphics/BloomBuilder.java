@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class BloomBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.Bloom>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.Bloom>> operations = new java.util.ArrayList<>();
     private BloomBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class BloomBuilder {
      *
      * @return an instance of the {@code BloomBuilder}.
      */
-    
     public static BloomBuilder create(double threshold) {
         BloomBuilder builder = new BloomBuilder();
         builder.constructorArgs = new Object[]{threshold};

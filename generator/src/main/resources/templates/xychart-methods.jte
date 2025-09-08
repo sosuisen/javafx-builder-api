@@ -5,11 +5,11 @@
 
     /**
      * Creates an instance of the builder,
-     * then calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll(XYChart.Series&lt;X, Y&gt;... elements)} method
+     * then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll(XYChart.Series&lt;X, Y&gt;... elements)} method
      * on the ObservableList returned by the {@link ${model.canonicalClassName()}#getData() ${model.simpleClassName()}#getData()} method.
      *
      * <p>
-     * After calling this method, you may need to invoke the {@link ${model.builderClassNameWithTypeParameter()}#xAxis(javafx.scene.chart.Axis) xAxis(Axis)} and {@link ${model.builderClassNameWithTypeParameter()}#yAxis(javafx.scene.chart.Axis) yAxis(Axis)} methods. 
+     * After calling this method, you may need to invoke the {@link ${model.canonicalBuilderClassName()}#xAxis(javafx.scene.chart.Axis) xAxis(Axis)} and {@link ${model.canonicalBuilderClassName()}#yAxis(javafx.scene.chart.Axis) yAxis(Axis)} methods. 
      * If you do not, the default axis objects will be set for the x-axis and y-axis.
      * </p>
      *
@@ -34,11 +34,11 @@
 
     /**
      * Creates an instance of the builder,
-     * then calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll(Collection&lt;? extends XYChart.Series&lt;X, Y&gt;&gt; col} method
+     * then calls the {@link java.util.List#addAll(java.util.Collection) addAll(Collection&lt;? extends XYChart.Series&lt;X, Y&gt;&gt; col} method
      * on the ObservableList returned by the {@link ${model.canonicalClassName()}#getData() ${model.simpleClassName()}#getData()} method.
      *
      * <p>
-     * After calling this method, you may need to invoke the {@link ${model.builderClassNameWithTypeParameter()}#xAxis(javafx.scene.chart.Axis) xAxis(Axis)} and {@link ${model.builderClassNameWithTypeParameter()}#yAxis(javafx.scene.chart.Axis) yAxis(Axis)} methods. 
+     * After calling this method, you may need to invoke the {@link ${model.canonicalBuilderClassName()}#xAxis(javafx.scene.chart.Axis) xAxis(Axis)} and {@link ${model.canonicalBuilderClassName()}#yAxis(javafx.scene.chart.Axis) yAxis(Axis)} methods. 
      * If you do not, the default axis objects will be set for the x-axis and y-axis.
      * </p>
      *
@@ -88,8 +88,7 @@
 
     /**
      * A builder method that set xAxis object to the instance being constructed.
-     *
-     * This method is used together with the {@link ${model.builderClassNameWithTypeParameter()}#withData(Series...)} or the {@link ${model.builderClassNameWithTypeParameter()}#withData(java.util.Collection col)}.
+     * This method is used together with the {@link ${model.canonicalBuilderClassName()}#withData(javafx.scene.chart.XYChart.Series...) withData(Series...)} or the {@link ${model.canonicalBuilderClassName()}#withData(java.util.Collection col) withData(Collection)}.
      *
      * @return builder instance
      */
@@ -101,8 +100,7 @@
 
     /**
      * A builder method that set yAxis object to the instance being constructed.
-     *
-     * This method is used together with the {@link ${model.builderClassNameWithTypeParameter()}#withData(Series...)} or the {@link ${model.builderClassNameWithTypeParameter()}#withData(java.util.Collection col)}.
+     * This method is used together with the {@link ${model.canonicalBuilderClassName()}#withData(javafx.scene.chart.XYChart.Series...) withData(Series...)} or the {@link ${model.canonicalBuilderClassName()}#withData(java.util.Collection col) withData(Collection)}.
      *
      * @return builder instance
      */

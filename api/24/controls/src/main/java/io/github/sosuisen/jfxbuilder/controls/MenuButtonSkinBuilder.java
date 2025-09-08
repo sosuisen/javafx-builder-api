@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class MenuButtonSkinBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.MenuButtonSkin>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.skin.MenuButtonSkin>> operations = new java.util.ArrayList<>();
     private MenuButtonSkinBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.skin.MenuButtonSkin#MenuButtonSkin(MenuButton) MenuButtonSkin(MenuButton)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.MenuButtonSkin#MenuButtonSkin(javafx.scene.control.MenuButton) MenuButtonSkin(MenuButton)}
      * and returns an instance of {@code MenuButtonSkinBuilder}.
      *
      * @return an instance of the {@code MenuButtonSkinBuilder}.
      */
-    
     public static MenuButtonSkinBuilder create(javafx.scene.control.MenuButton control) {
         MenuButtonSkinBuilder builder = new MenuButtonSkinBuilder();
         builder.constructorArgs = new Object[]{control};
@@ -140,27 +139,22 @@ public class MenuButtonSkinBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.MenuButtonSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.MenuButtonSkin#getChildren()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final MenuButtonSkinBuilder addChildren(javafx.scene.Node... elements) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(elements);
-        });
+        operations.add(obj -> obj.getChildren().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.MenuButtonSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.MenuButtonSkin#getChildren()} method.
      * 
      * @return builder instance
      */
     public final MenuButtonSkinBuilder addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(col);
-        });
+        operations.add(obj -> obj.getChildren().addAll(col));
         return this;
     }
 }

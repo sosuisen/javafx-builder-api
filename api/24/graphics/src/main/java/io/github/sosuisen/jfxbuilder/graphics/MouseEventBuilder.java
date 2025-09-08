@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class MouseEventBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.MouseEvent>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.MouseEvent>> operations = new java.util.ArrayList<>();
     private MouseEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.MouseEvent#MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.MouseEvent#MouseEvent(java.lang.Object, javafx.event.EventTarget, javafx.event.EventType, double, double, double, double, javafx.scene.input.MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, javafx.scene.input.PickResult) MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
      * and returns an instance of {@code MouseEventBuilder}.
      *
      * @return an instance of the {@code MouseEventBuilder}.
      */
-    
     public static MouseEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<? extends javafx.scene.input.MouseEvent> eventType, double x, double y, double screenX, double screenY, javafx.scene.input.MouseButton button, int clickCount, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean primaryButtonDown, boolean middleButtonDown, boolean secondaryButtonDown, boolean backButtonDown, boolean forwardButtonDown, boolean synthesized, boolean popupTrigger, boolean stillSincePress, javafx.scene.input.PickResult pickResult) {
         MouseEventBuilder builder = new MouseEventBuilder();
         builder.constructorArgs = new Object[]{source, target, eventType, x, y, screenX, screenY, button, clickCount, shiftDown, controlDown, altDown, metaDown, primaryButtonDown, middleButtonDown, secondaryButtonDown, backButtonDown, forwardButtonDown, synthesized, popupTrigger, stillSincePress, pickResult};
@@ -41,12 +40,11 @@ public class MouseEventBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.MouseEvent#MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.MouseEvent#MouseEvent(java.lang.Object, javafx.event.EventTarget, javafx.event.EventType, double, double, double, double, javafx.scene.input.MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, javafx.scene.input.PickResult) MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
      * and returns an instance of {@code MouseEventBuilder}.
      *
      * @return an instance of the {@code MouseEventBuilder}.
      */
-    
     public static MouseEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<? extends javafx.scene.input.MouseEvent> eventType, double x, double y, double screenX, double screenY, javafx.scene.input.MouseButton button, int clickCount, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean primaryButtonDown, boolean middleButtonDown, boolean secondaryButtonDown, boolean synthesized, boolean popupTrigger, boolean stillSincePress, javafx.scene.input.PickResult pickResult) {
         MouseEventBuilder builder = new MouseEventBuilder();
         builder.constructorArgs = new Object[]{source, target, eventType, x, y, screenX, screenY, button, clickCount, shiftDown, controlDown, altDown, metaDown, primaryButtonDown, middleButtonDown, secondaryButtonDown, synthesized, popupTrigger, stillSincePress, pickResult};
@@ -54,12 +52,11 @@ public class MouseEventBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.MouseEvent#MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.MouseEvent#MouseEvent(javafx.event.EventType, double, double, double, double, javafx.scene.input.MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, javafx.scene.input.PickResult) MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
      * and returns an instance of {@code MouseEventBuilder}.
      *
      * @return an instance of the {@code MouseEventBuilder}.
      */
-    
     public static MouseEventBuilder create(javafx.event.EventType<? extends javafx.scene.input.MouseEvent> eventType, double x, double y, double screenX, double screenY, javafx.scene.input.MouseButton button, int clickCount, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean primaryButtonDown, boolean middleButtonDown, boolean secondaryButtonDown, boolean backButtonDown, boolean forwardButtonDown, boolean synthesized, boolean popupTrigger, boolean stillSincePress, javafx.scene.input.PickResult pickResult) {
         MouseEventBuilder builder = new MouseEventBuilder();
         builder.constructorArgs = new Object[]{eventType, x, y, screenX, screenY, button, clickCount, shiftDown, controlDown, altDown, metaDown, primaryButtonDown, middleButtonDown, secondaryButtonDown, backButtonDown, forwardButtonDown, synthesized, popupTrigger, stillSincePress, pickResult};
@@ -67,12 +64,11 @@ public class MouseEventBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.MouseEvent#MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.MouseEvent#MouseEvent(javafx.event.EventType, double, double, double, double, javafx.scene.input.MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, javafx.scene.input.PickResult) MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
      * and returns an instance of {@code MouseEventBuilder}.
      *
      * @return an instance of the {@code MouseEventBuilder}.
      */
-    
     public static MouseEventBuilder create(javafx.event.EventType<? extends javafx.scene.input.MouseEvent> eventType, double x, double y, double screenX, double screenY, javafx.scene.input.MouseButton button, int clickCount, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean primaryButtonDown, boolean middleButtonDown, boolean secondaryButtonDown, boolean synthesized, boolean popupTrigger, boolean stillSincePress, javafx.scene.input.PickResult pickResult) {
         MouseEventBuilder builder = new MouseEventBuilder();
         builder.constructorArgs = new Object[]{eventType, x, y, screenX, screenY, button, clickCount, shiftDown, controlDown, altDown, metaDown, primaryButtonDown, middleButtonDown, secondaryButtonDown, synthesized, popupTrigger, stillSincePress, pickResult};

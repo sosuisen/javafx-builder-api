@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class CornerRadiiBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.layout.CornerRadii>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.layout.CornerRadii>> operations = new java.util.ArrayList<>();
     private CornerRadiiBuilder() {}
     
     /**
@@ -33,7 +33,6 @@ public class CornerRadiiBuilder {
      *
      * @return an instance of the {@code CornerRadiiBuilder}.
      */
-    
     public static CornerRadiiBuilder create(double radius) {
         CornerRadiiBuilder builder = new CornerRadiiBuilder();
         builder.constructorArgs = new Object[]{radius};
@@ -46,7 +45,6 @@ public class CornerRadiiBuilder {
      *
      * @return an instance of the {@code CornerRadiiBuilder}.
      */
-    
     public static CornerRadiiBuilder create(double radius, boolean asPercent) {
         CornerRadiiBuilder builder = new CornerRadiiBuilder();
         builder.constructorArgs = new Object[]{radius, asPercent};
@@ -59,7 +57,6 @@ public class CornerRadiiBuilder {
      *
      * @return an instance of the {@code CornerRadiiBuilder}.
      */
-    
     public static CornerRadiiBuilder create(double topLeft, double topRight, double bottomRight, double bottomLeft, boolean asPercent) {
         CornerRadiiBuilder builder = new CornerRadiiBuilder();
         builder.constructorArgs = new Object[]{topLeft, topRight, bottomRight, bottomLeft, asPercent};
@@ -72,7 +69,6 @@ public class CornerRadiiBuilder {
      *
      * @return an instance of the {@code CornerRadiiBuilder}.
      */
-    
     public static CornerRadiiBuilder create(double topLeftHorizontalRadius, double topLeftVerticalRadius, double topRightVerticalRadius, double topRightHorizontalRadius, double bottomRightHorizontalRadius, double bottomRightVerticalRadius, double bottomLeftVerticalRadius, double bottomLeftHorizontalRadius, boolean topLeftHorizontalRadiusAsPercent, boolean topLeftVerticalRadiusAsPercent, boolean topRightVerticalRadiusAsPercent, boolean topRightHorizontalRadiusAsPercent, boolean bottomRightHorizontalRadiusAsPercent, boolean bottomRightVerticalRadiusAsPercent, boolean bottomLeftVerticalRadiusAsPercent, boolean bottomLeftHorizontalRadiusAsPercent) {
         CornerRadiiBuilder builder = new CornerRadiiBuilder();
         builder.constructorArgs = new Object[]{topLeftHorizontalRadius, topLeftVerticalRadius, topRightVerticalRadius, topRightHorizontalRadius, bottomRightHorizontalRadius, bottomRightVerticalRadius, bottomLeftVerticalRadius, bottomLeftHorizontalRadius, topLeftHorizontalRadiusAsPercent, topLeftVerticalRadiusAsPercent, topRightVerticalRadiusAsPercent, topRightHorizontalRadiusAsPercent, bottomRightHorizontalRadiusAsPercent, bottomRightVerticalRadiusAsPercent, bottomLeftVerticalRadiusAsPercent, bottomLeftHorizontalRadiusAsPercent};

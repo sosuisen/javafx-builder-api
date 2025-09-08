@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class BlurTypeBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.BlurType>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.BlurType>> operations = new java.util.ArrayList<>();
     private BlurTypeBuilder() {}
     
     private Object[] constructorArgs;

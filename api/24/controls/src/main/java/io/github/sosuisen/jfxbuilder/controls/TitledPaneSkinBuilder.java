@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TitledPaneSkinBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.TitledPaneSkin>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.skin.TitledPaneSkin>> operations = new java.util.ArrayList<>();
     private TitledPaneSkinBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.skin.TitledPaneSkin#TitledPaneSkin(TitledPane) TitledPaneSkin(TitledPane)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.TitledPaneSkin#TitledPaneSkin(javafx.scene.control.TitledPane) TitledPaneSkin(TitledPane)}
      * and returns an instance of {@code TitledPaneSkinBuilder}.
      *
      * @return an instance of the {@code TitledPaneSkinBuilder}.
      */
-    
     public static TitledPaneSkinBuilder create(javafx.scene.control.TitledPane control) {
         TitledPaneSkinBuilder builder = new TitledPaneSkinBuilder();
         builder.constructorArgs = new Object[]{control};
@@ -140,27 +139,22 @@ public class TitledPaneSkinBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TitledPaneSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TitledPaneSkin#getChildren()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final TitledPaneSkinBuilder addChildren(javafx.scene.Node... elements) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(elements);
-        });
+        operations.add(obj -> obj.getChildren().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TitledPaneSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TitledPaneSkin#getChildren()} method.
      * 
      * @return builder instance
      */
     public final TitledPaneSkinBuilder addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
-        operations.add(obj -> {
-            obj.getChildren().addAll(col);
-        });
+        operations.add(obj -> obj.getChildren().addAll(col));
         return this;
     }
 }

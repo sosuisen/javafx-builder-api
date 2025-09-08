@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class BorderStrokeStyleBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.layout.BorderStrokeStyle>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.layout.BorderStrokeStyle>> operations = new java.util.ArrayList<>();
     private BorderStrokeStyleBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.layout.BorderStrokeStyle#BorderStrokeStyle(StrokeType, StrokeLineJoin, StrokeLineCap, double, double, List) BorderStrokeStyle(StrokeType, StrokeLineJoin, StrokeLineCap, double, double, List)}
+     * Accepts the constructor arguments of {@link javafx.scene.layout.BorderStrokeStyle#BorderStrokeStyle(javafx.scene.shape.StrokeType, javafx.scene.shape.StrokeLineJoin, javafx.scene.shape.StrokeLineCap, double, double, java.util.List) BorderStrokeStyle(StrokeType, StrokeLineJoin, StrokeLineCap, double, double, List)}
      * and returns an instance of {@code BorderStrokeStyleBuilder}.
      *
      * @return an instance of the {@code BorderStrokeStyleBuilder}.
      */
-    
     public static BorderStrokeStyleBuilder create(javafx.scene.shape.StrokeType type, javafx.scene.shape.StrokeLineJoin lineJoin, javafx.scene.shape.StrokeLineCap lineCap, double miterLimit, double dashOffset, java.util.List<java.lang.Double> dashArray) {
         BorderStrokeStyleBuilder builder = new BorderStrokeStyleBuilder();
         builder.constructorArgs = new Object[]{type, lineJoin, lineCap, miterLimit, dashOffset, dashArray};

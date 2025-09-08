@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.media;
  */
 
 public class AudioTrackBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.media.AudioTrack>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.media.AudioTrack>> operations = new java.util.ArrayList<>();
     private AudioTrackBuilder() {}
     
     private Object[] constructorArgs;

@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class LightSpotBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.Light.Spot>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.Light.Spot>> operations = new java.util.ArrayList<>();
     private LightSpotBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class LightSpotBuilder {
     public static LightSpotBuilder create() { return new LightSpotBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.effect.Light.Spot#Spot(double, double, double, double, Color) Spot(double, double, double, double, Color)}
+     * Accepts the constructor arguments of {@link javafx.scene.effect.Light.Spot#Spot(double, double, double, double, javafx.scene.paint.Color) Spot(double, double, double, double, Color)}
      * and returns an instance of {@code LightSpotBuilder}.
      *
      * @return an instance of the {@code LightSpotBuilder}.
      */
-    
     public static LightSpotBuilder create(double x, double y, double z, double specularExponent, javafx.scene.paint.Color color) {
         LightSpotBuilder builder = new LightSpotBuilder();
         builder.constructorArgs = new Object[]{x, y, z, specularExponent, color};

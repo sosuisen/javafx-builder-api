@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.web;
  */
 
 public class WebHistoryBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.web.WebHistory>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.web.WebHistory>> operations = new java.util.ArrayList<>();
     private WebHistoryBuilder() {}
     
     private Object[] constructorArgs;
@@ -137,27 +137,22 @@ public class WebHistoryBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.web.WebHistory#getEntries()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.web.WebHistory#getEntries()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final WebHistoryBuilder addEntries(javafx.scene.web.WebHistory.Entry... elements) {
-        operations.add(obj -> {
-            obj.getEntries().addAll(elements);
-        });
+        operations.add(obj -> obj.getEntries().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.web.WebHistory#getEntries()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.web.WebHistory#getEntries()} method.
      * 
      * @return builder instance
      */
     public final WebHistoryBuilder addEntries(java.util.Collection<? extends javafx.scene.web.WebHistory.Entry> col) {
-        operations.add(obj -> {
-            obj.getEntries().addAll(col);
-        });
+        operations.add(obj -> obj.getEntries().addAll(col));
         return this;
     }
 

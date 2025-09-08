@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class AxisTickMarkBuilder<T> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.chart.Axis.TickMark<T>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.chart.Axis.TickMark<T>>> operations = new java.util.ArrayList<>();
     private AxisTickMarkBuilder() {}
     
     /**
@@ -37,7 +37,7 @@ public class AxisTickMarkBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.chart.Axis.TickMark<T>} class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.Axis.TickMark} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

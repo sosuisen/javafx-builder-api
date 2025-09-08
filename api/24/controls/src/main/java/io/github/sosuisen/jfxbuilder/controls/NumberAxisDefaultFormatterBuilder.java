@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class NumberAxisDefaultFormatterBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.chart.NumberAxis.DefaultFormatter>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.chart.NumberAxis.DefaultFormatter>> operations = new java.util.ArrayList<>();
     private NumberAxisDefaultFormatterBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.chart.NumberAxis.DefaultFormatter#DefaultFormatter(NumberAxis) DefaultFormatter(NumberAxis)}
+     * Accepts the constructor arguments of {@link javafx.scene.chart.NumberAxis.DefaultFormatter#DefaultFormatter(javafx.scene.chart.NumberAxis) DefaultFormatter(NumberAxis)}
      * and returns an instance of {@code NumberAxisDefaultFormatterBuilder}.
      *
      * @return an instance of the {@code NumberAxisDefaultFormatterBuilder}.
      */
-    
     public static NumberAxisDefaultFormatterBuilder create(javafx.scene.chart.NumberAxis axis) {
         NumberAxisDefaultFormatterBuilder builder = new NumberAxisDefaultFormatterBuilder();
         builder.constructorArgs = new Object[]{axis};
@@ -41,12 +40,11 @@ public class NumberAxisDefaultFormatterBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.chart.NumberAxis.DefaultFormatter#DefaultFormatter(NumberAxis, String, String) DefaultFormatter(NumberAxis, String, String)}
+     * Accepts the constructor arguments of {@link javafx.scene.chart.NumberAxis.DefaultFormatter#DefaultFormatter(javafx.scene.chart.NumberAxis, java.lang.String, java.lang.String) DefaultFormatter(NumberAxis, String, String)}
      * and returns an instance of {@code NumberAxisDefaultFormatterBuilder}.
      *
      * @return an instance of the {@code NumberAxisDefaultFormatterBuilder}.
      */
-    
     public static NumberAxisDefaultFormatterBuilder create(javafx.scene.chart.NumberAxis axis, java.lang.String prefix, java.lang.String suffix) {
         NumberAxisDefaultFormatterBuilder builder = new NumberAxisDefaultFormatterBuilder();
         builder.constructorArgs = new Object[]{axis, prefix, suffix};

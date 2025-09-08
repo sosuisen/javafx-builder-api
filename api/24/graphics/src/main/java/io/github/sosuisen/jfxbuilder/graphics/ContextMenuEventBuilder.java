@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class ContextMenuEventBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.ContextMenuEvent>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.ContextMenuEvent>> operations = new java.util.ArrayList<>();
     private ContextMenuEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.ContextMenuEvent#ContextMenuEvent(Object, EventTarget, EventType, double, double, double, double, boolean, PickResult) ContextMenuEvent(Object, EventTarget, EventType, double, double, double, double, boolean, PickResult)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.ContextMenuEvent#ContextMenuEvent(java.lang.Object, javafx.event.EventTarget, javafx.event.EventType, double, double, double, double, boolean, javafx.scene.input.PickResult) ContextMenuEvent(Object, EventTarget, EventType, double, double, double, double, boolean, PickResult)}
      * and returns an instance of {@code ContextMenuEventBuilder}.
      *
      * @return an instance of the {@code ContextMenuEventBuilder}.
      */
-    
     public static ContextMenuEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.ContextMenuEvent> eventType, double x, double y, double screenX, double screenY, boolean keyboardTrigger, javafx.scene.input.PickResult pickResult) {
         ContextMenuEventBuilder builder = new ContextMenuEventBuilder();
         builder.constructorArgs = new Object[]{source, target, eventType, x, y, screenX, screenY, keyboardTrigger, pickResult};
@@ -41,12 +40,11 @@ public class ContextMenuEventBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.ContextMenuEvent#ContextMenuEvent(EventType, double, double, double, double, boolean, PickResult) ContextMenuEvent(EventType, double, double, double, double, boolean, PickResult)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.ContextMenuEvent#ContextMenuEvent(javafx.event.EventType, double, double, double, double, boolean, javafx.scene.input.PickResult) ContextMenuEvent(EventType, double, double, double, double, boolean, PickResult)}
      * and returns an instance of {@code ContextMenuEventBuilder}.
      *
      * @return an instance of the {@code ContextMenuEventBuilder}.
      */
-    
     public static ContextMenuEventBuilder create(javafx.event.EventType<javafx.scene.input.ContextMenuEvent> eventType, double x, double y, double screenX, double screenY, boolean keyboardTrigger, javafx.scene.input.PickResult pickResult) {
         ContextMenuEventBuilder builder = new ContextMenuEventBuilder();
         builder.constructorArgs = new Object[]{eventType, x, y, screenX, screenY, keyboardTrigger, pickResult};

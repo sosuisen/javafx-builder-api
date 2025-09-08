@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class CheckBoxTreeItemTreeModificationEventBuilder<T> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.CheckBoxTreeItem.TreeModificationEvent<T>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.CheckBoxTreeItem.TreeModificationEvent<T>>> operations = new java.util.ArrayList<>();
     private CheckBoxTreeItemTreeModificationEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.CheckBoxTreeItem.TreeModificationEvent#TreeModificationEvent(EventType, CheckBoxTreeItem, boolean) TreeModificationEvent(EventType, CheckBoxTreeItem, boolean)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.CheckBoxTreeItem.TreeModificationEvent#TreeModificationEvent(javafx.event.EventType, javafx.scene.control.CheckBoxTreeItem, boolean) TreeModificationEvent(EventType, CheckBoxTreeItem, boolean)}
      * and returns an instance of {@code CheckBoxTreeItemTreeModificationEventBuilder<T>}.
      *
      * @return an instance of the {@code CheckBoxTreeItemTreeModificationEventBuilder<T>}.
      */
-    
     public static <T> CheckBoxTreeItemTreeModificationEventBuilder<T> create(javafx.event.EventType<? extends javafx.event.Event> eventType, javafx.scene.control.CheckBoxTreeItem<T> treeItem, boolean selectionChanged) {
         CheckBoxTreeItemTreeModificationEventBuilder<T> builder = new CheckBoxTreeItemTreeModificationEventBuilder<T>();
         builder.constructorArgs = new Object[]{eventType, treeItem, selectionChanged};
@@ -43,7 +42,7 @@ public class CheckBoxTreeItemTreeModificationEventBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.CheckBoxTreeItem.TreeModificationEvent<T>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.CheckBoxTreeItem.TreeModificationEvent} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

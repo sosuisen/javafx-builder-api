@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class ButtonBarButtonDataBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.ButtonBar.ButtonData>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.ButtonBar.ButtonData>> operations = new java.util.ArrayList<>();
     private ButtonBarButtonDataBuilder() {}
     
     private Object[] constructorArgs;

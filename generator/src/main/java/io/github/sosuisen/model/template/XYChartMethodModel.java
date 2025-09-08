@@ -8,6 +8,7 @@ import io.github.sosuisen.model.data.ClassMetadata;
 public record XYChartMethodModel(
     String canonicalClassName,
     String simpleClassName,
+    String canonicalBuilderClassName,
     String builderClassName,
     String builderClassNameWithTypeParameter,
     String typeParametersWithExtends) {
@@ -32,6 +33,7 @@ public record XYChartMethodModel(
             return new XYChartMethodModel(
                 classMetadata.getCanonicalClassName(),
                 classMetadata.getSimpleClassName(),
+                classMetadata.getCanonicalBuilderClassName(),
                 classMetadata.getBuilderClassName(),
                 classMetadata.builderClassNameWithTypeParameter(),
                 classMetadata.getTypeParametersWithExtends()

@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class RadialGradientBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.paint.RadialGradient>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.paint.RadialGradient>> operations = new java.util.ArrayList<>();
     private RadialGradientBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.paint.RadialGradient#RadialGradient(double, double, double, double, double, boolean, CycleMethod, List) RadialGradient(double, double, double, double, double, boolean, CycleMethod, List)}
+     * Accepts the constructor arguments of {@link javafx.scene.paint.RadialGradient#RadialGradient(double, double, double, double, double, boolean, javafx.scene.paint.CycleMethod, java.util.List) RadialGradient(double, double, double, double, double, boolean, CycleMethod, List)}
      * and returns an instance of {@code RadialGradientBuilder}.
      *
      * @return an instance of the {@code RadialGradientBuilder}.
      */
-    
     public static RadialGradientBuilder create(double focusAngle, double focusDistance, double centerX, double centerY, double radius, boolean proportional, javafx.scene.paint.CycleMethod cycleMethod, java.util.List<javafx.scene.paint.Stop> stops) {
         RadialGradientBuilder builder = new RadialGradientBuilder();
         builder.constructorArgs = new Object[]{focusAngle, focusDistance, centerX, centerY, radius, proportional, cycleMethod, stops};
@@ -41,12 +40,11 @@ public class RadialGradientBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.paint.RadialGradient#RadialGradient(double, double, double, double, double, boolean, CycleMethod, Stop...) RadialGradient(double, double, double, double, double, boolean, CycleMethod, Stop...)}
+     * Accepts the constructor arguments of {@link javafx.scene.paint.RadialGradient#RadialGradient(double, double, double, double, double, boolean, javafx.scene.paint.CycleMethod, javafx.scene.paint.Stop...) RadialGradient(double, double, double, double, double, boolean, CycleMethod, Stop...)}
      * and returns an instance of {@code RadialGradientBuilder}.
      *
      * @return an instance of the {@code RadialGradientBuilder}.
      */
-    @SafeVarargs
     public static RadialGradientBuilder create(double focusAngle, double focusDistance, double centerX, double centerY, double radius, boolean proportional, javafx.scene.paint.CycleMethod cycleMethod, javafx.scene.paint.Stop... stops) {
         RadialGradientBuilder builder = new RadialGradientBuilder();
         builder.constructorArgs = new Object[]{focusAngle, focusDistance, centerX, centerY, radius, proportional, cycleMethod, stops};

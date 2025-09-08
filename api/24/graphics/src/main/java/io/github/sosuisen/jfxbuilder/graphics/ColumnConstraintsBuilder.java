@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class ColumnConstraintsBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.layout.ColumnConstraints>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.layout.ColumnConstraints>> operations = new java.util.ArrayList<>();
     private ColumnConstraintsBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class ColumnConstraintsBuilder {
      *
      * @return an instance of the {@code ColumnConstraintsBuilder}.
      */
-    
     public static ColumnConstraintsBuilder create(double width) {
         ColumnConstraintsBuilder builder = new ColumnConstraintsBuilder();
         builder.constructorArgs = new Object[]{width};
@@ -53,7 +52,6 @@ public class ColumnConstraintsBuilder {
      *
      * @return an instance of the {@code ColumnConstraintsBuilder}.
      */
-    
     public static ColumnConstraintsBuilder create(double minWidth, double prefWidth, double maxWidth) {
         ColumnConstraintsBuilder builder = new ColumnConstraintsBuilder();
         builder.constructorArgs = new Object[]{minWidth, prefWidth, maxWidth};
@@ -61,12 +59,11 @@ public class ColumnConstraintsBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.layout.ColumnConstraints#ColumnConstraints(double, double, double, Priority, HPos, boolean) ColumnConstraints(double, double, double, Priority, HPos, boolean)}
+     * Accepts the constructor arguments of {@link javafx.scene.layout.ColumnConstraints#ColumnConstraints(double, double, double, javafx.scene.layout.Priority, javafx.geometry.HPos, boolean) ColumnConstraints(double, double, double, Priority, HPos, boolean)}
      * and returns an instance of {@code ColumnConstraintsBuilder}.
      *
      * @return an instance of the {@code ColumnConstraintsBuilder}.
      */
-    
     public static ColumnConstraintsBuilder create(double minWidth, double prefWidth, double maxWidth, javafx.scene.layout.Priority hgrow, javafx.geometry.HPos halignment, boolean fillWidth) {
         ColumnConstraintsBuilder builder = new ColumnConstraintsBuilder();
         builder.constructorArgs = new Object[]{minWidth, prefWidth, maxWidth, hgrow, halignment, fillWidth};

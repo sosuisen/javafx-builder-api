@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.web;
  */
 
 public class PopupFeaturesBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.web.PopupFeatures>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.web.PopupFeatures>> operations = new java.util.ArrayList<>();
     private PopupFeaturesBuilder() {}
     
     /**
@@ -33,7 +33,6 @@ public class PopupFeaturesBuilder {
      *
      * @return an instance of the {@code PopupFeaturesBuilder}.
      */
-    
     public static PopupFeaturesBuilder create(boolean menu, boolean status, boolean toolbar, boolean resizable) {
         PopupFeaturesBuilder builder = new PopupFeaturesBuilder();
         builder.constructorArgs = new Object[]{menu, status, toolbar, resizable};

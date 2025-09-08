@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class QuadCurveToBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.shape.QuadCurveTo>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.shape.QuadCurveTo>> operations = new java.util.ArrayList<>();
     private QuadCurveToBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class QuadCurveToBuilder {
      *
      * @return an instance of the {@code QuadCurveToBuilder}.
      */
-    
     public static QuadCurveToBuilder create(double controlX, double controlY, double x, double y) {
         QuadCurveToBuilder builder = new QuadCurveToBuilder();
         builder.constructorArgs = new Object[]{controlX, controlY, x, y};

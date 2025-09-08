@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class CustomMenuItemBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.CustomMenuItem>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.CustomMenuItem>> operations = new java.util.ArrayList<>();
     private CustomMenuItemBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class CustomMenuItemBuilder {
     public static CustomMenuItemBuilder create() { return new CustomMenuItemBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.CustomMenuItem#CustomMenuItem(Node) CustomMenuItem(Node)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.CustomMenuItem#CustomMenuItem(javafx.scene.Node) CustomMenuItem(Node)}
      * and returns an instance of {@code CustomMenuItemBuilder}.
      *
      * @return an instance of the {@code CustomMenuItemBuilder}.
      */
-    
     public static CustomMenuItemBuilder create(javafx.scene.Node node) {
         CustomMenuItemBuilder builder = new CustomMenuItemBuilder();
         builder.constructorArgs = new Object[]{node};
@@ -48,12 +47,11 @@ public class CustomMenuItemBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.CustomMenuItem#CustomMenuItem(Node, boolean) CustomMenuItem(Node, boolean)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.CustomMenuItem#CustomMenuItem(javafx.scene.Node, boolean) CustomMenuItem(Node, boolean)}
      * and returns an instance of {@code CustomMenuItemBuilder}.
      *
      * @return an instance of the {@code CustomMenuItemBuilder}.
      */
-    
     public static CustomMenuItemBuilder create(javafx.scene.Node node, boolean hideOnClick) {
         CustomMenuItemBuilder builder = new CustomMenuItemBuilder();
         builder.constructorArgs = new Object[]{node, hideOnClick};
@@ -296,27 +294,22 @@ public class CustomMenuItemBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CustomMenuItem#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CustomMenuItem#getStyleClass()} method.
      * 
      * @return builder instance
      */
-    @SafeVarargs
     public final CustomMenuItemBuilder addStyleClass(java.lang.String... elements) {
-        operations.add(obj -> {
-            obj.getStyleClass().addAll(elements);
-        });
+        operations.add(obj -> obj.getStyleClass().addAll(elements));
         return this;
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CustomMenuItem#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CustomMenuItem#getStyleClass()} method.
      * 
      * @return builder instance
      */
     public final CustomMenuItemBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
-        operations.add(obj -> {
-            obj.getStyleClass().addAll(col);
-        });
+        operations.add(obj -> obj.getStyleClass().addAll(col));
         return this;
     }
 

@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class PropertyValueFactoryBuilder<S, T> {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.cell.PropertyValueFactory<S, T>>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.cell.PropertyValueFactory<S, T>>> operations = new java.util.ArrayList<>();
     private PropertyValueFactoryBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.cell.PropertyValueFactory#PropertyValueFactory(String) PropertyValueFactory(String)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.PropertyValueFactory#PropertyValueFactory(java.lang.String) PropertyValueFactory(String)}
      * and returns an instance of {@code PropertyValueFactoryBuilder<S, T>}.
      *
      * @return an instance of the {@code PropertyValueFactoryBuilder<S, T>}.
      */
-    
     public static <S, T> PropertyValueFactoryBuilder<S, T> create(java.lang.String property) {
         PropertyValueFactoryBuilder<S, T> builder = new PropertyValueFactoryBuilder<S, T>();
         builder.constructorArgs = new Object[]{property};
@@ -43,7 +42,7 @@ public class PropertyValueFactoryBuilder<S, T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.cell.PropertyValueFactory<S, T>} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.cell.PropertyValueFactory} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

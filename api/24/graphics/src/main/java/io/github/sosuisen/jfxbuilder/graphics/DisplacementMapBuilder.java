@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class DisplacementMapBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.DisplacementMap>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.DisplacementMap>> operations = new java.util.ArrayList<>();
     private DisplacementMapBuilder() {}
     
     /**
@@ -35,12 +35,11 @@ public class DisplacementMapBuilder {
     public static DisplacementMapBuilder create() { return new DisplacementMapBuilder(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.effect.DisplacementMap#DisplacementMap(FloatMap) DisplacementMap(FloatMap)}
+     * Accepts the constructor arguments of {@link javafx.scene.effect.DisplacementMap#DisplacementMap(javafx.scene.effect.FloatMap) DisplacementMap(FloatMap)}
      * and returns an instance of {@code DisplacementMapBuilder}.
      *
      * @return an instance of the {@code DisplacementMapBuilder}.
      */
-    
     public static DisplacementMapBuilder create(javafx.scene.effect.FloatMap mapData) {
         DisplacementMapBuilder builder = new DisplacementMapBuilder();
         builder.constructorArgs = new Object[]{mapData};
@@ -48,12 +47,11 @@ public class DisplacementMapBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.effect.DisplacementMap#DisplacementMap(FloatMap, double, double, double, double) DisplacementMap(FloatMap, double, double, double, double)}
+     * Accepts the constructor arguments of {@link javafx.scene.effect.DisplacementMap#DisplacementMap(javafx.scene.effect.FloatMap, double, double, double, double) DisplacementMap(FloatMap, double, double, double, double)}
      * and returns an instance of {@code DisplacementMapBuilder}.
      *
      * @return an instance of the {@code DisplacementMapBuilder}.
      */
-    
     public static DisplacementMapBuilder create(javafx.scene.effect.FloatMap mapData, double offsetX, double offsetY, double scaleX, double scaleY) {
         DisplacementMapBuilder builder = new DisplacementMapBuilder();
         builder.constructorArgs = new Object[]{mapData, offsetX, offsetY, scaleX, scaleY};

@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class BackgroundRepeatBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.layout.BackgroundRepeat>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.layout.BackgroundRepeat>> operations = new java.util.ArrayList<>();
     private BackgroundRepeatBuilder() {}
     
     private Object[] constructorArgs;

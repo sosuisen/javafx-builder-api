@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory>> operations = new java.util.ArrayList<>();
     private SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder() {}
     
     /**
@@ -33,7 +33,6 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
      *
      * @return an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
      */
-    
     public static SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder create(double min, double max) {
         SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder builder = new SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder();
         builder.constructorArgs = new Object[]{min, max};
@@ -46,7 +45,6 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
      *
      * @return an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
      */
-    
     public static SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder create(double min, double max, double initialValue) {
         SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder builder = new SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder();
         builder.constructorArgs = new Object[]{min, max, initialValue};
@@ -59,7 +57,6 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
      *
      * @return an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
      */
-    
     public static SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder create(double min, double max, double initialValue, double amountToStepBy) {
         SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder builder = new SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder();
         builder.constructorArgs = new Object[]{min, max, initialValue, amountToStepBy};

@@ -24,16 +24,15 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class InputEventBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.input.InputEvent>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.input.InputEvent>> operations = new java.util.ArrayList<>();
     private InputEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.InputEvent#InputEvent(Object, EventTarget, EventType) InputEvent(Object, EventTarget, EventType)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.InputEvent#InputEvent(java.lang.Object, javafx.event.EventTarget, javafx.event.EventType) InputEvent(Object, EventTarget, EventType)}
      * and returns an instance of {@code InputEventBuilder}.
      *
      * @return an instance of the {@code InputEventBuilder}.
      */
-    
     public static InputEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<? extends javafx.scene.input.InputEvent> eventType) {
         InputEventBuilder builder = new InputEventBuilder();
         builder.constructorArgs = new Object[]{source, target, eventType};
@@ -41,12 +40,11 @@ public class InputEventBuilder {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.input.InputEvent#InputEvent(EventType) InputEvent(EventType)}
+     * Accepts the constructor arguments of {@link javafx.scene.input.InputEvent#InputEvent(javafx.event.EventType) InputEvent(EventType)}
      * and returns an instance of {@code InputEventBuilder}.
      *
      * @return an instance of the {@code InputEventBuilder}.
      */
-    
     public static InputEventBuilder create(javafx.event.EventType<? extends javafx.scene.input.InputEvent> eventType) {
         InputEventBuilder builder = new InputEventBuilder();
         builder.constructorArgs = new Object[]{eventType};

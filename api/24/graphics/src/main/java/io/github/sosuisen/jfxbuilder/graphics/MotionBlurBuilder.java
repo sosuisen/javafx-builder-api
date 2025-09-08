@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class MotionBlurBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.MotionBlur>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.MotionBlur>> operations = new java.util.ArrayList<>();
     private MotionBlurBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class MotionBlurBuilder {
      *
      * @return an instance of the {@code MotionBlurBuilder}.
      */
-    
     public static MotionBlurBuilder create(double angle, double radius) {
         MotionBlurBuilder builder = new MotionBlurBuilder();
         builder.constructorArgs = new Object[]{angle, radius};

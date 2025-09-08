@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class PerspectiveTransformBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform>> operations = new java.util.ArrayList<>();
     private PerspectiveTransformBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class PerspectiveTransformBuilder {
      *
      * @return an instance of the {@code PerspectiveTransformBuilder}.
      */
-    
     public static PerspectiveTransformBuilder create(double ulx, double uly, double urx, double ury, double lrx, double lry, double llx, double lly) {
         PerspectiveTransformBuilder builder = new PerspectiveTransformBuilder();
         builder.constructorArgs = new Object[]{ulx, uly, urx, ury, lrx, lry, llx, lly};

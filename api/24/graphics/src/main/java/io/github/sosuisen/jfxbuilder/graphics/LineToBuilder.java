@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  */
 
 public class LineToBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.shape.LineTo>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.shape.LineTo>> operations = new java.util.ArrayList<>();
     private LineToBuilder() {}
     
     /**
@@ -40,7 +40,6 @@ public class LineToBuilder {
      *
      * @return an instance of the {@code LineToBuilder}.
      */
-    
     public static LineToBuilder create(double x, double y) {
         LineToBuilder builder = new LineToBuilder();
         builder.constructorArgs = new Object[]{x, y};

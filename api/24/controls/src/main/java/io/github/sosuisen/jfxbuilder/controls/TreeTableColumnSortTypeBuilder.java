@@ -24,7 +24,7 @@ package io.github.sosuisen.jfxbuilder.controls;
  */
 
 public class TreeTableColumnSortTypeBuilder {
-    private java.util.List<java.util.function.Consumer<javafx.scene.control.TreeTableColumn.SortType>> operations = new java.util.ArrayList<>();
+    private final java.util.List<java.util.function.Consumer<javafx.scene.control.TreeTableColumn.SortType>> operations = new java.util.ArrayList<>();
     private TreeTableColumnSortTypeBuilder() {}
     
     private Object[] constructorArgs;
