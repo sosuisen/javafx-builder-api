@@ -10,9 +10,7 @@
      */
     @SafeVarargs
     public final ${model.builderClassNameWithTypeParameter()} ${model.addMethodName()}(${model.observableListTypeParameter()}... elements) {
-        operations.add(obj -> {
-            obj.${model.getterMethodName()}().addAll(elements);
-        });
+        operations.add(obj -> obj.${model.getterMethodName()}().addAll(elements));
         return this;
     }
 
@@ -22,9 +20,7 @@
      * @return builder instance
      */
     public final ${model.builderClassNameWithTypeParameter()} ${model.addMethodName()}(java.util.Collection<? extends ${model.observableListTypeParameter()}> col) {
-        operations.add(obj -> {
-            obj.${model.getterMethodName()}().addAll(col);
-        });
+        operations.add(obj -> obj.${model.getterMethodName()}().addAll(col));
         return this;
     }@if(model.hasWithMethod())
 
