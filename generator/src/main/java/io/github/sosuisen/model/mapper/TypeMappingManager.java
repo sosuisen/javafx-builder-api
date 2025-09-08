@@ -5,13 +5,20 @@ import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
+import java.util.Set;
 import java.util.function.Function;
 
 import io.github.sosuisen.model.data.BuildInfo;
 
 public class TypeMappingManager {
     private static final Map<String, String> TYPE_MAPPINGS = new HashMap<>();
+    private static final Map<String, String> TYPE_MAPPINGS_ONLY_CODE = new HashMap<>();
+    private static final Map<String, String> TYPE_MAPPINGS_ONLY_JAVADOC = new HashMap<>();
     private static final Map<String, String> STRING_MAPPINGS = new HashMap<>();
+
+    public enum CodeOrJavaDoc {
+        CODE, JAVADOC, BOTH
+    };
 
     static {
         loadTypeMappings();
@@ -19,20 +26,28 @@ public class TypeMappingManager {
 
     private static void loadTypeMappings() {
         try (InputStream is = TypeMappingManager.class
-                .getResourceAsStream(
-                        "/mapper/" + BuildInfo.getJavaFXMajorVersion() + "/type-mapping.properties")) {
+            .getResourceAsStream(
+                "/mapper/" + BuildInfo.getJavaFXMajorVersion() + "/type-mapping.properties"
+            )) {
             if (is != null) {
                 Properties props = new Properties();
                 props.load(is);
 
                 for (String key : props.stringPropertyNames()) {
                     String value = props.getProperty(key);
-                    if (key.contains("%")) {
-                        // New format: className%matchString=replacementString
-                        STRING_MAPPINGS.put(key, value);
-                    } else {
-                        // Existing format: className#matchType=replacementType
+
+                    if (key.contains("#")) {
+                        // Format: {className}#{matchType}={replacementType}
                         TYPE_MAPPINGS.put(key, value);
+                    } else if (key.contains("%")) {
+                        // Format: {className}%{matchString}={replacementString}
+                        STRING_MAPPINGS.put(key, value);
+                    } else if (key.contains("!")) {
+                        // Format: {className}!{matchTypeCodeOnly}={replacementString}
+                        TYPE_MAPPINGS_ONLY_CODE.put(key, value);
+                    } else if (key.contains("^")) {
+                        // Format: {className}^{matchTypeJavaDocOnly}={replacementString}
+                        TYPE_MAPPINGS_ONLY_JAVADOC.put(key, value);
                     }
                 }
             }
@@ -51,7 +66,9 @@ public class TypeMappingManager {
      * @param paramType The original parameter type
      * @return The replacement type if found, otherwise the original type
      */
-    public static String getReplacement(String className, String paramType) {
+    public static String getReplacement(String className, String paramType,
+        CodeOrJavaDoc codeOrJavaDoc) {
+
         // First check string mappings (new format with %)
         String stringReplacement = findStringReplacement(className, paramType);
         if (stringReplacement != null) {
@@ -59,7 +76,7 @@ public class TypeMappingManager {
         }
 
         // Then check type mappings (existing format with #)
-        MappingEntry entry = findMappingEntry(className);
+        MappingEntry entry = findMappingEntry(className, codeOrJavaDoc);
 
         if (entry != null) {
             // Found match, process paramType with parsing
@@ -69,6 +86,8 @@ public class TypeMappingManager {
         // Return paramType (potentially modified by string replacement)
         return paramType;
     }
+
+
 
     private static String findStringReplacement(String className, String paramType) {
         // Check STRING_MAPPINGS for matching class and string
@@ -91,9 +110,16 @@ public class TypeMappingManager {
         return null; // No match found
     }
 
-    private static MappingEntry findMappingEntry(String className) {
+    private static MappingEntry findMappingEntry(String className, CodeOrJavaDoc codeOrJavaDoc) {
+        Set<Map.Entry<String, String>> entrySet =
+            switch (codeOrJavaDoc) {
+                case CODE -> TYPE_MAPPINGS_ONLY_CODE.entrySet();
+                case JAVADOC -> TYPE_MAPPINGS_ONLY_JAVADOC.entrySet();
+                case BOTH -> TYPE_MAPPINGS.entrySet();
+            };
+
         // Check TYPE_MAPPINGS for matching class
-        for (Map.Entry<String, String> entry : TYPE_MAPPINGS.entrySet()) {
+        for (Map.Entry<String, String> entry : entrySet) {
             String key = entry.getKey();
             String replacementType = entry.getValue();
 
@@ -121,12 +147,10 @@ public class TypeMappingManager {
     }
 
     /**
-     * Parses a Java type string and processes each token through the provided
-     * processor function.
+     * Parses a Java type string and processes each token through the provided processor function.
      * 
      * @param typeString The Java type string to parse (e.g., "Map<String, Number>")
-     * @param processor  Function to process each token (e.g., "Map", "String",
-     *                   "Number")
+     * @param processor Function to process each token (e.g., "Map", "String", "Number")
      * @return Processed type string in which tokens are replaced by the processor.
      */
     public static String parseAndProcess(String typeString, Function<String, String> processor) {

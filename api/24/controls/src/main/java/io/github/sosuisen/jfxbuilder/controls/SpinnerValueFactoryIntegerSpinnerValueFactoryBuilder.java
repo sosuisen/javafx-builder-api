@@ -177,7 +177,7 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
      *
      * @return builder instance
      */
-    public  SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder converter(javafx.util.StringConverter<Integer> newValue) {
+    public  SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder converter(javafx.util.StringConverter<java.lang.Integer> newValue) {
         operations.add(obj -> obj.setConverter(newValue));
         return this;
     }
@@ -203,11 +203,11 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#setValue(Integer) setValue} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#setValue(java.lang.Integer) setValue} method on the instance being constructed.
      *
      * @return builder instance
      */
-    public  SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder value(Integer newValue) {
+    public  SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder value(java.lang.Integer newValue) {
         operations.add(obj -> obj.setValue(newValue));
         return this;
     }
@@ -261,7 +261,7 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
      *
      * @return builder instance
      */
-    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<Integer>>> op) {
+    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<java.lang.Integer>>> op) {
         operations.add(obj -> op.accept(obj.converterProperty()));
         return this;
     }
@@ -327,7 +327,7 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
      *
      * @return builder instance
      */
-    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<Integer>> op) {
+    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Integer>> op) {
         operations.add(obj -> op.accept(obj.valueProperty()));
         return this;
     }

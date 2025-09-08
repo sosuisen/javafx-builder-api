@@ -1143,7 +1143,7 @@ public class NumberAxisBuilder {
      *
      * @return builder instance
      */
-    public  NumberAxisBuilder tickLabelFormatter(javafx.util.StringConverter<Number> value) {
+    public  NumberAxisBuilder tickLabelFormatter(javafx.util.StringConverter<java.lang.Number> value) {
         operations.add(obj -> obj.setTickLabelFormatter(value));
         return this;
     }
@@ -1324,7 +1324,7 @@ public class NumberAxisBuilder {
      * @return builder instance
      */
     @SafeVarargs
-    public final NumberAxisBuilder addTickMarks(javafx.scene.chart.Axis.TickMark<Number>... elements) {
+    public final NumberAxisBuilder addTickMarks(javafx.scene.chart.Axis.TickMark<java.lang.Number>... elements) {
         operations.add(obj -> obj.getTickMarks().addAll(elements));
         return this;
     }
@@ -1334,7 +1334,7 @@ public class NumberAxisBuilder {
      * 
      * @return builder instance
      */
-    public final NumberAxisBuilder addTickMarks(java.util.Collection<? extends javafx.scene.chart.Axis.TickMark<Number>> col) {
+    public final NumberAxisBuilder addTickMarks(java.util.Collection<? extends javafx.scene.chart.Axis.TickMark<java.lang.Number>> col) {
         operations.add(obj -> obj.getTickMarks().addAll(col));
         return this;
     }
@@ -1345,7 +1345,7 @@ public class NumberAxisBuilder {
      * @return builder instance
      */
     @SafeVarargs
-    public static NumberAxisBuilder withTickMarks(javafx.scene.chart.Axis.TickMark<Number>... elements) {
+    public static NumberAxisBuilder withTickMarks(javafx.scene.chart.Axis.TickMark<java.lang.Number>... elements) {
         NumberAxisBuilder builder = new NumberAxisBuilder();
         return builder.addTickMarks(elements);
     }
@@ -1355,7 +1355,7 @@ public class NumberAxisBuilder {
      * 
      * @return builder instance
      */
-    public static NumberAxisBuilder withTickMarks(java.util.Collection<? extends javafx.scene.chart.Axis.TickMark<Number>> col) {
+    public static NumberAxisBuilder withTickMarks(java.util.Collection<? extends javafx.scene.chart.Axis.TickMark<java.lang.Number>> col) {
         NumberAxisBuilder builder = new NumberAxisBuilder();
         return builder.addTickMarks(col);
     }
@@ -4746,7 +4746,7 @@ public class NumberAxisBuilder {
      *
      * @return builder instance
      */
-    public NumberAxisBuilder tickLabelFormatterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<Number>>> op) {
+    public NumberAxisBuilder tickLabelFormatterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<java.lang.Number>>> op) {
         operations.add(obj -> op.accept(obj.tickLabelFormatterProperty()));
         return this;
     }

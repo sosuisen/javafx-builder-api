@@ -427,11 +427,11 @@ public class ProgressBarTreeTableCellBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setItem(Double) setItem} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#setItem(java.lang.Double) setItem} method on the instance being constructed.
      *
      * @return builder instance
      */
-    public  ProgressBarTreeTableCellBuilder<S> item(Double value) {
+    public  ProgressBarTreeTableCellBuilder<S> item(java.lang.Double value) {
         operations.add(obj -> obj.setItem(value));
         return this;
     }
@@ -3120,7 +3120,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * @return builder instance
      */
-    public ProgressBarTreeTableCellBuilder<S> itemPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<Double>> op) {
+    public ProgressBarTreeTableCellBuilder<S> itemPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Double>> op) {
         operations.add(obj -> op.accept(obj.itemProperty()));
         return this;
     }
@@ -4792,7 +4792,7 @@ public class ProgressBarTreeTableCellBuilder<S> {
      *
      * @return builder instance
      */
-    public ProgressBarTreeTableCellBuilder<S> tableColumnPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeTableColumn<S, Double>>> op) {
+    public ProgressBarTreeTableCellBuilder<S> tableColumnPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeTableColumn<S, java.lang.Double>>> op) {
         operations.add(obj -> op.accept(obj.tableColumnProperty()));
         return this;
     }
