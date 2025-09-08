@@ -48,11 +48,15 @@ public record SetterMethodModel(
 
             // Build parameter lists
             String parameterList = ParameterStringBuilder.buildParameterListWithTypes(
-                setterMethod.getParameters(), classMetadata.getCanonicalClassName(),
+                setterMethod.getParameters(),
+                classMetadata.getCanonicalClassName(),
                 setterMethod.isVarArgs()
             );
             String parameterTypeList = ParameterStringBuilder
-                .buildParameterListCanonicalTypesOnly(setterMethod.getGenericParameterTypes());
+                .buildParameterListCanonicalTypesOnly(
+                    setterMethod.getGenericParameterTypes(),
+                    classMetadata.getCanonicalClassName()
+                );
             String argumentList =
                 ParameterStringBuilder.buildParameterListNamesOnly(setterMethod.getParameters());
 
