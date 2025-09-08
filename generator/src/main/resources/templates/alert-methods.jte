@@ -6,7 +6,7 @@
 
     /**
      * Creates an instance of the builder,
-     * then calls the {@link javafx.collections.ObservableList#setAll(E... elements) addAll(ButtonType... elements)} method
+     * then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll(ButtonType... elements)} method
      * on the ObservableList returned by the {@link ${model.canonicalClassName()}#getButtonTypes() ${model.simpleClassName()}#getButtonTypes()} method.
      *
      * <p>
@@ -25,7 +25,7 @@
 
     /**
      * Creates an instance of the builder,
-     * then calls the {@link java.util.List#addAll(Collection<? extends E> c) setAll(Collection&lt;? extends ButtonType&gt; col} method
+     * then calls the {@link java.util.List#addAll(java.util.Collection) setAll(Collection&lt;? extends ButtonType&gt; col} method
      * on the ObservableList returned by the {@link ${model.canonicalClassName()}#getButtonTypes() ${model.simpleClassName()}#getButtonTypes()} method.
      *
      * <p>

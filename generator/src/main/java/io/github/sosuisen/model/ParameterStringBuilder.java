@@ -42,11 +42,14 @@ public class ParameterStringBuilder {
         return argList.toString();
     }
 
-    public static String buildParameterListCanonicalTypesOnly(Type[] types) {
+    public static String buildParameterListCanonicalTypesOnly(Type[] types, String className) {
         StringBuilder argList = new StringBuilder();
         for (int i = 0; i < types.length; i++) {
             Type type = types[i];
             String typeName = toReadableTypeName(type.getTypeName());
+
+            typeName = TypeMappingManager.getReplacement(className, typeName);
+
             typeName = typeName.replaceAll("<(.+)>$", "");
             typeName = typeName.replace("$", ".");
             typeName = typeName.replace("[]", "...");
@@ -60,11 +63,14 @@ public class ParameterStringBuilder {
     }
 
 
-    public static String buildParameterListSimpleTypesOnly(Type[] types) {
+    public static String buildParameterListSimpleTypesOnly(Type[] types, String className) {
         StringBuilder argList = new StringBuilder();
         for (int i = 0; i < types.length; i++) {
             Type type = types[i];
             String typeName = toReadableTypeName(type.getTypeName());
+
+            typeName = TypeMappingManager.getReplacement(className, typeName);
+
             typeName = typeName.replaceAll("<(.+)>$", "");
             typeName = typeName.substring(findLastDotWordIndexReverse(typeName) + 1);
             typeName = typeName.replace("$", ".");
