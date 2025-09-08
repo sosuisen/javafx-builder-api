@@ -28,7 +28,7 @@ public class TableColumnCellDataFeaturesBuilder<S, T> {
     private TableColumnCellDataFeaturesBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TableColumn.CellDataFeatures#CellDataFeatures(javafx.scene.control.TableView, javafx.scene.control.TableColumn, java.lang.Object) CellDataFeatures(TableView, TableColumn, Object)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TableColumn.CellDataFeatures#CellDataFeatures(javafx.scene.control.TableView, javafx.scene.control.TableColumn, S) CellDataFeatures(TableView, TableColumn, S)}
      * and returns an instance of {@code TableColumnCellDataFeaturesBuilder<S, T>}.
      *
      * @return an instance of the {@code TableColumnCellDataFeaturesBuilder<S, T>}.

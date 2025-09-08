@@ -1233,6 +1233,7 @@ public class ListViewBuilder<T> {
      * 
      * @return builder instance
      */
+    @SafeVarargs
     public final ListViewBuilder<T> addItems(T... elements) {
         operations.add(obj -> obj.getItems().addAll(elements));
         return this;
@@ -1253,6 +1254,7 @@ public class ListViewBuilder<T> {
      * 
      * @return builder instance
      */
+    @SafeVarargs
     public static <T> ListViewBuilder<T> withItems(T... elements) {
         ListViewBuilder<T> builder = new ListViewBuilder<T>();
         return builder.addItems(elements);

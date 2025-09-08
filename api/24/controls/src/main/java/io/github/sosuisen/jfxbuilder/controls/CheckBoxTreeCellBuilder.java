@@ -471,7 +471,7 @@ public class CheckBoxTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setItem(java.lang.Object) setItem} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTreeCell#setItem(T) setItem} method on the instance being constructed.
      *
      * @return builder instance
      */

@@ -161,7 +161,7 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#setValue(java.lang.Object) setValue} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#setValue(T) setValue} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -185,6 +185,7 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
      * 
      * @return builder instance
      */
+    @SafeVarargs
     public final SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> addItems(T... elements) {
         operations.add(obj -> obj.getItems().addAll(elements));
         return this;

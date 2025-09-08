@@ -52,6 +52,7 @@ public class VBoxBuilder {
      *
      * @return an instance of the {@code VBoxBuilder}.
      */
+    @SafeVarargs
     public static VBoxBuilder create(double spacing, javafx.scene.Node... children) {
         VBoxBuilder builder = new VBoxBuilder();
         builder.constructorArgs = new Object[]{spacing, children};
@@ -64,6 +65,7 @@ public class VBoxBuilder {
      *
      * @return an instance of the {@code VBoxBuilder}.
      */
+    @SafeVarargs
     public static VBoxBuilder create(javafx.scene.Node... children) {
         VBoxBuilder builder = new VBoxBuilder();
         builder.constructorArgs = new Object[]{children};

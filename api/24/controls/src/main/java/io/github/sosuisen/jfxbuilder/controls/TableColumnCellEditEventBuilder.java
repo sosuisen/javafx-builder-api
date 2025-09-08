@@ -28,7 +28,7 @@ public class TableColumnCellEditEventBuilder<S, T> {
     private TableColumnCellEditEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TableColumn.CellEditEvent#CellEditEvent(javafx.scene.control.TableView, javafx.scene.control.TablePosition, javafx.event.EventType, java.lang.Object) CellEditEvent(TableView, TablePosition, EventType, Object)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TableColumn.CellEditEvent#CellEditEvent(javafx.scene.control.TableView, javafx.scene.control.TablePosition, javafx.event.EventType, T) CellEditEvent(TableView, TablePosition, EventType, T)}
      * and returns an instance of {@code TableColumnCellEditEventBuilder<S, T>}.
      *
      * @return an instance of the {@code TableColumnCellEditEventBuilder<S, T>}.

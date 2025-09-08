@@ -40,6 +40,7 @@ public class PolygonBuilder {
      *
      * @return an instance of the {@code PolygonBuilder}.
      */
+    @SafeVarargs
     public static PolygonBuilder create(double... points) {
         PolygonBuilder builder = new PolygonBuilder();
         builder.constructorArgs = new Object[]{points};

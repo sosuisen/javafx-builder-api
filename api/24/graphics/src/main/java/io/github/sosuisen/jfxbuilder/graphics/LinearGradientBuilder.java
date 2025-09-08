@@ -45,6 +45,7 @@ public class LinearGradientBuilder {
      *
      * @return an instance of the {@code LinearGradientBuilder}.
      */
+    @SafeVarargs
     public static LinearGradientBuilder create(double startX, double startY, double endX, double endY, boolean proportional, javafx.scene.paint.CycleMethod cycleMethod, javafx.scene.paint.Stop... stops) {
         LinearGradientBuilder builder = new LinearGradientBuilder();
         builder.constructorArgs = new Object[]{startX, startY, endX, endY, proportional, cycleMethod, stops};

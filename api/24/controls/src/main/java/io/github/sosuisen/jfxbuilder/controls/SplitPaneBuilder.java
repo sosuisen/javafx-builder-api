@@ -40,6 +40,7 @@ public class SplitPaneBuilder {
      *
      * @return an instance of the {@code SplitPaneBuilder}.
      */
+    @SafeVarargs
     public static SplitPaneBuilder create(javafx.scene.Node... items) {
         SplitPaneBuilder builder = new SplitPaneBuilder();
         builder.constructorArgs = new Object[]{items};

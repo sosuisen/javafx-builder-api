@@ -64,6 +64,7 @@ public class SplitMenuButtonBuilder {
      *
      * @return an instance of the {@code SplitMenuButtonBuilder}.
      */
+    @SafeVarargs
     public static SplitMenuButtonBuilder create(java.lang.String text, javafx.scene.Node graphic, javafx.scene.control.MenuItem... items) {
         SplitMenuButtonBuilder builder = new SplitMenuButtonBuilder();
         builder.constructorArgs = new Object[]{text, graphic, items};
@@ -76,6 +77,7 @@ public class SplitMenuButtonBuilder {
      *
      * @return an instance of the {@code SplitMenuButtonBuilder}.
      */
+    @SafeVarargs
     public static SplitMenuButtonBuilder create(javafx.scene.control.MenuItem... items) {
         SplitMenuButtonBuilder builder = new SplitMenuButtonBuilder();
         builder.constructorArgs = new Object[]{items};

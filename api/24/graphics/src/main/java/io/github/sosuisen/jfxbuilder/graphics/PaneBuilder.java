@@ -40,6 +40,7 @@ public class PaneBuilder {
      *
      * @return an instance of the {@code PaneBuilder}.
      */
+    @SafeVarargs
     public static PaneBuilder create(javafx.scene.Node... children) {
         PaneBuilder builder = new PaneBuilder();
         builder.constructorArgs = new Object[]{children};

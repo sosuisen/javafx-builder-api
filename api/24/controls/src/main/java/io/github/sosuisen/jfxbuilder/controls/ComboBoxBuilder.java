@@ -1219,7 +1219,7 @@ public class ComboBoxBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ComboBox#setValue(java.lang.Object) setValue} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.ComboBox#setValue(T) setValue} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1263,6 +1263,7 @@ public class ComboBoxBuilder<T> {
      * 
      * @return builder instance
      */
+    @SafeVarargs
     public final ComboBoxBuilder<T> addItems(T... elements) {
         operations.add(obj -> obj.getItems().addAll(elements));
         return this;
@@ -1283,6 +1284,7 @@ public class ComboBoxBuilder<T> {
      * 
      * @return builder instance
      */
+    @SafeVarargs
     public static <T> ComboBoxBuilder<T> withItems(T... elements) {
         ComboBoxBuilder<T> builder = new ComboBoxBuilder<T>();
         return builder.addItems(elements);

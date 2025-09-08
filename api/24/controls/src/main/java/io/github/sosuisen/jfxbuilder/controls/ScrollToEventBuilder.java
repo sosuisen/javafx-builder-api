@@ -28,7 +28,7 @@ public class ScrollToEventBuilder<T> {
     private ScrollToEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.ScrollToEvent#ScrollToEvent(java.lang.Object, javafx.event.EventTarget, javafx.event.EventType, java.lang.Object) ScrollToEvent(Object, EventTarget, EventType, Object)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.ScrollToEvent#ScrollToEvent(java.lang.Object, javafx.event.EventTarget, javafx.event.EventType, T) ScrollToEvent(Object, EventTarget, EventType, T)}
      * and returns an instance of {@code ScrollToEventBuilder<T>}.
      *
      * @return an instance of the {@code ScrollToEventBuilder<T>}.
