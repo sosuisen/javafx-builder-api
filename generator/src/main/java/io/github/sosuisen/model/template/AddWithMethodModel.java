@@ -6,6 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import io.github.sosuisen.model.data.ClassMetadata;
+import io.github.sosuisen.model.data.TypeParameter;
 import io.github.sosuisen.model.mapper.TypeMappingManager;
 
 /**
@@ -77,16 +78,7 @@ public record AddWithMethodModel(
                             observableListTypeParameter
                         );
 
-                        Matcher innerMatcher = pattern.matcher(observableListTypeParameter);
-                        if (innerMatcher.find()) {
-                            // e.g.) javafx.scene.chart.XYChart.Series<X, Y>...
-                            isSafeVarargs = true;
-                        }
-                        Pattern singleCharPattern = Pattern.compile("^\\w$");
-                        Matcher singleCharMatcher =
-                            singleCharPattern.matcher(observableListTypeParameter);
-                        if (singleCharMatcher.find()) {
-                            // e.g.) T...
+                        if (TypeParameter.hasTypeParameter(observableListTypeParameter)) {
                             isSafeVarargs = true;
                         }
                     }

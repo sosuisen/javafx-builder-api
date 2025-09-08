@@ -5,6 +5,7 @@ import java.lang.reflect.Parameter;
 import java.lang.reflect.Type;
 import io.github.sosuisen.model.ParameterStringBuilder;
 import io.github.sosuisen.model.data.ClassMetadata;
+import io.github.sosuisen.model.data.TypeParameter;
 
 /**
  * Data model for constructor method JTE template
@@ -56,7 +57,7 @@ public record CreateMethodModel(
             boolean isVarArgs = constructor.isVarArgs();
             boolean hasTypeParameter = false;
             for (var type : types) {
-                if (type.getTypeName().contains("<")) {
+                if (TypeParameter.hasTypeParameter(type.getTypeName())) {
                     hasTypeParameter = true;
                     break;
                 }
