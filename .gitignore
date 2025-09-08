@@ -2,6 +2,5 @@
 .claude/
 .serena/
 .idea/
-src/main/java/io/github/sosuisen/jfxbuilder/
 jte-classes/
 **/target/**
