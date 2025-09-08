@@ -12,9 +12,7 @@
      * @param rowIndex the row index position for the child within the gridpane, counting from 0
      */
     public ${model.builderClassNameWithTypeParameter()} add(javafx.scene.Node child, int columnIndex, int rowIndex) {
-        operations.add(obj -> {
-            obj.add(child, columnIndex, rowIndex);
-        });
+        operations.add(obj -> obj.add(child, columnIndex, rowIndex));
         return this;
     }
 
@@ -30,9 +28,7 @@
      * @param rowspan the number of rows the child's layout area should span
      */
     public ${model.builderClassNameWithTypeParameter()} add(javafx.scene.Node child, int columnIndex, int rowIndex, int colspan, int rowspan) {
-        operations.add(obj -> {
-            obj.add(child, columnIndex, rowIndex, colspan, rowspan);
-        });
+        operations.add(obj -> obj.add(child, columnIndex, rowIndex, colspan, rowspan));
         return this;
     }
 
@@ -48,9 +44,7 @@
      * @param children the nodes to be added as a row in the gridpane
      */
     public ${model.builderClassNameWithTypeParameter()} addRow(int rowIndex, javafx.scene.Node... children) {
-        operations.add(obj -> {
-            obj.addRow(rowIndex, children);
-        });
+        operations.add(obj -> obj.addRow(rowIndex, children));
         return this;
     }
 
@@ -66,8 +60,6 @@
      * @param children the nodes to be added as a column in the gridpane
      */
     public ${model.builderClassNameWithTypeParameter()} addColumn(int columnIndex, javafx.scene.Node... children)  {
-        operations.add(obj -> {
-            obj.addColumn(columnIndex, children);
-        });
+        operations.add(obj -> obj.addColumn(columnIndex, children));
         return this;
     }
