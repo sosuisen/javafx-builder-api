@@ -225,36 +225,43 @@ loadScripts(document, 'script');</script>
  is called, meaning they are evaluated lazily.
  </p>
  <p>
- Note 2: The constructor arguments <code>width</code>, <code>height</code>, <code>depthBuffer</code>, and <code>antiAliasing</code> do not have setters on the <a href="https://openjfx.io/javadoc/24/javafx.graphics/javafx/scene/Scene.html" title="class or interface in javafx.scene" class="external-link"><code>Scene</code></a> class, but custom setters have been added to <code>SceneBuilder</code>.
+ Note 2: The <a href="https://openjfx.io/javadoc/24/javafx.graphics/javafx/scene/Scene.html" title="class or interface in javafx.scene" class="external-link"><code>Scene</code></a> class does not have setters for the constructor arguments
+ <code>width</code>, <code>height</code>, <code>depthBuffer</code>, and <code>antiAliasing</code>, 
+ but <code>SceneBuilder</code> provides setters for them.
  </p>
  <p>
  Example:
  </p>
- <pre><code>
- StringProperty textProp = new SimpleStringProperty("100");
-
- Scene scene = SceneBuilder.withRoot(
-                     HBoxBuilder.withChildren(
-                           TextFieldBuilder.create()
-                               .textPropertyApply(prop -&gt; prop.bindBidirectional(textProp))
-                               .style("""
-                                      -fx-font-weight: bold;
-                                      -fx-alignment: center;
-                                      """)
-                               .hGrowInHBox(Priority.ALWAYS)
-                               .maxWidth(Double.MAX_VALUE)
-                               .build(),
-                           ButtonBuilder.create()
-                               .text("Send")
-                               .onAction(e -&gt; System.out.println("Sending..."))
-                               .minWidth(50)
-                               .build())
-                         .padding(new Insets(10))
-                         .build())
-                   .width(150) // custom setter
-                   .height(100) // custom setter
-                   .build();
- </code></pre></div>
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-io.github.sosuisen.jfxbuilder.graphics.SceneBuilder1"><code> Scene scene = SceneBuilder
+     .withRoot(
+         HBoxBuilder
+             .withChildren(
+                 TextFieldBuilder.create()
+                     .textPropertyApply(prop -&gt; prop.bindBidirectional(textProp))
+                     .style("""
+                            -fx-font-weight: bold;
+                            -fx-alignment: center;
+                            """)
+                     .hGrowInHBox(Priority.ALWAYS)
+                     .maxWidth(Double.MAX_VALUE)
+                     .build(),
+                 ButtonBuilder.create()
+                     .text("Send")
+                     .onAction(e -&gt; System.out.println("Sending..."))
+                     .minWidth(50)
+                     .build()
+             )
+             .padding(new Insets(10))
+             .build()
+     )
+     .width(150) // custom setter
+     .height(100) // custom setter
+     .build();
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Author:</dt>
 <dd>Hidekazu Kubota &lt;hidekazu.kubota@gmail.com&gt;</dd>

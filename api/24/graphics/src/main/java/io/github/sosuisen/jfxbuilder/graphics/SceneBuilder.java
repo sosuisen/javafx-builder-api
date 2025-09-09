@@ -1,17 +1,17 @@
 package io.github.sosuisen.jfxbuilder.graphics;
 
 /**
- * The {@code SceneBuilder} class constructs instances of the {@link javafx.scene.Scene} class 
+ * The {@code SceneBuilder} class constructs instances of the {@link javafx.scene.Scene Scene} class 
  * and offers a fluent interface for creating and configuring it. 
  *
  * <p>
- * This class includes a static {@code create} method that accepts the constructor arguments of the original {@link javafx.scene.Scene} constructor
+ * This class includes a static {@code create} method that accepts the constructor arguments of the original {@link javafx.scene.Scene Scene} constructor
  * and returns an instance of the {@code SceneBuilder}.
  * </p>
  *
  * <p>
- * You can use method chaining to call the builder methods for configuring the {@link javafx.scene.Scene}.
- * Finally, invoke the {@code build} method to generate an instance of the {@link javafx.scene.Scene} class.
+ * You can use method chaining to call the builder methods for configuring the {@link javafx.scene.Scene Scene}.
+ * Finally, invoke the {@code build} method to generate an instance of the {@link javafx.scene.Scene Scene} class.
  * </p>
  *
  * <p>
@@ -19,36 +19,40 @@ package io.github.sosuisen.jfxbuilder.graphics;
  * is called, meaning they are evaluated lazily.
  * </p>
  * <p>
- * Note 2: The constructor arguments {@code width}, {@code height}, {@code depthBuffer}, and {@code antiAliasing} do not have setters on the {@link javafx.scene.Scene} class, but custom setters have been added to {@code SceneBuilder}.
+ * Note 2: The {@link javafx.scene.Scene Scene} class does not have setters for the constructor arguments
+ * {@code width}, {@code height}, {@code depthBuffer}, and {@code antiAliasing}, 
+ * but {@code SceneBuilder} provides setters for them.
  * </p>
  * <p>
  * Example:
  * </p>
- * <pre>{@code
- * StringProperty textProp = new SimpleStringProperty("100");
- *
- * Scene scene = SceneBuilder.withRoot(
- *                     HBoxBuilder.withChildren(
- *                           TextFieldBuilder.create()
- *                               .textPropertyApply(prop -> prop.bindBidirectional(textProp))
- *                               .style("""
- *                                      -fx-font-weight: bold;
- *                                      -fx-alignment: center;
- *                                      """)
- *                               .hGrowInHBox(Priority.ALWAYS)
- *                               .maxWidth(Double.MAX_VALUE)
- *                               .build(),
- *                           ButtonBuilder.create()
- *                               .text("Send")
- *                               .onAction(e -> System.out.println("Sending..."))
- *                               .minWidth(50)
- *                               .build())
- *                         .padding(new Insets(10))
- *                         .build())
- *                   .width(150) // custom setter
- *                   .height(100) // custom setter
- *                   .build();
- * }</pre>
+ * {@snippet :
+ *  Scene scene = SceneBuilder
+ *      .withRoot(
+ *          HBoxBuilder
+ *              .withChildren(
+ *                  TextFieldBuilder.create()
+ *                      .textPropertyApply(prop -> prop.bindBidirectional(textProp))
+ *                      .style("""
+ *                             -fx-font-weight: bold;
+ *                             -fx-alignment: center;
+ *                             """)
+ *                      .hGrowInHBox(Priority.ALWAYS)
+ *                      .maxWidth(Double.MAX_VALUE)
+ *                      .build(),
+ *                  ButtonBuilder.create()
+ *                      .text("Send")
+ *                      .onAction(e -> System.out.println("Sending..."))
+ *                      .minWidth(50)
+ *                      .build()
+ *              )
+ *              .padding(new Insets(10))
+ *              .build()
+ *      )
+ *      .width(150) // custom setter
+ *      .height(100) // custom setter
+ *      .build();
+ * }
  *
  * @author Hidekazu Kubota &lt;hidekazu.kubota@gmail.com&gt;
  */
