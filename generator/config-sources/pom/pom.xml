@@ -123,8 +123,8 @@
   </build>
 
   <scm>
-    <connection>scm:git:git://github.com/sosuisen/javafx-builder-api-generator.git</connection>
-    <developerConnection>scm:git:ssh://github.com:sosuisen/javafx-builder-api-generator.git</developerConnection>
-    <url>http://github.com/sosuisen/javafx-builder-api-generator/tree/main</url>
+    <connection>scm:git:git://github.com/sosuisen/javafx-builder-api.git</connection>
+    <developerConnection>scm:git:ssh://github.com:sosuisen/javafx-builder-api.git</developerConnection>
+    <url>https://github.com/sosuisen/javafx-builder-api/tree/main</url>
   </scm>
 </project>
