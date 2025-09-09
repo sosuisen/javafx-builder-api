@@ -9,14 +9,11 @@ import java.util.Set;
 import java.util.function.Function;
 
 import io.github.sosuisen.model.data.BuildInfo;
+import io.github.sosuisen.model.data.ClassMetadata;
 
 public class JavaDocMappingManager {
     private static final Map<String, String> TYPE_MAPPINGS = new HashMap<>();
-    private static final Map<String, String> STRING_MAPPINGS = new HashMap<>();
-
-    public enum CodeOrJavaDoc {
-        CODE, JAVADOC, BOTH
-    };
+    private static final Map<String, String> SUPER_TYPE_MAPPINGS = new HashMap<>();
 
     static {
         loadTypeMappings();
@@ -25,7 +22,7 @@ public class JavaDocMappingManager {
     private static void loadTypeMappings() {
         try (InputStream is = TypeMappingManager.class
             .getResourceAsStream(
-                "/mapper/" + BuildInfo.getJavaFXMajorVersion() + "/type-mapping.properties"
+                "/mapper/" + BuildInfo.getJavaFXMajorVersion() + "/javadoc-mapping.properties"
             )) {
             if (is != null) {
                 Properties props = new Properties();
@@ -37,9 +34,9 @@ public class JavaDocMappingManager {
                     if (key.contains("#")) {
                         // Format: {className}#{matchType}={replacementType}
                         TYPE_MAPPINGS.put(key, value);
-                    } else if (key.contains("%")) {
-                        // Format: {className}%{matchString}={replacementString}
-                        STRING_MAPPINGS.put(key, value);
+                    } else if (key.contains("^")) {
+                        // Format: {superClassName}^{matchString}={replacementString}
+                        SUPER_TYPE_MAPPINGS.put(key, value);
                     }
                 }
             }
@@ -58,42 +55,39 @@ public class JavaDocMappingManager {
      * @param paramType The original parameter type
      * @return The replacement type if found, otherwise the original type
      */
-    public static String getReplacement(String className, String paramType) {
-
-        // First check string mappings (new format with %)
-        String stringReplacement = findStringReplacement(className, paramType);
-        if (stringReplacement != null) {
-            paramType = stringReplacement;
+    public static String getReplacement(ClassMetadata classMetadata, String paramType) {
+        MappingEntry superMappingEntry = findSuperMappingEntry(classMetadata.getClass());
+        if (superMappingEntry != null) {
+            return parseAndProcess(paramType, (token) -> replaceToken(token, superMappingEntry));
         }
 
-        // Then check type mappings (existing format with #)
-        MappingEntry entry = findMappingEntry(className);
-
+        MappingEntry entry = findMappingEntry(classMetadata.getCanonicalClassName());
         if (entry != null) {
-            // Found match, process paramType with parsing
             return parseAndProcess(paramType, (token) -> replaceToken(token, entry));
         }
 
-        // Return paramType (potentially modified by string replacement)
-        return paramType;
+        return defaultMapping(paramType);
     }
 
+    private static MappingEntry findSuperMappingEntry(Class<?> clazz) {
+        Set<Map.Entry<String, String>> entrySet = SUPER_TYPE_MAPPINGS.entrySet();
 
-
-    private static String findStringReplacement(String className, String paramType) {
-        // Check STRING_MAPPINGS for matching class and string
-        for (Map.Entry<String, String> entry : STRING_MAPPINGS.entrySet()) {
+        for (Map.Entry<String, String> entry : entrySet) {
             String key = entry.getKey();
-            String replacementString = entry.getValue();
+            String replacementType = entry.getValue();
 
-            if (key.contains("%")) {
-                String[] parts = key.split("%", 2);
-                String mappingClassName = parts[0];
-                String matchString = parts[1];
+            if (key.contains("^")) {
+                String[] parts = key.split("\\^", 2);
+                String superClassName = parts[0];
+                String matchType = parts[1];
 
-                // If className matches the mapping and paramType contains the match string
-                if (className.equals(mappingClassName) && paramType.contains(matchString)) {
-                    return paramType.replace(matchString, replacementString);
+                try {
+                    Class<?> superClass = Class.forName(superClassName);
+                    if (superClass.isAssignableFrom(clazz)) {
+                        return new MappingEntry(matchType, replacementType);
+                    }
+                } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
                 }
             }
         }
@@ -104,7 +98,6 @@ public class JavaDocMappingManager {
     private static MappingEntry findMappingEntry(String className) {
         Set<Map.Entry<String, String>> entrySet = TYPE_MAPPINGS.entrySet();
 
-        // Check TYPE_MAPPINGS for matching class
         for (Map.Entry<String, String> entry : entrySet) {
             String key = entry.getKey();
             String replacementType = entry.getValue();
@@ -122,6 +115,20 @@ public class JavaDocMappingManager {
         }
 
         return null; // No match found
+    }
+
+    private static String defaultMapping(String paramType) {
+        return switch (paramType) {
+            case "C" -> "java.lang.Object";
+            case "S" -> "java.lang.Object";
+            case "T" -> "java.lang.Object";
+            case "R" -> "java.lang.Object";
+            case "V" -> "java.lang.Object";
+            case "X" -> "java.lang.Object";
+            case "Y" -> "java.lang.Object";
+            case "T..." -> "java.lang.Object...";
+            default -> paramType;
+        };
     }
 
     private static String replaceToken(String token, MappingEntry entry) {
