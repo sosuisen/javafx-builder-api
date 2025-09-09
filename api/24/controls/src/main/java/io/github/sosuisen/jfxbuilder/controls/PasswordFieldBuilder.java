@@ -37,7 +37,7 @@ public class PasswordFieldBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.PasswordField} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.PasswordField PasswordField} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -73,7 +73,7 @@ public class HBoxBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.layout.HBox} class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.HBox HBox} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

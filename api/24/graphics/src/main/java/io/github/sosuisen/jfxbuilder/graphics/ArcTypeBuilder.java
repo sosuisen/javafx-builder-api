@@ -30,7 +30,7 @@ public class ArcTypeBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.shape.ArcType} class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.ArcType ArcType} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

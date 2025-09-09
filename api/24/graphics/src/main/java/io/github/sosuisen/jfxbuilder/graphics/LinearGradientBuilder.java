@@ -54,7 +54,7 @@ public class LinearGradientBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.paint.LinearGradient} class.
+     * Builds and returns an instance of the {@link javafx.scene.paint.LinearGradient LinearGradient} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

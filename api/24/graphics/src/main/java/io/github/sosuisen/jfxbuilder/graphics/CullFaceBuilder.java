@@ -30,7 +30,7 @@ public class CullFaceBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.shape.CullFace} class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.CullFace CullFace} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

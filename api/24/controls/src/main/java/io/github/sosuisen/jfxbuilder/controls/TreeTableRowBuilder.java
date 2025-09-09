@@ -37,7 +37,7 @@ public class TreeTableRowBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TreeTableRow} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TreeTableRow TreeTableRow} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

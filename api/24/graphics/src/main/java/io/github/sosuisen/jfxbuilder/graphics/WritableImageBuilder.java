@@ -78,7 +78,7 @@ public class WritableImageBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.image.WritableImage} class.
+     * Builds and returns an instance of the {@link javafx.scene.image.WritableImage WritableImage} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

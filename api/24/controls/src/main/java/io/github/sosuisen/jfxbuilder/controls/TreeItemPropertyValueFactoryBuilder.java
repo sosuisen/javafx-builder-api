@@ -42,7 +42,7 @@ public class TreeItemPropertyValueFactoryBuilder<S, T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.cell.TreeItemPropertyValueFactory} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.cell.TreeItemPropertyValueFactory TreeItemPropertyValueFactory} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -49,7 +49,7 @@ public class QuadCurveToBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.shape.QuadCurveTo} class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.QuadCurveTo QuadCurveTo} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

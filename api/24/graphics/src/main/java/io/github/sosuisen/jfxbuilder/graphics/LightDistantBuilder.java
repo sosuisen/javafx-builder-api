@@ -49,7 +49,7 @@ public class LightDistantBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.effect.Light.Distant} class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.Light.Distant Distant} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

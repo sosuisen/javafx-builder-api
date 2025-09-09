@@ -87,7 +87,7 @@ public class ComboBoxTableCellBuilder<S, T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.cell.ComboBoxTableCell} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.cell.ComboBoxTableCell ComboBoxTableCell} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

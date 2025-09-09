@@ -37,7 +37,7 @@ public class RegionBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.layout.Region} class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.Region Region} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

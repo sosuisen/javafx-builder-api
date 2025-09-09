@@ -30,7 +30,7 @@ public class TextAlignmentBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.text.TextAlignment} class.
+     * Builds and returns an instance of the {@link javafx.scene.text.TextAlignment TextAlignment} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

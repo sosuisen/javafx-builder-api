@@ -42,7 +42,7 @@ public class PixelBufferBuilder<T extends java.nio.Buffer> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.image.PixelBuffer} class.
+     * Builds and returns an instance of the {@link javafx.scene.image.PixelBuffer PixelBuffer} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

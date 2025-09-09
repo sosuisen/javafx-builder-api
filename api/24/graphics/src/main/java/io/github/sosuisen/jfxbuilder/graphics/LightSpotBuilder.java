@@ -49,7 +49,7 @@ public class LightSpotBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.effect.Light.Spot} class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.Light.Spot Spot} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

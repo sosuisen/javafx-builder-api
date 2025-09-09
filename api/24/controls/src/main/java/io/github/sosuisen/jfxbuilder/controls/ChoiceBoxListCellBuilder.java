@@ -87,7 +87,7 @@ public class ChoiceBoxListCellBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.cell.ChoiceBoxListCell} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.cell.ChoiceBoxListCell ChoiceBoxListCell} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

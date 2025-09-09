@@ -30,7 +30,7 @@ public class WebHistoryBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.web.WebHistory} class.
+     * Builds and returns an instance of the {@link javafx.scene.web.WebHistory WebHistory} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -42,7 +42,7 @@ public class WebErrorEventBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.web.WebErrorEvent} class.
+     * Builds and returns an instance of the {@link javafx.scene.web.WebErrorEvent WebErrorEvent} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

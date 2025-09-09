@@ -30,7 +30,7 @@ public class TextFormatterChangeBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TextFormatter.Change} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TextFormatter.Change Change} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

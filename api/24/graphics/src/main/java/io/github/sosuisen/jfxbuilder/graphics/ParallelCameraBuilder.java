@@ -37,7 +37,7 @@ public class ParallelCameraBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.ParallelCamera} class.
+     * Builds and returns an instance of the {@link javafx.scene.ParallelCamera ParallelCamera} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

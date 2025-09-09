@@ -30,7 +30,7 @@ public class MediaErrorEventBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.media.MediaErrorEvent} class.
+     * Builds and returns an instance of the {@link javafx.scene.media.MediaErrorEvent MediaErrorEvent} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

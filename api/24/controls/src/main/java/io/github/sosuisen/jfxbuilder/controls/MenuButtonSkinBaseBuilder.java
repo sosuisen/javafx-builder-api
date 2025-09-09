@@ -42,7 +42,7 @@ public class MenuButtonSkinBaseBuilder<C extends javafx.scene.control.MenuButton
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.skin.MenuButtonSkinBase} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.MenuButtonSkinBase MenuButtonSkinBase} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

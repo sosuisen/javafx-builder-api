@@ -37,7 +37,7 @@ public class AxisTickMarkBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.chart.Axis.TickMark} class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.Axis.TickMark TickMark} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

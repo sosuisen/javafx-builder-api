@@ -61,7 +61,7 @@ public class PathBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.shape.Path} class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.Path Path} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

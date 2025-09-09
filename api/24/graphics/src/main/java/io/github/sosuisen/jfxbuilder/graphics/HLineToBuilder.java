@@ -49,7 +49,7 @@ public class HLineToBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.shape.HLineTo} class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.HLineTo HLineTo} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

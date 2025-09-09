@@ -61,7 +61,7 @@ public class BorderPaneBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.layout.BorderPane} class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.BorderPane BorderPane} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -37,7 +37,7 @@ public class HTMLEditorBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.web.HTMLEditor} class.
+     * Builds and returns an instance of the {@link javafx.scene.web.HTMLEditor HTMLEditor} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -61,7 +61,7 @@ public class ButtonBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.Button} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.Button Button} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

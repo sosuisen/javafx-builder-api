@@ -54,7 +54,7 @@ public class BubbleChartBuilder<X, Y> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.chart.BubbleChart} class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.BubbleChart BubbleChart} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

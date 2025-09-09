@@ -61,7 +61,7 @@ public class TranslateBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.transform.Translate} class.
+     * Builds and returns an instance of the {@link javafx.scene.transform.Translate Translate} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

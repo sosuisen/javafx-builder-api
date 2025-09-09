@@ -85,7 +85,7 @@ public class CircleBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.shape.Circle} class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.Circle Circle} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -54,7 +54,7 @@ public class LineChartBuilder<X, Y> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.chart.LineChart} class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.LineChart LineChart} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

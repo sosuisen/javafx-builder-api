@@ -49,7 +49,7 @@ public class TriangleMeshBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.shape.TriangleMesh} class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.TriangleMesh TriangleMesh} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

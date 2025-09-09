@@ -49,7 +49,7 @@ public class SeparatorBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.Separator} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.Separator Separator} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

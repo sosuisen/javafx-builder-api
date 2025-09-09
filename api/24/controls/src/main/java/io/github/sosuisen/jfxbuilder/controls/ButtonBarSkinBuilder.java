@@ -42,7 +42,7 @@ public class ButtonBarSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.skin.ButtonBarSkin} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.ButtonBarSkin ButtonBarSkin} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

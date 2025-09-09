@@ -61,7 +61,7 @@ public class DisplacementMapBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.effect.DisplacementMap} class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.DisplacementMap DisplacementMap} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

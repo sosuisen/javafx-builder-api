@@ -49,7 +49,7 @@ public class EqualizerBandBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.media.EqualizerBand} class.
+     * Builds and returns an instance of the {@link javafx.scene.media.EqualizerBand EqualizerBand} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

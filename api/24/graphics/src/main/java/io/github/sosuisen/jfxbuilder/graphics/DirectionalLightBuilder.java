@@ -49,7 +49,7 @@ public class DirectionalLightBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.DirectionalLight} class.
+     * Builds and returns an instance of the {@link javafx.scene.DirectionalLight DirectionalLight} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

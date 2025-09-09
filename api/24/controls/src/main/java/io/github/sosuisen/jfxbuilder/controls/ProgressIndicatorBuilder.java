@@ -49,7 +49,7 @@ public class ProgressIndicatorBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.ProgressIndicator} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.ProgressIndicator ProgressIndicator} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

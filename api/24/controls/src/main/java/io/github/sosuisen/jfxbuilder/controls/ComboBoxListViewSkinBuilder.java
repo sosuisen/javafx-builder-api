@@ -42,7 +42,7 @@ public class ComboBoxListViewSkinBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.skin.ComboBoxListViewSkin} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.ComboBoxListViewSkin ComboBoxListViewSkin} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

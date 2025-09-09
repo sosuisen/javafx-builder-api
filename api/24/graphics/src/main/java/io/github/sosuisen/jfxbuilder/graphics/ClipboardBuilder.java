@@ -30,7 +30,7 @@ public class ClipboardBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.input.Clipboard} class.
+     * Builds and returns an instance of the {@link javafx.scene.input.Clipboard Clipboard} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -42,7 +42,7 @@ public class SeparatorSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.skin.SeparatorSkin} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.SeparatorSkin SeparatorSkin} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

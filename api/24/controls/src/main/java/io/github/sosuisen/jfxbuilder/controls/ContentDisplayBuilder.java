@@ -30,7 +30,7 @@ public class ContentDisplayBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.ContentDisplay} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.ContentDisplay ContentDisplay} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

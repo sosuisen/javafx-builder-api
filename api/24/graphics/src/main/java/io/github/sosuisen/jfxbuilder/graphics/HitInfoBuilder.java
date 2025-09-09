@@ -30,7 +30,7 @@ public class HitInfoBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.text.HitInfo} class.
+     * Builds and returns an instance of the {@link javafx.scene.text.HitInfo HitInfo} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

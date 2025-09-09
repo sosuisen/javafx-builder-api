@@ -54,7 +54,7 @@ public class RadialGradientBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.paint.RadialGradient} class.
+     * Builds and returns an instance of the {@link javafx.scene.paint.RadialGradient RadialGradient} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

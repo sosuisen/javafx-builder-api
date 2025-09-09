@@ -61,7 +61,7 @@ public class NumberAxisBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.chart.NumberAxis} class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.NumberAxis NumberAxis} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -30,7 +30,7 @@ public class TabPaneTabDragPolicyBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TabPane.TabDragPolicy} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TabPane.TabDragPolicy TabDragPolicy} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

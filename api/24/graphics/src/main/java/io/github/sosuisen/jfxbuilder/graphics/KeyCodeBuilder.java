@@ -30,7 +30,7 @@ public class KeyCodeBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.input.KeyCode} class.
+     * Builds and returns an instance of the {@link javafx.scene.input.KeyCode KeyCode} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

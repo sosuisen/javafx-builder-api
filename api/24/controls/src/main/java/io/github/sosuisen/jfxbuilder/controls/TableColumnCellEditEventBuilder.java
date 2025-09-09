@@ -42,7 +42,7 @@ public class TableColumnCellEditEventBuilder<S, T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TableColumn.CellEditEvent} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TableColumn.CellEditEvent CellEditEvent} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -54,7 +54,7 @@ public class InputEventBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.input.InputEvent} class.
+     * Builds and returns an instance of the {@link javafx.scene.input.InputEvent InputEvent} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

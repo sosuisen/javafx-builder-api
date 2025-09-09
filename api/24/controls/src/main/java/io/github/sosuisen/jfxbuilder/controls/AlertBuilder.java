@@ -54,7 +54,7 @@ public class AlertBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.Alert} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.Alert Alert} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -42,7 +42,7 @@ public class ScrollToEventBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.ScrollToEvent} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.ScrollToEvent ScrollToEvent} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

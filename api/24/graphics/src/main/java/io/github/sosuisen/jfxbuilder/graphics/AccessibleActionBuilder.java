@@ -30,7 +30,7 @@ public class AccessibleActionBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.AccessibleAction} class.
+     * Builds and returns an instance of the {@link javafx.scene.AccessibleAction AccessibleAction} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

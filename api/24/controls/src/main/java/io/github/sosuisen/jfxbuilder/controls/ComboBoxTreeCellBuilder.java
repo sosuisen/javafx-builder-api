@@ -87,7 +87,7 @@ public class ComboBoxTreeCellBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.cell.ComboBoxTreeCell} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.cell.ComboBoxTreeCell ComboBoxTreeCell} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

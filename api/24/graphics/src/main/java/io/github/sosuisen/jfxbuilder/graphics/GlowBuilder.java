@@ -49,7 +49,7 @@ public class GlowBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.effect.Glow} class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.Glow Glow} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

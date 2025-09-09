@@ -73,7 +73,7 @@ public class DropShadowBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.effect.DropShadow} class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.DropShadow DropShadow} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

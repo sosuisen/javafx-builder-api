@@ -42,7 +42,7 @@ public class TableViewTableViewFocusModelBuilder<S> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TableView.TableViewFocusModel} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TableView.TableViewFocusModel TableViewFocusModel} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

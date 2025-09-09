@@ -42,7 +42,7 @@ public class BorderImageBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.layout.BorderImage} class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.BorderImage BorderImage} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

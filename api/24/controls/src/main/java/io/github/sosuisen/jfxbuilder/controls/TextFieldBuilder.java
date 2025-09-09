@@ -49,7 +49,7 @@ public class TextFieldBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TextField} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TextField TextField} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

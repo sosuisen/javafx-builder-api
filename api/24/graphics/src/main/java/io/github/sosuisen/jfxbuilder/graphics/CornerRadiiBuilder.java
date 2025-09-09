@@ -78,7 +78,7 @@ public class CornerRadiiBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.layout.CornerRadii} class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.CornerRadii CornerRadii} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

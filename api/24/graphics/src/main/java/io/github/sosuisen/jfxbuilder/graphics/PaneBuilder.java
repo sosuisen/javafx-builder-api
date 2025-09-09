@@ -49,7 +49,7 @@ public class PaneBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.layout.Pane} class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.Pane Pane} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

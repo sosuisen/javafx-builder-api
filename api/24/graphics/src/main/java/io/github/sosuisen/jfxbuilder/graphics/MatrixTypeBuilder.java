@@ -30,7 +30,7 @@ public class MatrixTypeBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.transform.MatrixType} class.
+     * Builds and returns an instance of the {@link javafx.scene.transform.MatrixType MatrixType} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -61,7 +61,7 @@ public class PaginationBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.Pagination} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.Pagination Pagination} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

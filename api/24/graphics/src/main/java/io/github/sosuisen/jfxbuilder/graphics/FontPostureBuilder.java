@@ -30,7 +30,7 @@ public class FontPostureBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.text.FontPosture} class.
+     * Builds and returns an instance of the {@link javafx.scene.text.FontPosture FontPosture} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

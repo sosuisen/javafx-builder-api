@@ -30,7 +30,7 @@ public class StrokeTypeBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.shape.StrokeType} class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.StrokeType StrokeType} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

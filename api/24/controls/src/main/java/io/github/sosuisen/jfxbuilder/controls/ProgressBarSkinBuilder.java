@@ -42,7 +42,7 @@ public class ProgressBarSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.skin.ProgressBarSkin} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.ProgressBarSkin ProgressBarSkin} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

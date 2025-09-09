@@ -49,7 +49,7 @@ public class ChoiceBoxBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.ChoiceBox} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.ChoiceBox ChoiceBox} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

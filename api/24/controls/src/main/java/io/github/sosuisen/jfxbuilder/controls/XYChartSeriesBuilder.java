@@ -61,7 +61,7 @@ public class XYChartSeriesBuilder<X, Y> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.chart.XYChart.Series} class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.XYChart.Series Series} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

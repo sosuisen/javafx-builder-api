@@ -49,7 +49,7 @@ public class PointLightBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.PointLight} class.
+     * Builds and returns an instance of the {@link javafx.scene.PointLight PointLight} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method
