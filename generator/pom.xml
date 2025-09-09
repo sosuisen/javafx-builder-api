@@ -87,6 +87,25 @@
         <version>3.3.1</version>
         <executions>
           <execution>
+            <id>copy-pom-for-aggregation</id>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>../api/${javafx.major.version}/</outputDirectory>
+              <resources>
+                <resource>
+                  <directory>config-sources/pom/</directory>
+                  <filtering>true</filtering>
+                  <includes>
+                    <include>pom.xml</include>
+                  </includes>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>            
+          <execution>
             <id>copy-pom</id>
             <phase>generate-resources</phase>
             <goals>
@@ -96,7 +115,7 @@
               <outputDirectory>${outputDir.api}/</outputDirectory>
               <resources>
                 <resource>
-                  <directory>config-sources/pom/</directory>
+                  <directory>config-sources/pom/modules/</directory>
                   <filtering>true</filtering>
                   <includes>
                     <include>pom.xml</include>
@@ -163,26 +182,6 @@
             </configuration>
           </execution>
         </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-clean-plugin</artifactId>
-        <version>3.2.0</version>
-        <configuration>
-          <filesets>
-            <fileset>
-              <directory>${outputDir.api}/</directory>
-              <includes>
-                <include>**/*</include>
-              </includes>
-              <excludes>
-                <exclude>src/test/</exclude>
-                <exclude>src/test/**</exclude>
-                <exclude>pom.xml</exclude>
-              </excludes>
-            </fileset>
-          </filesets>
-        </configuration>
       </plugin>
     </plugins>
 

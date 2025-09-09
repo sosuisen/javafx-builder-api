@@ -3,13 +3,47 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.sosuisen</groupId>
   <artifactId>javafx-builder-api</artifactId>
-  <version>1.0.0</version>
+  <version>24.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <description>JavaFX Builder API</description>
   <modules>
     <module>controls</module>
     <module>graphics</module>
     <module>media</module>
-    <module>web</module>            
+    <module>web</module>
   </modules>
+
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.11.3</version>
+        <configuration>
+          <source>17</source>
+          <locale>en_US</locale>
+          <outputDirectory>../../docs/24/</outputDirectory>
+          <links>
+            <link>https://openjfx.io/javadoc/24/</link>
+          </links>
+          <additionalOptions>
+            <!-- skip strict check java doc-->
+            <additionalOption>-Xdoclint:none</additionalOption>
+          </additionalOptions>
+          <notimestamp>true</notimestamp>
+          <bottom><![CDATA[
+                        <div style="text-align: center; margin-top: 20px; border-top: 1px solid #ccc; padding-top: 10px;">
+                            <p>Copyright &#169; {currentYear} <a href="https://github.com/sosuisen">Hidekazu Kubota</a> All rights reserved.</p>
+                        </div>
+                    ]]></bottom>          
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
