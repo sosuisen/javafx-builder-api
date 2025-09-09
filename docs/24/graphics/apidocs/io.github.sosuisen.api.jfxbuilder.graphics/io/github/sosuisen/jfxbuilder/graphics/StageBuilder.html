@@ -169,25 +169,35 @@ loadScripts(document, 'script');</script>
  is called, meaning they are evaluated lazily.
  </p>
  <p>
- Note 2: There is no setter for the optional constructor argument <code>StageStyle</code>, but <code>StageBuilder</code> has a <code>stageStyle</code> method.
+ Note 2: The <a href="https://openjfx.io/javadoc/24/javafx.graphics/javafx/stage/Stage.html" title="class or interface in javafx.stage" class="external-link"><code>Stage</code></a> class does not have a setter for the 
+ <code>StageStyle</code> constructor argument, but <code>StageBuilder</code> provides a <code>stageStyle</code> method.
  </p>
  <p>
  Example:
  </p>
- <pre><code>
- StageBuilder.withScene(
-       SceneBuilder.withRoot(
-             AnchorPaneBuilder.withChildren(
-                   LabelBuilder.create()
-                         .text("Hello, JavaFX!")
-                         .style("-fx-font-weight: bold;")
-                         .build())
-                 .build())
-           .build())
-     .width(640)
-     .height(480)
-     .build();
- </code></pre></div>
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-io.github.sosuisen.jfxbuilder.graphics.StageBuilder1"><code> StageBuilder
+         .withScene(
+             SceneBuilder
+                 .withRoot(
+                     AnchorPaneBuilder
+                         .withChildren(
+                             LabelBuilder.create()
+                                 .text("Hello, JavaFX!")
+                                 .style("-fx-font-weight: bold;")
+                                 .build()
+                         )
+                         .build()
+                 )
+                 .build()
+         )
+         .width(640)
+         .height(480)
+         .build();
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Author:</dt>
 <dd>Hidekazu Kubota &lt;hidekazu.kubota@gmail.com&gt;</dd>
