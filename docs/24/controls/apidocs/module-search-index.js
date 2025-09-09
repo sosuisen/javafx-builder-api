@@ -1,1 +1,0 @@
-moduleSearchIndex = [{"l":"io.github.sosuisen.api.jfxbuilder.controls"}];updateSearchResults();

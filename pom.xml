@@ -6,10 +6,46 @@
   <version>1.0.0</version>
   <packaging>pom</packaging>
   <description>JavaFX Builder API</description>
+  <properties>
+    <dev.name>Hidekazu Kubota</dev.name>
+    <dev.url>https://github.com/sosuisen</dev.url>
+  </properties>
+
   <modules>
     <module>generator</module>
     <module>api</module>
   </modules>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-clean-plugin</artifactId>
+        <version>3.2.0</version>
+        <configuration>
+          <filesets>
+            <fileset>
+              <directory>api/${javafx.major.version}/</directory>
+              <includes>
+                <include>**/*</include>
+              </includes>
+              <excludes>
+                <exclude>**/src/test/</exclude>
+                <exclude>**/src/test/**</exclude>
+                <exclude>**/pom.xml</exclude>
+              </excludes>
+            </fileset>
+            <fileset>
+              <directory>docs/${javafx.major.version}/</directory>
+              <includes>
+                <include>**/*</include>
+              </includes>
+            </fileset>
+          </filesets>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 
   <profiles>
     <profile>
@@ -67,8 +103,8 @@
       <artifactId>javafx-controls</artifactId>
       <version>${javafx.major.version}</version>
       <scope>test</scope>
-    </dependency>
-          ]]></builder.dependencies>
+    </dependency>]]>
+        </builder.dependencies>
       </properties>
     </profile>
     <profile>
