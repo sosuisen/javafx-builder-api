@@ -28,7 +28,7 @@ public class WebEventBuilder<T> {
     private WebEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.web.WebEvent#WebEvent(java.lang.Object, javafx.event.EventType, java.lang.Object) WebEvent(Object, EventType, T)}
+     * Accepts the constructor arguments of {@link javafx.scene.web.WebEvent#WebEvent(java.lang.Object, javafx.event.EventType, T) WebEvent(Object, EventType, T)}
      * and returns an instance of {@code WebEventBuilder<T>}.
      *
      * @return an instance of the {@code WebEventBuilder<T>}.

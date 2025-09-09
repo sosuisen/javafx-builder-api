@@ -164,7 +164,7 @@ public class CheckMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.CheckMenuItem#setAccelerator(javafx.scene.input.KeyCombination) setAccelerator} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setAccelerator(javafx.scene.input.KeyCombination) setAccelerator} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -174,7 +174,7 @@ public class CheckMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.CheckMenuItem#setDisable(boolean) setDisable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -184,7 +184,7 @@ public class CheckMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.CheckMenuItem#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -194,7 +194,7 @@ public class CheckMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.CheckMenuItem#setId(java.lang.String) setId} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -204,7 +204,7 @@ public class CheckMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.CheckMenuItem#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -214,7 +214,7 @@ public class CheckMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.CheckMenuItem#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -224,7 +224,7 @@ public class CheckMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.CheckMenuItem#setOnMenuValidation(javafx.event.EventHandler) setOnMenuValidation} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setOnMenuValidation(javafx.event.EventHandler) setOnMenuValidation} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -244,7 +244,7 @@ public class CheckMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.CheckMenuItem#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -254,7 +254,7 @@ public class CheckMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.CheckMenuItem#setText(java.lang.String) setText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setText(java.lang.String) setText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -264,7 +264,7 @@ public class CheckMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.CheckMenuItem#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -274,7 +274,7 @@ public class CheckMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.CheckMenuItem#setVisible(boolean) setVisible} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
      */

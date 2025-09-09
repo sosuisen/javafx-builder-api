@@ -40,7 +40,7 @@ public class TreeItemTreeModificationEventBuilder<T> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TreeItem.TreeModificationEvent#TreeModificationEvent(javafx.event.EventType, javafx.scene.control.TreeItem, java.lang.Object) TreeModificationEvent(EventType, TreeItem, T)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeItem.TreeModificationEvent#TreeModificationEvent(javafx.event.EventType, javafx.scene.control.TreeItem, T) TreeModificationEvent(EventType, TreeItem, T)}
      * and returns an instance of {@code TreeItemTreeModificationEventBuilder<T>}.
      *
      * @return an instance of the {@code TreeItemTreeModificationEventBuilder<T>}.

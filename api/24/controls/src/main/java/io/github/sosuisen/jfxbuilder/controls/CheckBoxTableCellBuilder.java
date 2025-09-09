@@ -171,7 +171,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -181,7 +181,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -191,7 +191,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -201,7 +201,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -211,7 +211,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -221,7 +221,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -231,7 +231,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -241,7 +241,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -251,7 +251,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setCache(boolean) setCache} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -261,7 +261,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -271,7 +271,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -281,7 +281,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -291,7 +291,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -301,7 +301,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -311,7 +311,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Control#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -331,7 +331,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -341,7 +341,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -351,7 +351,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setDisable(boolean) setDisable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -361,7 +361,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setEditable(boolean) setEditable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Cell#setEditable(boolean) setEditable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -371,7 +371,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -381,7 +381,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -391,7 +391,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -401,7 +401,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -411,7 +411,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -421,7 +421,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -431,7 +431,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -441,7 +441,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setId(java.lang.String) setId} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -451,7 +451,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -461,7 +461,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setItem(java.lang.Object) setItem} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Cell#setItem(T) setItem} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -471,7 +471,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -481,7 +481,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -491,7 +491,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -501,7 +501,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setManaged(boolean) setManaged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -511,7 +511,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -521,7 +521,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -531,7 +531,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -541,7 +541,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMinHeight(double) setMinHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -551,7 +551,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMinSize(double, double) setMinSize} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -561,7 +561,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMinWidth(double) setMinWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -571,7 +571,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -581,7 +581,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -591,7 +591,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -601,7 +601,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -611,7 +611,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -621,7 +621,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -631,7 +631,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -641,7 +641,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -651,7 +651,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -661,7 +661,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -671,7 +671,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -681,7 +681,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -691,7 +691,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -701,7 +701,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -711,7 +711,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -721,7 +721,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -731,7 +731,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -741,7 +741,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -751,7 +751,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -761,7 +761,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -771,7 +771,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -781,7 +781,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -791,7 +791,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -801,7 +801,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -811,7 +811,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -821,7 +821,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -831,7 +831,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -841,7 +841,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -851,7 +851,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -861,7 +861,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -871,7 +871,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -881,7 +881,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -891,7 +891,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -901,7 +901,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -911,7 +911,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -921,7 +921,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -931,7 +931,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -941,7 +941,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -951,7 +951,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -961,7 +961,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -971,7 +971,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -981,7 +981,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -991,7 +991,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOpacity(double) setOpacity} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1001,7 +1001,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1011,7 +1011,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1021,7 +1021,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1031,7 +1031,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1041,7 +1041,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1051,7 +1051,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1061,7 +1061,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setRotate(double) setRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1071,7 +1071,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1081,7 +1081,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1091,7 +1091,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setScaleX(double) setScaleX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1101,7 +1101,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setScaleY(double) setScaleY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1111,7 +1111,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1131,7 +1131,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1141,7 +1141,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Control#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1151,7 +1151,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1161,7 +1161,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1171,7 +1171,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setText(java.lang.String) setText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setText(java.lang.String) setText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1181,7 +1181,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1191,7 +1191,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1201,7 +1201,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1211,7 +1211,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Control#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1221,7 +1221,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1231,7 +1231,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1241,7 +1241,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1251,7 +1251,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setUnderline(boolean) setUnderline} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setUnderline(boolean) setUnderline} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1261,7 +1261,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1271,7 +1271,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1281,7 +1281,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setVisible(boolean) setVisible} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1291,7 +1291,7 @@ public class CheckBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.CheckBoxTableCell#setWrapText(boolean) setWrapText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setWrapText(boolean) setWrapText} method on the instance being constructed.
      *
      * @return builder instance
      */

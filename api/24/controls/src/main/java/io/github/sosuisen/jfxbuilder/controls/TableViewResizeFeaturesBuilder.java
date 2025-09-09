@@ -141,7 +141,7 @@ public class TableViewResizeFeaturesBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView.ResizeFeatures#setColumnWidth(javafx.scene.control.TableColumnBase, double) setColumnWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.ResizeFeaturesBase#setColumnWidth(javafx.scene.control.TableColumnBase, double) setColumnWidth} method on the instance being constructed.
      *
      * @return builder instance
      */

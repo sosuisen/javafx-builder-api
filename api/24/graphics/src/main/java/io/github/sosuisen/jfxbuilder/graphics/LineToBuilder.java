@@ -152,7 +152,7 @@ public class LineToBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.LineTo#setAbsolute(boolean) setAbsolute} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.PathElement#setAbsolute(boolean) setAbsolute} method on the instance being constructed.
      *
      * @return builder instance
      */

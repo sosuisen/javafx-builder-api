@@ -220,7 +220,7 @@ public class RotateBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.transform.Rotate#setOnTransformChanged(javafx.event.EventHandler) setOnTransformChanged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.transform.Transform#setOnTransformChanged(javafx.event.EventHandler) setOnTransformChanged} method on the instance being constructed.
      *
      * @return builder instance
      */

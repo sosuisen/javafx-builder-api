@@ -140,7 +140,7 @@ public class SeparatorMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setAccelerator(javafx.scene.input.KeyCombination) setAccelerator} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setAccelerator(javafx.scene.input.KeyCombination) setAccelerator} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -150,7 +150,7 @@ public class SeparatorMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setContent(javafx.scene.Node) setContent} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.CustomMenuItem#setContent(javafx.scene.Node) setContent} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -160,7 +160,7 @@ public class SeparatorMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setDisable(boolean) setDisable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -170,7 +170,7 @@ public class SeparatorMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -180,7 +180,7 @@ public class SeparatorMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setHideOnClick(boolean) setHideOnClick} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.CustomMenuItem#setHideOnClick(boolean) setHideOnClick} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -190,7 +190,7 @@ public class SeparatorMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setId(java.lang.String) setId} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -200,7 +200,7 @@ public class SeparatorMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -210,7 +210,7 @@ public class SeparatorMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -220,7 +220,7 @@ public class SeparatorMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setOnMenuValidation(javafx.event.EventHandler) setOnMenuValidation} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setOnMenuValidation(javafx.event.EventHandler) setOnMenuValidation} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -230,7 +230,7 @@ public class SeparatorMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -240,7 +240,7 @@ public class SeparatorMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setText(java.lang.String) setText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setText(java.lang.String) setText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -250,7 +250,7 @@ public class SeparatorMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -260,7 +260,7 @@ public class SeparatorMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SeparatorMenuItem#setVisible(boolean) setVisible} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
      */

@@ -169,7 +169,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -179,7 +179,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -189,7 +189,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -199,7 +199,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -209,7 +209,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -219,7 +219,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setCache(boolean) setCache} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -229,7 +229,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -259,7 +259,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -269,7 +269,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -279,7 +279,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -289,7 +289,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setDisable(boolean) setDisable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -299,7 +299,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -309,7 +309,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -319,7 +319,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -329,7 +329,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -339,7 +339,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setId(java.lang.String) setId} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -349,7 +349,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -359,7 +359,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -369,7 +369,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -379,7 +379,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setManaged(boolean) setManaged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -389,7 +389,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -399,7 +399,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -409,7 +409,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -419,7 +419,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -429,7 +429,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -439,7 +439,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -449,7 +449,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -459,7 +459,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -469,7 +469,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -479,7 +479,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -489,7 +489,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -499,7 +499,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -509,7 +509,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -519,7 +519,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -529,7 +529,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -539,7 +539,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -549,7 +549,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -559,7 +559,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -569,7 +569,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -579,7 +579,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -589,7 +589,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -599,7 +599,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -609,7 +609,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -619,7 +619,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -629,7 +629,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -639,7 +639,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -649,7 +649,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -659,7 +659,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -669,7 +669,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -679,7 +679,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -689,7 +689,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -699,7 +699,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -709,7 +709,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -719,7 +719,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -729,7 +729,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -739,7 +739,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -749,7 +749,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -759,7 +759,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -769,7 +769,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -779,7 +779,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -789,7 +789,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -799,7 +799,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setOpacity(double) setOpacity} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -809,7 +809,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -839,7 +839,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setRotate(double) setRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -849,7 +849,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -859,7 +859,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setScaleX(double) setScaleX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -869,7 +869,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setScaleY(double) setScaleY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -879,7 +879,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -889,7 +889,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setSmooth(boolean) setSmooth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setSmooth(boolean) setSmooth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -899,7 +899,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setStroke(javafx.scene.paint.Paint) setStroke} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStroke(javafx.scene.paint.Paint) setStroke} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -909,7 +909,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setStrokeDashOffset(double) setStrokeDashOffset} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeDashOffset(double) setStrokeDashOffset} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -919,7 +919,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setStrokeLineCap(javafx.scene.shape.StrokeLineCap) setStrokeLineCap} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeLineCap(javafx.scene.shape.StrokeLineCap) setStrokeLineCap} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -929,7 +929,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin) setStrokeLineJoin} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin) setStrokeLineJoin} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -939,7 +939,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setStrokeMiterLimit(double) setStrokeMiterLimit} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeMiterLimit(double) setStrokeMiterLimit} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -949,7 +949,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setStrokeType(javafx.scene.shape.StrokeType) setStrokeType} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeType(javafx.scene.shape.StrokeType) setStrokeType} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -959,7 +959,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setStrokeWidth(double) setStrokeWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeWidth(double) setStrokeWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -969,7 +969,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -979,7 +979,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -989,7 +989,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -999,7 +999,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1009,7 +1009,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1019,7 +1019,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1029,7 +1029,7 @@ public class EllipseBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Ellipse#setVisible(boolean) setVisible} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
      */

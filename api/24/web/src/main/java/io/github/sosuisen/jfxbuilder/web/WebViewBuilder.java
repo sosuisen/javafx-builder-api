@@ -145,7 +145,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -155,7 +155,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -165,7 +165,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -175,7 +175,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -185,7 +185,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -195,7 +195,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setCache(boolean) setCache} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -205,7 +205,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -215,7 +215,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -235,7 +235,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -245,7 +245,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -255,7 +255,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setDisable(boolean) setDisable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -265,7 +265,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -275,7 +275,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -285,7 +285,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -315,7 +315,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setId(java.lang.String) setId} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -325,7 +325,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -335,7 +335,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -345,7 +345,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -355,7 +355,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setManaged(boolean) setManaged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -425,7 +425,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -435,7 +435,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -445,7 +445,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -455,7 +455,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -465,7 +465,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -475,7 +475,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -485,7 +485,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -495,7 +495,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -505,7 +505,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -515,7 +515,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -525,7 +525,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -535,7 +535,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -545,7 +545,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -555,7 +555,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -565,7 +565,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -575,7 +575,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -585,7 +585,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -595,7 +595,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -605,7 +605,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -615,7 +615,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -625,7 +625,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -635,7 +635,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -645,7 +645,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -655,7 +655,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -665,7 +665,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -675,7 +675,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -685,7 +685,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -695,7 +695,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -705,7 +705,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -715,7 +715,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -725,7 +725,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -735,7 +735,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -745,7 +745,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -755,7 +755,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -765,7 +765,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -775,7 +775,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -785,7 +785,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -795,7 +795,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -805,7 +805,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -815,7 +815,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -825,7 +825,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -835,7 +835,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setOpacity(double) setOpacity} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -855,7 +855,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -895,7 +895,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setRotate(double) setRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -905,7 +905,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -915,7 +915,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setScaleX(double) setScaleX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -925,7 +925,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setScaleY(double) setScaleY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -935,7 +935,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -945,7 +945,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -955,7 +955,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -965,7 +965,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -975,7 +975,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -985,7 +985,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -995,7 +995,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1005,7 +1005,7 @@ public class WebViewBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.web.WebView#setVisible(boolean) setVisible} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
      */

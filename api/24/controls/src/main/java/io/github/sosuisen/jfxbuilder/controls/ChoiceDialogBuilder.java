@@ -35,7 +35,7 @@ public class ChoiceDialogBuilder<T> {
     public static <T> ChoiceDialogBuilder<T> create() { return new ChoiceDialogBuilder<T>(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.ChoiceDialog#ChoiceDialog(java.lang.Object, java.lang.Object...) ChoiceDialog(T, T...)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.ChoiceDialog#ChoiceDialog(T, T...) ChoiceDialog(T, T...)}
      * and returns an instance of {@code ChoiceDialogBuilder<T>}.
      *
      * @return an instance of the {@code ChoiceDialogBuilder<T>}.
@@ -48,7 +48,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.ChoiceDialog#ChoiceDialog(java.lang.Object, java.util.Collection) ChoiceDialog(T, Collection)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.ChoiceDialog#ChoiceDialog(T, java.util.Collection) ChoiceDialog(T, Collection)}
      * and returns an instance of {@code ChoiceDialogBuilder<T>}.
      *
      * @return an instance of the {@code ChoiceDialogBuilder<T>}.
@@ -167,7 +167,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setContentText(java.lang.String) setContentText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setContentText(java.lang.String) setContentText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -177,7 +177,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setDialogPane(javafx.scene.control.DialogPane) setDialogPane} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setDialogPane(javafx.scene.control.DialogPane) setDialogPane} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -187,7 +187,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -197,7 +197,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setHeaderText(java.lang.String) setHeaderText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setHeaderText(java.lang.String) setHeaderText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -207,7 +207,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setHeight(double) setHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setHeight(double) setHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -217,7 +217,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setOnCloseRequest(javafx.event.EventHandler) setOnCloseRequest} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setOnCloseRequest(javafx.event.EventHandler) setOnCloseRequest} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -227,7 +227,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -237,7 +237,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -247,7 +247,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -257,7 +257,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -267,7 +267,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setResizable(boolean) setResizable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setResizable(boolean) setResizable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -277,7 +277,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setResult(java.lang.Object) setResult} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setResult(R) setResult} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -287,7 +287,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setResultConverter(javafx.util.Callback) setResultConverter} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setResultConverter(javafx.util.Callback) setResultConverter} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -297,7 +297,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setSelectedItem(java.lang.Object) setSelectedItem} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setSelectedItem(T) setSelectedItem} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -307,7 +307,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setTitle(java.lang.String) setTitle} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setTitle(java.lang.String) setTitle} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -317,7 +317,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setWidth(double) setWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setWidth(double) setWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -327,7 +327,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setX(double) setX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setX(double) setX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -337,7 +337,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setY(double) setY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setY(double) setY} method on the instance being constructed.
      *
      * @return builder instance
      */

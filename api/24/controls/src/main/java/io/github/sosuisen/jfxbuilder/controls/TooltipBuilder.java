@@ -152,7 +152,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setAnchorLocation(javafx.stage.PopupWindow.AnchorLocation) setAnchorLocation} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.PopupWindow#setAnchorLocation(javafx.stage.PopupWindow.AnchorLocation) setAnchorLocation} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -162,7 +162,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setAnchorX(double) setAnchorX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.PopupWindow#setAnchorX(double) setAnchorX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -172,7 +172,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setAnchorY(double) setAnchorY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.PopupWindow#setAnchorY(double) setAnchorY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -182,7 +182,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setAutoFix(boolean) setAutoFix} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.PopupWindow#setAutoFix(boolean) setAutoFix} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -192,7 +192,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setAutoHide(boolean) setAutoHide} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.PopupWindow#setAutoHide(boolean) setAutoHide} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -202,7 +202,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setConsumeAutoHidingEvents(boolean) setConsumeAutoHidingEvents} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.PopupWindow#setConsumeAutoHidingEvents(boolean) setConsumeAutoHidingEvents} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -222,7 +222,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -242,7 +242,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setForceIntegerRenderScale(boolean) setForceIntegerRenderScale} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setForceIntegerRenderScale(boolean) setForceIntegerRenderScale} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -272,7 +272,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setHeight(double) setHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setHeight(double) setHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -292,7 +292,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setHideOnEscape(boolean) setHideOnEscape} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.PopupWindow#setHideOnEscape(boolean) setHideOnEscape} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -302,7 +302,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setId(java.lang.String) setId} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -312,7 +312,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -322,7 +322,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -332,7 +332,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -342,7 +342,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setMinHeight(double) setMinHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -352,7 +352,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setMinSize(double, double) setMinSize} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -362,7 +362,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setMinWidth(double) setMinWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -372,7 +372,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setOnAutoHide(javafx.event.EventHandler) setOnAutoHide} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.PopupWindow#setOnAutoHide(javafx.event.EventHandler) setOnAutoHide} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -382,7 +382,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setOnCloseRequest(javafx.event.EventHandler) setOnCloseRequest} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setOnCloseRequest(javafx.event.EventHandler) setOnCloseRequest} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -392,7 +392,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -402,7 +402,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -412,7 +412,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -422,7 +422,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -432,7 +432,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setOpacity(double) setOpacity} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -442,7 +442,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -452,7 +452,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -462,7 +462,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -472,7 +472,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setRenderScaleX(double) setRenderScaleX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setRenderScaleX(double) setRenderScaleX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -482,7 +482,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setRenderScaleY(double) setRenderScaleY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setRenderScaleY(double) setRenderScaleY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -512,7 +512,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -522,7 +522,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -562,7 +562,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -572,7 +572,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setWidth(double) setWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setWidth(double) setWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -592,7 +592,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setX(double) setX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setX(double) setX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -602,7 +602,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setY(double) setY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setY(double) setY} method on the instance being constructed.
      *
      * @return builder instance
      */

@@ -127,7 +127,7 @@ public class DragboardBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.input.Dragboard#setContent(java.util.Map) setContent} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.input.Clipboard#setContent(java.util.Map) setContent} method on the instance being constructed.
      *
      * @return builder instance
      */

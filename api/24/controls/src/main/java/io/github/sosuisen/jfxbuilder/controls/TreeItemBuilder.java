@@ -35,7 +35,7 @@ public class TreeItemBuilder<T> {
     public static <T> TreeItemBuilder<T> create() { return new TreeItemBuilder<T>(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TreeItem#TreeItem(java.lang.Object) TreeItem(T)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeItem#TreeItem(T) TreeItem(T)}
      * and returns an instance of {@code TreeItemBuilder<T>}.
      *
      * @return an instance of the {@code TreeItemBuilder<T>}.
@@ -47,7 +47,7 @@ public class TreeItemBuilder<T> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TreeItem#TreeItem(java.lang.Object, javafx.scene.Node) TreeItem(T, Node)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeItem#TreeItem(T, javafx.scene.Node) TreeItem(T, Node)}
      * and returns an instance of {@code TreeItemBuilder<T>}.
      *
      * @return an instance of the {@code TreeItemBuilder<T>}.
@@ -186,7 +186,7 @@ public class TreeItemBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TreeItem#setValue(java.lang.Object) setValue} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TreeItem#setValue(T) setValue} method on the instance being constructed.
      *
      * @return builder instance
      */

@@ -152,7 +152,7 @@ public class LightPointBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.effect.Light.Point#setColor(javafx.scene.paint.Color) setColor} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.effect.Light#setColor(javafx.scene.paint.Color) setColor} method on the instance being constructed.
      *
      * @return builder instance
      */

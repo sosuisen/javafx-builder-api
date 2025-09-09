@@ -152,7 +152,7 @@ public class MoveToBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.MoveTo#setAbsolute(boolean) setAbsolute} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.PathElement#setAbsolute(boolean) setAbsolute} method on the instance being constructed.
      *
      * @return builder instance
      */

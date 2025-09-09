@@ -161,7 +161,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setContentText(java.lang.String) setContentText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setContentText(java.lang.String) setContentText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -171,7 +171,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setDialogPane(javafx.scene.control.DialogPane) setDialogPane} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setDialogPane(javafx.scene.control.DialogPane) setDialogPane} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -181,7 +181,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -191,7 +191,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setHeaderText(java.lang.String) setHeaderText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setHeaderText(java.lang.String) setHeaderText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -201,7 +201,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setHeight(double) setHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setHeight(double) setHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -211,7 +211,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setOnCloseRequest(javafx.event.EventHandler) setOnCloseRequest} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setOnCloseRequest(javafx.event.EventHandler) setOnCloseRequest} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -221,7 +221,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -231,7 +231,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -241,7 +241,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -251,7 +251,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -261,7 +261,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setResizable(boolean) setResizable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setResizable(boolean) setResizable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -271,7 +271,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setResult(java.lang.Object) setResult} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setResult(R) setResult} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -281,7 +281,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setResultConverter(javafx.util.Callback) setResultConverter} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setResultConverter(javafx.util.Callback) setResultConverter} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -291,7 +291,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setTitle(java.lang.String) setTitle} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setTitle(java.lang.String) setTitle} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -301,7 +301,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setWidth(double) setWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setWidth(double) setWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -311,7 +311,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setX(double) setX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setX(double) setX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -321,7 +321,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setY(double) setY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setY(double) setY} method on the instance being constructed.
      *
      * @return builder instance
      */

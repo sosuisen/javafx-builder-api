@@ -193,7 +193,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -203,7 +203,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -213,7 +213,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -223,7 +223,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -233,7 +233,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -243,7 +243,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setCache(boolean) setCache} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -253,7 +253,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -283,7 +283,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -293,7 +293,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -303,7 +303,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -313,7 +313,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setDisable(boolean) setDisable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -323,7 +323,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -333,7 +333,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -343,7 +343,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -353,7 +353,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -363,7 +363,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setId(java.lang.String) setId} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -373,7 +373,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -383,7 +383,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -393,7 +393,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -403,7 +403,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setManaged(boolean) setManaged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -413,7 +413,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -423,7 +423,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -433,7 +433,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -443,7 +443,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -453,7 +453,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -463,7 +463,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -473,7 +473,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -483,7 +483,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -493,7 +493,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -503,7 +503,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -513,7 +513,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -523,7 +523,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -533,7 +533,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -543,7 +543,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -553,7 +553,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -563,7 +563,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -573,7 +573,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -583,7 +583,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -593,7 +593,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -603,7 +603,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -613,7 +613,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -623,7 +623,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -633,7 +633,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -643,7 +643,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -653,7 +653,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -663,7 +663,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -673,7 +673,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -683,7 +683,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -693,7 +693,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -703,7 +703,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -713,7 +713,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -723,7 +723,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -733,7 +733,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -743,7 +743,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -753,7 +753,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -763,7 +763,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -773,7 +773,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -783,7 +783,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -793,7 +793,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -803,7 +803,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -813,7 +813,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -823,7 +823,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setOpacity(double) setOpacity} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -833,7 +833,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -853,7 +853,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setRotate(double) setRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -863,7 +863,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -873,7 +873,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setScaleX(double) setScaleX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -883,7 +883,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setScaleY(double) setScaleY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -893,7 +893,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -903,7 +903,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setSmooth(boolean) setSmooth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setSmooth(boolean) setSmooth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -913,7 +913,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setStroke(javafx.scene.paint.Paint) setStroke} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStroke(javafx.scene.paint.Paint) setStroke} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -923,7 +923,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setStrokeDashOffset(double) setStrokeDashOffset} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeDashOffset(double) setStrokeDashOffset} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -933,7 +933,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setStrokeLineCap(javafx.scene.shape.StrokeLineCap) setStrokeLineCap} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeLineCap(javafx.scene.shape.StrokeLineCap) setStrokeLineCap} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -943,7 +943,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin) setStrokeLineJoin} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin) setStrokeLineJoin} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -953,7 +953,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setStrokeMiterLimit(double) setStrokeMiterLimit} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeMiterLimit(double) setStrokeMiterLimit} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -963,7 +963,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setStrokeType(javafx.scene.shape.StrokeType) setStrokeType} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeType(javafx.scene.shape.StrokeType) setStrokeType} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -973,7 +973,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setStrokeWidth(double) setStrokeWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeWidth(double) setStrokeWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -983,7 +983,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -993,7 +993,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1003,7 +1003,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1013,7 +1013,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1023,7 +1023,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1033,7 +1033,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1043,7 +1043,7 @@ public class CircleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Circle#setVisible(boolean) setVisible} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
      */

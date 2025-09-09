@@ -140,7 +140,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setAnchorLocation(javafx.stage.PopupWindow.AnchorLocation) setAnchorLocation} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.PopupWindow#setAnchorLocation(javafx.stage.PopupWindow.AnchorLocation) setAnchorLocation} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -150,7 +150,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setAnchorX(double) setAnchorX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.PopupWindow#setAnchorX(double) setAnchorX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -160,7 +160,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setAnchorY(double) setAnchorY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.PopupWindow#setAnchorY(double) setAnchorY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -170,7 +170,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setAutoFix(boolean) setAutoFix} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.PopupWindow#setAutoFix(boolean) setAutoFix} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -180,7 +180,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setAutoHide(boolean) setAutoHide} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.PopupWindow#setAutoHide(boolean) setAutoHide} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -190,7 +190,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setConsumeAutoHidingEvents(boolean) setConsumeAutoHidingEvents} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.PopupWindow#setConsumeAutoHidingEvents(boolean) setConsumeAutoHidingEvents} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -200,7 +200,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -210,7 +210,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setForceIntegerRenderScale(boolean) setForceIntegerRenderScale} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setForceIntegerRenderScale(boolean) setForceIntegerRenderScale} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -220,7 +220,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setHeight(double) setHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setHeight(double) setHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -230,7 +230,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setHideOnEscape(boolean) setHideOnEscape} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.PopupWindow#setHideOnEscape(boolean) setHideOnEscape} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -310,7 +310,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setOnAutoHide(javafx.event.EventHandler) setOnAutoHide} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.PopupWindow#setOnAutoHide(javafx.event.EventHandler) setOnAutoHide} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -320,7 +320,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setOnCloseRequest(javafx.event.EventHandler) setOnCloseRequest} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setOnCloseRequest(javafx.event.EventHandler) setOnCloseRequest} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -330,7 +330,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -340,7 +340,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -350,7 +350,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -360,7 +360,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -370,7 +370,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setOpacity(double) setOpacity} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -410,7 +410,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setRenderScaleX(double) setRenderScaleX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setRenderScaleX(double) setRenderScaleX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -420,7 +420,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setRenderScaleY(double) setRenderScaleY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setRenderScaleY(double) setRenderScaleY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -450,7 +450,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -460,7 +460,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setWidth(double) setWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setWidth(double) setWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -470,7 +470,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setX(double) setX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setX(double) setX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -480,7 +480,7 @@ public class PopupControlBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.PopupControl#setY(double) setY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setY(double) setY} method on the instance being constructed.
      *
      * @return builder instance
      */
