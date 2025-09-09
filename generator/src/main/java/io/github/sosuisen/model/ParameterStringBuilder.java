@@ -4,6 +4,7 @@ import java.lang.reflect.Parameter;
 import java.lang.reflect.Type;
 import java.util.Map;
 import io.github.sosuisen.model.data.ClassMetadata;
+import io.github.sosuisen.model.mapper.JavaDocMappingManager;
 import io.github.sosuisen.model.mapper.TypeMappingManager;
 
 public class ParameterStringBuilder {
@@ -93,39 +94,7 @@ public class ParameterStringBuilder {
             typeName = typeName.replace("$", ".");
             typeName = typeName.replace("[]", "...");
 
-            try {
-                Class<?> cellClass = Class.forName("javafx.scene.control.Cell");
-                if (cellClass.isAssignableFrom(classMetadata.getClass())) {
-                    typeName = typeName.equals("C") ? "javafx.scene.control.Cell" : typeName;
-                } else if (classMetadata.getSimpleClassName().equals("MenuButtonSkinBase")) {
-                    typeName = typeName.equals("C") ? "javafx.scene.control.MenuButton" : typeName;
-                } else if (classMetadata.getSimpleClassName().equals("CellSkinBase")) {
-                    typeName = typeName.equals("C") ? "javafx.scene.control.Cell" : typeName;
-                } else {
-                    typeName = typeName.equals("C") ? "java.lang.Object" : typeName;
-                }
-            } catch (ClassNotFoundException e) {
-                e.printStackTrace();
-            }
-
-            typeName = typeName.equals("S") ? "java.lang.Object" : typeName;
-            if (classMetadata.getSimpleClassName().equals("PixelBuffer")) {
-                typeName = typeName.equals("T") ? "java.nio.Buffer" : typeName;
-            } else {
-                typeName = typeName.equals("T") ? "java.lang.Object" : typeName;
-            }
-
-            if (classMetadata.getSimpleClassName().equals("AlertBuilder")) {
-                typeName = typeName.equals("R") ? "javafx.scene.control.ButtonType" : typeName;
-            } else {
-                typeName = typeName.equals("R") ? "java.lang.Object" : typeName;
-            }
-
-            typeName = typeName.equals("V") ? "java.lang.Object" : typeName;
-            typeName = typeName.equals("X") ? "java.lang.Object" : typeName;
-            typeName = typeName.equals("Y") ? "java.lang.Object" : typeName;
-
-            typeName = typeName.equals("T...") ? "java.lang.Object..." : typeName;
+            typeName = JavaDocMappingManager.getReplacement(classMetadata, typeName);
 
             argList.append(typeName);
             if (i < types.length - 1) {
