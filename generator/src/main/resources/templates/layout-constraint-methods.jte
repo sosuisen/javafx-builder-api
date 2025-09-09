@@ -3,7 +3,7 @@
 @param LayoutConstraintMethodModel model
 
     /**
-     * Invokes the {@link ${model.sourceClassFullName()}#${model.staticMethodName()}(javafx.scene.Node child, ${model.parameterList()}) ${model.sourceClassSimpleName()}.${model.staticMethodName()}(javafx.scene.Node, ${model.parameterListSimpleTypesOnly()})} 
+     * Invokes the {@link ${model.sourceClassFullName()}#${model.staticMethodName()}(javafx.scene.Node child, ${model.parameterList()}) ${model.sourceClassSimpleName()}.${model.staticMethodName()}(Node, ${model.parameterListSimpleTypesOnly()})} 
      * using a fluent API.
      *
      * <p>
