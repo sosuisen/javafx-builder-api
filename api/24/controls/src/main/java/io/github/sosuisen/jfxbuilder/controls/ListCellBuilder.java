@@ -427,7 +427,7 @@ public class ListCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ListCell#setItem(T) setItem} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.ListCell#setItem(java.lang.Object) setItem} method on the instance being constructed.
      *
      * @return builder instance
      */

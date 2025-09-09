@@ -10,6 +10,10 @@
   <name>JavaFX Builder API for javafx-controls</name>
   <description>JavaFX Builder API for javafx-controls</description>
   <url>https://github.com/sosuisen/javafx-builder-api-generator</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
   <licenses>
     <license>
       <name>MIT License</name>

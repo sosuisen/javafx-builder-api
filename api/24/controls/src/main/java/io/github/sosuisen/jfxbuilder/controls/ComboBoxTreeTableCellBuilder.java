@@ -35,7 +35,7 @@ public class ComboBoxTreeTableCellBuilder<S, T> {
     public static <S, T> ComboBoxTreeTableCellBuilder<S, T> create() { return new ComboBoxTreeTableCellBuilder<S, T>(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ComboBoxTreeTableCell#ComboBoxTreeTableCell(T...) ComboBoxTreeTableCell(T...)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ComboBoxTreeTableCell#ComboBoxTreeTableCell(java.lang.Object...) ComboBoxTreeTableCell(T...)}
      * and returns an instance of {@code ComboBoxTreeTableCellBuilder<S, T>}.
      *
      * @return an instance of the {@code ComboBoxTreeTableCellBuilder<S, T>}.
@@ -60,7 +60,7 @@ public class ComboBoxTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ComboBoxTreeTableCell#ComboBoxTreeTableCell(javafx.util.StringConverter, T...) ComboBoxTreeTableCell(StringConverter, T...)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ComboBoxTreeTableCell#ComboBoxTreeTableCell(javafx.util.StringConverter, java.lang.Object...) ComboBoxTreeTableCell(StringConverter, T...)}
      * and returns an instance of {@code ComboBoxTreeTableCellBuilder<S, T>}.
      *
      * @return an instance of the {@code ComboBoxTreeTableCellBuilder<S, T>}.
@@ -497,7 +497,7 @@ public class ComboBoxTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.ComboBoxTreeTableCell#setItem(T) setItem} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.cell.ComboBoxTreeTableCell#setItem(java.lang.Object) setItem} method on the instance being constructed.
      *
      * @return builder instance
      */

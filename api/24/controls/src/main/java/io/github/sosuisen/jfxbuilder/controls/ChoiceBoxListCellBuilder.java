@@ -35,7 +35,7 @@ public class ChoiceBoxListCellBuilder<T> {
     public static <T> ChoiceBoxListCellBuilder<T> create() { return new ChoiceBoxListCellBuilder<T>(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ChoiceBoxListCell#ChoiceBoxListCell(T...) ChoiceBoxListCell(T...)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ChoiceBoxListCell#ChoiceBoxListCell(java.lang.Object...) ChoiceBoxListCell(T...)}
      * and returns an instance of {@code ChoiceBoxListCellBuilder<T>}.
      *
      * @return an instance of the {@code ChoiceBoxListCellBuilder<T>}.
@@ -60,7 +60,7 @@ public class ChoiceBoxListCellBuilder<T> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ChoiceBoxListCell#ChoiceBoxListCell(javafx.util.StringConverter, T...) ChoiceBoxListCell(StringConverter, T...)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ChoiceBoxListCell#ChoiceBoxListCell(javafx.util.StringConverter, java.lang.Object...) ChoiceBoxListCell(StringConverter, T...)}
      * and returns an instance of {@code ChoiceBoxListCellBuilder<T>}.
      *
      * @return an instance of the {@code ChoiceBoxListCellBuilder<T>}.
@@ -487,7 +487,7 @@ public class ChoiceBoxListCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxListCell#setItem(T) setItem} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxListCell#setItem(java.lang.Object) setItem} method on the instance being constructed.
      *
      * @return builder instance
      */
