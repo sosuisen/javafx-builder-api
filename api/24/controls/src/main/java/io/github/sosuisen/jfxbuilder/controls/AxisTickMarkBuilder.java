@@ -172,7 +172,7 @@ public class AxisTickMarkBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.chart.Axis.TickMark#setValue(T) setValue} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.chart.Axis.TickMark#setValue(java.lang.Object) setValue} method on the instance being constructed.
      *
      * @return builder instance
      */

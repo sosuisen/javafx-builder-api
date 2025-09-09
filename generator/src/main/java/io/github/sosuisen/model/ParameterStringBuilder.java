@@ -3,6 +3,7 @@ package io.github.sosuisen.model;
 import java.lang.reflect.Parameter;
 import java.lang.reflect.Type;
 import java.util.Map;
+import io.github.sosuisen.model.data.ClassMetadata;
 import io.github.sosuisen.model.mapper.TypeMappingManager;
 
 public class ParameterStringBuilder {
@@ -75,6 +76,61 @@ public class ParameterStringBuilder {
             typeName = typeName.substring(findLastDotWordIndexReverse(typeName) + 1);
             typeName = typeName.replace("$", ".");
             typeName = typeName.replace("[]", "...");
+
+            argList.append(typeName);
+            if (i < types.length - 1) {
+                argList.append(", ");
+            }
+        }
+        return argList.toString();
+    }
+
+    public static String buildParameterListCanonicalTypesOnlyForceReplace(Type[] types,
+        ClassMetadata classMetadata) {
+        StringBuilder argList = new StringBuilder();
+        for (int i = 0; i < types.length; i++) {
+            Type type = types[i];
+            String typeName = toReadableTypeName(type.getTypeName());
+
+            // typeName = TypeMappingManager.getReplacement(className, typeName);
+
+            typeName = typeName.replaceAll("<(.+)>$", "");
+            typeName = typeName.replace("$", ".");
+            typeName = typeName.replace("[]", "...");
+
+
+            try {
+                Class<?> cellClass = Class.forName("javafx.scene.control.Cell");
+                if (cellClass.isAssignableFrom(classMetadata.getClass())) {
+                    typeName = typeName.equals("C") ? "javafx.scene.control.Cell" : typeName;
+                } else if (classMetadata.getSimpleClassName().equals("MenuButtonSkinBase")) {
+                    typeName = typeName.equals("C") ? "javafx.scene.control.MenuButton" : typeName;
+                } else if (classMetadata.getSimpleClassName().equals("CellSkinBase")) {
+                    typeName = typeName.equals("C") ? "javafx.scene.control.Cell" : typeName;
+                } else {
+                    typeName = typeName.equals("C") ? "java.lang.Object" : typeName;
+                }
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            }
+            typeName = typeName.equals("S") ? "java.lang.Object" : typeName;
+            if (classMetadata.getSimpleClassName().equals("PixelBuffer")) {
+                typeName = typeName.equals("T") ? "java.nio.Buffer" : typeName;
+            } else {
+                typeName = typeName.equals("T") ? "java.lang.Object" : typeName;
+            }
+
+            if (classMetadata.getSimpleClassName().equals("AlertBuilder")) {
+                typeName = typeName.equals("R") ? "javafx.scene.control.ButtonType" : typeName;
+            } else {
+                typeName = typeName.equals("R") ? "java.lang.Object" : typeName;
+            }
+
+            typeName = typeName.equals("V") ? "java.lang.Object" : typeName;
+            typeName = typeName.equals("X") ? "java.lang.Object" : typeName;
+            typeName = typeName.equals("Y") ? "java.lang.Object" : typeName;
+
+            typeName = typeName.equals("T...") ? "java.lang.Object..." : typeName;
 
             argList.append(typeName);
             if (i < types.length - 1) {

@@ -35,7 +35,7 @@ public class ChoiceDialogBuilder<T> {
     public static <T> ChoiceDialogBuilder<T> create() { return new ChoiceDialogBuilder<T>(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.ChoiceDialog#ChoiceDialog(T, T...) ChoiceDialog(T, T...)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.ChoiceDialog#ChoiceDialog(java.lang.Object, java.lang.Object...) ChoiceDialog(T, T...)}
      * and returns an instance of {@code ChoiceDialogBuilder<T>}.
      *
      * @return an instance of the {@code ChoiceDialogBuilder<T>}.
@@ -48,7 +48,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.ChoiceDialog#ChoiceDialog(T, java.util.Collection) ChoiceDialog(T, Collection)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.ChoiceDialog#ChoiceDialog(java.lang.Object, java.util.Collection) ChoiceDialog(T, Collection)}
      * and returns an instance of {@code ChoiceDialogBuilder<T>}.
      *
      * @return an instance of the {@code ChoiceDialogBuilder<T>}.
@@ -277,7 +277,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setResult(R) setResult} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setResult(java.lang.Object) setResult} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -297,7 +297,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setSelectedItem(T) setSelectedItem} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setSelectedItem(java.lang.Object) setSelectedItem} method on the instance being constructed.
      *
      * @return builder instance
      */

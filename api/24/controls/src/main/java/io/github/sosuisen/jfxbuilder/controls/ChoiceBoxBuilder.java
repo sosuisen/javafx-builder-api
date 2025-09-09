@@ -1169,7 +1169,7 @@ public class ChoiceBoxBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setValue(T) setValue} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setValue(java.lang.Object) setValue} method on the instance being constructed.
      *
      * @return builder instance
      */

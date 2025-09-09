@@ -35,7 +35,7 @@ public class ChoiceBoxTreeTableCellBuilder<S, T> {
     public static <S, T> ChoiceBoxTreeTableCellBuilder<S, T> create() { return new ChoiceBoxTreeTableCellBuilder<S, T>(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ChoiceBoxTreeTableCell#ChoiceBoxTreeTableCell(T...) ChoiceBoxTreeTableCell(T...)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ChoiceBoxTreeTableCell#ChoiceBoxTreeTableCell(java.lang.Object...) ChoiceBoxTreeTableCell(T...)}
      * and returns an instance of {@code ChoiceBoxTreeTableCellBuilder<S, T>}.
      *
      * @return an instance of the {@code ChoiceBoxTreeTableCellBuilder<S, T>}.
@@ -60,7 +60,7 @@ public class ChoiceBoxTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ChoiceBoxTreeTableCell#ChoiceBoxTreeTableCell(javafx.util.StringConverter, T...) ChoiceBoxTreeTableCell(StringConverter, T...)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ChoiceBoxTreeTableCell#ChoiceBoxTreeTableCell(javafx.util.StringConverter, java.lang.Object...) ChoiceBoxTreeTableCell(StringConverter, T...)}
      * and returns an instance of {@code ChoiceBoxTreeTableCellBuilder<S, T>}.
      *
      * @return an instance of the {@code ChoiceBoxTreeTableCellBuilder<S, T>}.
@@ -487,7 +487,7 @@ public class ChoiceBoxTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeTableCell#setItem(T) setItem} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeTableCell#setItem(java.lang.Object) setItem} method on the instance being constructed.
      *
      * @return builder instance
      */

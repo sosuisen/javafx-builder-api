@@ -35,7 +35,7 @@ public class ComboBoxTableCellBuilder<S, T> {
     public static <S, T> ComboBoxTableCellBuilder<S, T> create() { return new ComboBoxTableCellBuilder<S, T>(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ComboBoxTableCell#ComboBoxTableCell(T...) ComboBoxTableCell(T...)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ComboBoxTableCell#ComboBoxTableCell(java.lang.Object...) ComboBoxTableCell(T...)}
      * and returns an instance of {@code ComboBoxTableCellBuilder<S, T>}.
      *
      * @return an instance of the {@code ComboBoxTableCellBuilder<S, T>}.
@@ -60,7 +60,7 @@ public class ComboBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ComboBoxTableCell#ComboBoxTableCell(javafx.util.StringConverter, T...) ComboBoxTableCell(StringConverter, T...)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.cell.ComboBoxTableCell#ComboBoxTableCell(javafx.util.StringConverter, java.lang.Object...) ComboBoxTableCell(StringConverter, T...)}
      * and returns an instance of {@code ComboBoxTableCellBuilder<S, T>}.
      *
      * @return an instance of the {@code ComboBoxTableCellBuilder<S, T>}.
@@ -497,7 +497,7 @@ public class ComboBoxTableCellBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.ComboBoxTableCell#setItem(T) setItem} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.cell.ComboBoxTableCell#setItem(java.lang.Object) setItem} method on the instance being constructed.
      *
      * @return builder instance
      */
