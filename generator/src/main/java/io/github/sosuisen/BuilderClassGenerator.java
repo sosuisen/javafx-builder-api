@@ -14,7 +14,6 @@ import java.util.stream.Collectors;
 import io.github.sosuisen.model.MethodComparator;
 import io.github.sosuisen.model.data.ClassMetadata;
 import io.github.sosuisen.model.data.StaticSetterInfo;
-import io.github.sosuisen.model.mapper.FinalReplacementManager;
 import io.github.sosuisen.model.template.AddWithMethodModel;
 import io.github.sosuisen.model.template.AlertMethodModel;
 import io.github.sosuisen.model.template.ApplyMethodModel;
@@ -117,10 +116,7 @@ public class BuilderClassGenerator {
 
         content.append("\n}\n");
 
-        String doc = FinalReplacementManager
-            .getReplacement(classMetadata.getCanonicalClassName(), content.toString());
-
-        return doc;
+        return content.toString();
     }
 
     private String generateClassHeader() {
