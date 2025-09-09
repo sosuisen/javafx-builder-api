@@ -53,7 +53,7 @@ public record SetterMethodModel(
                 setterMethod.isVarArgs()
             );
             String parameterTypeList = ParameterStringBuilder
-                .buildParameterListCanonicalTypesOnlyForceReplace(
+                .buildParameterListCanonicalTypesOnlyForJavaDoc(
                     setterMethod.getGenericParameterTypes(),
                     classMetadata
                 );

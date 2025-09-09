@@ -82,7 +82,7 @@ public class ParameterStringBuilder {
         return argList.toString();
     }
 
-    public static String buildParameterListCanonicalTypesOnlyForceReplace(Type[] types,
+    public static String buildParameterListCanonicalTypesOnlyForJavaDoc(Type[] types,
         ClassMetadata classMetadata) {
         StringBuilder argList = new StringBuilder();
         for (int i = 0; i < types.length; i++) {
