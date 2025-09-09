@@ -64,14 +64,11 @@ public class ParameterStringBuilder {
     }
 
 
-    public static String buildParameterListSimpleTypesOnly(Type[] types, String className) {
+    public static String buildParameterListSimpleTypesOnly(Type[] types) {
         StringBuilder argList = new StringBuilder();
         for (int i = 0; i < types.length; i++) {
             Type type = types[i];
             String typeName = toReadableTypeName(type.getTypeName());
-
-            // typeName = TypeMappingManager.getReplacement(className, typeName);
-
             typeName = typeName.replaceAll("<(.+)>$", "");
             typeName = typeName.substring(findLastDotWordIndexReverse(typeName) + 1);
             typeName = typeName.replace("$", ".");
@@ -92,12 +89,9 @@ public class ParameterStringBuilder {
             Type type = types[i];
             String typeName = toReadableTypeName(type.getTypeName());
 
-            // typeName = TypeMappingManager.getReplacement(className, typeName);
-
             typeName = typeName.replaceAll("<(.+)>$", "");
             typeName = typeName.replace("$", ".");
             typeName = typeName.replace("[]", "...");
-
 
             try {
                 Class<?> cellClass = Class.forName("javafx.scene.control.Cell");
@@ -113,6 +107,7 @@ public class ParameterStringBuilder {
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();
             }
+
             typeName = typeName.equals("S") ? "java.lang.Object" : typeName;
             if (classMetadata.getSimpleClassName().equals("PixelBuffer")) {
                 typeName = typeName.equals("T") ? "java.nio.Buffer" : typeName;
