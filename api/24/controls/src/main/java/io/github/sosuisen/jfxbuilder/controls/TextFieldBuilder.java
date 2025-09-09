@@ -2132,7 +2132,7 @@ public class TextFieldBuilder {
 
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#accessibleHelpProperty() accessibleHelpProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2154,7 +2154,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2176,7 +2176,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#accessibleRoleProperty() accessibleRoleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2198,7 +2198,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#accessibleTextProperty() accessibleTextProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2242,7 +2242,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#anchorProperty() anchorProperty} 
+     * Applies a function to the {@link javafx.scene.control.TextInputControl#anchorProperty() anchorProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2264,7 +2264,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#backgroundProperty() backgroundProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2286,7 +2286,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#blendModeProperty() blendModeProperty} 
+     * Applies a function to the {@link javafx.scene.Node#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2308,7 +2308,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#borderProperty() borderProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#borderProperty() borderProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2330,7 +2330,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#boundsInLocalProperty() boundsInLocalProperty} 
+     * Applies a function to the {@link javafx.scene.Node#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2352,7 +2352,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#boundsInParentProperty() boundsInParentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2374,7 +2374,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#cacheHintProperty() cacheHintProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2396,7 +2396,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#cacheProperty() cacheProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2418,7 +2418,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#cacheShapeProperty() cacheShapeProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2440,7 +2440,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#caretPositionProperty() caretPositionProperty} 
+     * Applies a function to the {@link javafx.scene.control.TextInputControl#caretPositionProperty() caretPositionProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2462,7 +2462,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#centerShapeProperty() centerShapeProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2484,7 +2484,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#clipProperty() clipProperty} 
+     * Applies a function to the {@link javafx.scene.Node#clipProperty() clipProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2506,7 +2506,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#contextMenuProperty() contextMenuProperty} 
+     * Applies a function to the {@link javafx.scene.control.Control#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2528,7 +2528,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#cursorProperty() cursorProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2550,7 +2550,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#depthTestProperty() depthTestProperty} 
+     * Applies a function to the {@link javafx.scene.Node#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2572,7 +2572,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#disableProperty() disableProperty} 
+     * Applies a function to the {@link javafx.scene.Node#disableProperty() disableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2594,7 +2594,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#disabledProperty() disabledProperty} 
+     * Applies a function to the {@link javafx.scene.Node#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2616,7 +2616,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#editableProperty() editableProperty} 
+     * Applies a function to the {@link javafx.scene.control.TextInputControl#editableProperty() editableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2638,7 +2638,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#effectProperty() effectProperty} 
+     * Applies a function to the {@link javafx.scene.Node#effectProperty() effectProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2660,7 +2660,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * Applies a function to the {@link javafx.scene.Node#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2682,7 +2682,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#eventDispatcherProperty() eventDispatcherProperty} 
+     * Applies a function to the {@link javafx.scene.Node#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2704,7 +2704,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#focusTraversableProperty() focusTraversableProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2726,7 +2726,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#focusVisibleProperty() focusVisibleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2748,7 +2748,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#focusWithinProperty() focusWithinProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2770,7 +2770,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#focusedProperty() focusedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2792,7 +2792,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#fontProperty() fontProperty} 
+     * Applies a function to the {@link javafx.scene.control.TextInputControl#fontProperty() fontProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2814,7 +2814,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#heightProperty() heightProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#heightProperty() heightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2836,7 +2836,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#hoverProperty() hoverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2858,7 +2858,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#idProperty() idProperty} 
+     * Applies a function to the {@link javafx.scene.Node#idProperty() idProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2880,7 +2880,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2902,7 +2902,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#insetsProperty() insetsProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2924,7 +2924,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#layoutBoundsProperty() layoutBoundsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2946,7 +2946,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#layoutXProperty() layoutXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2968,7 +2968,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#layoutYProperty() layoutYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2990,7 +2990,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#lengthProperty() lengthProperty} 
+     * Applies a function to the {@link javafx.scene.control.TextInputControl#lengthProperty() lengthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3012,7 +3012,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#localToParentTransformProperty() localToParentTransformProperty} 
+     * Applies a function to the {@link javafx.scene.Node#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3034,7 +3034,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * Applies a function to the {@link javafx.scene.Node#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3056,7 +3056,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#managedProperty() managedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#managedProperty() managedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3078,7 +3078,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#maxHeightProperty() maxHeightProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3100,7 +3100,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#maxWidthProperty() maxWidthProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3122,7 +3122,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#minHeightProperty() minHeightProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3144,7 +3144,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#minWidthProperty() minWidthProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3166,7 +3166,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#mouseTransparentProperty() mouseTransparentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3188,7 +3188,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#needsLayoutProperty() needsLayoutProperty} 
+     * Applies a function to the {@link javafx.scene.Parent#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3210,7 +3210,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#nodeOrientationProperty() nodeOrientationProperty} 
+     * Applies a function to the {@link javafx.scene.Node#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3254,7 +3254,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3276,7 +3276,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onDragDetectedProperty() onDragDetectedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3298,7 +3298,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onDragDoneProperty() onDragDoneProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3320,7 +3320,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onDragDroppedProperty() onDragDroppedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3342,7 +3342,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onDragEnteredProperty() onDragEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3364,7 +3364,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onDragExitedProperty() onDragExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3386,7 +3386,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onDragOverProperty() onDragOverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3408,7 +3408,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3430,7 +3430,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onKeyPressedProperty() onKeyPressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3452,7 +3452,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3474,7 +3474,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onKeyTypedProperty() onKeyTypedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3496,7 +3496,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onMouseClickedProperty() onMouseClickedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3518,7 +3518,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3540,7 +3540,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3562,7 +3562,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3584,7 +3584,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3606,7 +3606,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3628,7 +3628,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3650,7 +3650,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onMouseExitedProperty() onMouseExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3672,7 +3672,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onMouseMovedProperty() onMouseMovedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3694,7 +3694,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onMousePressedProperty() onMousePressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3716,7 +3716,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3738,7 +3738,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onRotateProperty() onRotateProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3760,7 +3760,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3782,7 +3782,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onRotationStartedProperty() onRotationStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3804,7 +3804,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3826,7 +3826,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onScrollProperty() onScrollProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3848,7 +3848,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onScrollStartedProperty() onScrollStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3870,7 +3870,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onSwipeDownProperty() onSwipeDownProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3892,7 +3892,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3914,7 +3914,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onSwipeRightProperty() onSwipeRightProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3936,7 +3936,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onSwipeUpProperty() onSwipeUpProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3958,7 +3958,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onTouchMovedProperty() onTouchMovedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3980,7 +3980,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onTouchPressedProperty() onTouchPressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4002,7 +4002,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4024,7 +4024,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4046,7 +4046,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4068,7 +4068,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onZoomProperty() onZoomProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4090,7 +4090,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#onZoomStartedProperty() onZoomStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4112,7 +4112,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#opacityProperty() opacityProperty} 
+     * Applies a function to the {@link javafx.scene.Node#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4134,7 +4134,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4156,7 +4156,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#paddingProperty() paddingProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4178,7 +4178,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#parentProperty() parentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#parentProperty() parentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4200,7 +4200,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4244,7 +4244,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#prefHeightProperty() prefHeightProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4266,7 +4266,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#prefWidthProperty() prefWidthProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4288,7 +4288,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#pressedProperty() pressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4310,7 +4310,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#promptTextProperty() promptTextProperty} 
+     * Applies a function to the {@link javafx.scene.control.TextInputControl#promptTextProperty() promptTextProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4332,7 +4332,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#redoableProperty() redoableProperty} 
+     * Applies a function to the {@link javafx.scene.control.TextInputControl#redoableProperty() redoableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4354,7 +4354,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#rotateProperty() rotateProperty} 
+     * Applies a function to the {@link javafx.scene.Node#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4376,7 +4376,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#rotationAxisProperty() rotationAxisProperty} 
+     * Applies a function to the {@link javafx.scene.Node#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4398,7 +4398,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#scaleShapeProperty() scaleShapeProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4420,7 +4420,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#scaleXProperty() scaleXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4442,7 +4442,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#scaleYProperty() scaleYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4464,7 +4464,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#scaleZProperty() scaleZProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4486,7 +4486,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#sceneProperty() sceneProperty} 
+     * Applies a function to the {@link javafx.scene.Node#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4508,7 +4508,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#selectedTextProperty() selectedTextProperty} 
+     * Applies a function to the {@link javafx.scene.control.TextInputControl#selectedTextProperty() selectedTextProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4530,7 +4530,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#selectionProperty() selectionProperty} 
+     * Applies a function to the {@link javafx.scene.control.TextInputControl#selectionProperty() selectionProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4552,7 +4552,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#shapeProperty() shapeProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4574,7 +4574,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#skinProperty() skinProperty} 
+     * Applies a function to the {@link javafx.scene.control.Control#skinProperty() skinProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4596,7 +4596,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#snapToPixelProperty() snapToPixelProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4618,7 +4618,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#styleProperty() styleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#styleProperty() styleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4640,7 +4640,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#textFormatterProperty() textFormatterProperty} 
+     * Applies a function to the {@link javafx.scene.control.TextInputControl#textFormatterProperty() textFormatterProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4662,7 +4662,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#textProperty() textProperty} 
+     * Applies a function to the {@link javafx.scene.control.TextInputControl#textProperty() textProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4684,7 +4684,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#tooltipProperty() tooltipProperty} 
+     * Applies a function to the {@link javafx.scene.control.Control#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4706,7 +4706,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#translateXProperty() translateXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4728,7 +4728,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#translateYProperty() translateYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4750,7 +4750,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#translateZProperty() translateZProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4772,7 +4772,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#undoableProperty() undoableProperty} 
+     * Applies a function to the {@link javafx.scene.control.TextInputControl#undoableProperty() undoableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4794,7 +4794,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#viewOrderProperty() viewOrderProperty} 
+     * Applies a function to the {@link javafx.scene.Node#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4816,7 +4816,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#visibleProperty() visibleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4838,7 +4838,7 @@ public class TextFieldBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TextField#widthProperty() widthProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#widthProperty() widthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextFieldBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

@@ -202,7 +202,7 @@ public class QuadCurveToBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#absoluteProperty() absoluteProperty} 
+     * Applies a function to the {@link javafx.scene.shape.PathElement#absoluteProperty() absoluteProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link QuadCurveToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

@@ -172,7 +172,7 @@ public class HLineToBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.HLineTo#absoluteProperty() absoluteProperty} 
+     * Applies a function to the {@link javafx.scene.shape.PathElement#absoluteProperty() absoluteProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link HLineToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

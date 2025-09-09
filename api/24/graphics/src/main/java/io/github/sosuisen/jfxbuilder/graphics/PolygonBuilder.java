@@ -1975,7 +1975,7 @@ public class PolygonBuilder {
 
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#accessibleHelpProperty() accessibleHelpProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1997,7 +1997,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2019,7 +2019,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#accessibleRoleProperty() accessibleRoleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2041,7 +2041,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#accessibleTextProperty() accessibleTextProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2063,7 +2063,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#blendModeProperty() blendModeProperty} 
+     * Applies a function to the {@link javafx.scene.Node#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2085,7 +2085,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#boundsInLocalProperty() boundsInLocalProperty} 
+     * Applies a function to the {@link javafx.scene.Node#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2107,7 +2107,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#boundsInParentProperty() boundsInParentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2129,7 +2129,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#cacheHintProperty() cacheHintProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2151,7 +2151,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#cacheProperty() cacheProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2173,7 +2173,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#clipProperty() clipProperty} 
+     * Applies a function to the {@link javafx.scene.Node#clipProperty() clipProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2195,7 +2195,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#cursorProperty() cursorProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2217,7 +2217,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#depthTestProperty() depthTestProperty} 
+     * Applies a function to the {@link javafx.scene.Node#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2239,7 +2239,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#disableProperty() disableProperty} 
+     * Applies a function to the {@link javafx.scene.Node#disableProperty() disableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2261,7 +2261,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#disabledProperty() disabledProperty} 
+     * Applies a function to the {@link javafx.scene.Node#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2283,7 +2283,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#effectProperty() effectProperty} 
+     * Applies a function to the {@link javafx.scene.Node#effectProperty() effectProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2305,7 +2305,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * Applies a function to the {@link javafx.scene.Node#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2327,7 +2327,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#eventDispatcherProperty() eventDispatcherProperty} 
+     * Applies a function to the {@link javafx.scene.Node#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2349,7 +2349,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#fillProperty() fillProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#fillProperty() fillProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2371,7 +2371,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#focusTraversableProperty() focusTraversableProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2393,7 +2393,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#focusVisibleProperty() focusVisibleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2415,7 +2415,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#focusWithinProperty() focusWithinProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2437,7 +2437,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#focusedProperty() focusedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2459,7 +2459,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#hoverProperty() hoverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2481,7 +2481,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#idProperty() idProperty} 
+     * Applies a function to the {@link javafx.scene.Node#idProperty() idProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2503,7 +2503,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2525,7 +2525,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#layoutBoundsProperty() layoutBoundsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2547,7 +2547,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#layoutXProperty() layoutXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2569,7 +2569,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#layoutYProperty() layoutYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2591,7 +2591,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#localToParentTransformProperty() localToParentTransformProperty} 
+     * Applies a function to the {@link javafx.scene.Node#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2613,7 +2613,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * Applies a function to the {@link javafx.scene.Node#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2635,7 +2635,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#managedProperty() managedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#managedProperty() managedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2657,7 +2657,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#mouseTransparentProperty() mouseTransparentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2679,7 +2679,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#nodeOrientationProperty() nodeOrientationProperty} 
+     * Applies a function to the {@link javafx.scene.Node#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2701,7 +2701,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2723,7 +2723,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onDragDetectedProperty() onDragDetectedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2745,7 +2745,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onDragDoneProperty() onDragDoneProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2767,7 +2767,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onDragDroppedProperty() onDragDroppedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2789,7 +2789,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onDragEnteredProperty() onDragEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2811,7 +2811,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onDragExitedProperty() onDragExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2833,7 +2833,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onDragOverProperty() onDragOverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2855,7 +2855,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2877,7 +2877,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onKeyPressedProperty() onKeyPressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2899,7 +2899,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2921,7 +2921,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onKeyTypedProperty() onKeyTypedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2943,7 +2943,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseClickedProperty() onMouseClickedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2965,7 +2965,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2987,7 +2987,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3009,7 +3009,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3031,7 +3031,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3053,7 +3053,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3075,7 +3075,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3097,7 +3097,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseExitedProperty() onMouseExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3119,7 +3119,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseMovedProperty() onMouseMovedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3141,7 +3141,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onMousePressedProperty() onMousePressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3163,7 +3163,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3185,7 +3185,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onRotateProperty() onRotateProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3207,7 +3207,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3229,7 +3229,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onRotationStartedProperty() onRotationStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3251,7 +3251,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3273,7 +3273,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onScrollProperty() onScrollProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3295,7 +3295,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onScrollStartedProperty() onScrollStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3317,7 +3317,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onSwipeDownProperty() onSwipeDownProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3339,7 +3339,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3361,7 +3361,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onSwipeRightProperty() onSwipeRightProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3383,7 +3383,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onSwipeUpProperty() onSwipeUpProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3405,7 +3405,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onTouchMovedProperty() onTouchMovedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3427,7 +3427,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onTouchPressedProperty() onTouchPressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3449,7 +3449,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3471,7 +3471,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3493,7 +3493,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3515,7 +3515,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onZoomProperty() onZoomProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3537,7 +3537,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#onZoomStartedProperty() onZoomStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3559,7 +3559,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#opacityProperty() opacityProperty} 
+     * Applies a function to the {@link javafx.scene.Node#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3581,7 +3581,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#parentProperty() parentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#parentProperty() parentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3603,7 +3603,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3625,7 +3625,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#pressedProperty() pressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3647,7 +3647,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#rotateProperty() rotateProperty} 
+     * Applies a function to the {@link javafx.scene.Node#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3669,7 +3669,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#rotationAxisProperty() rotationAxisProperty} 
+     * Applies a function to the {@link javafx.scene.Node#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3691,7 +3691,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#scaleXProperty() scaleXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3713,7 +3713,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#scaleYProperty() scaleYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3735,7 +3735,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#scaleZProperty() scaleZProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3757,7 +3757,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#sceneProperty() sceneProperty} 
+     * Applies a function to the {@link javafx.scene.Node#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3779,7 +3779,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#smoothProperty() smoothProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#smoothProperty() smoothProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3801,7 +3801,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#strokeDashOffsetProperty() strokeDashOffsetProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeDashOffsetProperty() strokeDashOffsetProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3823,7 +3823,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#strokeLineCapProperty() strokeLineCapProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeLineCapProperty() strokeLineCapProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3845,7 +3845,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#strokeLineJoinProperty() strokeLineJoinProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeLineJoinProperty() strokeLineJoinProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3867,7 +3867,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#strokeMiterLimitProperty() strokeMiterLimitProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeMiterLimitProperty() strokeMiterLimitProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3889,7 +3889,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#strokeProperty() strokeProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeProperty() strokeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3911,7 +3911,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#strokeTypeProperty() strokeTypeProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeTypeProperty() strokeTypeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3933,7 +3933,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#strokeWidthProperty() strokeWidthProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeWidthProperty() strokeWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3955,7 +3955,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#styleProperty() styleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#styleProperty() styleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3977,7 +3977,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#translateXProperty() translateXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3999,7 +3999,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#translateYProperty() translateYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4021,7 +4021,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#translateZProperty() translateZProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4043,7 +4043,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#viewOrderProperty() viewOrderProperty} 
+     * Applies a function to the {@link javafx.scene.Node#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4065,7 +4065,7 @@ public class PolygonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polygon#visibleProperty() visibleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PolygonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

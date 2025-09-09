@@ -2127,7 +2127,7 @@ public class TextBuilder {
 
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#accessibleHelpProperty() accessibleHelpProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2149,7 +2149,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2171,7 +2171,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#accessibleRoleProperty() accessibleRoleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2193,7 +2193,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#accessibleTextProperty() accessibleTextProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2237,7 +2237,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#blendModeProperty() blendModeProperty} 
+     * Applies a function to the {@link javafx.scene.Node#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2259,7 +2259,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#boundsInLocalProperty() boundsInLocalProperty} 
+     * Applies a function to the {@link javafx.scene.Node#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2281,7 +2281,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#boundsInParentProperty() boundsInParentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2325,7 +2325,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#cacheHintProperty() cacheHintProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2347,7 +2347,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#cacheProperty() cacheProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2435,7 +2435,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#clipProperty() clipProperty} 
+     * Applies a function to the {@link javafx.scene.Node#clipProperty() clipProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2457,7 +2457,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#cursorProperty() cursorProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2479,7 +2479,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#depthTestProperty() depthTestProperty} 
+     * Applies a function to the {@link javafx.scene.Node#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2501,7 +2501,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#disableProperty() disableProperty} 
+     * Applies a function to the {@link javafx.scene.Node#disableProperty() disableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2523,7 +2523,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#disabledProperty() disabledProperty} 
+     * Applies a function to the {@link javafx.scene.Node#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2545,7 +2545,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#effectProperty() effectProperty} 
+     * Applies a function to the {@link javafx.scene.Node#effectProperty() effectProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2567,7 +2567,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * Applies a function to the {@link javafx.scene.Node#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2589,7 +2589,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#eventDispatcherProperty() eventDispatcherProperty} 
+     * Applies a function to the {@link javafx.scene.Node#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2611,7 +2611,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#fillProperty() fillProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#fillProperty() fillProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2633,7 +2633,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#focusTraversableProperty() focusTraversableProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2655,7 +2655,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#focusVisibleProperty() focusVisibleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2677,7 +2677,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#focusWithinProperty() focusWithinProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2699,7 +2699,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#focusedProperty() focusedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2765,7 +2765,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#hoverProperty() hoverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2787,7 +2787,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#idProperty() idProperty} 
+     * Applies a function to the {@link javafx.scene.Node#idProperty() idProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2809,7 +2809,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2831,7 +2831,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#layoutBoundsProperty() layoutBoundsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2853,7 +2853,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#layoutXProperty() layoutXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2875,7 +2875,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#layoutYProperty() layoutYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2919,7 +2919,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#localToParentTransformProperty() localToParentTransformProperty} 
+     * Applies a function to the {@link javafx.scene.Node#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2941,7 +2941,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * Applies a function to the {@link javafx.scene.Node#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2963,7 +2963,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#managedProperty() managedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#managedProperty() managedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2985,7 +2985,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#mouseTransparentProperty() mouseTransparentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3007,7 +3007,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#nodeOrientationProperty() nodeOrientationProperty} 
+     * Applies a function to the {@link javafx.scene.Node#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3029,7 +3029,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3051,7 +3051,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onDragDetectedProperty() onDragDetectedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3073,7 +3073,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onDragDoneProperty() onDragDoneProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3095,7 +3095,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onDragDroppedProperty() onDragDroppedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3117,7 +3117,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onDragEnteredProperty() onDragEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3139,7 +3139,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onDragExitedProperty() onDragExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3161,7 +3161,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onDragOverProperty() onDragOverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3183,7 +3183,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3205,7 +3205,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onKeyPressedProperty() onKeyPressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3227,7 +3227,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3249,7 +3249,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onKeyTypedProperty() onKeyTypedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3271,7 +3271,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onMouseClickedProperty() onMouseClickedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3293,7 +3293,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3315,7 +3315,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3337,7 +3337,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3359,7 +3359,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3381,7 +3381,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3403,7 +3403,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3425,7 +3425,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onMouseExitedProperty() onMouseExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3447,7 +3447,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onMouseMovedProperty() onMouseMovedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3469,7 +3469,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onMousePressedProperty() onMousePressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3491,7 +3491,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3513,7 +3513,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onRotateProperty() onRotateProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3535,7 +3535,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3557,7 +3557,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onRotationStartedProperty() onRotationStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3579,7 +3579,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3601,7 +3601,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onScrollProperty() onScrollProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3623,7 +3623,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onScrollStartedProperty() onScrollStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3645,7 +3645,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onSwipeDownProperty() onSwipeDownProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3667,7 +3667,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3689,7 +3689,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onSwipeRightProperty() onSwipeRightProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3711,7 +3711,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onSwipeUpProperty() onSwipeUpProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3733,7 +3733,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onTouchMovedProperty() onTouchMovedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3755,7 +3755,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onTouchPressedProperty() onTouchPressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3777,7 +3777,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3799,7 +3799,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3821,7 +3821,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3843,7 +3843,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onZoomProperty() onZoomProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3865,7 +3865,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#onZoomStartedProperty() onZoomStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3887,7 +3887,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#opacityProperty() opacityProperty} 
+     * Applies a function to the {@link javafx.scene.Node#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3909,7 +3909,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#parentProperty() parentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#parentProperty() parentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3931,7 +3931,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3953,7 +3953,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#pressedProperty() pressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3975,7 +3975,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#rotateProperty() rotateProperty} 
+     * Applies a function to the {@link javafx.scene.Node#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3997,7 +3997,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#rotationAxisProperty() rotationAxisProperty} 
+     * Applies a function to the {@link javafx.scene.Node#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4019,7 +4019,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#scaleXProperty() scaleXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4041,7 +4041,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#scaleYProperty() scaleYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4063,7 +4063,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#scaleZProperty() scaleZProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4085,7 +4085,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#sceneProperty() sceneProperty} 
+     * Applies a function to the {@link javafx.scene.Node#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4195,7 +4195,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#smoothProperty() smoothProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#smoothProperty() smoothProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4239,7 +4239,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#strokeDashOffsetProperty() strokeDashOffsetProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeDashOffsetProperty() strokeDashOffsetProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4261,7 +4261,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#strokeLineCapProperty() strokeLineCapProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeLineCapProperty() strokeLineCapProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4283,7 +4283,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#strokeLineJoinProperty() strokeLineJoinProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeLineJoinProperty() strokeLineJoinProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4305,7 +4305,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#strokeMiterLimitProperty() strokeMiterLimitProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeMiterLimitProperty() strokeMiterLimitProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4327,7 +4327,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#strokeProperty() strokeProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeProperty() strokeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4349,7 +4349,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#strokeTypeProperty() strokeTypeProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeTypeProperty() strokeTypeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4371,7 +4371,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#strokeWidthProperty() strokeWidthProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeWidthProperty() strokeWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4393,7 +4393,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#styleProperty() styleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#styleProperty() styleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4503,7 +4503,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#translateXProperty() translateXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4525,7 +4525,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#translateYProperty() translateYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4547,7 +4547,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#translateZProperty() translateZProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4591,7 +4591,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#viewOrderProperty() viewOrderProperty} 
+     * Applies a function to the {@link javafx.scene.Node#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4613,7 +4613,7 @@ public class TextBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.text.Text#visibleProperty() visibleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TextBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

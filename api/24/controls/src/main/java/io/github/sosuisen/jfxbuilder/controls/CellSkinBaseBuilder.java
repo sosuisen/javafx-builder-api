@@ -28,7 +28,7 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
     private CellSkinBaseBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.skin.CellSkinBase#CellSkinBase(C) CellSkinBase(C)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.skin.CellSkinBase#CellSkinBase(javafx.scene.control.Cell) CellSkinBase(C)}
      * and returns an instance of {@code CellSkinBaseBuilder<C>}.
      *
      * @return an instance of the {@code CellSkinBaseBuilder<C>}.

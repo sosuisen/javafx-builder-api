@@ -271,7 +271,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Dialog#setResult(R) setResult} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setResult(java.lang.Object) setResult} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -373,7 +373,7 @@ public class AlertBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Alert#contentTextProperty() contentTextProperty} 
+     * Applies a function to the {@link javafx.scene.control.Dialog#contentTextProperty() contentTextProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AlertBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -395,7 +395,7 @@ public class AlertBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Alert#dialogPaneProperty() dialogPaneProperty} 
+     * Applies a function to the {@link javafx.scene.control.Dialog#dialogPaneProperty() dialogPaneProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AlertBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -417,7 +417,7 @@ public class AlertBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Alert#graphicProperty() graphicProperty} 
+     * Applies a function to the {@link javafx.scene.control.Dialog#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AlertBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -439,7 +439,7 @@ public class AlertBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Alert#headerTextProperty() headerTextProperty} 
+     * Applies a function to the {@link javafx.scene.control.Dialog#headerTextProperty() headerTextProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AlertBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -461,7 +461,7 @@ public class AlertBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Alert#heightProperty() heightProperty} 
+     * Applies a function to the {@link javafx.scene.control.Dialog#heightProperty() heightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AlertBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -483,7 +483,7 @@ public class AlertBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Alert#onCloseRequestProperty() onCloseRequestProperty} 
+     * Applies a function to the {@link javafx.scene.control.Dialog#onCloseRequestProperty() onCloseRequestProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AlertBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -505,7 +505,7 @@ public class AlertBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Alert#onHiddenProperty() onHiddenProperty} 
+     * Applies a function to the {@link javafx.scene.control.Dialog#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AlertBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -527,7 +527,7 @@ public class AlertBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Alert#onHidingProperty() onHidingProperty} 
+     * Applies a function to the {@link javafx.scene.control.Dialog#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AlertBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -549,7 +549,7 @@ public class AlertBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Alert#onShowingProperty() onShowingProperty} 
+     * Applies a function to the {@link javafx.scene.control.Dialog#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AlertBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -571,7 +571,7 @@ public class AlertBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Alert#onShownProperty() onShownProperty} 
+     * Applies a function to the {@link javafx.scene.control.Dialog#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AlertBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -593,7 +593,7 @@ public class AlertBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Alert#resizableProperty() resizableProperty} 
+     * Applies a function to the {@link javafx.scene.control.Dialog#resizableProperty() resizableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AlertBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -615,7 +615,7 @@ public class AlertBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Alert#resultConverterProperty() resultConverterProperty} 
+     * Applies a function to the {@link javafx.scene.control.Dialog#resultConverterProperty() resultConverterProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AlertBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -637,7 +637,7 @@ public class AlertBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Alert#resultProperty() resultProperty} 
+     * Applies a function to the {@link javafx.scene.control.Dialog#resultProperty() resultProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AlertBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -659,7 +659,7 @@ public class AlertBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Alert#showingProperty() showingProperty} 
+     * Applies a function to the {@link javafx.scene.control.Dialog#showingProperty() showingProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AlertBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -681,7 +681,7 @@ public class AlertBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Alert#titleProperty() titleProperty} 
+     * Applies a function to the {@link javafx.scene.control.Dialog#titleProperty() titleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AlertBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -703,7 +703,7 @@ public class AlertBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Alert#widthProperty() widthProperty} 
+     * Applies a function to the {@link javafx.scene.control.Dialog#widthProperty() widthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AlertBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -725,7 +725,7 @@ public class AlertBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Alert#xProperty() xProperty} 
+     * Applies a function to the {@link javafx.scene.control.Dialog#xProperty() xProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AlertBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -747,7 +747,7 @@ public class AlertBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Alert#yProperty() yProperty} 
+     * Applies a function to the {@link javafx.scene.control.Dialog#yProperty() yProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AlertBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

@@ -304,7 +304,7 @@ public class RotateBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.transform.Rotate#identityProperty() identityProperty} 
+     * Applies a function to the {@link javafx.scene.transform.Transform#identityProperty() identityProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RotateBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -326,7 +326,7 @@ public class RotateBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.transform.Rotate#onTransformChangedProperty() onTransformChangedProperty} 
+     * Applies a function to the {@link javafx.scene.transform.Transform#onTransformChangedProperty() onTransformChangedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RotateBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -414,7 +414,7 @@ public class RotateBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.transform.Rotate#type2DProperty() type2DProperty} 
+     * Applies a function to the {@link javafx.scene.transform.Transform#type2DProperty() type2DProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RotateBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

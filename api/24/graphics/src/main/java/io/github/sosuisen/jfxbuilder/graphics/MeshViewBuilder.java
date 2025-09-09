@@ -1845,7 +1845,7 @@ public class MeshViewBuilder {
 
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#accessibleHelpProperty() accessibleHelpProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1867,7 +1867,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1889,7 +1889,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#accessibleRoleProperty() accessibleRoleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1911,7 +1911,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#accessibleTextProperty() accessibleTextProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1933,7 +1933,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#blendModeProperty() blendModeProperty} 
+     * Applies a function to the {@link javafx.scene.Node#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1955,7 +1955,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#boundsInLocalProperty() boundsInLocalProperty} 
+     * Applies a function to the {@link javafx.scene.Node#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1977,7 +1977,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#boundsInParentProperty() boundsInParentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1999,7 +1999,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#cacheHintProperty() cacheHintProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2021,7 +2021,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#cacheProperty() cacheProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2043,7 +2043,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#clipProperty() clipProperty} 
+     * Applies a function to the {@link javafx.scene.Node#clipProperty() clipProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2065,7 +2065,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#cullFaceProperty() cullFaceProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape3D#cullFaceProperty() cullFaceProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2087,7 +2087,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#cursorProperty() cursorProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2109,7 +2109,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#depthTestProperty() depthTestProperty} 
+     * Applies a function to the {@link javafx.scene.Node#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2131,7 +2131,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#disableProperty() disableProperty} 
+     * Applies a function to the {@link javafx.scene.Node#disableProperty() disableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2153,7 +2153,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#disabledProperty() disabledProperty} 
+     * Applies a function to the {@link javafx.scene.Node#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2175,7 +2175,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#drawModeProperty() drawModeProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape3D#drawModeProperty() drawModeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2197,7 +2197,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#effectProperty() effectProperty} 
+     * Applies a function to the {@link javafx.scene.Node#effectProperty() effectProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2219,7 +2219,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * Applies a function to the {@link javafx.scene.Node#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2241,7 +2241,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#eventDispatcherProperty() eventDispatcherProperty} 
+     * Applies a function to the {@link javafx.scene.Node#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2263,7 +2263,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#focusTraversableProperty() focusTraversableProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2285,7 +2285,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#focusVisibleProperty() focusVisibleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2307,7 +2307,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#focusWithinProperty() focusWithinProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2329,7 +2329,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#focusedProperty() focusedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2351,7 +2351,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#hoverProperty() hoverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2373,7 +2373,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#idProperty() idProperty} 
+     * Applies a function to the {@link javafx.scene.Node#idProperty() idProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2395,7 +2395,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2417,7 +2417,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#layoutBoundsProperty() layoutBoundsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2439,7 +2439,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#layoutXProperty() layoutXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2461,7 +2461,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#layoutYProperty() layoutYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2483,7 +2483,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#localToParentTransformProperty() localToParentTransformProperty} 
+     * Applies a function to the {@link javafx.scene.Node#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2505,7 +2505,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * Applies a function to the {@link javafx.scene.Node#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2527,7 +2527,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#managedProperty() managedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#managedProperty() managedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2549,7 +2549,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#materialProperty() materialProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape3D#materialProperty() materialProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2593,7 +2593,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#mouseTransparentProperty() mouseTransparentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2615,7 +2615,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#nodeOrientationProperty() nodeOrientationProperty} 
+     * Applies a function to the {@link javafx.scene.Node#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2637,7 +2637,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2659,7 +2659,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onDragDetectedProperty() onDragDetectedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2681,7 +2681,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onDragDoneProperty() onDragDoneProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2703,7 +2703,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onDragDroppedProperty() onDragDroppedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2725,7 +2725,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onDragEnteredProperty() onDragEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2747,7 +2747,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onDragExitedProperty() onDragExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2769,7 +2769,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onDragOverProperty() onDragOverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2791,7 +2791,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2813,7 +2813,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onKeyPressedProperty() onKeyPressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2835,7 +2835,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2857,7 +2857,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onKeyTypedProperty() onKeyTypedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2879,7 +2879,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onMouseClickedProperty() onMouseClickedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2901,7 +2901,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2923,7 +2923,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2945,7 +2945,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2967,7 +2967,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2989,7 +2989,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3011,7 +3011,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3033,7 +3033,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onMouseExitedProperty() onMouseExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3055,7 +3055,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onMouseMovedProperty() onMouseMovedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3077,7 +3077,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onMousePressedProperty() onMousePressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3099,7 +3099,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3121,7 +3121,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onRotateProperty() onRotateProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3143,7 +3143,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3165,7 +3165,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onRotationStartedProperty() onRotationStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3187,7 +3187,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3209,7 +3209,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onScrollProperty() onScrollProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3231,7 +3231,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onScrollStartedProperty() onScrollStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3253,7 +3253,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onSwipeDownProperty() onSwipeDownProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3275,7 +3275,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3297,7 +3297,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onSwipeRightProperty() onSwipeRightProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3319,7 +3319,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onSwipeUpProperty() onSwipeUpProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3341,7 +3341,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onTouchMovedProperty() onTouchMovedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3363,7 +3363,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onTouchPressedProperty() onTouchPressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3385,7 +3385,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3407,7 +3407,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3429,7 +3429,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3451,7 +3451,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onZoomProperty() onZoomProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3473,7 +3473,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#onZoomStartedProperty() onZoomStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3495,7 +3495,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#opacityProperty() opacityProperty} 
+     * Applies a function to the {@link javafx.scene.Node#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3517,7 +3517,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#parentProperty() parentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#parentProperty() parentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3539,7 +3539,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3561,7 +3561,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#pressedProperty() pressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3583,7 +3583,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#rotateProperty() rotateProperty} 
+     * Applies a function to the {@link javafx.scene.Node#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3605,7 +3605,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#rotationAxisProperty() rotationAxisProperty} 
+     * Applies a function to the {@link javafx.scene.Node#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3627,7 +3627,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#scaleXProperty() scaleXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3649,7 +3649,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#scaleYProperty() scaleYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3671,7 +3671,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#scaleZProperty() scaleZProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3693,7 +3693,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#sceneProperty() sceneProperty} 
+     * Applies a function to the {@link javafx.scene.Node#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3715,7 +3715,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#styleProperty() styleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#styleProperty() styleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3737,7 +3737,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#translateXProperty() translateXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3759,7 +3759,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#translateYProperty() translateYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3781,7 +3781,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#translateZProperty() translateZProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3803,7 +3803,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#viewOrderProperty() viewOrderProperty} 
+     * Applies a function to the {@link javafx.scene.Node#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3825,7 +3825,7 @@ public class MeshViewBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.MeshView#visibleProperty() visibleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link MeshViewBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

@@ -164,7 +164,7 @@ public class TableViewTableViewFocusModelBuilder<S> {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView.TableViewFocusModel#focusedIndexProperty() focusedIndexProperty} 
+     * Applies a function to the {@link javafx.scene.control.FocusModel#focusedIndexProperty() focusedIndexProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TableViewTableViewFocusModelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -186,7 +186,7 @@ public class TableViewTableViewFocusModelBuilder<S> {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView.TableViewFocusModel#focusedItemProperty() focusedItemProperty} 
+     * Applies a function to the {@link javafx.scene.control.FocusModel#focusedItemProperty() focusedItemProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TableViewTableViewFocusModelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

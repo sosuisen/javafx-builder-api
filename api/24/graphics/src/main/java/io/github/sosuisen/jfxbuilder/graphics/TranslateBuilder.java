@@ -204,7 +204,7 @@ public class TranslateBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.transform.Translate#identityProperty() identityProperty} 
+     * Applies a function to the {@link javafx.scene.transform.Transform#identityProperty() identityProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TranslateBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -226,7 +226,7 @@ public class TranslateBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.transform.Translate#onTransformChangedProperty() onTransformChangedProperty} 
+     * Applies a function to the {@link javafx.scene.transform.Transform#onTransformChangedProperty() onTransformChangedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TranslateBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -248,7 +248,7 @@ public class TranslateBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.transform.Translate#type2DProperty() type2DProperty} 
+     * Applies a function to the {@link javafx.scene.transform.Transform#type2DProperty() type2DProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TranslateBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

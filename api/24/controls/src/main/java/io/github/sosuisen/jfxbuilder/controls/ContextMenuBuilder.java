@@ -572,7 +572,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#anchorLocationProperty() anchorLocationProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#anchorLocationProperty() anchorLocationProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -594,7 +594,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#anchorXProperty() anchorXProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#anchorXProperty() anchorXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -616,7 +616,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#anchorYProperty() anchorYProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#anchorYProperty() anchorYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -638,7 +638,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#autoFixProperty() autoFixProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#autoFixProperty() autoFixProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -660,7 +660,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#autoHideProperty() autoHideProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#autoHideProperty() autoHideProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -682,7 +682,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#consumeAutoHidingEventsProperty() consumeAutoHidingEventsProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#consumeAutoHidingEventsProperty() consumeAutoHidingEventsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -704,7 +704,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#eventDispatcherProperty() eventDispatcherProperty} 
+     * Applies a function to the {@link javafx.stage.Window#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -726,7 +726,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#focusedProperty() focusedProperty} 
+     * Applies a function to the {@link javafx.stage.Window#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -748,7 +748,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#forceIntegerRenderScaleProperty() forceIntegerRenderScaleProperty} 
+     * Applies a function to the {@link javafx.stage.Window#forceIntegerRenderScaleProperty() forceIntegerRenderScaleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -770,7 +770,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#heightProperty() heightProperty} 
+     * Applies a function to the {@link javafx.stage.Window#heightProperty() heightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -792,7 +792,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#hideOnEscapeProperty() hideOnEscapeProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#hideOnEscapeProperty() hideOnEscapeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -814,7 +814,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#idProperty() idProperty} 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#idProperty() idProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -836,7 +836,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#maxHeightProperty() maxHeightProperty} 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -858,7 +858,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#maxWidthProperty() maxWidthProperty} 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -880,7 +880,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#minHeightProperty() minHeightProperty} 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -902,7 +902,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#minWidthProperty() minWidthProperty} 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -946,7 +946,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#onAutoHideProperty() onAutoHideProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#onAutoHideProperty() onAutoHideProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -968,7 +968,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#onCloseRequestProperty() onCloseRequestProperty} 
+     * Applies a function to the {@link javafx.stage.Window#onCloseRequestProperty() onCloseRequestProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -990,7 +990,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#onHiddenProperty() onHiddenProperty} 
+     * Applies a function to the {@link javafx.stage.Window#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1012,7 +1012,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#onHidingProperty() onHidingProperty} 
+     * Applies a function to the {@link javafx.stage.Window#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1034,7 +1034,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#onShowingProperty() onShowingProperty} 
+     * Applies a function to the {@link javafx.stage.Window#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1056,7 +1056,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#onShownProperty() onShownProperty} 
+     * Applies a function to the {@link javafx.stage.Window#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1078,7 +1078,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#opacityProperty() opacityProperty} 
+     * Applies a function to the {@link javafx.stage.Window#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1100,7 +1100,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#outputScaleXProperty() outputScaleXProperty} 
+     * Applies a function to the {@link javafx.stage.Window#outputScaleXProperty() outputScaleXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1122,7 +1122,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#outputScaleYProperty() outputScaleYProperty} 
+     * Applies a function to the {@link javafx.stage.Window#outputScaleYProperty() outputScaleYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1144,7 +1144,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#ownerNodeProperty() ownerNodeProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#ownerNodeProperty() ownerNodeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1166,7 +1166,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#ownerWindowProperty() ownerWindowProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#ownerWindowProperty() ownerWindowProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1188,7 +1188,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#prefHeightProperty() prefHeightProperty} 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1210,7 +1210,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#prefWidthProperty() prefWidthProperty} 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1232,7 +1232,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#renderScaleXProperty() renderScaleXProperty} 
+     * Applies a function to the {@link javafx.stage.Window#renderScaleXProperty() renderScaleXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1254,7 +1254,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#renderScaleYProperty() renderScaleYProperty} 
+     * Applies a function to the {@link javafx.stage.Window#renderScaleYProperty() renderScaleYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1276,7 +1276,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#sceneProperty() sceneProperty} 
+     * Applies a function to the {@link javafx.stage.Window#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1298,7 +1298,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#showingProperty() showingProperty} 
+     * Applies a function to the {@link javafx.stage.Window#showingProperty() showingProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1320,7 +1320,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#skinProperty() skinProperty} 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#skinProperty() skinProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1342,7 +1342,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#styleProperty() styleProperty} 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#styleProperty() styleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1364,7 +1364,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#widthProperty() widthProperty} 
+     * Applies a function to the {@link javafx.stage.Window#widthProperty() widthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1386,7 +1386,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#xProperty() xProperty} 
+     * Applies a function to the {@link javafx.stage.Window#xProperty() xProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1408,7 +1408,7 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#yProperty() yProperty} 
+     * Applies a function to the {@link javafx.stage.Window#yProperty() yProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link ContextMenuBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

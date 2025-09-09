@@ -192,7 +192,7 @@ public class LightPointBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.effect.Light.Point#colorProperty() colorProperty} 
+     * Applies a function to the {@link javafx.scene.effect.Light#colorProperty() colorProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link LightPointBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

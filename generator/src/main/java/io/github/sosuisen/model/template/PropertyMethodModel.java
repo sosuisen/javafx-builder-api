@@ -15,7 +15,7 @@ public record PropertyMethodModel(
     String methodName,
     String propertyName,
     String propertyType,
-    String originalClassName,
+    String declaringClassName,
     String classNameWithTypeParameter,
     boolean isNodeClass,
     String methodAnnotation) {
@@ -71,13 +71,15 @@ public record PropertyMethodModel(
                 classMetadata.getCanonicalClassName(), propertyName
             );
 
+            String declareingClassname = propertyMethod.getDeclaringClass().getCanonicalName();
+
             return new PropertyMethodModel(
                 classMetadata.getBuilderClassName(),
                 classMetadata.builderClassNameWithTypeParameter(),
                 methodName,
                 propertyName,
                 propertyType,
-                classMetadata.getCanonicalClassName(),
+                declareingClassname,
                 classMetadata.classNameWithTypeParameter(),
                 classMetadata.isNodeClass(),
                 methodAnnotation != null ? methodAnnotation : ""
