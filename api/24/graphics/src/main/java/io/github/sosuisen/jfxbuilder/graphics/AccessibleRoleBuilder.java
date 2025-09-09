@@ -30,7 +30,7 @@ public class AccessibleRoleBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.AccessibleRole} class.
+     * Builds and returns an instance of the {@link javafx.scene.AccessibleRole AccessibleRole} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

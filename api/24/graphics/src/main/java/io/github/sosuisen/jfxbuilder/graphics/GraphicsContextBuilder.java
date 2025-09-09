@@ -30,7 +30,7 @@ public class GraphicsContextBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.canvas.GraphicsContext} class.
+     * Builds and returns an instance of the {@link javafx.scene.canvas.GraphicsContext GraphicsContext} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

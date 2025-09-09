@@ -49,7 +49,7 @@ public class TitledPaneBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TitledPane} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TitledPane TitledPane} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

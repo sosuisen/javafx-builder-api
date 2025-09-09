@@ -42,7 +42,7 @@ public class SortEventBuilder<C> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.SortEvent} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.SortEvent SortEvent} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

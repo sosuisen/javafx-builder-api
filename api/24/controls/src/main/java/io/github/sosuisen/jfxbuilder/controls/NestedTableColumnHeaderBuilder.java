@@ -42,7 +42,7 @@ public class NestedTableColumnHeaderBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.skin.NestedTableColumnHeader} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.NestedTableColumnHeader NestedTableColumnHeader} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

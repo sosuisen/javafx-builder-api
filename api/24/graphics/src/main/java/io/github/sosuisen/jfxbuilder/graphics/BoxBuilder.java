@@ -49,7 +49,7 @@ public class BoxBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.shape.Box} class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.Box Box} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

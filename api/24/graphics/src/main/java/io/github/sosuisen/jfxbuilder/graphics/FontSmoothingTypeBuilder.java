@@ -30,7 +30,7 @@ public class FontSmoothingTypeBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.text.FontSmoothingType} class.
+     * Builds and returns an instance of the {@link javafx.scene.text.FontSmoothingType FontSmoothingType} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

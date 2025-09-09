@@ -42,7 +42,7 @@ public class DataFormatBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.input.DataFormat} class.
+     * Builds and returns an instance of the {@link javafx.scene.input.DataFormat DataFormat} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

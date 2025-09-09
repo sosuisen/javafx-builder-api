@@ -42,7 +42,7 @@ public class BackgroundFillBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.layout.BackgroundFill} class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.BackgroundFill BackgroundFill} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -42,7 +42,7 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory ListSpinnerValueFactory} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

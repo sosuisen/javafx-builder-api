@@ -42,7 +42,7 @@ public class TabPaneSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.skin.TabPaneSkin} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.TabPaneSkin TabPaneSkin} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

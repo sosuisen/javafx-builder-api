@@ -49,7 +49,7 @@ public class ContextMenuBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.ContextMenu} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.ContextMenu ContextMenu} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -42,7 +42,7 @@ public class ListCellSkinBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.skin.ListCellSkin} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.ListCellSkin ListCellSkin} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

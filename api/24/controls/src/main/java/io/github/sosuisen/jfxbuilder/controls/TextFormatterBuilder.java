@@ -78,7 +78,7 @@ public class TextFormatterBuilder<V> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TextFormatter} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TextFormatter TextFormatter} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

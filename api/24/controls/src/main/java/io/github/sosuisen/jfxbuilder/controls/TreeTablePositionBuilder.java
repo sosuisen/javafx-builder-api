@@ -42,7 +42,7 @@ public class TreeTablePositionBuilder<S, T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TreeTablePosition} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TreeTablePosition TreeTablePosition} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -42,7 +42,7 @@ public class HTMLEditorSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.web.HTMLEditorSkin} class.
+     * Builds and returns an instance of the {@link javafx.scene.web.HTMLEditorSkin HTMLEditorSkin} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

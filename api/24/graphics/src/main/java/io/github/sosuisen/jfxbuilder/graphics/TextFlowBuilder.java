@@ -49,7 +49,7 @@ public class TextFlowBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.text.TextFlow} class.
+     * Builds and returns an instance of the {@link javafx.scene.text.TextFlow TextFlow} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

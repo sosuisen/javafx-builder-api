@@ -42,7 +42,7 @@ public class AudioClipBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.media.AudioClip} class.
+     * Builds and returns an instance of the {@link javafx.scene.media.AudioClip AudioClip} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

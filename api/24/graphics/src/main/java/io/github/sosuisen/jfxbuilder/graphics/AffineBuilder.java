@@ -85,7 +85,7 @@ public class AffineBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.transform.Affine} class.
+     * Builds and returns an instance of the {@link javafx.scene.transform.Affine Affine} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

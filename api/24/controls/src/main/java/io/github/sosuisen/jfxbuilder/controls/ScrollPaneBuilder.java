@@ -49,7 +49,7 @@ public class ScrollPaneBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.ScrollPane} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.ScrollPane ScrollPane} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

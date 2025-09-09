@@ -66,7 +66,7 @@ public class BorderWidthsBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.layout.BorderWidths} class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.BorderWidths BorderWidths} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

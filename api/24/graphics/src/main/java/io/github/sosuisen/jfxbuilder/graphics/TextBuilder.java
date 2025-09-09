@@ -61,7 +61,7 @@ public class TextBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.text.Text} class.
+     * Builds and returns an instance of the {@link javafx.scene.text.Text Text} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

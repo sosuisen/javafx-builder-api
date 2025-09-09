@@ -49,7 +49,7 @@ public class PolygonBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.shape.Polygon} class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.Polygon Polygon} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

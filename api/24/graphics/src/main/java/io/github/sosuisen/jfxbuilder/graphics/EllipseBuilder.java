@@ -61,7 +61,7 @@ public class EllipseBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.shape.Ellipse} class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.Ellipse Ellipse} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

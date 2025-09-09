@@ -42,7 +42,7 @@ public class PopupFeaturesBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.web.PopupFeatures} class.
+     * Builds and returns an instance of the {@link javafx.scene.web.PopupFeatures PopupFeatures} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

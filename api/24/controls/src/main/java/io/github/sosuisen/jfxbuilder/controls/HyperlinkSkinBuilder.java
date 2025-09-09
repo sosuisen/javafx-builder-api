@@ -42,7 +42,7 @@ public class HyperlinkSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.skin.HyperlinkSkin} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.HyperlinkSkin HyperlinkSkin} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

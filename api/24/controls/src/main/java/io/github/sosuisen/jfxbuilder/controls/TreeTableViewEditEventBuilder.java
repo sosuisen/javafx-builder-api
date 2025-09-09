@@ -42,7 +42,7 @@ public class TreeTableViewEditEventBuilder<S> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TreeTableView.EditEvent} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TreeTableView.EditEvent EditEvent} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

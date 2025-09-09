@@ -54,7 +54,7 @@ public class SubSceneBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.SubScene} class.
+     * Builds and returns an instance of the {@link javafx.scene.SubScene SubScene} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

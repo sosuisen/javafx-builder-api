@@ -49,7 +49,7 @@ public class PerspectiveTransformBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.effect.PerspectiveTransform} class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.PerspectiveTransform PerspectiveTransform} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

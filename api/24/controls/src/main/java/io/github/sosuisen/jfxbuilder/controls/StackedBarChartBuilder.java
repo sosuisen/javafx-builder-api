@@ -66,7 +66,7 @@ public class StackedBarChartBuilder<X, Y> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.chart.StackedBarChart} class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.StackedBarChart StackedBarChart} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

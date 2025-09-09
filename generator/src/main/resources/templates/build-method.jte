@@ -5,7 +5,7 @@
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link ${model.canonicalClassName()}} class.
+     * Builds and returns an instance of the {@link ${model.canonicalClassName()} ${model.simpleClassName()}} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

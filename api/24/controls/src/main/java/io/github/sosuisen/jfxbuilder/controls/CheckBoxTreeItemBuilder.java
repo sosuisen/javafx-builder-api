@@ -85,7 +85,7 @@ public class CheckBoxTreeItemBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.CheckBoxTreeItem} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.CheckBoxTreeItem CheckBoxTreeItem} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

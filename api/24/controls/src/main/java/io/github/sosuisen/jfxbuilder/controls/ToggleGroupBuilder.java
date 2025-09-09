@@ -37,7 +37,7 @@ public class ToggleGroupBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.ToggleGroup} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.ToggleGroup ToggleGroup} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

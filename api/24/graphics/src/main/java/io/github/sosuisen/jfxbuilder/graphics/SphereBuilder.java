@@ -61,7 +61,7 @@ public class SphereBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.shape.Sphere} class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.Sphere Sphere} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -42,7 +42,7 @@ public class PaginationSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.skin.PaginationSkin} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.PaginationSkin PaginationSkin} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

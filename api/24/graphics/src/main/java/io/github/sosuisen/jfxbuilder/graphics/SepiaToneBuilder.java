@@ -49,7 +49,7 @@ public class SepiaToneBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.effect.SepiaTone} class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.SepiaTone SepiaTone} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

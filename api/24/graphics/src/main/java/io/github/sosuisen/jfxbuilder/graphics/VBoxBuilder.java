@@ -73,7 +73,7 @@ public class VBoxBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.layout.VBox} class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.VBox VBox} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

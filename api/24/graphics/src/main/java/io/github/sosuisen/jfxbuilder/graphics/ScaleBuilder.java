@@ -85,7 +85,7 @@ public class ScaleBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.transform.Scale} class.
+     * Builds and returns an instance of the {@link javafx.scene.transform.Scale Scale} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

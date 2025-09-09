@@ -42,7 +42,7 @@ public class MapValueFactoryBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.cell.MapValueFactory} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.cell.MapValueFactory MapValueFactory} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

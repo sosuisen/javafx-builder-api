@@ -109,7 +109,7 @@ public class SpinnerBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.Spinner} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.Spinner Spinner} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

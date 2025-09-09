@@ -61,7 +61,7 @@ public class ImageCursorBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.ImageCursor} class.
+     * Builds and returns an instance of the {@link javafx.scene.ImageCursor ImageCursor} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

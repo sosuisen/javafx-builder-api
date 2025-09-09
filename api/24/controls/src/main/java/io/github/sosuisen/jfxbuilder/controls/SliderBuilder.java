@@ -49,7 +49,7 @@ public class SliderBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.Slider} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.Slider Slider} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -42,7 +42,7 @@ public class ScrollBarSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.skin.ScrollBarSkin} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.ScrollBarSkin ScrollBarSkin} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

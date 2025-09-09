@@ -42,7 +42,7 @@ public class DialogEventBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.DialogEvent} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.DialogEvent DialogEvent} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

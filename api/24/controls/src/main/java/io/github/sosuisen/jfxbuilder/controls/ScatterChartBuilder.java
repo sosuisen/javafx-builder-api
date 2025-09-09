@@ -54,7 +54,7 @@ public class ScatterChartBuilder<X, Y> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.chart.ScatterChart} class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.ScatterChart ScatterChart} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

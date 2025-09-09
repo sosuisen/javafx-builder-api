@@ -49,7 +49,7 @@ public class TableViewBuilder<S> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TableView} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TableView TableView} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

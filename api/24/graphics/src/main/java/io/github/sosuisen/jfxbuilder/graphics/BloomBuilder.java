@@ -49,7 +49,7 @@ public class BloomBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.effect.Bloom} class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.Bloom Bloom} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

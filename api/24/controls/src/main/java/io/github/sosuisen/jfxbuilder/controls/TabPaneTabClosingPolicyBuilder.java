@@ -30,7 +30,7 @@ public class TabPaneTabClosingPolicyBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TabPane.TabClosingPolicy} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TabPane.TabClosingPolicy TabClosingPolicy} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

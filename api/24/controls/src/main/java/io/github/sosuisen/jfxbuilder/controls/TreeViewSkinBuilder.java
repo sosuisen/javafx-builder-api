@@ -42,7 +42,7 @@ public class TreeViewSkinBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.skin.TreeViewSkin} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.TreeViewSkin TreeViewSkin} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

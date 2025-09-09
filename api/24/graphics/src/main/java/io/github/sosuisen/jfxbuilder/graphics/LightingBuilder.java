@@ -49,7 +49,7 @@ public class LightingBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.effect.Lighting} class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.Lighting Lighting} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

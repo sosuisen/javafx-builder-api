@@ -42,7 +42,7 @@ public class TextFieldSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.skin.TextFieldSkin} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.TextFieldSkin TextFieldSkin} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

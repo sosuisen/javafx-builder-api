@@ -42,7 +42,7 @@ public class BorderStrokeStyleBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.layout.BorderStrokeStyle} class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.BorderStrokeStyle BorderStrokeStyle} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

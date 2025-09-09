@@ -49,7 +49,7 @@ public class ColorAdjustBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.effect.ColorAdjust} class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.ColorAdjust ColorAdjust} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

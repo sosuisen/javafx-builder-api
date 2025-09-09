@@ -30,7 +30,7 @@ public class TouchPointStateBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.input.TouchPoint.State} class.
+     * Builds and returns an instance of the {@link javafx.scene.input.TouchPoint.State State} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

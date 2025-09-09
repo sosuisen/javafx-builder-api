@@ -30,7 +30,7 @@ public class BorderRepeatBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.layout.BorderRepeat} class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.BorderRepeat BorderRepeat} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -49,7 +49,7 @@ public class CubicCurveBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.shape.CubicCurve} class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.CubicCurve CubicCurve} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -49,7 +49,7 @@ public class MeshViewBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.shape.MeshView} class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.MeshView MeshView} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

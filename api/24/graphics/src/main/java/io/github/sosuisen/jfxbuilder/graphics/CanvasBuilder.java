@@ -49,7 +49,7 @@ public class CanvasBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.canvas.Canvas} class.
+     * Builds and returns an instance of the {@link javafx.scene.canvas.Canvas Canvas} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

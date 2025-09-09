@@ -30,7 +30,7 @@ public class ScrollEventHorizontalTextScrollUnitsBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.input.ScrollEvent.HorizontalTextScrollUnits} class.
+     * Builds and returns an instance of the {@link javafx.scene.input.ScrollEvent.HorizontalTextScrollUnits HorizontalTextScrollUnits} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

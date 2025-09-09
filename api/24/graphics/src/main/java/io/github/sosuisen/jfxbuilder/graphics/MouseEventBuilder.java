@@ -78,7 +78,7 @@ public class MouseEventBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.input.MouseEvent} class.
+     * Builds and returns an instance of the {@link javafx.scene.input.MouseEvent MouseEvent} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

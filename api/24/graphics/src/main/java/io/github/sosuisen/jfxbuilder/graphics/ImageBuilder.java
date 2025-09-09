@@ -102,7 +102,7 @@ public class ImageBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.image.Image} class.
+     * Builds and returns an instance of the {@link javafx.scene.image.Image Image} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -54,7 +54,7 @@ public class KeyCodeCombinationBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.input.KeyCodeCombination} class.
+     * Builds and returns an instance of the {@link javafx.scene.input.KeyCodeCombination KeyCodeCombination} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

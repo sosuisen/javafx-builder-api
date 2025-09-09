@@ -42,7 +42,7 @@ public class TitledPaneSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.skin.TitledPaneSkin} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.TitledPaneSkin TitledPaneSkin} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

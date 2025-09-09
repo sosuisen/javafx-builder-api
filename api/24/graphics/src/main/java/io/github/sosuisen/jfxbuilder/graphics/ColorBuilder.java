@@ -42,7 +42,7 @@ public class ColorBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.paint.Color} class.
+     * Builds and returns an instance of the {@link javafx.scene.paint.Color Color} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

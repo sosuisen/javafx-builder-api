@@ -30,7 +30,7 @@ public class CycleMethodBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.paint.CycleMethod} class.
+     * Builds and returns an instance of the {@link javafx.scene.paint.CycleMethod CycleMethod} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

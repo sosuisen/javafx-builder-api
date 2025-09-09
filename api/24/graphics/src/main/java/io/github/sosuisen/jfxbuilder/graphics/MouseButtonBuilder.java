@@ -30,7 +30,7 @@ public class MouseButtonBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.input.MouseButton} class.
+     * Builds and returns an instance of the {@link javafx.scene.input.MouseButton MouseButton} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

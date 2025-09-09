@@ -42,7 +42,7 @@ public class SplitMenuButtonSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.skin.SplitMenuButtonSkin} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.SplitMenuButtonSkin SplitMenuButtonSkin} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

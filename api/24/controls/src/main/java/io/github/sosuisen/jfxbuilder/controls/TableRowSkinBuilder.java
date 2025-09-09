@@ -42,7 +42,7 @@ public class TableRowSkinBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.skin.TableRowSkin} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.TableRowSkin TableRowSkin} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

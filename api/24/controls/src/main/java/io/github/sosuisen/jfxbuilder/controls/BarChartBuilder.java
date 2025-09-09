@@ -66,7 +66,7 @@ public class BarChartBuilder<X, Y> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.chart.BarChart} class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.BarChart BarChart} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

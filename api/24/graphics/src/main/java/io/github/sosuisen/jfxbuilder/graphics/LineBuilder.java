@@ -49,7 +49,7 @@ public class LineBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.shape.Line} class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.Line Line} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

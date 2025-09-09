@@ -49,7 +49,7 @@ public class PieChartBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.chart.PieChart} class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.PieChart PieChart} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

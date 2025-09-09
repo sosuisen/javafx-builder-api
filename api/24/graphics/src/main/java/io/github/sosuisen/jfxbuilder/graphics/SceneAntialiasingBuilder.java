@@ -30,7 +30,7 @@ public class SceneAntialiasingBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.SceneAntialiasing} class.
+     * Builds and returns an instance of the {@link javafx.scene.SceneAntialiasing SceneAntialiasing} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -49,7 +49,7 @@ public class TreeTableColumnBuilder<S, T> {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.control.TreeTableColumn} class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TreeTableColumn TreeTableColumn} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method

@@ -54,7 +54,7 @@ public class NumberAxisDefaultFormatterBuilder {
     private Object[] constructorArgs;
 
     /**
-     * Builds and returns an instance of the {@link javafx.scene.chart.NumberAxis.DefaultFormatter} class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.NumberAxis.DefaultFormatter DefaultFormatter} class.
      * 
      * <p>
      * Intermediate builder methods are not evaluated until the {@code build} method
