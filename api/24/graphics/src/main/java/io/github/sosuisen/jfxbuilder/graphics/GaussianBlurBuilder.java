@@ -178,13 +178,13 @@ public class GaussianBlurBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.inputProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .inputPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .inputPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -200,13 +200,13 @@ public class GaussianBlurBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.radiusProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .radiusPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .radiusPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

@@ -240,13 +240,13 @@ public class DisplacementMapBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.inputProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .inputPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .inputPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -262,13 +262,13 @@ public class DisplacementMapBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.mapDataProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .mapDataPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .mapDataPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -284,13 +284,13 @@ public class DisplacementMapBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.offsetXProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .offsetXPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .offsetXPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -306,13 +306,13 @@ public class DisplacementMapBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.offsetYProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .offsetYPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .offsetYPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -328,13 +328,13 @@ public class DisplacementMapBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -350,13 +350,13 @@ public class DisplacementMapBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -372,13 +372,13 @@ public class DisplacementMapBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.wrapProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .wrapPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .wrapPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

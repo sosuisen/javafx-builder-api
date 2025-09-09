@@ -266,13 +266,13 @@ public class RotateBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.angleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .anglePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .anglePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -288,13 +288,13 @@ public class RotateBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.axisProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .axisPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .axisPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -310,13 +310,13 @@ public class RotateBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.identityProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .identityPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .identityPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -332,13 +332,13 @@ public class RotateBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onTransformChangedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onTransformChangedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onTransformChangedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -354,13 +354,13 @@ public class RotateBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.pivotXProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .pivotXPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .pivotXPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -376,13 +376,13 @@ public class RotateBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.pivotYProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .pivotYPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .pivotYPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -398,13 +398,13 @@ public class RotateBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.pivotZProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .pivotZPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .pivotZPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -420,13 +420,13 @@ public class RotateBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.type2DProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .type2DPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .type2DPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

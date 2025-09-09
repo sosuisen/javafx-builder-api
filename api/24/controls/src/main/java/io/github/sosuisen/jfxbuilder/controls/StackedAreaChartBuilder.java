@@ -145,9 +145,9 @@ public class StackedAreaChartBuilder<X, Y> {
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
-     * <pre>{@code
+     * {@snippet :
      * apply(stackedAreaChart -> stackedAreaChart.setId("Main" + stackedAreaChart.getTypeSelector()))
-     * }</pre>
+     * }
      *
      * @return builder instance
      *
@@ -1298,11 +1298,11 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Utility setter to add CSS string for this StackedAreaChart's contents.
      * For example:
-     * <pre>{@code
+     * {@snippet :
      * StackedAreaChartBuilder builder = StackedAreaChartBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();}
-     * </pre>
+     *          .build();
+     * }
      *
      * @param css CSS string
      */
@@ -1319,7 +1319,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new AnchorPane(btn);
@@ -1331,7 +1331,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .bottomAnchorInAnchorPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1347,7 +1347,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new AnchorPane(btn);
@@ -1359,7 +1359,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .leftAnchorInAnchorPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1375,7 +1375,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new AnchorPane(btn);
@@ -1387,7 +1387,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .rightAnchorInAnchorPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1403,7 +1403,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new AnchorPane(btn);
@@ -1415,7 +1415,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .topAnchorInAnchorPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1431,7 +1431,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new BorderPane(btn);
@@ -1443,7 +1443,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .alignmentInBorderPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1459,7 +1459,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new BorderPane(btn);
@@ -1471,7 +1471,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .marginInBorderPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1487,7 +1487,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new FlowPane(btn);
@@ -1499,7 +1499,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .marginInFlowPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1515,7 +1515,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1527,7 +1527,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .columnIndexInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1543,7 +1543,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1555,7 +1555,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .columnSpanInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1571,7 +1571,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1583,7 +1583,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .constraintsInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1599,7 +1599,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1611,7 +1611,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .constraintsInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1627,7 +1627,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1639,7 +1639,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .constraintsInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1655,7 +1655,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1667,7 +1667,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .constraintsInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1683,7 +1683,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1695,7 +1695,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .constraintsInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1711,7 +1711,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1723,7 +1723,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .fillHeightInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1739,7 +1739,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1751,7 +1751,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .fillWidthInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1767,7 +1767,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1779,7 +1779,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .hAlignmentInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1795,7 +1795,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1807,7 +1807,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .hGrowInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1823,7 +1823,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1835,7 +1835,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .marginInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1851,7 +1851,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1863,7 +1863,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .rowIndexInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1879,7 +1879,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1891,7 +1891,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .rowSpanInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1907,7 +1907,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1919,7 +1919,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .vAlignmentInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1935,7 +1935,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1947,7 +1947,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .vGrowInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1963,7 +1963,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new HBox(btn);
@@ -1975,7 +1975,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .hGrowInHBox(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1991,7 +1991,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new HBox(btn);
@@ -2003,7 +2003,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .marginInHBox(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -2019,7 +2019,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new StackPane(btn);
@@ -2031,7 +2031,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .alignmentInStackPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -2047,7 +2047,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new StackPane(btn);
@@ -2059,7 +2059,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .marginInStackPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -2075,7 +2075,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new TilePane(btn);
@@ -2087,7 +2087,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .alignmentInTilePane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -2103,7 +2103,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new TilePane(btn);
@@ -2115,7 +2115,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .marginInTilePane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -2131,7 +2131,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new VBox(btn);
@@ -2143,7 +2143,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .marginInVBox(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -2159,7 +2159,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new VBox(btn);
@@ -2171,7 +2171,7 @@ public class StackedAreaChartBuilder<X, Y> {
      *                      .vGrowInVBox(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -2188,13 +2188,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2210,13 +2210,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2232,13 +2232,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2254,13 +2254,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2276,13 +2276,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.alternativeColumnFillVisibleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .alternativeColumnFillVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .alternativeColumnFillVisiblePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2298,13 +2298,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.alternativeRowFillVisibleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .alternativeRowFillVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .alternativeRowFillVisiblePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2320,13 +2320,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.animatedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .animatedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .animatedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2342,13 +2342,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.backgroundProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2364,13 +2364,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2386,13 +2386,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.borderProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .borderPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .borderPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2408,13 +2408,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2430,13 +2430,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2452,13 +2452,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2474,13 +2474,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2496,13 +2496,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.cacheShapeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2518,13 +2518,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.centerShapeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2540,13 +2540,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.clipProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2562,13 +2562,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.createSymbolsProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .createSymbolsPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .createSymbolsPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2584,13 +2584,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2606,13 +2606,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.dataProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .dataPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .dataPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2628,13 +2628,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2650,13 +2650,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.disableProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2672,13 +2672,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2694,13 +2694,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.effectProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2716,13 +2716,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2738,13 +2738,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2760,13 +2760,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2782,13 +2782,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2804,13 +2804,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2826,13 +2826,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2848,13 +2848,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.heightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2870,13 +2870,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.horizontalGridLinesVisibleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .horizontalGridLinesVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .horizontalGridLinesVisiblePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2892,13 +2892,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.horizontalZeroLineVisibleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .horizontalZeroLineVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .horizontalZeroLineVisiblePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2914,13 +2914,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2936,13 +2936,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.idProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2958,13 +2958,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2980,13 +2980,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.insetsProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3002,13 +3002,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3024,13 +3024,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3046,13 +3046,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3068,13 +3068,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.legendSideProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .legendSidePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .legendSidePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3090,13 +3090,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.legendVisibleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .legendVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .legendVisiblePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3112,13 +3112,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3134,13 +3134,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3156,13 +3156,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.managedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3178,13 +3178,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3200,13 +3200,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3222,13 +3222,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3244,13 +3244,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3266,13 +3266,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3288,13 +3288,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3310,13 +3310,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3332,13 +3332,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3354,13 +3354,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3376,13 +3376,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3398,13 +3398,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3420,13 +3420,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3442,13 +3442,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3464,13 +3464,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3486,13 +3486,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3508,13 +3508,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3530,13 +3530,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3552,13 +3552,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3574,13 +3574,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3596,13 +3596,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3618,13 +3618,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3640,13 +3640,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3662,13 +3662,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3684,13 +3684,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3706,13 +3706,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3728,13 +3728,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3750,13 +3750,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3772,13 +3772,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3794,13 +3794,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3816,13 +3816,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3838,13 +3838,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3860,13 +3860,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3882,13 +3882,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3904,13 +3904,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3926,13 +3926,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3948,13 +3948,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3970,13 +3970,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3992,13 +3992,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4014,13 +4014,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4036,13 +4036,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4058,13 +4058,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4080,13 +4080,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4102,13 +4102,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4124,13 +4124,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4146,13 +4146,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4168,13 +4168,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4190,13 +4190,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4212,13 +4212,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.opaqueInsetsProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4234,13 +4234,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.paddingProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4256,13 +4256,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.parentProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4278,13 +4278,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4300,13 +4300,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4322,13 +4322,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4344,13 +4344,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4366,13 +4366,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4388,13 +4388,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4410,13 +4410,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.scaleShapeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4432,13 +4432,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4454,13 +4454,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4476,13 +4476,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4498,13 +4498,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4520,13 +4520,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.shapeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .shapePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .shapePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4542,13 +4542,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.snapToPixelProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4564,13 +4564,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.styleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4586,13 +4586,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.titleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .titlePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .titlePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4608,13 +4608,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.titleSideProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .titleSidePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .titleSidePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4630,13 +4630,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4652,13 +4652,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4674,13 +4674,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4696,13 +4696,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.verticalGridLinesVisibleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .verticalGridLinesVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .verticalGridLinesVisiblePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4718,13 +4718,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.verticalZeroLineVisibleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .verticalZeroLineVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .verticalZeroLineVisiblePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4740,13 +4740,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4762,13 +4762,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -4784,13 +4784,13 @@ public class StackedAreaChartBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.widthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

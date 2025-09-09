@@ -9,7 +9,7 @@
  * AudioClip, and other multimedia elements.</p>
  * 
  * <p>Example usage:</p>
- * <pre>{@code
+ * {@snippet :
  * MediaView mediaView = MediaViewBuilder.create()
  *         .mediaPlayer(MediaPlayerBuilder.create(
  *                 new Media("https://xxxx/xxx.mp4"))
@@ -19,6 +19,6 @@
  *         .fitHeight(480)
  *         .preserveRatio(true)
  *         .build();
- * }</pre>
+ * }
  */
 package io.github.sosuisen.jfxbuilder.media;

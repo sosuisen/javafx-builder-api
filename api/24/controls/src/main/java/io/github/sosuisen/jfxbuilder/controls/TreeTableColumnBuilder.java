@@ -448,13 +448,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.cellFactoryProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .cellFactoryPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .cellFactoryPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -470,13 +470,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.cellValueFactoryProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .cellValueFactoryPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .cellValueFactoryPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -492,13 +492,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.comparatorProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .comparatorPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .comparatorPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -514,13 +514,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.contextMenuProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .contextMenuPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .contextMenuPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -536,13 +536,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.editableProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .editablePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .editablePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -558,13 +558,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.graphicProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -580,13 +580,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.idProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -602,13 +602,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -624,13 +624,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -646,13 +646,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onEditCancelProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onEditCancelPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onEditCancelPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -668,13 +668,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onEditCommitProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onEditCommitPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onEditCommitPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -690,13 +690,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onEditStartProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onEditStartPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onEditStartPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -712,13 +712,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.parentColumnProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .parentColumnPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .parentColumnPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -734,13 +734,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -756,13 +756,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.reorderableProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .reorderablePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .reorderablePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -778,13 +778,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.resizableProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .resizablePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .resizablePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -800,13 +800,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.sortNodeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .sortNodePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .sortNodePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -822,13 +822,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.sortTypeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .sortTypePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .sortTypePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -844,13 +844,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.sortableProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .sortablePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .sortablePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -866,13 +866,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.styleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -888,13 +888,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.textProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .textPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .textPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -910,13 +910,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.treeTableViewProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .treeTableViewPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .treeTableViewPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -932,13 +932,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -954,13 +954,13 @@ public class TreeTableColumnBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.widthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

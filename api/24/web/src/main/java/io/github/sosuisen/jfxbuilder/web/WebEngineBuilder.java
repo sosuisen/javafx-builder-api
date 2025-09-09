@@ -278,13 +278,13 @@ public class WebEngineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.confirmHandlerProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .confirmHandlerPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .confirmHandlerPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -300,13 +300,13 @@ public class WebEngineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.createPopupHandlerProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .createPopupHandlerPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .createPopupHandlerPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -322,13 +322,13 @@ public class WebEngineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.documentProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .documentPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .documentPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -344,13 +344,13 @@ public class WebEngineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.javaScriptEnabledProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .javaScriptEnabledPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .javaScriptEnabledPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -366,13 +366,13 @@ public class WebEngineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.locationProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .locationPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .locationPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -388,13 +388,13 @@ public class WebEngineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onAlertProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onAlertPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onAlertPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -410,13 +410,13 @@ public class WebEngineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onErrorProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onErrorPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onErrorPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -432,13 +432,13 @@ public class WebEngineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onResizedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onResizedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onResizedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -454,13 +454,13 @@ public class WebEngineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onStatusChangedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onStatusChangedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onStatusChangedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -476,13 +476,13 @@ public class WebEngineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onVisibilityChangedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onVisibilityChangedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onVisibilityChangedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -498,13 +498,13 @@ public class WebEngineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.promptHandlerProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .promptHandlerPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .promptHandlerPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -520,13 +520,13 @@ public class WebEngineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.titleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .titlePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .titlePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -542,13 +542,13 @@ public class WebEngineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.userAgentProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .userAgentPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .userAgentPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -564,13 +564,13 @@ public class WebEngineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.userDataDirectoryProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .userDataDirectoryPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .userDataDirectoryPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -586,13 +586,13 @@ public class WebEngineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.userStyleSheetLocationProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .userStyleSheetLocationPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .userStyleSheetLocationPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

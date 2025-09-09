@@ -165,13 +165,13 @@ public class PieChartDataBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.chartProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .chartPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .chartPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -187,13 +187,13 @@ public class PieChartDataBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.nameProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .namePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .namePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -209,13 +209,13 @@ public class PieChartDataBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.nodeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .nodePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .nodePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -231,13 +231,13 @@ public class PieChartDataBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.pieValueProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .pieValuePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .pieValuePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

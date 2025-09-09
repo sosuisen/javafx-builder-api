@@ -384,13 +384,13 @@ public class AffineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.identityProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .identityPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .identityPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -406,13 +406,13 @@ public class AffineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.mxxProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .mxxPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .mxxPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -428,13 +428,13 @@ public class AffineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.mxyProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .mxyPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .mxyPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -450,13 +450,13 @@ public class AffineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.mxzProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .mxzPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .mxzPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -472,13 +472,13 @@ public class AffineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.myxProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .myxPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .myxPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -494,13 +494,13 @@ public class AffineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.myyProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .myyPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .myyPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -516,13 +516,13 @@ public class AffineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.myzProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .myzPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .myzPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -538,13 +538,13 @@ public class AffineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.mzxProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .mzxPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .mzxPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -560,13 +560,13 @@ public class AffineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.mzyProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .mzyPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .mzyPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -582,13 +582,13 @@ public class AffineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.mzzProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .mzzPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .mzzPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -604,13 +604,13 @@ public class AffineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onTransformChangedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onTransformChangedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onTransformChangedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -626,13 +626,13 @@ public class AffineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.txProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .txPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .txPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -648,13 +648,13 @@ public class AffineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.tyProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .tyPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .tyPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -670,13 +670,13 @@ public class AffineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.type2DProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .type2DPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .type2DPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -692,13 +692,13 @@ public class AffineBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.tzProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .tzPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .tzPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

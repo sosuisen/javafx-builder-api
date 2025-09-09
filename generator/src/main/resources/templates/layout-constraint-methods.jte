@@ -9,7 +9,7 @@
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new ${model.sourceClassSimpleName()}(btn);
@@ -21,7 +21,7 @@
      *                      .${model.methodName()}(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */

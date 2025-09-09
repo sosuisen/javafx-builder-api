@@ -133,13 +133,13 @@ public class WebHistoryEntryBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.lastVisitedDateProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .lastVisitedDatePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .lastVisitedDatePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -155,13 +155,13 @@ public class WebHistoryEntryBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.titleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .titlePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .titlePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

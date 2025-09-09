@@ -240,13 +240,13 @@ public class PhongMaterialBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.bumpMapProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .bumpMapPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .bumpMapPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -262,13 +262,13 @@ public class PhongMaterialBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.diffuseColorProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .diffuseColorPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .diffuseColorPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -284,13 +284,13 @@ public class PhongMaterialBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.diffuseMapProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .diffuseMapPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .diffuseMapPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -306,13 +306,13 @@ public class PhongMaterialBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.selfIlluminationMapProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .selfIlluminationMapPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .selfIlluminationMapPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -328,13 +328,13 @@ public class PhongMaterialBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.specularColorProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .specularColorPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .specularColorPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -350,13 +350,13 @@ public class PhongMaterialBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.specularMapProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .specularMapPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .specularMapPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -372,13 +372,13 @@ public class PhongMaterialBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.specularPowerProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .specularPowerPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .specularPowerPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

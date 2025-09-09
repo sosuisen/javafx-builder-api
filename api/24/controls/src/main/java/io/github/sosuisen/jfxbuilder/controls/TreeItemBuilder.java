@@ -248,13 +248,13 @@ public class TreeItemBuilder<T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.expandedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .expandedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .expandedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -270,13 +270,13 @@ public class TreeItemBuilder<T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.graphicProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -292,13 +292,13 @@ public class TreeItemBuilder<T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.leafProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .leafPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .leafPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -314,13 +314,13 @@ public class TreeItemBuilder<T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.parentProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -336,13 +336,13 @@ public class TreeItemBuilder<T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.valueProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .valuePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .valuePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

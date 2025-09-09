@@ -252,13 +252,13 @@ public class ColumnConstraintsBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.fillWidthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .fillWidthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .fillWidthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -274,13 +274,13 @@ public class ColumnConstraintsBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.halignmentProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .halignmentPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .halignmentPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -296,13 +296,13 @@ public class ColumnConstraintsBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.hgrowProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .hgrowPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .hgrowPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -318,13 +318,13 @@ public class ColumnConstraintsBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -340,13 +340,13 @@ public class ColumnConstraintsBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -362,13 +362,13 @@ public class ColumnConstraintsBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.percentWidthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .percentWidthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .percentWidthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -384,13 +384,13 @@ public class ColumnConstraintsBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

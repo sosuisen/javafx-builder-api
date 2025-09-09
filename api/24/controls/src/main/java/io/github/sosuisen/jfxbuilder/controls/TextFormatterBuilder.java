@@ -193,13 +193,13 @@ public class TextFormatterBuilder<V> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.valueProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .valuePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .valuePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

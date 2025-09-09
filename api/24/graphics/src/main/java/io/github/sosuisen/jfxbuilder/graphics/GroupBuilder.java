@@ -156,9 +156,9 @@ public class GroupBuilder {
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
-     * <pre>{@code
+     * {@snippet :
      * apply(group -> group.setId("Main" + group.getTypeSelector()))
-     * }</pre>
+     * }
      *
      * @return builder instance
      *
@@ -1030,11 +1030,11 @@ public class GroupBuilder {
     /**
      * Utility setter to add CSS string for this Group's contents.
      * For example:
-     * <pre>{@code
+     * {@snippet :
      * GroupBuilder builder = GroupBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();}
-     * </pre>
+     *          .build();
+     * }
      *
      * @param css CSS string
      */
@@ -1051,7 +1051,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new AnchorPane(btn);
@@ -1063,7 +1063,7 @@ public class GroupBuilder {
      *                      .bottomAnchorInAnchorPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1079,7 +1079,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new AnchorPane(btn);
@@ -1091,7 +1091,7 @@ public class GroupBuilder {
      *                      .leftAnchorInAnchorPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1107,7 +1107,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new AnchorPane(btn);
@@ -1119,7 +1119,7 @@ public class GroupBuilder {
      *                      .rightAnchorInAnchorPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1135,7 +1135,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new AnchorPane(btn);
@@ -1147,7 +1147,7 @@ public class GroupBuilder {
      *                      .topAnchorInAnchorPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1163,7 +1163,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new BorderPane(btn);
@@ -1175,7 +1175,7 @@ public class GroupBuilder {
      *                      .alignmentInBorderPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1191,7 +1191,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new BorderPane(btn);
@@ -1203,7 +1203,7 @@ public class GroupBuilder {
      *                      .marginInBorderPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1219,7 +1219,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new FlowPane(btn);
@@ -1231,7 +1231,7 @@ public class GroupBuilder {
      *                      .marginInFlowPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1247,7 +1247,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1259,7 +1259,7 @@ public class GroupBuilder {
      *                      .columnIndexInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1275,7 +1275,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1287,7 +1287,7 @@ public class GroupBuilder {
      *                      .columnSpanInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1303,7 +1303,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1315,7 +1315,7 @@ public class GroupBuilder {
      *                      .constraintsInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1331,7 +1331,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1343,7 +1343,7 @@ public class GroupBuilder {
      *                      .constraintsInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1359,7 +1359,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1371,7 +1371,7 @@ public class GroupBuilder {
      *                      .constraintsInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1387,7 +1387,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1399,7 +1399,7 @@ public class GroupBuilder {
      *                      .constraintsInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1415,7 +1415,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1427,7 +1427,7 @@ public class GroupBuilder {
      *                      .constraintsInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1443,7 +1443,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1455,7 +1455,7 @@ public class GroupBuilder {
      *                      .fillHeightInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1471,7 +1471,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1483,7 +1483,7 @@ public class GroupBuilder {
      *                      .fillWidthInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1499,7 +1499,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1511,7 +1511,7 @@ public class GroupBuilder {
      *                      .hAlignmentInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1527,7 +1527,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1539,7 +1539,7 @@ public class GroupBuilder {
      *                      .hGrowInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1555,7 +1555,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1567,7 +1567,7 @@ public class GroupBuilder {
      *                      .marginInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1583,7 +1583,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1595,7 +1595,7 @@ public class GroupBuilder {
      *                      .rowIndexInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1611,7 +1611,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1623,7 +1623,7 @@ public class GroupBuilder {
      *                      .rowSpanInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1639,7 +1639,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1651,7 +1651,7 @@ public class GroupBuilder {
      *                      .vAlignmentInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1667,7 +1667,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new GridPane(btn);
@@ -1679,7 +1679,7 @@ public class GroupBuilder {
      *                      .vGrowInGridPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1695,7 +1695,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new HBox(btn);
@@ -1707,7 +1707,7 @@ public class GroupBuilder {
      *                      .hGrowInHBox(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1723,7 +1723,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new HBox(btn);
@@ -1735,7 +1735,7 @@ public class GroupBuilder {
      *                      .marginInHBox(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1751,7 +1751,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new StackPane(btn);
@@ -1763,7 +1763,7 @@ public class GroupBuilder {
      *                      .alignmentInStackPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1779,7 +1779,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new StackPane(btn);
@@ -1791,7 +1791,7 @@ public class GroupBuilder {
      *                      .marginInStackPane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1807,7 +1807,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new TilePane(btn);
@@ -1819,7 +1819,7 @@ public class GroupBuilder {
      *                      .alignmentInTilePane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1835,7 +1835,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new TilePane(btn);
@@ -1847,7 +1847,7 @@ public class GroupBuilder {
      *                      .marginInTilePane(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1863,7 +1863,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new VBox(btn);
@@ -1875,7 +1875,7 @@ public class GroupBuilder {
      *                      .marginInVBox(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1891,7 +1891,7 @@ public class GroupBuilder {
      * <p>
      * Example:
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Original API
      * var btn = new Button();
      * var root = new VBox(btn);
@@ -1903,7 +1903,7 @@ public class GroupBuilder {
      *                      .vGrowInVBox(new Insets(10))
      *                      .build())
      *                .build();
-     * }</pre>
+     * }
      *
      * @return builder instance
      */
@@ -1920,13 +1920,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1942,13 +1942,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1964,13 +1964,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1986,13 +1986,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2008,13 +2008,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.autoSizeChildrenProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .autoSizeChildrenPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .autoSizeChildrenPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2030,13 +2030,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2052,13 +2052,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2074,13 +2074,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2096,13 +2096,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2118,13 +2118,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2140,13 +2140,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.clipProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2162,13 +2162,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2184,13 +2184,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2206,13 +2206,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.disableProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2228,13 +2228,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2250,13 +2250,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.effectProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2272,13 +2272,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2294,13 +2294,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2316,13 +2316,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2338,13 +2338,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2360,13 +2360,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2382,13 +2382,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2404,13 +2404,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2426,13 +2426,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.idProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2448,13 +2448,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2470,13 +2470,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2492,13 +2492,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2514,13 +2514,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2536,13 +2536,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2558,13 +2558,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2580,13 +2580,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.managedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2602,13 +2602,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2624,13 +2624,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2646,13 +2646,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2668,13 +2668,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2690,13 +2690,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2712,13 +2712,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2734,13 +2734,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2756,13 +2756,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2778,13 +2778,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2800,13 +2800,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2822,13 +2822,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2844,13 +2844,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2866,13 +2866,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2888,13 +2888,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2910,13 +2910,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2932,13 +2932,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2954,13 +2954,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2976,13 +2976,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -2998,13 +2998,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3020,13 +3020,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3042,13 +3042,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3064,13 +3064,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3086,13 +3086,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3108,13 +3108,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3130,13 +3130,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3152,13 +3152,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3174,13 +3174,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3196,13 +3196,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3218,13 +3218,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3240,13 +3240,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3262,13 +3262,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3284,13 +3284,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3306,13 +3306,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3328,13 +3328,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3350,13 +3350,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3372,13 +3372,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3394,13 +3394,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3416,13 +3416,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3438,13 +3438,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3460,13 +3460,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3482,13 +3482,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3504,13 +3504,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3526,13 +3526,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3548,13 +3548,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.parentProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3570,13 +3570,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3592,13 +3592,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3614,13 +3614,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3636,13 +3636,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3658,13 +3658,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3680,13 +3680,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3702,13 +3702,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3724,13 +3724,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3746,13 +3746,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.styleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3768,13 +3768,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3790,13 +3790,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3812,13 +3812,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3834,13 +3834,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -3856,13 +3856,13 @@ public class GroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

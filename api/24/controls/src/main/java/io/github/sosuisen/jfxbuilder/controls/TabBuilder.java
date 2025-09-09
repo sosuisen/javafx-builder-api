@@ -322,13 +322,13 @@ public class TabBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.closableProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .closablePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .closablePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -344,13 +344,13 @@ public class TabBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.contentProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .contentPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .contentPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -366,13 +366,13 @@ public class TabBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.contextMenuProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .contextMenuPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .contextMenuPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -388,13 +388,13 @@ public class TabBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.disableProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -410,13 +410,13 @@ public class TabBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -432,13 +432,13 @@ public class TabBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.graphicProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -454,13 +454,13 @@ public class TabBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.idProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -476,13 +476,13 @@ public class TabBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onCloseRequestProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onCloseRequestPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onCloseRequestPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -498,13 +498,13 @@ public class TabBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onClosedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onClosedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onClosedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -520,13 +520,13 @@ public class TabBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onSelectionChangedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onSelectionChangedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onSelectionChangedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -542,13 +542,13 @@ public class TabBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.selectedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .selectedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .selectedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -564,13 +564,13 @@ public class TabBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.styleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -586,13 +586,13 @@ public class TabBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.tabPaneProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .tabPanePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .tabPanePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -608,13 +608,13 @@ public class TabBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.textProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .textPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .textPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -630,13 +630,13 @@ public class TabBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.tooltipProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .tooltipPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .tooltipPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

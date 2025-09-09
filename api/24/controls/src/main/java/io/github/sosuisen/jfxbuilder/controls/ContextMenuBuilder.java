@@ -584,13 +584,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.anchorLocationProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .anchorLocationPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .anchorLocationPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -606,13 +606,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.anchorXProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .anchorXPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .anchorXPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -628,13 +628,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.anchorYProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .anchorYPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .anchorYPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -650,13 +650,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.autoFixProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .autoFixPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .autoFixPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -672,13 +672,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.autoHideProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .autoHidePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .autoHidePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -694,13 +694,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.consumeAutoHidingEventsProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .consumeAutoHidingEventsPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .consumeAutoHidingEventsPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -716,13 +716,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -738,13 +738,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -760,13 +760,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.forceIntegerRenderScaleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .forceIntegerRenderScalePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .forceIntegerRenderScalePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -782,13 +782,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.heightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -804,13 +804,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.hideOnEscapeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .hideOnEscapePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .hideOnEscapePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -826,13 +826,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.idProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -848,13 +848,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -870,13 +870,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -892,13 +892,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -914,13 +914,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -936,13 +936,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onActionProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onActionPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onActionPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -958,13 +958,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onAutoHideProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onAutoHidePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onAutoHidePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -980,13 +980,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onCloseRequestProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onCloseRequestPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onCloseRequestPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1002,13 +1002,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onHiddenProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onHiddenPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onHiddenPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1024,13 +1024,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onHidingProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onHidingPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onHidingPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1046,13 +1046,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onShowingProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onShowingPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onShowingPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1068,13 +1068,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onShownProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onShownPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onShownPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1090,13 +1090,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1112,13 +1112,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.outputScaleXProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .outputScaleXPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .outputScaleXPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1134,13 +1134,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.outputScaleYProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .outputScaleYPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .outputScaleYPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1156,13 +1156,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.ownerNodeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .ownerNodePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .ownerNodePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1178,13 +1178,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.ownerWindowProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .ownerWindowPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .ownerWindowPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1200,13 +1200,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1222,13 +1222,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1244,13 +1244,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.renderScaleXProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .renderScaleXPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .renderScaleXPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1266,13 +1266,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.renderScaleYProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .renderScaleYPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .renderScaleYPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1288,13 +1288,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1310,13 +1310,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.showingProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .showingPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .showingPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1332,13 +1332,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.skinProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .skinPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .skinPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1354,13 +1354,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.styleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1376,13 +1376,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.widthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1398,13 +1398,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.xProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1420,13 +1420,13 @@ public class ContextMenuBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.yProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

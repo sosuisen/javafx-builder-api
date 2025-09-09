@@ -228,13 +228,13 @@ public class LightingBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.bumpInputProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .bumpInputPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .bumpInputPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -250,13 +250,13 @@ public class LightingBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.contentInputProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .contentInputPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .contentInputPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -272,13 +272,13 @@ public class LightingBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.diffuseConstantProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .diffuseConstantPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .diffuseConstantPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -294,13 +294,13 @@ public class LightingBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.lightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .lightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .lightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -316,13 +316,13 @@ public class LightingBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.specularConstantProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .specularConstantPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .specularConstantPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -338,13 +338,13 @@ public class LightingBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.specularExponentProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .specularExponentPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .specularExponentPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -360,13 +360,13 @@ public class LightingBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.surfaceScaleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .surfaceScalePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .surfaceScalePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

@@ -9,13 +9,13 @@
  * transformations, and other visual components.</p>
  * 
  * <p>Example usage:</p>
- * <pre>{@code
+ * {@snippet :
  * Circle circle = CircleBuilder.create()
  *     .centerX(50)
  *     .centerY(50)
  *     .radius(25)
  *     .fill(Color.BLUE)
  *     .build();
- * }</pre>
+ * }
  */
 package io.github.sosuisen.jfxbuilder.graphics;

@@ -212,13 +212,13 @@ public class XYChartDataBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.XValueProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .XValuePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .XValuePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -234,13 +234,13 @@ public class XYChartDataBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.YValueProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .YValuePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .YValuePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -256,13 +256,13 @@ public class XYChartDataBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.extraValueProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .extraValuePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .extraValuePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -278,13 +278,13 @@ public class XYChartDataBuilder<X, Y> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.nodeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .nodePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .nodePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

@@ -9,13 +9,13 @@
  * HTMLEditor, and other web integration elements.</p>
  * 
  * <p>Example usage:</p>
- * <pre>{@code
+ * {@snippet :
  * WebView webView = WebViewBuilder.create()
  *     .prefWidth(800)
  *     .prefHeight(600)
  *     .build();
  * 
  * webView.getEngine().load("https://example.com");
- * }</pre>
+ * }
  */
 package io.github.sosuisen.jfxbuilder.web;

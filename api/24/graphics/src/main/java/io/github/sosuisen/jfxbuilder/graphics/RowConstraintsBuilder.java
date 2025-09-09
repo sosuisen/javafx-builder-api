@@ -252,13 +252,13 @@ public class RowConstraintsBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.fillHeightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .fillHeightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .fillHeightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -274,13 +274,13 @@ public class RowConstraintsBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -296,13 +296,13 @@ public class RowConstraintsBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -318,13 +318,13 @@ public class RowConstraintsBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.percentHeightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .percentHeightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .percentHeightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -340,13 +340,13 @@ public class RowConstraintsBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -362,13 +362,13 @@ public class RowConstraintsBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.valignmentProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .valignmentPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .valignmentPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -384,13 +384,13 @@ public class RowConstraintsBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.vgrowProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .vgrowPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .vgrowPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

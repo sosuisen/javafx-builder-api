@@ -165,13 +165,13 @@ public class WebHistoryBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.currentIndexProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .currentIndexPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .currentIndexPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -187,13 +187,13 @@ public class WebHistoryBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.maxSizeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .maxSizePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .maxSizePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

@@ -254,11 +254,11 @@ public class SceneBuilder {
     /**
      * Utility setter to add CSS string for this scene's contents.
      * For example:
-     * <pre>{@code
+     * {@snippet :
      * SceneBuilder builder = SceneBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();}
-     * </pre>
+     *          .build();
+     * }
      *
      * @param css CSS string
      */

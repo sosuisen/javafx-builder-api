@@ -147,13 +147,13 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.focusedCellProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .focusedCellPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .focusedCellPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -169,13 +169,13 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.focusedIndexProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .focusedIndexPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .focusedIndexPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -191,13 +191,13 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.focusedItemProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .focusedItemPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .focusedItemPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

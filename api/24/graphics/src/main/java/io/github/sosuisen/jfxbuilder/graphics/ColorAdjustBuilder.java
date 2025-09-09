@@ -208,13 +208,13 @@ public class ColorAdjustBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.brightnessProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .brightnessPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .brightnessPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -230,13 +230,13 @@ public class ColorAdjustBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.contrastProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .contrastPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .contrastPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -252,13 +252,13 @@ public class ColorAdjustBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.hueProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .huePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .huePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -274,13 +274,13 @@ public class ColorAdjustBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.inputProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .inputPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .inputPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -296,13 +296,13 @@ public class ColorAdjustBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.saturationProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .saturationPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .saturationPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

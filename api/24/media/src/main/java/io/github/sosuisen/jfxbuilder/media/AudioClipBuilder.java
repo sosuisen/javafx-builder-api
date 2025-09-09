@@ -205,13 +205,13 @@ public class AudioClipBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.balanceProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .balancePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .balancePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -227,13 +227,13 @@ public class AudioClipBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.cycleCountProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .cycleCountPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .cycleCountPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -249,13 +249,13 @@ public class AudioClipBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.panProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .panPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .panPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -271,13 +271,13 @@ public class AudioClipBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.priorityProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .priorityPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .priorityPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -293,13 +293,13 @@ public class AudioClipBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.rateProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .ratePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .ratePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -315,13 +315,13 @@ public class AudioClipBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.volumeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .volumePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .volumePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

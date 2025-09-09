@@ -208,13 +208,13 @@ public class ReflectionBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.bottomOpacityProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .bottomOpacityPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .bottomOpacityPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -230,13 +230,13 @@ public class ReflectionBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.fractionProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .fractionPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .fractionPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -252,13 +252,13 @@ public class ReflectionBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.inputProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .inputPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .inputPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -274,13 +274,13 @@ public class ReflectionBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.topOffsetProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .topOffsetPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .topOffsetPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -296,13 +296,13 @@ public class ReflectionBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.topOpacityProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .topOpacityPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .topOpacityPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

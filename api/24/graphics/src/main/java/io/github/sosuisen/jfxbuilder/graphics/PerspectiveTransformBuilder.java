@@ -248,13 +248,13 @@ public class PerspectiveTransformBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.inputProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .inputPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .inputPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -270,13 +270,13 @@ public class PerspectiveTransformBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.llxProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .llxPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .llxPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -292,13 +292,13 @@ public class PerspectiveTransformBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.llyProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .llyPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .llyPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -314,13 +314,13 @@ public class PerspectiveTransformBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.lrxProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .lrxPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .lrxPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -336,13 +336,13 @@ public class PerspectiveTransformBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.lryProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .lryPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .lryPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -358,13 +358,13 @@ public class PerspectiveTransformBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.ulxProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .ulxPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .ulxPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -380,13 +380,13 @@ public class PerspectiveTransformBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.ulyProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .ulyPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .ulyPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -402,13 +402,13 @@ public class PerspectiveTransformBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.urxProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .urxPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .urxPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -424,13 +424,13 @@ public class PerspectiveTransformBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.uryProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .uryPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .uryPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

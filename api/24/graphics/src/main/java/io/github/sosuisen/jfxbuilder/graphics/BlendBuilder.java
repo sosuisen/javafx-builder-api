@@ -210,13 +210,13 @@ public class BlendBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.bottomInputProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .bottomInputPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .bottomInputPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -232,13 +232,13 @@ public class BlendBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.modeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .modePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .modePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -254,13 +254,13 @@ public class BlendBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -276,13 +276,13 @@ public class BlendBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.topInputProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .topInputPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .topInputPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

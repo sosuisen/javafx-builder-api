@@ -10,13 +10,13 @@
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.${model.propertyName()}().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .${model.methodName()}(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .${model.methodName()}(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */@if(!model.methodAnnotation().isEmpty())

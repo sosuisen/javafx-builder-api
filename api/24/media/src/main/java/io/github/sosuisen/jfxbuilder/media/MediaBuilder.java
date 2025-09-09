@@ -177,13 +177,13 @@ public class MediaBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.durationProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .durationPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .durationPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -199,13 +199,13 @@ public class MediaBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.errorProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .errorPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .errorPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -221,13 +221,13 @@ public class MediaBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.heightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -243,13 +243,13 @@ public class MediaBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onErrorProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onErrorPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onErrorPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -265,13 +265,13 @@ public class MediaBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.widthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

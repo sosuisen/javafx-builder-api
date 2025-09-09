@@ -9,12 +9,12 @@
  * charts, and other interactive components.</p>
  * 
  * <p>Example usage:</p>
- * <pre>{@code
+ * {@snippet :
  * Button button = ButtonBuilder.create()
  *     .text("Click Me")
  *     .onAction(e -> System.out.println("Button clicked!"))
  *     .prefWidth(100)
  *     .build();
- * }</pre>
+ * }
  */
 package io.github.sosuisen.jfxbuilder.controls;

@@ -365,13 +365,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.audioSpectrumIntervalProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .audioSpectrumIntervalPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .audioSpectrumIntervalPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -387,13 +387,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.audioSpectrumListenerProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .audioSpectrumListenerPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .audioSpectrumListenerPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -409,13 +409,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.audioSpectrumNumBandsProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .audioSpectrumNumBandsPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .audioSpectrumNumBandsPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -431,13 +431,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.audioSpectrumThresholdProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .audioSpectrumThresholdPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .audioSpectrumThresholdPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -453,13 +453,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.autoPlayProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .autoPlayPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .autoPlayPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -475,13 +475,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.balanceProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .balancePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .balancePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -497,13 +497,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.bufferProgressTimeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .bufferProgressTimePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .bufferProgressTimePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -519,13 +519,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.currentCountProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .currentCountPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .currentCountPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -541,13 +541,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.currentRateProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .currentRatePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .currentRatePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -563,13 +563,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.currentTimeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .currentTimePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .currentTimePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -585,13 +585,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.cycleCountProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .cycleCountPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .cycleCountPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -607,13 +607,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.cycleDurationProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .cycleDurationPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .cycleDurationPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -629,13 +629,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.errorProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .errorPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .errorPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -651,13 +651,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.muteProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .mutePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .mutePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -673,13 +673,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onEndOfMediaProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onEndOfMediaPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onEndOfMediaPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -695,13 +695,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onErrorProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onErrorPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onErrorPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -717,13 +717,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onHaltedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onHaltedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onHaltedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -739,13 +739,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMarkerProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMarkerPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMarkerPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -761,13 +761,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onPausedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onPausedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onPausedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -783,13 +783,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onPlayingProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onPlayingPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onPlayingPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -805,13 +805,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onReadyProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onReadyPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onReadyPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -827,13 +827,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onRepeatProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onRepeatPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onRepeatPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -849,13 +849,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onStalledProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onStalledPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onStalledPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -871,13 +871,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onStoppedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onStoppedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onStoppedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -893,13 +893,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.rateProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .ratePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .ratePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -915,13 +915,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.startTimeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .startTimePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .startTimePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -937,13 +937,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.statusProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .statusPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .statusPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -959,13 +959,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.stopTimeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .stopTimePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .stopTimePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -981,13 +981,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.totalDurationProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .totalDurationPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .totalDurationPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1003,13 +1003,13 @@ public class MediaPlayerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.volumeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .volumePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .volumePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
