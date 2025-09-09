@@ -1117,7 +1117,8 @@ public class MenuBarBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getMenus()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.MenuBar#getMenus() MenuBar#getMenus()} method.
      * 
      * @return builder instance
      */
@@ -1127,7 +1128,8 @@ public class MenuBarBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getMenus()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.MenuBar#getMenus() MenuBar#getMenus()} method.
      * 
      * @return builder instance
      */
@@ -1137,7 +1139,8 @@ public class MenuBarBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getMenus()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.MenuBar#getMenus() MenuBar#getMenus()} method.
      * 
      * @return builder instance
      */
@@ -1147,7 +1150,8 @@ public class MenuBarBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getMenus()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.MenuBar#getMenus() MenuBar#getMenus()} method.
      * 
      * @return builder instance
      */
@@ -1157,7 +1161,8 @@ public class MenuBarBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() MenuBar#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1167,7 +1172,8 @@ public class MenuBarBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() MenuBar#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1177,7 +1183,8 @@ public class MenuBarBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() MenuBar#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1187,7 +1194,8 @@ public class MenuBarBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() MenuBar#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1197,7 +1205,8 @@ public class MenuBarBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() MenuBar#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1207,7 +1216,8 @@ public class MenuBarBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() MenuBar#getTransforms()} method.
      * 
      * @return builder instance
      */

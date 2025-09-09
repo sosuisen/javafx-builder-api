@@ -4,7 +4,8 @@
 
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link ${model.originalClassName()}#${model.getterMethodName()}()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link ${model.originalCanonicalClassName()}#${model.getterMethodName()}() ${model.originalSimpleClassName()}#${model.getterMethodName()}()} method.
      * 
      * @return builder instance
      */@if(model.isSafeVarargs())
@@ -15,7 +16,8 @@
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link ${model.originalClassName()}#${model.getterMethodName()}()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link ${model.originalCanonicalClassName()}#${model.getterMethodName()}() ${model.originalSimpleClassName()}#${model.getterMethodName()}()} method.
      * 
      * @return builder instance
      */
@@ -25,7 +27,8 @@
     }@if(model.hasWithMethod())
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link ${model.originalClassName()}#${model.getterMethodName()}()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link ${model.originalCanonicalClassName()}#${model.getterMethodName()}() ${model.originalSimpleClassName()}#${model.getterMethodName()}()} method.
      * 
      * @return builder instance
      */@if(model.isSafeVarargs())
@@ -36,7 +39,8 @@
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link ${model.originalClassName()}#${model.getterMethodName()}()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link ${model.originalCanonicalClassName()}#${model.getterMethodName()}() ${model.originalSimpleClassName()}#${model.getterMethodName()}()} method.
      * 
      * @return builder instance
      */

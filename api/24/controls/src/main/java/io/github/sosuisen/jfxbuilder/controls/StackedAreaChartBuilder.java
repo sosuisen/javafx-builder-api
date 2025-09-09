@@ -1208,7 +1208,8 @@ public class StackedAreaChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedAreaChart#getData()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.XYChart#getData() StackedAreaChart#getData()} method.
      * 
      * @return builder instance
      */
@@ -1219,7 +1220,8 @@ public class StackedAreaChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedAreaChart#getData()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.XYChart#getData() StackedAreaChart#getData()} method.
      * 
      * @return builder instance
      */
@@ -1229,7 +1231,8 @@ public class StackedAreaChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedAreaChart#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() StackedAreaChart#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1239,7 +1242,8 @@ public class StackedAreaChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedAreaChart#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() StackedAreaChart#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1249,7 +1253,8 @@ public class StackedAreaChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedAreaChart#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() StackedAreaChart#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1259,7 +1264,8 @@ public class StackedAreaChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedAreaChart#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() StackedAreaChart#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1269,7 +1275,8 @@ public class StackedAreaChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedAreaChart#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() StackedAreaChart#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1279,7 +1286,8 @@ public class StackedAreaChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedAreaChart#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() StackedAreaChart#getTransforms()} method.
      * 
      * @return builder instance
      */

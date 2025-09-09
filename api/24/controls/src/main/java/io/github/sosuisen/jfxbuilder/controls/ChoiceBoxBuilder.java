@@ -1199,7 +1199,8 @@ public class ChoiceBoxBuilder<T> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceBox#getItems()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.ChoiceBox#getItems() ChoiceBox#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1210,7 +1211,8 @@ public class ChoiceBoxBuilder<T> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceBox#getItems()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.ChoiceBox#getItems() ChoiceBox#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1220,7 +1222,8 @@ public class ChoiceBoxBuilder<T> {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceBox#getItems()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.ChoiceBox#getItems() ChoiceBox#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1231,7 +1234,8 @@ public class ChoiceBoxBuilder<T> {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceBox#getItems()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.ChoiceBox#getItems() ChoiceBox#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1241,7 +1245,8 @@ public class ChoiceBoxBuilder<T> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceBox#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() ChoiceBox#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1251,7 +1256,8 @@ public class ChoiceBoxBuilder<T> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceBox#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() ChoiceBox#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1261,7 +1267,8 @@ public class ChoiceBoxBuilder<T> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceBox#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() ChoiceBox#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1271,7 +1278,8 @@ public class ChoiceBoxBuilder<T> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceBox#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() ChoiceBox#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1281,7 +1289,8 @@ public class ChoiceBoxBuilder<T> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceBox#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() ChoiceBox#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1291,7 +1300,8 @@ public class ChoiceBoxBuilder<T> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceBox#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() ChoiceBox#getTransforms()} method.
      * 
      * @return builder instance
      */

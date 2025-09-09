@@ -151,7 +151,8 @@ public class TreeTableRowSkinBuilder<T> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TreeTableRowSkin#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.SkinBase#getChildren() TreeTableRowSkin#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -161,7 +162,8 @@ public class TreeTableRowSkinBuilder<T> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TreeTableRowSkin#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.SkinBase#getChildren() TreeTableRowSkin#getChildren()} method.
      * 
      * @return builder instance
      */

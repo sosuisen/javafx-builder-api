@@ -1327,7 +1327,8 @@ public class ComboBoxTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeTableCell#getItems()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.cell.ComboBoxTreeTableCell#getItems() ComboBoxTreeTableCell#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1338,7 +1339,8 @@ public class ComboBoxTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeTableCell#getItems()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.cell.ComboBoxTreeTableCell#getItems() ComboBoxTreeTableCell#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1348,7 +1350,8 @@ public class ComboBoxTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeTableCell#getItems()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.cell.ComboBoxTreeTableCell#getItems() ComboBoxTreeTableCell#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1359,7 +1362,8 @@ public class ComboBoxTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeTableCell#getItems()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.cell.ComboBoxTreeTableCell#getItems() ComboBoxTreeTableCell#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1369,7 +1373,8 @@ public class ComboBoxTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeTableCell#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() ComboBoxTreeTableCell#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1379,7 +1384,8 @@ public class ComboBoxTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeTableCell#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() ComboBoxTreeTableCell#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1389,7 +1395,8 @@ public class ComboBoxTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeTableCell#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() ComboBoxTreeTableCell#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1399,7 +1406,8 @@ public class ComboBoxTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeTableCell#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() ComboBoxTreeTableCell#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1409,7 +1417,8 @@ public class ComboBoxTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeTableCell#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() ComboBoxTreeTableCell#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1419,7 +1428,8 @@ public class ComboBoxTreeTableCellBuilder<S, T> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeTableCell#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() ComboBoxTreeTableCell#getTransforms()} method.
      * 
      * @return builder instance
      */

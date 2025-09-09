@@ -1071,7 +1071,8 @@ public class RectangleBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getStrokeDashArray()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.shape.Shape#getStrokeDashArray() Rectangle#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1081,7 +1082,8 @@ public class RectangleBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getStrokeDashArray()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.shape.Shape#getStrokeDashArray() Rectangle#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1091,7 +1093,8 @@ public class RectangleBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.shape.Shape#getStrokeDashArray() Rectangle#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1101,7 +1104,8 @@ public class RectangleBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.shape.Shape#getStrokeDashArray() Rectangle#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1111,7 +1115,8 @@ public class RectangleBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() Rectangle#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1121,7 +1126,8 @@ public class RectangleBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() Rectangle#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1131,7 +1137,8 @@ public class RectangleBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() Rectangle#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1141,7 +1148,8 @@ public class RectangleBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Rectangle#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() Rectangle#getTransforms()} method.
      * 
      * @return builder instance
      */

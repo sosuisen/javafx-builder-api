@@ -957,7 +957,8 @@ public class PointLightBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getExclusionScope()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.LightBase#getExclusionScope() PointLight#getExclusionScope()} method.
      * 
      * @return builder instance
      */
@@ -967,7 +968,8 @@ public class PointLightBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getExclusionScope()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.LightBase#getExclusionScope() PointLight#getExclusionScope()} method.
      * 
      * @return builder instance
      */
@@ -977,7 +979,8 @@ public class PointLightBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getExclusionScope()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.LightBase#getExclusionScope() PointLight#getExclusionScope()} method.
      * 
      * @return builder instance
      */
@@ -987,7 +990,8 @@ public class PointLightBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getExclusionScope()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.LightBase#getExclusionScope() PointLight#getExclusionScope()} method.
      * 
      * @return builder instance
      */
@@ -997,7 +1001,8 @@ public class PointLightBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getScope()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.LightBase#getScope() PointLight#getScope()} method.
      * 
      * @return builder instance
      */
@@ -1007,7 +1012,8 @@ public class PointLightBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getScope()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.LightBase#getScope() PointLight#getScope()} method.
      * 
      * @return builder instance
      */
@@ -1017,7 +1023,8 @@ public class PointLightBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getScope()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.LightBase#getScope() PointLight#getScope()} method.
      * 
      * @return builder instance
      */
@@ -1027,7 +1034,8 @@ public class PointLightBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getScope()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.LightBase#getScope() PointLight#getScope()} method.
      * 
      * @return builder instance
      */
@@ -1037,7 +1045,8 @@ public class PointLightBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() PointLight#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1047,7 +1056,8 @@ public class PointLightBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() PointLight#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1057,7 +1067,8 @@ public class PointLightBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() PointLight#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1067,7 +1078,8 @@ public class PointLightBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() PointLight#getTransforms()} method.
      * 
      * @return builder instance
      */

@@ -1187,7 +1187,8 @@ public class ColorPickerBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getCustomColors()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.ColorPicker#getCustomColors() ColorPicker#getCustomColors()} method.
      * 
      * @return builder instance
      */
@@ -1197,7 +1198,8 @@ public class ColorPickerBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getCustomColors()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.ColorPicker#getCustomColors() ColorPicker#getCustomColors()} method.
      * 
      * @return builder instance
      */
@@ -1207,7 +1209,8 @@ public class ColorPickerBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getCustomColors()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.ColorPicker#getCustomColors() ColorPicker#getCustomColors()} method.
      * 
      * @return builder instance
      */
@@ -1217,7 +1220,8 @@ public class ColorPickerBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getCustomColors()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.ColorPicker#getCustomColors() ColorPicker#getCustomColors()} method.
      * 
      * @return builder instance
      */
@@ -1227,7 +1231,8 @@ public class ColorPickerBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() ColorPicker#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1237,7 +1242,8 @@ public class ColorPickerBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() ColorPicker#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1247,7 +1253,8 @@ public class ColorPickerBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() ColorPicker#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1257,7 +1264,8 @@ public class ColorPickerBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() ColorPicker#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1267,7 +1275,8 @@ public class ColorPickerBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() ColorPicker#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1277,7 +1286,8 @@ public class ColorPickerBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() ColorPicker#getTransforms()} method.
      * 
      * @return builder instance
      */

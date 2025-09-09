@@ -196,7 +196,8 @@ public class XYChartSeriesBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.XYChart.Series#getData()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.XYChart.Series#getData() Series#getData()} method.
      * 
      * @return builder instance
      */
@@ -207,7 +208,8 @@ public class XYChartSeriesBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.XYChart.Series#getData()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.XYChart.Series#getData() Series#getData()} method.
      * 
      * @return builder instance
      */
@@ -217,7 +219,8 @@ public class XYChartSeriesBuilder<X, Y> {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.XYChart.Series#getData()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.XYChart.Series#getData() Series#getData()} method.
      * 
      * @return builder instance
      */
@@ -228,7 +231,8 @@ public class XYChartSeriesBuilder<X, Y> {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.XYChart.Series#getData()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.XYChart.Series#getData() Series#getData()} method.
      * 
      * @return builder instance
      */

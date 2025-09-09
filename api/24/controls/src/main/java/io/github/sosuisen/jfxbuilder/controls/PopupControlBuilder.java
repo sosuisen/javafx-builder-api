@@ -490,7 +490,8 @@ public class PopupControlBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.PopupControl#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.PopupControl#getStyleClass() PopupControl#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -500,7 +501,8 @@ public class PopupControlBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.PopupControl#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.PopupControl#getStyleClass() PopupControl#getStyleClass()} method.
      * 
      * @return builder instance
      */

@@ -1127,7 +1127,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.VirtualFlow#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() VirtualFlow#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1137,7 +1138,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.VirtualFlow#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() VirtualFlow#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1147,7 +1149,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.VirtualFlow#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() VirtualFlow#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1157,7 +1160,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.VirtualFlow#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() VirtualFlow#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1167,7 +1171,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.VirtualFlow#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() VirtualFlow#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1177,7 +1182,8 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.VirtualFlow#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() VirtualFlow#getTransforms()} method.
      * 
      * @return builder instance
      */

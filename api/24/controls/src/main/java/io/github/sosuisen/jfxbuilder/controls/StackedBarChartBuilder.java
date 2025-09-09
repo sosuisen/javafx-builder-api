@@ -1220,7 +1220,8 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getData()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.XYChart#getData() StackedBarChart#getData()} method.
      * 
      * @return builder instance
      */
@@ -1231,7 +1232,8 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getData()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.XYChart#getData() StackedBarChart#getData()} method.
      * 
      * @return builder instance
      */
@@ -1241,7 +1243,8 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() StackedBarChart#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1251,7 +1254,8 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() StackedBarChart#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1261,7 +1265,8 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() StackedBarChart#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1271,7 +1276,8 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() StackedBarChart#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1281,7 +1287,8 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() StackedBarChart#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1291,7 +1298,8 @@ public class StackedBarChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() StackedBarChart#getTransforms()} method.
      * 
      * @return builder instance
      */

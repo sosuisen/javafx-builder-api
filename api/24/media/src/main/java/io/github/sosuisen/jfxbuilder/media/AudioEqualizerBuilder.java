@@ -137,7 +137,8 @@ public class AudioEqualizerBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.media.AudioEqualizer#getBands()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.media.AudioEqualizer#getBands() AudioEqualizer#getBands()} method.
      * 
      * @return builder instance
      */
@@ -147,7 +148,8 @@ public class AudioEqualizerBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.media.AudioEqualizer#getBands()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.media.AudioEqualizer#getBands() AudioEqualizer#getBands()} method.
      * 
      * @return builder instance
      */

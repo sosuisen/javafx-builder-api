@@ -1257,7 +1257,8 @@ public class ProgressBarTreeTableCellBuilder<S> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() ProgressBarTreeTableCell#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1267,7 +1268,8 @@ public class ProgressBarTreeTableCellBuilder<S> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() ProgressBarTreeTableCell#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1277,7 +1279,8 @@ public class ProgressBarTreeTableCellBuilder<S> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() ProgressBarTreeTableCell#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1287,7 +1290,8 @@ public class ProgressBarTreeTableCellBuilder<S> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() ProgressBarTreeTableCell#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1297,7 +1301,8 @@ public class ProgressBarTreeTableCellBuilder<S> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() ProgressBarTreeTableCell#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1307,7 +1312,8 @@ public class ProgressBarTreeTableCellBuilder<S> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ProgressBarTreeTableCell#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() ProgressBarTreeTableCell#getTransforms()} method.
      * 
      * @return builder instance
      */

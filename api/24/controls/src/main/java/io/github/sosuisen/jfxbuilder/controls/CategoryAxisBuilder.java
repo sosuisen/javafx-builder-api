@@ -1227,7 +1227,8 @@ public class CategoryAxisBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getCategories()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.CategoryAxis#getCategories() CategoryAxis#getCategories()} method.
      * 
      * @return builder instance
      */
@@ -1237,7 +1238,8 @@ public class CategoryAxisBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getCategories()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.CategoryAxis#getCategories() CategoryAxis#getCategories()} method.
      * 
      * @return builder instance
      */
@@ -1247,7 +1249,8 @@ public class CategoryAxisBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getCategories()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.CategoryAxis#getCategories() CategoryAxis#getCategories()} method.
      * 
      * @return builder instance
      */
@@ -1257,7 +1260,8 @@ public class CategoryAxisBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getCategories()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.CategoryAxis#getCategories() CategoryAxis#getCategories()} method.
      * 
      * @return builder instance
      */
@@ -1267,7 +1271,8 @@ public class CategoryAxisBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() CategoryAxis#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1277,7 +1282,8 @@ public class CategoryAxisBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() CategoryAxis#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1287,7 +1293,8 @@ public class CategoryAxisBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() CategoryAxis#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1297,7 +1304,8 @@ public class CategoryAxisBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() CategoryAxis#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1307,7 +1315,8 @@ public class CategoryAxisBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getTickMarks()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.Axis#getTickMarks() CategoryAxis#getTickMarks()} method.
      * 
      * @return builder instance
      */
@@ -1318,7 +1327,8 @@ public class CategoryAxisBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getTickMarks()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.Axis#getTickMarks() CategoryAxis#getTickMarks()} method.
      * 
      * @return builder instance
      */
@@ -1328,7 +1338,8 @@ public class CategoryAxisBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getTickMarks()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.Axis#getTickMarks() CategoryAxis#getTickMarks()} method.
      * 
      * @return builder instance
      */
@@ -1339,7 +1350,8 @@ public class CategoryAxisBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getTickMarks()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.Axis#getTickMarks() CategoryAxis#getTickMarks()} method.
      * 
      * @return builder instance
      */
@@ -1349,7 +1361,8 @@ public class CategoryAxisBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() CategoryAxis#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1359,7 +1372,8 @@ public class CategoryAxisBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() CategoryAxis#getTransforms()} method.
      * 
      * @return builder instance
      */

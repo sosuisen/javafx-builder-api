@@ -250,7 +250,8 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBoxTreeItem#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TreeItem#getChildren() CheckBoxTreeItem#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -261,7 +262,8 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBoxTreeItem#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TreeItem#getChildren() CheckBoxTreeItem#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -271,7 +273,8 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBoxTreeItem#getChildren()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TreeItem#getChildren() CheckBoxTreeItem#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -282,7 +285,8 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBoxTreeItem#getChildren()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TreeItem#getChildren() CheckBoxTreeItem#getChildren()} method.
      * 
      * @return builder instance
      */

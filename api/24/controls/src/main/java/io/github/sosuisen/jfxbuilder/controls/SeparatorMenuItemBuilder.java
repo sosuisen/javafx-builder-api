@@ -270,7 +270,8 @@ public class SeparatorMenuItemBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SeparatorMenuItem#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.MenuItem#getStyleClass() SeparatorMenuItem#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -280,7 +281,8 @@ public class SeparatorMenuItemBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SeparatorMenuItem#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.MenuItem#getStyleClass() SeparatorMenuItem#getStyleClass()} method.
      * 
      * @return builder instance
      */

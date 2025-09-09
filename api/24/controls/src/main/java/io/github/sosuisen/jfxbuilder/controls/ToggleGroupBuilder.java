@@ -150,7 +150,8 @@ public class ToggleGroupBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleGroup#getToggles()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.ToggleGroup#getToggles() ToggleGroup#getToggles()} method.
      * 
      * @return builder instance
      */
@@ -160,7 +161,8 @@ public class ToggleGroupBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleGroup#getToggles()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.ToggleGroup#getToggles() ToggleGroup#getToggles()} method.
      * 
      * @return builder instance
      */
@@ -170,7 +172,8 @@ public class ToggleGroupBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleGroup#getToggles()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.ToggleGroup#getToggles() ToggleGroup#getToggles()} method.
      * 
      * @return builder instance
      */
@@ -180,7 +183,8 @@ public class ToggleGroupBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleGroup#getToggles()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.ToggleGroup#getToggles() ToggleGroup#getToggles()} method.
      * 
      * @return builder instance
      */

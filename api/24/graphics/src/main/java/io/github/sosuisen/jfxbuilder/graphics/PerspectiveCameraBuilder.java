@@ -937,7 +937,8 @@ public class PerspectiveCameraBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.PerspectiveCamera#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() PerspectiveCamera#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -947,7 +948,8 @@ public class PerspectiveCameraBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.PerspectiveCamera#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() PerspectiveCamera#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -957,7 +959,8 @@ public class PerspectiveCameraBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.PerspectiveCamera#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() PerspectiveCamera#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -967,7 +970,8 @@ public class PerspectiveCameraBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.PerspectiveCamera#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() PerspectiveCamera#getTransforms()} method.
      * 
      * @return builder instance
      */
